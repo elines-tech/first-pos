@@ -1,0 +1,51 @@
+Dt --> 11-11-22 11:07:50 IP --> 152.57.104.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 11-11-22 11:50:12 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 11-11-22 01:50:33 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-11 13:51:42	49.206.10.35	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-11 13:51:54	49.206.10.35	Admin	admin	GIC22_6 - DiwaliBumperOffer giftcard is updated.
+2022-11-11 14:38:36	152.57.104.129	Admin	admin	IN22_42 -  of  having amount  inward is added.
+2022-11-11 14:40:51	152.57.104.129	Admin	admin	IN22_1 -  of  having amount  inward is added.
+Dt --> 11-11-22 02:42:12 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-11 14:42:26	152.57.104.129	Admin	admin	IN22_3 - SUP22_26 of BR22_36 having amount 4488.00 inward is added.
+2022-11-11 14:42:34	152.57.104.129	Admin	admin	IN22_2 inward is deleted.
+Dt --> 11-11-22 02:42:35 IP --> 49.206.10.35 LOGIN USER --> USR22_19 ADDED USER --> USR22_19 	USR22_19 Cashier logged in.
+2022-11-11 14:43:49	152.57.104.129	Admin	admin	IN22_1 - SUP22_26 of BR22_36 having amount 4488.00 inward is added.
+2022-11-11 14:58:54	49.206.10.35	Admin	admin	IN22_1 inward is deleted.
+2022-11-11 14:59:15	49.206.10.35	Admin	admin	BUOM_7 - Mililitre base unit is deleted.
+2022-11-11 14:59:23	49.206.10.35	Admin	admin	UOM_16 - liter unit is deleted.
+2022-11-11 14:59:37	49.206.10.35	Admin	admin	 - Mililitre base unit is added.
+2022-11-11 14:59:50	49.206.10.35	Admin	admin	BUOM_10 - Mililitre base unit is deleted.
+2022-11-11 15:00:02	49.206.10.35	Admin	admin	 - litre base unit is added.
+2022-11-11 15:00:20	49.206.10.35	Admin	admin	UOM_17 - Mililiter unit is added.
+2022-11-11 15:00:40	49.206.10.35	Admin	admin	CO22_24 - 202 counter is added.
+2022-11-11 15:14:08	49.206.10.35	Admin	admin	CAT_38 - Skincare category is added.
+2022-11-11 15:14:50	49.206.10.35	Admin	admin	SCAT_29 - Moisturizer subcategory is added.
+2022-11-11 15:15:17	49.206.10.35	Admin	admin	SCAT_29 - FACE CREAMS Subcategory is updated.
+2022-11-11 15:16:40	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is added.
+11-11-22 03:17:57	49.206.10.35	Admin	admin	PRO22_21 - مستريزر  Product is added.
+2022-11-11 15:18:22	49.206.10.35	Admin	admin	true - Other brand is updated.
+2022-11-11 15:18:38	49.206.10.35	Admin	admin	CAT_39 - GROCERY category is added.
+2022-11-11 15:19:05	49.206.10.35	Admin	admin	SCAT_30 - Dry Fruits subcategory is added.
+2022-11-11 16:41:06	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:41:19	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:42:34	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:51:37	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:52:42	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:52:53	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:54:51	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 480.00 inward is updated.
+2022-11-11 16:57:06	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 528.00 inward is updated.
+2022-11-11 16:57:40	152.57.104.129	Admin	admin	INL22_5 deleted inward items
+2022-11-11 17:04:10	152.57.104.129	Admin	admin	INL22_4 deleted inward items
+2022-11-11 17:04:48	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 456.00 inward is updated.
+2022-11-11 17:15:43	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 456.00 inward is updated.
+2022-11-11 17:16:42	152.57.104.129	Admin	admin	IN22_2 - SUP22_25 of BR22_35 having amount 456.00 inward is updated.
+2022-11-11 17:17:51	152.57.104.129	Admin	admin	IN22_3 - SUP22_26 of BR22_35 having amount 72.00 inward is added.
+2022-11-11 17:24:05	152.57.104.129	Admin	admin	IN22_3 - SUP22_26 of BR22_35 having amount 72.00 inward is updated.
+2022-11-11 17:33:33	152.57.104.129	Admin	admin	IN22_3 - SUP22_26 of BR22_35 having amount 5376.00 inward is updated.
+Dt --> 11-11-22 05:48:11 IP --> 49.36.35.40 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-11 17:52:30	49.36.35.40	Admin	admin	SKU PREFIX Setting is updated.
+2022-11-11 17:54:02	49.36.35.40	Admin	admin	Text-SMS Setting is updated.
+Dt --> 11-11-22 06:08:20 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 11-11-22 06:08:24 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-11 18:10:57	49.206.10.35	Admin	admin	IN22_4 - SUP22_25 of BR22_36 having amount 999.00 inward is added.
+Dt --> 11-11-22 06:37:30 IP --> 152.57.104.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

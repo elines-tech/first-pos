@@ -1,0 +1,123 @@
+Dt --> 01-11-22 10:58:12 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 10:58:29 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 01-11-22 11:12:21 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+01-11-22 11:12:54	49.36.35.171	CLT22_2	 updated company details after account creation 	
+Dt --> 01-11-22 11:13:09 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 01-11-22 11:13:44 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+01-11-22 11:23:48	49.36.35.171	CLT22_2	 updated company details after account creation 	
+2022-11-01 11:25:40	49.36.35.171	Admin	admin	BRD_21 - Tata brand is added.
+2022-11-01 11:26:31	49.36.35.171	Admin	admin	CAT_33 - Dal category is added.
+2022-11-01 11:28:10	49.36.35.171	Admin	admin	CAT_33 - Soaps category is updated.
+2022-11-01 11:28:32	49.36.35.171	Admin	admin	SCAT_21 - Bathing Soap subcategory is added.
+2022-11-01 11:28:58	49.36.35.171	Admin	admin	SCAT_22 - Face wash subcategory is added.
+2022-11-01 11:29:47	49.36.35.171	Admin	admin	SCAT_23 - Clothes Soaps subcategory is added.
+2022-11-01 11:32:52	49.36.35.171	Admin	admin	 - Kilogram base unit is added.
+2022-11-01 11:33:05	49.36.35.171	Admin	admin	 - Litre base unit is added.
+2022-11-01 11:33:26	49.36.35.171	Admin	admin	 - Pieces base unit is added.
+2022-11-01 11:36:14	49.36.35.171	Admin	admin	UOM_12 - Kiloggram unit is added.
+2022-11-01 11:36:39	49.36.35.171	Admin	admin	UOM_13 - Litre unit is added.
+2022-11-01 11:37:05	49.36.35.171	Admin	admin	UOM_14 - Piece unit is added.
+Dt --> 01-11-22 11:46:32 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 11:47:13 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 11:48:08 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-01 12:00:10	49.36.35.171	Admin	admin	CAT_34 - Clothes category is added.
+2022-11-01 12:00:31	49.36.35.171	Admin	admin	SCAT_24 - Shirts subcategory is added.
+2022-11-01 12:00:50	49.36.35.171	Admin	admin	SCAT_25 - Half Shirt subcategory is added.
+2022-11-01 12:01:07	49.36.35.171	Admin	admin	SCAT_26 - Jeans subcategory is added.
+01-11-22 12:02:52	152.57.178.118	Admin	admin	USR22_10 - seema User is updated.
+01-11-22 12:03:16	152.57.178.118	Admin	admin	USR22_10 - seema User is updated.
+Dt --> 01-11-22 12:04:14 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 01-11-22 12:04:46 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 12:56:40 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+01-11-22 01:03:21	49.36.35.171	CLT22_2	 updated company details after account creation 	
+01-11-22 01:42:54	49.36.35.171	Admin	admin	PRO22_14 - جري شيرت Product is added.
+01-11-22 01:56:05	49.36.35.171	Admin	admin	SUP22_23 - Knox English Supplier is added.
+2022-11-01 13:57:50	49.36.35.171	Admin	admin	IN22_33 - SUP22_23 of BR22_35 having amount 42000.00 inward is added.
+2022-11-01 15:11:48	49.36.35.171	Admin	admin	IN22_33 - SUP22_23 of BR22_35 having amount 42000.00 inward is added.
+2022-11-01 15:12:56	49.36.35.171	Admin	admin	BAR22_23 - barcode is generated.
+Dt --> 01-11-22 03:40:22 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 03:54:14 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 01-11-22 03:56:57 IP --> 49.36.35.171 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 01-11-22 03:57:45 IP --> 49.36.35.171 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+01-11-22 03:58:14	49.36.35.171	CLT22_2	 updated company details after account creation 	
+2022-11-01 16:02:21	49.36.35.171	Admin	admin	OFF22_4 - Aut numquam et sunt offer is added.
+Dt --> 01-11-22 04:07:26 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 04:08:41 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 01-11-22 04:09:05 IP --> 152.57.178.118 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 01-11-22 04:51:21 IP --> 152.57.178.118 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 01-11-22 04:51:41 IP --> 49.36.35.171 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 01-11-22 05:39:12 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-11-22 05:42:56 IP --> 152.57.178.118 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 01-11-22 05:44:01 IP --> 152.57.178.118 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+Dt --> 01-11-22 05:51:55 IP --> 106.76.70.188 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 01-11-22 06:37:00 IP --> 106.200.117.231 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+01-11-22 06:40:08	106.200.117.231	CLT22_6	 updated company details after account creation 	
+2022-11-01 19:04:57	106.200.117.231	Admin	admin	BRD_21 - Amul brand is added.
+2022-11-01 19:05:07	106.200.117.231	Admin	admin	BRD_22 - Bajaj brand is added.
+2022-11-01 19:05:19	106.200.117.231	Admin	admin	BRD_23 - Philips brand is added.
+2022-11-01 19:05:35	106.200.117.231	Admin	admin	true - Croma brand is updated.
+2022-11-01 19:07:43	106.200.117.231	Admin	admin	true - Croma brand is updated.
+2022-11-01 19:07:52	106.200.117.231	Admin	admin	BRD_24 - delete brand is added.
+2022-11-01 19:07:58	106.200.117.231	Admin	admin	BRD_24 - delete brand is deleted.
+2022-11-01 19:12:14	106.200.117.231	Admin	admin	CAT_33 - DAIRY & FROZEN category is added.
+2022-11-01 19:13:23	106.200.117.231	Admin	admin	SCAT_21 - Beverages subcategory is added.
+2022-11-01 19:14:25	106.200.117.231	Admin	admin	SCAT_22 - Dairy subcategory is added.
+2022-11-01 19:15:24	106.200.117.231	Admin	admin	CAT_34 - Grocery category is added.
+2022-11-01 19:16:17	106.200.117.231	Admin	admin	SCAT_23 - Dals subcategory is added.
+2022-11-01 19:17:09	106.200.117.231	Admin	admin	SCAT_24 - Dry Fruits subcategory is added.
+2022-11-01 19:18:16	106.200.117.231	Admin	admin	SCAT_25 - Flours & Grains subcategory is added.
+2022-11-01 19:18:43	106.200.117.231	Admin	admin	CAT_35 - delete category is added.
+2022-11-01 19:19:01	106.200.117.231	Admin	admin	SCAT_26 - dele subcategory is added.
+2022-11-01 19:19:32	106.200.117.231	Admin	admin	CAT_35 - delete delete category is updated.
+2022-11-01 19:19:41	106.200.117.231	Admin	admin	CAT_36 - dg category is added.
+2022-11-01 19:19:50	106.200.117.231	Admin	admin	CAT_36 - dg category is updated.
+2022-11-01 19:19:54	106.200.117.231	Admin	admin	CAT_35 - delete delete category is updated.
+2022-11-01 19:20:13	106.200.117.231	Admin	admin	SCAT_26 - dele Subcategory is updated.
+2022-11-01 19:20:20	106.200.117.231	Admin	admin	CAT_36 - dg category is deleted.
+2022-11-01 19:20:25	106.200.117.231	Admin	admin	CAT_35 - delete delete category is deleted.
+2022-11-01 19:51:09	106.200.117.231	Admin	admin	SCAT_26 - dele subcategory is deleted.
+2022-11-01 19:53:38	106.200.117.231	Admin	admin	TAC_34 - GST1 Tax Rate is updated.
+2022-11-01 19:53:47	106.200.117.231	Admin	admin	TAC_35 - GST2 Tax Rate is updated.
+2022-11-01 19:53:53	106.200.117.231	Admin	admin	TAC_36 - GST3 Tax Rate is updated.
+2022-11-01 19:54:07	106.200.117.231	Admin	admin	TAC_37 - dlete Tax Rate is updated.
+2022-11-01 19:54:47	106.200.117.231	Admin	admin	TAG_35 - Group 1 - Tax Group is added.
+2022-11-01 19:56:42	106.200.117.231	Admin	admin	TAG_36 - Group 1 Tax Group is added.
+2022-11-01 20:03:27	106.200.117.231	Admin	admin	 - package base unit is added.
+2022-11-01 20:04:37	106.200.117.231	Admin	admin	 - box base unit is added.
+2022-11-01 20:05:20	106.200.117.231	Admin	admin	 - bottle base unit is added.
+2022-11-01 20:05:32	106.200.117.231	Admin	admin	 - bunch base unit is added.
+2022-11-01 20:06:19	106.200.117.231	Admin	admin	 - kilo base unit is added.
+2022-11-01 20:06:36	106.200.117.231	Admin	admin	BUOM_10 - kilogram base unit is updated.
+2022-11-01 20:07:46	106.200.117.231	Admin	admin	 - gram base unit is added.
+2022-11-01 20:07:57	106.200.117.231	Admin	admin	BUOM_11 - gram base unit is deleted.
+2022-11-01 20:10:10	106.200.117.231	Admin	admin	UOM_12 - gram unit is added.
+2022-11-01 20:10:31	106.200.117.231	Admin	admin	 - litre base unit is added.
+2022-11-01 20:10:52	106.200.117.231	Admin	admin	UOM_13 - millilitre unit is added.
+2022-11-01 20:12:23	106.200.117.231	Admin	admin	 - kilometre base unit is added.
+2022-11-01 20:14:36	106.200.117.231	Admin	admin	UOM_14 - centimetre unit is added.
+2022-11-01 20:15:09	106.200.117.231	Admin	admin	UOM_15 - Millimetre unit is added.
+2022-11-01 20:15:34	106.200.117.231	Admin	admin	BUOM_13 - kilometre base unit is updated.
+2022-11-01 20:15:53	106.200.117.231	Admin	admin	 - delete base unit is added.
+2022-11-01 20:16:16	106.200.117.231	Admin	admin	UOM_16 - delete unit is added.
+2022-11-01 20:16:28	106.200.117.231	Admin	admin	BUOM_14 - delete base unit is deleted.
+2022-11-01 20:16:58	106.200.117.231	Admin	admin	UOM_16 - delete unit is deleted.
+2022-11-01 20:17:40	106.200.117.231	Admin	admin	BR22_35 - Branch 1 Branch is added.
+2022-11-01 20:17:55	106.200.117.231	Admin	admin	BR22_36 - Branch 2 Branch is added.
+2022-11-01 20:18:49	106.200.117.231	Admin	admin	TAG_37 - Group 2 Tax Group is added.
+2022-11-01 20:19:08	106.200.117.231	Admin	admin	BR22_37 - Branch 3 Branch is added.
+2022-11-01 20:19:18	106.200.117.231	Admin	admin	BR22_36 - Branch 2 Branch is updated.
+2022-11-01 20:20:27	106.200.117.231	Admin	admin	BR22_36 - Branch 2 Branch is updated.
+2022-11-01 20:22:10	106.200.117.231	Admin	admin	BR22_36 - Branch 2 Branch is updated.
+2022-11-01 20:22:39	106.200.117.231	Admin	admin	CO22_21 - C101 counter is added.
+2022-11-01 20:22:46	106.200.117.231	Admin	admin	CO22_22 - C102 counter is added.
+2022-11-01 20:22:52	106.200.117.231	Admin	admin	CO22_23 - C201 counter is added.
+2022-11-01 20:23:03	106.200.117.231	Admin	admin	CO22_23 - C201 counter is updated.
+2022-11-01 20:23:17	106.200.117.231	Admin	admin	CO22_24 - C203 counter is added.
+2022-11-01 20:23:23	106.200.117.231	Admin	admin	CO22_24 -  counter is deleted.
+2022-11-01 20:23:37	106.200.117.231	Admin	admin	R_28 - Delete role is added.
+2022-11-01 20:23:45	106.200.117.231	Admin	admin	true - DeleteDelete role is updated.
+2022-11-01 20:23:52	106.200.117.231	Admin	admin	true - Delete role is updated.
+2022-11-01 20:24:00	106.200.117.231	Admin	admin	true - Delete role is updated.
+01-11-22 08:25:08	106.200.117.231	Admin	admin	USR22_10 - Priyanka User is added.
+01-11-22 08:27:21	106.200.117.231	Admin	admin	USR22_11 - Manjiri User is added.
+01-11-22 08:27:54	106.200.117.231	Admin	admin	USR22_10 - Priyanka User is updated.

@@ -1,0 +1,80 @@
+Dt --> 18-09-22 09:54:17 IP --> 188.48.239.39 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-18 10:49:25	188.48.239.39	ADMIN	admin	TAB_1 - 1.1 table is deleted.
+2022-09-18 10:49:28	188.48.239.39	ADMIN	admin	TAB_10 - 5.10 table is deleted.
+2022-09-18 10:49:31	188.48.239.39	ADMIN	admin	TAB_11 - 5.11 table is deleted.
+2022-09-18 10:49:34	188.48.239.39	ADMIN	admin	TAB_12 - 5.12 table is deleted.
+2022-09-18 10:49:36	188.48.239.39	ADMIN	admin	TAB_13 - 5.13 table is deleted.
+2022-09-18 10:49:38	188.48.239.39	ADMIN	admin	TAB_14 - 5.14 table is deleted.
+2022-09-18 10:49:40	188.48.239.39	ADMIN	admin	TAB_15 - 1.15 table is deleted.
+2022-09-18 10:49:42	188.48.239.39	ADMIN	admin	TAB_16 - 1.16 table is deleted.
+2022-09-18 10:49:44	188.48.239.39	ADMIN	admin	TAB_17 - 1.17 table is deleted.
+2022-09-18 10:49:46	188.48.239.39	ADMIN	admin	TAB_18 - 1.18 table is deleted.
+2022-09-18 10:49:53	188.48.239.39	ADMIN	admin	1 - First sector zone is deleted.
+2022-09-18 10:49:56	188.48.239.39	ADMIN	admin	2 - Second sector zone is deleted.
+2022-09-18 10:49:58	188.48.239.39	ADMIN	admin	4 - Third sector zone is deleted.
+2022-09-18 10:50:00	188.48.239.39	ADMIN	admin	5 - Branch 1 Zone 1 sector zone is deleted.
+2022-09-18 10:50:15	188.48.239.39	ADMIN	admin	6 - Branch 1 Zone 2 sector zone is deleted.
+2022-09-18 10:50:15	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:15	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:15	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:15	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:15	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:50:17	188.48.239.39	ADMIN	admin	6 -  sector zone is deleted.
+2022-09-18 10:52:27	188.48.239.39	ADMIN	admin	BR22_19 - My Branch 2 branch is deleted.
+2022-09-18 10:52:30	188.48.239.39	ADMIN	admin	BR22_16 - Jeddah branch is deleted.
+2022-09-18 10:52:31	188.48.239.39	ADMIN	admin	BR22_15 - My Branch 1 branch is deleted.
+2022-09-18 10:53:14	188.48.239.39	ADMIN	admin	R_9 - chef role is deleted.
+2022-09-18 10:53:17	188.48.239.39	ADMIN	admin	R_8 - Supplier role is deleted.
+2022-09-18 10:53:18	188.48.239.39	ADMIN	admin	R_5 - Store Manager role is deleted.
+2022-09-18 10:53:20	188.48.239.39	ADMIN	admin	R_4 - Staff role is deleted.
+2022-09-18 10:53:22	188.48.239.39	ADMIN	admin	R_3 - Cashier role is deleted.
+18-09-22 10:54:33	188.48.239.39	ADMIN	admin	USR22_27 User is deleted.
+18-09-22 10:54:35	188.48.239.39	ADMIN	admin	USR22_26 User is deleted.
+18-09-22 10:54:36	188.48.239.39	ADMIN	admin	USR22_25 User is deleted.
+18-09-22 10:54:38	188.48.239.39	ADMIN	admin	USR22_24 User is deleted.
+18-09-22 10:54:40	188.48.239.39	ADMIN	admin	USR22_23 User is deleted.
+18-09-22 10:54:42	188.48.239.39	ADMIN	admin	USR22_21 User is deleted.
+18-09-22 10:54:44	188.48.239.39	ADMIN	admin	USR22_20 User is deleted.
+18-09-22 10:55:05	188.48.239.39	ADMIN	admin	USR22_16 User is deleted.
+18-09-22 10:55:07	188.48.239.39	ADMIN	admin	USR22_13 User is deleted.
+18-09-22 10:55:09	188.48.239.39	ADMIN	admin	USR22_6 User is deleted.
+Dt --> 18-09-22 10:57:45 IP --> 188.48.239.39 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-18 10:59:43	188.48.239.39	ADMIN	admin	TAC_19 - VAT Tax Rate is updated.
+2022-09-18 11:00:51	188.48.239.39	ADMIN	admin	TAG_27 - VAT Tax Group is added.
+2022-09-18 11:01:54	188.48.239.39	ADMIN	admin	R_13 - Waiters role is added.
+2022-09-18 11:02:29	188.48.239.39	ADMIN	admin	R_14 - Cashier role is added.
+2022-09-18 11:02:53	188.48.239.39	ADMIN	admin	R_15 - Manager role is added.
+2022-09-18 11:03:44	188.48.239.39	ADMIN	admin	R_16 - Chef role is added.
+2022-09-18 11:07:13	188.48.239.39	ADMIN	admin	BR22_20 - Al-Malqa Branch is added.
+2022-09-18 11:08:34	188.48.239.39	ADMIN	admin	BR22_21 - Al-Sahafa Branch is added.
+2022-09-18 11:10:50	188.48.239.39	ADMIN	admin	BR22_22 - Al-Nakhil Branch is added.
+2022-09-18 11:11:47	188.48.239.39	ADMIN	admin	BR22_23 - Al-Yasmeen Branch is added.
+2022-09-18 11:15:26	188.48.239.39	ADMIN	admin	true - Indoor sector zone is added.
+2022-09-18 11:15:41	188.48.239.39	ADMIN	admin	true - outdoor sector zone is added.
+2022-09-18 11:15:55	188.48.239.39	ADMIN	admin	true - Indoor first floor sector zone is added.
+2022-09-18 11:16:07	188.48.239.39	ADMIN	admin	true - Indoor second floor sector zone is added.
+2022-09-18 11:31:45	188.48.239.39	ADMIN	admin	TAB_19  table is added.
+2022-09-18 11:32:12	188.48.239.39	ADMIN	admin	7 Bulk tables are added.
+18-09-22 12:20:30	188.48.239.39	ADMIN	admin	USR22_28 -  User is added.
+18-09-22 12:24:10	188.48.239.39	ADMIN	admin	USR22_29 -  User is added.
+18-09-22 12:38:32	188.48.239.39	ADMIN	admin	USR22_30 -  User is added.
+2022-09-18 12:42:12	188.48.239.39	ADMIN	admin	TAB_19 table is updated.
+Dt --> 18-09-22 01:33:25 IP --> 106.210.182.145 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 18-09-22 02:29:39 IP --> 103.240.209.17 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-18 14:59:42	188.48.239.39	ADMIN	admin	DIS_5 - 50 discount is added.
+2022-09-18 15:06:50	188.48.239.39	ADMIN	admin	CAT_11 - Drinks category is updated.
+2022-09-18 15:10:48	188.48.239.39	ADMIN	admin	CAT_11 - Drinks category is updated.
+2022-09-18 15:11:15	188.48.239.39	ADMIN	admin	CAT_11 - Drinks category is updated.
+2022-09-18 15:13:25	188.48.239.39	ADMIN	admin	CAT_8 - Fish and shellfish category is updated.
+2022-09-18 15:13:43	188.48.239.39	ADMIN	admin	CAT_7 - Meat category is updated.
+18-09-22 03:16:57	188.48.239.39	ADMIN	admin	SUP22_10 Supplier is deleted.
+18-09-22 03:24:57	188.48.239.39	ADMIN	admin	SUP22_16 - Tsupplier Supplier is added.

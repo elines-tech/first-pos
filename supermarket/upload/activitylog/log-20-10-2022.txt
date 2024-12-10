@@ -1,0 +1,9 @@
+Dt --> 20-10-22 08:29:25 IP --> 223.178.147.31 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 20-10-22 09:49:31 IP --> 223.178.147.31 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 20-10-22 11:19:53 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 20-10-22 03:27:30 IP --> 49.206.10.35 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.
+20-10-22 03:27:45	49.206.10.35	Cashier	4581	USR22_8 - Priyanka Sutar Cashier profile is updated.
+Dt --> 20-10-22 03:29:40 IP --> 49.206.10.35 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier loggedout.
+Dt --> 20-10-22 03:45:06 IP --> 49.206.10.35 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.
+Dt --> 20-10-22 03:50:45 IP --> 49.206.10.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 20-10-22 05:32:12 IP --> 49.206.10.35 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.

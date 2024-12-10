@@ -1,0 +1,28 @@
+Dt --> 31-10-22 09:49:03 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 10:09:23 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 31-10-22 10:12:42 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 10:30:42 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 31-10-22 10:30:51 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+31-10-22 11:40:36	106.193.117.208	Superadmin		 -  Subscription  is updated.
+31-10-22 12:09:59	106.193.117.208	Superadmin		 -  Subscription  is updated.
+31-10-22 12:14:45	106.193.117.208	Superadmin		 -  Subscription  is updated.
+31-10-22 12:17:22	106.193.117.208	Superadmin		 -  Subscription  is updated.
+Dt --> 31-10-22 03:00:36 IP --> 106.193.117.208 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+Dt --> 31-10-22 03:10:59 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 05:36:11 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 05:36:23 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 31-10-22 05:38:47 IP --> 106.193.117.208 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 05:44:04 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 06:04:30 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 31-10-22 06:17:08 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 06:20:32 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 31-10-22 06:20:59 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 31-10-22 06:22:39 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+31-10-22 06:51:22	152.57.166.51	Superadmin		USR_1 - admin Profile is updated.
+31-10-22 06:51:48	152.57.166.51	Superadmin		USR_1 - admin Profile is updated.
+31-10-22 06:52:44	152.57.166.51	Superadmin		USR_1 - admin Profile is updated.
+31-10-22 06:53:13	152.57.166.51	Superadmin		USR_1 - admin Profile is updated.
+31-10-22 06:54:26	152.57.166.51	Superadmin		USR_1 - admin Profile is updated.
+31-10-22 06:54:52	152.57.166.51	Superadmin		USR_1 - admin Profile is updated.
+Dt --> 31-10-22 06:59:53 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 31-10-22 07:00:18 IP --> 152.57.166.51 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.

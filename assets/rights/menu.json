@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "type": 0,
+    "icon": "<i class='fa fa-cubes'></i>",
+    "url": "",
+    "seq": 1,
+    "submenu": [
+      {
+        "id": 1.1,
+        "name": "Dashboard",
+        "url": "dashboard/listRecords",
+        "data-attr": "dashboard",
+        "seq": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Subscription Plan",
+    "type": 0,
+    "icon": "<i class='fa fa-cubes'></i>",
+    "url": "",
+    "seq": 2,
+    "submenu": [
+      {
+        "id": 2.1,
+        "name": "Subscription Plan",
+        "url": "packages/view",
+        "data-attr": "packages",
+        "seq": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Subscribers",
+    "type": 1,
+    "icon": "<i class='fa fa-cubes'></i>",
+    "url": "",
+    "seq": 3,
+    "submenu": [
+      {
+        "id": 3.1,
+        "name": "Subscribers",
+        "url": "client/listRecords",
+        "data-attr": "clients",
+        "seq": 1
+      },
+      {
+        "id": 3.2,
+        "name": "Payment History",
+        "url": "payment/listRecords",
+        "data-attr": "payment",
+        "seq": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Configuration",
+    "type": 1,
+    "icon": "<i class='fa fa-cog'></i>",
+    "url": "",
+    "seq": 4,
+    "submenu": [
+      {
+        "id": 4.1,
+        "name": "Users List",
+        "url": "users/listRecords",
+        "data-attr": "users",
+        "seq": 1
+      },
+      {
+        "id": 4.2,
+        "name": "Role Wise Rights",
+        "url": "rolewiserights/listRecords",
+        "data-attr": "rolewiserights",
+        "seq": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+Dt --> 15-11-22 09:41:07 IP --> 152.57.101.239 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-15 10:01:50	152.57.101.239	Admin	admin	IN22_5 - BR22_35 of BR22_36 having amount 622.00  is transfer.
+2022-11-15 10:03:28	152.57.101.239	Admin	admin	INL22_11 deleted Transfer items
+2022-11-15 10:24:01	152.57.101.239	Admin	admin	IN22_6 - BR22_35 of BR22_36 having amount 440.00  is transfer.
+2022-11-15 10:27:11	152.57.101.239	Admin	admin	IN22_6 Transfer is deleted.
+2022-11-15 10:32:20	152.57.101.239	Admin	admin	IN22_7 - BR22_35 of BR22_36 having amount 622.00  is transfer.
+2022-11-15 10:35:11	152.57.101.239	Admin	admin	IN22_8 - BR22_35 of BR22_36 having amount 844.00  is transfer.
+2022-11-15 10:44:14	152.57.101.239	Admin	admin	IN22_8 Transfer is deleted.
+2022-11-15 10:44:18	152.57.101.239	Admin	admin	IN22_8 Transfer is deleted.
+2022-11-15 11:04:17	152.57.116.233	Admin	admin	IN22_9 - BR22_35 of BR22_36 having amount 422.00  is transfer.
+2022-11-15 11:12:28	152.57.116.233	Admin	admin	IN22_10 - BR22_35 of BR22_36 having amount 644.00  is transfer.
+2022-11-15 11:19:50	152.57.116.233	Admin	admin	IN22_11 - BR22_35 of BR22_36 having amount 644.00  is transfer.
+2022-11-15 11:20:48	152.57.116.233	Admin	admin	IN22_11 Transfer is deleted.
+2022-11-15 11:20:51	152.57.116.233	Admin	admin	IN22_11 Transfer is deleted.
+2022-11-15 12:21:03	152.57.116.233	Admin	admin	IN22_12 -  of  having amount   is transfer.
+2022-11-15 12:23:08	152.57.116.233	Admin	admin	IN22_13 -  of  having amount   is transfer.
+2022-11-15 12:26:21	152.57.116.233	Admin	admin	IN22_16 - BR22_35 of BR22_36 having amount 644.00  is transfer.
+2022-11-15 12:28:20	152.57.116.233	Admin	admin	IN22_17 - BR22_35 of BR22_36 having amount 422.00  is transfer.
+Dt --> 15-11-22 02:00:14 IP --> 176.45.31.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 15-11-22 02:07:21 IP --> 176.45.31.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 15-11-22 02:42:27 IP --> 152.57.118.112 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-15 15:23:51	152.57.118.112	Admin	admin	IN22_17 Transfer is deleted.
+2022-11-15 15:23:54	152.57.118.112	Admin	admin	IN22_17 Transfer is deleted.
+2022-11-15 15:32:35	152.57.118.112	Admin	admin	IN22_18 - BR22_35 of BR22_36 having amount 622.00  is transfer.
+2022-11-15 15:59:01	152.57.118.112	Admin	admin	IN22_18 Transfer is deleted.
+2022-11-15 15:59:04	152.57.118.112	Admin	admin	IN22_18 Transfer is deleted.
+2022-11-15 16:00:17	152.57.118.112	Admin	admin	IN22_19 - BR22_35 of BR22_36 having amount 644.00  is transfer.
+Dt --> 15-11-22 05:47:47 IP --> 152.57.118.112 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-15 18:15:57	152.57.118.112	Admin	admin	 - BR22_35 of BR22_36 having amount 644.00  is transfer.
+2022-11-15 18:18:01	152.57.118.112	Admin	admin	IN22_21 - BR22_35 of BR22_36 having amount 420.00  is transfer.
+2022-11-15 18:41:27	152.57.118.112	Admin	admin	IN22_22 - BR22_35 of BR22_36 having amount 644.00  is transfer.
+2022-11-15 19:13:46	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 622.00  is transfer.
+2022-11-15 19:31:06	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 622.00  is transfer.
+2022-11-15 19:32:01	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 622.00  is transfer.
+2022-11-15 19:32:38	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 662.00  is transfer.
+2022-11-15 19:36:58	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 1086.00  is transfer.
+2022-11-15 19:39:17	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 864.00  is transfer.
+2022-11-15 19:45:36	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 864.00  is transfer.
+2022-11-15 19:46:03	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 864.00  is transfer.
+2022-11-15 19:49:47	152.57.118.112	Admin	admin	IN22_23 - BR22_35 of BR22_36 having amount 864.00  is transfer.
+2022-11-15 20:14:10	152.57.118.112	Admin	admin	IN22_24 - BR22_35 of BR22_36 having amount 2222.00  is transfer.
+2022-11-15 20:16:46	152.57.118.112	Admin	admin	IN22_24 - BR22_35 of BR22_36 having amount 2422.00  is transfer.
+2022-11-15 20:39:58	152.57.118.112	Admin	admin	IN22_25 - BR22_35 of BR22_36 having amount 2664.00  is transfer.
+2022-11-15 20:40:19	152.57.118.112	Admin	admin	IN22_25 Transfer is deleted.
+Dt --> 15-11-22 08:52:23 IP --> 152.57.118.112 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 15-11-22 09:15:22 IP --> 152.57.118.112 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-15 21:38:08	152.57.118.112	Admin	admin	IN22_26 - BR22_35 of BR22_36 having amount 464.00  is transfer.
+2022-11-15 21:46:27	152.57.118.112	Admin	admin	IN22_27 - SUP22_26 of BR22_36 having amount 4000.00 inward is added.
+2022-11-15 21:47:01	152.57.118.112	Admin	admin	IN22_27 - SUP22_26 of BR22_36 having amount 4000.00 inward is updated.
+2022-11-15 22:35:19	152.57.118.112	Admin	admin	IN22_28 - SUP22_23 of BR22_36 having amount 604.00 inward is added.

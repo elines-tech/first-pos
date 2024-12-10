@@ -1,0 +1,10 @@
+Dt --> 22-09-22 08:33:49 IP --> 49.36.34.180 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 22-09-22 08:39:29 IP --> 152.57.174.34 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 22-09-22 08:40:49 IP --> 152.57.174.34 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 22-09-22 08:42:19 IP --> 152.57.174.34 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 22-09-22 08:51:36 IP --> 106.210.142.118 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 22-09-22 09:32:24 IP --> 152.57.61.65 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 22-09-22 03:30:33 IP --> 152.57.61.65 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-22 16:04:32	152.57.61.65	ADMIN	admin	REC22_14 - PRO22_18 recipe is updated.
+2022-09-22 16:05:00	152.57.61.65	ADMIN	admin	REC22_14 - PRO22_18 recipe is updated.
+2022-09-22 16:14:20	152.57.61.65	ADMIN	admin	REC22_14 - PRO22_18 recipe is updated.

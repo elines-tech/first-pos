@@ -1,0 +1,22 @@
+Dt --> 04-01-23 12:05:17 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2023-01-04 12:15:33	157.33.230.218	Admin	admin	 - 26th jan hoilday email template is added.
+Dt --> 04-01-23 12:18:20 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-01-23 12:37:33 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-01-23 12:40:42 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-01-23 12:47:21 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2023-01-04 12:48:32	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+2023-01-04 12:55:45	157.33.230.218	Admin	admin	TAC_3 - Tax 3 Tax Rate is updated.
+2023-01-04 12:56:26	157.33.230.218	Admin	admin	TAG_2 - Group B Tax Group is added.
+04-01-23 12:57:23	157.33.230.218	Admin	admin	PRO22_2 - أورانج سموث Product is updated.
+2023-01-04 12:58:45	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+2023-01-04 13:06:24	157.33.230.218	Admin	admin	INL23_7 deleted quotation items
+2023-01-04 13:07:42	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+2023-01-04 13:08:08	157.33.230.218	Admin	admin	INL23_8 deleted quotation items
+2023-01-04 13:08:19	157.33.230.218	Admin	admin	INL23_6 deleted quotation items
+2023-01-04 13:14:17	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+Dt --> 04-01-23 02:14:10 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-01-23 04:08:57 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2023-01-04 16:09:46	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+2023-01-04 16:09:57	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+2023-01-04 16:10:29	157.33.230.218	Admin	admin	QUO23_2 quotation is added.
+Dt --> 04-01-23 05:11:15 IP --> 157.33.230.218 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

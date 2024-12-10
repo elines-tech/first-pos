@@ -1,0 +1,4 @@
+Dt --> 07-11-23 01:14:20 IP --> 49.36.42.246 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 07-11-23 01:14:21 IP --> 49.36.42.246 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 07-11-23 01:14:24 IP --> 49.36.42.246 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 07-11-23 01:19:05 IP --> 49.36.42.246 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.

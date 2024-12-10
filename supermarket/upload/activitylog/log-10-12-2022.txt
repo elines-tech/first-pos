@@ -1,0 +1,10 @@
+Dt --> 10-12-22 04:22:28 IP --> 223.235.108.76 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-10 16:28:34	223.235.108.76	Admin	admin	BRD_19 - zdvd brand is added.
+2022-12-10 16:28:42	223.235.108.76	Admin	admin	BRD_19 - zdvd brand is deleted.
+2022-12-10 16:28:42	223.235.108.76	Admin	admin	BRD_19 - zdvd brand is deleted.
+2022-12-10 16:30:22	223.235.108.76	Admin	admin	true - brand brand is updated.
+2022-12-10 16:34:54	223.235.108.76	Admin	admin	CAT_13 - test category is updated.
+2022-12-10 16:40:01	223.235.108.76	Admin	admin	SCAT_20 - retest subcategory is added.
+10-12-22 16:55:53	223.235.108.76	Admin	admin	PRO22_12 - جرين تشرط Product is updated.
+10-12-22 04:59:29	223.235.108.76	Admin	admin	PRO22_13 - اختبارات1 Product is added.
+10-12-22 17:01:03	223.235.108.76	Admin	admin	PRO22_13 - اختبارات1 Product is updated.

@@ -1,0 +1,4 @@
+Dt --> 04-05-23 04:30:29 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-05-23 04:37:29 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-05-23 04:37:46 IP --> 49.36.35.0 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 04-05-23 04:41:12 IP --> 49.36.35.0 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.

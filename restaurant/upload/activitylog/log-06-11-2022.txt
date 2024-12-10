@@ -1,0 +1,6 @@
+Dt --> 06-11-22 05:40:00 IP --> 188.53.182.252 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+06-11-22 05:47:23	188.53.182.252	Admin	admin	PRO22_31 - صهوة بيرغر Product is added.
+06-11-22 05:58:10	188.53.182.252	Admin	admin	PRO22_31 - صهوة بيرغر Product is updated.
+06-11-22 06:00:42	188.53.182.252	Admin	admin	PRO22_31 - صهوة بيرغر Product is updated.
+2022-11-06 18:02:35	188.53.182.252	Admin	admin	REC22_19 - PRO22_31 recipe is added.
+06-11-22 07:07:09	188.53.182.252	Admin	admin	USR22_44 - test User is updated.

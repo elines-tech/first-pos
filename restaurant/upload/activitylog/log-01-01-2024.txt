@@ -1,0 +1,2 @@
+Dt --> 01-01-24 11:38:57 IP --> 75.74.11.224 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 01-01-24 11:40:23 IP --> 75.74.11.224 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.

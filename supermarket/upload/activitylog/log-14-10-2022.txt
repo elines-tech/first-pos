@@ -1,0 +1,39 @@
+Dt --> 14-10-22 07:54:40 IP --> 152.57.184.162 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 07:57:49 IP --> 106.200.102.20 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 08:15:06 IP --> 106.200.102.20 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 14-10-22 08:19:50 IP --> 106.200.102.20 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 14-10-22 08:19:59 IP --> 106.200.102.20 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 14-10-22 08:37:18 IP --> 49.36.40.64 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 14-10-22 08:43:41 IP --> 49.36.40.64 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 10:29:55 IP --> 49.206.14.128 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-14 11:14:53	49.206.14.128	Admin	admin	IN22_13 - SUP22_19 of BR22_30 having amount 14.08 inward is added.
+2022-10-14 11:31:47	152.57.184.162	Admin	admin	IN22_15 - SUP22_19 of BR22_30 having amount 4.08 inward is added.
+2022-10-14 11:32:55	152.57.184.162	Admin	admin	IN22_15 - SUP22_19 of BR22_30 having amount 13.26 inward is added.
+2022-10-14 11:35:18	49.206.14.128	Admin	admin	IN22_16 - SUP22_19 of BR22_29 having amount 102.00 inward is added.
+2022-10-14 11:35:46	49.206.14.128	Admin	admin	IN22_16 - SUP22_19 of BR22_29 having amount 182.00 inward is added.
+2022-10-14 11:38:03	152.57.184.162	Admin	admin	IN22_17 - SUP22_18 of BR22_29 having amount 1224.00 inward is added.
+2022-10-14 11:38:53	152.57.184.162	Admin	admin	IN22_17 - SUP22_18 of BR22_29 having amount 1448.00 inward is added.
+2022-10-14 11:39:48	152.57.184.162	Admin	admin	IN22_18 - SUP22_22 of BR22_29 having amount 408.00 inward is added.
+2022-10-14 11:40:09	152.57.184.162	Admin	admin	IN22_18 - SUP22_22 of BR22_29 having amount 708.00 inward is added.
+2022-10-14 12:00:26	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1020.00 inward is added.
+2022-10-14 12:00:38	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1020.00 inward is added.
+2022-10-14 12:01:57	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1620.00 inward is added.
+2022-10-14 12:03:01	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1220.00 inward is added.
+2022-10-14 12:05:20	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1220.00 inward is added.
+2022-10-14 12:07:27	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1220.00 inward is added.
+2022-10-14 12:09:47	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1036.00 inward is added.
+2022-10-14 12:14:15	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1028.00 inward is added.
+Dt --> 14-10-22 01:17:12 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 14-10-22 01:17:21 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 01:17:47 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 14-10-22 01:17:55 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 01:20:07 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 14-10-22 01:20:15 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 01:21:39 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 01:21:55 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 01:22:53 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-10-22 01:23:53 IP --> 106.220.165.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-14 13:28:23	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1028.00 inward is added.
+2022-10-14 13:53:12	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1028.00 inward is added.
+2022-10-14 13:54:30	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1029.27 inward is added.
+2022-10-14 13:57:36	152.57.184.162	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1029.27 inward is added.

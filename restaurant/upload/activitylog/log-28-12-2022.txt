@@ -1,0 +1,1 @@
+Dt --> 28-12-22 01:51:46 IP --> 49.36.35.56 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.

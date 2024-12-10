@@ -1,0 +1,37 @@
+Dt --> 07-11-22 11:40:23 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 12:33:16 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 12:34:47	152.57.189.107	Admin	admin	IN22_22 - BR22_27 of BR22_29 having amount 4000.00  is transfer.
+Dt --> 07-11-22 12:35:08 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-11-22 12:37:30 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 13:18:20	152.57.189.107	Admin	admin	PCAT_9 - بيتزا product category is deleted.
+2022-11-07 13:20:24	152.57.189.107	Admin	admin	PCAT_10 - بيرغر product category is updated.
+Dt --> 07-11-22 01:34:38 IP --> 49.36.33.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 13:47:13	152.57.189.107	Admin	admin	PSCT_12 -  product subcategory is deleted.
+2022-11-07 13:47:29	152.57.189.107	Admin	admin	PSCT_13 - category two product Subcategory is updated.
+Dt --> 07-11-22 01:48:12 IP --> 49.36.33.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-11-22 01:48:41 IP --> 188.48.242.177 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+07-11-22 01:53:38	152.57.189.107	Admin	admin	PRO22_25 - ديلان ديالا Product is updated.
+07-11-22 01:54:34	152.57.189.107	Admin	admin	PRO22_25Product is deleted.
+2022-11-07 14:06:25	152.57.189.107	Admin	admin	PC_11 - combo testProduct Combo is updated.
+2022-11-07 14:09:31	152.57.189.107	Admin	admin	PC_11 - combo testProduct Combo is updated.
+2022-11-07 14:12:38	152.57.189.107	Admin	admin	PC_11 - combo testProduct Combo is updated.
+2022-11-07 14:13:10	152.57.189.107	Admin	admin	PC_11 -  Product Combo is deleted.
+2022-11-07 14:15:33	152.57.189.107	Admin	admin	CAT_19 - Breakfast item category is deleted.
+2022-11-07 14:16:56	152.57.189.107	Admin	admin	ITEM22_68 - test item is added.
+2022-11-07 14:17:09	152.57.189.107	Admin	admin	true - test item is updated.
+2022-11-07 14:19:42	152.57.189.107	Admin	admin	ITEM22_68 -  item is deleted.
+2022-11-07 14:22:41	152.57.189.107	Admin	admin	true - item sample item is updated.
+2022-11-07 14:22:51	152.57.189.107	Admin	admin	true - item sample item is updated.
+2022-11-07 14:23:08	152.57.189.107	Admin	admin	ITEM22_68 -  item is deleted.
+07-11-22 02:27:19	152.57.189.107	Admin	admin	SUP22_18 - seemaSupplier is updated.
+07-11-22 02:27:26	152.57.189.107	Admin	admin	SUP22_18 Supplier is deleted.
+Dt --> 07-11-22 02:45:16 IP --> 206.84.238.207 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 03:19:15 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 15:25:55	49.206.11.237	Admin	admin	QUO22_10 quotation is added.
+2022-11-07 15:26:23	49.206.11.237	Admin	admin	QUO22_10 quotation is added.
+2022-11-07 15:26:30	49.206.11.237	Admin	admin	QUO22_10 quotation is added.
+2022-11-07 15:26:32	49.206.11.237	Admin	admin	QUO22_10 quotation is added.
+2022-11-07 15:26:33	49.206.11.237	Admin	admin	QUO22_10 quotation is added.
+2022-11-07 16:15:51	152.57.189.107	Admin	admin	TR22_3 - TAB_35 Tbale is reserved.
+Dt --> 07-11-22 04:45:18 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-11-22 08:36:26 IP --> 49.36.33.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.

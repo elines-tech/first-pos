@@ -1,0 +1,12 @@
+Dt --> 06-12-22 10:19:26 IP --> 152.57.32.32 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+06-12-22 11:13:44	152.57.32.32	Superadmin	admin	USR22_5 - 22UGGWW User is updated.
+06-12-22 11:14:10	152.57.32.32	Superadmin	admin	USR22_5 - 22UGGWW User is updated.
+Dt --> 06-12-22 11:54:31 IP --> 49.36.35.181 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+Dt --> 06-12-22 11:55:17 IP --> 49.36.35.181 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.
+Dt --> 06-12-22 12:10:29 IP --> 49.36.35.181 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+06-12-22 12:28:17	152.57.32.32	Superadmin	admin	PAK_1 - admin Subscription  is updated.
+06-12-22 12:36:13	152.57.32.32	Superadmin	admin	PAK_2 - admin Subscription  is updated.
+Dt --> 06-12-22 01:04:47 IP --> 49.36.35.181 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.
+Dt --> 06-12-22 02:02:41 IP --> 49.36.35.181 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+06-12-22 03:06:06	152.57.32.32	Superadmin	admin	USR22_7 - 22UGGWW User is added.
+Dt --> 06-12-22 05:21:03 IP --> 106.76.78.81 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.

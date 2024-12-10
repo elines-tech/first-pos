@@ -1,0 +1,2 @@
+Dt --> 02-12-22 12:31:54 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 12:32:00 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

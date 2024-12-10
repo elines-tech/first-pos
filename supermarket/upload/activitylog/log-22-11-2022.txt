@@ -1,0 +1,157 @@
+Dt --> 22-11-22 11:01:08 IP --> 49.36.35.200 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 22-11-22 11:06:53 IP --> 157.33.60.236 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-22 11:13:12	157.33.60.236	Admin	admin	BRD_1 - brand brand is added.
+2022-11-22 11:13:29	157.33.60.236	Admin	admin	CAT_1 - category one category is added.
+2022-11-22 11:13:52	157.33.60.236	Admin	admin	SCAT_1 - sub category subcategory is added.
+2022-11-22 11:20:04	157.33.60.236	Admin	admin	BRD_1 - tata brand is added.
+2022-11-22 11:23:49	157.33.60.236	Admin	admin	CAT_1 - cloth category is added.
+2022-11-22 11:24:06	157.33.60.236	Admin	admin	SCAT_1 - shirt subcategory is added.
+2022-11-22 11:24:31	157.33.60.236	Admin	admin	SCAT_2 - dress subcategory is added.
+2022-11-22 11:25:09	157.33.60.236	Admin	admin	true - levis brand is updated.
+2022-11-22 11:27:08	157.33.60.236	Admin	admin	TAC_1 - TAX Tax Rate is updated.
+2022-11-22 11:27:22	157.33.60.236	Admin	admin	TAC_2 - TAX2 Tax Rate is updated.
+2022-11-22 11:27:55	157.33.60.236	Admin	admin	 - pieces base unit is added.
+2022-11-22 11:28:26	157.33.60.236	Admin	admin	UOM_1 - pieces unit is added.
+2022-11-22 11:29:54	157.33.60.236	Admin	admin	TAG_1 - TAX Group Tax Group is added.
+2022-11-22 11:31:13	157.33.60.236	Admin	admin	BR22_1 - kolhapur Branch is added.
+2022-11-22 11:31:15	106.76.78.188	Admin	admin	BR22_2 - Branch A Branch is added.
+2022-11-22 11:31:49	106.76.78.188	Admin	admin	BR22_1 - Branch A (Kolhapur) Branch is updated.
+2022-11-22 11:31:52	157.33.60.236	Admin	admin	BR22_3 - Mumbai Branch is added.
+2022-11-22 11:32:08	106.76.78.188	Admin	admin	BR22_2 - Branch B (Pune) Branch is updated.
+22-11-22 11:34:14	157.33.60.236	Admin	admin	PRO22_1 - فول سليف ط شيرت Product is added.
+2022-11-22 11:36:21	106.76.78.188	Admin	admin	BR22_3 - Branch C (Mumbai) Branch is updated.
+22-11-22 11:37:49	157.33.60.236	Admin	admin	PRO22_2 - سليم فية شيرت وإذ بوكيت Product is added.
+22-11-22 11:39:09	157.33.60.236	Admin	admin	SUP22_1 - super market  Supplier is added.
+2022-11-22 11:42:27	157.33.60.236	Admin	admin	IN22_1 - SUP22_1 of BR22_1 having amount 80800.00 inward is added.
+2022-11-22 11:49:59	49.36.35.200	Admin	admin	IN22_2 - BR22_1 of BR22_2 having amount 3000.00  is transfer.
+2022-11-22 12:00:33	49.36.35.200	Admin	admin	CO22_1 - CNT01 counter is added.
+2022-11-22 12:00:41	49.36.35.200	Admin	admin	CO22_2 - CNT02 counter is added.
+2022-11-22 12:02:48	49.36.35.200	Admin	admin	CO22_3 - CT01 counter is added.
+Dt --> 22-11-22 12:31:01 IP --> 49.36.35.200 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 22-11-22 12:45:21 IP --> 49.36.35.200 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+22-11-22 01:00:50	157.33.60.236	Admin	admin	USR22_2 - seema User is added.
+22-11-22 01:02:26	157.33.60.236	Admin	admin	USR22_3 - seema User is added.
+22-11-22 01:03:39	157.33.60.236	Admin	admin	USR22_3 - seema User is updated.
+22-11-22 01:04:12	157.33.60.236	Admin	admin	USR22_3 - seema User is updated.
+22-11-22 01:07:35	157.33.60.236	Admin	admin	USR22_3 - seema User is updated.
+22-11-22 01:07:47	157.33.60.236	Admin	admin	USR22_3 - seema User is updated.
+22-11-22 01:07:59	157.33.60.236	Admin	admin	USR22_3 - seema User is updated.
+Dt --> 22-11-22 01:08:58 IP --> 157.33.60.236 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 22-11-22 01:12:28 IP --> 49.36.35.200 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+22-11-22 01:40:23	49.36.35.200	Admin	admin	USR22_4 - ajax User is added.
+22-11-22 01:41:47	49.36.35.200	Admin	admin	USR22_4 - ajax User is updated.
+Dt --> 22-11-22 02:12:14 IP --> 49.36.35.200 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 22-11-22 02:12:31 IP --> 49.36.35.200 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 22-11-22 02:50:43 IP --> 106.196.24.110 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 22-11-22 02:53:29 IP --> 49.36.35.200 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+2022-11-22 15:43:24	157.33.60.236	Staff	seema	 - test sms template is added.
+Dt --> 22-11-22 03:59:49 IP --> 49.36.35.200 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-22 16:31:55	49.36.35.200	Admin	admin	OFF22_1 - BIGBEN25 offer is added.
+Dt --> 22-11-22 04:55:32 IP --> 106.196.19.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-22 16:56:08	106.196.19.135	Admin	admin	BRD_2 - Philips brand is added.
+2022-11-22 16:56:16	106.196.19.135	Admin	admin	BRD_3 - Bajaj brand is added.
+2022-11-22 16:56:33	106.196.19.135	Admin	admin	BRD_4 - TATA brand is added.
+2022-11-22 16:56:47	106.196.19.135	Admin	admin	BRD_5 - Delete brand is added.
+2022-11-22 16:59:33	106.196.19.135	Admin	admin	BRD_5 - Delete brand is deleted.
+2022-11-22 17:00:10	106.196.19.135	Admin	admin	true - Haier brand is updated.
+2022-11-22 17:00:23	106.196.19.135	Admin	admin	true - Bajaj brand is updated.
+2022-11-22	106.76.70.1	Admin	admin	ACTE_1 - Packing bags purchased Account Expense is added.
+2022-11-22 17:10:46	106.76.70.1	Admin	admin	TAC_3 - Service Tax Tax Rate is updated.
+2022-11-22 17:11:03	106.76.70.1	Admin	admin	TAC_4 - Education Sess Tax Rate is updated.
+2022-11-22 17:11:26	106.76.78.133	Admin	admin	TAC_5 - Grain Tax Tax Rate is updated.
+2022-11-22 17:12:10	106.76.78.133	Admin	admin	TAG_2 - Goods Tax Tax Group is added.
+2022-11-22 17:12:40	106.76.78.133	Admin	admin	BR22_3 - Branch C (Mumbai) Branch is updated.
+2022-11-22 17:21:57	157.33.60.236	Admin	admin	BRD_6 - philps brand is added.
+2022-11-22 17:23:49	157.33.60.236	Admin	admin	true - philps brand is updated.
+2022-11-22 17:24:08	157.33.60.236	Admin	admin	BRD_7 - test brand is added.
+2022-11-22 17:26:12	157.33.60.236	Admin	admin	BRD_8 - sample brand is added.
+2022-11-22 17:27:09	106.196.19.135	Admin	admin	CAT_2 - Dals category is added.
+2022-11-22 17:27:45	106.196.19.135	Admin	admin	CAT_3 - Dry Fruits category is added.
+2022-11-22 17:29:01	106.196.19.135	Admin	admin	CAT_4 - Cooking Oil category is added.
+2022-11-22 17:32:54	106.196.19.135	Admin	admin	CAT_2 - Grocery category is updated.
+2022-11-22 17:33:48	106.196.19.135	Admin	admin	CAT_3 - Dairy & Beverages category is updated.
+2022-11-22 17:34:38	157.33.60.236	Admin	admin	CAT_5 - SOUTH INDIAN category is added.
+2022-11-22 17:35:12	106.196.19.135	Admin	admin	CAT_4 - Beauty & Cosmetics category is updated.
+2022-11-22 17:38:22	106.196.19.135	Admin	admin	CAT_4 - Beauty & Cosmetics category is updated.
+2022-11-22 17:42:16	106.196.19.135	Admin	admin	SCAT_3 - Dals subcategory is added.
+2022-11-22 17:44:56	106.196.19.135	Admin	admin	SCAT_4 - Dry Fruits subcategory is added.
+2022-11-22 17:45:25	106.196.19.135	Admin	admin	SCAT_5 - Cooking Oil subcategory is added.
+2022-11-22 17:47:03	106.196.19.135	Admin	admin	SCAT_6 - Dairy subcategory is added.
+2022-11-22 17:48:11	106.196.19.135	Admin	admin	SCAT_7 - Skin Care subcategory is added.
+2022-11-22 17:48:50	157.33.60.236	Admin	admin	SCAT_8 - Rice subcategory is added.
+2022-11-22 17:49:01	106.196.19.135	Admin	admin	SCAT_9 - Lip Care subcategory is added.
+2022-11-22 17:54:19	157.33.60.236	Admin	admin	SCAT_10 - Red lipstick subcategory is added.
+22-11-22 06:00:03	106.196.19.135	Admin	admin	PRO22_3 - كهنة  دل  Product is added.
+2022-11-22 18:00:44	106.196.19.135	Admin	admin	BR22_4 - Branch 10 Branch is added.
+2022-11-22 18:00:57	106.196.19.135	Admin	admin	TAC_2 - TAX 2 Tax Rate is updated.
+2022-11-22 18:01:20	106.196.19.135	Admin	admin	TAC_4 - GST 1 Tax Rate is updated.
+2022-11-22 18:01:32	106.196.19.135	Admin	admin	TAC_5 - GST 2 Tax Rate is updated.
+2022-11-22 18:01:40	106.196.19.135	Admin	admin	TAC_1 - TAX 1 Tax Rate is updated.
+2022-11-22 18:01:47	106.196.19.135	Admin	admin	TAG_1 - TAX Group 1 Tax Group is updated.
+2022-11-22 18:02:14	106.196.19.135	Admin	admin	TAG_2 - Tax Group 2 Tax Group is updated.
+2022-11-22 18:02:37	106.196.19.135	Admin	admin	TAG_3 - Tax Group 3 Tax Group is added.
+2022-11-22 18:04:47	106.196.19.135	Admin	admin	TAG_1 - TAX Group- 12 Tax Group is updated.
+2022-11-22 18:05:03	106.196.19.135	Admin	admin	TAG_2 - Tax Group- 21 Tax Group is updated.
+2022-11-22 18:05:31	106.196.19.135	Admin	admin	TAG_3 - Tax Group-20 Tax Group is updated.
+2022-11-22 18:06:18	106.196.19.135	Admin	admin	BUOM_1 - Piece base unit is updated.
+2022-11-22 18:06:39	106.196.19.135	Admin	admin	 - Kilogram base unit is added.
+2022-11-22 18:06:50	106.196.19.135	Admin	admin	 - Liter base unit is added.
+2022-11-22 18:07:53	106.196.19.135	Admin	admin	UOM_1 - pieces unit is deleted.
+2022-11-22 18:08:04	106.196.19.135	Admin	admin	BUOM_3 - Liter base unit is updated.
+2022-11-22 18:08:33	106.196.19.135	Admin	admin	UOM_2 - Gram unit is added.
+2022-11-22 18:09:29	106.196.19.135	Admin	admin	UOM_3 - Miligram unit is added.
+2022-11-22 18:10:00	157.33.60.236	Admin	admin	SCAT_11 - idali subcategory is added.
+2022-11-22 18:13:28	106.76.78.133	Admin	admin	BRD_9 - Test Brand brand is added.
+2022-11-22 18:13:44	106.76.78.133	Admin	admin	CAT_6 - Test Category category is added.
+22-11-22 18:15:45	157.33.60.236	Admin	admin	PRO22_3 - كهنة  دل Product is updated.
+22-11-22 18:17:34	157.33.60.236	Admin	admin	PRO22_3 - كهنة  دل Product is updated.
+2022-11-22 18:37:57	106.196.19.135	Admin	admin	UOM_4 - Mililiter unit is added.
+2022-11-22 18:38:34	106.196.19.135	Admin	admin	UOM_5 - Pair unit is added.
+2022-11-22 18:45:30	157.33.60.236	Admin	admin	SCAT_4 - Dry Fruits Subcategory is updated.
+2022-11-22 19:19:29	157.33.60.236	Admin	admin	IN22_3 - SUP22_1 of BR22_2 having amount 4000.00 inward is added.
+2022-11-22 19:20:46	157.33.60.236	Admin	admin	IN22_3 - SUP22_1 of BR22_2 having amount 4000.00 inward is updated.
+2022-11-22 19:24:30	106.196.30.92	Admin	admin	UOM_6 - Dozen unit is added.
+2022-11-22 19:25:27	106.196.30.92	Admin	admin	BR22_4 - Branch 1 Branch is updated.
+2022-11-22 19:25:40	106.196.30.92	Admin	admin	BR22_5 - Branch 2 Branch is added.
+2022-11-22 19:25:52	106.196.30.92	Admin	admin	BR22_4 - Branch 1 Branch is updated.
+2022-11-22 19:29:41	157.33.60.236	Admin	admin	IN22_3 - SUP22_1 of BR22_2 having amount 4000.00 inward is updated.
+22-11-22 07:34:56	157.33.60.236	Admin	admin	USR22_4 - ajax User is updated.
+Dt --> 22-11-22 07:35:11 IP --> 157.33.60.236 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 22-11-22 07:36:57 IP --> 157.33.60.236 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+22-11-22 07:37:21	157.33.60.236	Cashier	1234	USR22_4 - ajax Cashier profile is updated.
+Dt --> 22-11-22 07:37:33 IP --> 157.33.60.236 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier loggedout.
+Dt --> 22-11-22 07:39:02 IP --> 157.33.60.236 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 22-11-22 07:39:55 IP --> 157.33.60.236 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 22-11-22 07:40:21 IP --> 157.33.60.236 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-22 19:41:52	157.33.60.236	Admin	admin	BAR22_1 - barcode is generated.
+2022-11-22 19:41:52	157.33.60.236	Admin	admin	BAR22_2 - barcode is generated.
+2022-11-22 19:56:33	106.196.30.92	Admin	admin	CO22_4 - C101 counter is added.
+2022-11-22 19:56:49	106.196.30.92	Admin	admin	CO22_5 - C102 counter is added.
+2022-11-22 19:57:06	106.196.30.92	Admin	admin	CO22_6 - C201 counter is added.
+2022-11-22 19:57:29	106.196.30.92	Admin	admin	CO22_6 - C103 counter is updated.
+2022-11-22 19:57:45	106.196.30.92	Admin	admin	CO22_6 - C201 counter is updated.
+Dt --> 22-11-22 07:59:51 IP --> 157.33.60.236 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier loggedout.
+2022-11-22 20:01:55	106.76.70.1	Admin	admin	OFF22_2 - Aut hic quos ut exer offer is added.
+Dt --> 22-11-22 08:03:45 IP --> 106.196.30.92 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-22 20:06:58	106.76.70.1	Admin	admin	OFF22_1 - SUN25 offer is added.
+Dt --> 22-11-22 08:08:06 IP --> 157.33.60.236 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+22-11-22 08:08:33	157.33.60.236	Cashier	1234	USR22_4 - ajax Cashier profile is updated.
+2022-11-22 20:12:06	157.33.60.236	Admin	admin	OFF22_2 - NewYear2k23 offer is added.
+Dt --> 22-11-22 09:10:08 IP --> 157.33.60.236 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier loggedout.
+Dt --> 22-11-22 09:10:17 IP --> 157.33.60.236 LOGIN USER -->  ADDED USER -->  	 Cashier loggedout.
+Dt --> 22-11-22 09:16:46 IP --> 106.76.70.1 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-22 21:43:39	157.33.60.236	Admin	admin	PVAR22_2 deleted Product Variants
+2022-11-22 21:43:43	157.33.60.236	Admin	admin	PVAR22_1 deleted Product Variants
+2022-11-22 22:29:59	157.33.60.236	Admin	admin	PVAR22_4 deleted Product Variants
+2022-11-22 22:30:05	157.33.60.236	Admin	admin	PVAR22_3 deleted Product Variants
+2022-11-22 22:36:21	157.33.60.236	Admin	admin	PVAR22_4 deleted Product Variants
+2022-11-22 22:42:29	157.33.60.236	Admin	admin	PVAR22_6 deleted Product Variants
+2022-11-22 22:43:58	157.33.60.236	Admin	admin	PVAR22_6 deleted Product Variants
+2022-11-22 22:55:03	157.33.60.236	Admin	admin	PVAR22_8 deleted Product Variants
+2022-11-22 22:55:06	157.33.60.236	Admin	admin	PVAR22_8 deleted Product Variants
+2022-11-22 22:55:09	157.33.60.236	Admin	admin	PVAR22_8 deleted Product Variants
+2022-11-22 22:55:12	157.33.60.236	Admin	admin	PVAR22_8 deleted Product Variants
+2022-11-22 22:55:13	157.33.60.236	Admin	admin	PVAR22_8 deleted Product Variants
+2022-11-22 22:55:13	157.33.60.236	Admin	admin	PVAR22_8 deleted Product Variants
+2022-11-22 22:56:35	157.33.60.236	Admin	admin	PVAR22_7 deleted Product Variants
+Dt --> 22-11-22 11:07:49 IP --> 157.33.60.236 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

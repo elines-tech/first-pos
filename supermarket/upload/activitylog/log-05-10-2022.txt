@@ -1,0 +1,7 @@
+Dt --> 05-10-22 07:31:18 IP --> 106.210.202.76 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-05 07:40:13	106.210.202.76	ADMIN	neosao	BAR22_2 - barcode is generated 
+2022-10-05 07:40:19	106.210.202.76	ADMIN	neosao	BAR22_3 - barcode is generated 
+2022-10-05 07:50:41	106.210.202.76	ADMIN	neosao	BAR22_4 - barcode is generated 
+Dt --> 05-10-22 08:13:28 IP --> 152.57.181.226 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-10-22 08:30:39 IP --> 49.36.41.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-05 08:44:37	152.57.181.226	ADMIN	neosao	IN22_1 - SUP22_13 of BR22_27 having amount 17340.00 inward is added.

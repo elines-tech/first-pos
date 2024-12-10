@@ -1,0 +1,5 @@
+Dt --> 17-12-22 09:57:09 IP --> 49.36.33.98 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+Dt --> 17-12-22 09:57:19 IP --> 49.36.33.98 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.
+Dt --> 17-12-22 10:12:05 IP --> 152.58.16.246 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+Dt --> 17-12-22 10:13:54 IP --> 152.58.16.246 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 Super User id is login.
+17-12-22 10:40:23	152.58.16.246	Superadmin	admin	USR22_8 - testing User is added.

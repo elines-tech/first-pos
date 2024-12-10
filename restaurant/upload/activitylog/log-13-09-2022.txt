@@ -1,0 +1,96 @@
+Dt --> 13-09-22 07:38:51 IP --> 106.211.99.11 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 13-09-22 07:47:28 IP --> 157.33.49.160 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 13-09-22 07:47:28 IP --> 157.33.49.160 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 13-09-22 08:03:09 IP --> 49.36.42.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 08:13:57	157.33.49.160	ADMIN	admin	BR22_17 - Riyadh Branch is updated.
+Dt --> 13-09-22 08:30:56 IP --> 49.206.10.179 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 08:52:04	157.33.49.160	ADMIN	admin	REC22_4 - PRO22_14 recipe is updated.
+13-09-22 09:05:17	157.33.49.160	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+13-09-22 09:06:42	157.33.49.160	ADMIN	admin	ITCC_31Category is deleted.
+13-09-22 09:07:04	157.33.49.160	ADMIN	admin	ITCC_34 - test9 Category add on is updated.
+13-09-22 09:07:36	157.33.49.160	ADMIN	admin	ITCC_41 - test8 Category add on is added.
+13-09-22 09:17:14	157.33.49.160	ADMIN	admin	ITCC_41Category is deleted.
+13-09-22 09:17:44	157.33.49.160	ADMIN	admin	ITCC_42 - test10 Category add on is added.
+2022-09-13 09:34:05	49.206.10.179	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+2022-09-13 09:48:02	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:48:04	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:48:05	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:48:20	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:48:24	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:48:25	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:48:26	49.206.10.179	ADMIN	admin	IN22_14 - BR22_11 of BR22_12 having amount 1  is transfer.
+2022-09-13 09:52:28	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:52:29	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:52:30	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:52:31	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:52:31	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:53:22	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:53:29	49.206.10.179	ADMIN	admin	IN22_15 - BR22_11 of BR22_15 having amount 345  is transfer.
+2022-09-13 09:58:37	49.206.10.179	ADMIN	admin	IN22_16 - SUP22_10 of BR22_15 having amount 6602.400000000001 inward is added.
+13-09-22 09:58:41	157.33.49.160	ADMIN	admin	PRO22_25 - بيزا Product is updated.
+2022-09-13 09:59:11	49.206.10.179	ADMIN	admin	INL22_31 deleted inward items
+2022-09-13 09:59:11	49.206.10.179	ADMIN	admin	INL22_31 deleted inward items
+2022-09-13 09:59:11	49.206.10.179	ADMIN	admin	INL22_31 deleted inward items
+2022-09-13 09:59:28	49.206.10.179	ADMIN	admin	IN22_16 - SUP22_10 of BR22_15 having amount 662.4000000000001 inward is added.
+13-09-22 10:00:38	49.206.10.179	ADMIN	admin	PRO22_25 - بيزا Product is updated.
+13-09-22 10:01:27	157.33.49.160	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+2022-09-13 10:07:55	49.206.10.179	ADMIN	admin	 inward is deleted.
+2022-09-13 10:08:00	49.206.10.179	ADMIN	admin	 inward is deleted.
+Dt --> 13-09-22 10:32:24 IP --> 49.36.42.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 10:41:07	106.211.99.11	ADMIN	admin	true - First table is added.
+2022-09-13 10:42:41	106.211.99.11	ADMIN	admin	true - Second table is added.
+2022-09-13 10:43:53	106.211.99.11	ADMIN	admin	true - Second update table is added.
+2022-09-13 10:46:41	106.211.99.11	ADMIN	admin	3 - Second update table zone is deleted.
+2022-09-13 10:46:52	106.211.99.11	ADMIN	admin	2 - Second update table zone is updated.
+2022-09-13 10:47:29	106.211.99.11	ADMIN	admin	2 - Second update table zone is updated.
+2022-09-13 10:47:42	106.211.99.11	ADMIN	admin	true - Third table  zone is added.
+Dt --> 13-09-22 11:01:24 IP --> 49.36.42.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 13-09-22 11:13:06 IP --> 188.54.166.35 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 11:50:25	106.211.99.11	ADMIN	admin	TAB_19 - 1.0 table is added.
+2022-09-13 12:05:17	106.211.99.11	ADMIN	admin	TAB_1 - 1.1 table is added.
+2022-09-13 12:06:17	106.211.99.11	ADMIN	admin	TAB_1 - 1.2 table is updated.
+2022-09-13 12:09:07	106.211.99.11	ADMIN	admin	TAB_2  table is added.
+2022-09-13 12:18:45	49.206.10.179	ADMIN	admin	IN22_17 - SUP22_10 of BR22_15 having amount 30 inward is added.
+2022-09-13 12:23:20	49.206.10.179	ADMIN	admin	IN22_18 - SUP22_13 of BR22_15 having amount 20.4 inward is added.
+2022-09-13 12:32:07	106.211.99.11	ADMIN	admin	3 Bulk tables are added.
+2022-09-13 12:32:26	106.211.99.11	ADMIN	admin	TAB_5 table is updated.
+2022-09-13 12:34:26	106.211.99.11	ADMIN	admin	TAB_4 table is updated.
+2022-09-13 12:35:34	49.206.10.179	ADMIN	admin	true - Branch 1 Zone 1 table  zone is added.
+2022-09-13 12:35:45	49.206.10.179	ADMIN	admin	true - Branch 1 Zone 2 table  zone is added.
+2022-09-13 12:57:29	157.33.49.160	ADMIN	admin	CAT_17 - south indian category is added.
+2022-09-13 13:01:00	157.33.49.160	ADMIN	admin	PCAT_17 - south indian product category is added.
+2022-09-13 13:04:57	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN product category is updated.
+2022-09-13 13:05:09	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN product category is updated.
+2022-09-13 13:07:08	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN product category is updated.
+2022-09-13 13:07:18	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN product category is updated.
+Dt --> 13-09-22 01:30:03 IP --> 188.54.166.35 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 13:33:51	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN product category is updated.
+2022-09-13 13:34:06	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN product category is updated.
+13-09-22 01:34:35	157.33.49.160	ADMIN	admin	PRO22_32 - Periperi Product is updated.
+2022-09-13 14:23:04	157.33.49.160	ADMIN	admin	PSCT_17 -  product Subcategory is added.
+2022-09-13 14:41:09	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN Dish product category is updated.
+2022-09-13 14:41:25	157.33.49.160	ADMIN	admin	PCAT_17 - SOUTH INDIAN Dish product category is updated.
+2022-09-13 14:58:17	157.33.49.160	ADMIN	admin	PSCT_17 - Sub category 3 product Subcategory is updated.
+2022-09-13 15:00:19	157.33.49.160	ADMIN	admin	PSCT_17 - sub category 1 product Subcategory is updated.
+2022-09-13 15:01:41	157.33.49.160	ADMIN	admin	PSCT_17 -  product subcategory is deleted.
+2022-09-13 15:02:12	157.33.49.160	ADMIN	admin	PSCT_18 - sub category 3 product Subcategory is added.
+Dt --> 13-09-22 03:09:01 IP --> 49.206.13.232 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 13-09-22 03:32:59 IP --> 49.36.42.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 15:34:26	223.231.157.168	ADMIN	admin	TAB_6  table is added.
+13-09-22 04:27:43	157.33.49.160	ADMIN	admin	PRO22_32 - Periperi Product is updated.
+13-09-22 04:28:03	157.33.49.160	ADMIN	admin	PRO22_32 - Periperi Product is updated.
+2022-09-13 16:28:35	157.33.49.160	ADMIN	admin	PSCT_17 -  product subcategory is deleted.
+2022-09-13 16:29:22	157.33.49.160	ADMIN	admin	PCAT_18 - Indian Veg product category is added.
+2022-09-13 16:30:09	157.33.49.160	ADMIN	admin	PSCT_19 - pure veg product Subcategory is added.
+2022-09-13 16:34:04	223.231.157.168	ADMIN	admin	3 Bulk tables are added.
+13-09-22 04:36:24	157.33.49.160	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+13-09-22 04:36:57	157.33.49.160	ADMIN	admin	PRO22_13 - hindi Product is updated.
+Dt --> 13-09-22 04:42:50 IP --> 106.220.141.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 16:49:01	106.220.141.2	ADMIN	admin	true - 10 discount is added.
+2022-09-13 16:55:10	106.220.141.2	ADMIN	admin	DIS_1 - 10.50 discount is updated.
+Dt --> 13-09-22 04:58:54 IP --> 49.36.42.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-13 17:02:06	106.220.141.2	ADMIN	admin	DIS_2 - 25.40 discount is added.
+2022-09-13 17:02:19	106.220.141.2	ADMIN	admin	DIS_3 - 11 discount is added.
+2022-09-13 17:02:24	106.220.141.2	ADMIN	admin	DIS_3 - 11.00 discount is deleted.
+2022-09-13 17:17:43	117.99.247.211	ADMIN	admin	CAT_6 - Non Veg category is updated.
+Dt --> 13-09-22 08:31:02 IP --> 106.76.78.146 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.

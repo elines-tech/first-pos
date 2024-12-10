@@ -1,0 +1,18 @@
+Dt --> 29-09-22 12:38:15 IP --> 49.36.34.115 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-09-22 01:25:05 IP --> 152.57.75.196 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-09-29 14:18:41	152.57.75.196	ADMIN	neosao	OPT_1 - Color option is added.
+2022-09-29 14:20:34	152.57.75.196	ADMIN	neosao	OPT_2 - Size option is added.
+2022-09-29 14:26:36	152.57.75.196	ADMIN	neosao	OPT_2 - Size option is updated.
+2022-09-29 14:30:48	152.57.75.196	ADMIN	neosao	OPT_2 - Size option is updated.
+2022-09-29 14:31:03	152.57.75.196	ADMIN	neosao	OPT_2 - Size option is updated.
+2022-09-29 15:32:45	152.57.75.196	ADMIN	neosao	 -  Setting is updated.
+2022-09-29 15:33:42	152.57.75.196	ADMIN	neosao	STG_1 -  Setting is updated.
+2022-09-29 15:34:26	152.57.75.196	ADMIN	neosao	STG_1 - SUK Prefix Setting is updated.
+2022-09-29 15:36:41	152.57.75.196	ADMIN	neosao	STG_1 - SUK Prefix Setting is updated.
+2022-09-29 15:36:52	152.57.75.196	ADMIN	neosao	STG_1 - SUK Prefix Setting is updated.
+2022-09-29 15:38:01	152.57.75.196	ADMIN	neosao	STG_1 - SUK Prefix Setting is updated.
+29-09-22 03:57:17	152.57.75.196	ADMIN	neosao	PRO22_22 - تست Product is added.
+29-09-22 15:59:43	152.57.75.196	ADMIN	neosao	PRO22_22 - تست Product is updated.
+29-09-22 16:01:19	152.57.75.196	ADMIN	neosao	PRO22_22 - تست Product is updated.
+29-09-22 16:03:26	152.57.75.196	ADMIN	neosao	PRO22_22 - تست Product is updated.
+Dt --> 29-09-22 04:46:48 IP --> 152.57.75.196 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

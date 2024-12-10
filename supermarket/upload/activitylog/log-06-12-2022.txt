@@ -1,0 +1,63 @@
+Dt --> 06-12-22 10:41:55 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 10:55:42 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 11:02:15 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+06-12-22 11:07:25	157.33.33.203	Admin	admin	USR22_3 - seema User is updated.
+Dt --> 06-12-22 11:08:11 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 11:08:43 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+2022-12-06 11:38:36	49.36.35.181	Admin	admin	CAT_2 - template1 email template is updated.
+2022-12-06 11:59:02	157.33.33.203	Manager	seema	CAT_1 - test test test sms template is updated.
+Dt --> 06-12-22 12:06:53 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 12:11:03 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 06-12-22 12:21:32 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 12:22:03 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+06-12-22 01:11:07	49.36.35.181	Admin	admin	USR22_5 - manager User is updated.
+Dt --> 06-12-22 01:29:13 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 06-12-22 01:29:34 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 01:46:48 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 01:48:04 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+2022-12-06 14:23:09	49.36.35.181	Admin	admin	TAG_4 - Zakat 01 Tax Group is added.
+2022-12-06 14:23:24	49.36.35.181	Admin	admin	TAC_5 - GST 2 Tax Rate is updated.
+2022-12-06 14:23:38	49.36.35.181	Admin	admin	TAC_6 - Tx15 Tax Rate is updated.
+Dt --> 06-12-22 02:24:02 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 06-12-22 02:28:04 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 02:42:18 IP --> 152.57.32.32 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 06-12-22 02:47:05 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 02:47:36 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 06-12-22 02:47:51 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 06-12-22 02:58:50 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 02:58:57 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 06-12-22 03:11:18 IP --> 152.57.32.32 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-06 15:19:18	152.57.32.32	Admin	admin	BAR22_7 - barcode is updated
+2022-12-06 15:20:18	157.33.33.203	Manager	seema	IN22_11 - SUP22_4 of BR22_2 having amount 8160.00 inward is added.
+2022-12-06 15:27:54	152.57.32.32	Admin	admin	BAR22_3 - barcode is updated
+Dt --> 06-12-22 03:56:49 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 04:30:33 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-12-06 17:42:01	157.33.33.203	Admin	admin	BAR22_8 - barcode is generated.
+Dt --> 06-12-22 05:46:10 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-06 18:01:47	157.33.33.203	Manager	seema	BAR22_9 - barcode is generated.
+2022-12-06	157.33.33.203	Manager	seema	ACTE_4 - bus fees Account Expense is added.
+2022-12-06	157.33.33.203	Manager	seema	ACTE_5 - bus fees Account Expense is added.
+2022-12-06	157.33.33.203	Admin	admin	ACTE_6 - bus fees Account Expense is added.
+2022-12-06	157.33.33.203	Manager	seema	true - bus fees Account Expense is updated.
+2022-12-06	157.33.33.203	Manager	seema	true - bus fees Account Expense is updated.
+2022-12-06	157.33.33.203	Admin	admin	true - sample  Account Expense is updated.
+2022-12-06 18:48:13	157.33.33.203	Manager	seema	CUSTG_1 - VIP Customer Groupname is added.
+2022-12-06 18:48:24	157.33.33.203	Manager	seema	CUSTG_2 - VIP ONE Customer Groupname is added.
+06-12-22 07:03:27	157.33.33.203	Admin	admin	USR22_3 - seema User is updated.
+Dt --> 06-12-22 07:03:35 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 07:03:42 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+06-12-22 07:05:17	157.33.33.203	Admin	admin	USR22_3 - seema User is updated.
+Dt --> 06-12-22 07:06:13 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 07:06:25 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+06-12-22 07:24:24	157.33.33.203	Admin	admin	USR22_3 - seema User is updated.
+Dt --> 06-12-22 07:24:34 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 07:24:40 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+06-12-22 07:25:29	157.33.33.203	Admin	admin	USR22_3 - seema User is updated.
+Dt --> 06-12-22 07:25:44 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 07:25:51 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 06-12-22 08:03:43 IP --> 106.76.78.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-06 20:22:15	157.33.33.203	Manager	seema	CO22_8 - Counter two counter is added.
+2022-12-06 20:22:45	157.33.33.203	Manager	seema	CO22_3 - CT02 counter is updated.
+Dt --> 06-12-22 08:25:19 IP --> 157.33.33.203 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 06-12-22 08:28:31 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-12-06 20:32:42	106.76.78.81	Admin	admin	BR22_9 - Test BRanch5 5 Branch is added.

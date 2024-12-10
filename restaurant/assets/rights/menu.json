@@ -1,0 +1,375 @@
+[
+    {
+    "id": 1,
+    "name": "Dashboard",
+    "type": 1,
+    "icon": "<i class='fa fa-cubes'></i>",
+    "url": "",
+	"seq":1,
+    "submenu": [
+      {
+        "id": 1.1,
+        "name": "Sales",
+        "url": "Dashboard/listRecordsSales",
+		"data-attr":"",
+		"seq":1
+      },
+      {
+        "id": 1.2,
+        "name": "Inventory",
+        "url": "Dashboard/listRecords",
+		"data-attr":"",
+		"seq":2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Menu",
+    "type": 1,
+    "icon": "<i class='fa fa-cubes'></i>",
+    "url": "",
+	"seq":2,
+    "submenu": [
+      {
+        "id": 2.1,
+        "name": "Product Category",
+        "url": "ProductCategory/listRecords",
+		"data-attr":"productcategory",
+		"seq":1
+      },
+      {
+        "id": 2.2,
+        "name": "Product SubCategory",
+        "url": "ProductSubcategory/listRecords",
+		"data-attr":"productsubcategory",
+		"seq":2
+      },
+	  {
+        "id": 2.3,
+        "name": "Product",
+        "url": "product/listRecords",
+		"data-attr":"product",
+		"seq":3
+      },
+	  {
+        "id": 2.4,
+        "name": "Recipe",
+        "url": "recipe/listRecords",
+		"data-attr":"recipe",
+		"seq":4
+      },
+	  {
+        "id": 2.5,
+        "name": "Product Combo",
+        "url": "ProductCombo/listRecords",
+		"data-attr":"productcombo",
+		"seq":5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Inventory",
+    "type": 1,
+    "icon": "<i class='fa fa-tags'></i>",
+    "url": "",
+	"seq":3,
+    "submenu": [
+      {
+        "id": 3.1,
+        "name": "Item Category",
+        "url": "category/listRecords",
+		"data-attr":"category",
+		"seq":1
+      },
+      {
+        "id": 3.2,
+        "name": "Item",
+        "url": "item/listRecords",
+		"data-attr":"item",
+		"seq":2
+      },
+	  {
+        "id": 3.3,
+        "name": "Supplier",
+        "url": "supplier/listRecords",
+		"data-attr":"supplier",
+		"seq":3
+      },
+	  {
+        "id": 3.4,
+        "name": "Inward",
+        "url": "inward/listRecords",
+		"data-attr":"inward",
+		"seq":4
+      },
+	  {
+        "id": 3.5,
+        "name": "Stock",
+        "url": "stock/listRecords",
+		"data-attr":"stock",
+		"seq":5
+      },
+	  {
+        "id": 3.6,
+        "name": "Transfer",
+        "url": "transfer/listRecords",
+		"data-attr":"transfer",
+		"seq":6
+      },
+	  {
+        "id": 3.7,
+        "name": "Inward Return",
+        "url": "inwardReturn/listRecords",
+		"data-attr":"inwardreturn",
+		"seq":7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Account",
+    "type": 1,
+    "icon": "<i class='fa fa-tags'></i>",
+    "url": "",
+	"seq":4,
+    "submenu": [
+      {
+        "id": 4.1,
+        "name": "Expense",
+        "url": "AccountExpense/listRecords",
+		"data-attr":"accountexpense",
+		"seq":1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Customer",
+    "type": 1,
+    "icon": "<i class='fa fa-users'></i>",
+    "url": "",
+	"seq":5,
+    "submenu": [
+      {
+        "id": 5.1,
+        "name": "Customer List",
+        "url": "Customer/listRecords",
+		"data-attr":"customer",
+		"seq":1
+      },
+      {
+        "id": 5.2,
+        "name": "Customer Groups",
+        "url": "CustomerGroup/listRecords",
+		"data-attr":"customergroup",
+		"seq":2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Orders",
+    "type": 1,
+    "icon": "<i class='fa fa-shopping-cart'></i>",
+    "url": "",
+	"seq":6,
+    "submenu": [
+      {
+        "id": 6.1,
+        "name": "Kitchen Orders",
+        "url": "kitchen/listRecords",
+		"data-attr":"kitchen",
+		"seq":1
+      },
+      {
+        "id": 6.2,
+        "name": "Counters Orders",
+        "url": "order/listRecords",
+		"data-attr":"order",
+		"seq":2
+      },
+	  {
+        "id": 6.3,
+        "name": "Orders",
+        "url": "OrderList/getOrders",
+		"data-attr":"OrderList",
+		"seq":3
+      },
+	  {
+        "id": 6.4,
+        "name": "Sale Quotation",
+        "url": "quotation/listRecords",
+		"data-attr":"quotation",
+		"seq":4
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Reports",
+    "type": 1,
+    "icon": "<i class='fa fa-file'></i>",
+    "url": "",
+	"seq":7,
+    "submenu": [
+      {
+        "id": 7.1,
+        "name": "Sale Report",
+        "url": "saleReport/list",
+		"data-attr":"saleReport",
+		"seq":1
+      },
+      {
+        "id": 7.2,
+        "name": "Purchase Report",
+        "url": "purchaseReport/list",
+		"data-attr":"purchaseReport",
+		"seq":2
+      },
+	  {
+        "id": 7.3,
+        "name": "Transfer Report",
+        "url": "transferReport/list",
+		"data-attr":"transferReport",
+		"seq":3
+      },
+	  {
+        "id": 7.4,
+        "name": "Day Closing Report",
+        "url": "dayClosingReport/list",
+		"data-attr":"dayClosingReport",
+		"seq":4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Configuration",
+    "type": 1,
+    "icon": "<i class='fa fa-cog'></i>",
+    "url": "",
+	"seq":8,
+    "submenu": [
+      {
+        "id": 8.1,
+        "name": "Branch",
+        "url": "branch/listRecords",
+		"data-attr":"branch",
+		"seq":1
+      },
+      {
+        "id": 8.2,
+        "name": "Sector Zone",
+        "url": "sectorzone/listRecords",
+		"data-attr":"sectorzone",
+		"seq":2
+      },
+	  {
+        "id": 8.3,
+        "name": "Table",
+        "url": "table/listRecords",
+		"data-attr":"table",
+		"seq":3
+      },
+	  {
+        "id": 8.4,
+        "name": "Table Reservation",
+        "url": "Reservation/listRecords",
+		"data-attr":"reservation",
+		"seq":4
+      },
+	  {
+        "id": 8.5,
+        "name": "User Roles",
+        "url": "role/listRecords",
+		"data-attr":"role",
+		"seq":5
+      },
+	  {
+        "id": 8.6,
+        "name": "Users List",
+        "url": "users/listRecords",
+		"data-attr":"users",
+		"seq":6
+      },
+	  {
+        "id": 8.7,
+        "name": "Taxes & Groups",
+        "url": "tax/listRecords",
+		"data-attr":"tax",
+		"seq":7
+      },
+	  {
+        "id": 8.8,
+        "name": "Unit",
+        "url": "unit/listRecords",
+		"data-attr":"unit",
+		"seq":8
+      },
+	  {
+        "id": 8.9,
+        "name": "Role Wise Rights",
+        "url": "roleWiseRights/listRecords",
+		"data-attr":"rolewiserights",
+		"seq":9
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Offers/Discounts",
+    "type": 1,
+    "icon": "<i class='fa fa-file'></i>",
+    "url": "",
+	"seq":10,
+    "submenu": [
+      {
+        "id": 10.1,
+        "name": "Discount",
+        "url": "discount/listRecords",
+		"data-attr":"discount",
+		"seq":1
+      },
+      {
+        "id": 10.2,
+        "name": "Coupon",
+        "url": "coupon/listRecords",
+		"data-attr":"coupon",
+		"seq":2
+      },
+	  {
+        "id": 10.3,
+        "name": "Offer",
+        "url": "offer/listRecords",
+		"data-attr":"offer",
+		"seq":3
+      }
+    ]
+  },
+   {
+    "id": 11,
+    "name": "Subscriptions",
+    "type": 1,
+    "icon": "<i class='fa fa-bell'></i>",
+    "url": "",
+    "seq": 11,
+    "submenu": [
+      {
+        "id": 11.1,
+        "name": "Current Plan",
+        "url": "subscriptions/plan",
+        "data-attr": "offer",
+        "seq": 1
+      },
+      {
+        "id": 11.2,
+        "name": "Transactions",
+        "url": "subscriptions/listRecords",
+        "data-attr": "giftcard",
+        "seq": 2
+      }
+    ]
+  }
+]

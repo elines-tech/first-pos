@@ -1,0 +1,110 @@
+Dt --> 03-09-22 09:54:49 IP --> 152.57.199.119 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+03-09-22 10:30:20	152.57.199.119	ADMIN	admin	PRO22_16 - تست Product is added.
+03-09-22 10:37:10	152.57.199.119	ADMIN	admin	PRO22_16 - تست Product is updated.
+03-09-22 10:39:54	152.57.199.119	ADMIN	admin	PRO22_16 - تست Product is updated.
+03-09-22 10:45:26	152.57.199.119	ADMIN	admin	PRO22_17 - برودكت Product is added.
+Dt --> 03-09-22 10:59:13 IP --> 110.227.3.5 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+03-09-22 11:00:43	110.227.3.5	ADMIN	admin	ITCC_13 - test Category add on is added.
+Dt --> 03-09-22 11:14:23 IP --> 152.57.199.119 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 03-09-22 11:15:55 IP --> 152.57.199.119 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+03-09-22 11:41:48	110.227.3.5	ADMIN	admin	PRO22_15 - test Product is updated.
+03-09-22 11:43:29	110.227.3.5	ADMIN	admin	PRO22_14 - test Product is updated.
+03-09-22 11:44:58	110.227.3.5	ADMIN	admin	PRO22_16 - تست Product is updated.
+03-09-22 11:45:37	110.227.3.5	ADMIN	admin	PRO22_14 - test Product is updated.
+03-09-22 11:46:04	110.227.3.5	ADMIN	admin	PRO22_15 - test Product is updated.
+2022-09-03 11:46:51	110.227.3.5	ADMIN	admin	CAT_10 - South Indian category is added.
+2022-09-03 11:46:59	110.227.3.5	ADMIN	admin	CAT_10 - South Indian category is updated.
+03-09-22 11:49:24	110.227.3.5	ADMIN	admin	PRO22_13 - hindi Product is updated.
+03-09-22 11:50:13	110.227.3.5	ADMIN	admin	PRO22_12 - test Product is updated.
+03-09-22 12:13:49	152.57.199.119	ADMIN	admin	ITCC_14 - Chiken Dum biryani Category add on is added.
+03-09-22 12:27:48	152.57.199.119	ADMIN	admin	ITCC_15 - Chiken Rice Category add on is added.
+03-09-22 12:28:04	152.57.199.119	ADMIN	admin	ITCC_15Category is deleted.
+03-09-22 12:28:17	152.57.199.119	ADMIN	admin	ITCC_16 - test 7 Category add on is added.
+03-09-22 12:29:31	152.57.199.119	ADMIN	admin	ITCC_16Category is deleted.
+03-09-22 12:29:56	152.57.199.119	ADMIN	admin	ITCC_17 - test5 Category add on is added.
+03-09-22 12:31:31	152.57.199.119	ADMIN	admin	ITCC_17Category is deleted.
+03-09-22 12:31:51	152.57.199.119	ADMIN	admin	ITCC_18 - test6 Category add on is added.
+03-09-22 12:36:18	152.57.199.119	ADMIN	admin	ITCC_18Category is deleted.
+03-09-22 12:38:10	152.57.199.119	ADMIN	admin	ITCC_19 - test67 Category add on is added.
+Dt --> 03-09-22 12:39:02 IP --> 103.36.82.17 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-09-03 12:41:01	103.36.82.17	ADMIN	admin	CAT_10 - South India category is updated.
+03-09-22 12:41:10	152.57.199.119	ADMIN	admin	ITCC_20 - test78 Category add on is added.
+03-09-22 12:44:30	103.36.82.17	ADMIN	admin	PRO22_18 - بيتزا Product is added.
+03-09-22 12:49:59	103.36.82.17	ADMIN	admin	PRO22_19 - بيتزا الدجاج Product is added.
+2022-09-03 12:51:08	103.36.82.17	ADMIN	admin	PC_18 - pizzaProduct Combo is updated.
+2022-09-03 12:52:19	103.36.82.17	ADMIN	admin	REC22_3 - PRO22_19 recipe is added.
+2022-09-03 12:52:54	103.36.82.17	ADMIN	admin	IN22_9 - SUP22_6 of BR22_1 having amount 100000 inward is added.
+03-09-22 01:09:55	152.57.199.119	ADMIN	admin	ITCC_20Category is deleted.
+03-09-22 01:09:57	152.57.199.119	ADMIN	admin	ITCC_19Category is deleted.
+03-09-22 01:10:21	152.57.199.119	ADMIN	admin	ITCC_21 - test99 Category add on is added.
+03-09-22 01:10:46	152.57.199.119	ADMIN	admin	ITCC_22 - test78 Category add on is added.
+03-09-22 01:11:03	152.57.199.119	ADMIN	admin	ITCC_21Category is deleted.
+03-09-22 01:11:04	152.57.199.119	ADMIN	admin	ITCC_21Category is deleted.
+03-09-22 01:11:04	152.57.199.119	ADMIN	admin	ITCC_21Category is deleted.
+03-09-22 01:11:04	152.57.199.119	ADMIN	admin	ITCC_22Category is deleted.
+03-09-22 01:29:13	152.57.199.119	ADMIN	admin	ITCC_23 - test999 Category add on is added.
+03-09-22 01:30:54	152.57.199.119	ADMIN	admin	ITCC_24 - test67` Category add on is added.
+03-09-22 01:41:10	152.57.199.119	ADMIN	admin	ITCC_24 - test78 Category add on is updated.
+03-09-22 01:41:27	152.57.199.119	ADMIN	admin	ITCC_25 - test79 Category add on is added.
+03-09-22 01:49:50	152.57.199.119	ADMIN	admin	CCLN_7 - test SubCategory add on is added.
+03-09-22 01:53:23	152.57.199.119	ADMIN	admin	ITCC_25Category is deleted.
+03-09-22 01:53:26	152.57.199.119	ADMIN	admin	ITCC_24Category is deleted.
+Dt --> 03-09-22 02:01:35 IP --> 152.57.199.119 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 03-09-22 02:24:04 IP --> 152.57.199.119 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 03-09-22 02:58:06 IP --> 106.193.83.14 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+03-09-22 03:23:35	106.193.83.14	ADMIN	admin	ITCC_26 - Cat1 Category add on is added.
+03-09-22 03:24:19	106.193.83.14	ADMIN	admin	CCLN_8 - mayonnaise SubCategory add on is added.
+03-09-22 03:24:35	106.193.83.14	ADMIN	admin	CCLN_9 - cheeze SubCategory add on is added.
+03-09-22 03:33:25	152.57.199.119	ADMIN	admin	PRO22_14 - test Product is updated.
+03-09-22 03:35:01	152.57.199.119	ADMIN	admin	PRO22_14 - test Product is updated.
+03-09-22 03:37:18	152.57.199.119	ADMIN	admin	PRO22_14 - test Product is updated.
+03-09-22 05:26:35	152.57.199.119	ADMIN	admin	12 - test1 Category add on is added.
+03-09-22 05:27:49	152.57.199.119	ADMIN	admin	12 - test4 Category add on is added.
+03-09-22 05:42:22	152.57.199.119	ADMIN	admin	12 - test4 Category add on is added.
+03-09-22 06:18:43	152.57.199.119	ADMIN	admin	12 - test456 Category add on is added.
+03-09-22 06:19:36	152.57.199.119	ADMIN	admin	12 - test456 Category add on is added.
+03-09-22 06:36:29	152.57.199.119	ADMIN	admin	12 - test567 Category add on is added.
+03-09-22 06:39:10	152.57.199.119	ADMIN	admin	12 - test789 Category add on is added.
+03-09-22 06:43:01	152.57.199.119	ADMIN	admin	12 - test567 Category add on is added.
+03-09-22 06:46:05	152.57.199.119	ADMIN	admin	12 - test7777 Category add on is added.
+03-09-22 06:48:20	152.57.199.119	ADMIN	admin	12 - test345 Category add on is added.
+03-09-22 06:52:08	152.57.199.119	ADMIN	admin	12 - test567 Category add on is added.
+03-09-22 06:56:04	152.57.199.119	ADMIN	admin	12 - test3 Category add on is added.
+03-09-22 06:57:43	152.57.199.119	ADMIN	admin	12 - test3 Category add on is added.
+03-09-22 06:57:50	152.57.199.119	ADMIN	admin	12Category is deleted.
+03-09-22 06:58:04	152.57.199.119	ADMIN	admin	12 - tes4 Category add on is added.
+03-09-22 06:58:49	152.57.199.119	ADMIN	admin	12 - test4 Category add on is added.
+03-09-22 06:58:56	152.57.199.119	ADMIN	admin	CCLN_10 - PRO22_14 SubCategory add on is added.
+03-09-22 07:00:00	152.57.199.119	ADMIN	admin	12Category is deleted.
+03-09-22 07:09:31	152.57.199.119	ADMIN	admin	12 - test888 Category add on is added.
+03-09-22 07:12:13	152.57.199.119	ADMIN	admin	CCLN_11 - PRO22_14 SubCategory add on is added.
+03-09-22 07:13:14	152.57.199.119	ADMIN	admin	12 - test88888 Category add on is added.
+03-09-22 07:21:33	152.57.199.119	ADMIN	admin	12 - test999999 Category add on is added.
+03-09-22 07:23:45	152.57.199.119	ADMIN	admin	PRO22_13 - hindi Product is updated.
+03-09-22 07:24:34	152.57.199.119	ADMIN	admin	12 - test 9999999 Category add on is added.
+03-09-22 07:24:52	152.57.199.119	ADMIN	admin	CCLN_12 - PRO22_13 SubCategory add on is added.
+03-09-22 07:28:54	152.57.199.119	ADMIN	admin	12 - test999999 Category add on is added.
+03-09-22 07:30:31	152.57.199.119	ADMIN	admin	12 - test00000 Category add on is added.
+03-09-22 07:30:44	152.57.199.119	ADMIN	admin	CCLN_13 - PRO22_13 SubCategory add on is added.
+03-09-22 07:34:02	152.57.199.119	ADMIN	admin	ITCC_1 - test Category add on is added.
+03-09-22 07:34:16	152.57.199.119	ADMIN	admin	CCLN_1 - test SubCategory add on is added.
+03-09-22 07:34:35	152.57.199.119	ADMIN	admin	ITCC_2 - test888 Category add on is added.
+03-09-22 07:35:39	152.57.199.119	ADMIN	admin	CCLN_2 -  SubCategory add on is added.
+03-09-22 07:38:37	152.57.199.119	ADMIN	admin	ITCC_3 - test888 Category add on is added.
+03-09-22 07:39:02	152.57.199.119	ADMIN	admin	CCLN_3 - PRO22_13 SubCategory add on is added.
+03-09-22 07:45:03	152.57.199.119	ADMIN	admin	ITCC_4 - test Category add on is added.
+03-09-22 07:45:23	152.57.199.119	ADMIN	admin	CCLN_4 - PRO22_13 SubCategory add on is added.
+03-09-22 07:47:12	152.57.199.119	ADMIN	admin	ITCC_5 - test Category add on is added.
+03-09-22 07:47:29	152.57.199.119	ADMIN	admin	CCLN_5 - PRO22_13 SubCategory add on is added.
+03-09-22 07:47:52	152.57.199.119	ADMIN	admin	ITCC_6 - test999 Category add on is added.
+03-09-22 07:48:08	152.57.199.119	ADMIN	admin	CCLN_6 - test SubCategory add on is added.
+03-09-22 08:42:27	152.57.199.119	ADMIN	admin	CCLN_7 - PRO22_14 SubCategory add on is added.
+03-09-22 08:56:36	152.57.199.119	ADMIN	admin	CCLN_8 - xyz SubCategory add on is added.
+03-09-22 08:57:05	152.57.199.119	ADMIN	admin	CCLN_9 - test56 SubCategory add on is added.
+03-09-22 09:04:59	152.57.199.119	ADMIN	admin	CCLN_10 - test999 SubCategory add on is added.
+03-09-22 09:05:12	152.57.199.119	ADMIN	admin	CCLN_10Sub Category is deleted.
+03-09-22 09:05:12	152.57.199.119	ADMIN	admin	CCLN_10Sub Category is deleted.
+03-09-22 09:05:19	152.57.199.119	ADMIN	admin	CCLN_9Sub Category is deleted.
+03-09-22 09:06:00	152.57.199.119	ADMIN	admin	CCLN_11 - test88 SubCategory add on is added.
+03-09-22 09:06:59	152.57.199.119	ADMIN	admin	CCLN_12 - test99999 SubCategory add on is added.
+03-09-22 09:07:30	152.57.199.119	ADMIN	admin	CCLN_13 - test7777 SubCategory add on is added.

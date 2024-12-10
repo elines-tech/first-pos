@@ -1,0 +1,4 @@
+Dt --> 17-08-24 07:47:46 IP --> 206.84.226.191 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+17-08-24 08:20:44	206.84.226.191	Admin	admin	PRO24_8 - Egg بيزا Product is added.
+Dt --> 17-08-24 08:25:59 IP --> 206.84.226.191 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-08-24 08:27:04 IP --> 206.84.226.191 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.

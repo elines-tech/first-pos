@@ -1,0 +1,48 @@
+Dt --> 08-12-22 10:25:46 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 08-12-22 10:26:44 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 10:45:31 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 11:13:49 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 12:37:42 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 12:37:50 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 12:42:13 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 08-12-22 12:50:26 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+2022-12-08 13:57:16	157.33.59.160	Manager	seema	3 - Floor 3.1 sector zone is updated.
+2022-12-08 13:57:30	157.33.59.160	Manager	seema	2 - Floor 3 sector zone is updated.
+2022-12-08 13:57:49	157.33.59.160	Manager	seema	2 - Floor 2 sector zone is updated.
+2022-12-08 13:59:55	157.33.59.160	Admin	admin	7 - Floor 3.1 sector zone is updated.
+2022-12-08 14:01:34	157.33.59.160	Admin	admin	7 - Floor 3.1 sector zone is updated.
+2022-12-08 14:28:35	157.33.59.160	Manager	seema	TAB_12  table is added.
+2022-12-08 14:44:26	157.33.59.160	Manager	seema	TAB_12 table is updated.
+2022-12-08 14:44:59	157.33.59.160	Manager	seema	TAB_2 table is updated.
+2022-12-08 14:46:01	157.33.59.160	Admin	admin	TAB_12 table is updated.
+Dt --> 08-12-22 02:46:44 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 02:47:01 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 08-12-22 02:47:02 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 08-12-22 02:47:46 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 08-12-22 02:48:04 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-08 14:52:07	157.33.59.160	Manager	seema	TAB_12 table is updated.
+2022-12-08 15:10:18	157.33.59.160	Admin	admin	5 Bulk tables are added.
+2022-12-08 15:12:25	157.33.59.160	Admin	admin	2 Bulk tables are added.
+Dt --> 08-12-22 03:13:22 IP --> 157.33.59.160 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 08-12-22 03:13:29 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 03:20:11 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 03:46:44 IP --> 157.33.59.160 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 04:50:27 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-08 16:57:15	49.36.40.175	Admin	admin	Text-SMS Setting is updated.
+2022-12-08 16:57:43	49.36.40.175	Admin	admin	Text-SMS Setting is updated.
+Dt --> 08-12-22 05:59:42 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 06:41:51 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 07:40:03 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 07:53:20 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 07:55:09 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 07:55:36 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 07:56:00 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 07:57:53 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 07:58:37 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 08:05:04 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 08:06:09 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 08:08:06 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 08:20:11 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 08:20:22 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 08:20:28 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 08:21:22 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.

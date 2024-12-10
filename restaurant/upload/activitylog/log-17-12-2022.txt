@@ -1,0 +1,51 @@
+Dt --> 17-12-22 12:31:38 IP --> 49.36.33.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-17 12:51:03	49.36.33.98	Admin	admin	DIS_1 - 10 discount is added.
+Dt --> 17-12-22 12:51:43 IP --> 49.36.33.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-12-22 12:57:15 IP --> 49.36.33.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-12-22 01:03:44 IP --> 49.36.33.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-12-22 01:04:28 IP --> 49.36.33.98 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 17-12-22 01:06:07 IP --> 49.36.33.98 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 17-12-22 01:18:10 IP --> 152.58.16.192 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-12-22 01:18:12 IP --> 152.58.16.192 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-12-22 01:39:08 IP --> 49.36.33.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-17 13:42:10	152.58.16.246	Admin	admin	IN22_10 - BR22_1 of BR22_2 having amount 15.00  is transfer.
+2022-12-17 13:45:18	49.36.33.98	Admin	admin	TR22_1 - TAB_1 Tbale is reserved.
+Dt --> 17-12-22 01:50:18 IP --> 49.36.33.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-12-17 13:50:26	152.58.16.246	Admin	admin	CAT_5 - test category is updated.
+2022-12-17 13:50:48	152.58.16.246	Admin	admin	CAT_5 - test category is updated.
+2022-12-17 13:56:58	152.58.16.246	Admin	admin	CAT_6 - testing1 category is added.
+2022-12-17 14:00:12	152.58.16.246	Admin	admin	IN22_11 - SUP22_1 of BR22_1 having amount 300.00 inward is added.
+2022-12-17 14:09:19	152.58.16.247	Admin	admin	IN22_12 - SUP22_1 of BR22_2 having amount 27.80 inward is added.
+Dt --> 17-12-22 02:09:19 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-17 14:53:29	152.58.16.254	Admin	admin	UOM_5 - Pieces unit is updated.
+2022-12-17 15:00:21	152.58.16.254	Admin	admin	PCAT_7 - tea product category is updated.
+2022-12-17 15:01:04	152.58.16.254	Admin	admin	PSCT_3 - special tea product Subcategory is updated.
+2022-12-17 15:16:27	152.58.16.254	Admin	admin	REC22_4 - PRO22_4 recipe is updated.
+2022-12-17 15:19:45	152.58.16.254	Admin	admin	REC22_4 - PRO22_4 recipe is updated.
+2022-12-17 15:57:49	152.57.241.62	Admin	admin	CUST22_7 - seema customer is added.
+2022-12-17 17:13:20	152.57.241.62	Admin	admin	CUST22_8 - Cruz Baker customer is added.
+2022-12-17 18:50:43	152.57.241.62	Admin	admin	TR22_2 - TAB_1 Tbale is reserved.
+Dt --> 17-12-22 06:58:02 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-12-22 06:58:59 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-17 20:22:15	152.57.241.62	Admin	admin	TR22_2 - CUST22_2  Table booked is updated.
+2022-12-17 20:25:59	152.57.241.62	Admin	admin	TR22_2 - CUST22_2 TAB_1 Table booked is updated.
+2022-12-17 21:27:47	152.57.241.62	Admin	admin	TR22_3 - TAB_1 Tbale is reserved.
+2022-12-17 21:42:35	152.57.241.62	Admin	admin	TR22_4 - TAB_1 Tbale is reserved.
+2022-12-17 22:09:40	152.57.241.62	Admin	admin	TR22_5 - TAB_1 Tbale is reserved.
+2022-12-17 22:14:52	152.57.241.62	Admin	admin	TR22_6 - TAB_1 Tbale is reserved.
+2022-12-17 22:17:05	152.57.241.62	Admin	admin	TR22_6 - CUST22_7 TAB_1 Table booked is updated.
+17-12-22 10:22:28	152.57.241.62	Admin	admin	USR22_6 - test User is updated.
+Dt --> 17-12-22 10:24:04 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is login.
+Dt --> 17-12-22 10:32:03 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.
+Dt --> 17-12-22 10:32:18 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-12-22 10:33:08 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-12-22 10:33:22 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is login.
+Dt --> 17-12-22 10:35:05 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is login.
+Dt --> 17-12-22 10:35:30 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.
+Dt --> 17-12-22 10:35:44 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+17-12-22 10:36:17	152.57.241.62	Admin	admin	USR22_6 - test User is updated.
+Dt --> 17-12-22 10:36:33 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-12-22 10:36:47 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is login.
+Dt --> 17-12-22 10:44:13 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-12-22 10:57:26 IP --> 152.57.241.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-12-22 10:57:34 IP --> 152.57.241.62 LOGIN USER --> USR22_6 ADDED USER --> USR22_6 	USR22_6 User id is logout.

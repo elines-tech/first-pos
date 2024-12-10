@@ -1,0 +1,30 @@
+Dt --> 31-08-22 11:35:33 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-31 12:20:23	188.53.190.26	ADMIN	admin	BR22_7 - Riyadh Branch is added.
+2022-08-31 13:07:50	188.53.190.26	ADMIN	admin	 -  branch is deleted.
+2022-08-31 13:07:55	188.53.190.26	ADMIN	admin	 -  branch is deleted.
+2022-08-31 13:48:14	188.53.190.26	ADMIN	admin	BR22_7 - Riyadh Branch is updated.
+2022-08-31 13:48:59	188.53.190.26	ADMIN	admin	BR22_7 - Riyadh Branch is updated.
+2022-08-31 13:49:23	188.53.190.26	ADMIN	admin	BR22_7 - Riyadh Branch is updated.
+2022-08-31 14:03:58	188.53.190.26	ADMIN	admin	R_9 - chef role is added.
+2022-08-31 14:04:13	188.53.190.26	ADMIN	admin	R_7 - Supplier role is deleted.
+2022-08-31 14:05:18	188.53.190.26	ADMIN	admin	true - waiters role is updated.
+2022-08-31 14:05:31	188.53.190.26	ADMIN	admin	true - Waiters role is updated.
+2022-08-31 14:05:57	188.53.190.26	ADMIN	admin	true - Waiters role is updated.
+2022-08-31 14:12:09	188.53.190.26	ADMIN	admin	R_10 - Waiters role is added.
+2022-08-31 14:12:28	188.53.190.26	ADMIN	admin	R_11 - test Role role is added.
+2022-08-31 14:13:40	188.53.190.26	ADMIN	admin	true - test Role role is updated.
+31-08-22 02:18:17	188.53.190.26	ADMIN	admin	USR22_13 - manager User is added.
+31-08-22 02:18:32	188.53.190.26	ADMIN	admin	USR22_13 - manager User is updated.
+31-08-22 02:19:26	188.53.190.26	ADMIN	admin	USR22_14 - manager User is added.
+2022-08-31 14:25:26	188.53.190.26	ADMIN	admin	true - Cashier role is updated.
+31-08-22 02:26:11	188.53.190.26	ADMIN	admin	USR22_15 - alli User is added.
+31-08-22 02:26:27	188.53.190.26	ADMIN	admin	USR22_15 - alli User is updated.
+31-08-22 02:28:50	188.53.190.26	ADMIN	admin	USR22_14 - Fahad User is updated.
+31-08-22 02:31:05	188.53.190.26	ADMIN	admin	USR22_10 - PRIYANKA SUTAR User is updated.
+Dt --> 31-08-22 02:31:37 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 31-08-22 02:31:49 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+31-08-22 02:34:59	188.53.190.26	ADMIN	admin	USR22_16 - ali User is added.
+Dt --> 31-08-22 02:35:21 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 31-08-22 02:35:38 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+31-08-22 02:41:24	188.53.190.26	ADMIN	admin	USR22_7 User is deleted.
+2022-08-31 14:43:24	188.53.190.26	ADMIN	admin	R_2 - User role is deleted.

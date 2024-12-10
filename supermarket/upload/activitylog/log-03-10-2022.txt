@@ -1,0 +1,36 @@
+Dt --> 03-10-22 09:35:13 IP --> 152.57.164.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+03-10-22 09:47:40	152.57.164.62	ADMIN	neosao	PAT_9 - OPT_1 Product Attribute is added.
+03-10-22 09:51:06	152.57.164.62	ADMIN	neosao	PAT_9 - OPT_2 Attribute is updated
+03-10-22 09:51:27	152.57.164.62	ADMIN	neosao	PAT_10 - OPT_4 Product Attribute is added.
+03-10-22 09:52:31	152.57.164.62	ADMIN	neosao	PATLN_10 - testProduct Options is added.
+03-10-22 09:52:34	152.57.164.62	ADMIN	neosao	PATLN_10Product Option is deleted.
+03-10-22 09:52:39	152.57.164.62	ADMIN	neosao	PATLN_11 - redProduct Options is added.
+03-10-22 09:52:44	152.57.164.62	ADMIN	neosao	PATLN_11Product Option is deleted.
+03-10-22 09:52:48	152.57.164.62	ADMIN	neosao	PATLN_12 - xProduct Options is added.
+03-10-22 09:52:55	152.57.164.62	ADMIN	neosao	PATLN_13 - xlProduct Options is added.
+03-10-22 09:52:57	152.57.164.62	ADMIN	neosao	PATLN_13Product Option is deleted.
+03-10-22 09:52:59	152.57.164.62	ADMIN	neosao	PATLN_12Product Option is deleted.
+03-10-22 09:53:02	152.57.164.62	ADMIN	neosao	PATLN_14 - LProduct Options is added.
+03-10-22 09:53:07	152.57.164.62	ADMIN	neosao	PATLN_15 - XLProduct Options is added.
+03-10-22 09:53:15	152.57.164.62	ADMIN	neosao	PAT_9 - OPT_1 Attribute is updated
+03-10-22 09:53:31	152.57.164.62	ADMIN	neosao	PAT_11 - OPT_2 Product Attribute is added.
+03-10-22 09:53:38	152.57.164.62	ADMIN	neosao	PATLN_14Product Option is deleted.
+03-10-22 09:53:40	152.57.164.62	ADMIN	neosao	PATLN_15Product Option is deleted.
+03-10-22 09:53:45	152.57.164.62	ADMIN	neosao	PATLN_16 - redProduct Options is added.
+03-10-22 09:53:49	152.57.164.62	ADMIN	neosao	PATLN_17 - greenProduct Options is added.
+03-10-22 09:53:56	152.57.164.62	ADMIN	neosao	PATLN_18 - blueProduct Options is added.
+03-10-22 09:54:13	152.57.164.62	ADMIN	neosao	PATLN_19 - 100gramProduct Options is added.
+03-10-22 09:55:10	152.57.164.62	ADMIN	neosao	PATLN_20 - blackProduct Options is added.
+03-10-22 09:57:22	152.57.164.62	ADMIN	neosao	PAT_9Product Attribute is deleted.
+03-10-22 09:57:28	152.57.164.62	ADMIN	neosao	PAT_12 - OPT_1 Product Attribute is added.
+03-10-22 09:57:54	152.57.164.62	ADMIN	neosao	PATLN_21 - RedProduct Options is added.
+03-10-22 09:58:02	152.57.164.62	ADMIN	neosao	PATLN_22 - GreenProduct Options is added.
+03-10-22 09:58:14	152.57.164.62	ADMIN	neosao	PATLN_23 - blueProduct Options is added.
+2022-10-03 13:30:54	152.57.164.62	ADMIN	neosao	PEXT22_3 deleted Product Variants
+2022-10-03 13:41:09	152.57.164.62	ADMIN	neosao	PEXT22_2 deleted Product Variants
+Dt --> 03-10-22 03:22:16 IP --> 49.36.34.143 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+03-10-22 16:11:04	152.57.164.62	ADMIN	neosao	PRO22_22 - تست Product is updated.
+03-10-22 16:11:35	152.57.164.62	ADMIN	neosao	PRO22_21 - كروت Product is updated.
+2022-10-03 17:24:16	152.57.164.62	ADMIN	neosao	PVAR22_9 deleted Product Variants
+2022-10-03 18:59:07	152.57.164.62	ADMIN	neosao	IN22_16 - SUP22_15 of BR22_27 having amount 1030.93 inward is added.
+2022-10-03 19:04:27	152.57.164.62	ADMIN	neosao	IN22_17 - SUP22_13 of BR22_27 having amount 412.41 inward is added.

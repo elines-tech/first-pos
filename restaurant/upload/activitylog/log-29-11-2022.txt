@@ -1,0 +1,49 @@
+Dt --> 29-11-22 07:09:09 IP --> 106.76.70.80 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+29-11-22 07:09:46	106.76.70.80	Admin	admin	USR22_2 - counteruser User is updated.
+2022-11-29 07:10:24	106.76.70.80	Admin	admin	RECL22_12 recipe item deleted
+29-11-22 07:12:51	106.76.70.80	Admin	admin	PRO22_4 - بلاك كوفي Product is added.
+2022-11-29 07:13:17	106.76.70.80	Admin	admin	PCAT_5 - Beverages product category is added.
+29-11-22 07:15:35	106.76.70.80	Admin	admin	PRO22_4 - بلاك كوفي Product is updated.
+2022-11-29 07:16:33	106.76.70.80	Admin	admin	ITEM22_15 - Instant Coffee Mix item is added.
+2022-11-29 07:17:06	106.76.70.80	Admin	admin	ITEM22_16 - Sugar item is added.
+2022-11-29 07:17:56	106.76.70.80	Admin	admin	ITEM22_17 - Filtered Water item is added.
+2022-11-29 07:19:13	106.76.70.80	Admin	admin	REC22_4 - PRO22_4 recipe is added.
+Dt --> 29-11-22 07:19:45 IP --> 106.76.70.80 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 07:21:06 IP --> 106.76.70.80 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 11:51:00 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 12:10:08 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 29-11-22 12:10:25 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 01:17:34 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 01:17:59 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 01:23:01 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 29-11-22 01:23:15 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-29 13:23:50	49.36.43.81	Admin	admin	BR22_2 - Test Branch Branch is added.
+2022-11-29 13:24:31	49.36.43.81	Admin	admin	6 - Sample Zone sector zone is added.
+2022-11-29 13:26:28	49.36.43.81	Admin	admin	6 - Sample Zone 1 sector zone is updated.
+Dt --> 29-11-22 01:28:23 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 01:28:39 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 01:33:58 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 01:47:13 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 01:50:32 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 02:18:05 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 29-11-22 03:50:22 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-29 15:55:27	49.36.43.81	Admin	admin	TAB_11  table is added.
+Dt --> 29-11-22 04:40:25 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 05:10:01 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 05:10:22 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-29 17:17:34	49.36.43.81	Admin	admin	7 - Floor 3.1 sector zone is added.
+29-11-22 06:46:12	157.33.37.135	Admin	admin	USR22_2 - counteruser User is updated.
+Dt --> 29-11-22 06:49:32 IP --> 49.206.11.135 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 06:56:57 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 06:57:12 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 07:17:15 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 07:30:00 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 07:35:51 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 29-11-22 08:47:42 IP --> 49.36.43.81 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 29-11-22 08:48:33 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+29-11-22 08:56:43	49.36.43.81	Admin	admin	USR22_1 - admin Profile is updated.
+2022-11-29 21:15:56	49.36.43.81	Admin	admin	IN22_3 - BR22_1 of BR22_2 having amount 400.00  is transfer.
+Dt --> 29-11-22 10:13:26 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 10:14:56 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 10:26:34 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 10:32:16 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

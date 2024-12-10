@@ -1,0 +1,54 @@
+Dt --> 03-12-22 10:22:09 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 10:22:40 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 10:23:32 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 10:33:36 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 10:33:59 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 10:55:07 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 11:50:14 IP --> 106.76.78.151 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 11:51:31 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 11:53:48 IP --> 152.57.213.13 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 11:55:55 IP --> 106.76.78.151 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 11:58:10 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 12:11:20 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 12:11:48 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 12:19:55 IP --> 106.76.78.151 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 01:36:41 IP --> 152.57.213.178 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-03 13:44:41	152.57.213.178	Admin	admin	CAT_4 - Vegetables category is updated.
+2022-12-03 13:45:00	152.57.213.178	Admin	admin	CAT_4 - Vegetables category is updated.
+2022-12-03 14:32:41	152.57.216.18	Admin	admin	true - Filtered Water item is updated.
+2022-12-03 15:00:28	152.57.216.18	Admin	admin	CUSTG_1 - Akskms Customer Groupname is added.
+2022-12-03 15:02:36	152.57.216.18	Admin	admin	true - Customer one Customer Groupname is updated.
+2022-12-03 15:38:35	152.57.216.18	Admin	admin	BR22_2 - Test Branch Branch is updated.
+2022-12-03 16:06:05	157.33.38.202	Admin	admin	true - Waiter role is updated.
+Dt --> 03-12-22 04:31:53 IP --> 157.33.38.202 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-03 16:42:20	157.33.38.202	Admin	admin	CAT_4 - Vegetables category is updated.
+2022-12-03 16:43:17	157.33.38.202	Admin	admin	CAT_4 - Vegetables category is updated.
+2022-12-03 16:44:12	157.33.38.202	Admin	admin	CAT_4 - Vegetables category is updated.
+2022-12-03 16:51:56	157.33.38.202	Admin	admin	CAT_5 - test category is added.
+2022-12-03 17:10:39	157.33.38.202	Admin	admin	IN22_4 - SUP22_1 of BR22_1 having amount 0.00 inward is added.
+2022-12-03 17:13:38	157.33.38.202	Admin	admin	IN22_5 - SUP22_1 of BR22_2 having amount 30.00 inward is added.
+Dt --> 03-12-22 05:40:51 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 05:43:54 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 05:44:28 IP --> 49.36.35.104 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 03-12-22 06:14:52 IP --> 49.36.35.104 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 03-12-22 06:15:11 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-03 18:15:56	49.36.35.104	Admin	admin	PSCT_1 - 1223 product Subcategory is added.
+Dt --> 03-12-22 06:33:20 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 06:33:51 IP --> 49.36.35.104 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 03-12-22 06:36:41 IP --> 49.36.35.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-03 18:52:25	49.36.35.104	Admin	admin	PCAT_6 - Combo Snacks product category is added.
+2022-12-03 18:52:58	49.36.35.104	Admin	admin	PSCT_2 - Tasty Combo product Subcategory is added.
+2022-12-03 19:02:28	157.33.38.202	Admin	admin	IN22_6 - SUP22_1 of BR22_2 having amount 30.00 inward is added.
+03-12-22 07:11:49	157.33.38.202	Admin	admin	USR22_3 - chefuser User is updated.
+2022-12-03 19:27:27	157.33.38.202	Admin	admin	7 - Floor 3.1 sector zone is updated.
+2022-12-03 19:27:55	157.33.38.202	Admin	admin	7 - Floor 3.1 sector zone is updated.
+2022-12-03 20:04:43	49.36.35.104	Admin	admin	PC_1 - Tasty BiteProduct Combo is updated.
+Dt --> 03-12-22 08:44:02 IP --> 49.36.35.104 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 03-12-22 10:44:01 IP --> 106.76.78.208 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-03 22:47:13	106.76.78.208	Admin	admin	REC22_3 - PRO22_3 recipe is updated.
+Dt --> 03-12-22 10:47:35 IP --> 106.76.78.208 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 10:49:08 IP --> 106.76.78.157 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 03-12-22 10:50:37 IP --> 106.76.78.157 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-12-22 10:53:58 IP --> 106.76.78.157 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-12-22 10:54:24 IP --> 106.76.78.157 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 03-12-22 10:55:29 IP --> 106.76.78.157 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.

@@ -1,0 +1,25 @@
+2022-11-18 00:12:02	49.206.11.172	Admin	admin	REC22_20 - PRO22_27 recipe is added.
+2022-11-18 00:12:15	49.206.11.172	Admin	admin	PC_9 -  Product Combo is deleted.
+2022-11-18 00:12:18	49.206.11.172	Admin	admin	PC_10 -  Product Combo is deleted.
+2022-11-18 00:12:21	49.206.11.172	Admin	admin	PC_12 -  Product Combo is deleted.
+2022-11-18 00:15:24	49.206.11.172	Admin	admin	PC_13 - Combo 1Product Combo is updated.
+2022-11-18 00:21:19	49.206.11.172	Admin	admin	PC_14 - Combo 2Product Combo is updated.
+2022-11-18 00:42:05	49.206.11.172	Admin	admin	PC_15 - Combo 3Product Combo is updated.
+2022-11-18 00:58:47	49.206.11.172	Admin	admin	PC_15 - Combo 3Product Combo is updated.
+18-11-22 02:34:47	223.231.157.172	Admin	admin	USR22_47 - Sara Chef User is added.
+Dt --> 18-11-22 02:37:12 IP --> 223.231.157.172 LOGIN USER --> USR22_47 ADDED USER --> USR22_47 	USR22_47 User id is login.
+2022-11-18 03:27:49	49.206.14.116	Admin	admin	COP22_6 - OFF8 coupon is updated.
+2022-11-18 03:28:21	49.206.14.116	Admin	admin	COP22_6 - OFF8 coupon is updated.
+2022-11-18 03:29:37	49.206.14.116	Admin	admin	PC_13 - Combo 1Product Combo is updated.
+2022-11-18 03:34:12	49.206.14.116	Admin	admin	COP22_6 - OFF8 coupon is updated.
+2022-11-18 03:35:15	49.206.14.116	Admin	admin	PC_13 - Combo 1Product Combo is updated.
+2022-11-18 03:42:17	49.206.14.116	Admin	admin	Textsms Setting is updated.
+2022-11-18 03:43:03	49.206.14.116	Admin	admin	OFF22_4 - Xmas offer is updated.
+2022-11-18 03:43:45	49.206.14.116	Admin	admin	OFF22_3 - DiwaliDhamaka offer is updated.
+Dt --> 18-11-22 12:24:13 IP --> 152.57.115.137 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+18-11-22 12:30:08	152.57.115.137	Admin	admin	PRO22_32 - بريد  بوتر Product is updated.
+Dt --> 18-11-22 06:17:08 IP --> 152.57.115.137 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 18-11-22 06:17:16 IP --> 152.57.115.137 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 18-11-22 06:54:28 IP --> 152.57.115.137 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-18 19:04:32	152.57.115.137	Admin	admin	OFF22_4 - Xmas offer is updated.
+18-11-22 07:51:52	152.57.115.137	Admin	admin	USR22_48 - palu User is added.

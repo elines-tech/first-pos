@@ -1,0 +1,24 @@
+Dt --> 12-11-22 10:46:04 IP --> 152.57.116.19 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-12 10:48:33	152.57.116.19	Admin	admin	BRD_26 - test barnd brand is added.
+2022-11-12 10:52:24	152.57.116.19	Admin	admin	BRD_26 - test barnd brand is deleted.
+2022-11-12 10:57:11	152.57.116.19	Admin	admin	CAT_40 - test1 category is added.
+2022-11-12 10:57:31	152.57.116.19	Admin	admin	SCAT_31 - test1 subcategory is added.
+2022-11-12 10:57:50	152.57.116.19	Admin	admin	CAT_40 - test1 category is deleted.
+2022-11-12 11:08:57	152.57.116.19	Admin	admin	TAG_37 - Group Test Tax Group is added.
+2022-11-12 11:13:25	152.57.116.19	Admin	admin	TAG_37 -  Tax group is deleted.
+2022-11-12 11:13:48	152.57.116.19	Admin	admin	TAG_38 - tax group two Tax Group is added.
+2022-11-12 11:14:00	152.57.116.19	Admin	admin	TAG_38 - tax group two Tax Group is updated.
+2022-11-12 11:34:29	152.57.116.19	Admin	admin	IN22_4 - SUP22_25 of BR22_36 having amount 999.00 inward is updated.
+2022-11-12 11:35:33	152.57.116.19	Admin	admin	IN22_3 - SUP22_26 of BR22_35 having amount 5376.00 inward is updated.
+2022-11-12	152.57.116.19	Admin	admin	ACTE_2 - test Account Expense is added.
+2022-11-12 11:37:55	152.57.116.19	Admin	admin	ACTE_2 - test Acccount Expense is deleted.
+2022-11-12	152.57.116.19	Admin	admin	ACTE_3 - test Account Expense is added.
+2022-11-12 11:41:53	152.57.116.19	Admin	admin	ACTE_3 - test Acccount Expense is deleted.
+Dt --> 12-11-22 11:55:52 IP --> 152.57.116.19 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 12-11-22 01:42:05 IP --> 152.57.116.19 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 12-11-22 01:43:23 IP --> 49.36.33.212 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 12-11-22 01:53:37 IP --> 49.36.33.212 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-12 14:04:32	152.57.116.19	Admin	admin	CAT_3 - This is SMS Template. Check dependency. sms template is updated.
+Dt --> 12-11-22 04:43:28 IP --> 152.57.116.19 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 12-11-22 06:01:12 IP --> 152.57.116.19 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 12-11-22 08:42:22 IP --> 49.36.33.212 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.

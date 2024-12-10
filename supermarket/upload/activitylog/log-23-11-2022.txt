@@ -1,0 +1,37 @@
+Dt --> 23-11-22 10:04:18 IP --> 157.33.57.9 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 23-11-22 12:23:54 IP --> 49.36.35.64 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-23 13:00:00	157.33.57.9	Admin	admin	IN22_4 - SUP22_1 of BR22_4 having amount 45600.00 inward is added.
+23-11-22 01:12:45	157.33.57.9	Admin	admin	SUP22_2 - seema Supplier is added.
+23-11-22 01:16:04	157.33.57.9	Admin	admin	SUP22_1 - super marketSupplier is updated.
+2022-11-23 13:38:12	157.33.57.9	Admin	admin	IN22_5 - BR22_4 of BR22_5 having amount 4000.00  is transfer.
+2022-11-23 13:41:52	157.33.57.9	Admin	admin	IN22_6 - BR22_4 of BR22_5 having amount 4000.00  is transfer.
+2022-11-23 13:43:42	157.33.57.9	Admin	admin	IN22_7 - BR22_4 of BR22_5 having amount 2000.00  is transfer.
+2022-11-23 14:02:23	49.36.35.64	Admin	admin	GIC22_1 - TestGiftCard giftcard is added.
+2022-11-23 14:13:21	49.36.35.64	Admin	admin	GIC22_2 - Pariatur Tenetur sed illum pariatur Praesentium non giftcard is added.
+2022-11-23 14:15:17	49.36.35.64	Admin	admin	GIC22_3 - Voluptatem Et reiciendis molestias facilis expedita enim tenetur non similique amet eveniet accus giftcard is added.
+2022-11-23 14:15:52	49.36.35.64	Admin	admin	GIC22_4 - Tempor magnam consequatur Voluptatem et aliquam distinctio Provident error et provident cumque n giftcard is added.
+2022-11-23 14:16:05	49.36.35.64	Admin	admin	GIC22_4 - Tempor magnam consequatur Voluptatem et aliquam distinctio Provident error et provident cumque n giftcard is deleted.
+2022-11-23 14:16:11	49.36.35.64	Admin	admin	GIC22_3 - Voluptatem Et reiciendis molestias facilis expedita enim tenetur non similique amet eveniet accus giftcard is deleted.
+2022-11-23 14:16:18	49.36.35.64	Admin	admin	GIC22_2 - Pariatur Tenetur sed illum pariatur Praesentium non giftcard is deleted.
+2022-11-23 14:24:46	157.33.57.9	Admin	admin	IN22_8 - BR22_4 of BR22_5 having amount 2000.00  is transfer.
+2022-11-23 14:25:15	157.33.57.9	Admin	admin	IN22_9 - BR22_4 of BR22_5 having amount 4000.00  is transfer.
+2022-11-23 15:13:15	157.33.57.9	Admin	admin	OFF22_3 - sunday offer is added.
+2022-11-23 15:17:24	157.33.57.9	Admin	admin	OFF22_4 - sample offer is added.
+2022-11-23 15:23:59	157.33.57.9	Admin	admin	R_7 - role role is added.
+2022-11-23 15:24:10	157.33.57.9	Admin	admin	true - role role is updated.
+2022-11-23 15:40:29	157.33.57.9	Admin	admin	 - sample two two sms template is added.
+2022-11-23 15:41:07	157.33.57.9	Admin	admin	 - Quis aperiam et mole email template is added.
+Dt --> 23-11-22 03:52:13 IP --> 157.33.57.9 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 23-11-22 03:53:04 IP --> 157.33.57.9 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 23-11-22 03:54:55 IP --> 106.76.78.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 23-11-22 03:55:15 IP --> 106.76.78.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 23-11-22 04:33:25 IP --> 157.33.57.9 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier loggedout.
+Dt --> 23-11-22 05:15:33 IP --> 106.76.78.140 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 23-11-22 07:01:50 IP --> 106.76.78.167 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier loggedout.
+Dt --> 23-11-22 07:05:34 IP --> 49.206.10.91 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-23 19:11:39	106.76.78.167	Admin	admin	IN22_3 - SUP22_1 of BR22_2 having amount 40000.00 inward is updated.
+2022-11-23 19:12:25	106.76.78.167	Admin	admin	BAR22_3 - barcode is generated.
+2022-11-23 19:17:37	49.206.10.91	Admin	admin	BAR22_4 - barcode is generated.
+2022-11-23 19:17:37	49.206.10.91	Admin	admin	BAR22_5 - barcode is generated.
+2022-11-23 19:22:52	49.206.10.91	Admin	admin	BAR22_6 - barcode is generated.
+2022-11-23 19:24:39	49.206.10.91	Admin	admin	BAR22_7 - barcode is generated.

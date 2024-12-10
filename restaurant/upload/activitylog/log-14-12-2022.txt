@@ -1,0 +1,10 @@
+Dt --> 14-12-22 11:28:23 IP --> 127.0.0.1 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-14 12:40:06	127.0.0.1	Admin	admin	true - Filtered Water item is updated.
+2022-12-14 12:43:43	127.0.0.1	Admin	admin	true - Filtered Water item is updated.
+Dt --> 14-12-22 12:45:20 IP --> 127.0.0.1 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 14-12-22 12:46:32 IP --> 127.0.0.1 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 14-12-22 03:51:57 IP --> 127.0.0.1 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-14 15:54:00	127.0.0.1	Admin	admin	REC22_1 - PRO22_1 recipe is updated.
+Dt --> 14-12-22 07:58:18 IP --> 127.0.0.1 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 14-12-22 08:10:43 IP --> 127.0.0.1 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-14 20:16:57	127.0.0.1	Admin	admin	RECL22_11 recipe item deleted

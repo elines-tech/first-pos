@@ -1,0 +1,20 @@
+Dt --> 21-09-22 08:07:49 IP --> 106.193.197.133 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-09-22 08:10:53 IP --> 49.36.34.156 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-09-21 09:38:02	106.193.197.133	ADMIN	neosao	IN22_14 - SUP22_13 of BR22_27 having amount 500 inward is added.
+2022-09-21 11:20:43	106.193.197.133	ADMIN	neosao	IN22_15 - SUP22_13 of BR22_27 having amount 140 inward is added.
+2022-09-21 11:39:26	106.193.197.133	ADMIN	neosao	IN22_15 - SUP22_13 of BR22_27 having amount 540 inward is added.
+2022-09-21 12:43:10	106.193.197.133	ADMIN	neosao	SCAT_1 - Vegetables subcategory is added.
+2022-09-21 12:48:22	106.193.197.133	ADMIN	neosao	SCAT_2 - Fruits subcategory is added.
+2022-09-21 12:51:49	106.193.197.133	ADMIN	neosao	SCAT_3 - Cheeze subcategory is added.
+2022-09-21 12:53:06	106.193.197.133	ADMIN	neosao	SCAT_4 - Butter subcategory is added.
+Dt --> 21-09-22 01:17:36 IP --> 152.57.173.141 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-09-22 01:21:02 IP --> 152.57.173.141 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+21-09-22 01:57:18	106.193.197.133	ADMIN	neosao	PRO22_21 - كروت Product is added.
+2022-09-21 14:02:13	106.193.197.133	ADMIN	neosao	SCAT_4 - Butter Subcategory is updated.
+2022-09-21 14:06:27	106.193.197.133	ADMIN	neosao	SCAT_5 - Cereal subcategory is added.
+21-09-22 14:08:18	106.193.197.133	ADMIN	neosao	PRO22_19 - وهية Product is updated.
+2022-09-21 14:10:12	106.193.197.133	ADMIN	neosao	SCAT_6 - Fragrance Maker subcategory is added.
+21-09-22 14:10:33	106.193.197.133	ADMIN	neosao	PRO22_18 - برفم Product is updated.
+2022-09-21 14:14:01	106.193.197.133	ADMIN	neosao	SCAT_7 - Raw material subcategory is added.
+21-09-22 14:22:22	106.193.197.133	ADMIN	neosao	PRO22_20 - ملك Product is updated.
+21-09-22 14:22:59	106.193.197.133	ADMIN	neosao	PRO22_21 - كروت Product is updated.

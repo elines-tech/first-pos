@@ -1,0 +1,19 @@
+Dt --> 06-10-22 06:53:46 IP --> 106.200.102.30 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-06 07:21:22	106.200.102.30	ADMIN	neosao	BAR22_4 - barcode is generated.
+2022-10-06 07:21:22	106.200.102.30	ADMIN	neosao	BAR22_5 - barcode is generated.
+2022-10-06 07:21:29	106.200.102.30	ADMIN	neosao	BAR22_6 - barcode is generated.
+2022-10-06 07:21:29	106.200.102.30	ADMIN	neosao	BAR22_7 - barcode is generated.
+2022-10-06 07:28:11	106.200.102.30	ADMIN	neosao	BAR22_7 barcode is deleted.
+2022-10-06 07:28:22	106.200.102.30	ADMIN	neosao	BAR22_6 barcode is deleted.
+Dt --> 06-10-22 08:11:56 IP --> 49.36.41.252 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-10-22 01:55:56 IP --> 49.36.41.252 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-10-22 01:55:59 IP --> 152.57.180.114 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-10-22 03:02:57 IP --> 49.36.41.252 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-06 15:20:17	106.210.207.80	ADMIN	neosao	IN22_2 - BR22_27 of BR22_28 having amount 300.00  is transfer.
+2022-10-06 15:21:29	106.210.207.80	ADMIN	neosao	IN22_2 - BR22_27 of BR22_28 having amount 300.00  is transfer.
+2022-10-06 15:22:31	106.210.207.80	ADMIN	neosao	IN22_2 - BR22_27 of BR22_28 having amount 300.00  is transfer.
+2022-10-06 15:34:19	106.210.207.80	ADMIN	neosao	IN22_3 - BR22_27 of BR22_28 having amount 300.00  is transfer.
+Dt --> 06-10-22 04:12:57 IP --> 49.36.41.252 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-06 17:32:13	106.210.207.80	ADMIN	neosao	IN22_4 - BR22_27 of BR22_28 having amount 600.00  is transfer.
+2022-10-06 17:34:29	106.210.207.80	ADMIN	neosao	IN22_5 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+2022-10-06 17:38:31	106.210.207.80	ADMIN	neosao	IN22_6 - BR22_27 of BR22_28 having amount 2500.00  is transfer.

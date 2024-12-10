@@ -1,0 +1,55 @@
+Dt --> 07-11-22 10:23:17 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 10:50:47 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 11:41:19 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 11:48:41 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 12:04:27 IP --> 49.206.11.237 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+2022-11-07 12:09:17	49.206.11.237	Admin	admin	BRD_24 - H&M brand is added.
+2022-11-07 12:18:01	49.206.11.237	Admin	admin	CAT_36 - category one category is deleted.
+Dt --> 07-11-22 12:18:12 IP --> 49.36.33.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 12:18:31	49.36.33.104	Admin	admin	TAG_35 -  Tax group is deleted.
+2022-11-07 12:18:44	49.206.11.237	Admin	admin	CAT_37 - Jeans category is added.
+Dt --> 07-11-22 12:18:54 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-07 12:19:03	49.206.11.237	Admin	admin	CAT_37 - Jeans category is deleted.
+2022-11-07 12:21:18	49.206.11.237	Admin	admin	TAG_35 - TAX Group -23 Tax Group is updated.
+Dt --> 07-11-22 12:48:26 IP --> 49.36.33.104 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+2022-11-07 12:54:32	49.206.11.237	Admin	admin	TAG_35 - TAX Group Tax Group is updated.
+2022-11-07 12:54:45	49.206.11.237	Admin	admin	TAG_35 - TAX Group - 23 Tax Group is updated.
+2022-11-07 12:55:02	49.206.11.237	Admin	admin	TAC_36 - GST Tax Rate is updated.
+2022-11-07 12:55:39	49.206.11.237	Admin	admin	TAG_36 - Group 2- 8 Tax Group is added.
+07-11-22 01:12:06	49.206.11.237	Admin	admin	PRO22_18 - جنس لادس  Product is added.
+Dt --> 07-11-22 01:23:39 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 13:23:56	152.57.189.107	Admin	admin	BRD_25 - test brand is added.
+07-11-22 01:30:26	49.206.11.237	Admin	admin	PRO22_19 - منس  جنس  Product is added.
+07-11-22 01:33:45	49.206.11.237	Admin	admin	SUP22_25 - Stefan Persson Supplier is added.
+07-11-22 01:35:32	49.206.11.237	Admin	admin	PRO22_20 - بالت  بومبص  Product is added.
+2022-11-07 13:40:56	49.206.11.237	Admin	admin	BR22_36 - Branch 2 Branch is added.
+2022-11-07 13:41:16	49.206.11.237	Admin	admin	 - Pair base unit is added.
+2022-11-07 13:41:57	49.206.11.237	Admin	admin	UOM_15 - Pair unit is added.
+2022-11-07 13:42:10	49.206.11.237	Admin	admin	CO22_23 - 201 counter is added.
+07-11-22 01:42:53	49.206.11.237	Admin	admin	USR22_19 - Priyanka User is added.
+Dt --> 07-11-22 02:20:29 IP --> 188.48.242.177 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 02:22:30 IP --> 188.48.242.177 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 04:27:51 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 16:29:18	49.206.11.237	Admin	admin	OFF22_7 - Flat5% offer is added.
+2022-11-07 16:30:15	49.206.11.237	Admin	admin	OFF22_8 - Upto40 Off offer is added.
+2022-11-07 16:30:48	49.206.11.237	Admin	admin	GIC22_6 - DiwaliBumperOffer giftcard is added.
+2022-11-07 16:31:47	49.206.11.237	Admin	admin	OFF22_7 - Flat5% offer is updated.
+2022-11-07 16:32:43	49.206.11.237	Admin	admin	 - This is SMS Template sms template is added.
+2022-11-07 16:32:59	49.206.11.237	Admin	admin	CAT_3 - This is SMS Template. Check dependency. sms template is updated.
+Dt --> 07-11-22 04:45:37 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 16:50:21	152.57.189.107	Admin	admin	GIC22_6 - DiwaliBumperOffer giftcard is updated.
+2022-11-07 16:51:00	152.57.189.107	Admin	admin	GIC22_7 - Sample gift card giftcard is added.
+2022-11-07 16:52:51	152.57.189.107	Admin	admin	GIC22_7 - Sample gift card giftcard is deleted.
+2022-11-07 16:56:18	152.57.189.107	Admin	admin	OFF22_9 - test offer is added.
+2022-11-07 16:56:30	152.57.189.107	Admin	admin	OFF22_9 - test offer is updated.
+2022-11-07 16:56:36	152.57.189.107	Admin	admin	OFF22_9 - test offer is deleted.
+Dt --> 07-11-22 05:14:18 IP --> 152.57.189.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-11-22 07:00:22 IP --> 49.36.33.104 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 07-11-22 07:10:10 IP --> 49.36.33.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 07:24:27 IP --> 49.36.33.104 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-11-22 07:33:29 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-11-22 07:33:33 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-11-22 07:33:42 IP --> 49.206.11.237 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-07 19:41:18	49.206.11.237	Admin	admin	true - CAT brand is updated.
+Dt --> 07-11-22 08:03:32 IP --> 49.206.11.237 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+07-11-22 20:08:38	49.206.11.237	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.

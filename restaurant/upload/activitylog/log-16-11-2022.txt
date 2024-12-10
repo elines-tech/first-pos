@@ -1,0 +1,33 @@
+Dt --> 16-11-22 10:34:19 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-16 10:55:51	152.57.123.174	Admin	admin	IN22_6 - BR22_27 of BR22_29 having amount 50.00  is transfer.
+2022-11-16 11:06:59	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 40000.00 inward is added.
+2022-11-16 11:18:01	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 60000.00 inward is added.
+2022-11-16 11:18:35	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 100000.00 inward is updated.
+2022-11-16 11:34:37	152.57.123.174	Admin	admin	IN22_2 - BR22_27 of BR22_29 having amount 4000.00  is transfer.
+2022-11-16 12:07:51	152.57.123.174	Admin	admin	INL22_3 deleted Transfer items
+2022-11-16 12:07:53	152.57.123.174	Admin	admin	INL22_3 deleted Transfer items
+Dt --> 16-11-22 01:06:25 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-16 13:07:25	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 40000.00 inward is added.
+2022-11-16 13:08:24	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 80000.00 inward is updated.
+2022-11-16 13:08:56	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 80000.00 inward is updated.
+2022-11-16 14:01:23	152.57.123.174	Admin	admin	IN22_2 - BR22_27 of BR22_29 having amount 3000.00  is transfer.
+2022-11-16 14:02:38	152.57.123.174	Admin	admin	IN22_2 - BR22_27 of BR22_29 having amount 4000.00  is transfer.
+2022-11-16 14:03:17	152.57.123.174	Admin	admin	IN22_2 - BR22_27 of BR22_29 having amount 4000.00  is transfer.
+Dt --> 16-11-22 02:10:04 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 02:17:12 IP --> 49.206.10.114 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 02:27:47 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-16 14:49:53	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 30000.00 inward is added.
+2022-11-16 14:59:55	152.57.123.174	Admin	admin	IN22_1 - SUP22_19 of BR22_27 having amount 30000.00 inward is updated.
+2022-11-16 15:01:07	152.57.123.174	Admin	admin	IN22_2 - BR22_27 of BR22_29 having amount 2000.00  is transfer.
+2022-11-16 15:01:50	152.57.123.174	Admin	admin	IN22_2 - BR22_27 of BR22_29 having amount 2000.00  is transfer.
+Dt --> 16-11-22 03:02:14 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 04:10:17 IP --> 49.36.35.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 04:19:37 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 04:20:15 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 05:04:21 IP --> 49.36.35.98 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 05:16:30 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-16 17:21:59	152.57.123.174	Admin	admin	PCAT_13 - category new product category is added.
+16-11-22 05:40:00	152.57.123.174	Admin	admin	PRO22_32 - بوتر Product is updated.
+Dt --> 16-11-22 05:53:06 IP --> 49.206.13.252 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-16 17:55:10	152.57.123.174	Admin	admin	PEXT22_9 deleted Product Extras
+2022-11-16 17:55:12	152.57.123.174	Admin	admin	PEXT22_9 deleted Product Extras

@@ -1,0 +1,71 @@
+Dt --> 04-11-22 10:41:54 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 11:11:47 IP --> 49.36.41.131 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+2022-11-04 11:22:12	49.36.41.131	Cashier	seema	SGC22_1 - GIC22_5 Gift card is purchases.
+2022-11-04 11:23:43	49.36.41.131	Cashier	seema	SGC22_1 - GIC22_5 Gift card is purchases.
+04-11-22 12:00:58	152.57.162.222	Admin	admin	USR22_1 - admin Password is updated.
+Dt --> 04-11-22 12:01:07 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 12:01:36 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 12:01:55	152.57.162.222	Admin	admin	USR22_1 - admin Password is updated.
+Dt --> 04-11-22 12:02:07 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 12:23:08 IP --> 106.200.117.193 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 12:57:49 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 13:18:50	152.57.162.222	Admin	admin	PRO22_16 - برودكت أن Product is updated.
+04-11-22 13:19:11	152.57.162.222	Admin	admin	PRO22_16 - برودكت أن Product is updated.
+04-11-22 13:19:43	152.57.162.222	Admin	admin	PRO22_16 - برودكت أن Product is updated.
+Dt --> 04-11-22 01:23:09 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-04 13:23:13	106.200.117.193	Admin	admin	IN22_2 - BR22_1 of BR22_2 having amount 100.00  is transfer.
+2022-11-04 13:52:36	106.200.117.193	Admin	admin	IN22_2 - BR22_1 of BR22_2 having amount 250  is transfer.
+2022-11-04	106.200.117.193	Admin	admin	ACTE_1 - Expense 1 Account Expense is added.
+2022-11-04	106.200.117.193	Admin	admin	ACTE_2 - delete Account Expense is added.
+2022-11-04 14:20:06	106.200.117.193	Admin	admin	ACTE_2 - delete Acccount Expense is deleted.
+2022-11-04 14:33:53	106.200.117.193	Admin	admin	OFF22_1 - Flat50 offer is added.
+2022-11-04 14:34:14	106.200.117.193	Admin	admin	OFF22_1 - Flat50 offer is updated.
+2022-11-04 14:34:33	106.200.117.193	Admin	admin	OFF22_2 - sdfs offer is added.
+2022-11-04 14:37:32	106.200.117.193	Admin	admin	OFF22_2 - CAP8 offer is updated.
+2022-11-04 14:38:10	106.200.117.193	Admin	admin	GIC22_1 - DIWALIOFFER giftcard is added.
+2022-11-04 14:38:28	106.200.117.193	Admin	admin	GIC22_2 - DELTE giftcard is added.
+2022-11-04 14:38:35	106.200.117.193	Admin	admin	GIC22_2 - DELTE giftcard is deleted.
+2022-11-04 14:39:05	106.200.117.193	Admin	admin	 - This is SMS TEMPLATE sms template is added.
+2022-11-04 14:40:42	106.200.117.193	Admin	admin	 - EMAIL TEMPLATE CHECK email template is added.
+Dt --> 04-11-22 02:49:05 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 02:51:41 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 03:17:39 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 03:18:11	152.57.162.222	Admin	admin	USR22_1 - USR22_1 Profile is updated.
+Dt --> 04-11-22 03:18:20 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 04:07:46 IP --> 49.36.41.131 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 04:11:23 IP --> 49.36.41.131 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 04:28:07 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+2022-11-04 16:34:01	106.200.117.193	Admin	admin	BAR22_1 - barcode is generated.
+Dt --> 04-11-22 04:49:38 IP --> 49.36.41.131 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 04:51:40 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 04:55:23 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 04:55:36 IP --> 152.57.162.222 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+Dt --> 04-11-22 04:55:43 IP --> 152.57.162.222 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+04-11-22 04:56:03	106.200.117.193	Admin	admin	USR22_2 - Priyanka User is updated.
+04-11-22 05:04:53	106.200.117.193	Admin	admin	USR22_2 - Priyanka User is updated.
+Dt --> 04-11-22 05:05:04 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 04-11-22 05:05:08 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 04-11-22 05:14:23 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 05:14:28 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 05:16:00 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 05:16:07 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 05:24:06 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 04-11-22 05:24:15 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+2022-11-04 17:58:47	106.200.117.193	Admin	admin	BAR22_2 - barcode is generated.
+Dt --> 04-11-22 05:59:19 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 04-11-22 05:59:24 IP --> 106.200.117.193 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 04-11-22 06:34:51 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 06:35:09	152.57.162.222	Admin	admin	USR22_1 - admin Password is updated.
+Dt --> 04-11-22 06:35:14 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 06:36:20 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-11-22 06:38:12 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 06:47:12 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 06:48:11	152.57.162.222	Admin	admin	USR22_1 - USR22_1 Profile is updated.
+Dt --> 04-11-22 06:48:18 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 07:10:38 IP --> 49.36.41.131 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 04-11-22 08:54:04 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 08:54:32	152.57.162.222	Admin	admin	USR22_10 - seema User is updated.
+Dt --> 04-11-22 09:00:44 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-11-22 09:03:57 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+04-11-22 09:04:26	152.57.162.222	Admin	admin	USR22_10 - seema User is updated.
+Dt --> 04-11-22 09:04:53 IP --> 152.57.162.222 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

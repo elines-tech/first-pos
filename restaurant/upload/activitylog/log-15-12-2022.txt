@@ -1,0 +1,5 @@
+Dt --> 15-12-22 10:30:13 IP --> 127.0.0.1 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 15-12-22 01:27:24 IP --> 127.0.0.1 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 15-12-22 01:41:41 IP --> 127.0.0.1 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 15-12-22 06:05:12 IP --> 127.0.0.1 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 15-12-22 08:54:25 IP --> 127.0.0.1 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.

@@ -1,0 +1,80 @@
+Dt --> 08-09-22 07:53:01 IP --> 152.57.195.242 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+08-09-22 07:53:27	152.57.195.242	ADMIN	admin	USR22_9 - seema User is updated.
+08-09-22 07:54:36	152.57.195.242	ADMIN	admin	USR22_9 - seema User is updated.
+Dt --> 08-09-22 08:06:02 IP --> 106.193.246.251 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 08-09-22 08:17:42 IP --> 49.206.8.196 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+08-09-22 08:20:17	49.206.8.196	ADMIN	admin	USR22_11 - User One User is added.
+08-09-22 08:20:28	49.206.8.196	ADMIN	admin	 User is deleted.
+08-09-22 08:20:32	49.206.8.196	ADMIN	admin	 User is deleted.
+08-09-22 08:21:51	152.57.195.242	ADMIN	admin	 User is deleted.
+08-09-22 08:22:37	49.206.8.196	ADMIN	admin	USR22_11 - User One User is updated.
+08-09-22 08:29:06	152.57.195.242	ADMIN	admin	USR22_2 User is deleted.
+08-09-22 08:29:14	152.57.195.242	ADMIN	admin	USR22_5 User is deleted.
+08-09-22 08:29:58	49.206.8.196	ADMIN	admin	USR22_8 User is deleted.
+08-09-22 08:30:40	49.206.8.196	ADMIN	admin	USR22_12 - User two User is added.
+08-09-22 08:30:47	49.206.8.196	ADMIN	admin	USR22_12 - User two User is updated.
+08-09-22 08:30:58	49.206.8.196	ADMIN	admin	USR22_11 User is deleted.
+08-09-22 09:44:33	49.206.8.196	ADMIN	admin	PRO22_26 - شك أبن بريك  Product is added.
+08-09-22 09:53:04	49.206.8.196	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+08-09-22 09:55:12	49.206.8.196	ADMIN	admin	ITCC_18 - My cat 1 Category add on is added.
+08-09-22 09:56:36	49.206.8.196	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+08-09-22 09:57:10	49.206.8.196	ADMIN	admin	ITCC_19 - My cat 2 Category add on is added.
+2022-09-08 10:12:37	49.206.8.196	ADMIN	admin	PC_23 - My combo 2Product Combo is updated.
+2022-09-08 10:12:51	49.206.8.196	ADMIN	admin	PC_20 -  Product Combo is deleted.
+2022-09-08 10:12:54	49.206.8.196	ADMIN	admin	PC_19 -  Product Combo is deleted.
+2022-09-08 10:12:58	49.206.8.196	ADMIN	admin	PC_15 -  Product Combo is deleted.
+2022-09-08 10:13:02	49.206.8.196	ADMIN	admin	PC_8 -  Product Combo is deleted.
+2022-09-08 10:13:05	49.206.8.196	ADMIN	admin	PC_14 -  Product Combo is deleted.
+2022-09-08 10:13:07	49.206.8.196	ADMIN	admin	PC_10 -  Product Combo is deleted.
+2022-09-08 10:13:15	49.206.8.196	ADMIN	admin	PC_18 -  Product Combo is deleted.
+2022-09-08 10:13:27	49.206.8.196	ADMIN	admin	PC_22 - My Combo 1Product Combo is updated.
+2022-09-08 10:13:42	49.206.8.196	ADMIN	admin	PC_22 - My Combo 1Product Combo is updated.
+2022-09-08 10:13:46	49.206.8.196	ADMIN	admin	PC_22 - My Combo 1Product Combo is updated.
+2022-09-08 10:13:48	49.206.8.196	ADMIN	admin	PC_22 - My Combo 1Product Combo is updated.
+2022-09-08 10:16:03	49.206.8.196	ADMIN	admin	PC_23 - My combo 2Product Combo is updated.
+2022-09-08 10:16:12	49.206.8.196	ADMIN	admin	PC_23 - My combo 2Product Combo is updated.
+2022-09-08 10:20:35	49.206.8.196	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+2022-09-08 10:21:45	49.206.8.196	ADMIN	admin	PC_24 - My combo 3 priyaProduct Combo is updated.
+2022-09-08 10:22:22	49.206.8.196	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+08-09-22 10:35:54	49.206.8.196	ADMIN	admin	PRO22_27 - d Product is added.
+08-09-22 10:36:38	49.206.8.196	ADMIN	admin	PRO22_27 - d Product is updated.
+08-09-22 10:46:26	49.206.8.196	ADMIN	admin	PRO22_27 - d Product is updated.
+08-09-22 10:46:45	49.206.8.196	ADMIN	admin	PRO22_27Product is deleted.
+Dt --> 08-09-22 10:51:26 IP --> 49.36.45.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-08 12:52:26	49.206.8.196	ADMIN	admin	TAB_12 - 5 table is added.
+Dt --> 08-09-22 02:16:27 IP --> 49.36.45.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-08 14:18:49	152.57.195.242	ADMIN	admin	IN22_10 - BR22_6 of  having amount 20  is transfer.
+2022-09-08 14:20:52	49.206.8.196	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+2022-09-08 14:22:23	49.206.8.196	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+2022-09-08 14:22:32	49.206.8.196	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+2022-09-08 14:22:37	49.206.8.196	ADMIN	admin	PC_24 - My combo 3Product Combo is updated.
+2022-09-08 14:22:53	49.206.8.196	ADMIN	admin	PC_23 -  Product Combo is deleted.
+2022-09-08 14:23:04	152.57.195.242	ADMIN	admin	IN22_11 - BR22_6 of  having amount 20  is transfer.
+2022-09-08 14:23:56	49.206.8.196	ADMIN	admin	TAC_17 - GST 3 Tax Rate is updated.
+2022-09-08 14:24:05	49.206.8.196	ADMIN	admin	TAC_18 - GST 4 Tax Rate is updated.
+2022-09-08 14:26:16	152.57.195.242	ADMIN	admin	IN22_12 - BR22_10 of BR22_11 having amount 440  is transfer.
+2022-09-08 14:26:50	49.206.8.196	ADMIN	admin	BR22_12 - My Branch 6 Branch is added.
+2022-09-08 14:27:10	49.206.8.196	ADMIN	admin	BR22_12 - My Branch 6 Branch is updated.
+Dt --> 08-09-22 02:55:43 IP --> 106.220.239.166 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 08-09-22 03:18:11 IP --> 49.36.45.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-08 16:16:39	152.57.195.242	ADMIN	admin	IN22_13 - SUP22_8 of BR22_11 having amount 14000 inward is added.
+2022-09-08 16:18:14	152.57.195.242	ADMIN	admin	IN22_14 - BR22_6 of BR22_10 having amount 4060  is transfer.
+2022-09-08 16:21:22	152.57.195.242	ADMIN	admin	IN22_15 - BR22_10 of BR22_6 having amount 40  is transfer.
+2022-09-08 16:23:50	152.57.195.242	ADMIN	admin	IN22_16 - BR22_10 of BR22_6 having amount 4000  is transfer.
+2022-09-08 16:35:53	152.57.195.242	ADMIN	admin	IN22_17 - BR22_6 of BR22_10 having amount 2000  is transfer.
+2022-09-08 16:37:02	152.57.195.242	ADMIN	admin	IN22_17 - BR22_6 of BR22_10 having amount 2000  is transfer.
+2022-09-08 16:39:50	152.57.195.242	ADMIN	admin	IN22_17 - BR22_6 of BR22_10 having amount 2000  is transfer.
+2022-09-08 16:41:41	152.57.195.242	ADMIN	admin	IN22_18 - BR22_6 of BR22_10 having amount 1200  is transfer.
+2022-09-08 16:56:20	152.57.195.242	ADMIN	admin	IN22_19 - BR22_6 of BR22_10 having amount 400  is transfer.
+2022-09-08 16:58:08	152.57.195.242	ADMIN	admin	IN22_19 - BR22_6 of BR22_10 having amount 400  is transfer.
+2022-09-08 17:01:03	152.57.195.242	ADMIN	admin	IN22_19 - BR22_6 of BR22_10 having amount 400  is transfer.
+2022-09-08 17:02:33	152.57.195.242	ADMIN	admin	IN22_20 - BR22_6 of BR22_10 having amount 40  is transfer.
+2022-09-08 17:04:38	152.57.195.242	ADMIN	admin	IN22_21 - BR22_11 of BR22_12 having amount 80  is transfer.
+2022-09-08 17:06:39	152.57.195.242	ADMIN	admin	IN22_22 - BR22_6 of BR22_10 having amount 400  is transfer.
+2022-09-08 17:07:13	152.57.195.242	ADMIN	admin	IN22_22 - BR22_6 of BR22_10 having amount 600  is transfer.
+Dt --> 08-09-22 06:16:51 IP --> 49.206.8.196 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-08 18:19:10	49.206.8.196	ADMIN	admin	IN22_23 - SUP22_8 of BR22_6 having amount 250 inward is added.
+2022-09-08 18:25:00	49.206.8.196	ADMIN	admin	IN22_24 - BR22_6 of BR22_10 having amount 500  is transfer.
+2022-09-08 18:26:07	49.206.8.196	ADMIN	admin	IN22_25 - BR22_6 of BR22_10 having amount 240  is transfer.
+2022-09-08 18:26:57	49.206.8.196	ADMIN	admin	IN22_26 - BR22_6 of BR22_10 having amount 40  is transfer.
+Dt --> 08-09-22 06:35:34 IP --> 152.57.195.242 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.

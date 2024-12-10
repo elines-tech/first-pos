@@ -1,0 +1,173 @@
+Dt --> 17-09-22 06:29:28 IP --> 103.36.82.29 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 06:31:04	103.36.82.29	ADMIN	admin	TAB_15  table is added.
+Dt --> 17-09-22 07:19:56 IP --> 106.220.175.10 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 17-09-22 08:11:34 IP --> 152.57.176.116 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 17-09-22 08:11:47 IP --> 152.57.176.116 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 17-09-22 08:11:55 IP --> 152.57.176.116 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 17-09-22 08:19:47 IP --> 49.36.35.132 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 08:41:22	106.76.78.97	ADMIN	admin	true - Milk item is updated.
+2022-09-17 08:41:35	106.76.78.97	ADMIN	admin	true - Custard Powder item is updated.
+2022-09-17 08:42:16	106.76.78.97	ADMIN	admin	ITEM22_22 - Sugar item is added.
+2022-09-17 08:43:28	106.76.78.97	ADMIN	admin	true - Milk item is updated.
+2022-09-17 08:46:22	106.76.78.97	ADMIN	admin	CAT_18 - Grocery category is updated.
+2022-09-17 08:46:42	106.76.78.97	ADMIN	admin	CAT_17 - Dairy category is updated.
+2022-09-17 08:59:07	106.76.78.97	ADMIN	admin	CAT_1 - Fruits category is added.
+2022-09-17 08:59:18	106.76.78.97	ADMIN	admin	CAT_2 - Vegetables category is added.
+2022-09-17 08:59:39	106.76.78.97	ADMIN	admin	CAT_3 - Oils category is added.
+2022-09-17 08:59:52	106.76.70.92	ADMIN	admin	CAT_4 - Sauces category is added.
+2022-09-17 09:00:25	106.76.78.97	ADMIN	admin	CAT_5 - Dairy category is added.
+2022-09-17 09:01:02	106.76.70.92	ADMIN	admin	CAT_6 - Condiments & Spices category is added.
+Dt --> 17-09-22 09:01:40 IP --> 49.36.35.132 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 09:03:44	106.76.70.92	ADMIN	admin	CAT_7 - Meat category is added.
+2022-09-17 09:03:59	106.76.78.97	ADMIN	admin	CAT_8 - Fish and shellfish category is added.
+2022-09-17 09:06:31	106.76.70.92	ADMIN	admin	CAT_9 - Cereals category is added.
+2022-09-17 09:06:43	106.76.70.92	ADMIN	admin	CAT_10 - Pulses category is added.
+2022-09-17 09:07:31	106.76.70.92	ADMIN	admin	CAT_11 - Beverages category is added.
+2022-09-17 09:09:02	106.76.78.97	ADMIN	admin	UOM_1 - Kilograms unit is added.
+2022-09-17 09:09:57	106.76.78.97	ADMIN	admin	UOM_2 - Liter unit is added.
+2022-09-17 09:10:18	106.76.78.97	ADMIN	admin	UOM_3 - Grams unit is added.
+2022-09-17 09:10:55	106.76.78.97	ADMIN	admin	UOM_4 - Milliliter unit is added.
+2022-09-17 09:11:18	106.76.78.97	ADMIN	admin	UOM_5 - Dozen unit is added.
+2022-09-17 09:11:33	106.76.78.97	ADMIN	admin	UOM_6 - Pices unit is added.
+2022-09-17 09:12:24	106.76.78.97	ADMIN	admin	ITEM22_1 - Sugar item is added.
+2022-09-17 09:12:44	106.76.78.97	ADMIN	admin	ITEM22_2 - Salt item is added.
+2022-09-17 09:13:16	106.76.78.97	ADMIN	admin	ITEM22_3 - Custurd Powder item is added.
+2022-09-17 09:21:04	106.76.78.97	ADMIN	admin	ITEM22_4 - Chilly Powder item is added.
+2022-09-17 09:22:01	106.76.78.97	ADMIN	admin	ITEM22_5 - Wheat item is added.
+2022-09-17 09:22:16	106.76.78.97	ADMIN	admin	ITEM22_6 - Rice item is added.
+2022-09-17 09:23:59	106.76.78.97	ADMIN	admin	ITEM22_7 - Milk item is added.
+2022-09-17 09:25:30	106.76.78.97	ADMIN	admin	ITEM22_8 - Full Cream Milk item is added.
+2022-09-17 09:26:04	106.76.78.97	ADMIN	admin	ITEM22_9 - Condensed Milk item is added.
+2022-09-17 09:27:11	106.76.78.97	ADMIN	admin	ITEM22_10 - Coffee (Liquid Concentrated) item is added.
+2022-09-17 09:27:34	106.76.78.97	ADMIN	admin	ITEM22_11 - Tea (Liquid Concentrated) item is added.
+2022-09-17 09:28:53	106.76.78.97	ADMIN	admin	ITEM22_12 - Cheese (Processed) item is added.
+Dt --> 17-09-22 09:29:29 IP --> 103.36.82.29 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 09:29:30	106.76.78.97	ADMIN	admin	ITEM22_13 - Cheese (Parmesan) item is added.
+2022-09-17 09:30:12	106.76.78.97	ADMIN	admin	ITEM22_14 - Mayonnaise item is added.
+2022-09-17 09:30:24	103.36.82.29	ADMIN	admin	TAB_16  table is added.
+2022-09-17 09:30:38	103.36.82.29	ADMIN	admin	TAB_17  table is added.
+2022-09-17 09:32:43	106.76.78.97	ADMIN	admin	ITEM22_15 - Onions item is added.
+2022-09-17 09:32:53	106.76.78.97	ADMIN	admin	ITEM22_16 - Potatoes item is added.
+2022-09-17 09:33:20	103.36.82.29	ADMIN	admin	TAB_18  table is added.
+2022-09-17 09:33:23	106.76.78.97	ADMIN	admin	ITEM22_17 - Carrots item is added.
+2022-09-17 09:33:43	106.76.78.97	ADMIN	admin	ITEM22_18 - Ginger item is added.
+2022-09-17 09:34:00	106.76.78.97	ADMIN	admin	ITEM22_19 - Garlic item is added.
+2022-09-17 10:02:27	106.76.78.97	ADMIN	admin	ITEM22_20 - Cabbage item is added.
+2022-09-17 10:02:42	106.76.78.97	ADMIN	admin	ITEM22_21 - Lettuce item is added.
+2022-09-17 10:03:09	106.76.78.97	ADMIN	admin	ITEM22_22 - Beet Root item is added.
+2022-09-17 10:03:34	106.76.78.97	ADMIN	admin	ITEM22_23 - Corn item is added.
+2022-09-17 10:04:01	106.76.78.97	ADMIN	admin	ITEM22_24 - Celery item is added.
+2022-09-17 10:04:15	106.76.78.97	ADMIN	admin	ITEM22_25 - Cucumber item is added.
+2022-09-17 10:04:38	106.76.78.97	ADMIN	admin	ITEM22_26 - Bellpepper item is added.
+2022-09-17 10:04:56	106.76.78.97	ADMIN	admin	ITEM22_27 - Broccoli item is added.
+2022-09-17 10:05:11	106.76.78.97	ADMIN	admin	ITEM22_28 - Artichoke item is added.
+2022-09-17 10:06:31	106.76.70.92	ADMIN	admin	ITEM22_29 - Spring Onion item is added.
+2022-09-17 10:07:55	106.76.78.97	ADMIN	admin	ITEM22_30 - Apples item is added.
+2022-09-17 10:08:13	106.76.70.92	ADMIN	admin	ITEM22_31 - Bananas item is added.
+2022-09-17 10:08:27	106.76.70.92	ADMIN	admin	ITEM22_32 - Mangoes item is added.
+2022-09-17 10:08:45	106.76.70.92	ADMIN	admin	ITEM22_33 - Green Apples item is added.
+2022-09-17 10:09:08	106.76.70.92	ADMIN	admin	ITEM22_34 - Strawberries item is added.
+2022-09-17 10:09:34	106.76.78.97	ADMIN	admin	ITEM22_35 - Grapes item is added.
+2022-09-17 10:09:56	106.76.70.92	ADMIN	admin	ITEM22_36 - Appricots item is added.
+2022-09-17 10:10:18	106.76.78.97	ADMIN	admin	ITEM22_37 - Oranges item is added.
+2022-09-17 10:10:45	106.76.78.97	ADMIN	admin	ITEM22_38 - Papaya item is added.
+2022-09-17 10:10:59	106.76.78.97	ADMIN	admin	ITEM22_39 - Guava item is added.
+2022-09-17 10:11:30	106.76.70.92	ADMIN	admin	ITEM22_40 - Dragon Fruit item is added.
+2022-09-17 10:11:53	106.76.70.92	ADMIN	admin	ITEM22_41 - Figs item is added.
+2022-09-17 10:13:04	106.76.78.97	ADMIN	admin	ITEM22_42 - Cherry item is added.
+2022-09-17 10:13:19	106.76.78.97	ADMIN	admin	ITEM22_43 - Raspberries item is added.
+2022-09-17 10:13:42	106.76.78.97	ADMIN	admin	ITEM22_44 - Custard Apple item is added.
+2022-09-17 10:14:09	106.76.78.97	ADMIN	admin	ITEM22_45 - Litchi item is added.
+2022-09-17 10:14:31	106.76.78.97	ADMIN	admin	ITEM22_46 - Plum item is added.
+2022-09-17 10:15:04	152.57.176.116	ADMIN	admin	IN22_1 - SUP22_10 of BR22_15 having amount 4000 inward is added.
+2022-09-17 10:15:11	106.76.78.97	ADMIN	admin	PCAT_1 - Fruit Bowls product category is added.
+2022-09-17 10:15:25	152.57.176.116	ADMIN	admin	IN22_2 - SUP22_10 of BR22_19 having amount 4000 inward is added.
+2022-09-17 10:15:29	106.76.78.97	ADMIN	admin	PCAT_2 - Smoothies product category is added.
+2022-09-17 10:15:47	106.76.78.97	ADMIN	admin	PCAT_3 - Juices product category is added.
+2022-09-17 10:16:37	106.76.78.97	ADMIN	admin	PSCT_1 - Whole Fruit Bowl product Subcategory is added.
+2022-09-17 10:16:56	106.76.78.97	ADMIN	admin	PSCT_2 - Mixed Fruits Bowl product Subcategory is added.
+17-09-22 10:19:51	106.76.78.97	ADMIN	admin	PRO22_1 - Mango Fruit Bowl Product is added.
+2022-09-17 10:20:14	152.57.176.116	ADMIN	admin	IN22_3 - SUP22_13 of BR22_15 having amount 4000 inward is added.
+17-09-22 10:21:18	106.76.78.97	ADMIN	admin	PRO22_2 - Strawberry Fruit Bowl Product is added.
+17-09-22 10:22:52	106.76.78.97	ADMIN	admin	PRO22_3 - Mixed Fruit بول Product is added.
+17-09-22 10:24:06	106.76.78.97	ADMIN	admin	PRO22_4 - Mango سموث Product is added.
+2022-09-17 10:26:12	106.76.70.92	ADMIN	admin	REC22_1 - PRO22_1 recipe is added.
+2022-09-17 10:26:54	106.76.78.97	ADMIN	admin	REC22_2 - PRO22_2 recipe is added.
+2022-09-17 10:29:48	106.76.70.92	ADMIN	admin	REC22_3 - PRO22_3 recipe is added.
+2022-09-17 10:31:06	106.76.78.97	ADMIN	admin	REC22_4 - PRO22_4 recipe is added.
+2022-09-17 10:45:17	106.76.78.97	ADMIN	admin	PCAT_4 - Burger product category is added.
+17-09-22 10:46:32	106.76.78.97	ADMIN	admin	PRO22_5 - Veg برجر Product is added.
+2022-09-17 10:47:37	106.76.70.92	ADMIN	admin	ITEM22_47 - Rice Bran Cooking Oil item is added.
+2022-09-17 10:48:09	106.76.78.97	ADMIN	admin	ITEM22_48 - Chillies item is added.
+2022-09-17 10:49:18	106.76.70.92	ADMIN	admin	ITEM22_49 - Chilli Flakes item is added.
+17-09-22 10:50:47	106.76.78.97	ADMIN	admin	PRO22_6 - Potato Fires Product is added.
+2022-09-17 10:54:52	106.76.78.97	ADMIN	admin	REC22_5 - PRO22_5 recipe is added.
+2022-09-17 10:56:07	106.76.78.97	ADMIN	admin	ITEM22_50 - Baking Flour (All Purpose Flour) item is added.
+Dt --> 17-09-22 10:56:39 IP --> 103.36.82.73 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 10:58:39	152.57.176.116	ADMIN	admin	IN22_4 - SUP22_15 of BR22_19 having amount 4000 inward is added.
+2022-09-17 11:07:59	152.57.176.116	ADMIN	admin	IN22_4 inward is deleted.
+2022-09-17 11:09:14	106.76.78.97	ADMIN	admin	REC22_6 - PRO22_6 recipe is added.
+2022-09-17 11:10:01	152.57.176.116	ADMIN	admin	IN22_5 - SUP22_13 of BR22_19 having amount 4000 inward is added.
+2022-09-17 11:13:32	106.76.78.97	ADMIN	admin	PCAT_4 - Burger & Snacks product category is updated.
+2022-09-17 11:13:45	152.57.176.116	ADMIN	admin	IN22_6 - SUP22_13 of BR22_19 having amount 4000 inward is added.
+2022-09-17 11:13:50	106.76.78.97	ADMIN	admin	PSCT_3 - Burgers product Subcategory is added.
+2022-09-17 11:14:08	106.76.78.97	ADMIN	admin	PSCT_4 - Fries product Subcategory is added.
+2022-09-17 11:15:30	106.76.78.97	ADMIN	admin	PC_1 - Burger MealProduct Combo is updated.
+2022-09-17 13:04:18	152.57.176.116	ADMIN	admin	PC_2 - Fries with cokeProduct Combo is updated.
+Dt --> 17-09-22 01:07:43 IP --> 49.36.35.132 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 13:34:09	152.57.176.116	ADMIN	admin	PC_2 - Fries with cokeProduct Combo is updated.
+2022-09-17 13:34:16	152.57.176.116	ADMIN	admin	PC_2 - Fries with cokeProduct Combo is updated.
+2022-09-17 13:34:49	152.57.176.116	ADMIN	admin	PC_1 - Burger MealProduct Combo is updated.
+2022-09-17 13:36:00	152.57.176.116	ADMIN	admin	PC_1 - Burger MealProduct Combo is updated.
+2022-09-17 13:36:14	152.57.176.116	ADMIN	admin	PC_1 - Burger MealProduct Combo is updated.
+Dt --> 17-09-22 01:41:30 IP --> 49.206.12.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 13:48:12	152.57.176.116	ADMIN	admin	PC_2 - Fries with cokeProduct Combo is updated.
+2022-09-17 13:48:22	152.57.176.116	ADMIN	admin	PC_1 - Burger MealProduct Combo is updated.
+2022-09-17 14:09:47	49.206.12.1	ADMIN	admin	ITEM22_51 - Cucuber item is added.
+Dt --> 17-09-22 02:10:07 IP --> 49.206.12.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 17-09-22 02:10:10 IP --> 49.206.12.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 14:13:12	49.206.12.1	ADMIN	admin	ITEM22_52 - Tomato item is added.
+2022-09-17 14:14:08	49.206.12.1	ADMIN	admin	ITEM22_53 - chat masala item is added.
+2022-09-17 14:18:15	49.206.12.1	ADMIN	admin	ITEM22_54 - Bread item is added.
+17-09-22 02:27:32	49.206.12.1	ADMIN	admin	PRO22_7 - ساندويش Product is added.
+17-09-22 02:27:54	49.206.12.1	ADMIN	admin	PRO22_7 - ساندويش Product is updated.
+17-09-22 02:28:10	49.206.12.1	ADMIN	admin	PRO22_7 - ساندويش Product is updated.
+17-09-22 02:35:07	49.206.12.1	ADMIN	admin	PRO22_8 - فج توست Product is added.
+17-09-22 02:36:51	49.206.12.1	ADMIN	admin	PRO22_8 - فج توست Product is updated.
+17-09-22 02:53:17	49.206.12.1	ADMIN	admin	PRO22_9 - أورانج جويس Product is added.
+2022-09-17 14:54:37	49.206.12.1	ADMIN	admin	ITEM22_51 -  item is deleted.
+2022-09-17 15:03:06	152.57.176.116	ADMIN	admin	true - Bread item is updated.
+2022-09-17 15:20:56	49.206.12.1	ADMIN	admin	REC22_7 - PRO22_7 recipe is added.
+2022-09-17 15:22:11	49.206.12.1	ADMIN	admin	true - Onions item is updated.
+2022-09-17 15:22:29	49.206.12.1	ADMIN	admin	true - Cucummber item is updated.
+2022-09-17 15:22:36	49.206.12.1	ADMIN	admin	ITEM22_51 -  item is deleted.
+2022-09-17 15:24:38	152.57.176.116	ADMIN	admin	true - Tomato item is updated.
+2022-09-17 15:24:50	49.206.12.1	ADMIN	admin	 recipe item deleted
+2022-09-17 15:27:16	49.206.12.1	ADMIN	admin	REC22_7 - PRO22_7 recipe is updated.
+2022-09-17 15:30:10	49.206.12.1	ADMIN	admin	REC22_8 - PRO22_8 recipe is added.
+2022-09-17 15:31:21	49.206.12.1	ADMIN	admin	REC22_9 - PRO22_9 recipe is added.
+2022-09-17 15:33:28	49.206.12.1	ADMIN	admin	REC22_9 - PRO22_9 recipe is deleted.
+2022-09-17 15:34:06	49.206.12.1	ADMIN	admin	REC22_10 - PRO22_9 recipe is added.
+2022-09-17 16:05:49	49.206.12.1	ADMIN	admin	ITEM22_55 - delete item is added.
+2022-09-17 16:05:56	49.206.12.1	ADMIN	admin	ITEM22_55 -  item is deleted.
+2022-09-17 16:10:03	49.206.12.1	ADMIN	admin	PC_3 - Sandwich & juiceProduct Combo is updated.
+2022-09-17 16:14:22	152.57.176.116	ADMIN	admin	RECL22_37 recipe item deleted
+2022-09-17 16:27:33	49.206.12.1	ADMIN	admin	PC_3 - Sandwich & juiceProduct Combo is updated.
+2022-09-17 16:51:55	152.57.176.116	ADMIN	admin	PC_3 - Sandwich & juiceProduct Combo is updated.
+2022-09-17 16:54:45	152.57.176.116	ADMIN	admin	PC_2 - Fries with cokeProduct Combo is updated.
+Dt --> 17-09-22 05:09:24 IP --> 103.36.82.73 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 17:17:33	49.206.12.1	ADMIN	admin	PC_3 - Sandwich & juiceProduct Combo is updated.
+2022-09-17 17:17:39	49.206.12.1	ADMIN	admin	PC_3 - Sandwich & juiceProduct Combo is updated.
+2022-09-17 17:18:09	49.206.12.1	ADMIN	admin	PC_3 - Sandwich & juiceProduct Combo is updated.
+2022-09-17 17:21:45	49.206.12.1	ADMIN	admin	IN22_7 - SUP22_10 of BR22_15 having amount 100 inward is added.
+2022-09-17 17:22:39	49.206.12.1	ADMIN	admin	IN22_7 - SUP22_10 of BR22_15 having amount 485 inward is added.
+2022-09-17 17:23:40	49.206.12.1	ADMIN	admin	IN22_8 - SUP22_13 of BR22_15 having amount 300 inward is added.
+2022-09-17 17:24:40	49.206.12.1	ADMIN	admin	IN22_9 - BR22_15 of BR22_19 having amount 10  is transfer.
+2022-09-17 17:25:36	49.206.12.1	ADMIN	admin	IN22_9 - BR22_15 of BR22_19 having amount 10.00  is transfer.
+2022-09-17 17:27:16	49.206.12.1	ADMIN	admin	IN22_9 - BR22_15 of BR22_19 having amount 10.00  is transfer.
+2022-09-17 17:51:41	152.57.176.116	ADMIN	admin	PC_2 - Fries with cokeProduct Combo is updated.
+Dt --> 17-09-22 05:52:21 IP --> 49.36.35.132 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-17 18:01:39	103.36.82.73	ADMIN	admin	COP22_3 - test coupon is added.
+Dt --> 17-09-22 06:52:36 IP --> 152.57.176.116 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 17-09-22 09:46:55 IP --> 106.193.186.142 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 17-09-22 09:48:25 IP --> 106.193.186.142 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.

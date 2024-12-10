@@ -1,0 +1,57 @@
+Dt --> 29-08-22 10:07:17 IP --> 152.57.199.255 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 10:23:31 IP --> 27.57.243.3 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+29-08-22 10:45:41	152.57.199.255	ADMIN	admin	USR22_9 - seema User is added.
+29-08-22 10:45:56	152.57.199.255	ADMIN	admin	USR22_9 - seema User is updated.
+29-08-22 10:46:15	152.57.199.255	ADMIN	admin	USR22_6 User is deleted.
+Dt --> 29-08-22 12:57:01 IP --> 27.57.243.3 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-29 14:47:28	27.57.243.3	ADMIN	admin	UOM_1 - Kilogram unit is added.
+2022-08-29 14:48:11	27.57.243.3	ADMIN	admin	UOM_2 - Litre unit is added.
+2022-08-29 14:51:48	27.57.243.3	ADMIN	admin	UOM_2 - Litre unit is updated.
+2022-08-29 14:54:05	27.57.243.3	ADMIN	admin	UOM_2 - Litre unit is updated.
+2022-08-29 14:54:44	27.57.243.3	ADMIN	admin	UOM_2 -  unit is deleted.
+2022-08-29 14:55:36	27.57.243.3	ADMIN	admin	UOM_3 - Litre unit is added.
+Dt --> 29-08-22 03:35:57 IP --> 49.36.42.138 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 03:36:16 IP --> 49.36.42.138 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 29-08-22 03:40:50 IP --> 103.36.82.53 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 03:41:08 IP --> 188.53.174.14 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 03:50:00 IP --> 188.53.174.14 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 03:51:51 IP --> 152.57.199.255 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 03:52:50 IP --> 188.53.174.14 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+29-08-22 04:05:28	152.57.199.255	ADMIN	admin	PRO22_10 - t Product is added.
+2022-08-29 16:53:10	27.57.243.3	ADMIN	admin	CAT_2 -  category is added.
+Dt --> 29-08-22 05:17:50 IP --> 176.44.54.175 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-29 17:18:33	27.57.243.3	ADMIN	admin	CAT_3 - Category 1 category is added.
+Dt --> 29-08-22 05:19:24 IP --> 176.44.54.175 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 29-08-22 05:55:02 IP --> 94.99.173.96 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-29 18:06:39	27.57.243.3	ADMIN	admin	CAT_3 - Category 1 category is updated.
+2022-08-29 18:12:48	27.57.243.3	ADMIN	admin	CAT_3 - Category 1 category is updated.
+2022-08-29 18:14:04	27.57.243.3	ADMIN	admin	CAT_3 - Category 1 category is updated.
+2022-08-29 18:17:14	27.57.243.3	ADMIN	admin	CAT_3 - Category 1 category is updated.
+29-08-22 06:17:56	152.57.199.255	ADMIN	admin	PRO22_10 - t Product is updated.
+29-08-22 06:18:15	152.57.199.255	ADMIN	admin	PRO22_10 - t Product is updated.
+2022-08-29 18:36:33	27.57.243.3	ADMIN	admin	CAT_4 - Category 2 category is added.
+29-08-22 06:49:13	152.57.199.255	ADMIN	admin	PRO22_11 - de Product is added.
+29-08-22 07:00:31	152.57.199.255	ADMIN	admin	PRO22_12 - test Product is added.
+29-08-22 07:04:04	152.57.199.255	ADMIN	admin	PRO22_10Product is deleted.
+29-08-22 07:04:09	152.57.199.255	ADMIN	admin	PRO22_11Product is deleted.
+29-08-22 07:05:15	152.57.199.255	ADMIN	admin	PRO22_13 - hindi Product is added.
+29-08-22 07:07:18	152.57.199.255	ADMIN	admin	PRO22_14 - test Product is added.
+29-08-22 07:09:59	152.57.199.255	ADMIN	admin	PRO22_15 - test Product is added.
+Dt --> 29-08-22 07:23:04 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 07:41:36 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 29-08-22 07:42:53 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 07:42:57 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 29-08-22 07:43:01 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 07:43:50 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 29-08-22 07:45:44 IP --> 223.186.79.146 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-29 19:49:41	223.186.79.146	ADMIN	admin	CAT_5 -  category is added.
+2022-08-29 19:55:44	223.186.79.146	ADMIN	admin	CAT_6 - Veg category is added.
+2022-08-29 19:58:00	223.186.79.146	ADMIN	admin	CAT_5 -  category is deleted.
+2022-08-29 19:58:58	223.186.79.146	ADMIN	admin	CAT_4 - Category 2 category is deleted.
+2022-08-29 20:01:16	223.186.79.146	ADMIN	admin	CAT_6 - Veg category is updated.
+2022-08-29 20:03:18	223.186.79.146	ADMIN	admin	CAT_6 - Non Veg category is updated.
+2022-08-29 20:04:35	223.186.79.146	ADMIN	admin	UOM_4 -  unit is added.
+2022-08-29 20:06:20	223.186.79.146	ADMIN	admin	UOM_5 - Dozen unit is added.
+2022-08-29 20:06:53	223.186.79.146	ADMIN	admin	UOM_4 -  unit is deleted.
+Dt --> 29-08-22 09:16:44 IP --> 152.57.199.255 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 29-08-22 09:16:54 IP --> 152.57.199.255 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.

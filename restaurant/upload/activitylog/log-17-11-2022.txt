@@ -1,0 +1,73 @@
+Dt --> 17-11-22 01:32:04 IP --> 152.57.122.146 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-17 13:32:54	152.57.122.146	Admin	admin	IN22_3 - SUP22_19 of BR22_29 having amount 8000.00 inward is added.
+2022-11-17 13:33:47	152.57.122.146	Admin	admin	IN22_4 - SUP22_19 of BR22_29 having amount 8000.00 inward is added.
+2022-11-17 13:34:45	152.57.122.146	Admin	admin	INL22_7 deleted inward items
+Dt --> 17-11-22 01:36:32 IP --> 49.36.34.229 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+2022-11-17 13:39:21	152.57.122.146	Admin	admin	IN22_4 - SUP22_19 of BR22_29 having amount 12000.00 inward is updated.
+2022-11-17 13:39:42	152.57.122.146	Admin	admin	INL22_6 deleted inward items
+Dt --> 17-11-22 02:09:35 IP --> 49.206.11.172 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-17 14:21:21	49.206.11.172	Admin	admin	BR22_30 - Branch 3 Branch is added.
+2022-11-17 14:21:56	49.206.11.172	Admin	admin	17 - Zone 1 sector zone is added.
+2022-11-17 14:29:42	152.57.122.146	Admin	admin	IN22_5 - SUP22_19 of BR22_29 having amount 8000.00 inward is added.
+2022-11-17 14:31:07	152.57.122.146	Admin	admin	IN22_6 - BR22_29 of BR22_27 having amount 4000.00  is transfer.
+Dt --> 17-11-22 02:40:34 IP --> 152.57.122.146 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-17 15:19:43	49.206.11.172	Admin	admin	17 - Branch3 - Zone 1 sector zone is updated.
+2022-11-17 15:20:02	49.206.11.172	Admin	admin	17 - Branch3 - Zone 1 sector zone is updated.
+2022-11-17 15:21:21	49.206.11.172	Admin	admin	17 - Branch3 - Zone 1 sector zone is updated.
+2022-11-17 15:21:57	49.206.11.172	Admin	admin	3 Bulk tables are added.
+2022-11-17 15:22:11	49.206.11.172	Admin	admin	TAB_45  table is added.
+2022-11-17 15:22:27	49.206.11.172	Admin	admin	TAB_44 table is updated.
+2022-11-17 15:23:16	49.206.11.172	Admin	admin	UOM_11 - Liter unit is added.
+2022-11-17 15:23:30	49.206.11.172	Admin	admin	UOM_12 - Mililiter unit is added.
+2022-11-17 15:24:18	49.206.11.172	Admin	admin	 - This is a message body of SMS template sms template is added.
+2022-11-17 15:25:01	49.206.11.172	Admin	admin	 - Check Email template email template is added.
+2022-11-17 15:25:10	49.206.11.172	Admin	admin	CAT_3 - Check Email template email template is updated.
+2022-11-17 15:25:26	49.206.11.172	Admin	admin	CAT_3 - Check Email template email template is updated.
+2022-11-17 15:27:44	49.206.11.172	Admin	admin	CAT_3 - Check Email template email template is updated.
+2022-11-17 15:37:42	49.206.11.172	Admin	admin	 - delete email template is added.
+2022-11-17 15:37:50	49.206.11.172	Admin	admin	CAT_4 - delete email template is deleted.
+2022-11-17 15:38:00	49.206.11.172	Admin	admin	CAT_5 - This is a message body of SMS template. sms template is updated.
+2022-11-17 15:39:02	49.206.11.172	Admin	admin	 - delete sms template is added.
+2022-11-17 15:39:09	49.206.11.172	Admin	admin	CAT_6 - delete sms template is deleted.
+2022-11-17 15:46:00	49.206.11.172	Admin	admin	DIS_8 - 3 discount is added.
+2022-11-17 15:46:07	49.206.11.172	Admin	admin	DIS_8 - 3.00 discount is updated.
+2022-11-17 15:46:22	49.206.11.172	Admin	admin	DIS_8 - 6.00 discount is updated.
+2022-11-17 15:46:27	49.206.11.172	Admin	admin	DIS_8 - 6.00 discount is deleted.
+2022-11-17 16:07:01	49.206.11.172	Admin	admin	DIS_9 - 7 discount is added.
+2022-11-17 16:07:34	49.206.11.172	Admin	admin	COP22_6 - OFF8 coupon is updated.
+2022-11-17 16:07:47	49.206.11.172	Admin	admin	COP22_5 - Flat15 coupon is updated.
+2022-11-17 16:08:09	49.206.11.172	Admin	admin	OFF22_4 - Xmas offer is updated.
+2022-11-17 16:08:23	49.206.11.172	Admin	admin	OFF22_3 - DiwaliDhamaka offer is updated.
+17-11-22 04:17:50	49.206.11.172	Admin	admin	SUP22_20 - Raghav P Supplier is added.
+2022-11-17 16:44:02	49.206.11.172	Admin	admin	IN22_7 - SUP22_20 of BR22_30 having amount 1199.00 inward is added.
+2022-11-17 16:46:25	49.206.11.172	Admin	admin	IN22_7 - SUP22_20 of BR22_30 having amount 1199.00 inward is updated.
+Dt --> 17-11-22 05:10:56 IP --> 152.57.122.146 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+17-11-22 05:55:56	49.206.11.172	Admin	admin	USR22_44 User is deleted.
+17-11-22 05:56:01	49.206.11.172	Admin	admin	USR22_40 User is deleted.
+17-11-22 05:56:07	49.206.11.172	Admin	admin	USR22_42 User is deleted.
+Dt --> 17-11-22 06:03:08 IP --> 49.36.34.229 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+17-11-22 06:07:05	49.206.11.172	Admin	admin	USR22_46 - Priyanka cashier User is added.
+17-11-22 06:07:19	49.206.11.172	Admin	admin	USR22_46 - Priyanka cashier User is updated.
+Dt --> 17-11-22 06:10:28 IP --> 49.36.34.229 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier loggedout.
+17-11-22 06:24:14	49.206.11.172	Admin	admin	USR22_46 - Priyanka cashier User is updated.
+17-11-22 06:25:13	49.206.11.172	Admin	admin	USR22_46 - Priyanka cashier User is updated.
+Dt --> 17-11-22 07:29:44 IP --> 152.57.122.146 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-11-22 07:43:06 IP --> 49.206.11.172 LOGIN USER --> USR22_46 ADDED USER --> USR22_46 	USR22_46 Cashier logged in.
+17-11-22 07:55:05	49.206.11.172	Cashier	9293	USR22_46 - Priyanka cashier Cashier profile is updated.
+17-11-22 08:00:53	49.206.11.172	Admin	admin	USR22_46 - Priyanka cashier User is updated.
+Dt --> 17-11-22 09:49:19 IP --> 152.57.122.146 LOGIN USER --> USR22_46 ADDED USER --> USR22_46 	USR22_46 Cashier logged in.
+Dt --> 17-11-22 09:50:22 IP --> 152.57.122.146 LOGIN USER --> USR22_46 ADDED USER --> USR22_46 	USR22_46 Cashier loggedout.
+Dt --> 17-11-22 11:18:15 IP --> 49.206.11.172 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-11-22 11:18:54 IP --> 49.206.11.172 LOGIN USER --> USR22_46 ADDED USER --> USR22_46 	USR22_46 Cashier logged in.
+2022-11-17 23:29:30	49.206.11.172	Admin	admin	REC22_18 - PRO22_30 recipe is updated.
+17-11-22 11:29:52	49.206.11.172	Admin	admin	PRO22_30 - سمبل برودكت Product is updated.
+17-11-22 11:30:18	49.206.11.172	Admin	admin	PRO22_30 - سمبل برودكت Product is updated.
+2022-11-17 23:31:16	49.206.11.172	Admin	admin	PC_10 - Combo mealProduct Combo is updated.
+2022-11-17 23:35:47	49.206.11.172	Admin	admin	PC_9 - Combo 1Product Combo is updated.
+2022-11-17 23:37:04	49.206.11.172	Admin	admin	PCAT_13 - Category 3 product category is updated.
+2022-11-17 23:37:12	49.206.11.172	Admin	admin	PCAT_13 - Dinner product category is updated.
+2022-11-17 23:37:33	49.206.11.172	Admin	admin	PSCT_17 - Subcategory 1 product Subcategory is added.
+17-11-22 11:38:54	49.206.11.172	Admin	admin	PRO22_32 - بريد  بوتر Product is updated.
+17-11-22 11:39:25	49.206.11.172	Admin	admin	PRO22_27 - بريد Product is updated.
+17-11-22 11:39:48	49.206.11.172	Admin	admin	PRO22_27 - بيزا  Product is updated.
+17-11-22 11:39:59	49.206.11.172	Admin	admin	PRO22_28 - توست Product is updated.

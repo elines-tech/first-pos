@@ -1,0 +1,33 @@
+Dt --> 02-11-22 08:07:54 IP --> 49.36.35.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 08:12:56 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+02-11-22 08:13:34	152.57.165.204	Superadmin	admin	USR22_3 - abc@gmail.com User is updated.
+02-11-22 08:13:52	152.57.165.204	Superadmin	admin	USR22_2 - abc@gmail.com User is updated.
+Dt --> 02-11-22 08:42:14 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 02-11-22 08:44:09 IP --> 152.57.165.204 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Super User id is login.
+Dt --> 02-11-22 08:44:19 IP --> 152.57.165.204 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 User id is logout.
+Dt --> 02-11-22 08:44:33 IP --> 106.200.117.231 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+02-11-22 08:45:13	106.200.117.231	Superadmin	admin	PAK_1 - admin Subscription  is updated.
+Dt --> 02-11-22 08:54:50 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 08:55:01 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 02-11-22 08:55:22 IP --> 49.36.35.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+02-11-22 08:55:55	49.36.35.3	Superadmin	admin	USR_1 - admin Profile is updated.
+Dt --> 02-11-22 08:56:03 IP --> 49.36.35.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 02-11-22 08:56:43 IP --> 49.36.35.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+02-11-22 08:57:03	49.36.35.3	Superadmin	admin	USR_1 - admin Profile is updated.
+Dt --> 02-11-22 08:57:14 IP --> 49.36.35.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 02-11-22 08:59:07 IP --> 49.36.35.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 08:59:49 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+02-11-22 09:03:06	106.200.117.231	Superadmin	admin	PAK_2 - admin Subscription  is updated.
+Dt --> 02-11-22 09:04:03 IP --> 106.200.117.231 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 09:22:37 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 02-11-22 09:23:01 IP --> 152.57.165.204 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 09:33:44 IP --> 188.53.181.226 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 01:52:02 IP --> 106.200.117.231 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 03:47:08 IP --> 188.50.128.63 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 04:18:37 IP --> 188.50.128.63 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 05:51:55 IP --> 188.50.128.63 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 02-11-22 06:01:34 IP --> 188.50.128.63 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+02-11-22 06:08:15	188.50.128.63	Superadmin	admin	USR22_4 - susu User is added.
+Dt --> 02-11-22 06:08:26 IP --> 188.50.128.63 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 02-11-22 06:08:36 IP --> 188.50.128.63 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Super User id is login.
+02-11-22 18:33:52	188.50.128.63	Superadmin	susu	PAK_1 - susu Subscription  is updated.

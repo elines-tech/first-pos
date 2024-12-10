@@ -1,0 +1,4 @@
+Dt --> 24-09-22 07:45:09 IP --> 152.57.68.66 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 24-09-22 08:11:01 IP --> 152.57.68.66 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 24-09-22 08:15:06 IP --> 106.220.156.26 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 24-09-22 03:58:48 IP --> 49.36.41.231 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.

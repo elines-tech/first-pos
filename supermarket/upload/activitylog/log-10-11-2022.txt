@@ -1,0 +1,30 @@
+Dt --> 10-11-22 12:06:49 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 10-11-22 03:24:00 IP --> 49.206.14.238 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 10-11-22 03:26:58 IP --> 49.206.14.238 LOGIN USER --> USR22_19 ADDED USER --> USR22_19 	USR22_19 Cashier logged in.
+Dt --> 10-11-22 04:04:23 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-10 16:09:16	49.36.33.167	Admin	admin	Textsms Setting is updated.
+2022-11-10 16:22:06	49.36.33.167	Admin	admin	Textsms Setting is updated.
+2022-11-10 16:36:08	49.36.33.167	Admin	admin	Email Setting is updated.
+2022-11-10 16:38:21	49.36.33.167	Admin	admin	Email Setting is updated.
+2022-11-10 16:38:30	49.36.33.167	Admin	admin	Email Setting is updated.
+2022-11-10 16:40:15	49.36.33.167	Admin	admin	Email Setting is updated.
+2022-11-10 16:49:56	49.36.33.167	Admin	admin	Email Setting is updated.
+2022-11-10 16:52:22	49.36.33.167	Admin	admin	Email Setting is updated.
+2022-11-10 17:03:48	49.36.33.167	Admin	admin	Textsms Setting is updated.
+Dt --> 10-11-22 05:07:50 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 10-11-22 06:01:27 IP --> 49.206.14.238 LOGIN USER --> USR22_19 ADDED USER --> USR22_19 	USR22_19 Cashier logged in.
+Dt --> 10-11-22 06:25:54 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-10 18:27:48	49.36.33.167	Admin	admin	IN22_40 - SUP22_26 of BR22_36 having amount 157.50 inward is added.
+Dt --> 10-11-22 06:50:03 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-10 20:36:30	49.206.14.238	Admin	admin	IN22_41 - BR22_35 of BR22_36 having amount 17500.00  is transfer.
+2022-11-10 20:36:38	49.206.14.238	Admin	admin	IN22_41 - BR22_35 of BR22_36 having amount 17500.00  is transfer.
+2022-11-10 20:53:36	49.206.14.238	Admin	admin	IN22_40 - SUP22_26 of BR22_36 having amount 3772.40 inward is added.
+2022-11-10 21:00:32	49.206.14.238	Admin	admin	BAR22_32 - barcode is generated.
+2022-11-10 21:03:17	49.206.14.238	Admin	admin	UOM_16 - Mililiter unit is added.
+2022-11-10 21:05:06	49.206.14.238	Admin	admin	BAR22_33 - barcode is generated.
+2022-11-10 21:05:06	49.206.14.238	Admin	admin	BAR22_34 - barcode is generated.
+2022-11-10 21:05:39	49.206.14.238	Admin	admin	BUOM_7 - Mililitre base unit is updated.
+2022-11-10 21:05:55	49.206.14.238	Admin	admin	UOM_16 - liter unit is updated.
+2022-11-10 21:06:44	49.206.14.238	Admin	admin	BUOM_7 - Mililitre base unit is updated.
+2022-11-10 21:07:16	49.206.14.238	Admin	admin	BUOM_7 - Mililitre base unit is updated.
+2022-11-10 21:07:31	49.206.14.238	Admin	admin	UOM_16 - liter unit is updated.

@@ -1,0 +1,3 @@
+Dt --> 20-11-22 08:42:55 IP --> 106.76.78.187 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 20-11-22 08:53:33 IP --> 106.76.78.187 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+20-11-22 09:20:03	106.76.78.187	CLT22_1	 updated company details after account creation 	

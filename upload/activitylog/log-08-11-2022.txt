@@ -1,0 +1,5 @@
+Dt --> 08-11-22 08:47:23 IP --> 49.36.35.17 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+08-11-22 08:50:38	49.36.35.17	Superadmin	admin	PAK_1 - admin Subscription  is updated.
+08-11-22 08:51:33	49.36.35.17	Superadmin	admin	PAK_2 - admin Subscription  is updated.
+Dt --> 08-11-22 09:59:11 IP --> 49.36.35.17 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 08-11-22 12:48:19 IP --> 188.54.234.241 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.

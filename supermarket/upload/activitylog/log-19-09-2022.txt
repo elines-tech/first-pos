@@ -1,0 +1,81 @@
+Dt --> 19-09-22 08:10:33 IP --> 103.36.82.79 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 08:10:45 IP --> 223.178.147.11 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 08:17:25 IP --> 106.76.78.84 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-19 08:20:50	103.36.82.79	ADMIN	admin	BR22_24 - Al-Demo Branch is added.
+19-09-22 08:21:44	103.36.82.79	ADMIN	admin	USR22_31 -  User is added.
+Dt --> 19-09-22 08:22:00 IP --> 103.36.82.79 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 19-09-22 08:22:10 IP --> 103.36.82.79 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-19 08:25:39	103.36.82.79	ADMIN	admin	true - Hall sector zone is added.
+Dt --> 19-09-22 08:45:29 IP --> 152.57.161.239 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 09:25:57 IP --> 103.240.209.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-19 09:37:18	103.240.209.2	ADMIN	admin	ITEM22_56 - Cauliflower item is added.
+19-09-22 09:41:33	103.240.209.2	ADMIN	admin	SUP22_17 - kasdemo Supplier is added.
+2022-09-19 09:42:14	103.240.209.2	ADMIN	admin	IN22_10 - SUP22_17 of BR22_24 having amount 120 inward is added.
+19-09-22 09:54:55	103.240.209.2	ADMIN	admin	PRO22_10 - ملفوف باكورا Product is added.
+19-09-22 09:56:02	103.240.209.2	ADMIN	admin	PRO22_10 - ملفوف باكورا Product is updated.
+2022-09-19 09:59:23	103.240.209.2	ADMIN	admin	REC22_11 - PRO22_10 recipe is added.
+2022-09-19 10:01:23	103.240.209.2	ADMIN	admin	PCAT_5 - Beverage product category is added.
+2022-09-19 10:01:43	103.240.209.2	ADMIN	admin	PSCT_5 - Cold product Subcategory is added.
+2022-09-19 10:02:02	103.240.209.2	ADMIN	admin	PSCT_6 - Hot product Subcategory is added.
+19-09-22 10:04:33	103.240.209.2	ADMIN	admin	PRO22_11 - شاي Product is added.
+19-09-22 10:07:13	103.240.209.2	ADMIN	admin	PRO22_11 - شاي Product is updated.
+19-09-22 10:10:32	103.240.209.2	ADMIN	admin	PRO22_11 - شاي Product is updated.
+19-09-22 10:10:43	103.240.209.2	ADMIN	admin	PRO22_10 - ملفوف باكورا Product is updated.
+2022-09-19 10:11:56	103.240.209.2	ADMIN	admin	5 Bulk tables are added.
+Dt --> 19-09-22 10:32:24 IP --> 49.36.41.91 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-19 10:35:25	103.240.209.2	ADMIN	admin	REC22_12 - PRO22_11 recipe is added.
+2022-09-19 10:37:26	103.240.209.2	ADMIN	admin	PC_4 - Pakoda aur ChaiProduct Combo is updated.
+2022-09-19 11:26:13	152.57.161.239	ADMIN	admin	CUSTG_1 - sale Customer Groupname is added.
+2022-09-19 11:29:07	152.57.161.239	ADMIN	admin	CUSTG_2 - test Customer Groupname is added.
+2022-09-19 11:30:19	152.57.161.239	ADMIN	admin	CUSTG_3 - test2 Customer Groupname is added.
+2022-09-19 11:39:44	152.57.161.239	ADMIN	admin	CUSTG_4 - test8 Customer Groupname is added.
+2022-09-19 11:40:56	152.57.161.239	ADMIN	admin	CUSTG_5 - test6 Customer Groupname is added.
+2022-09-19 11:59:01	152.57.161.239	ADMIN	admin	CUSTG_6 - test4 Customer Groupname is added.
+2022-09-19 12:00:12	152.57.161.239	ADMIN	admin	CUSTG_1 - test Customer Groupname is added.
+2022-09-19 12:05:23	152.57.161.239	ADMIN	admin	true - test Customer Groupname is updated.
+2022-09-19 12:05:37	152.57.161.239	ADMIN	admin	true - test123 Customer Groupname is updated.
+2022-09-19 12:20:19	152.57.161.239	ADMIN	admin	CUSTG_2 - test3 Customer Groupname is added.
+19-09-22 12:20:28	152.57.161.239	ADMIN	admin	CUSTG_2Customer Group is deleted.
+2022-09-19 12:39:47	152.57.161.239	ADMIN	admin	CUSTG_3 - Friend Customer Groupname is added.
+2022-09-19 12:40:10	152.57.161.239	ADMIN	admin	CUSTG_4 - VIP Customer Groupname is added.
+Dt --> 19-09-22 12:52:32 IP --> 103.240.209.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 19-09-22 12:52:35 IP --> 103.240.209.2 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 01:05:14 IP --> 188.51.174.122 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 02:56:56 IP --> 49.36.41.91 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 03:10:48 IP --> 49.36.41.91 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 19-09-22 03:24:06 IP --> 49.206.14.226 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+19-09-22 03:29:07	49.206.14.226	ADMIN	admin	USR22_31 -  User is updated.
+2022-09-19 15:30:38	188.51.174.122	ADMIN	admin	PCAT_6 - مقبلات product category is added.
+2022-09-19 15:37:08	49.206.14.226	ADMIN	admin	true - 1 sector zone is added.
+19-09-22 03:49:06	188.51.174.122	ADMIN	admin	PRO22_12 - ورق عنب Product is added.
+19-09-22 04:05:33	49.206.14.226	ADMIN	admin	USR22_31 - UserNameManager User is updated.
+19-09-22 04:06:56	49.206.14.226	ADMIN	admin	USR22_31 - UserNameManager User is updated.
+2022-09-19 16:08:18	49.206.14.226	ADMIN	admin	true - cfhf sector zone is added.
+2022-09-19 16:08:35	49.206.14.226	ADMIN	admin	13 - cfhf sector zone is deleted.
+2022-09-19 16:08:35	49.206.14.226	ADMIN	admin	13 -  sector zone is deleted.
+2022-09-19 16:08:37	49.206.14.226	ADMIN	admin	12 - 1 sector zone is deleted.
+19-09-22 04:22:46	188.51.174.122	ADMIN	admin	PRO22_13 - حمص Product is added.
+19-09-22 04:24:20	49.206.14.226	ADMIN	admin	PRO22_14 - مسالة تي Product is added.
+19-09-22 04:26:58	49.206.14.226	ADMIN	admin	PRO22_14 - مسالة تي Product is updated.
+2022-09-19 16:33:24	49.206.14.226	ADMIN	admin	REC22_13 - PRO22_14 recipe is added.
+19-09-22 04:33:52	188.51.174.122	ADMIN	admin	PRO22_12 - ورق عنب Product is updated.
+19-09-22 04:35:20	188.51.174.122	ADMIN	admin	PRO22_15 - فتة حمص Product is added.
+2022-09-19 16:39:54	188.51.174.122	ADMIN	admin	PCAT_7 - أطباق رئيسة product category is added.
+2022-09-19 16:40:24	188.51.174.122	ADMIN	admin	PSCT_7 - رز product Subcategory is added.
+2022-09-19 16:41:02	188.51.174.122	ADMIN	admin	PSCT_8 - فطور product Subcategory is added.
+2022-09-19 16:41:34	188.51.174.122	ADMIN	admin	PSCT_9 - مشويات product Subcategory is added.
+19-09-22 04:43:47	49.206.14.226	ADMIN	admin	PRO22_16 - Cold كوفي Product is added.
+19-09-22 04:44:39	49.206.14.226	ADMIN	admin	PRO22_16 - Cold كوفي Product is updated.
+2022-09-19 16:48:43	152.57.161.239	ADMIN	admin	PSCT_10 - Strawberry Juice product Subcategory is added.
+19-09-22 04:51:07	188.51.174.122	ADMIN	admin	PRO22_17 - هريس Product is added.
+19-09-22 04:51:23	188.51.174.122	ADMIN	admin	PRO22_17 - هريس Product is updated.
+2022-09-19 16:55:01	152.57.161.239	ADMIN	admin	PSCT_10 -  product subcategory is deleted.
+2022-09-19 16:56:30	152.57.161.239	ADMIN	admin	PSCT_11 - wwwwwwwwww product Subcategory is added.
+2022-09-19 16:56:40	152.57.161.239	ADMIN	admin	PSCT_11 -  product subcategory is deleted.
+2022-09-19 17:00:36	49.206.14.226	ADMIN	admin	PC_4 - Pakoda aur ChaiProduct Combo is updated.
+Dt --> 19-09-22 05:08:45 IP --> 49.36.41.91 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 19-09-22 05:09:28 IP --> 49.36.41.91 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-19 18:27:59	152.57.161.239	ADMIN	admin	BR22_25 - test Branch is added.
+2022-09-19 18:29:57	152.57.161.239	ADMIN	admin	BR22_25 - test branch is deleted.
+2022-09-19 18:32:35	152.57.161.239	ADMIN	admin	BR22_26 - test Branch is added.
+2022-09-19 18:33:11	152.57.161.239	ADMIN	admin	BR22_26 - test branch is deleted.

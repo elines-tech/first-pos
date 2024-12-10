@@ -1,0 +1,66 @@
+Dt --> 08-10-22 07:38:53 IP --> 106.220.164.251 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-10-22 07:43:01	106.220.164.251	ADMIN	neosao	PRO22_19 - وهية Product is updated.
+Dt --> 08-10-22 08:22:31 IP --> 49.36.33.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-08 08:37:23	106.220.164.251	ADMIN	neosao	IN22_14 - SUP22_18 of BR22_29 having amount 3120.00 inward is added.
+Dt --> 08-10-22 08:53:20 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-08 08:56:29	106.220.164.251	ADMIN	neosao	IN22_14 - SUP22_18 of BR22_29 having amount 4650.00 inward is added.
+2022-10-08 08:57:15	106.220.164.251	ADMIN	neosao	IN22_14 - SUP22_18 of BR22_29 having amount 4650.00 inward is added.
+2022-10-08 09:03:49	106.220.164.251	ADMIN	neosao	IN22_14 - SUP22_18 of BR22_29 having amount 4650.00 inward is added.
+2022-10-08 09:05:02	106.220.164.251	ADMIN	neosao	IN22_14 - SUP22_18 of BR22_29 having amount 4650.00 inward is added.
+2022-10-08 09:06:09	106.220.164.251	ADMIN	neosao	INL22_20 deleted inward items
+2022-10-08 09:13:43	106.220.164.251	ADMIN	neosao	TAC_31 - test Tax Rate is updated.
+2022-10-08 09:18:09	106.220.164.251	ADMIN	neosao	TAC_31 - test Tax Rate is updated.
+2022-10-08 09:19:24	106.220.164.251	ADMIN	neosao	TAC_31 - test Tax rate is deleted.
+2022-10-08 09:33:47	106.220.164.251	ADMIN	neosao	UOM_8 - Dozen unit is updated.
+2022-10-08 09:41:31	152.57.185.36	ADMIN	neosao	CUSTG_1 - VIP Customer Groupname is added.
+2022-10-08 09:41:38	152.57.185.36	ADMIN	neosao	CUSTG_2 - Friend Customer Groupname is added.
+2022-09-21	106.220.164.251	ADMIN	neosao	true - Employee healthcare premium costs Account Expense is updated.
+2022-10-08 11:10:01	152.57.185.36	ADMIN	neosao	COP22_1 - CAP29 coupon is added.
+2022-10-08 11:10:22	152.57.185.36	ADMIN	neosao	COP22_1 - CAP29 coupon is updated.
+2022-10-08 11:12:29	152.57.185.36	ADMIN	neosao	DIS_1 - 20 discount is added.
+2022-10-08 11:40:21	152.57.185.36	ADMIN	neosao	OFF22_1 - TKMN300 offer is added.
+2022-10-08 11:42:36	152.57.185.36	ADMIN	neosao	OFF22_1 - TKMN300 offer is updated.
+2022-10-08 11:46:38	152.57.185.36	ADMIN	neosao	OFF22_1 - TKMN300 offer is updated.
+2022-10-08 12:01:06	152.57.185.36	ADMIN	neosao	OFF22_1 - TKMN300 offer is updated.
+Dt --> 08-10-22 12:13:46 IP --> 49.36.33.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-08 12:14:16	49.36.33.62	ADMIN	neosao	BRD_12 - Levis brand is added.
+2022-10-08 12:14:23	49.36.33.62	ADMIN	neosao	BRD_13 - Reebok brand is added.
+2022-10-08 12:14:29	49.36.33.62	ADMIN	neosao	BRD_14 - Nike brand is added.
+2022-10-08 12:14:41	49.36.33.62	ADMIN	neosao	BRD_15 - Tata Group brand is added.
+2022-10-08 12:14:45	49.36.33.62	ADMIN	neosao	BRD_16 - Dabur brand is added.
+2022-10-08 12:16:35	49.36.33.62	ADMIN	neosao	CAT_20 - Clothes category is added.
+2022-10-08 12:18:27	49.36.33.62	ADMIN	neosao	SCAT_14 - Mens Clothes subcategory is added.
+08-10-22 12:21:36	49.36.33.62	ADMIN	neosao	PRO22_1 - Blue Full شيرت Product is added.
+2022-10-08 13:04:30	49.36.33.62	ADMIN	neosao	IN22_1 - SUP22_15 of BR22_27 having amount 165375.00 inward is added.
+2022-10-08 13:04:56	49.36.33.62	ADMIN	neosao	IN22_1 - SUP22_15 of BR22_27 having amount 165375.00 inward is added.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_1 - barcode is generated.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_2 - barcode is generated.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_3 - barcode is generated.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_4 - barcode is generated.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_5 - barcode is generated.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_6 - barcode is generated.
+2022-10-08 13:07:55	49.36.33.62	ADMIN	neosao	BAR22_7 - barcode is generated.
+08-10-22 01:14:02	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is added.
+08-10-22 01:39:39	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 01:44:09	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 01:45:40	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 01:49:31	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 01:49:54	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+2022-10-08 14:17:27	49.36.33.62	ADMIN	neosao	OFF22_2 - 10BIGGAME offer is added.
+08-10-22 03:08:33	152.57.185.36	ADMIN	neosao	USR22_1 - neosao User is updated.
+08-10-22 03:14:41	152.57.185.36	ADMIN	neosao	USR22_1 - neosao User is updated.
+Dt --> 08-10-22 03:16:30 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-10-22 03:16:57 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-10-22 03:18:30 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-10-22 03:18:42 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-10-22 03:22:20	152.57.185.36	ADMIN	neosao	USR22_1 - neosao User is updated.
+Dt --> 08-10-22 03:22:27 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-10-22 03:22:38 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-10-22 03:24:50	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 03:28:14	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 03:32:30	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+08-10-22 03:32:40	152.57.185.36	ADMIN	neosao	USR22_7 - seema User is updated.
+Dt --> 08-10-22 03:33:17 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-10-22 03:33:41 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-10-22 04:02:23 IP --> 152.57.185.36 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-10-22 05:18:36 IP --> 49.36.33.62 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.

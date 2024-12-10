@@ -1,0 +1,7 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-11-13 11:26:25 --> Severity: error --> Exception: Too few arguments to function Item::edit(), 0 passed in /home2/neosaoco/public_html/testing/pos/restaurant/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home2/neosaoco/public_html/testing/pos/restaurant/application/controllers/Item.php 127
+ERROR - 2023-11-13 11:26:29 --> Severity: error --> Exception: Too few arguments to function Item::edit(), 0 passed in /home2/neosaoco/public_html/testing/pos/restaurant/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home2/neosaoco/public_html/testing/pos/restaurant/application/controllers/Item.php 127
+ERROR - 2023-11-13 11:26:38 --> Severity: error --> Exception: Too few arguments to function Item::edit(), 0 passed in /home2/neosaoco/public_html/testing/pos/restaurant/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home2/neosaoco/public_html/testing/pos/restaurant/application/controllers/Item.php 127
+ERROR - 2023-11-13 11:27:34 --> Severity: Warning --> Undefined array key "logged_inreceipt1699855018" /home2/neosaoco/public_html/testing/pos/restaurant/application/controllers/Item.php 13
+ERROR - 2023-11-13 11:27:34 --> Severity: Warning --> Trying to access array offset on value of type null /home2/neosaoco/public_html/testing/pos/restaurant/application/controllers/Item.php 13

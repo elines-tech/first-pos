@@ -1,0 +1,12 @@
+Dt --> 29-09-22 06:48:50 IP --> 106.210.164.10 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+Dt --> 29-09-22 08:38:55 IP --> 49.36.34.115 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+Dt --> 29-09-22 08:57:10 IP --> 188.53.167.3 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+2022-09-29 08:58:48	188.53.167.3	R_13	admin	3 Bulk tables are added.
+Dt --> 29-09-22 12:05:23 IP --> 188.53.167.3 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+2022-09-29 13:32:05	188.53.167.3	R_13	admin	true - Chef1 role is updated.
+2022-09-29 13:32:16	188.53.167.3	R_13	admin	true - Chef1 role is updated.
+2022-09-29 13:32:23	188.53.167.3	R_13	admin	true - Chef1 role is updated.
+Dt --> 29-09-22 02:47:39 IP --> 49.36.34.115 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+Dt --> 29-09-22 02:56:36 IP --> 49.36.34.115 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+2022-09-29 14:58:13	188.53.167.3	R_13	admin	PCAT_8 - مشروبات product category is updated.
+Dt --> 29-09-22 03:35:08 IP --> 103.240.209.15 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.

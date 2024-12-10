@@ -1,0 +1,36 @@
+Dt --> 05-11-22 09:36:56 IP --> 152.57.191.205 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+Dt --> 05-11-22 09:40:41 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+05-11-22 09:50:45	152.57.191.205	Cashier	2434	USR22_39 - shelar Cashier profile is updated.
+05-11-22 09:50:55	152.57.191.205	Cashier	2434	USR22_39 - shelar Cashier profile is updated.
+05-11-22 09:51:43	152.57.191.205	Cashier	2434	USR22_39 - shelar Cashier profile is updated.
+05-11-22 09:53:46	152.57.191.205	Cashier	2434	USR22_39 - shelar Cashier profile is updated.
+05-11-22 09:53:58	152.57.191.205	Cashier	2434	USR22_39 - shilpa Cashier profile is updated.
+05-11-22 09:54:06	152.57.191.205	Cashier	2434	USR22_39 - seema Cashier profile is updated.
+05-11-22 09:58:57	152.57.191.205	Cashier	2434	USR22_39 - seema Cashier profile is updated.
+Dt --> 05-11-22 10:00:13 IP --> 152.57.191.205 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier loggedout.
+Dt --> 05-11-22 10:17:15 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 10:48:56 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 10:49:06 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 10:49:45 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 10:49:51 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 11:09:51 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 11:39:54 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-05 11:51:34	152.57.191.205	Admin	admin	PSCT_15 - sample three product Subcategory is added.
+05-11-22 01:06:39	152.57.191.205	Admin	admin	PRO22_30 - سمبل برودكت Product is added.
+Dt --> 05-11-22 01:22:11 IP --> 49.36.35.5 LOGIN USER --> USR22_44 ADDED USER --> USR22_44 	USR22_44 Cashier logged in.
+Dt --> 05-11-22 01:46:46 IP --> 49.36.35.5 LOGIN USER --> USR22_44 ADDED USER --> USR22_44 	USR22_44 Cashier loggedout.
+2022-11-05 14:37:18	152.57.191.205	Admin	admin	REC22_18 - PRO22_30 recipe is added.
+2022-11-05 15:53:23	152.57.191.205	Admin	admin	IN22_20 - SUP22_18 of BR22_29 having amount 4000 inward is added.
+Dt --> 05-11-22 03:53:59 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-05 15:58:46	152.57.191.205	Admin	admin	IN22_21 - BR22_29 of BR22_27 having amount 0.00  is transfer.
+Dt --> 05-11-22 04:01:51 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 04:45:42 IP --> 106.200.117.193 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 04:49:27 IP --> 106.200.117.193 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+Dt --> 05-11-22 04:50:48 IP --> 106.200.117.193 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 04:51:13 IP --> 106.200.117.193 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+Dt --> 05-11-22 05:11:08 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 05:18:14 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-05 17:23:32	106.200.117.193	Admin	admin	COP22_6 - OFF8% coupon is updated.
+Dt --> 05-11-22 05:24:28 IP --> 49.36.35.5 LOGIN USER --> USR22_45 ADDED USER --> USR22_45 	USR22_45 Cashier logged in.
+Dt --> 05-11-22 05:31:09 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 06:32:43 IP --> 49.36.35.5 LOGIN USER --> USR22_45 ADDED USER --> USR22_45 	USR22_45 Cashier loggedout.

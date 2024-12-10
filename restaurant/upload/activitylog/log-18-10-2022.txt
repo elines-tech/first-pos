@@ -1,0 +1,9 @@
+Dt --> 18-10-22 09:10:41 IP --> 49.36.40.152 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+18-10-22 09:11:02	49.36.40.152	Admin	admin	USR_1 - admin Password is updated.
+Dt --> 18-10-22 09:14:15 IP --> 49.36.40.152 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 18-10-22 09:14:43 IP --> 49.36.40.152 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 18-10-22 09:15:25 IP --> 49.36.40.152 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 18-10-22 09:15:41 IP --> 49.36.40.152 LOGIN USER --> USR22_32 ADDED USER --> USR22_32 	USR22_32 Cashier logged in.
+Dt --> 18-10-22 09:22:27 IP --> 49.36.40.152 LOGIN USER --> USR22_32 ADDED USER --> USR22_32 	USR22_32 Cashier loggedout.
+Dt --> 18-10-22 03:08:48 IP --> 152.57.48.107 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 18-10-22 03:09:06 IP --> 152.57.48.107 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.

@@ -1,0 +1,11 @@
+Dt --> 01-10-22 07:17:42 IP --> 223.178.147.17 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+2022-10-01 07:19:26	223.178.147.17	R_13	admin	TAG_28 - group without reload Tax Group is updated.
+2022-10-01 07:19:43	223.178.147.17	R_13	admin	TAG_28 - group without reload Tax Group is updated.
+2022-10-01 07:19:52	223.178.147.17	R_13	admin	TAG_28 - group without reload Tax Group is updated.
+2022-10-01 07:19:59	223.178.147.17	R_13	admin	TAG_28 - group without reload Tax Group is updated.
+2022-10-01 07:20:05	223.178.147.17	R_13	admin	TAG_28 - group without reload Tax Group is updated.
+Dt --> 01-10-22 03:10:54 IP --> 49.36.43.215 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+Dt --> 01-10-22 03:11:49 IP --> 152.57.78.214 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.
+01-10-22 03:12:12	152.57.78.214	R_13	admin	ITCC_1 - test Category add on is added.
+01-10-22 03:12:28	152.57.78.214	R_13	admin	CCLN_1 - test SubCategory add on is added.
+Dt --> 01-10-22 04:40:53 IP --> 152.57.78.214 LOGIN USER --> USR22_34 ADDED USER --> USR22_34 	USR22_34 User id is login.

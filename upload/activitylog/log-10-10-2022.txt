@@ -1,0 +1,48 @@
+Dt --> 10-10-22 08:35:59 IP --> 49.36.34.87 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 10-10-22 03:12:38 IP --> 49.206.11.66 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-10 15:25:00	49.206.11.66	Admin	admin	BRD_18 - CROMA brand is added.
+2022-10-10 15:30:27	49.206.11.66	Admin	admin	CAT_17 - HOME APPLIANCES category is updated.
+2022-10-10 15:31:20	49.206.11.66	Admin	admin	CAT_22 - Electronics Appliances category is added.
+2022-10-10 15:31:28	49.206.11.66	Admin	admin	CAT_22 - Electronics Appliances category is updated.
+2022-10-10 15:31:39	49.206.11.66	Admin	admin	CAT_17 - HOME APPLIANCES category is updated.
+2022-10-10 15:32:07	49.206.11.66	Admin	admin	CAT_17 - HOME APPLIANCES category is updated.
+2022-10-10 15:32:32	49.206.11.66	Admin	admin	CAT_22 - Electronics Appliances category is updated.
+2022-10-10 15:43:23	49.206.11.66	Admin	admin	SCAT_14 - Mens Clothes Subcategory is updated.
+2022-10-10 15:43:29	49.206.11.66	Admin	admin	SCAT_15 - Polo Subcategory is updated.
+2022-10-10 15:46:14	49.206.11.66	Admin	admin	SCAT_16 - Televisions subcategory is added.
+10-10-22 03:54:42	49.206.11.66	Admin	admin	PRO22_3 - كلاسيك  صقور  جار  Product is added.
+10-10-22 03:58:16	49.206.11.66	Admin	admin	PRO22_4 - كوبس  Product is added.
+10-10-22 15:58:51	49.206.11.66	Admin	admin	PRO22_4 - كوبس Product is updated.
+10-10-22 04:01:13	49.206.11.66	Admin	admin	PRO22_5 - جس  صطوف  Product is added.
+10-10-22 04:04:22	49.206.11.66	Admin	admin	PRO22_6 - جوج  Product is added.
+10-10-22 16:06:44	49.206.11.66	Admin	admin	PRO22_6 - جوج Product is updated.
+10-10-22 16:07:01	49.206.11.66	Admin	admin	PRO22_5 - جس  صطوف Product is updated.
+10-10-22 16:07:10	49.206.11.66	Admin	admin	PRO22_4 - كوبس Product is updated.
+10-10-22 04:22:43	49.206.11.66	Admin	admin	SUP22_20 - Ruchira jadav Supplier is added.
+10-10-22 04:23:50	49.206.11.66	Admin	admin	SUP22_21 - sdf Supplier is added.
+10-10-22 04:23:57	49.206.11.66	Admin	admin	SUP22_21 Supplier is deleted.
+10-10-22 04:25:27	49.206.11.66	Admin	admin	SUP22_20 - Ruchira jadavSupplier is updated.
+10-10-22 04:25:36	49.206.11.66	Admin	admin	SUP22_20 - Ruchira jadavSupplier is updated.
+10-10-22 04:30:15	49.206.11.66	Admin	admin	SUP22_20 - Ruchira jadavSupplier is updated.
+10-10-22 17:27:45	49.206.11.66	Admin	admin	PRO22_6 - جوج Product is updated.
+10-10-22 17:28:26	49.206.11.66	Admin	admin	PRO22_6 - جوج Product is updated.
+10-10-22 05:29:13	49.206.11.66	Admin	admin	PRO22_7 - أ Product is added.
+10-10-22 17:29:41	49.206.11.66	Admin	admin	PRO22_7 - أ Product is updated.
+10-10-22 05:29:55	49.206.11.66	Admin	admin	PRO22_7Product is deleted.
+10-10-22 17:38:12	49.206.11.66	Admin	admin	PRO22_5 - جس  صطوف Product is updated.
+2022-10-10 17:45:52	49.206.11.66	Admin	admin	IN22_2 - SUP22_20 of BR22_30 having amount 13387.00 inward is added.
+2022-10-10 17:51:10	49.206.11.66	Admin	admin	IN22_2 - SUP22_20 of BR22_30 having amount 23996.18 inward is added.
+2022-10-10 17:53:13	49.206.11.66	Admin	admin	IN22_3 - SUP22_18 of BR22_29 having amount 2.01 inward is added.
+2022-10-10 17:53:44	49.206.11.66	Admin	admin	IN22_3 - SUP22_18 of BR22_29 having amount 3.03 inward is added.
+2022-10-10 18:54:15	49.206.11.66	Admin	admin	IN22_4 - SUP22_18 of BR22_30 having amount 10.25 inward is added.
+2022-10-10 18:55:02	49.206.11.66	Admin	admin	IN22_4 - SUP22_18 of BR22_30 having amount 10.25 inward is added.
+2022-10-10 18:55:20	49.206.11.66	Admin	admin	IN22_4 - SUP22_18 of BR22_30 having amount 10.25 inward is added.
+Dt --> 10-10-22 10:12:57 IP --> 49.206.15.225 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-10 22:17:28	49.206.15.225	Admin	admin	IN22_5 - SUP22_18 of BR22_30 having amount 108.00 inward is added.
+2022-10-10 22:17:56	49.206.15.225	Admin	admin	IN22_5 - SUP22_18 of BR22_30 having amount 432.00 inward is added.
+2022-10-10 22:18:09	49.206.15.225	Admin	admin	IN22_5 - SUP22_18 of BR22_30 having amount 432.80 inward is added.
+2022-10-10 22:56:12	49.206.15.225	Admin	admin	IN22_6 - BR22_29 of BR22_28 having amount 5.00  is transfer.
+2022-10-10 22:58:37	49.206.15.225	Admin	admin	INL22_16 deleted Transfer items
+2022-10-10 22:58:37	49.206.15.225	Admin	admin	INL22_16 deleted Transfer items
+2022-10-10 22:58:37	49.206.15.225	Admin	admin	INL22_16 deleted Transfer items
+2022-10-10 22:58:37	49.206.15.225	Admin	admin	INL22_16 deleted Transfer items

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #efeff0;
+  color: #525356;
+  font-size: 0.9rem;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+#invoice-wrap {
+  width: 800px;
+  margin: 5px auto;
+  background: #ffffff;
+  border: 1px solid #525356;
+  display: block;
+  padding: 10px;
+}
+
+#inv-header {
+  display: flex;
+  flex-direction: row;
+}
+
+#inv-header .qrcode {
+  width: 100px;
+  height: 100px;
+}
+
+#inv-header .title-section {
+  width: 700px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+img.img-qrcode {
+  width: 100%;
+}
+
+.inv-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inv-info .inv-date,
+.inv-info .inv-no {
+  margin: 10px;
+  font-size: 0.9rem;
+}
+
+.inv-info .inv-date span,
+.inv-info .inv-no span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.inv-cmp {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inv-items table thead {
+  background: #d9dbec;
+}
+
+.inv-items table th {
+  padding: 10px 5px;
+}
+
+.inv-items table td {
+  padding: 5px;
+}
+
+.inv-items table th {
+  border-bottom: 2px solid grey;
+}
+
+.section-title {
+  width: calc(100% -20px);
+  padding: 5px 10px;
+  background: #efeff0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}

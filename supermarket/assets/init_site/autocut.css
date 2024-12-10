@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #efeff0;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+#posbill-wrap {
+  width: 400px;
+  margin: 5px auto;
+  background: #ffffff;
+  border: 1px solid #525356;
+  display: block;
+  padding: 10px;
+}
+
+div#inv-header {
+  margin-top: 1.5rem;
+}
+
+div#branch-header {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #537600;
+  color: #537600;
+}
+
+div#inv-title {
+  width: 100%;
+  text-align: center;
+  color: #5a5a5a;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #525336;
+}
+
+div#inv-no {
+  width: 100%;
+  text-align: center;
+  color: #5a5a5a;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+div#store-nm {
+  width: 100%;
+  text-align: center;
+  color: #182d74;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+div#branch-nm {
+  width: 100%;
+  font-weight: 600;
+}
+
+div#store-addr {
+  width: 100%;
+  text-align: center;
+  color: #5a5a5a;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+div#inv-date {
+  width: calc(100% - 20px);
+  color: #525356;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: 2px solid #71ba4e;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+div#vat-regno {
+  width: calc(100% - 20px);
+  color: #525356;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: 2px solid #71ba4e;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+div#inv-body {
+  width: 100%;
+  padding: 5px 0px;
+  border: 2px solid #71ba4e;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+table#prod-items {
+  width: 100%;
+  border-spacing: 0;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+table#prod-items thead th {
+  color: #4e4e4e;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #4e4e4e;
+}
+
+table#prod-items td {
+  color: #5c5c5c;
+  font-size: 0.8rem;
+}
+
+table#prod-items th,
+td {
+  padding: 4px;
+}
+
+table.amt-smry {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.amt-smry th {
+  color: #4e4e4e;
+  font-size: 0.8rem;
+}
+
+table.amt-smry .big-txt {
+  font-size: 1rem;
+}
+
+.dash-bdr {
+  border-bottom: 2px dashed #525336;
+  margin: 5px 0;
+}
+
+.qrbox {
+  width: 50px;
+  height: 50px;
+  background-color: #525356;
+  color: #ffffff;
+  padding: 15px;
+  line-height: 1.5;
+  margin: 15px auto;
+}
+
+div#inv-footer {
+  width: 100%;
+  padding: 5px 0px;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+div#branch-footer {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 2px solid #537600;
+  color: #537600;
+}

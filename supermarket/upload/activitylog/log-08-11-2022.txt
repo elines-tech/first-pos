@@ -1,0 +1,59 @@
+Dt --> 08-11-22 10:54:14 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 10:54:22 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 10:56:22 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 10:56:33 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 11:02:14 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-11-22 11:04:59	152.57.179.41	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+Dt --> 08-11-22 11:25:18 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-11-22 11:25:28	152.57.179.41	Admin	admin	USR22_1 - USR22_1 Profile is updated.
+08-11-22 11:25:41	152.57.179.41	Admin	admin	USR22_1 - USR22_1 Profile is updated.
+Dt --> 08-11-22 11:28:54 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 11:31:50 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-11-22 12:30:47	152.57.179.41	Admin	admin	SUP22_26 - suppler two Supplier is added.
+08-11-22 12:31:03	152.57.179.41	Admin	admin	SUP22_26 - suppler twoSupplier is updated.
+08-11-22 12:31:24	152.57.179.41	Admin	admin	SUP22_26 - suppler twoSupplier is updated.
+2022-11-08 12:49:26	152.57.179.41	Admin	admin	IN22_35 - BR22_35 of BR22_36 having amount 1500.00  is transfer.
+Dt --> 08-11-22 01:08:39 IP --> 49.206.11.144 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 01:09:37 IP --> 49.206.11.144 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 08-11-22 01:10:25 IP --> 49.206.11.144 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 08-11-22 01:10:31 IP --> 49.206.11.144 LOGIN USER --> USR22_19 ADDED USER --> USR22_19 	USR22_19 Cashier logged in.
+Dt --> 08-11-22 01:10:39 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 01:10:46 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-11-22 13:47:23	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+Dt --> 08-11-22 01:58:41 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 02:04:57 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 02:12:38 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 02:13:17 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 02:24:23 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+08-11-22 14:33:40	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+08-11-22 14:34:14	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+08-11-22 14:34:29	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+08-11-22 14:34:56	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+08-11-22 14:35:48	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+08-11-22 14:36:00	49.206.11.144	Admin	admin	PRO22_20 - بالت  بومبص Product is updated.
+Dt --> 08-11-22 02:42:48 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-11-22 03:23:21	152.57.179.41	Admin	admin	USR22_20 - abc@gmail.com User is added.
+08-11-22 15:36:29	49.206.11.144	Admin	admin	PRO22_17 - فشوش  Product is updated.
+08-11-22 15:36:42	49.206.11.144	Admin	admin	PRO22_17 - فشوش Product is updated.
+08-11-22 15:41:41	49.206.11.144	Admin	admin	PRO22_18 - جنس لادس Product is updated.
+2022-11-08 15:43:46	49.206.11.144	Admin	admin	IN22_36 - SUP22_25 of BR22_36 having amount 3174.97 inward is added.
+2022-11-08 16:00:56	49.206.11.144	Admin	admin	IN22_36 - SUP22_25 of BR22_36 having amount 5193.96 inward is added.
+Dt --> 08-11-22 04:34:06 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+08-11-22 04:34:20	152.57.179.41	Admin	admin	SUP22_27 - test Supplier is added.
+08-11-22 04:39:20	152.57.179.41	Admin	admin	SUP22_27 - testSupplier is updated.
+Dt --> 08-11-22 04:46:51 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-08 17:14:22	49.206.11.144	Admin	admin	BAR22_29 - barcode is generated.
+2022-11-08 17:14:22	49.206.11.144	Admin	admin	BAR22_30 - barcode is generated.
+Dt --> 08-11-22 05:20:10 IP --> 49.206.11.144 LOGIN USER --> USR22_19 ADDED USER --> USR22_19 	USR22_19 Cashier logged in.
+08-11-22 05:42:08	49.206.11.144	Admin	admin	USR22_19 - Priyanka User is updated.
+2022-11-08 18:42:51	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-08 18:44:08	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-08 19:06:50	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-08 20:27:48	49.206.11.144	Admin	admin	OFF22_7 - Flat5% offer is updated.
+2022-11-08 20:29:57	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-08 20:31:57	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-08 20:32:20	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+2022-11-08 20:32:57	49.206.11.144	Admin	admin	OFF22_8 - Upto40 offer is updated.
+08-11-22 20:50:47	49.206.11.144	Admin	admin	PRO22_17 - فشوش Product is updated.
+08-11-22 20:51:11	49.206.11.144	Admin	admin	PRO22_17 - فشوش Product is updated.
+2022-11-08 21:35:14	49.206.11.144	Admin	admin	BAR22_31 - barcode is generated.

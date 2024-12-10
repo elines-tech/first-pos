@@ -1,0 +1,40 @@
+Dt --> 21-12-22 10:21:05 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-12-22 10:21:39 IP --> 152.58.18.37 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 10:45:53 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-12-22 10:54:15 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-12-22 10:54:28 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 21-12-22 10:55:15 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-12-22 10:56:14 IP --> 49.36.33.24 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 10:56:22 IP --> 152.58.18.37 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 10:57:00 IP --> 49.36.33.24 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 21-12-22 10:57:13 IP --> 49.36.33.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+21-12-22 10:57:46	49.36.33.24	Admin	admin	PRO22_5 - Tea Product is updated.
+Dt --> 21-12-22 10:57:51 IP --> 49.36.33.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 21-12-22 10:58:27 IP --> 49.36.33.24 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 11:35:19 IP --> 49.36.33.24 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 21-12-22 11:35:39 IP --> 49.36.33.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-12-22 11:36:39 IP --> 49.36.33.24 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 11:37:01 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-12-21 11:37:49	49.36.33.24	Admin	admin	REC22_5 - PRO22_5 recipe is added.
+Dt --> 21-12-22 11:39:36 IP --> 152.58.18.37 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-21 11:42:14	152.58.18.37	Admin	admin	REC22_5 - PRO22_5 recipe is updated.
+2022-12-21 12:04:01	152.58.18.37	Admin	admin	IN22_14 - SUP22_1 of BR22_1 having amount 420.00 inward is added.
+2022-12-21 12:24:19	152.58.18.37	Admin	admin	IN22_15 - SUP22_1 of BR22_1 having amount 40.00 inward is added.
+Dt --> 21-12-22 02:06:22 IP --> 49.36.33.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 21-12-22 02:32:15 IP --> 49.36.33.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 21-12-22 02:32:31 IP --> 49.36.33.24 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 03:08:58 IP --> 152.58.17.93 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+21-12-22 03:14:06	152.58.17.93	Admin	admin	PRO22_5 - Tea Product is updated.
+21-12-22 03:23:09	152.58.17.93	Admin	admin	PRO22_5 - Tea Product is updated.
+Dt --> 21-12-22 03:28:50 IP --> 152.58.17.93 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 21-12-22 03:28:57 IP --> 152.58.17.93 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+2022-12-21 15:37:29	152.58.17.93	Admin	admin	PC_1 - Tasty BiteProduct Combo is updated.
+21-12-22 04:58:36	152.58.17.241	Admin	admin	PRO22_6 -  سبشل تي  Product is added.
+2022-12-21 17:04:18	152.58.17.241	Admin	admin	QUO22_1 quotation is added.
+2022-12-21 17:11:20	152.58.17.241	Admin	admin	QUO22_1 quotation is added.
+2022-12-21 17:11:25	152.58.17.241	Admin	admin	QUO22_1 quotation is added.
+2022-12-21 17:11:31	152.58.17.241	Admin	admin	QUO22_1 quotation is added.
+Dt --> 21-12-22 05:25:06 IP --> 152.58.17.241 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 21-12-22 05:25:21 IP --> 152.58.17.241 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 21-12-22 05:29:42 IP --> 152.58.16.46 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 21-12-22 05:29:50 IP --> 152.58.16.46 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.

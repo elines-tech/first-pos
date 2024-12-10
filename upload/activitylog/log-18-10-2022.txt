@@ -1,0 +1,34 @@
+Dt --> 18-10-22 08:29:45 IP --> 152.57.48.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 18-10-22 08:39:34 IP --> 49.36.40.152 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 18-10-22 08:39:51 IP --> 49.206.8.79 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 18-10-22 08:41:35 IP --> 49.36.40.152 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 18-10-22 08:44:55 IP --> 152.57.48.107 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 18-10-22 09:38:13 IP --> 49.206.8.79 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 18-10-22 09:41:34 IP --> 49.206.8.79 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-18 09:43:17	49.206.8.79	Admin	admin	CO22_17 - 001 counter is added.
+2022-10-18 09:43:27	49.206.8.79	Admin	admin	CO22_18 - 002 counter is added.
+18-10-22 09:45:20	49.206.8.79	Admin	admin	USR22_8 - priyanka User is added.
+Dt --> 18-10-22 09:45:43 IP --> 49.206.8.79 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.
+Dt --> 18-10-22 10:58:41 IP --> 49.36.40.152 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-18 11:05:31	49.36.40.152	Admin	admin	CAT_31 - Cakes category is added.
+2022-10-18 11:05:47	49.36.40.152	Admin	admin	CAT_32 - Cleaners category is added.
+2022-10-18 11:06:06	49.36.40.152	Admin	admin	CAT_31 - Cakes category is updated.
+2022-10-18 11:06:16	49.36.40.152	Admin	admin	CAT_32 - Cleaners category is updated.
+Dt --> 18-10-22 11:59:16 IP --> 106.220.67.6 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 18-10-22 12:29:07 IP --> 49.206.8.79 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.
+Dt --> 18-10-22 12:29:11 IP --> 49.206.8.79 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier loggedout.
+2022-10-18 12:29:17	106.220.67.6	Admin	admin	BAR22_16 barcode is deleted.
+Dt --> 18-10-22 12:29:20 IP --> 49.206.8.79 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.
+18-10-22 12:29:41	49.206.8.79	Cashier	8891	USR22_8 - Priyanka Sutar Cashier profile is updated.
+Dt --> 18-10-22 12:29:48 IP --> 49.206.8.79 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier loggedout.
+Dt --> 18-10-22 12:29:55 IP --> 49.206.8.79 LOGIN USER --> USR22_8 ADDED USER --> USR22_8 	USR22_8 Cashier logged in.
+Dt --> 18-10-22 12:32:25 IP --> 49.206.8.79 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-18 12:35:00	49.206.8.79	Admin	admin	IN22_25 - SUP22_20 of BR22_33 having amount 1626.24 inward is added.
+2022-10-18 12:35:10	49.206.8.79	Admin	admin	IN22_25 - SUP22_20 of BR22_33 having amount 1626.24 inward is added.
+2022-10-18 13:00:10	106.220.67.6	Admin	admin	BAR22_17 - barcode is generated.
+2022-10-18 13:05:50	106.220.67.6	Admin	admin	BAR22_18 - barcode is generated.
+2022-10-18 13:05:50	106.220.67.6	Admin	admin	BAR22_19 - barcode is generated.
+2022-10-18 13:09:22	106.220.67.6	Admin	admin	BAR22_20 - barcode is generated.
+2022-10-18 13:09:23	106.220.67.6	Admin	admin	BAR22_21 - barcode is generated.
+Dt --> 18-10-22 03:11:04 IP --> 152.57.48.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 18-10-22 03:11:14 IP --> 152.57.48.107 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

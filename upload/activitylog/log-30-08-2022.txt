@@ -1,0 +1,104 @@
+Dt --> 30-08-22 10:09:18 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 10:20:06 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 30-08-22 11:41:00 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 01:25:12 IP --> 117.99.251.72 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+30-08-22 02:03:04	152.57.204.168	ADMIN	admin	ITCC_5 - res123 Category add on is added.
+30-08-22 02:11:29	152.57.204.168	ADMIN	admin	ITCC_5Category is deleted.
+30-08-22 02:17:59	152.57.204.168	ADMIN	admin	ITCC_1 - test Category add on is updated.
+30-08-22 02:24:15	152.57.204.168	ADMIN	admin	ITCC_6 - test567 Category add on is added.
+30-08-22 02:26:40	152.57.204.168	ADMIN	admin	ITCC_1 - test Category add on is updated.
+Dt --> 30-08-22 02:29:54 IP --> 188.54.250.48 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+30-08-22 02:36:43	152.57.204.168	ADMIN	admin	ITCC_6 - test567 Category add on is updated.
+30-08-22 02:37:08	152.57.204.168	ADMIN	admin	ITCC_7 - abcb Category add on is added.
+30-08-22 02:37:22	152.57.204.168	ADMIN	admin	CCLN_1 - abcdef SubCategory add on is added.
+30-08-22 02:37:43	152.57.204.168	ADMIN	admin	CCLN_1Sub Category is deleted.
+30-08-22 02:39:18	152.57.204.168	ADMIN	admin	ITCC_6Category is deleted.
+30-08-22 02:40:23	152.57.204.168	ADMIN	admin	ITCC_7 - abcb Category add on is updated.
+30-08-22 02:40:35	152.57.204.168	ADMIN	admin	ITCC_8 - test9 Category add on is added.
+30-08-22 02:41:47	152.57.204.168	ADMIN	admin	ITCC_8 - test9 Category add on is updated.
+30-08-22 02:42:00	152.57.204.168	ADMIN	admin	ITCC_9 - kaju Category add on is added.
+30-08-22 02:42:10	152.57.204.168	ADMIN	admin	CCLN_2 - test SubCategory add on is added.
+30-08-22 02:43:40	152.57.204.168	ADMIN	admin	ITCC_9Category is deleted.
+30-08-22 02:43:42	152.57.204.168	ADMIN	admin	ITCC_7Category is deleted.
+30-08-22 02:44:02	152.57.204.168	ADMIN	admin	ITCC_10 - test777 Category add on is added.
+30-08-22 02:44:14	152.57.204.168	ADMIN	admin	CCLN_3 - test888 SubCategory add on is added.
+30-08-22 02:59:23	152.57.204.168	ADMIN	admin	ITCC_10Category is deleted.
+2022-08-30 15:11:20	117.99.251.72	ADMIN	admin	PRO22_12 -  recipe is added.
+2022-08-30 15:11:27	117.99.251.72	ADMIN	admin	PRO22_12 -  recipe is added.
+Dt --> 30-08-22 03:13:19 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 30-08-22 03:14:33 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-30 15:16:03	117.99.251.72	ADMIN	admin	PRO22_12 -  recipe is added.
+Dt --> 30-08-22 03:21:21 IP --> 223.186.203.43 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-30 15:21:38	223.186.203.43	ADMIN	admin	UOM_6 -  unit is added.
+2022-08-30 15:21:53	223.186.203.43	ADMIN	admin	UOM_5 - Dozen unit is updated.
+30-08-22 03:23:08	152.57.204.168	ADMIN	admin	ITCC_11 - netpot Category add on is added.
+2022-08-30 15:23:58	223.186.203.43	ADMIN	admin	UOM_6 -  unit is deleted.
+2022-08-30 15:23:58	223.186.203.43	ADMIN	admin	UOM_6 -  unit is deleted.
+2022-08-30 15:24:43	223.186.203.43	ADMIN	admin	UOM_5 - Bunch unit is updated.
+30-08-22 03:30:32	152.57.204.168	ADMIN	admin	ITCC_8Category is deleted.
+30-08-22 03:30:33	152.57.204.168	ADMIN	admin	ITCC_3Category is deleted.
+30-08-22 03:30:35	152.57.204.168	ADMIN	admin	ITCC_11Category is deleted.
+30-08-22 03:30:48	152.57.204.168	ADMIN	admin	ITCC_12 - netpot Category add on is added.
+30-08-22 03:30:59	152.57.204.168	ADMIN	admin	CCLN_4 - test SubCategory add on is added.
+Dt --> 30-08-22 04:22:02 IP --> 49.36.42.2 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+30-08-22 04:33:27	152.57.204.168	ADMIN	admin	CCLN_5 - test SubCategory add on is added.
+30-08-22 04:51:16	152.57.204.168	ADMIN	admin	ITCC_2Category is deleted.
+30-08-22 05:08:21	152.57.204.168	ADMIN	admin	PRO22_15 - test Product is updated.
+30-08-22 05:18:47	152.57.204.168	ADMIN	admin	CCLN_6 - test2 SubCategory add on is added.
+30-08-22 05:19:58	152.57.204.168	ADMIN	admin	CCLN_7 - test5 SubCategory add on is added.
+30-08-22 05:20:03	152.57.204.168	ADMIN	admin	CCLN_7Sub Category is deleted.
+Dt --> 30-08-22 05:37:00 IP --> 223.186.203.43 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 05:38:03 IP --> 117.99.251.72 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-30 17:45:41	223.186.203.43	ADMIN	admin	BR22_4 - My Branch 1 Branch is added.
+2022-08-30 17:47:39	223.186.203.43	ADMIN	admin	BR22_5 - My Branch 2 Branch is added.
+2022-08-30 17:50:07	223.186.203.43	ADMIN	admin	BR22_5 - My Branch 2 Branch is updated.
+2022-08-30 17:50:37	223.186.203.43	ADMIN	admin	BR22_5 - My Branch 2 Branch is updated.
+2022-08-30 17:51:54	223.186.203.43	ADMIN	admin	BR22_6 - My Branch 3 Branch is added.
+2022-08-30 17:52:29	223.186.203.43	ADMIN	admin	 -  branch is deleted.
+2022-08-30 17:52:34	223.186.203.43	ADMIN	admin	 -  branch is deleted.
+Dt --> 30-08-22 05:56:58 IP --> 49.36.42.2 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 06:06:15 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 30-08-22 06:07:16 IP --> 49.36.42.2 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 06:07:59 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 06:09:59 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+Dt --> 30-08-22 06:12:47 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-30 18:14:12	117.99.251.72	ADMIN	admin	IN22_1 - SUP22_6 of BR22_6 having amount  inward is added.
+2022-08-30 18:16:02	117.99.251.72	ADMIN	admin	IN22_2 - SUP22_6 of BR22_6 having amount  inward is added.
+2022-08-30 18:16:35	117.99.251.72	ADMIN	admin	undefined - SUP22_6 of BR22_6 having amount  inward is added.
+30-08-22 06:30:28	223.186.119.8	ADMIN	admin	USR22_10 - PRIYANKA SUTAR User is added.
+30-08-22 06:30:44	223.186.119.8	ADMIN	admin	USR22_10 - PRIYANKA SUTAR User is updated.
+30-08-22 06:30:57	223.186.119.8	ADMIN	admin	USR22_10 - PRIYANKA SUTAR User is updated.
+Dt --> 30-08-22 06:31:40 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is logout.
+30-08-22 06:31:57	223.186.119.8	ADMIN	admin	USR22_11 - Raghav P User is added.
+30-08-22 06:36:24	223.186.119.8	ADMIN	admin	USR22_11 User is deleted.
+Dt --> 30-08-22 06:36:47 IP --> 103.36.82.25 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+Dt --> 30-08-22 06:38:23 IP --> 152.57.204.168 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-30 18:41:12	117.99.251.72	ADMIN	admin	IN22_3 - SUP22_6 of BR22_6 having amount  inward is added.
+2022-08-30 18:58:01	117.99.251.72	ADMIN	admin	IN22_4 - SUP22_6 of BR22_6 having amount  inward is added.
+2022-08-30 18:58:52	223.186.119.8	ADMIN	admin	R_7 - Supplier role is added.
+2022-08-30 18:59:00	223.186.119.8	ADMIN	admin	R_8 -  role is added.
+2022-08-30 19:00:00	223.186.119.8	ADMIN	admin	R_8 -  role is deleted.
+2022-08-30 19:00:06	223.186.119.8	ADMIN	admin	true - Supplier role is updated.
+30-08-22 07:00:48	223.186.119.8	ADMIN	admin	USR22_12 - Raghav P User is added.
+2022-08-30 19:01:20	223.186.119.8	ADMIN	admin	TAC_10 - GST Tax Rate is updated.
+2022-08-30 19:01:38	223.186.119.8	ADMIN	admin	TAC_11 -  Tax Rate is updated.
+2022-08-30 19:01:49	223.186.119.8	ADMIN	admin	TAC_11 -  Tax rate is deleted.
+2022-08-30 19:03:30	223.186.119.8	ADMIN	admin	TAG_13 - My group 1 Tax Group is added.
+2022-08-30 19:03:52	223.186.119.8	ADMIN	admin	TAC_12 - Income Tax Tax Rate is updated.
+2022-08-30 19:04:01	223.186.119.8	ADMIN	admin	TAC_13 - tax Tax Rate is updated.
+2022-08-30 19:04:07	223.186.119.8	ADMIN	admin	TAC_14 -  Tax Rate is updated.
+2022-08-30 19:04:42	223.186.119.8	ADMIN	admin	TAC_13 - tax Tax rate is deleted.
+2022-08-30 19:06:20	223.186.119.8	ADMIN	admin	TAC_14 - GST 2 Tax Rate is updated.
+2022-08-30 19:06:39	223.186.119.8	ADMIN	admin	TAG_14 - My group 2 Tax Group is added.
+2022-08-30 19:06:55	117.99.251.72	ADMIN	admin	IN22_5 - SUP22_6 of BR_1 having amount  inward is added.
+2022-08-30 19:07:34	117.99.251.72	ADMIN	admin	IN22_6 - SUP22_6 of BR_1 having amount  inward is added.
+2022-08-30 19:13:53	117.99.251.72	ADMIN	admin	="IN22_6" - SUP22_6 of BR_1 having amount  inward is added.
+2022-08-30 19:16:19	117.99.251.72	ADMIN	admin	IN22_6 - SUP22_6 of BR_1 having amount 261 inward is added.
+2022-08-30 19:16:35	117.99.251.72	ADMIN	admin	IN22_4 - SUP22_6 of BR22_6 having amount 66 inward is added.
+2022-08-30 19:21:06	117.99.251.72	ADMIN	admin	PRO22_12 -  recipe is updated.
+2022-08-30 19:21:13	117.99.251.72	ADMIN	admin	PRO22_12 -  recipe is updated.
+2022-08-30 19:27:31	223.186.119.8	ADMIN	admin	TAB_4 - 1 table is added.
+2022-08-30 19:27:48	223.186.119.8	ADMIN	admin	TAB_5 -  table is added.
+Dt --> 30-08-22 08:02:23 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-08-30 21:07:47	152.57.204.168	ADMIN	admin	PC_1 - testProduct Combo is updated.
+2022-08-30 21:09:07	152.57.204.168	ADMIN	admin	PC_2 - testProduct Combo is updated.

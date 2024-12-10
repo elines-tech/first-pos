@@ -1,0 +1,2 @@
+Dt --> 01-12-22 05:26:00 IP --> 49.36.43.63 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+01-12-22 17:49:20	49.36.43.63	Admin	admin	PRO22_10 - Buttery صبريد Product is updated.

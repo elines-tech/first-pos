@@ -1,0 +1,38 @@
+Dt --> 11-09-22 11:56:14 IP --> 188.54.166.35 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-11 11:56:42	188.54.166.35	ADMIN	admin	BR22_2 - Branch 2 branch is deleted.
+2022-09-11 11:56:44	188.54.166.35	ADMIN	admin	BR22_6 - My Branch 3 branch is deleted.
+2022-09-11 11:56:52	188.54.166.35	ADMIN	admin	BR22_10 - Riyadh branch is deleted.
+2022-09-11 11:57:47	188.54.166.35	ADMIN	admin	TAC_19 - VAT Tax Rate is updated.
+Dt --> 11-09-22 12:08:43 IP --> 103.36.82.62 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-11 13:16:24	188.54.166.35	ADMIN	admin	TAC_20 - deleted Tax Rate is updated.
+2022-09-11 13:21:52	188.54.166.35	ADMIN	admin	TAG_18 - to delete group Tax Group is added.
+2022-09-11 13:22:18	188.54.166.35	ADMIN	admin	TAC_20 - deleted Tax rate is deleted.
+2022-09-11 13:34:17	188.54.166.35	ADMIN	admin	TAG_19 - Jeddah branch taxes Tax Group is added.
+2022-09-11 13:34:45	188.54.166.35	ADMIN	admin	BR22_16 - Jeddah Branch is added.
+2022-09-11 13:43:52	188.54.166.35	ADMIN	admin	BR22_16 - Jeddah Branch is updated.
+2022-09-11 14:03:03	188.54.166.35	ADMIN	admin	BR22_16 - Jeddah Branch is updated.
+2022-09-11 14:03:11	188.54.166.35	ADMIN	admin	BR22_16 - Jeddah Branch is updated.
+2022-09-11 14:03:32	188.54.166.35	ADMIN	admin	BR22_17 - Riyadh Branch is added.
+2022-09-11 14:03:42	188.54.166.35	ADMIN	admin	BR22_17 - Riyadh Branch is updated.
+11-09-22 02:10:28	188.54.166.35	ADMIN	admin	USR22_13 - seema shelar User is updated.
+11-09-22 02:11:09	188.54.166.35	ADMIN	admin	USR22_13 - seema shelar User is updated.
+11-09-22 02:17:23	188.54.166.35	ADMIN	admin	USR22_14 - j user User is added.
+11-09-22 02:24:18	188.54.166.35	ADMIN	admin	USR22_15 - r riyadh user  User is added.
+11-09-22 02:31:23	188.54.166.35	ADMIN	admin	USR22_16 - j user	 User is added.
+2022-09-11 14:51:38	188.54.166.35	ADMIN	admin	TAB_15 - 1212 table is added.
+2022-09-11 14:56:15	188.54.166.35	ADMIN	admin	TAB_16 - 7567 table is added.
+2022-09-11 14:57:30	188.54.166.35	ADMIN	admin	TAB_2 - Table 2 table is deleted.
+11-09-22 03:07:00	188.54.166.35	ADMIN	admin	SUP22_12 - test Supplier is added.
+11-09-22 03:07:17	188.54.166.35	ADMIN	admin	SUP22_12 - ewrfSupplier is updated.
+11-09-22 03:07:28	188.54.166.35	ADMIN	admin	SUP22_12 - ewrfSupplier is updated.
+11-09-22 03:07:35	188.54.166.35	ADMIN	admin	SUP22_12 - ewrfSupplier is updated.
+11-09-22 03:07:46	188.54.166.35	ADMIN	admin	SUP22_12 Supplier is deleted.
+2022-09-11 15:17:50	188.54.166.35	ADMIN	admin	CAT_16 - super category is added.
+11-09-22 03:25:12	188.54.166.35	ADMIN	admin	PRO22_28 - اختبار Product is added.
+11-09-22 03:29:51	188.54.166.35	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+11-09-22 03:30:03	188.54.166.35	ADMIN	admin	PRO22_25 - بيزا Product is updated.
+11-09-22 03:43:22	188.54.166.35	ADMIN	admin	PRO22_28 - اختبار Product is updated.
+11-09-22 03:43:32	188.54.166.35	ADMIN	admin	PRO22_25 - بيزا Product is updated.
+11-09-22 03:43:41	188.54.166.35	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+11-09-22 03:43:51	188.54.166.35	ADMIN	admin	PRO22_17 - برودكت Product is updated.
+Dt --> 11-09-22 08:23:14 IP --> 106.76.78.227 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.

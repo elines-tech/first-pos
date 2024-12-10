@@ -1,0 +1,14 @@
+Dt --> 26-11-22 02:41:56 IP --> 49.36.41.57 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-26 14:47:01	49.36.41.57	Admin	admin	IN22_1 - SUP22_1 of BR22_1 having amount 65360.00 inward is added.
+2022-11-26 14:48:23	49.36.41.57	Admin	admin	IN22_2 - BR22_1 of BR22_2 having amount 13200.00  is transfer.
+2022-11-26 14:48:50	49.36.41.57	Admin	admin	IN22_2 Transfer is deleted.
+2022-11-26 14:49:31	49.36.41.57	Admin	admin	IN22_3 - BR22_1 of BR22_2 having amount 15600.00  is transfer.
+2022-11-26 14:51:10	49.36.41.57	Admin	admin	IN22_4 - SUP22_3 of BR22_1 having amount 20137.60 inward is added.
+2022-11-26 14:53:36	49.36.41.57	Admin	admin	IN22_5 - BR22_1 of BR22_2 having amount 3820.00  is transfer.
+26-11-22 14:54:53	49.36.41.57	Admin	admin	PRO22_1 - فول سليف ط شيرت Product is updated.
+2022-11-26 16:24:50	49.36.41.57	Admin	admin	IN22_6 - BR22_1 of BR22_3 having amount 1840.00  is transfer.
+2022-11-26 16:25:22	49.36.41.57	Admin	admin	IN22_6 - BR22_1 of BR22_3 having amount 1870.00  is transfer.
+2022-11-26 18:13:00	49.36.41.57	Admin	admin	BAR22_1 - barcode is generated.
+2022-11-26 18:35:30	49.36.41.57	Admin	admin	BAR22_2 - barcode is generated.
+2022-11-26 18:38:39	49.36.41.57	Admin	admin	BAR22_3 - barcode is generated.
+2022-11-26 18:39:41	49.36.41.57	Admin	admin	BAR22_4 - barcode is generated.

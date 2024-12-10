@@ -1,0 +1,40 @@
+Dt --> 05-11-22 09:24:00 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+05-11-22 09:25:00	152.57.191.205	Admin	admin	USR22_1 - USR22_1 Profile is updated.
+Dt --> 05-11-22 09:29:55 IP --> 152.57.191.205 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 05-11-22 09:34:20 IP --> 152.57.191.205 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 05-11-22 09:39:31 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 10:01:54 IP --> 152.57.191.205 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 05-11-22 10:09:19 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-05 10:14:44	49.36.35.5	Admin	admin	OFF22_1 - Grab Grocery offer is added.
+2022-11-05 10:15:06	49.36.35.5	Admin	admin	OFF22_1 - Grab Grocery offer is updated.
+Dt --> 05-11-22 10:17:57 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+05-11-22 10:21:13	152.57.191.205	Cashier	9022	USR22_10 - seema Cashier profile is updated.
+05-11-22 10:21:31	152.57.191.205	Cashier	9022	USR22_10 - seema Cashier profile is updated.
+Dt --> 05-11-22 10:28:51 IP --> 106.76.70.138 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 05-11-22 10:28:57 IP --> 106.76.70.138 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+05-11-22 10:32:11	152.57.191.205	Admin	admin	USR22_10 - seema User is updated.
+05-11-22 10:32:30	152.57.191.205	Cashier	9022	USR22_10 - seema Cashier profile is updated.
+05-11-22 10:33:01	152.57.191.205	Admin	admin	USR22_10 - seema User is updated.
+05-11-22 10:33:14	152.57.191.205	Cashier	9022	USR22_10 - seema Cashier profile is updated.
+Dt --> 05-11-22 10:47:52 IP --> 106.76.78.76 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 10:48:20 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 11:09:15 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 11:14:01 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 11:15:21 IP --> 106.76.70.138 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 11:26:38 IP --> 152.57.191.205 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 05-11-22 12:48:37 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 12:59:25 IP --> 49.36.35.5 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 05-11-22 01:46:31 IP --> 49.36.35.5 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 05-11-22 01:48:05 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+05-11-22 03:14:00	49.36.35.5	Admin	admin	 - USR22_1 Company details is updated.
+05-11-22 03:16:22	49.36.35.5	Admin	admin	CLT22_2 - USR22_1 Company details is updated.
+05-11-22 03:16:49	49.36.35.5	Admin	admin	CLT22_2 - USR22_1 Company details is updated.
+Dt --> 05-11-22 03:17:06 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 04:04:45 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 05-11-22 04:04:54 IP --> 49.36.35.5 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 05-11-22 04:13:09 IP --> 49.36.35.5 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 05-11-22 05:05:05 IP --> 49.36.35.5 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 05-11-22 05:11:42 IP --> 152.57.191.205 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+05-11-22 05:59:55	152.57.191.205	Admin	admin	PRO22_17 - بل جنس Product is added.
+2022-11-05 18:07:41	152.57.191.205	Admin	admin	CO22_22 - CO2 counter is added.
+Dt --> 05-11-22 06:38:55 IP --> 49.36.35.5 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.

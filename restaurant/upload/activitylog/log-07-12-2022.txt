@@ -1,0 +1,41 @@
+Dt --> 07-12-22 12:45:02 IP --> 157.33.55.58 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+07-12-22 12:48:10	157.33.55.58	Admin	admin	USR22_4 - seema User is added.
+Dt --> 07-12-22 01:25:35 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 07-12-22 01:28:45 IP --> 106.76.78.197 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-12-22 01:49:32 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 07-12-22 01:50:26 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 07-12-22 02:13:04 IP --> 49.36.33.59 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-12-22 02:16:52 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 07-12-22 02:19:11 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 07-12-22 02:20:20 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 07-12-22 02:21:42 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+07-12-22 02:29:44	157.33.55.58	Manager	seema	USR22_5 - priyanka User is added.
+07-12-22 02:31:16	157.33.55.58	Admin	admin	USR22_6 - test User is added.
+07-12-22 02:37:15	157.33.55.58	Admin	admin	USR22_6 - test User is updated.
+07-12-22 02:38:29	157.33.55.58	Manager	seema	USR22_5 - priyanka User is updated.
+Dt --> 07-12-22 03:31:57 IP --> 152.57.206.210 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-12-22 03:40:45 IP --> 152.57.206.210 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 07-12-22 03:41:09 IP --> 49.36.33.59 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-12-22 03:50:26 IP --> 152.57.206.210 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-12-22 03:57:15 IP --> 49.36.33.59 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-12-07 16:12:22	157.33.55.58	Manager	seema	IN22_7 - SUP22_1 of BR22_1 having amount 140000.00 inward is added.
+2022-12-07 16:13:31	157.33.55.58	Admin	admin	IN22_8 - SUP22_1 of BR22_2 having amount 42000.00 inward is added.
+2022-12-07 16:20:20	157.33.55.58	Admin	admin	IN22_8 - SUP22_1 of BR22_2 having amount 82000.00 inward is updated.
+2022-12-07 16:20:59	157.33.55.58	Manager	seema	IN22_7 - SUP22_1 of BR22_1 having amount 104000.00 inward is updated.
+2022-12-07 16:21:13	157.33.55.58	Manager	seema	IN22_7 - SUP22_1 of BR22_1 having amount 104000.00 inward is updated.
+2022-12-07 16:30:38	157.33.55.58	Admin	admin	IN22_8 - SUP22_1 of BR22_2 having amount 82000.00 inward is updated.
+Dt --> 07-12-22 05:52:48 IP --> 171.50.217.122 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 07-12-22 07:07:53 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+2022-12-07 19:31:25	157.33.55.58	Manager	seema	IN22_9 - BR22_1 of BR22_2 having amount 2100.00  is transfer.
+2022-12-07	157.33.55.58	Admin	admin	ACTE_1 - bus fees Account Expense is added.
+2022-12-07	157.33.55.58	Admin	admin	ACTE_2 - bus fees Account Expense is added.
+2022-12-07	157.33.55.58	Manager	seema	ACTE_3 - sample  Account Expense is added.
+2022-12-07	157.33.55.58	Manager	seema	true - sample  Account Expense is updated.
+07-12-22 08:03:58	157.33.55.58	Admin	admin	USR22_4 - seema User is updated.
+Dt --> 07-12-22 08:04:10 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 07-12-22 08:04:31 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 07-12-22 08:05:59 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+07-12-22 08:06:16	157.33.55.58	Admin	admin	USR22_4 - seema User is updated.
+Dt --> 07-12-22 08:06:36 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 07-12-22 09:35:51 IP --> 157.33.55.58 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-12-22 09:36:02 IP --> 157.33.55.58 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.

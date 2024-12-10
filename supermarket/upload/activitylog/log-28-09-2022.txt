@@ -1,0 +1,19 @@
+2022-09-28 10:36:32	106.210.163.190	ADMIN	admin	BRD_1 - Premium brand is added.
+2022-09-28 10:46:27	106.210.163.190	ADMIN	admin	BRD_2 - Nestle brand is added.
+2022-09-28 10:46:42	106.210.163.190	ADMIN	admin	BRD_3 - Amul brand is added.
+2022-09-28 10:47:29	106.210.163.190	ADMIN	admin	BRD_4 - Deo brand is added.
+2022-09-28 10:47:43	106.210.163.190	ADMIN	admin	BRD_5 - Fogg brand is added.
+2022-09-28 10:49:43	106.210.163.190	ADMIN	admin	true - Amul brand is updated.
+2022-09-28 10:49:49	106.210.163.190	ADMIN	admin	true - Fogg brand is updated.
+2022-09-28 10:49:56	106.210.163.190	ADMIN	admin	BRD_6 - test brand is added.
+2022-09-28 10:50:05	106.210.163.190	ADMIN	admin	BRD_6 - test brand is deleted.
+28-09-22 11:21:13	106.210.163.190	ADMIN	admin	PRO22_18 - برفم Product is updated.
+28-09-22 11:24:39	106.210.163.190	ADMIN	admin	PRO22_18 - برفم Product is updated.
+28-09-22 11:28:22	106.210.163.190	ADMIN	admin	PRO22_18 - برفم Product is updated.
+28-09-22 12:24:39	106.210.163.190	ADMIN	admin	PRO22_18 - برفم Product is updated.
+28-09-22 12:41:28	106.210.163.190	ADMIN	admin	PRO22_18 - برفم Product is updated.
+28-09-22 12:42:52	106.210.163.190	ADMIN	admin	PRO22_20 - ملك Product is updated.
+2022-09-28 12:45:56	106.210.163.190	ADMIN	admin	BRD_7 - Mahesh Agro brand is added.
+28-09-22 12:46:45	106.210.163.190	ADMIN	admin	PRO22_19 - وهية Product is updated.
+2022-09-28 12:47:52	106.210.163.190	ADMIN	admin	BRD_8 - Little Fingers brand is added.
+28-09-22 12:48:12	106.210.163.190	ADMIN	admin	PRO22_21 - كروت Product is updated.

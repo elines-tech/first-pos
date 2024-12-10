@@ -1,0 +1,15 @@
+Dt --> 17-11-22 07:41:21 IP --> 106.76.70.15 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-11-22 07:41:49 IP --> 106.76.70.15 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-11-22 07:47:59 IP --> 106.76.70.15 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 17-11-22 07:50:18 IP --> 106.76.70.15 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.
+Dt --> 17-11-22 07:50:28 IP --> 106.76.70.15 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 17-11-22 11:17:03 IP --> 152.57.122.146 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-17 11:18:11	152.57.122.146	Admin	admin	IN22_1 - SUP22_28 of BR22_35 having amount 4488.00 inward is added.
+2022-11-17 11:19:02	152.57.122.146	Admin	admin	IN22_1 - SUP22_28 of BR22_35 having amount 4488.00 inward is updated.
+2022-11-17 11:20:23	152.57.122.146	Admin	admin	IN22_2 - BR22_35 of BR22_36 having amount 1200.00  is transfer.
+2022-11-17 11:20:39	152.57.122.146	Admin	admin	IN22_2 - BR22_35 of BR22_36 having amount 1200.00  is transfer.
+2022-11-17 11:47:47	152.57.122.146	Admin	admin	IN22_3 - SUP22_23 of BR22_35 having amount 4444.00 inward is added.
+2022-11-17 11:52:49	152.57.122.146	Admin	admin	IN22_4 - BR22_35 of BR22_36 having amount 800.00  is transfer.
+Dt --> 17-11-22 01:30:52 IP --> 152.57.122.146 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-11-22 06:10:52 IP --> 49.36.34.229 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 17-11-22 06:15:25 IP --> 49.36.34.229 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier loggedout.

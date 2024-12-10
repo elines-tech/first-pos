@@ -1,0 +1,31 @@
+Dt --> 19-12-22 10:25:39 IP --> 152.58.18.225 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-19 10:33:16	152.58.18.225	Admin	admin	true - brand brand is updated.
+2022-12-19 10:33:37	152.58.18.225	Admin	admin	true - brand brand is updated.
+19-12-22 10:43:36	152.58.18.225	Admin	admin	PRO22_14 - اختبارات Product is added.
+19-12-22 10:53:59	152.58.18.225	Admin	admin	PRO22_14 - اختبارات Product is updated.
+19-12-22 11:01:03	152.58.18.225	Admin	admin	PRO22_14 - اختبارات Product is updated.
+19-12-22 11:26:47	152.58.16.95	Admin	admin	PRO22_14 - اختبارات Product is updated.
+19-12-22 11:27:56	152.58.16.95	Admin	admin	PRO22_14 - اختبارات Product is updated.
+19-12-22 11:29:52	152.58.16.95	Admin	admin	PRO22_14 - اختبارات Product is updated.
+19-12-22 11:44:31	152.58.16.95	Admin	admin	SUP22_6 - ashwiniSupplier is updated.
+19-12-22 11:45:36	152.58.16.95	Admin	admin	SUP22_6 - ashwiniSupplier is updated.
+2022-12-19 12:05:07	152.58.16.95	Admin	admin	IN22_14 - SUP22_3 of BR22_2 having amount 520.50 inward is added.
+2022-12-19 12:11:21	152.58.16.95	Admin	admin	IN22_14 - SUP22_3 of BR22_2 having amount 520.50 inward is updated.
+2022-12-19 12:12:22	152.58.16.95	Admin	admin	IN22_15 - SUP22_4 of BR22_2 having amount 0.00 inward is added.
+2022-12-19 12:19:18	152.58.16.95	Admin	admin	IN22_15 - SUP22_4 of BR22_2 having amount 0.00 inward is updated.
+Dt --> 19-12-22 01:51:51 IP --> 152.58.16.180 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 19-12-22 01:54:15 IP --> 152.58.16.180 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-19 13:56:31	152.58.16.180	Admin	admin	IN22_15 - SUP22_4 of BR22_2 having amount 0.00 inward is updated.
+2022-12-19 14:05:07	152.58.16.180	Admin	admin	IN22_15 - SUP22_4 of BR22_2 having amount 0.00 inward is updated.
+2022-12-19 14:13:47	152.58.16.60	Admin	admin	IN22_14 - SUP22_3 of BR22_2 having amount 520.50 inward is updated.
+2022-12-19 14:31:49	152.58.16.60	Admin	admin	IN22_16 - SUP22_3 of BR22_2 having amount 64.12 inward is added.
+2022-12-19 14:48:08	152.58.16.60	Admin	admin	IN22_17 - BR22_2 of BR22_1 having amount 120.33  is transfer.
+2022-12-19 14:57:19	152.58.16.60	Admin	admin	IN22_17 - BR22_1 of BR22_2 having amount 120.33  is transfer.
+2022-12-19 15:11:14	152.58.16.60	Admin	admin	IN22_18 - BR22_2 of BR22_1 having amount 1520.33  is transfer.
+2022-12-19 15:15:05	152.58.16.60	Admin	admin	IN22_18 - BR22_1 of BR22_2 having amount 1520.33  is transfer.
+2022-12-19 15:18:53	152.58.16.60	Admin	admin	IN22_2 Transfer is deleted.
+2022-12-19 15:33:26	152.58.16.60	Admin	admin	IN22_19 - BR22_2 of BR22_1 having amount 2000.00  is transfer.
+2022-12-19 15:34:32	152.58.16.60	Admin	admin	IN22_19 - BR22_1 of BR22_2 having amount 2000.00  is transfer.
+2022-12-19 15:35:40	152.58.16.60	Admin	admin	IN22_20 - BR22_1 of BR22_2 having amount 240.00  is transfer.
+Dt --> 19-12-22 07:13:28 IP --> 152.58.16.232 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-19 19:51:37	152.58.16.77	Admin	admin	BAR22_11 - barcode is generated.

@@ -1,0 +1,14 @@
+Dt --> 08-11-22 11:43:07 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 12:33:31 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 01:18:39 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 01:28:41 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 01:31:20 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 01:38:01 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 01:40:27 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 01:41:28 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-11-22 01:45:14 IP --> 49.36.35.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-11-22 04:47:09 IP --> 152.57.179.41 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+08-11-22 05:05:33	152.57.179.41	Admin	admin	SUP22_19 - seemaSupplier is updated.
+08-11-22 05:05:48	152.57.179.41	Admin	admin	SUP22_19 - seemaSupplier is updated.
+08-11-22 05:06:00	152.57.179.41	Admin	admin	SUP22_19 - seemaSupplier is updated.
+08-11-22 05:15:56	152.57.179.41	Admin	admin	SUP22_19 - seemaSupplier is updated.

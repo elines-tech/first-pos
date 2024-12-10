@@ -1,0 +1,5 @@
+Dt --> 26-09-22 08:03:50 IP --> 152.57.73.227 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-26 08:23:46	152.57.73.227	ADMIN	admin	IN22_2 inward is deleted.
+2022-09-26 08:23:59	152.57.73.227	ADMIN	admin	IN22_1 inward is deleted.
+Dt --> 26-09-22 10:08:24 IP --> 106.220.86.87 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 26-09-22 01:27:00 IP --> 103.36.82.14 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.

@@ -1,0 +1,25 @@
+Dt --> 06-12-22 08:24:46 IP --> 106.76.78.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 09:30:04 IP --> 152.57.60.35 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-06 09:43:21	152.57.60.35	Admin	admin	PCAT_7 - Vegetables product category is added.
+2022-12-06 09:44:28	152.57.60.35	Admin	admin	PCAT_8 - milk product category is added.
+2022-12-06 09:47:09	152.57.60.35	Admin	admin	PCAT_8 - milk product category is updated.
+2022-12-06 09:47:46	152.57.60.35	Admin	admin	PCAT_8 - milk product category is deleted.
+2022-12-06 09:52:19	152.57.60.35	Admin	admin	PSCT_3 - testingweb product Subcategory is added.
+2022-12-06 10:03:19	152.57.60.35	Admin	admin	PSCT_3 - tomato product Subcategory is updated.
+2022-12-06 10:05:26	152.57.60.35	Admin	admin	PCAT_7 - Vegetables product category is updated.
+2022-12-06 10:06:26	152.57.60.35	Admin	admin	PCAT_7 - Vegetables product category is updated.
+2022-12-06 12:18:52	152.57.32.32	Admin	admin	PC_1 - Tasty BiteProduct Combo is updated.
+2022-12-06 12:23:57	152.57.32.32	Admin	admin	PCAT_7 - Vegetables product category is updated.
+2022-12-06 12:24:40	152.57.32.32	Admin	admin	PSCT_3 - tomato product Subcategory is updated.
+2022-12-06 12:31:33	152.57.32.32	Admin	admin	PCAT_7 - tea product category is updated.
+2022-12-06 12:32:29	152.57.32.32	Admin	admin	PSCT_3 - special tea product Subcategory is updated.
+2022-12-06 12:39:08	152.57.32.32	Admin	admin	PC_1 - Tasty BiteProduct Combo is updated.
+2022-12-06 12:40:25	152.57.32.32	Admin	admin	PC_1 - Tasty BiteProduct Combo is updated.
+Dt --> 06-12-22 02:32:49 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+06-12-22 02:35:06	157.33.33.203	Admin	admin	USR22_3 - che User is updated.
+06-12-22 02:35:39	157.33.33.203	Admin	admin	USR22_3 - chef User is updated.
+06-12-22 02:36:17	157.33.33.203	Admin	admin	USR22_1 - admin Profile is updated.
+Dt --> 06-12-22 02:36:53 IP --> 157.33.33.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 06-12-22 04:37:53 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 06-12-22 04:41:53 IP --> 49.36.35.181 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 06-12-22 04:51:08 IP --> 49.36.35.181 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

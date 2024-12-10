@@ -1,0 +1,12 @@
+Dt --> 14-11-22 01:04:10 IP --> 49.36.35.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 05:06:02 IP --> 49.36.35.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 05:21:19 IP --> 152.57.102.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 06:38:40 IP --> 49.36.35.24 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 07:23:22 IP --> 49.206.12.55 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 07:25:18 IP --> 49.206.12.55 LOGIN USER --> USR22_19 ADDED USER --> USR22_19 	USR22_19 Cashier logged in.
+Dt --> 14-11-22 08:34:22 IP --> 152.57.102.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 10:27:36 IP --> 49.206.12.55 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 14-11-22 10:28:27 IP --> 49.206.12.55 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-14 22:33:34	49.206.12.55	Admin	admin	BAR22_35 - barcode is generated.
+2022-11-14 22:34:24	49.206.12.55	Admin	admin	BAR22_36 - barcode is generated.
+Dt --> 14-11-22 11:00:31 IP --> 152.57.102.203 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

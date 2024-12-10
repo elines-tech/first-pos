@@ -1,0 +1,15 @@
+Dt --> 22-10-22 08:26:50 IP --> 152.57.52.59 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 22-10-22 08:28:47 IP --> 49.36.35.207 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 22-10-22 08:41:00 IP --> 106.76.78.150 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+22-10-22 12:48:50	152.57.52.59	Superadmin		PAK_1 -  Subscription  is updated.
+22-10-22 12:52:56	152.57.52.59	Superadmin		PAK_1 -  Subscription  is updated.
+22-10-22 12:53:51	152.57.52.59	Superadmin		PAK_1 -  Subscription  is updated.
+22-10-22 12:54:11	152.57.52.59	Superadmin		PAK_1 -  Subscription  is updated.
+22-10-22 12:54:57	152.57.52.59	Superadmin		PAK_1 -  Subscription  is updated.
+Dt --> 22-10-22 02:03:45 IP --> 49.36.35.207 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+22-10-22 14:07:17	49.36.35.207	Superadmin		PAK_1 -  Subscription  is updated.
+22-10-22 14:09:18	152.57.52.59	Superadmin		PAK_1 -  Subscription  is updated.
+22-10-22 14:16:20	152.57.52.59	Superadmin		 -  Subscription  is updated.
+22-10-22 14:16:32	152.57.52.59	Superadmin		 -  Subscription  is updated.
+22-10-22 16:14:29	152.57.52.59	Superadmin		 -  Subscription  is updated.
+Dt --> 22-10-22 07:03:05 IP --> 152.57.52.59 LOGIN USER -->  ADDED USER -->  	 User id is logout.

@@ -1,0 +1,8 @@
+Dt --> 03-11-22 01:39:46 IP --> 155.138.108.185 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 03-11-22 07:46:26 IP --> 106.200.117.193 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 03-11-22 12:25:56 IP --> 106.200.117.193 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+Dt --> 03-11-22 12:25:59 IP --> 106.200.117.193 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 03-11-22 01:29:23 IP --> 145.82.68.180 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 03-11-22 01:47:20 IP --> 145.82.68.180 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 03-11-22 05:44:00 IP --> 106.200.117.193 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 03-11-22 07:38:20 IP --> 106.200.117.193 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.

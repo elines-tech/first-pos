@@ -1,0 +1,10 @@
+Dt --> 11-11-22 10:35:04 IP --> 152.57.104.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-11 10:42:33	152.57.104.129	Admin	admin	INL22_10 deleted inward items
+Dt --> 11-11-22 10:56:53 IP --> 152.57.104.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 11-11-22 10:56:58 IP --> 152.57.104.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 11-11-22 10:57:03 IP --> 152.57.104.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 11-11-22 01:39:41 IP --> 49.36.35.40 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-11 16:50:18	49.36.35.40	Admin	admin	Email Setting is updated.
+2022-11-11 16:58:44	49.36.35.40	Admin	admin	Text-SMS Setting is updated.
+2022-11-11 17:05:17	49.36.35.40	Admin	admin	Text-SMS Setting is updated.
+Dt --> 11-11-22 05:47:46 IP --> 49.36.35.40 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

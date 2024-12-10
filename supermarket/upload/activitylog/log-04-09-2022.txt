@@ -1,0 +1,28 @@
+Dt --> 04-09-22 11:45:18 IP --> 188.53.190.26 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-09-04 11:47:00	188.53.190.26	ADMIN	admin	TAC_16 - VAT Tax Rate is updated.
+2022-09-04 11:47:07	188.53.190.26	ADMIN	admin	TAC_16 - VAT Tax Rate is updated.
+2022-09-04 11:47:16	188.53.190.26	ADMIN	admin	TAC_16 - VAT Tax Rate is updated.
+2022-09-04 11:47:23	188.53.190.26	ADMIN	admin	TAC_16 - VAT Tax Rate is updated.
+2022-09-04 11:47:30	188.53.190.26	ADMIN	admin	TAC_16 - VAT Tax rate is deleted.
+2022-09-04 11:47:40	188.53.190.26	ADMIN	admin	TAC_16 - VAT Tax Rate is updated.
+2022-09-04 11:59:34	188.53.190.26	ADMIN	admin	TAB_6 - 1 table is added.
+2022-09-04 12:08:20	188.53.190.26	ADMIN	admin	TAB_6 - 100 table is updated.
+04-09-22 12:27:53	188.53.190.26			SUP22_7 - test Supplier is added.
+04-09-22 12:42:09	188.53.190.26			SUP22_7 Supplier is deleted.
+Dt --> 04-09-22 03:31:24 IP --> 103.36.82.10 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 User id is login.
+2022-09-04 15:57:21	188.53.190.26	ADMIN	admin	CAT_11 - test 1 category is added.
+2022-09-04 15:57:39	188.53.190.26	ADMIN	admin	CAT_12 - test 2 category is added.
+2022-09-04 15:57:53	188.53.190.26	ADMIN	admin	CAT_12 - test 2 category is updated.
+2022-09-04 15:57:58	188.53.190.26	ADMIN	admin	CAT_12 - test 2 category is updated.
+2022-09-04 15:58:04	188.53.190.26	ADMIN	admin	CAT_12 - test 2 category is deleted.
+04-09-22 05:08:25	188.53.162.4	ADMIN	admin	PRO22_20 - اختبار Product is added.
+04-09-22 05:09:33	188.53.162.4	ADMIN	admin	PRO22_21 - اختبار Product is added.
+04-09-22 05:11:11	188.53.162.4	ADMIN	admin	PRO22_21 - اختبار Product is updated.
+04-09-22 05:13:45	188.53.162.4	ADMIN	admin	PRO22_19Product is deleted.
+2022-09-04 17:20:44	188.53.162.4	ADMIN	admin	ITEM22_7 -  item is deleted.
+2022-09-04 17:26:14	188.53.162.4	ADMIN	admin	PC_19 - test combo 1Product Combo is updated.
+2022-09-04 17:27:04	188.53.162.4	ADMIN	admin	PC_19 - test combo 1Product Combo is updated.
+2022-09-04 17:27:10	188.53.162.4	ADMIN	admin	PC_19 - test combo 1Product Combo is updated.
+2022-09-04 17:27:15	188.53.162.4	ADMIN	admin	PC_19 - test combo 1Product Combo is updated.
+2022-09-04 17:27:18	188.53.162.4	ADMIN	admin	PC_19 - test combo 1Product Combo is updated.
+2022-09-04 17:27:22	188.53.162.4	ADMIN	admin	PC_19 - test combo 1Product Combo is updated.

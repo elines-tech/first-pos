@@ -1,0 +1,23 @@
+Dt --> 16-11-22 10:16:37 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-16 10:26:21	152.57.123.174	Admin	admin	INL22_37 deleted Transfer items
+2022-11-16 10:26:24	152.57.123.174	Admin	admin	INL22_37 deleted Transfer items
+2022-11-16 10:26:31	152.57.123.174	Admin	admin	INL22_36 deleted Transfer items
+2022-11-16 10:26:40	152.57.123.174	Admin	admin	IN22_24 - BR22_35 of BR22_36 having amount 200  is transfer.
+2022-11-16 10:30:21	152.57.123.174	Admin	admin	IN22_24 - BR22_35 of BR22_36 having amount 200.00  is transfer.
+Dt --> 16-11-22 10:33:53 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 01:57:12 IP --> 49.206.10.114 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 02:11:01 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 02:17:00 IP --> 49.206.10.114 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 02:23:05 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 02:45:45 IP --> 49.206.10.114 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+16-11-22 02:47:20	49.206.10.114	CLT22_22	 updated company details after account creation 	
+Dt --> 16-11-22 03:05:16 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 03:07:00 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 03:11:32 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 16-11-22 03:51:00 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 16-11-22 03:52:21 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+16-11-22 04:44:40	152.57.123.174	Admin	admin	SUP22_28 - supplier sample Supplier is added.
+2022-11-16 17:09:40	152.57.123.174	Admin	admin	CAT_41 - test category is added.
+2022-11-16 17:10:12	152.57.123.174	Admin	admin	CAT_41 - test category is updated.
+Dt --> 16-11-22 05:11:37 IP --> 106.76.78.141 LOGIN USER --> USR22_10 ADDED USER --> USR22_10 	USR22_10 Cashier logged in.
+Dt --> 16-11-22 05:15:24 IP --> 152.57.123.174 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

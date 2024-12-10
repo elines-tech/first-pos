@@ -1,0 +1,9 @@
+{
+    "require": {
+        "salla/zatca": "^2.0",
+        "phpmailer/phpmailer": "^6.6",
+        "plivo/plivo-php": "^4.37",
+        "twilio/sdk": "^6.43",
+        "mpdf/mpdf": "^8.1"
+    }
+}

@@ -1,0 +1,21 @@
+Dt --> 29-11-22 01:34:54 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 01:58:57 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 01:59:14 IP --> 49.36.43.81 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 29-11-22 04:58:52 IP --> 49.206.11.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+29-11-22 17:03:33	49.206.11.135	Admin	admin	PRO22_7 - ريس  برن  هيلث  عيل Product is updated.
+2022-11-29 17:09:32	49.206.11.135	Admin	admin	CO22_7 - 302 counter is added.
+2022-11-29 17:09:42	49.206.11.135	Admin	admin	CO22_7 - 302 counter is updated.
+Dt --> 29-11-22 05:21:10 IP --> 49.206.11.135 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 29-11-22 05:27:13 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-29 17:30:06	49.206.11.135	Admin	admin	IN22_7 - SUP22_2 of BR22_4 having amount 14577.50 inward is added.
+2022-11-29 17:39:28	49.206.11.135	Admin	admin	BAR22_5 - barcode is generated.
+Dt --> 29-11-22 07:43:00 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 07:43:02 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 07:44:08 IP --> 157.33.37.135 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 08:48:51 IP --> 157.33.37.135 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is login.
+Dt --> 29-11-22 08:49:14 IP --> 157.33.37.135 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 User id is logout.
+Dt --> 29-11-22 08:58:11 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 09:00:23 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 09:08:28 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 29-11-22 09:09:52 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 29-11-22 09:15:04 IP --> 49.36.43.81 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

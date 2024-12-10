@@ -1,0 +1,34 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-12-02 11:23:38 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 11:24:54 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 11:25:45 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 11:26:18 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 11:26:25 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 11:26:35 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:19:03 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:19:36 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:19:43 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:19:46 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:20:09 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:09 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:10 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:16 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:20:17 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:17 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:18 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:24 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:20:26 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:27 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:27 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:32 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:20:36 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:36 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:37 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:49 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:20:51 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:52 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:20:52 --> 404 Page Not Found: Assets/css
+ERROR - 2022-12-02 12:28:29 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:53:52 --> 404 Page Not Found: Assets/images
+ERROR - 2022-12-02 12:53:52 --> 404 Page Not Found: Upload/userImage

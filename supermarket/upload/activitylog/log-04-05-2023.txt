@@ -1,0 +1,11 @@
+Dt --> 04-05-23 04:07:00 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2023-05-04 16:09:34	49.36.35.0	Admin	admin	BAR23_13 - barcode is generated.
+Dt --> 04-05-23 04:23:38 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-05-23 04:24:10 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-05-23 04:24:35 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-05-23 04:25:08 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-05-23 04:25:30 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 04-05-23 04:25:36 IP --> 49.36.35.0 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 04-05-23 04:26:11 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 04-05-23 04:30:01 IP --> 49.36.35.0 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 04-05-23 04:30:36 IP --> 49.36.35.0 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

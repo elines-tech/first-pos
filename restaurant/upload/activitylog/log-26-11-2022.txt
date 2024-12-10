@@ -1,0 +1,49 @@
+Dt --> 26-11-22 10:54:31 IP --> 49.36.41.57 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+26-11-22 11:12:43	49.36.41.57	Admin	admin	PRO22_1 - برودكت ن ١ Product is added.
+26-11-22 12:22:19	49.36.41.57	Admin	admin	PRO22_2 - برودكت نمبر أ  Product is added.
+2022-11-26 12:22:50	49.36.41.57	Admin	admin	PCAT_3 - Burger product category is added.
+2022-11-26 12:23:20	49.36.41.57	Admin	admin	PCAT_2 - Pizza product category is updated.
+Dt --> 26-11-22 02:36:27 IP --> 49.36.41.57 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 26-11-22 02:38:55 IP --> 49.36.41.57 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 26-11-22 06:47:14 IP --> 49.36.41.57 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-26 19:59:23	49.36.41.57	Admin	admin	CAT_1 - Grocery category is added.
+2022-11-26 20:00:22	49.36.41.57	Admin	admin	CAT_2 - Dairy category is added.
+2022-11-26 20:00:37	49.36.41.57	Admin	admin	CAT_3 - Fruits category is added.
+2022-11-26 20:10:51	49.36.41.57	Admin	admin	UOM_1 - Kilogram unit is added.
+2022-11-26 20:11:04	49.36.41.57	Admin	admin	UOM_2 - Grams unit is added.
+2022-11-26 20:11:15	49.36.41.57	Admin	admin	UOM_3 - Litre unit is added.
+2022-11-26 20:11:26	49.36.41.57	Admin	admin	UOM_4 - Mililiter unit is added.
+2022-11-26 20:11:34	49.36.41.57	Admin	admin	UOM_5 - Pieces unit is added.
+2022-11-26 20:11:43	49.36.41.57	Admin	admin	UOM_5 - Pieces unit is updated.
+2022-11-26 20:11:48	49.36.41.57	Admin	admin	UOM_4 - Mililiter unit is updated.
+2022-11-26 20:11:53	49.36.41.57	Admin	admin	UOM_3 - Litre unit is updated.
+2022-11-26 20:11:57	49.36.41.57	Admin	admin	UOM_2 - Grams unit is updated.
+2022-11-26 20:19:36	49.36.41.57	Admin	admin	ITEM22_1 - Oranges item is added.
+2022-11-26 20:20:03	49.36.41.57	Admin	admin	ITEM22_2 - Mangoes item is added.
+2022-11-26 20:21:00	49.36.41.57	Admin	admin	ITEM22_3 - All purpose flour item is added.
+2022-11-26 20:21:39	49.36.41.57	Admin	admin	ITEM22_4 - Tomato Sauce item is added.
+2022-11-26 20:22:41	49.36.41.57	Admin	admin	ITEM22_5 - Cheese item is added.
+2022-11-26 20:24:52	49.36.41.57	Admin	admin	ITEM22_6 - Olive Oil item is added.
+2022-11-26 20:25:19	49.36.41.57	Admin	admin	ITEM22_7 - Milk item is added.
+2022-11-26 20:31:46	49.36.41.57	Admin	admin	ITEM22_8 - Oregano item is added.
+2022-11-26 20:39:09	49.36.41.57	Admin	admin	ITEM22_9 - asd item is added.
+2022-11-26 20:41:08	49.36.41.57	Admin	admin	ITEM22_10 - Ian Norton item is added.
+2022-11-26 20:42:06	49.36.41.57	Admin	admin	ITEM22_10 -  item is deleted.
+2022-11-26 20:42:10	49.36.41.57	Admin	admin	ITEM22_9 -  item is deleted.
+26-11-22 08:44:37	49.36.41.57	Admin	admin	SUP22_1 - Deborah Mason Supplier is added.
+26-11-22 08:47:10	49.36.41.57	Admin	admin	PRO22_1 - كيس بيزا  Product is updated.
+26-11-22 08:48:16	49.36.41.57	Admin	admin	PRO22_2 - أورانج سموث  Product is updated.
+2022-11-26 20:51:46	49.36.41.57	Admin	admin	REC22_1 - PRO22_1 recipe is added.
+2022-11-26 20:56:21	49.36.41.57	Admin	admin	REC22_2 - PRO22_2 recipe is added.
+2022-11-26 20:56:53	49.36.41.57	Admin	admin	CAT_4 - Vegetables category is added.
+2022-11-26 20:57:31	49.36.41.57	Admin	admin	ITEM22_11 - Potatoes item is added.
+2022-11-26 20:58:05	49.36.41.57	Admin	admin	ITEM22_12 - Chilly Flakes item is added.
+2022-11-26 20:58:47	49.36.41.57	Admin	admin	ITEM22_13 - Sunflower Oil item is added.
+2022-11-26 20:58:58	49.36.41.57	Admin	admin	true - Sunflower Oil item is updated.
+26-11-22 09:13:10	49.36.41.57	Admin	admin	PRO22_3 - فرنش فرص  Product is added.
+2022-11-26 21:13:47	49.36.41.57	Admin	admin	PCAT_4 - Snacks product category is added.
+2022-11-26 21:17:55	49.36.41.57	Admin	admin	IN22_1 - SUP22_1 of BR22_1 having amount 27110.00 inward is added.
+2022-11-26 21:18:37	49.36.41.57	Admin	admin	5 Bulk tables are added.
+2022-11-26 21:18:52	49.36.41.57	Admin	admin	5 Bulk tables are added.
+26-11-22 09:22:44	49.36.41.57	Admin	admin	USR22_2 - counteruser User is added.
+26-11-22 09:23:40	49.36.41.57	Admin	admin	USR22_3 - chefuser User is added.

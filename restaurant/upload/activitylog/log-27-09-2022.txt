@@ -1,0 +1,8 @@
+Dt --> 27-09-22 06:53:00 IP --> 110.227.19.23 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 27-09-22 03:24:22 IP --> 176.45.169.251 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 27-09-22 05:40:03 IP --> 103.240.209.55 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 27-09-22 05:40:09 IP --> 159.0.204.82 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 27-09-22 05:52:34 IP --> 159.0.204.82 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 27-09-22 06:13:37 IP --> 49.36.43.68 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-27 18:24:49	159.0.204.82	ADMIN	admin	CAT_8 - Fish and shellfish category is updated.
+Dt --> 27-09-22 06:34:24 IP --> 49.36.43.68 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.

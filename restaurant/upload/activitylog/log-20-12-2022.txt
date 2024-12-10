@@ -1,0 +1,14 @@
+Dt --> 20-12-22 02:29:26 IP --> 152.58.18.159 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-20 14:41:10	152.58.18.159	Admin	admin	IN22_13 - BR22_2 of BR22_1 having amount 350.00  is transfer.
+2022-12-20 14:42:39	152.58.18.159	Admin	admin	IN22_13 - BR22_2 of BR22_1 having amount 350.00  is transfer.
+2022-12-20 14:43:31	152.58.18.159	Admin	admin	INL22_25 deleted Transfer items
+2022-12-20 14:43:46	152.58.18.159	Admin	admin	IN22_13 - BR22_2 of BR22_1 having amount 200  is transfer.
+2022-12-20 14:45:11	152.58.18.159	Admin	admin	IN22_13 - BR22_2 of BR22_1 having amount 200.00  is transfer.
+2022-12-07	152.58.18.159	Admin	admin	true - sample  Account Expense is updated.
+Dt --> 20-12-22 03:14:11 IP --> 152.58.18.159 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 20-12-22 05:13:30 IP --> 152.58.18.207 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 20-12-22 05:13:37 IP --> 152.58.18.207 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 20-12-22 07:46:05 IP --> 152.58.16.93 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+20-12-22 07:51:09	152.58.16.93	Admin	admin	PRO22_5 - tea Product is added.
+20-12-22 07:56:15	152.58.16.93	Admin	admin	PRO22_5 - tea Product is updated.
+20-12-22 08:04:17	152.58.16.93	Admin	admin	PRO22_5 - tea Product is updated.

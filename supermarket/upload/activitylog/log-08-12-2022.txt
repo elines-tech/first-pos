@@ -1,0 +1,11 @@
+Dt --> 08-12-22 12:23:28 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-08 12:26:39	49.36.40.175	Admin	admin	Email Setting is updated.
+08-12-22 12:45:49	49.36.40.175	Admin	admin	USR22_10 - johndoe User is added.
+Dt --> 08-12-22 03:39:27 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-08 15:40:09	49.36.40.175	Admin	admin	Text-SMS Setting is updated.
+2022-12-08 16:30:35	49.36.40.175	Admin	admin	Text-SMS Setting is updated.
+Dt --> 08-12-22 04:49:45 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 05:25:36 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 06:49:28 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 08-12-22 07:40:17 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 08-12-22 07:52:58 IP --> 49.36.40.175 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.

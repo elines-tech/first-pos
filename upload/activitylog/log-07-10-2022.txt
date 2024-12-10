@@ -1,0 +1,162 @@
+Dt --> 07-10-22 07:36:52 IP --> 106.193.194.210 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-10-22 08:06:58 IP --> 49.36.43.113 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-07 09:08:39	106.193.194.210	ADMIN	neosao	CO_1 -  COUNTER is added.
+2022-10-07 09:10:31	106.193.194.210	ADMIN	neosao	CO22_2 -  counter is added.
+Dt --> 07-10-22 09:11:30 IP --> 49.206.11.240 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-07 09:12:38	106.193.194.210	ADMIN	neosao	CO22_3 - CO.1 counter is added.
+2022-10-07 09:16:15	106.193.194.210	ADMIN	neosao	CO22_4 - C0.1 counter is added.
+2022-10-07 09:17:46	106.193.194.210	ADMIN	neosao	CO22_5 - CO1 counter is added.
+2022-10-07 09:20:28	106.193.194.210	ADMIN	neosao	CO22_6 - CO2 counter is added.
+2022-10-07 09:20:39	106.193.194.210	ADMIN	neosao	CO22_7 - CO3 counter is added.
+2022-10-07 09:22:05	106.193.194.210	ADMIN	neosao	CO22_8 - ettt counter is added.
+2022-10-07 09:22:10	106.193.194.210	ADMIN	neosao	CO22_8 -  counter is deleted.
+2022-10-07 09:22:24	106.193.194.210	ADMIN	neosao	CO22_7 - CO3hdhhhd counter is updated.
+2022-10-07 09:22:41	106.193.194.210	ADMIN	neosao	CO22_7 - CO3 counter is updated.
+2022-10-07 09:24:17	106.193.194.210	ADMIN	neosao	CO22_9 - CO3 counter is added.
+2022-10-07 09:24:29	106.193.194.210	ADMIN	neosao	CO22_10 - CO1 counter is added.
+2022-10-07 10:03:08	106.193.194.210	ADMIN	neosao	R_18 - Counter role is added.
+Dt --> 07-10-22 10:11:06 IP --> 49.206.11.240 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-10-22 10:11:42 IP --> 49.206.11.240 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-07 10:19:33	49.206.11.240	ADMIN	neosao	BRD_9 - My brand 1 brand is added.
+2022-10-07 10:19:41	49.206.11.240	ADMIN	neosao	BRD_10 - My brand 2 brand is added.
+2022-10-07 10:19:48	49.206.11.240	ADMIN	neosao	true - My brand 3 brand is updated.
+2022-10-07 10:19:55	49.206.11.240	ADMIN	neosao	true - My brand 2 brand is updated.
+2022-10-07 10:20:02	49.206.11.240	ADMIN	neosao	true - My brand 1 brand is updated.
+2022-10-07 10:20:12	49.206.11.240	ADMIN	neosao	BRD_11 - My brand 3 brand is added.
+2022-10-07 10:20:27	49.206.11.240	ADMIN	neosao	BRD_11 - My brand 3 brand is deleted.
+2022-10-07 10:28:30	49.206.11.240	ADMIN	neosao	CAT_17 - My Category 1 category is added.
+2022-10-07 10:29:04	49.206.11.240	ADMIN	neosao	CAT_18 - My Category 2 category is added.
+2022-10-07 10:29:12	49.206.11.240	ADMIN	neosao	CAT_17 - My Category 1 category is updated.
+2022-10-07 10:29:30	49.206.11.240	ADMIN	neosao	CAT_17 - My Category 1 category is updated.
+2022-10-07 10:29:41	49.206.11.240	ADMIN	neosao	CAT_18 - My Category 3 category is updated.
+2022-10-07 10:30:01	49.206.11.240	ADMIN	neosao	CAT_18 - My Category 2 category is updated.
+2022-10-07 10:30:13	49.206.11.240	ADMIN	neosao	CAT_19 - DELETE category is added.
+2022-10-07 10:30:16	49.206.11.240	ADMIN	neosao	CAT_19 - DELETE category is updated.
+2022-10-07 10:30:28	49.206.11.240	ADMIN	neosao	CAT_19 - DELETE category is deleted.
+Dt --> 07-10-22 10:47:42 IP --> 49.36.43.113 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-07 10:54:10	49.206.11.240	ADMIN	neosao	true - Nandini Milk brand is updated.
+2022-10-07 10:55:02	49.206.11.240	ADMIN	neosao	true - Bajaj brand is updated.
+2022-10-07 10:55:18	49.206.11.240	ADMIN	neosao	CAT_17 - HOME APPLIANCES category is updated.
+2022-10-07 10:55:58	49.206.11.240	ADMIN	neosao	CAT_18 - PLASTIC CONTAINERS category is updated.
+2022-10-07 10:56:14	49.206.11.240	ADMIN	neosao	true - Prestige brand is updated.
+2022-10-07 10:58:45	49.206.11.240	ADMIN	neosao	SCAT_8 - Cooking Essentials subcategory is added.
+2022-10-07 11:00:57	49.206.11.240	ADMIN	neosao	SCAT_9 - Gas Stove subcategory is added.
+2022-10-07 11:03:11	49.206.11.240	ADMIN	neosao	SCAT_10 - Food storage subcategory is added.
+2022-10-07 11:04:14	49.206.11.240	ADMIN	neosao	SCAT_11 - Drinkware subcategory is added.
+2022-10-07 11:04:23	49.206.11.240	ADMIN	neosao	SCAT_12 - dele subcategory is added.
+2022-10-07 11:04:37	49.206.11.240	ADMIN	neosao	SCAT_12 - dffsdf Subcategory is updated.
+2022-10-07 11:04:43	49.206.11.240	ADMIN	neosao	SCAT_12 - dffsdf subcategory is deleted.
+2022-10-07 11:04:47	49.206.11.240	ADMIN	neosao	SCAT_11 - Drinkware Subcategory is updated.
+2022-10-07 11:05:35	49.206.11.240	ADMIN	neosao	SCAT_9 - Gas Stove Subcategory is updated.
+2022-10-07 11:05:54	49.206.11.240	ADMIN	neosao	SCAT_8 - Cooking Essentials Subcategory is updated.
+2022-10-07 11:06:01	49.206.11.240	ADMIN	neosao	SCAT_9 - Gas Stove Subcategory is updated.
+2022-10-07 11:06:13	49.206.11.240	ADMIN	neosao	SCAT_9 - Gas Stove Subcategory is updated.
+2022-10-07 11:10:13	49.206.11.240	ADMIN	neosao	SCAT_10 - Food storage Subcategory is updated.
+2022-10-07 11:10:33	49.206.11.240	ADMIN	neosao	SCAT_10 - Food storage Subcategory is updated.
+2022-10-07 11:11:48	49.206.11.240	ADMIN	neosao	SCAT_13 - dfs subcategory is added.
+2022-10-07 11:11:52	49.206.11.240	ADMIN	neosao	SCAT_13 - dfs subcategory is deleted.
+07-10-22 11:43:46	223.231.157.167	ADMIN	neosao	PRO22_23 -  تيفينس  Product is added.
+Dt --> 07-10-22 11:47:51 IP --> 106.193.194.210 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+07-10-22 11:50:09	223.231.157.167	ADMIN	neosao	PRO22_24 - بطل Product is added.
+07-10-22 11:56:34	223.231.157.167	ADMIN	neosao	PRO22_25 - جس  صطوف  Product is added.
+07-10-22 11:57:48	106.193.194.210	ADMIN	neosao	USR22_2 -  User is added.
+07-10-22 11:58:14	223.231.157.167	ADMIN	neosao	PRO22_26 - Any Liquid برودكت  Product is added.
+07-10-22 11:58:45	106.193.194.210	ADMIN	neosao	USR22_3 -  User is added.
+07-10-22 12:04:05	223.231.157.167	ADMIN	neosao	PRO22_23 - تيفينس Product is updated.
+07-10-22 12:04:23	223.231.157.167	ADMIN	neosao	PRO22_23 - تيفينس Product is updated.
+07-10-22 12:04:50	223.231.157.167	ADMIN	neosao	PRO22_23 - تيفينس Product is updated.
+07-10-22 12:05:52	223.231.157.167	ADMIN	neosao	PRO22_26 - Any Liquid برودكت Product is updated.
+07-10-22 12:06:15	223.231.157.167	ADMIN	neosao	PRO22_23 - تيفينس Product is updated.
+07-10-22 12:06:22	223.231.157.167	ADMIN	neosao	PRO22_23 - تيفينس Product is updated.
+07-10-22 12:07:20	223.231.157.167	ADMIN	neosao	PRO22_27 - تست Product is added.
+07-10-22 12:07:47	223.231.157.167	ADMIN	neosao	PRO22_27 - تست Product is updated.
+07-10-22 12:07:56	223.231.157.167	ADMIN	neosao	PRO22_27Product is deleted.
+07-10-22 12:08:22	223.231.157.167	ADMIN	neosao	PRO22_23 - تيفينس Product is updated.
+07-10-22 12:17:58	106.193.194.210	ADMIN	neosao	USR22_2 -  User is updated.
+07-10-22 12:24:37	223.231.157.167	ADMIN	neosao	SUP22_18 - Akshay Patil Supplier is added.
+07-10-22 12:29:51	106.193.194.210	ADMIN	neosao	USR22_2 -  User is updated.
+07-10-22 12:34:32	223.231.157.167	ADMIN	neosao	SUP22_18 - Akshay PatilSupplier is updated.
+07-10-22 12:37:17	223.231.157.167	ADMIN	neosao	SUP22_19 - Seema Shelar Supplier is added.
+2022-10-07 12:59:41	106.193.194.210	ADMIN	neosao	IN22_6 - BR22_27 of BR22_28 having amount 2500.00  is transfer.
+07-10-22 01:06:18	223.231.157.167	ADMIN	neosao	SUP22_19 - Seema ShelarSupplier is updated.
+2022-10-07 13:09:16	106.193.194.210	ADMIN	neosao	IN22_7 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+07-10-22 01:13:01	223.231.157.167	ADMIN	neosao	SUP22_13 Supplier is deleted.
+2022-10-07 13:25:06	49.206.9.88	ADMIN	neosao	IN22_8 - SUP22_18 of BR22_27 having amount 15480.41 inward is added.
+2022-10-07 13:27:26	49.206.9.88	ADMIN	neosao	IN22_8 - SUP22_18 of BR22_27 having amount 33545.66 inward is added.
+2022-10-07 13:28:51	106.193.194.210	ADMIN	neosao	IN22_7 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+2022-10-07 13:31:21	106.193.194.210	ADMIN	neosao	IN22_7 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+2022-10-07 13:36:17	106.193.194.210	ADMIN	neosao	IN22_7 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+2022-10-07 13:37:00	106.193.194.210	ADMIN	neosao	IN22_7 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+2022-10-07 13:44:11	49.206.9.88	ADMIN	neosao	IN22_8 - SUP22_18 of BR22_27 having amount 16509.38 inward is added.
+2022-10-07 14:12:21	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_19 of BR22_27 having amount 31447.50 inward is added.
+2022-10-07 14:12:36	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_19 of BR22_27 having amount 31447.50 inward is added.
+2022-10-07 14:12:49	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_19 of BR22_27 having amount 31447.50 inward is added.
+2022-10-07 14:15:34	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_19 of BR22_27 having amount 39607.50 inward is added.
+2022-10-07 14:15:52	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_19 of BR22_27 having amount 39607.50 inward is added.
+2022-10-07 14:16:56	106.193.194.210	ADMIN	neosao	IN22_7 - BR22_27 of BR22_28 having amount 1500.00  is transfer.
+2022-10-07 14:32:37	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_18 of BR22_27 having amount 39607.50 inward is added.
+2022-10-07 14:32:45	49.206.9.88	ADMIN	neosao	IN22_9 - SUP22_19 of BR22_27 having amount 39607.50 inward is added.
+2022-10-07 14:33:44	49.206.9.88	ADMIN	neosao	UOM_6 - Piece unit is updated.
+Dt --> 07-10-22 02:47:01 IP --> 106.76.70.137 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-07 15:27:00	49.206.9.88	ADMIN	neosao	BR22_29 - Branch 3 Branch is added.
+2022-10-07 15:29:26	49.206.9.88	ADMIN	neosao	BR22_29 - Branch 4 Branch is updated.
+2022-10-07 15:29:31	106.193.194.210	ADMIN	neosao	IN22_10 - SUP22_16 of BR22_27 having amount 1530.00 inward is added.
+2022-10-07 15:29:55	49.206.9.88	ADMIN	neosao	BR22_29 - Branch 4 Branch is updated.
+2022-10-07 15:30:14	49.206.9.88	ADMIN	neosao	BR22_30 - Branch 3 Branch is added.
+2022-10-07 15:30:24	49.206.9.88	ADMIN	neosao	BR22_31 - rt Branch is added.
+2022-10-07 15:30:31	49.206.9.88	ADMIN	neosao	BR22_31 - rt branch is deleted.
+2022-10-07 15:30:43	49.206.9.88	ADMIN	neosao	TAC_30 - GST 1 Tax Rate is updated.
+2022-10-07 15:30:54	49.206.9.88	ADMIN	neosao	TAC_30 - GST 2 Tax Rate is updated.
+2022-10-07 15:30:59	49.206.9.88	ADMIN	neosao	TAC_30 - GST 2 Tax Rate is updated.
+2022-10-07 15:31:08	49.206.9.88	ADMIN	neosao	TAC_30 - CGST Tax Rate is updated.
+2022-10-07 15:31:19	106.193.194.210	ADMIN	neosao	IN22_10 - SUP22_16 of BR22_27 having amount 2295.00 inward is added.
+2022-10-07 15:31:36	49.206.9.88	ADMIN	neosao	TAC_30 - SGST Tax Rate is updated.
+2022-10-07 15:33:04	49.206.9.88	ADMIN	neosao	TAC_30 - SGST Tax Rate is updated.
+2022-10-07 15:33:17	49.206.9.88	ADMIN	neosao	TAC_30 - CGST Tax Rate is updated.
+2022-10-07 15:36:13	106.193.194.210	ADMIN	neosao	IN22_10 - SUP22_16 of BR22_27 having amount 2295.00 inward is added.
+2022-10-07 15:38:15	106.193.194.210	ADMIN	neosao	IN22_10 - SUP22_16 of BR22_27 having amount 2295.00 inward is added.
+2022-10-07 15:40:38	106.193.194.210	ADMIN	neosao	IN22_10 - SUP22_16 of BR22_27 having amount 2295.00 inward is added.
+2022-10-07 15:40:59	49.206.9.88	ADMIN	neosao	TAG_30 - Group 3 Tax Group is added.
+2022-10-07 15:41:13	49.206.9.88	ADMIN	neosao	TAG_30 - Group 3 Tax Group is updated.
+2022-10-07 15:41:22	49.206.9.88	ADMIN	neosao	TAG_30 - Group 3 Tax Group is updated.
+2022-10-07 15:41:34	49.206.9.88	ADMIN	neosao	TAG_31 - Group 4 Tax Group is added.
+2022-10-07 15:41:42	49.206.9.88	ADMIN	neosao	TAG_31 -  Tax group is deleted.
+2022-10-07 15:42:10	106.193.194.210	ADMIN	neosao	IN22_10 - SUP22_16 of BR22_27 having amount 2295.00 inward is added.
+2022-10-07 15:45:14	49.206.9.88	ADMIN	neosao	TAG_32 - Group 4 Tax Group is added.
+2022-10-07 15:45:18	49.206.9.88	ADMIN	neosao	TAG_32 -  Tax group is deleted.
+2022-10-07 15:45:38	49.206.9.88	ADMIN	neosao	TAG_33 - GST group Tax Group is added.
+2022-10-07 15:45:59	49.206.9.88	ADMIN	neosao	BR22_30 - Branch 3 Branch is updated.
+2022-10-07 15:46:08	106.193.194.210	ADMIN	neosao	IN22_11 - SUP22_16 of BR22_27 having amount 7770.00 inward is added.
+2022-10-07 15:46:46	106.193.194.210	ADMIN	neosao	IN22_11 - SUP22_16 of BR22_27 having amount 8076.00 inward is added.
+2022-10-07 15:46:50	49.206.9.88	ADMIN	neosao	 - Dozen base unit is added.
+2022-10-07 15:46:58	106.193.194.210	ADMIN	neosao	IN22_11 - SUP22_16 of BR22_27 having amount 8076.00 inward is added.
+2022-10-07 15:47:05	49.206.9.88	ADMIN	neosao	 - eee base unit is added.
+2022-10-07 15:47:13	49.206.9.88	ADMIN	neosao	BUOM_4 - wrewr base unit is updated.
+2022-10-07 15:47:16	49.206.9.88	ADMIN	neosao	BUOM_4 - wrewr base unit is deleted.
+2022-10-07 15:47:51	106.193.194.210	ADMIN	neosao	IN22_12 - SUP22_17 of BR22_27 having amount 374.40 inward is added.
+2022-10-07 15:48:16	106.193.194.210	ADMIN	neosao	IN22_12 - SUP22_17 of BR22_27 having amount 374.40 inward is added.
+2022-10-07 15:48:44	106.193.194.210	ADMIN	neosao	IN22_12 - SUP22_17 of BR22_27 having amount 374.40 inward is added.
+2022-10-07 15:49:07	106.193.194.210	ADMIN	neosao	IN22_12 - SUP22_17 of BR22_27 having amount 374.40 inward is added.
+2022-10-07 15:49:16	49.206.9.88	ADMIN	neosao	UOM_7 - Pair unit is added.
+2022-10-07 15:49:25	49.206.9.88	ADMIN	neosao	UOM_5 - Dozen unit is deleted.
+2022-10-07 15:49:42	49.206.9.88	ADMIN	neosao	UOM_8 - Dozen unit is added.
+2022-10-07 15:49:50	49.206.9.88	ADMIN	neosao	UOM_9 - sdfsdf unit is added.
+2022-10-07 15:49:57	49.206.9.88	ADMIN	neosao	UOM_9 - sdfsdf unit is deleted.
+2022-10-07 15:51:27	49.206.9.88	ADMIN	neosao	CO22_11 - CO1 counter is added.
+2022-10-07 15:51:40	49.206.9.88	ADMIN	neosao	CO22_12 - CO2 counter is added.
+2022-10-07 15:51:40	106.193.194.210	ADMIN	neosao	IN22_12 - SUP22_17 of BR22_27 having amount 374.40 inward is added.
+2022-10-07 15:51:44	49.206.9.88	ADMIN	neosao	CO22_13 - CO1 counter is added.
+2022-10-07 15:51:58	49.206.9.88	ADMIN	neosao	CO22_13 -  counter is deleted.
+2022-10-07 15:52:06	49.206.9.88	ADMIN	neosao	CO22_11 - CO1 counter is updated.
+2022-10-07 15:52:11	49.206.9.88	ADMIN	neosao	CO22_11 - CO1 counter is updated.
+07-10-22 04:06:34	49.206.9.88	ADMIN	neosao	USR22_4 -  User is added.
+07-10-22 04:07:31	49.206.9.88	ADMIN	neosao	USR22_5 -  User is added.
+07-10-22 04:08:32	49.206.9.88	ADMIN	neosao	USR22_6 -  User is added.
+2022-10-07 16:10:28	49.206.9.88	ADMIN	neosao	R_19 - Keeper role is added.
+07-10-22 04:10:45	49.206.9.88	ADMIN	neosao	USR22_6 -  User is updated.
+07-10-22 04:10:54	49.206.9.88	ADMIN	neosao	USR22_6 -  User is updated.
+07-10-22 04:11:00	49.206.9.88	ADMIN	neosao	USR22_6 User is deleted.
+2022-10-07 16:27:15	106.193.194.210	ADMIN	neosao	IN22_13 - BR22_27 of BR22_28 having amount 300.00  is transfer.
+2022-10-07 16:28:03	106.193.194.210	ADMIN	neosao	IN22_13 - BR22_27 of BR22_28 having amount 300.00  is transfer.
+2022-10-07 16:45:27	106.193.194.210	ADMIN	neosao	CAT_18 - PLASTIC CONTAINERS category is updated.
+2022-10-07 16:45:40	106.193.194.210	ADMIN	neosao	CAT_13 - Dairy. category is updated.

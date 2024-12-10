@@ -1,0 +1,17 @@
+Dt --> 15-10-22 03:45:34 IP --> 152.57.176.135 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 15-10-22 04:00:40 IP --> 49.36.40.152 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 15-10-22 04:07:06 IP --> 106.210.216.42 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-10-15 17:01:44	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 120 inward is added.
+2022-10-15 17:02:14	152.57.176.135	Admin	admin	INL22_23 deleted inward items
+2022-10-15 17:08:58	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 150 inward is added.
+2022-10-15 17:09:26	152.57.176.135	Admin	admin	INL22_24 deleted inward items
+2022-10-15 17:10:26	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 120 inward is added.
+2022-10-15 17:10:54	152.57.176.135	Admin	admin	INL22_25 deleted inward items
+2022-10-15 17:18:21	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 460 inward is added.
+2022-10-15 17:20:07	152.57.176.135	Admin	admin	INL22_26 deleted inward items
+2022-10-15 17:22:29	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 560 inward is added.
+2022-10-15 17:22:57	152.57.176.135	Admin	admin	INL22_27 deleted inward items
+2022-10-15 17:26:11	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 1260 inward is added.
+2022-10-15 17:26:55	152.57.176.135	Admin	admin	INL22_28 deleted inward items
+2022-10-15 17:26:55	152.57.176.135	Admin	admin	INL22_28 deleted inward items
+2022-10-15 17:26:58	152.57.176.135	Admin	admin	IN22_12 - SUP22_16 of BR22_20 having amount 60 inward is added.

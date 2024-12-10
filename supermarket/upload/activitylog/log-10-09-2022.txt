@@ -1,0 +1,44 @@
+Dt --> 10-09-22 07:36:25 IP --> 157.33.50.248 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+10-09-22 07:36:59	157.33.50.248	ADMIN	admin	ITCC_20 - test Category add on is added.
+10-09-22 07:37:57	157.33.50.248	ADMIN	admin	CCLN_20 - PRO22_13 SubCategory add on is added.
+10-09-22 07:38:12	157.33.50.248	ADMIN	admin	ITCC_21 - test4 Category add on is added.
+10-09-22 08:05:56	157.33.50.248	ADMIN	admin	PRO22_17 - برودكت Product is updated.
+10-09-22 08:20:41	157.33.50.248	ADMIN	admin	PRO22_17 - برودكت Product is updated.
+Dt --> 10-09-22 08:41:53 IP --> 106.66.28.218 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 10-09-22 08:41:59 IP --> 49.36.41.53 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 10-09-22 08:47:27 IP --> 106.193.199.47 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 10-09-22 11:27:18 IP --> 106.193.199.47 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 10-09-22 11:35:21 IP --> 157.33.50.248 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-10 12:22:47	106.220.217.226	ADMIN	admin	TAB_14 - 11 table is updated.
+Dt --> 10-09-22 12:45:29 IP --> 157.33.50.248 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 10-09-22 12:50:14 IP --> 106.78.37.99 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+10-09-22 01:22:55	157.33.50.248	ADMIN	admin	ITCC_22 - test Category add on is added.
+10-09-22 01:23:38	157.33.50.248	ADMIN	admin	ITCC_23 - test4 Category add on is added.
+10-09-22 01:25:11	157.33.50.248	ADMIN	admin	ITCC_23Category is deleted.
+10-09-22 01:25:15	157.33.50.248	ADMIN	admin	ITCC_22Category is deleted.
+10-09-22 01:25:34	157.33.50.248	ADMIN	admin	ITCC_24 - test Category add on is added.
+10-09-22 01:30:58	157.33.50.248	ADMIN	admin	ITCC_25 - test4 Category add on is added.
+10-09-22 01:36:42	157.33.50.248	ADMIN	admin	ITCC_26 - test8 Category add on is added.
+10-09-22 01:36:54	157.33.50.248	ADMIN	admin	ITCC_26Category is deleted.
+10-09-22 01:37:27	157.33.50.248	ADMIN	admin	ITCC_25Category is deleted.
+10-09-22 01:37:28	157.33.50.248	ADMIN	admin	ITCC_24Category is deleted.
+Dt --> 10-09-22 01:46:59 IP --> 157.33.50.248 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 10-09-22 01:47:59 IP --> 106.78.37.35 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+10-09-22 01:48:40	157.33.50.248	ADMIN	admin	SUP22_11 - supplier test Supplier is added.
+2022-09-10 13:53:21	106.220.217.226	ADMIN	admin	IN22_11 - SUP22_8 of BR22_9 having amount 35 inward is added.
+10-09-22 01:53:28	157.33.50.248	ADMIN	admin	SUP22_11 - supplier testSupplier is updated.
+2022-09-10 13:55:12	106.220.217.226	ADMIN	admin	INL22_25 deleted inward items
+10-09-22 01:55:26	157.33.50.248	ADMIN	admin	SUP22_11 Supplier is deleted.
+10-09-22 01:55:31	157.33.50.248	ADMIN	admin	SUP22_11 Supplier is deleted.
+10-09-22 01:59:48	157.33.50.248	ADMIN	admin	SUP22_6 Supplier is deleted.
+10-09-22 02:06:55	157.33.50.248	ADMIN	admin	SUP22_8 - My supplier oneSupplier is updated.
+2022-09-10 14:35:10	157.33.50.248	ADMIN	admin	IN22_12 - SUP22_10 of BR22_9 having amount 9000 inward is added.
+2022-09-10 14:50:12	157.33.50.248	ADMIN	admin	true - Chicken item is updated.
+Dt --> 10-09-22 02:51:27 IP --> 157.33.50.248 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-10 14:51:58	157.33.50.248	ADMIN	admin	BR22_14 - Branch 1 branch is deleted.
+10-09-22 03:08:20	157.33.50.248	ADMIN	admin	USR22_13 - seema shelar User is added.
+10-09-22 03:18:01	157.33.50.248	ADMIN	admin	USR22_7 - test User is updated.
+10-09-22 03:18:49	157.33.50.248	ADMIN	admin	USR22_12 User is deleted.
+2022-09-10 15:35:04	157.33.50.248	ADMIN	admin	 -  recipe is deleted.
+2022-09-10 15:39:44	157.33.50.248	ADMIN	admin	REC22_1 - PRO22_12 recipe is deleted.
+2022-09-10 15:40:00	157.33.50.248	ADMIN	admin	REC22_2 - PRO22_15 recipe is updated.

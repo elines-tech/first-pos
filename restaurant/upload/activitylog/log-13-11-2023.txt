@@ -1,0 +1,9 @@
+Dt --> 13-11-23 11:25:49 IP --> 103.178.145.20 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 13-11-23 11:26:59 IP --> 103.178.145.20 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 13-11-23 11:27:46 IP --> 103.178.145.20 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+13-11-23 11:32:29	103.178.145.20	Admin	admin	PRO22_2 - أورانج سموث Product is updated.
+13-11-23 11:34:14	103.178.145.20	Admin	admin	PRO22_1 - كيس بيزا Product is updated.
+13-11-23 11:38:09	103.178.145.20	Admin	admin	PRO23_7 - Mango سموث Product is added.
+13-11-23 11:38:58	103.178.145.20	Admin	admin	PRO23_7 - Mango سموث Product is updated.
+13-11-23 11:39:35	103.178.145.20	Admin	admin	PRO23_7 - Mango سموث Product is updated.
+2023-11-13 11:42:15	103.178.145.20	Admin	admin	REC23_6 - PRO23_7 recipe is added.

@@ -1,0 +1,16 @@
+Dt --> 30-11-22 12:33:17 IP --> 49.36.43.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 30-11-22 02:25:24 IP --> 49.206.13.127 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-30 14:28:04	49.206.13.127	Admin	admin	true - Bajaj brand is updated.
+Dt --> 30-11-22 02:56:49 IP --> 49.36.43.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 30-11-22 06:43:21 IP --> 49.36.43.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 30-11-22 06:45:11 IP --> 49.36.43.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-30 19:11:08	49.206.13.127	Admin	admin	IN22_8 - SUP22_3 of BR22_7 having amount 4534.80 inward is added.
+Dt --> 30-11-22 07:14:16 IP --> 49.206.13.127 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+2022-11-30 19:20:43	49.206.13.127	Admin	admin	OFF22_4 - FLAT10 offer is updated.
+2022-11-30 19:21:42	49.206.13.127	Admin	admin	OFF22_4 - FLAT10 offer is updated.
+Dt --> 30-11-22 08:05:36 IP --> 49.36.43.129 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-30 20:26:29	49.206.13.127	Admin	admin	OFF22_5 - FLAT10 offer is added.
+2022-11-30 20:28:45	49.206.13.127	Admin	admin	OFF22_5 - FLAT20 offer is updated.
+2022-11-30 20:29:41	49.206.13.127	Admin	admin	OFF22_6 - FLAT25 offer is added.
+2022-11-30 20:40:49	49.206.13.127	Admin	admin	SCAT_14 - Gujarati Thali Subcategory is updated.
+2022-11-30 20:42:21	49.206.13.127	Admin	admin	IN22_8 - SUP22_3 of BR22_7 having amount 4534.80 inward is updated.

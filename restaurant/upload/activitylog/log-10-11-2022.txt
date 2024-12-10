@@ -1,0 +1,54 @@
+Dt --> 10-11-22 11:05:53 IP --> 152.57.124.226 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-10 11:13:08	152.57.124.226	Admin	admin	IN22_24 - SUP22_19 of BR22_29 having amount 400.00 inward is added.
+2022-11-10 11:13:17	152.57.124.226	Admin	admin	IN22_24 inward is deleted.
+2022-11-10 11:14:44	152.57.124.226	Admin	admin	IN22_25 - SUP22_19 of BR22_28 having amount 100.00 inward is added.
+2022-11-10 11:15:05	152.57.124.226	Admin	admin	IN22_25 inward is deleted.
+2022-11-10 11:37:35	152.57.124.226	Admin	admin	IN22_26 - SUP22_19 of BR22_29 having amount  inward is added.
+2022-11-10 11:40:59	152.57.124.226	Admin	admin	IN22_26 inward is deleted.
+2022-11-10 11:59:20	152.57.124.226	Admin	admin	IN22_28 inward is deleted.
+2022-11-10 11:59:26	152.57.124.226	Admin	admin	IN22_27 inward is deleted.
+2022-11-10 12:00:21	152.57.124.226	Admin	admin	IN22_29 - SUP22_19 of BR22_29 having amount 50.00 inward is added.
+2022-11-10 12:00:48	152.57.124.226	Admin	admin	IN22_29 inward is deleted.
+2022-11-10 12:00:48	152.57.124.226	Admin	admin	IN22_29 inward is deleted.
+2022-11-10 12:08:04	152.57.124.226	Admin	admin	false - SUP22_19 of BR22_29 having amount 100.00 inward is added.
+2022-11-10 12:10:31	152.57.124.226	Admin	admin	IN22_30 - SUP22_19 of BR22_29 having amount 60.00 inward is added.
+2022-11-10 12:12:34	152.57.124.226	Admin	admin	IN22_30 inward is deleted.
+2022-11-10 12:12:34	152.57.124.226	Admin	admin	IN22_30 inward is deleted.
+2022-11-10 12:12:34	152.57.124.226	Admin	admin	IN22_30 inward is deleted.
+2022-11-10 12:13:57	152.57.124.226	Admin	admin	IN22_31 - SUP22_19 of BR22_27 having amount 20.00 inward is added.
+2022-11-10 12:15:24	152.57.124.226	Admin	admin	IN22_32 - SUP22_19 of BR22_29 having amount 20.00 inward is added.
+2022-11-10 12:24:24	152.57.124.226	Admin	admin	IN22_34 - SUP22_19 of BR22_29 having amount 60.00 inward is added.
+2022-11-10 12:25:00	152.57.124.226	Admin	admin	IN22_33 inward is deleted.
+2022-11-10 12:25:08	152.57.124.226	Admin	admin	IN22_32 inward is deleted.
+2022-11-10 12:25:16	152.57.124.226	Admin	admin	IN22_31 inward is deleted.
+2022-11-10 12:27:11	152.57.124.226	Admin	admin	IN22_34 inward is deleted.
+2022-11-10 12:34:00	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 490.00 inward is added.
+2022-11-10 13:10:42	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 490.00 inward is added.
+Dt --> 10-11-22 01:50:23 IP --> 152.57.124.226 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-10 14:16:03	152.57.124.226	Admin	admin	INL22_4 deleted inward items
+2022-11-10 14:16:04	152.57.124.226	Admin	admin	INL22_4 deleted inward items
+2022-11-10 14:16:04	152.57.124.226	Admin	admin	INL22_4 deleted inward items
+2022-11-10 14:36:53	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 480.00 inward is updated.
+2022-11-10 14:38:17	152.57.124.226	Admin	admin	INL22_4 deleted inward items
+2022-11-10 14:38:50	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 500.00 inward is updated.
+2022-11-10 14:41:10	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 500.00 inward is updated.
+2022-11-10 14:45:04	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 500.00 inward is updated.
+2022-11-10 14:58:47	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 500.00 inward is updated.
+2022-11-10 14:59:02	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 500.00 inward is updated.
+2022-11-10 15:02:37	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 480.00 inward is updated.
+2022-11-10 15:02:59	152.57.124.226	Admin	admin	INL22_6 deleted inward items
+2022-11-10 15:03:06	152.57.124.226	Admin	admin	INL22_5 deleted inward items
+2022-11-10 15:05:45	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 480.00 inward is updated.
+2022-11-10 15:07:30	152.57.124.226	Admin	admin	INL22_7 deleted inward items
+2022-11-10 15:43:48	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 280.00 inward is updated.
+2022-11-10 15:44:58	152.57.124.226	Admin	admin	INL22_8 deleted inward items
+2022-11-10 15:45:04	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 80.00 inward is updated.
+2022-11-10 15:46:23	152.57.124.226	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 180.00 inward is updated.
+2022-11-10 15:56:12	152.57.124.226	Admin	admin	INL22_9 deleted inward items
+2022-11-10 15:56:12	152.57.124.226	Admin	admin	INL22_9 deleted inward items
+Dt --> 10-11-22 04:00:01 IP --> 152.57.124.226 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 10-11-22 05:08:04 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-10 17:47:55	49.36.33.167	Admin	admin	Textsms Setting is updated.
+Dt --> 10-11-22 05:50:02 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 10-11-22 05:55:48 IP --> 49.36.33.167 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-10 18:01:45	49.36.33.167	Admin	admin	IN22_1 - SUP22_19 of BR22_29 having amount 1280.00 inward is updated.

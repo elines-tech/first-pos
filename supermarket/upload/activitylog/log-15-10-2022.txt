@@ -1,0 +1,16 @@
+Dt --> 15-10-22 09:13:52 IP --> 27.57.243.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-15 09:19:25	27.57.243.17	Admin	admin	true - Admin role is updated.
+Dt --> 15-10-22 09:34:52 IP --> 27.57.243.17 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 15-10-22 09:35:51 IP --> 27.57.243.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 15-10-22 09:36:02 IP --> 27.57.243.17 LOGIN USER --> USR22_7 ADDED USER --> USR22_7 	USR22_7 User id is login.
+Dt --> 15-10-22 09:36:10 IP --> 27.57.243.17 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-15 12:24:27	106.220.131.52	Admin	admin	GIC22_1 - Shubh  Diwali giftcard is added.
+2022-10-15 12:25:26	106.220.131.52	Admin	admin	GIC22_2 - License To  Feast giftcard is added.
+2022-10-15 12:32:14	106.210.216.42	Admin	admin	GIC22_3 - License To  Feast giftcard is added.
+2022-10-15 12:32:29	106.210.216.42	Admin	admin	GIC22_3 - License To  Feast giftcard is deleted.
+2022-10-15 12:33:07	106.210.216.42	Admin	admin	GIC22_1 - Shubh  Diwali giftcard is updated.
+2022-10-15 14:46:47	106.210.216.42	Admin	admin	GIC22_2 - License To  Feast giftcard is updated.
+2022-10-15 14:49:29	106.210.216.42	Admin	admin	GIC22_1 - Shubh  Diwali giftcard is updated.
+2022-10-15 17:12:59	106.210.216.42	Cashier	alanwickfield	SGCL22_2 -  Gift card is purchases.
+2022-10-15 17:20:01	106.210.216.42	Cashier	alanwickfield	SGC22_2 - GIC22_1 Gift card is purchases.
+2022-10-15 18:10:37	106.210.173.249	Cashier	alanwickfield	SGC22_3 - GIC22_2 Gift card is purchases.

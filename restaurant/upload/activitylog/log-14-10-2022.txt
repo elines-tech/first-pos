@@ -1,0 +1,18 @@
+Dt --> 14-10-22 08:55:00 IP --> 106.200.102.20 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 14-10-22 09:24:38 IP --> 49.36.40.64 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 14-10-22 12:02:42 IP --> 106.220.165.30 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 14-10-22 12:02:52 IP --> 106.220.165.30 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+14-10-22 12:05:41	106.220.165.30	Admin	admin	USR_1 - admin Profile is updated.
+14-10-22 12:06:09	106.220.165.30	Admin	admin	USR_1 - admin Profile is updated.
+14-10-22 12:37:39	106.220.165.30	Admin	admin	USR_1 - admin Password is updated.
+Dt --> 14-10-22 02:09:33 IP --> 106.220.165.30 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 14-10-22 02:14:05 IP --> 106.220.165.30 LOGIN USER --> USR22_29 ADDED USER --> USR22_29 	USR22_29 Cashier logged in.
+14-10-22 02:27:18	106.220.165.30	Cashier	1003	USR22_29 - Shraddha Cashier profile is updated.
+Dt --> 14-10-22 02:28:13 IP --> 106.220.165.30 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 14-10-22 03:27:06 IP --> 106.220.165.30 LOGIN USER --> USR22_29 ADDED USER --> USR22_29 	USR22_29 Cashier loggedout.
+Dt --> 14-10-22 03:27:22 IP --> 106.220.165.30 LOGIN USER --> USR22_29 ADDED USER --> USR22_29 	USR22_29 Cashier logged in.
+Dt --> 14-10-22 03:29:30 IP --> 106.220.165.30 LOGIN USER --> USR22_29 ADDED USER --> USR22_29 	USR22_29 Cashier loggedout.
+Dt --> 14-10-22 03:31:57 IP --> 106.220.165.30 LOGIN USER --> USR22_30 ADDED USER --> USR22_30 	USR22_30 User id is login.
+Dt --> 14-10-22 03:33:13 IP --> 106.220.165.30 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 14-10-22 03:34:48 IP --> 106.220.165.30 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 14-10-22 03:34:59 IP --> 106.220.165.30 LOGIN USER --> USR22_30 ADDED USER --> USR22_30 	USR22_30 User id is login.

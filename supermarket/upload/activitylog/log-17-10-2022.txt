@@ -1,0 +1,69 @@
+Dt --> 17-10-22 07:59:24 IP --> 106.210.197.184 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 17-10-22 08:02:14 IP --> 106.210.197.184 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-10-22 08:39:46 IP --> 152.57.47.235 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-10-22 08:54:22 IP --> 152.57.47.235 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-10-22 09:04:56 IP --> 49.206.15.103 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-17 09:06:57	49.206.15.103	Admin	admin	BR22_33 - Branch 5 Branch is added.
+2022-10-17 09:10:45	49.206.15.103	Admin	admin	IN22_20 - SUP22_18 of BR22_33 having amount 189.48 inward is added.
+Dt --> 17-10-22 09:47:24 IP --> 152.57.47.235 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-17 09:56:51	49.206.15.103	Admin	admin	INL22_44 deleted inward items
+Dt --> 17-10-22 10:15:09 IP --> 152.57.47.235 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-10-22 10:16:33 IP --> 152.57.47.235 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 17-10-22 10:17:11 IP --> 152.57.47.235 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+17-10-22 10:24:53	152.57.47.235	Cashier	6005	USR22_5 - Shraddha Cashier profile is updated.
+2022-10-17 10:25:36	49.206.15.103	Admin	admin	IN22_20 - SUP22_18 of BR22_33 having amount 1111.74 inward is added.
+17-10-22 10:26:41	152.57.47.235	Cashier	6005	USR22_5 - Shraddha Cashier profile is updated.
+17-10-22 10:31:04	152.57.47.235	Cashier	6005	USR22_5 - Shraddha Cashier profile is updated.
+17-10-22 11:09:23	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:11:40	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:20:33	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+Dt --> 17-10-22 11:21:59 IP --> 152.57.47.235 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+17-10-22 11:23:26	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:23:33	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:23:41	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:24:23	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:24:31	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+17-10-22 11:25:31	152.57.47.235	Admin	admin	USR22_1 - admin Profile is updated.
+Dt --> 17-10-22 11:40:31 IP --> 152.57.47.235 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 17-10-22 11:41:07 IP --> 152.57.47.235 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+17-10-22 11:43:08	152.57.47.235	Cashier	6005	USR22_5 - Shraddha Cashier profile is updated.
+17-10-22 11:43:22	152.57.47.235	Cashier	6005	USR22_5 - Shraddha Cashier profile is updated.
+17-10-22 01:36:59	106.210.234.87	Admin	admin	SUP22_22 - T-Saudi SupplierSupplier is updated.
+Dt --> 17-10-22 01:54:04 IP --> 49.36.42.58 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-17 13:55:30	49.36.42.58	Admin	admin	BAR22_14 - barcode is generated.
+Dt --> 17-10-22 02:01:30 IP --> 49.36.42.58 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 17-10-22 03:10:20 IP --> 49.206.15.103 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-17 15:18:03	106.210.234.87	Admin	admin	IN22_19 - SUP22_20 of BR22_29 having amount 1029.27 inward is added.
+Dt --> 17-10-22 03:47:13 IP --> 152.57.47.235 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+Dt --> 17-10-22 04:03:59 IP --> 152.57.47.235 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+2022-10-17 16:04:03	49.206.15.103	Admin	admin	IN22_21 - BR22_29 of BR22_33 having amount 800.00  is transfer.
+Dt --> 17-10-22 04:04:08 IP --> 152.57.47.235 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+2022-10-17 16:35:42	49.206.15.103	Admin	admin	BAR22_15 - barcode is generated.
+2022-10-17 16:48:05	49.206.15.103	Admin	admin	BAR22_16 - barcode is generated.
+2022-10-17 17:00:46	49.206.15.103	Admin	admin	OFF22_3 - Offer one offer is added.
+2022-10-17 17:01:14	49.206.15.103	Admin	admin	OFF22_3 - Offer one offer is updated.
+2022-10-17 17:04:55	49.206.15.103	Admin	admin	OFF22_3 - Offer one offer is updated.
+2022-10-17 17:09:47	49.206.15.103	Admin	admin	CAT_29 - Category 2 category is updated.
+2022-10-17 17:10:16	49.206.15.103	Admin	admin	CAT_30 - delete category is added.
+2022-10-17 17:10:23	49.206.15.103	Admin	admin	CAT_29 - Category 2 category is updated.
+2022-10-17 17:10:29	49.206.15.103	Admin	admin	CAT_30 - delete category is updated.
+2022-10-17 17:10:50	49.206.15.103	Admin	admin	CAT_29 - Category 2 category is updated.
+2022-10-17 17:10:56	49.206.15.103	Admin	admin	CAT_30 - delete category is updated.
+2022-10-17 17:25:52	49.206.15.103	Admin	admin	IN22_22 - SUP22_19 of BR22_33 having amount 1.01 inward is added.
+2022-10-17 17:27:42	49.206.15.103	Admin	admin	IN22_22 - SUP22_19 of BR22_33 having amount 1.01 inward is added.
+2022-10-17 17:38:25	49.206.15.103	Admin	admin	IN22_23 - SUP22_20 of BR22_33 having amount 2173.16 inward is added.
+2022-10-17 17:38:36	49.206.15.103	Admin	admin	INL22_53 deleted inward items
+2022-10-17 17:39:35	49.206.15.103	Admin	admin	INL22_52 deleted inward items
+2022-10-17 17:39:39	49.206.15.103	Admin	admin	IN22_23 - SUP22_20 of BR22_33 having amount 1448.37 inward is added.
+Dt --> 17-10-22 05:54:25 IP --> 152.57.34.223 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-10-22 06:04:02 IP --> 152.57.34.223 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 17-10-22 06:07:53 IP --> 152.57.34.223 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 17-10-22 06:08:07 IP --> 152.57.34.223 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+2022-10-17 18:08:12	49.206.15.103	Admin	admin	IN22_24 - SUP22_19 of BR22_33 having amount 14.36 inward is added.
+2022-10-17 18:08:40	49.206.15.103	Admin	admin	IN22_24 - SUP22_19 of BR22_33 having amount 14.36 inward is added.
+Dt --> 17-10-22 06:11:05 IP --> 152.57.34.223 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier loggedout.
+Dt --> 17-10-22 06:11:15 IP --> 152.57.34.223 LOGIN USER --> USR22_5 ADDED USER --> USR22_5 	USR22_5 Cashier logged in.
+2022-10-17 18:32:04	49.206.15.103	Admin	admin	TAC_32 - Saudi tax Tax Rate is updated.
+2022-10-17 18:32:31	49.206.15.103	Admin	admin	TAC_33 - SGST Tax Rate is updated.
+2022-10-17 18:32:43	49.206.15.103	Admin	admin	TAC_33 - SGST Tax rate is deleted.
+2022-10-17 18:33:31	49.206.15.103	Admin	admin	UOM_11 - Kilogram unit is updated.

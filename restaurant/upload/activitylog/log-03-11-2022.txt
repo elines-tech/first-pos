@@ -1,0 +1,85 @@
+Dt --> 03-11-22 11:32:27 IP --> 152.57.161.105 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 User id is login.
+Dt --> 03-11-22 11:34:20 IP --> 152.57.161.105 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 User id is logout.
+Dt --> 03-11-22 11:37:03 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 11:37:14 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 11:40:43 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 12:46:16 IP --> 106.76.78.161 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+Dt --> 03-11-22 12:52:33 IP --> 106.76.78.161 LOGIN USER --> USR22_39 ADDED USER --> USR22_39 	USR22_39 Cashier logged in.
+Dt --> 03-11-22 01:08:59 IP --> 106.76.78.161 LOGIN USER -->  ADDED USER -->  	 Cashier loggedout.
+03-11-22 01:53:47	152.57.161.105	Admin	admin	USR22_40 - pooja User is added.
+03-11-22 01:55:17	152.57.161.105	Admin	admin	USR22_40 - pooja User is updated.
+Dt --> 03-11-22 01:55:57 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is login.
+Dt --> 03-11-22 02:04:36 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is login.
+Dt --> 03-11-22 02:25:40 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is logout.
+Dt --> 03-11-22 02:27:53 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 02:28:13 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 02:28:33 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is login.
+Dt --> 03-11-22 02:42:44 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is logout.
+Dt --> 03-11-22 02:43:10 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 02:50:49 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 02:51:05 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is login.
+Dt --> 03-11-22 02:51:14 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is logout.
+Dt --> 03-11-22 02:53:59 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is login.
+03-11-22 02:55:54	152.57.161.105	Admin	admin	USR22_41 - shilpa User is added.
+Dt --> 03-11-22 02:57:32 IP --> 152.57.161.105 LOGIN USER --> USR22_40 ADDED USER --> USR22_40 	USR22_40 User id is logout.
+Dt --> 03-11-22 02:57:52 IP --> 152.57.161.105 LOGIN USER --> USR22_41 ADDED USER --> USR22_41 	USR22_41 User id is login.
+03-11-22 03:11:04	152.57.161.105	Admin	admin	USR22_42 - priyanka User is added.
+Dt --> 03-11-22 03:11:25 IP --> 152.57.161.105 LOGIN USER --> USR22_41 ADDED USER --> USR22_41 	USR22_41 User id is logout.
+Dt --> 03-11-22 03:11:48 IP --> 152.57.161.105 LOGIN USER --> USR22_42 ADDED USER --> USR22_42 	USR22_42 User id is login.
+03-11-22 03:13:29	152.57.161.105	Admin	admin	USR22_43 - abhishek User is added.
+Dt --> 03-11-22 03:13:41 IP --> 152.57.161.105 LOGIN USER --> USR22_42 ADDED USER --> USR22_42 	USR22_42 User id is logout.
+03-11-22 03:14:11	152.57.161.105	Admin	admin	USR22_43 - abhishek User is updated.
+Dt --> 03-11-22 03:14:33 IP --> 152.57.161.105 LOGIN USER --> USR22_43 ADDED USER --> USR22_43 	USR22_43 User id is login.
+Dt --> 03-11-22 03:14:42 IP --> 152.57.161.105 LOGIN USER --> USR22_43 ADDED USER --> USR22_43 	USR22_43 User id is logout.
+Dt --> 03-11-22 03:17:18 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 03:19:40 IP --> 49.36.35.243 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 03:39:49 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+03-11-22 03:40:53	152.57.161.105	Admin	admin	USR22_44 - test User is added.
+Dt --> 03-11-22 03:41:20 IP --> 152.57.161.105 LOGIN USER --> USR22_44 ADDED USER --> USR22_44 	USR22_44 User id is login.
+Dt --> 03-11-22 03:41:39 IP --> 152.57.161.105 LOGIN USER --> USR22_44 ADDED USER --> USR22_44 	USR22_44 User id is logout.
+Dt --> 03-11-22 03:41:43 IP --> 188.50.128.63 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 03:43:04 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 03:43:40 IP --> 49.36.35.243 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-03 15:43:56	188.50.128.63	Admin	admin	PCAT_9 - بيتزا product category is added.
+2022-11-03 15:44:19	188.50.128.63	Admin	admin	PCAT_10 - بيرغر product category is added.
+2022-11-03 15:55:36	188.50.128.63	Admin	admin	PSCT_12 - cheese burger product Subcategory is added.
+2022-11-03 16:08:26	188.50.128.63	Admin	admin	15 - indoor sector zone is added.
+2022-11-03 16:08:47	188.50.128.63	Admin	admin	1 Bulk tables are added.
+2022-11-03 16:08:55	188.50.128.63	Admin	admin	2 Bulk tables are added.
+2022-11-03 16:12:32	188.50.128.63	Admin	admin	CUSTG_5 - vip Customer Groupname is added.
+2022-11-03 16:15:08	188.50.128.63	Admin	admin	BR22_28 - riyadh Branch is added.
+2022-11-03 16:22:51	188.50.128.63	Admin	admin	TAC_29 - VAT Tax Rate is updated.
+Dt --> 03-11-22 04:29:32 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 03-11-22 04:33:21 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 07:33:30 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+03-11-22 07:48:01	152.57.161.105	Admin	admin	PRO22_25 - أتى جهنص Product is added.
+03-11-22 07:48:27	152.57.161.105	Admin	admin	PRO22_25 - أتى جهنص Product is updated.
+03-11-22 07:51:54	152.57.161.105	Admin	admin	PRO22_25 - أتى جهنص Product is updated.
+2022-11-03 19:57:01	152.57.161.105	Admin	admin	PCAT_10 - بيرغر product category is updated.
+2022-11-03 20:00:31	152.57.161.105	Admin	admin	PSCT_12 - cheese burger product Subcategory is updated.
+2022-11-03 20:01:03	152.57.161.105	Admin	admin	PSCT_13 - category two product Subcategory is added.
+2022-11-03 20:19:19	152.57.161.105	Admin	admin	CAT_16 - Carla Ayala category is added.
+2022-11-03 20:20:06	152.57.161.105	Admin	admin	CAT_17 - Fay Curry category is added.
+2022-11-03 20:21:17	152.57.161.105	Admin	admin	CAT_18 - Eugenia Kim category is added.
+2022-11-03 20:23:23	152.57.161.105	Admin	admin	CAT_18 - Eugenia Kim category is updated.
+2022-11-03 20:25:11	152.57.161.105	Admin	admin	UOM_7 - kilogram unit is added.
+2022-11-03 20:31:29	152.57.161.105	Admin	admin	ITEM22_64 - item sample item is added.
+2022-11-03 20:32:54	152.57.161.105	Admin	admin	REC22_15 - PRO22_25 recipe is added.
+2022-11-03 20:36:03	152.57.161.105	Admin	admin	PC_9 - my comboProduct Combo is updated.
+03-11-22 08:58:58	152.57.161.105	Admin	admin	SUP22_18 - seema Supplier is added.
+03-11-22 08:59:16	152.57.161.105	Admin	admin	SUP22_18 - seemaSupplier is updated.
+03-11-22 09:00:59	152.57.161.105	Admin	admin	SUP22_19 - seema Supplier is added.
+03-11-22 09:01:17	152.57.161.105	Admin	admin	SUP22_19 - seemaSupplier is updated.
+Dt --> 03-11-22 09:12:45 IP --> 188.50.128.63 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-03 21:21:04	152.57.161.105	Admin	admin	IN22_16 - SUP22_18 of BR22_27 having amount 40000 inward is added.
+2022-11-03 21:22:13	152.57.161.105	Admin	admin	IN22_17 - BR22_27 of BR22_28 having amount 4000.00  is transfer.
+2022-11-03 21:22:37	152.57.161.105	Admin	admin	IN22_17 - BR22_27 of BR22_28 having amount 4000.00  is transfer.
+2022-11-03 21:23:32	152.57.161.105	Admin	admin	IN22_18 - BR22_27 of BR22_28 having amount 2000.00  is transfer.
+2022-11-03 21:26:29	152.57.161.105	Admin	admin	IN22_18 - BR22_27 of BR22_28 having amount 2000.00  is transfer.
+2022-11-03 21:28:20	152.57.161.105	Admin	admin	IN22_19 - BR22_27 of BR22_28 having amount 2000.00  is transfer.
+2022-11-03	152.57.161.105	Admin	admin	ACTE_2 - sample  Account Expense is added.
+Dt --> 03-11-22 09:41:09 IP --> 152.57.161.105 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 03-11-22 09:41:17 IP --> 152.57.161.105 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+Dt --> 03-11-22 09:41:23 IP --> 152.57.161.105 LOGIN USER -->  ADDED USER -->  	 User id is logout.
+Dt --> 03-11-22 10:54:49 IP --> 106.200.117.193 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+03-11-22 10:55:49	106.200.117.193	CLT22_18	 updated company details after account creation 	

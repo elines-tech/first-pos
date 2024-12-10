@@ -1,0 +1,5 @@
+Dt --> 09-11-22 03:32:06 IP --> 152.57.127.130 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 09-11-22 05:26:33 IP --> 106.76.78.74 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 09-11-22 06:36:30 IP --> 49.206.10.72 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 09-11-22 06:36:43 IP --> 49.206.10.72 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+2022-11-09 19:39:47	106.76.78.74	Admin	admin	IN22_23 - SUP22_19 of BR22_28 having amount 800.00 inward is added.

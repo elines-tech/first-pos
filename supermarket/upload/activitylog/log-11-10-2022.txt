@@ -1,0 +1,27 @@
+Dt --> 11-10-22 08:01:56 IP --> 152.57.162.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+11-10-22 08:25:53	152.57.162.220	Admin	admin	USR22_7 -  User is updated.
+11-10-22 08:26:07	152.57.162.220	Admin	admin	USR22_7 - seema User is updated.
+Dt --> 11-10-22 08:59:17 IP --> 152.57.162.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 11-10-22 09:15:24 IP --> 49.36.41.111 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 11-10-22 09:20:33 IP --> 49.206.10.19 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 11-10-22 10:50:45 IP --> 152.57.162.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+11-10-22 12:43:06	152.57.162.220	Admin	admin	PRO22_6 - جوج Product is updated.
+Dt --> 11-10-22 01:53:44 IP --> 49.36.41.111 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 11-10-22 03:27:18 IP --> 106.220.169.139 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-10-11 15:48:26	106.220.169.139	Admin	admin	CAT_24 - Category 1 category is added.
+2022-10-11 15:48:46	106.220.169.139	Admin	admin	CAT_25 - Category 2 category is added.
+2022-10-11 15:49:01	106.220.169.139	Admin	admin	CAT_25 - Category 2 category is updated.
+2022-10-11 15:50:24	106.220.169.139	Admin	admin	CAT_26 - Category 1 category is added.
+2022-10-11 15:50:49	106.220.169.139	Admin	admin	CAT_27 - Category 2 category is added.
+2022-10-11 15:54:33	106.220.169.139	Admin	admin	CAT_28 - Category 1 category is added.
+2022-10-11 15:55:11	106.220.169.139	Admin	admin	CAT_29 - Category 2 category is added.
+2022-10-11 15:55:23	106.220.169.139	Admin	admin	CAT_28 - Category 1 category is updated.
+2022-10-11 15:55:30	106.220.169.139	Admin	admin	CAT_29 - Category 2 category is updated.
+2022-10-11 15:58:06	106.220.169.139	Admin	admin	SCAT_18 - cat 1 sub subcategory is added.
+2022-10-11 15:58:30	106.220.169.139	Admin	admin	SCAT_19 - cat 2 sub subcategory is added.
+2022-10-11 15:58:39	106.220.169.139	Admin	admin	SCAT_18 - cat 1 sub Subcategory is updated.
+2022-10-11 16:43:05	106.220.169.139	Admin	admin	IN22_8 - SUP22_16 of BR22_27 having amount 119.66 inward is added.
+2022-10-11 16:44:14	106.220.169.139	Admin	admin	IN22_8 - SUP22_16 of BR22_27 having amount 139.86 inward is added.
+2022-10-11 16:45:03	106.220.169.139	Admin	admin	IN22_8 - SUP22_16 of BR22_27 having amount 140.90 inward is added.
+2022-10-11 16:59:54	106.220.169.139	Admin	admin	IN22_9 - BR22_29 of BR22_30 having amount 4.00  is transfer.
+2022-10-11 17:03:48	106.220.169.139	Admin	admin	INL22_22 deleted Transfer items

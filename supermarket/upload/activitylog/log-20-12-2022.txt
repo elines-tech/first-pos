@@ -1,0 +1,19 @@
+Dt --> 20-12-22 10:14:35 IP --> 152.58.18.164 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-20 10:34:11	152.58.18.164	Admin	admin	BAR22_12 - barcode is generated.
+2022-12-20	152.58.18.164	Admin	admin	ACTE_7 - purchase bags Account Expense is added.
+2022-12-20	152.58.18.164	Admin	admin	ACTE_8 - dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff Account Expense is added.
+2022-12-20	152.58.18.164	Admin	admin	true - dffffffffffffffffffffffffffffffffff4444444444444411111111111111111##############$$$$$$$$$$$$$$$$$4ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff Account Expense is updated.
+2022-12-20	152.58.18.164	Admin	admin	true - dffffffffffffffffffffffffffffffffff4444444444444411111111111111111##############$$$$$$$$$$$$$$$$$4ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff Account Expense is updated.
+2022-12-20 11:07:37	152.58.18.164	Admin	admin	ACTE_8 - dffffffffffffffffffffffffffffffffff4444444444444411111111111111111##############$$$$$$$$$$$$$$$$$4ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff Acccount Expense is deleted.
+2022-12-25	152.58.18.164	Admin	admin	true - purchase bags Account Expense is updated.
+2022-12-25	152.58.18.164	Admin	admin	true - purchase bags Account Expense is updated.
+2022-12-25	152.58.18.164	Admin	admin	true - purchase bags Account Expense is updated.
+2022-12-20 11:47:06	152.58.18.164	Admin	admin	true - VIP ONE Customer Groupname is updated.
+2022-12-20 11:47:33	152.58.18.164	Admin	admin	true - VIP ONE Customer Groupname is updated.
+2022-12-20 12:26:28	152.58.18.84	Admin	admin	BR22_10 - testing Branch is added.
+2022-12-20 12:34:21	152.58.18.84	Admin	admin	BR22_10 - testing Branch is updated.
+2022-12-20 12:35:43	152.58.18.84	Admin	admin	BR22_10 - testing Branch is updated.
+2022-12-20 12:37:30	152.58.18.84	Admin	admin	BR22_10 - testing12233545$$$$@@@@@AAAAAAaaaaaaaaaaaaaaaaaaaaaa Branch is updated.
+2022-12-20 12:44:02	152.58.18.84	Admin	admin	BR22_10 - testing12233545$$$$@@@@@AAAAAAaaaaaaaaaaaaaaaaaaaaaa Branch is updated.
+2022-12-20 14:16:06	152.58.18.77	Admin	admin	CAT_14 - test1 category is added.
+2022-12-20 14:17:04	152.58.18.77	Admin	admin	true - new brand is updated.

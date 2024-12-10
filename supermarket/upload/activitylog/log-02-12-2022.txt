@@ -1,0 +1,94 @@
+Dt --> 02-12-22 12:31:22 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 12:31:28 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 02-12-22 12:31:42 IP --> 122.177.33.47 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-12-02 13:45:52	122.177.33.47	Admin	admin	BRD_14 - new1 brand is added.
+2022-12-02 13:48:44	122.177.33.47	Admin	admin	true - new brand is updated.
+2022-12-02 13:49:32	122.177.33.47	Admin	admin	true - new brand is updated.
+2022-12-02 13:51:10	122.177.33.47	Admin	admin	true - new brand is updated.
+2022-12-02 13:52:07	122.177.33.47	Admin	admin	true - testing brand is updated.
+2022-12-02 13:54:11	122.177.33.47	Admin	admin	BRD_14 - testing brand is deleted.
+2022-12-02 13:55:21	122.177.33.47	Admin	admin	BRD_15 - new brand is added.
+2022-12-02 13:55:40	122.177.33.47	Admin	admin	true - new brand is updated.
+2022-12-02 13:58:33	122.177.33.47	Admin	admin	CAT_9 - test category is added.
+2022-12-02 13:59:51	122.177.33.47	Admin	admin	BRD_16 - tetsting brand is added.
+2022-12-02 14:02:08	122.177.33.47	Admin	admin	CAT_9 - test category is updated.
+2022-12-02 14:03:05	122.177.33.47	Admin	admin	CAT_9 - test category is updated.
+2022-12-02 14:04:22	122.177.33.47	Admin	admin	CAT_9 - test category is deleted.
+2022-12-02 14:04:22	122.177.33.47	Admin	admin	CAT_9 - test category is deleted.
+2022-12-02 14:04:52	122.177.33.47	Admin	admin	CAT_10 - test category is added.
+2022-12-02 14:05:02	122.177.33.47	Admin	admin	CAT_10 - test category is deleted.
+2022-12-02 14:05:23	122.177.33.47	Admin	admin	CAT_11 - test category is added.
+2022-12-02 14:05:37	122.177.33.47	Admin	admin	CAT_11 - testing category is updated.
+2022-12-02 14:05:54	122.177.33.47	Admin	admin	CAT_11 - testing11 category is updated.
+2022-12-02 14:06:02	122.177.33.47	Admin	admin	CAT_11 - testing11 category is deleted.
+2022-12-02 14:07:37	122.177.33.47	Admin	admin	CAT_12 - testing category is added.
+2022-12-02 14:08:37	122.177.33.47	Admin	admin	SCAT_15 - tester subcategory is added.
+2022-12-02 14:10:21	122.177.33.47	Admin	admin	SCAT_16 - testingweb subcategory is added.
+2022-12-02 14:10:51	122.177.33.47	Admin	admin	SCAT_17 - testingweb1 subcategory is added.
+2022-12-02 14:17:09	122.177.33.47	Admin	admin	SCAT_18 - tester1 subcategory is added.
+2022-12-02 14:18:17	122.177.33.47	Admin	admin	SCAT_18 - tester1 Subcategory is updated.
+2022-12-02 14:18:40	122.177.33.47	Admin	admin	SCAT_18 - tester1 Subcategory is updated.
+2022-12-02 14:19:34	122.177.33.47	Admin	admin	SCAT_18 - testing1 Subcategory is updated.
+2022-12-02 14:20:17	122.177.33.47	Admin	admin	SCAT_18 - tester1 Subcategory is updated.
+2022-12-02 14:20:42	122.177.33.47	Admin	admin	SCAT_18 - tester1 subcategory is deleted.
+2022-12-02 14:30:03	122.177.33.47	Admin	admin	SCAT_17 - testingweb1 Subcategory is updated.
+2022-12-02 14:36:03	122.177.33.47	Admin	admin	BRD_17 - new1 brand is added.
+2022-12-02 14:36:52	122.177.33.47	Admin	admin	BRD_18 - brand brand is added.
+2022-12-02 14:50:47	122.177.33.47	Admin	admin	CAT_13 - test category is added.
+2022-12-02 14:54:21	122.177.33.47	Admin	admin	SCAT_19 - test11 subcategory is added.
+02-12-22 03:11:59	122.177.33.47	Admin	admin	PRO22_11 - اختبارات Product is added.
+02-12-22 15:28:42	122.177.33.47	Admin	admin	PRO22_11 - اختبارات Product is updated.
+02-12-22 03:32:33	122.177.33.47	Admin	admin	PRO22_11Product is deleted.
+02-12-22 15:39:43	122.177.33.47	Admin	admin	PRO22_9 - كاجو Product is updated.
+02-12-22 03:55:07	122.177.33.47	Admin	admin	SUP22_3 - Priyanka SupplierSupplier is updated.
+02-12-22 03:55:39	122.177.33.47	Admin	admin	SUP22_3 - Priyanka SupplierSupplier is updated.
+02-12-22 04:02:45	122.177.33.47	Admin	admin	SUP22_5 - ashwini Supplier is added.
+02-12-22 04:04:46	122.177.33.47	Admin	admin	SUP22_5 - ashwiniSupplier is updated.
+02-12-22 04:06:46	122.177.33.47	Admin	admin	SUP22_5 - ashwiniSupplier is updated.
+02-12-22 04:07:25	122.177.33.47	Admin	admin	SUP22_5 Supplier is deleted.
+02-12-22 04:13:08	122.177.33.47	Admin	admin	SUP22_6 - ashwini Supplier is added.
+2022-12-02 16:28:57	122.177.33.47	Admin	admin	IN22_8 - SUP22_3 of BR22_7 having amount 4534.80 inward is updated.
+2022-12-02 16:46:28	122.177.33.47	Admin	admin	IN22_7 - SUP22_2 of BR22_4 having amount 14977.50 inward is updated.
+2022-12-02 17:40:01	122.177.33.47	Admin	admin	IN22_6 - BR22_1 of BR22_3 having amount 2470.00  is transfer.
+2022-12-02 17:42:54	122.177.33.47	Admin	admin	BAR22_5 - barcode is updated
+2022-12-02 17:45:58	122.177.33.47	Admin	admin	BAR22_6 - barcode is generated.
+2022-12-02 17:46:59	122.177.33.47	Admin	admin	BAR22_7 - barcode is generated.
+2022-12-02 17:55:48	122.177.33.47	Admin	admin	BAR22_6 - barcode is updated
+2022-12-02 17:56:33	122.177.33.47	Admin	admin	BAR22_4 - barcode is updated
+2022-12-02	122.177.33.47	Admin	admin	ACTE_2 - purchase bags Account Expense is added.
+2022-11-22	122.177.33.47	Admin	admin	true - Packing bags purchased Account Expense is updated.
+2022-12-02 18:00:06	122.177.33.47	Admin	admin	ACTE_2 - purchase bags Acccount Expense is deleted.
+2022-12-02 18:00:06	122.177.33.47	Admin	admin	ACTE_2 - purchase bags Acccount Expense is deleted.
+2022-12-02	122.177.33.47	Admin	admin	ACTE_3 - purchase bags Account Expense is added.
+2022-12-02 18:01:06	122.177.33.47	Admin	admin	ACTE_3 - purchase bags Acccount Expense is deleted.
+2022-12-02 18:18:17	122.177.33.47	Admin	admin	BR22_8 - Branch 5 Do not use Branch is updated.
+2022-12-02 18:19:02	122.177.33.47	Admin	admin	BR22_8 - Branch 5 Do not use Branch is updated.
+2022-12-02 18:19:51	122.177.33.47	Admin	admin	TAC_5 - GST 3 Tax Rate is updated.
+2022-12-02 18:20:23	122.177.33.47	Admin	admin	TAC_5 - GST 2 Tax Rate is updated.
+2022-12-02 18:25:06	122.177.33.47	Admin	admin	TAC_5 - GST 2 Tax Rate is updated.
+2022-12-02 18:27:32	122.177.33.47	Admin	admin	BUOM_3 - Liter base unit is updated.
+2022-12-02 18:37:36	122.177.33.47	Admin	admin	 - simple base unit is added.
+2022-12-02 18:37:55	122.177.33.47	Admin	admin	BUOM_4 - simple base unit is updated.
+2022-12-02 18:40:48	122.177.33.47	Admin	admin	BUOM_4 - simple base unit is deleted.
+2022-12-02 18:45:07	122.177.33.47	Admin	admin	CO22_7 - 302 counter is updated.
+2022-12-02 18:50:22	122.177.33.47	Admin	admin	CAT_2 - gggg sms template is updated.
+2022-12-02 18:50:42	122.177.33.47	Admin	admin	CAT_2 - two two sms template is updated.
+2022-12-02 19:04:04	122.177.33.47	Admin	admin	CAT_2 - two two sms template is updated.
+2022-12-02 19:09:54	122.177.33.47	Admin	admin	 - template1 email template is added.
+02-12-22 07:16:12	122.177.33.47	Admin	admin	USR22_4 - ajax User is updated.
+02-12-22 07:19:59	122.177.33.47	Admin	admin	USR22_5 - 22UGGWW User is added.
+02-12-22 07:20:53	122.177.33.47	Admin	admin	USR22_5 - 22UGGWW User is updated.
+Dt --> 02-12-22 08:01:34 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 08:17:28 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 02-12-22 08:17:50 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 08:21:40 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 02-12-22 08:21:50 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 08:22:48 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 02-12-22 08:22:58 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 08:24:58 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 08:26:23 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 02-12-22 08:30:07 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+02-12-22 08:44:50	49.36.43.220	CLT22_1	 updated company details after account creation 	
+02-12-22 21:05:19	49.36.43.220	Admin	admin	PRO22_10 - Buttery صبريد Product is updated.
+02-12-22 21:05:34	49.36.43.220	Admin	admin	PRO22_10 - Buttery صبريد Product is updated.
+Dt --> 02-12-22 09:06:36 IP --> 49.36.43.220 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.

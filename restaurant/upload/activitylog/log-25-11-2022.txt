@@ -1,0 +1,22 @@
+Dt --> 25-11-22 01:36:06 IP --> 49.36.43.11 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-11-25 13:49:29	49.36.43.11	Admin	admin	PCAT_1 - Juices and Smoothies product category is added.
+2022-11-25 14:04:27	49.36.43.11	Admin	admin	TAC_1 - Tax 1 Tax Rate is updated.
+2022-11-25 14:04:39	49.36.43.11	Admin	admin	TAC_2 - Tax 2 Tax Rate is updated.
+2022-11-25 14:05:06	49.36.43.11	Admin	admin	TAG_1 - Group A Tax Group is added.
+2022-11-25 14:06:27	49.36.43.11	Admin	admin	BR22_1 - Branch A Branch is added.
+2022-11-25 14:07:17	49.36.43.11	Admin	admin	1 - Floor 1 sector zone is added.
+2022-11-25 14:39:35	49.36.43.11	Admin	admin	2 - Floor 2 sector zone is added.
+2022-11-25 14:42:09	49.36.43.11	Admin	admin	3 - Floor 3 sector zone is added.
+2022-11-25 14:53:57	49.36.43.11	Admin	admin	4 - Test sector zone is added.
+2022-11-25 14:57:55	49.36.43.11	Admin	admin	5 - Test 3 sector zone is added.
+2022-11-25 16:46:43	49.36.43.11	Admin	admin	5 - Test 3 sector zone is deleted.
+2022-11-25 16:46:47	49.36.43.11	Admin	admin	4 - Test sector zone is deleted.
+2022-11-25 16:47:41	49.36.43.11	Admin	admin	3 - Floor 3 sector zone is updated.
+2022-11-25 16:47:56	49.36.43.11	Admin	admin	3 - Floor 3.1 sector zone is updated.
+2022-11-25 16:54:45	49.36.43.11	Admin	admin	 - Voluptates eaque vol sms template is added.
+2022-11-25 17:40:13	49.36.43.11	Admin	admin	 - Sequi possimus dolo sms template is added.
+2022-11-25 17:42:04	49.36.43.11	Admin	admin	 - asd sms template is added.
+2022-11-25 17:45:00	49.36.43.11	Admin	admin	 - sdasd sms template is added.
+2022-11-25 17:45:10	49.36.43.11	Admin	admin	 - asd sms template is added.
+2022-11-25 17:47:27	49.36.43.11	Admin	admin	 - sasdasd sms template is added.
+2022-11-25 17:47:51	49.36.43.11	Admin	admin	PCAT_2 - asd product category is added.

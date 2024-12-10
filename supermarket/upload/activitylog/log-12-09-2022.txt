@@ -1,0 +1,166 @@
+Dt --> 12-09-22 06:42:35 IP --> 106.193.83.14 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 08:01:25 IP --> 157.33.42.43 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 08:35:56 IP --> 49.206.9.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 08:41:55 IP --> 49.36.41.96 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 09:04:48 IP --> 49.206.9.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 12-09-22 09:06:49 IP --> 49.206.9.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-12 09:22:29	49.206.9.93	ADMIN	admin	true - Potatos item is updated.
+2022-09-12 09:22:34	49.206.9.93	ADMIN	admin	true - Potatos item is updated.
+Dt --> 12-09-22 09:56:39 IP --> 188.54.166.35 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-12 09:59:44	49.206.9.93	ADMIN	admin	true - Potatos item is updated.
+2022-09-12 10:03:53	49.206.9.93	ADMIN	admin	true - Potatos item is updated.
+2022-09-12 10:03:59	49.206.9.93	ADMIN	admin	true - Potatos item is updated.
+Dt --> 12-09-22 10:04:23 IP --> 103.36.82.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 10:08:53 IP --> 106.193.83.11 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 10:20:31 IP --> 49.36.41.96 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-12 10:30:05	157.33.42.43	ADMIN	admin	true - Potatos item is updated.
+2022-09-12 10:38:02	157.33.42.43	ADMIN	admin	true - Potatos item is updated.
+2022-09-12 11:07:08	106.193.83.11	ADMIN	admin	QUO22_1 quotation is added.
+2022-09-12 11:22:42	49.206.9.93	ADMIN	admin	true - Potatos item is updated.
+Dt --> 12-09-22 11:23:42 IP --> 49.36.41.96 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+12-09-22 12:10:48	157.33.42.43	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:18:55	157.33.42.43	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:27:31	157.33.42.43	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:30:13	157.33.42.43	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:39:06	49.206.9.93	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:39:18	49.206.9.93	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:39:31	49.206.9.93	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:39:39	49.206.9.93	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 12:57:10	157.33.42.43	ADMIN	admin	USR22_9 - seema User is updated.
+12-09-22 12:57:27	157.33.42.43	ADMIN	admin	USR22_15 User is deleted.
+12-09-22 12:58:00	157.33.42.43	ADMIN	admin	USR22_7 - test User is updated.
+12-09-22 12:58:54	157.33.42.43	ADMIN	admin	USR22_6 - seema User is updated.
+12-09-22 01:01:39	49.206.9.93	ADMIN	admin	USR22_17 - Priya User is added.
+12-09-22 01:02:33	49.206.9.93	ADMIN	admin	USR22_18 - Priya User is added.
+12-09-22 01:02:53	49.206.9.93	ADMIN	admin	USR22_18 - Priya User is updated.
+12-09-22 01:03:26	49.206.9.93	ADMIN	admin	USR22_19 - Priya User is added.
+12-09-22 01:03:33	49.206.9.93	ADMIN	admin	USR22_19 User is deleted.
+12-09-22 01:03:36	49.206.9.93	ADMIN	admin	USR22_18 User is deleted.
+12-09-22 01:03:38	49.206.9.93	ADMIN	admin	USR22_17 User is deleted.
+2022-09-12 13:11:24	49.206.9.93	ADMIN	admin	REC22_5 - PRO22_23 recipe is added.
+2022-09-12 13:11:32	49.206.9.93	ADMIN	admin	REC22_5 - PRO22_23 recipe is deleted.
+12-09-22 01:14:53	49.206.9.93	ADMIN	admin	USR22_14 User is deleted.
+Dt --> 12-09-22 01:15:58 IP --> 157.33.42.43 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-12 13:17:48	49.206.9.93	ADMIN	admin	TAG_17 - My group 3 Tax Group is updated.
+2022-09-12 13:18:52	49.206.9.93	ADMIN	admin	TAG_13 -  Tax group is deleted.
+Dt --> 12-09-22 01:26:27 IP --> 103.36.82.3 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 12-09-22 01:32:42 IP --> 49.36.41.96 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+2022-09-12 13:38:00	106.193.83.11	ADMIN	admin	TAG_20 - Test Group Tax Group is added.
+2022-09-12 13:42:28	106.193.83.11	ADMIN	admin	TAG_21 - Test Group 1 Tax Group is added.
+2022-09-12 13:42:52	49.206.9.93	ADMIN	admin	TAG_22 - sss Tax Group is added.
+2022-09-12 13:42:59	49.206.9.93	ADMIN	admin	TAG_22 -  Tax group is deleted.
+2022-09-12 13:45:05	49.206.9.93	ADMIN	admin	TAG_23 - x Tax Group is added.
+2022-09-12 13:46:09	49.206.9.93	ADMIN	admin	TAG_23 - x Tax Group is updated.
+2022-09-12 13:56:10	49.206.9.93	ADMIN	admin	TAG_21 - Test Group 1 Tax Group is updated.
+12-09-22 01:58:22	188.54.166.35	ADMIN	admin	USR22_20 - test User is added.
+2022-09-12 14:00:12	106.193.83.11	ADMIN	admin	TAG_21 - Test Group 1 Tax Group is updated.
+2022-09-12 14:00:33	106.193.83.11	ADMIN	admin	TAG_21 - Test Group 1 Tax Group is updated.
+2022-09-12 14:04:29	49.206.9.93	ADMIN	admin	TAB_13 - 10 table is deleted.
+2022-09-12 14:04:33	49.206.9.93	ADMIN	admin	TAB_14 - 11 table is deleted.
+2022-09-12 14:08:14	106.193.83.11	ADMIN	admin	TAB_17 - t005 table is added.
+2022-09-12 14:11:23	106.193.83.11	ADMIN	admin	TAB_17 - t005 table is deleted.
+2022-09-12 14:14:19	106.193.83.11	ADMIN	admin	TAC_21 - new tax per Tax Rate is updated.
+2022-09-12 14:16:47	49.206.9.93	ADMIN	admin	TAB_18 - 111 table is added.
+2022-09-12 14:20:42	106.193.83.11	ADMIN	admin	TAC_21 - new tax per Tax rate is deleted.
+2022-09-12 14:21:05	106.193.83.11	ADMIN	admin	TAC_22 - new tax per Tax Rate is updated.
+2022-09-12 14:22:50	106.193.83.11	ADMIN	admin	TAC_22 - new tax per Tax rate is deleted.
+2022-09-12 14:23:05	106.193.83.11	ADMIN	admin	TAC_23 - new tax per Tax Rate is updated.
+2022-09-12 14:23:41	106.193.83.11	ADMIN	admin	TAC_24 - new tax per 22 Tax Rate is updated.
+2022-09-12 14:25:27	106.193.83.11	ADMIN	admin	TAC_24 - new tax per 22 Tax rate is deleted.
+2022-09-12 14:25:31	106.193.83.11	ADMIN	admin	TAC_23 - new tax per Tax rate is deleted.
+2022-09-12 14:25:49	106.193.83.11	ADMIN	admin	TAC_25 - new tax per 56865 Tax Rate is updated.
+12-09-22 02:28:49	49.36.41.96	ADMIN	admin	USR22_21 - Seema New User User is added.
+2022-09-12 14:30:29	106.193.83.11	ADMIN	admin	TAC_25 - new tax per 56865 Tax rate is deleted.
+2022-09-12 14:36:18	106.193.83.11	ADMIN	admin	TAC_26 - new tax per Tax Rate is updated.
+2022-09-12 14:38:32	106.193.83.11	ADMIN	admin	TAC_26 - new tax per Tax rate is deleted.
+12-09-22 02:40:24	49.206.9.93	ADMIN	admin	PRO22_28 - اختبار Product is updated.
+12-09-22 02:41:14	49.206.9.93	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+12-09-22 02:43:52	49.206.9.93	ADMIN	admin	PRO22_29 - تست  بروكينغ Product is added.
+12-09-22 02:44:18	49.206.9.93	ADMIN	admin	PRO22_29 - تست  بروكينغ Product is updated.
+2022-09-12 15:12:21	188.54.166.35	ADMIN	admin	IN22_13 - SUP22_10 of BR22_11 having amount 5000 inward is added.
+2022-09-12 15:16:23	49.206.9.93	ADMIN	admin	CAT_13 - North Indian category is updated.
+2022-09-12 15:19:11	49.206.9.93	ADMIN	admin	CAT_15 - Biryani category is updated.
+2022-09-12 15:19:36	49.206.9.93	ADMIN	admin	CAT_15 - Biryani category is updated.
+12-09-22 03:26:33	157.33.42.43	ADMIN	admin	USR22_22 - sicylac User is added.
+2022-09-12 15:57:36	49.206.9.93	ADMIN	admin	CAT_15 - Biryani category is updated.
+2022-09-12 15:57:44	49.206.9.93	ADMIN	admin	CAT_16 - super category is deleted.
+12-09-22 04:01:29	49.206.9.93	ADMIN	admin	PRO22_29 - تست  بروكينغ Product is updated.
+12-09-22 04:02:02	49.206.9.93	ADMIN	admin	PRO22_30 - aa Product is added.
+12-09-22 04:02:16	49.206.9.93	ADMIN	admin	PRO22_30 - aa Product is updated.
+12-09-22 04:02:31	49.206.9.93	ADMIN	admin	PRO22_30 - aa Product is updated.
+12-09-22 04:02:52	49.206.9.93	ADMIN	admin	PRO22_30Product is deleted.
+12-09-22 04:02:55	49.206.9.93	ADMIN	admin	PRO22_29Product is deleted.
+12-09-22 04:02:58	49.206.9.93	ADMIN	admin	PRO22_28Product is deleted.
+12-09-22 04:04:02	49.206.9.93	ADMIN	admin	PRO22_31 - اكس Product is added.
+12-09-22 04:05:43	157.33.42.43	ADMIN	admin	USR22_22 - sicylac User is updated.
+12-09-22 04:05:59	157.33.42.43	ADMIN	admin	USR22_22 - sicylac User is updated.
+12-09-22 04:06:06	157.33.42.43	ADMIN	admin	USR22_22 User is deleted.
+2022-09-12 16:08:17	49.206.9.93	ADMIN	admin	true - Onions item is updated.
+12-09-22 04:25:18	157.33.42.43	ADMIN	admin	USR22_9 User is deleted.
+12-09-22 04:25:31	157.33.42.43	ADMIN	admin	USR22_21 - Seema New User User is updated.
+12-09-22 04:25:59	49.206.9.93	ADMIN	admin	PRO22_31 - اكس Product is updated.
+12-09-22 04:26:01	157.33.42.43	ADMIN	admin	USR22_21 - Seema New User User is updated.
+12-09-22 04:26:22	49.206.9.93	ADMIN	admin	PRO22_31 - اكس Product is updated.
+12-09-22 04:30:04	49.206.9.93	ADMIN	admin	SUP22_13 - My supplier two Supplier is added.
+12-09-22 04:40:30	49.206.9.93	ADMIN	admin	SUP22_13 - My supplier twoSupplier is updated.
+12-09-22 04:41:28	49.206.9.93	ADMIN	admin	SUP22_13 - My supplier twoSupplier is updated.
+12-09-22 04:42:07	49.206.9.93	ADMIN	admin	SUP22_9 Supplier is deleted.
+12-09-22 04:44:06	49.206.9.93	ADMIN	admin	SUP22_14 - a Supplier is added.
+12-09-22 04:44:10	49.206.9.93	ADMIN	admin	SUP22_14 Supplier is deleted.
+12-09-22 04:54:40	49.36.41.96	ADMIN	admin	ITCC_27 - Size Category add on is added.
+12-09-22 04:54:52	49.36.41.96	ADMIN	admin	CCLN_21 - Medium SubCategory add on is added.
+12-09-22 04:55:04	49.36.41.96	ADMIN	admin	CCLN_22 - Large SubCategory add on is added.
+12-09-22 04:55:23	49.36.41.96	ADMIN	admin	ITCC_28 - Base Category add on is added.
+12-09-22 04:55:48	49.36.41.96	ADMIN	admin	CCLN_23 - Pan SubCategory add on is added.
+12-09-22 04:56:02	49.36.41.96	ADMIN	admin	CCLN_24 - San test SubCategory add on is added.
+12-09-22 04:56:06	49.36.41.96	ADMIN	admin	CCLN_24Sub Category is deleted.
+12-09-22 04:56:14	49.36.41.96	ADMIN	admin	CCLN_25 - San Test SubCategory add on is added.
+12-09-22 04:57:52	49.36.41.96	ADMIN	admin	ITCC_29 - Add-On Category add on is added.
+12-09-22 05:01:50	188.54.166.35	ADMIN	admin	ITCC_30 - sizes Category add on is added.
+12-09-22 05:08:02	49.206.9.93	ADMIN	admin	ITCC_31 - Cat 1 Category add on is added.
+12-09-22 05:08:19	49.36.41.96	ADMIN	admin	PRO22_32 - Periperi  Product is added.
+12-09-22 05:08:38	49.206.9.93	ADMIN	admin	ITCC_32 - Cat 2 Category add on is added.
+12-09-22 05:08:48	49.206.9.93	ADMIN	admin	ITCC_33 - Cat 3 Category add on is added.
+12-09-22 05:09:26	49.206.9.93	ADMIN	admin	ITCC_32 - Cat 2 Category add on is updated.
+12-09-22 05:09:55	49.206.9.93	ADMIN	admin	ITCC_33Category is deleted.
+2022-09-12 17:15:20	49.36.41.96	ADMIN	admin	BR22_17 - Riyadh Branch is updated.
+12-09-22 05:15:58	49.206.9.93	ADMIN	admin	ITCC_34 - Cat 3 Category add on is added.
+12-09-22 05:16:03	49.206.9.93	ADMIN	admin	ITCC_31 - Cat 1 Category add on is updated.
+12-09-22 05:16:16	157.33.42.43	ADMIN	admin	SUP22_15 - Charde Adkins Supplier is added.
+12-09-22 05:19:33	49.206.9.93	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+12-09-22 05:19:42	49.206.9.93	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+12-09-22 05:20:10	49.206.9.93	ADMIN	admin	PRO22_31Product is deleted.
+12-09-22 05:23:12	157.33.42.43	ADMIN	admin	SUP22_15 - Charde AdkinsSupplier is updated.
+12-09-22 05:23:42	157.33.42.43	ADMIN	admin	SUP22_15 - Charde AdkinsSupplier is updated.
+12-09-22 05:24:42	157.33.42.43	ADMIN	admin	SUP22_15 - Charde AdkinsSupplier is updated.
+12-09-22 05:43:15	49.36.41.96	ADMIN	admin	ITCC_35 - Test1 Category add on is added.
+12-09-22 05:43:22	49.36.41.96	ADMIN	admin	CCLN_26 - Size1 SubCategory add on is added.
+12-09-22 05:43:51	49.36.41.96	ADMIN	admin	CCLN_27 - Pan SubCategory add on is added.
+12-09-22 05:44:07	49.36.41.96	ADMIN	admin	ITCC_36 - Test2 Category add on is added.
+12-09-22 05:44:16	49.36.41.96	ADMIN	admin	CCLN_28 - pan 1 SubCategory add on is added.
+12-09-22 05:44:44	49.36.41.96	ADMIN	admin	CCLN_29 - pan 1 SubCategory add on is added.
+12-09-22 05:47:57	49.36.41.96	ADMIN	admin	ITCC_35 - Test1 Category add on is updated.
+12-09-22 05:48:30	49.36.41.96	ADMIN	admin	ITCC_37 - Test3 Category add on is added.
+12-09-22 05:48:37	49.36.41.96	ADMIN	admin	CCLN_30 - PRO22_32 SubCategory add on is added.
+Dt --> 12-09-22 08:13:53 IP --> 49.206.9.93 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+12-09-22 08:17:49	49.206.9.93	ADMIN	admin	PRO22_32 - Periperi Product is updated.
+12-09-22 08:20:43	49.206.9.93	ADMIN	admin	PRO22_32 - Periperi Product is updated.
+12-09-22 08:23:04	49.206.9.93	ADMIN	admin	PRO22_32 - Periperi Product is updated.
+12-09-22 08:23:18	49.206.9.93	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+12-09-22 08:23:41	49.206.9.93	ADMIN	admin	ITCC_38 - cat 1 Category add on is added.
+12-09-22 08:24:02	49.206.9.93	ADMIN	admin	ITCC_39 - Cat 2 - add on Category add on is added.
+12-09-22 08:24:16	49.206.9.93	ADMIN	admin	ITCC_40 - Cat 3 - Product Category add on is added.
+12-09-22 08:24:38	49.206.9.93	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 08:24:46	49.206.9.93	ADMIN	admin	PRO22_26 - شك أبن بريك Product is updated.
+12-09-22 08:40:51	49.206.9.93	ADMIN	admin	PRO22_23 - برياني دجاج Product is updated.
+2022-09-12 20:47:03	49.206.9.93	ADMIN	admin	PC_25 - AProduct Combo is updated.
+2022-09-12 21:11:54	49.206.9.93	ADMIN	admin	ORDER6752_8 - ORDER6752_8Order is updated.
+2022-09-12 21:12:07	49.206.9.93	ADMIN	admin	ORDER6752_8 - ORDER6752_8Order is updated.
+2022-09-12 21:12:13	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:15	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:15	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:16	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:16	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:16	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:16	49.206.9.93	ADMIN	admin	 - Order is updated.
+2022-09-12 21:12:17	49.206.9.93	ADMIN	admin	 - Order is updated.

@@ -1,0 +1,183 @@
+<div id="main-content">
+
+    <div class="page-heading">
+        <div class="page-title">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-1 order-last">
+                    <h3>Transfer</h3>
+                </div>
+                <div class="col-12 col-md-6 order-md-2 order-first">
+                    <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Transfer</li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+		<?php if($insertRights==1){ ?>
+        <div id="maindiv" class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                    <h2><a href="<?php echo base_url(); ?>transfer/add"><i class="fa fa-plus-circle"></i></a></h2>
+                </div>
+
+            </div>
+        </div>
+		<?php } ?>
+        <!-- Basic Tables start -->
+        <section class="section">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+
+                        <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                            <h5>Transfer List</h5>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped" id="transferTable">
+                        <thead>
+                            <tr>
+                                <th>Sr No</th>
+                                <th>Code</th>
+                                <th>Batchno</th>
+                                <th>Date</th>
+                                <th>Branch from</th>
+                                <th>Branch to</th>
+                                <th>Price</th>
+                           
+                                <th>Approved</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+        <!-- Basic Tables end -->
+    </div>
+</div>
+</div>
+</div>
+</body>
+<div class="modal fade text-left" id="generl_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-modal="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-between">
+                <h4 class="modal-title font-size-h4 text-center lng">Transfer</h4>
+            </div>
+
+            <div class="modal-body panel-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $('.cancel').removeClass('btn-default').addClass('btn-info');
+        getDataTable();
+		var data = '<?php echo $this->session->flashdata('transfer_message'); unset($_SESSION['transfer_message']);?>';
+        if (data != '') {
+            var obj = JSON.parse(data);
+            if (obj.status) {
+                toastr.success(obj.message, 'Transfer', {
+                    "progressBar": true
+                });
+            } else {
+                toastr.error(obj.message, 'Transfer', {
+                    "progressBar": true
+                });
+            }
+        }
+    });
+
+    function getDataTable() {
+        $.fn.DataTable.ext.errMode = 'none';
+        if ($.fn.DataTable.isDataTable("#transferTable")) {
+            $('#transferTable').DataTable().clear().destroy();
+        }
+        var dataTable = $('#transferTable').DataTable({
+            stateSave: true,
+            lengthMenu: [10, 25, 50, 200, 500, 700, 1000],
+            processing: true,
+            serverSide: true,
+            ordering: true,
+            searching: true,
+            paging: true,
+            ajax: {
+                url: base_path + "Transfer/getTransferList",
+                data: {},
+                type: "GET",
+                complete: function(response) {
+                    $('.edit_transfer').click(function() {
+                        var code = $(this).data('seq');
+                        $.ajax({
+                            url: base_path + "Transfer/view",
+                            type: 'POST',
+                            data: {
+                                'code': code,
+                            },
+                            success: function(response) {
+                                $('#generl_modal').modal('show');
+                                $(".panel-body").html(response);
+                            }
+                        });
+                    });
+
+                    $('.delete_group').click(function() {
+						debugger
+                        var code = $(this).data('seq');
+                        swal({
+                            //title: "Are you sure?",
+                            title: "Are you sure you want to delete this?",
+                            type: "warning",
+                            showCancelButton: !0,
+                            confirmButtonColor: "#DD6B55",
+                            confirmButtonText: "Yes, delete it!",
+                            cancelButtonText: "No, cancel it!",
+                            closeOnConfirm: !1,
+                            closeOnCancel: !1 
+                        }, function(e) {
+                            if (e) {
+                                $.ajax({
+                                    url: base_path + "Transfer/deleteTransfer",
+                                    type: 'POST',
+                                    data: {
+                                        'code': code
+                                    },
+                                    success: function(data) {
+                                        swal.close()
+                                        if (data) {
+                                            getDataTable()
+                                            toastr.success('Transfer deleted successfully', 'Transfer', {
+                                                "progressBar": true
+                                            });
+                                        } else {
+                                            toastr.error('Transfer not deleted', 'Transfer', {
+                                                "progressBar": true
+                                            });
+                                        }
+                                    }
+                                });
+                            } else {
+                                swal.close();
+                            }
+                        });
+                    });
+                }
+            }
+        });
+    }
+</script>

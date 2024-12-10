@@ -1,0 +1,29 @@
+Dt --> 07-12-22 10:28:15 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 07-12-22 10:29:10 IP --> 157.33.55.58 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+07-12-22 10:52:38	157.33.55.58	Manager	seema	USR22_6 - newuser User is added.
+07-12-22 10:54:28	157.33.55.58	Admin	admin	USR22_7 - usertwo User is added.
+07-12-22 11:00:57	157.33.55.58	Manager	seema	USR22_6 - newuser User is updated.
+07-12-22 11:01:41	157.33.55.58	Admin	admin	USR22_7 - usertwo User is updated.
+Dt --> 07-12-22 11:10:49 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 07-12-22 11:11:08 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 07-12-22 11:11:35 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 07-12-22 11:11:51 IP --> 157.33.55.58 LOGIN USER --> USR22_7 ADDED USER --> USR22_7 	USR22_7 Cashier logged in.
+Dt --> 07-12-22 11:12:34 IP --> 157.33.55.58 LOGIN USER --> USR22_7 ADDED USER --> USR22_7 	USR22_7 Cashier loggedout.
+Dt --> 07-12-22 11:12:48 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 07-12-22 11:13:04 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 07-12-22 11:41:06 IP --> 49.36.33.59 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-12-22 12:34:12 IP --> 106.76.78.159 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is logout.
+Dt --> 07-12-22 01:58:46 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is login.
+Dt --> 07-12-22 01:59:26 IP --> 157.33.55.58 LOGIN USER --> USR22_3 ADDED USER --> USR22_3 	USR22_3 User id is logout.
+Dt --> 07-12-22 03:57:54 IP --> 49.36.33.59 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 07-12-22 04:06:19 IP --> 49.36.33.59 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+07-12-22 04:16:53	49.36.33.59	Admin	admin	PRO22_12 - جرين تشرط  Product is added.
+2022-12-07 16:19:58	49.36.33.59	Admin	admin	IN22_12 - SUP22_3 of BR22_1 having amount 1650.00 inward is added.
+2022-12-07 16:20:42	49.36.33.59	Admin	admin	BAR22_10 - barcode is generated.
+Dt --> 07-12-22 10:31:06 IP --> 106.76.78.179 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier logged in.
+Dt --> 07-12-22 10:35:49 IP --> 106.76.78.179 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+Dt --> 07-12-22 10:51:15 IP --> 106.76.78.151 LOGIN USER --> USR22_4 ADDED USER --> USR22_4 	USR22_4 Cashier loggedout.
+Dt --> 07-12-22 11:02:24 IP --> 106.76.78.17 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+Dt --> 07-12-22 11:03:42 IP --> 106.76.78.17 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier loggedout.
+Dt --> 07-12-22 11:04:15 IP --> 106.76.70.130 LOGIN USER --> USR22_2 ADDED USER --> USR22_2 	USR22_2 Cashier logged in.
+07-12-22 11:06:25	106.76.78.17	Admin	admin	USR22_2 - ajax User is updated.

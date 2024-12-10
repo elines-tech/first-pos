@@ -1,0 +1,26 @@
+Dt --> 20-09-22 07:50:57 IP --> 106.220.94.86 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 20-09-22 07:53:53 IP --> 152.57.170.128 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 20-09-22 08:09:46 IP --> 49.36.33.188 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is login.
+Dt --> 20-09-22 09:59:23 IP --> 106.210.176.18 LOGIN USER --> USR22_1 ADDED USER --> USR22_1 	USR22_1 User id is login.
+2022-09-20 10:04:43	106.210.176.18	ADMIN	neosao	TAC_27 - GST Tax Rate is updated.
+2022-09-20 10:18:55	106.210.176.18	ADMIN	neosao	TAC_28 - VAT Tax Rate is updated.
+2022-09-20 10:19:30	106.210.176.18	ADMIN	neosao	TAC_29 - VAT1 Tax Rate is updated.
+2022-09-20 10:19:59	106.210.176.18	ADMIN	neosao	TAG_28 - Group 1 Tax Group is added.
+2022-09-20 10:20:21	106.210.176.18	ADMIN	neosao	TAG_29 - Group 2 Tax Group is added.
+2022-09-20 10:20:50	106.210.176.18	ADMIN	neosao	BR22_27 - Branch 1 Branch is added.
+2022-09-20 10:21:04	106.210.176.18	ADMIN	neosao	BR22_28 - Branch 2 Branch is added.
+2022-09-20 11:55:25	106.210.176.18	ADMIN	neosao	CAT_12 - Vegetables and Fruits category is added.
+2022-09-20 11:56:19	106.210.176.18	ADMIN	neosao	CAT_13 - Dairy. category is added.
+2022-09-20 11:57:45	106.210.176.18	ADMIN	neosao	CAT_14 - Snacks category is added.
+2022-09-20 11:58:06	106.210.176.18	ADMIN	neosao	CAT_15 - Grocery category is added.
+2022-09-20 11:59:37	106.210.176.18	ADMIN	neosao	CAT_16 - Personal Care category is added.
+20-09-22 01:10:03	106.210.176.18	ADMIN	neosao	PRO22_18 - برفم Product is added.
+20-09-22 01:11:15	106.210.176.18	ADMIN	neosao	PRO22_19 - وهية Product is added.
+20-09-22 13:13:12	106.210.176.18	ADMIN	neosao	PRO22_19 - وهية Product is updated.
+20-09-22 01:14:09	106.210.176.18	ADMIN	neosao	PRO22_20 - ملك Product is added.
+20-09-22 13:34:02	106.210.176.18	ADMIN	neosao	PRO22_19 - وهية Product is updated.
+20-09-22 13:34:36	106.210.176.18	ADMIN	neosao	PRO22_18 - برفم Product is updated.
+20-09-22 13:35:06	106.210.176.18	ADMIN	neosao	PRO22_20 - ملك Product is updated.
+20-09-22 13:38:31	106.210.176.18	ADMIN	neosao	PRO22_20 - ملك Product is updated.
+2022-09-20 14:16:23	106.210.176.18	ADMIN	neosao	IN22_12 - SUP22_13 of BR22_27 having amount 3400 inward is added.
+2022-09-20 14:37:03	106.210.176.18	ADMIN	neosao	IN22_13 - SUP22_13 of BR22_27 having amount 500 inward is added.
