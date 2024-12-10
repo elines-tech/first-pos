@@ -117,6 +117,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
+ 
 	$application_folder = 'application';
 
 /*
@@ -315,4 +316,6 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+ 
 require_once BASEPATH.'core/CodeIgniter.php';
+ 

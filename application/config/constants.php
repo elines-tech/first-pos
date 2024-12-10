@@ -9,16 +9,17 @@ defined('mailName') or define('mailName', 'Tamakan POS');
 defined('mailId') or define('mailId', 'support@tmkn-pos.com');
 defined('mailpassword') or define('mailpassword', 'E;HyIz6i}0$Y');
 
-defined('MAIN_DBNAME') or define('MAIN_DBNAME', 'neosaoco_pos_kaemsoft');
+//defined('MAIN_DBNAME') or define('MAIN_DBNAME', 'neosaoco_pos_kaemsoft');
 
 defined('FATOORAH_KEY') or define('FATOORAH_KEY', 'j7m_Kai8lTg4Q_gxIRSKwE7Juo8HzVcZOeB27JF4LrTNGVTaM2Hp-oGIorPdv75mvEKTEgHg_FHnF0h7ARayGbjQ0xBxwbe_lug8Jy1P2bw_6fuGZuIDg7jnicf5UPdjI-WOOHK3HrU8AE1kJnv6T4eBCmCAZu2Ky9pyMV-NaeiA-z5Uu4T5BC13rFT6I7ITMXsPGomXfZjYUpeZK9_ikoOq2gLD-qw5QVO62Wl3Sw0NN5fq1rqLjeD1n3GoeRIK8Wy9eSdPo1iCkRKernNNqa9cL0ctFLYEOD-DbdOTKMKsNOW1Qdp2MTTouKEe0BKrFBLT4psW1lJkr-EusqT9G3gW0W2qnRfYw61mi0JSg6XH5qrA-IdvwA2L17z0FKNlSCloZakUysN8k7AlXzpGF1j2ndi1B7XBrw8ouiWJqDLOE2w1kwoT_BnngSvhtzXYN6zTu3DyUKQEyNnYfX56gJLivDOHOM7J40YA1ZrAvdPM08ZNbQvE4amphACYxLJJFU2rdj8ANsH7hkzQmvGWHMtx1ZTmg52O8Xppm0oIo2snl4GqkKGNRyHIIK5Rro0LF5nRhBOVKwy35TJmvI_93213I9dh-eoC2Js4haDig9i8FtJRnMPAULMHidMuj8eOwn5TzRr6BSGAZajKqf-pYxFgAtxKJCHrsrGotvm611t1ngd0');
 defined('FATOORAH_URL') or define('FATOORAH_URL', 'https://apitest.myfatoorah.com');
 defined('PAY_GATEWAY_CURRENCY') or define('PAY_GATEWAY_CURRENCY', 'KWD'); //SAR
 
 defined('MAIN_DB_NAME') or define('MAIN_DB_NAME','neosaoco_pos_kaemsoft');
-defined('MAIN_DB_HOST')or define('MAIN_DB_HOST','neosao.com');
-defined('MAIN_DB_UNAME')or define('MAIN_DB_UNAME','neosaoco_test');
-defined('MAIN_DB_PASSWORD')or define('MAIN_DB_PASSWORD','RGuroL&jm(de');
+defined('MAIN_DBNAME') or define('MAIN_DBNAME', 'neosaoco_pos_kaemsoft');
+defined('MAIN_DB_HOST')or define('MAIN_DB_HOST','127.0.0.1');
+defined('MAIN_DB_UNAME')or define('MAIN_DB_UNAME','root');
+defined('MAIN_DB_PASSWORD')or define('MAIN_DB_PASSWORD','root');
 
 /*
 defined('MAIN_DB_NAME') or define('MAIN_DB_NAME', 'neosaoco_pos_kaemsoft');

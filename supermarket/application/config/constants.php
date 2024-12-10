@@ -4,10 +4,11 @@ defined('AppName') or define('AppName', 'Supermarket - Tamakan POS');
 defined('SESS_KEY') or define('SESS_KEY', 'Kaemsoftware-supermarket');
 defined('CASH_SESS_KEY') or define('CASH_SESS_KEY', 'Kaemsoftware-supermarket-cashier');
 
-defined('MAIN_DB_NAME') or define('MAIN_DB_NAME', 'neosaoco_pos_kaemsoft');
-defined('MAIN_DB_HOST') or define('MAIN_DB_HOST', 'neosao.com');
-defined('MAIN_DB_UNAME') or define('MAIN_DB_UNAME', 'neosaoco_test');
-defined('MAIN_DB_PASSWORD') or define('MAIN_DB_PASSWORD', 'RGuroL&jm(de');
+defined('MAIN_DB_NAME') or define('MAIN_DB_NAME','neosaoco_pos_kaemsoft');
+defined('MAIN_DBNAME') or define('MAIN_DBNAME', 'neosaoco_pos_kaemsoft');
+defined('MAIN_DB_HOST')or define('MAIN_DB_HOST','127.0.0.1');
+defined('MAIN_DB_UNAME')or define('MAIN_DB_UNAME','root');
+defined('MAIN_DB_PASSWORD')or define('MAIN_DB_PASSWORD','root');
 
 /*
 defined('MAIN_DB_NAME') or define('MAIN_DB_NAME', 'neosaoco_pos_kaemsoft');
