@@ -29,7 +29,8 @@ class Comman extends CI_Controller
             "password" => "password"
         ];
         $html_template = $this->load->view("mails/register", $userdetails, true);
-        $res = $this->sendemail->sendMailOnly("harsheabhishek19@outlook.in", "Yay! Registration complete.", $html_template);
+        //$res = $this->sendemail->sendMailOnly("harsheabhishek19@outlook.in", "Yay! Registration complete.", $html_template);
+        $res = $this->sendemail->sendMailOnly("developerelines@gmail.com", "Yay! Registration complete.", $html_template);
         print_r($res);
     }
 }

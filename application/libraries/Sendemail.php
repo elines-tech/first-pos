@@ -9,6 +9,8 @@ class Sendemail
 		$this->CI->load->library('phpmailer_lib');
 	}
 
+	/*
+
 	public function sendMailOnly($to, $subject, $message)
 	{
 		// PHPMailer object
@@ -42,8 +44,39 @@ class Sendemail
 		}
 		return $response;
 	}
+		*/
 
 
+		public function sendMailOnly($to, $subject, $message)
+		{
+			$mail = $this->CI->phpmailer_lib->load();
+			$mail->isSMTP();
+			$mail->Mailer = "smtp";
+			$mail->Host = 'tamakan.com.sa';//hostinger.com
+			$mail->Port = 465;
+			$mail->SMTPAuth = true;
+
+			$mail->SMTPSecure = "ssl";
+			$mail->Username = 'service@tamakan.com.sa';
+			$mail->Password = 'service@123415678';
+			$mail->setFrom('service@tamakan.com.sa', "Tamakan Software");
+			$mail->CharSet = "UTF-8";
+			$mail->addAddress($to);
+			$mail->Subject = $subject;
+			$mail->isHTML(true);
+			$mailContent = $message;
+			$mail->Body = $mailContent;
+			if (!$mail->send()) {
+				$response['success'] = 'false';
+				$response['message'] = 'Mailer Error: ' . $mail->ErrorInfo;
+			} else {
+				$response['success'] = 'true';
+				$response['message'] = 'Mail send successfully';
+			}
+			return $response;
+		}
+
+/*
 	function sendMailWithAttachment($toAddress, $subject, $message, $attachments = array())
 	{
 		// PHPMailer object
@@ -86,4 +119,46 @@ class Sendemail
 		}
 		return $response;
 	}
+
+	*/
+
+	function sendMailWithAttachment($toAddress, $subject, $message, $attachments = array())
+    {
+        $mail = $this->CI->phpmailer_lib->load();
+        $mail->isSMTP();
+        $mail->Mailer = "smtp";
+        $mail->Host = 'tamakan.com.sa';
+        $mail->Port = 465;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = "ssl";
+        $mail->Username = 'service@tamakan.com.sa';
+        $mail->Password = 'service@123415678';
+        $mail->setFrom('service@tamakan.com.sa', "Tamakan Software");
+        $mail->CharSet = "UTF-8";
+        $mail->Subject = $subject;
+        $mail->isHTML(true);
+        $mail->Body = $message;
+        if (is_array($toAddress)) {
+            foreach ($toAddress as $to) {
+                $mail->addAddress($to);
+            }
+        } else {
+            $mail->addAddress($toAddress);
+        }
+        if (sizeof($attachments) > 0) {
+            for ($ct = 0; $ct < count($attachments); $ct++) {
+                $mail->AddAttachment($attachments[$ct]);
+            }
+        }
+        if (!$mail->send()) {
+            $response['success'] = 'false';
+            $response['message'] = 'Mailer Error: ' . $mail->ErrorInfo;
+        } else {
+            log_message("error", "INVOICE SENT TO $toAddress");
+            $response['success'] = 'true';
+            $response['message'] = 'Mail send successfully';
+        }
+        return $response;
+    }
+
 }

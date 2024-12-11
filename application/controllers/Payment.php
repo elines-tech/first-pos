@@ -359,6 +359,8 @@ class Payment extends MY_Controller
       copy(FCPATH . "assets/projconfig/supermarket/R_1.json", $rightsFolder . "/R_1.json");
     }
 
+    
+    $this->db->query("CREATE DATABASE `$dbName`");
     $this->db->query('use ' . $dbName);
 
     $this->db->query("DROP TABLE IF EXISTS `companymaster`");
@@ -1420,6 +1422,7 @@ class Payment extends MY_Controller
       copy(FCPATH . "assets/projconfig/restaurant/R_1.json", $rightsFolder . "/R_1.json");
     }
 
+    $this->db->query("CREATE DATABASE `$dbName`");
     $this->db->query('use ' . $dbName);
 
     $this->db->query("DROP TABLE IF EXISTS `companymaster`");

@@ -314,7 +314,8 @@ class Register extends MY_Controller
             $client = $clientResult->result_array()[0];
             $ip = $_SERVER['REMOTE_ADDR'];
             $this->db->query('use ' . MAIN_DBNAME);
-            $dbName = strtolower('myvegizc_' . $client['cmpcode']);
+            //$dbName = strtolower('myvegizc_' . $client['cmpcode']);
+            $dbName = strtolower(MAIN_DB_NAME .'_'. $client['cmpcode']);
             $dbData = array(
                 'code' => 'xyz',
                 'companyCode' => $client['code'],
@@ -334,12 +335,12 @@ class Register extends MY_Controller
             curl_setopt($curl, CURLOPT_COOKIEJAR, 'cookiee-name');
             curl_setopt($curl, CURLOPT_COOKIEFILE, '/var/www/ip4.x/filee/tmp');
             curl_setopt($curl, CURLOPT_URL, $query);
-            $result = curl_exec($curl);
-            $loginTokenResult = json_decode($result);
-            $cpsess = $loginTokenResult->security_token;
-            $query2 = "https://myvegiz.com:2083$cpsess/json-api/cpanel?cpanel_jsonapi_user=user&cpanel_jsonapi_apiversion=2&cpanel_jsonapi_module=MysqlFE&cpanel_jsonapi_func=createdb&db=" . $dbName;
-            curl_setopt($curl, CURLOPT_URL, $query2);
-            $resultcurl = curl_exec($curl);
+            //$result = curl_exec($curl);
+           // $loginTokenResult = json_decode($result);
+          //  $cpsess = $loginTokenResult->security_token;
+           // $query2 = "https://myvegiz.com:2083$cpsess/json-api/cpanel?cpanel_jsonapi_user=user&cpanel_jsonapi_apiversion=2&cpanel_jsonapi_module=MysqlFE&cpanel_jsonapi_func=createdb&db=" . $dbName;
+         //   curl_setopt($curl, CURLOPT_URL, $query2);
+          //  $resultcurl = curl_exec($curl);
             if ($client['category'] == "supermarket") {
                 $receiptId = "KSSUP" . date('dmyHis');
                 $plan = $this->db->select("subscriptionmaster.*")->where('subscriptionmaster.code', 'PAK_1')->get("subscriptionmaster")->row_array();
@@ -440,6 +441,8 @@ class Register extends MY_Controller
             copy(FCPATH . "assets/projconfig/supermarket/R_1.json", $rightsFolder . "/R_1.json");
         }
 
+        
+        $this->db->query("CREATE DATABASE `$dbName`");
         $this->db->query('use ' . $dbName);
 
         $this->db->query("DROP TABLE IF EXISTS `companymaster`");
@@ -1501,6 +1504,8 @@ class Register extends MY_Controller
             copy(FCPATH . "assets/projconfig/restaurant/R_1.json", $rightsFolder . "/R_1.json");
         }
 
+        
+        $this->db->query("CREATE DATABASE `$dbName`");
         $this->db->query('use ' . $dbName);
 
         $this->db->query("DROP TABLE IF EXISTS `companymaster`");
