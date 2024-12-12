@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-defined('AppName') or define('AppName', 'Supermarket - Tamakan POS');
+defined('AppName') or define('AppName', 'Supermarket - First POS');
 defined('SESS_KEY') or define('SESS_KEY', 'Kaemsoftware-supermarket');
 defined('CASH_SESS_KEY') or define('CASH_SESS_KEY', 'Kaemsoftware-supermarket-cashier');
 

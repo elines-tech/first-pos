@@ -16,7 +16,7 @@
     </script>
 </head>
 
-<body>
+<body id='login'>
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
@@ -25,7 +25,8 @@
             <div class="card">
                 <div class="card-content">
                     <div class="text-center">
-                        <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">
+                        <!--<img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">-->
+                        <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/Group.svg' ?>">
                         <h4><?= AppName ?></h4>
                     </div>
                     <h3 class="card-title">Login</h3>
@@ -95,10 +96,10 @@
                                         </div>
                                     </div>
                                     <div class="row mt-3">
-                                        <div class="col-md-12">
-                                            <button type="submit" class="btn btn-primary w-100" name="btnSubmit">Login</button>
+                                        <div class="col-md-12 d-flex justify-content-center">
+                                            <button type="submit" class="btn btn-primary w-25" name="btnSubmit">Login</button>
                                         </div>
-                                        <div class="col-md-12 text-center my-3">
+                                        <div id="textButton" class="col-md-12 text-center my-3">
                                             <a href="<?= base_url("Cashier/Login") ?>">Cashier Login?</a>
                                         </div>
                                     </div>

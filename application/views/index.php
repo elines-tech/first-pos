@@ -1,8 +1,13 @@
 <nav class="navbar navbar-expand-lg sticky-top bg-white">
     <div class="container-fluid">
+
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url('assets/images/logo/logo_sm.png') ?>" style="height:30px" alt="TMKN Software" />
+
+            <!--<img src="<?= base_url('assets/images/logo/logo_sm.png') ?>" style="height:30px" alt="TMKN Software" />-->
+            <img src="<?= base_url('assets/images/logo/Group.svg') ?>" style="height:70px" alt="TMKN Software" />
+
         </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,77 +26,83 @@
         </div>
     </div>
 </nav>
+
+
 <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 style="color:#0D988C">POS</h1>
-                <h2>Nobis, class ut aliquam lobortis rerum quia sodales quibusdam integer! Quos iure elit nostra natus lacus adipisicing penatibus.</h2>
+            <div class="col-lg-6 d-flex flex-column items-center text-center justify-content-center">
+                <h1 style="color:#636262">First POS</h1>
+                <h2 style="color:#BDBDBD">Nobis, class ut aliquam lobortis rerum quia sodales quibusdam integer! Quos iure elit nostra natus lacus adipisicing penatibus.</h2>
                 <div style="margin:15px 0">
-                    <div class="text-start">
-                        <a href="<?= base_url('register') ?>" class="btn btn-primary">Subscription</a>
-                    </div>
+                    <a href="<?= base_url('register') ?>" class="btn btn-primary">Subscription</a>
                 </div>
             </div>
             <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="<?= base_url('assets/images/bg/herobg.png') ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('assets/images/bg/Group.png') ?>" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 </section>
-<section class="plan">
-    <div class="heading">
-        <h3 style="color:#707070;font-weight:700;">Choose subscription plan</h3>
-    </div>
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-2"></div>
-            <?php
-            if ($subscriptionmaster) {
-                foreach ($subscriptionmaster->result() as $s) {
-            ?>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4><?= ucwords(strtolower($s->title)) ?></h4>
-                                <div class="btnbrd"></div>
-                                <div class="pkgtitle"><?= ucwords($s->packageFor) ?></div>
-                                <div class="mt-3">
-                                    Branches <span class="float-end count"><?= $s->noofbranch ?></span>
+
+<div class="planSection">
+    <section class="plan">
+        <div class="heading">
+            <h3 style="color:#636262;font-weight:700;">Choose subscription plan</h3>
+        </div>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-2"></div>
+                <?php
+                if ($subscriptionmaster) {
+                    foreach ($subscriptionmaster->result() as $s) {
+                ?>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4><?= ucwords(strtolower($s->title)) ?></h4>
+                                    <div class="btnbrd"></div>
+                                    <div class="pkgtitle"><?= ucwords($s->packageFor) ?></div>
+                                    <div class="mt-3">
+                                        Branches <span class="float-end count"><?= $s->noofbranch ?></span>
+                                    </div>
+                                    <div class="mt-3">
+                                        Users <span class="float-end count"><?= $s->noofusers ?></span>
+                                    </div>
+                                    <h5 class="mt-3"><b>Feature</b> </h5>
+                                    <div class="my-2">Erat dui perspiciatis maiores congue amet eiusmod quia placerat sodales, eiusmod vulputate tristique</div>
+                                    <div class="price">
+                                        <div class="">Price/month <span><?= $s->monthlychargesincltax ?></span></div>
+                                        <button class="btn btn-primary w-100 my-1 btn-config" type="button" data-duration="month" data-packageid="<?= $s->code ?>">Pay Now</button>
+                                    </div>
+                                    <div class="price">
+                                        <div class="">Price/year <span><?= $s->yearlychargesincltax ?></span></div>
+                                        <button class="btn btn-primary w-100 my-1 btn-config" type="button" data-duration="year" data-packageid="<?= $s->code ?>">Pay Now</button>
+                                    </div>
+                                    <form action="<?= base_url('register') ?>" method="post">
+                                        <input type="hidden" name="trialPlan" readonly value="1">
+                                        <input type="hidden" name="category" readonly value="<?= strtolower($s->packageFor) ?>">
+                                        <input type="hidden" name="plandetails" readonly value="" />
+                                        <button class="btn btn-outline-primary w-100 my-1">Free Trial</button>
+                                    </form>
                                 </div>
-                                <div class="mt-3">
-                                    Users <span class="float-end count"><?= $s->noofusers ?></span>
-                                </div>
-                                <h5 class="mt-3"><b>Feature</b> </h5>
-                                <div class="my-2">Erat dui perspiciatis maiores congue amet eiusmod quia placerat sodales, eiusmod vulputate tristique</div>
-                                <div class="price">
-                                    <div class="">Price/month <span><?= $s->monthlychargesincltax ?></span></div>
-                                    <button class="btn btn-primary w-100 my-1 btn-config" type="button" data-duration="month" data-packageid="<?= $s->code ?>">Pay Now</button>
-                                </div>
-                                <div class="price">
-                                    <div class="">Price/year <span><?= $s->yearlychargesincltax ?></span></div>
-                                    <button class="btn btn-primary w-100 my-1 btn-config" type="button" data-duration="year" data-packageid="<?= $s->code ?>">Pay Now</button>
-                                </div>
-                                <form action="<?= base_url('register') ?>" method="post">
-                                    <input type="hidden" name="trialPlan" readonly value="1">
-                                    <input type="hidden" name="category" readonly value="<?= strtolower($s->packageFor) ?>">
-                                    <input type="hidden" name="plandetails" readonly value="" />
-                                    <button class="btn btn-outline-primary w-100 my-1">Free Trial</button>
-                                </form>
                             </div>
                         </div>
-                    </div>
-            <?php
+                <?php
+                    }
                 }
-            }
-            ?>
-            <div class="col-lg-2"></div>
+                ?>
+                <div class="col-lg-2"></div>
+            </div>
         </div>
-    </div>
-    <div>
-        <img src="<?= base_url("assets/images/bg/planimg.svg") ?>" class="img-fluid" alt="">
-    </div>
-</section>
+        <div>
+            <!-- 
+    <img src="<?= base_url("assets/images/bg/planimg.svg") ?>" class="img-fluid" alt="">
+        -->
+        </div>
+    </section>
+</div>
+
 <div class="modal fade" id="configPlan" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">

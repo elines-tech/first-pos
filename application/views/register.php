@@ -1,19 +1,22 @@
 <div id="register">
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light py-3">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
                 <a href="#" class="navbar-brand">
-                    <img src="<?= base_url('assets/images/logo/logo-white.svg') ?>" alt="logo" width="60">
+                    <!--<img src="<?= base_url('assets/images/logo/logo-white.svg') ?>" alt="logo" width="60">-->
+                    <img src="<?= base_url('assets/images/logo/Group.svg') ?>" style="height:70px" alt="POS Software" />
+
                 </a>
             </div>
         </nav>
     </header>
 
-    <div class="container">
+    <div class="">
         <div class="row py-2 mt-2 align-items-center">
-            <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
-            </div>
-            <div class="col-md-7 ml-auto">
+
+            <div class="col-md-3 pr-lg-3 mb-5 mb-md-0"></div>
+
+            <div class="col-md-6 ml-auto">
                 <form action="<?= base_url("register/create") ?>" method="post">
                     <input type="hidden" name="trialPlan" readonly value="1">
                     <input type="hidden" name="plandetails" readonly value="">
@@ -32,12 +35,12 @@
                             <a class="bkbtn" href="<?= base_url('/') ?>"><i class="bi bi-arrow-left"></i> Back</a>
                             <h3 class="reg-title"><b>Create an Account</b></h3>
                             <div class="btnbrd"></div>
-                            <div class="row"> 
+                            <div class="row">
                                 <div class="col-md-6">
                                     <div class="row">
                                         <div class="col-12 mb-2">
                                             <label for="category">Subscribe For <span style="color:red">*</span></label>
-                                            <select class="form-select" id="category" name="category" required tabindex="1">
+                                            <select class="form-selectt" id="category" name="category" required tabindex="1">
                                                 <option value="">-- Select your business category --</option>
                                                 <option value="supermarket" <?= set_select('category', 'supermarket', False) ?>>Supermarket</option>
                                                 <option value="restaurant" <?= set_select('category', 'restaurant', False) ?>>Restaurant</option>
@@ -53,12 +56,12 @@
                                             <label for="name">Your Name <span style="color:red">*</span></label>
                                             <input type="text" class="form-control" tabindex="3" id="name" name="name" value="<?= set_value('name'); ?>" required>
                                             <?php echo form_error('name'); ?>
-                                        </div> 
+                                        </div>
                                         <div class="col-12 mb-2">
                                             <label for="crno">CR Number <span style="color:red">*</span></label>
                                             <input type="number" step="1" class="form-control" tabindex="4" id="crno" name="crno" value="<?= set_value('crno'); ?>" required>
                                             <?php echo form_error('crno'); ?>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -91,7 +94,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="row">
                                 <div class="col-12 mb-2">
                                     <div class="form-check">
@@ -101,11 +104,14 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="form-group col-lg-12 mx-auto mb-0">
+
+                                <!--<div class="form-group col-lg-12 mx-auto mb-0 justify-content-center">-->
+                                <div class="form-group col-lg-12 d-flex justify-content-center">
                                     <button class="btn btn-primary btn-block py-2" tabindex="18">
                                         <span class="font-weight-bold">Create your account</span>
                                     </button>
                                 </div>
+
                                 <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
                                     <div class="border-bottom w-100 ml-5"></div>
                                     <span class="px-2 small text-muted font-weight-bold text-muted">OR</span>
@@ -113,8 +119,8 @@
                                 </div>
                                 <div class="text-center w-100">
                                     <p class="text-muted font-weight-bold">Already Registered? </p>
-                                    <a href="<?= base_url('supermarket/login') ?>" class="text-primary mx-2">Supermarket Login</a>
-                                    <a href="<?= base_url('restaurant/login') ?>" class="text-danger mx-2">Restaurant Login</a>
+                                    <a href="<?= base_url('supermarket/login') ?>" id="supermarket" class="text-primary mx-2">Supermarket Login</a>
+                                    <a href="<?= base_url('restaurant/login') ?>" id="resturant" class="text-danger mx-2">Restaurant Login</a>
                                 </div>
                             </div>
                         </div>
