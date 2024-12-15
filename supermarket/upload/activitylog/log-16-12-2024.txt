@@ -1,0 +1,4 @@
+Dt --> 16-12-24 01:21:32 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+16-12-24 01:23:59	127.0.0.1	CLT24_7	 updated company details after account creation 	
+16-12-24 01:25:48	127.0.0.1	Admin	admin	USR24_1 - USR24_1 Profile is updated.
+16-12-24 01:25:59	127.0.0.1	Admin	admin	USR24_1 - USR24_1 Profile is updated.

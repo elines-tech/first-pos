@@ -1,0 +1,4 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2024-12-16 02:53:37 --> Severity: error --> Exception: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'neosaoco_pos_kaemsoft_24asndr.ordermaster.discount' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by /home/said/Desktop/first-pos/restaurant/system/database/drivers/mysqli/mysqli_driver.php 305
+ERROR - 2024-12-16 02:53:42 --> Severity: error --> Exception: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'neosaoco_pos_kaemsoft_24asndr.ordermaster.discount' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by /home/said/Desktop/first-pos/restaurant/system/database/drivers/mysqli/mysqli_driver.php 305
