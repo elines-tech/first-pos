@@ -23,7 +23,7 @@
     </style>
 </head>
 
-<body>
+<body id='login'>
     <?php
     $vatno = $regno = $crno = "";
     if ($company) {
@@ -41,28 +41,28 @@
         <div class="row">
             <div class="col-lg-12 my-3">
                 <h3><?= AppName ?> <span class="float-end"><a href="<?= base_url("authentication/logout") ?>" class="btn btn-outline-danger">Logout and Exit</a></span></h3>
-                <h4>On-boarding</h4>
+                <h4>Setup your profile</h4>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
                         <?php
                         if ($subscription) {
                             $subscription = $subscription->result_array()[0];
                         ?>
-                            <div class="row">
-                                <div class="col-12 mb-2">
-                                    <h4>Plan Details</h4>
+                            <div class="row align-items-center">
+                                <div class="col-md-3">
+                                    <h4 class='text-success'>Your current plan</h4>
                                 </div>
-                                <div class="col-12 mb-2">
+                                <div class="col-md-3 text-center">
                                     <h4>Amount</h4>
                                     <div><?= $subscription['amount'] ?></div>
                                 </div>
-                                <div class="col-12 mb-2">
+                                <div class="col-md-3 text-center">
                                     <h4>Purchased On</h4>
                                     <div><?= date("d/M/y H:i A", strtotime($subscription['paymentDate'])) ?></div>
                                 </div>
-                                <div class="col-12 mb-2">
+                                <div class="col-md-3 text-center">
                                     <h4>Expires On</h4>
                                     <div class="text-danger"><?= date("d/M/y H:i A", strtotime($subscription['expiryDate'])) ?></div>
                                 </div>
@@ -73,15 +73,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
                         <h4>Fill your company/organization details to continue...</h4>
                         <form action="<?= base_url("onboard/save") ?>" method="post" enctype="multipart/form-data">
                             <div class="row">
-                                <div class="col-sm-6 col-md-3">
-                                    <img src="<?= base_url("assets/images/samplelogo.jpg") ?>" data-src="<?= base_url("assets/images/samplelogo.jpg") ?>" id="preview" style="width:100%;object-fit: contain;" alt="Compnay Logo">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="col-sm-6 col-md-2">
+                                    <img src="<?= base_url("assets/images/profile.png") ?>" data-src="<?= base_url("assets/images/samplelogo.jpg") ?>" id="preview" style="width:100%;object-fit: contain;" alt="Compnay Logo">
                                 </div>
+                            </div>
+
                                 <div class="col-12 mb-2">
                                     <label for="cmpLogo">Logo</label>
                                     <input type="file" name="cmpLogo" id="cmpLogo" class="form-control">
@@ -134,8 +137,8 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12 mb-2">
-                                    <button class="btn btn-primary">Submit</button>
+                                <div class="col-md-12 d-flex justify-content-center">
+                                    <button class="btn btn-primary w-20 mt-3">Submit</button>
                                 </div>
                             </div>
                         </form>

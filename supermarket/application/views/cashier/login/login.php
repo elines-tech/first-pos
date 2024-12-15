@@ -19,7 +19,7 @@
     </script>
 </head>
 
-<body>
+<body id='login'>
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
@@ -28,7 +28,8 @@
             <div class="card">
                 <div class="card-content ">
                     <div class="text-center">
-                        <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">
+                        <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/Group.svg' ?>">
+                        <!--<img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">-->
                         <h2><?= AppName ?></h2>
                         <h3 class="card-title">Cashier Login</h3>
                     </div>
@@ -75,15 +76,15 @@
                                         </div>
                                     </div>
                                     <div class="row mt-3">
-                                        <div class="col-md-12">
-                                            <input type="submit" class="btn btn-success white me-3 mb-1 sub_1 w-100" name="btnSubmit" value="Login">
+                                        <div class="col-md-12 d-flex justify-content-center">
+                                            <input type="submit" class="btn btn-success w-25" name="btnSubmit" value="Login">
                                         </div>
                                     </div>
                                     <div class="row mt-3">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 text-left">
                                             <a href="<?= base_url("login") ?>">System Login?</a>
                                         </div>
-                                        <div class="col-sm-6 text-end">
+                                        <div class="col-sm-6 text-right">
                                             <a href="<?= base_url() ?>Cashier/login/resetpin" class="text-right f-w-600"> Forgot Pin?</a>
                                         </div>
                                     </div>

@@ -40,7 +40,7 @@
                                     <div class="row">
                                         <div class="col-12 mb-2">
                                             <label for="category">Subscribe For <span style="color:red">*</span></label>
-                                            <select class="form-selectt" id="category" name="category" required tabindex="1">
+                                            <select class="form-selectt w-100" id="category" name="category" required tabindex="1">
                                                 <option value="">-- Select your business category --</option>
                                                 <option value="supermarket" <?= set_select('category', 'supermarket', False) ?>>Supermarket</option>
                                                 <option value="restaurant" <?= set_select('category', 'restaurant', False) ?>>Restaurant</option>

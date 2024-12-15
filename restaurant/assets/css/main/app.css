@@ -5427,6 +5427,13 @@ select,
     margin-right: 0
 }
 
+.card {
+    border: none;
+    margin-bottom: 2.2rem;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+}
+
 .card>.list-group {
     border-bottom: inherit;
     border-top: inherit
@@ -9639,7 +9646,21 @@ header {
 }
 
 .text-center {
-    text-align: center !important
+    text-align: center !important ;
+    transition: all 0.3s ease;
+}
+
+#textButton:hover{
+    transform: translateX(-5px);
+}
+
+
+.form-control {
+    border-radius: 15px;
+    padding: 20px;
+    border-color: #E2E8EE;
+    color: black;
+    background-color: white;
 }
 
 .text-decoration-none {
@@ -18184,6 +18205,15 @@ header {
     content: "\f5c7"
 }
 
+.text-left {
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.text-left:hover{
+    transform: translatex(-5px);
+}
+
 .bi-text-paragraph:before {
     content: "\f5c8"
 }
@@ -20991,13 +21021,50 @@ body .bi:before {
     color: #00474d
 }
 
+
+.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: all 0.3s ease;
+    border: 1px solid #37B181;
+}
+
+
+.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    background-color: #445D83;
+    transform: translateY(5px);
+}
+
+
+
+.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: all 0.3s ease;
+    border: 1px solid #37B181;
+}
+
+
+.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    background-color: #445D83;
+    transform: translateY(5px);
+}
+
 .btn.btn-danger,
 .btn.btn-info,
 .btn.btn-primary,
 .btn.btn-secondary,
 .btn.btn-success,
 .btn.btn-warning {
-    color: #fff
+    color: #fff;
 }
 
 .btn.btn-light {
@@ -21095,7 +21162,7 @@ body .bi:before {
     border: none;
 }
 
-.card .card-header .h4,
+.card .card-header .h4, 
 .card .card-header h4 {
     font-size: 1.2rem;
     font-weight: 700
@@ -21106,8 +21173,27 @@ body .bi:before {
 }
 
 .card .card-content {
-    position: relative
+    position: relative;
+    color: #707070;
 }
+
+body#login {
+    background-image: url("../../images/bg/pattern2.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    /* Full viewport height */
+}
+
+.form-selectt {
+    border-radius: 15px;
+    border-color: #E2E8EE;
+    color: black;
+    background-color: white;
+    padding: 15px;
+  }
 
 .card .card-title {
     text-align: center;
@@ -21881,7 +21967,13 @@ body .bi:before {
 
 .text-right {
     text-align: right;
+    transition: all 0.3s ease;
 }
+
+.text-right:hover{
+    transform: translatex(5px);
+}
+
 
 .sidebar-wrapper .menu .submenu .submenu-item a:hover {
     color: #4180C2;

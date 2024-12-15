@@ -18185,6 +18185,16 @@ header {
     content: "\f5c7"
 }
 
+
+.text-left {
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.text-left:hover{
+    transform: translatex(-5px);
+}
+
 .bi-text-paragraph:before {
     content: "\f5c8"
 }
@@ -21018,6 +21028,24 @@ body .bi:before {
     transform: translateY(5px);
 }
 
+
+.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: all 0.3s ease;
+    border: 1px solid #37B181;
+}
+
+
+.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    background-color: #445D83;
+    transform: translateY(5px);
+}
+
 .btn.btn-light {
     color: #607080
 }
@@ -21136,6 +21164,7 @@ body#login {
     background-position: cover;
     background-size: 100%;
     height: 100vh;
+    background-attachment: fixed;
     /* Full viewport height */
 }
 

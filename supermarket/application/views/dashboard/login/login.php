@@ -21,7 +21,7 @@
         <div id="status">&nbsp;</div>
     </div>
     <div class="d-flex align-items-center justify-content-center vh-100">
-        <section class="login-form col-md-6 col-lg-4">
+        <section class="login-form col-md-6 col-lg-4"> 
             <div class="card">
                 <div class="card-content">
                     <div class="text-center">

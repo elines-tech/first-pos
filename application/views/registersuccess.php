@@ -31,7 +31,7 @@ if ($this->session->userdata('companyCode') !== null) {
             <div class="card bg-white">
                 <div class="card-body">
                     <div class="mb-3">
-                        <h4 class="mb-0"> KAEM Software </h4>
+                        <h4 class="mb-0"> First POS </h4>
                         <b class="text-muted">Application Setup</b>
                         <br />
                     </div>
