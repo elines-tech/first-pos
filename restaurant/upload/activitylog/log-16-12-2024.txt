@@ -8,3 +8,5 @@ Dt --> 16-12-24 01:52:15 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> 
 16-12-24 01:52:38	127.0.0.1	Admin	saidemad	USR24_1 - saidemad Profile is updated.
 Dt --> 16-12-24 01:52:45 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
 Dt --> 16-12-24 01:53:17 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 16-12-24 04:04:17 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-16 17:06:49	127.0.0.1	Admin	saidemad	CAT_1 - sasa category is added.

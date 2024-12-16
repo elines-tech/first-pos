@@ -12,7 +12,8 @@
             </div>
         </div>
 		<div class="row">
-		    <div class="col-4">
+		    <div class="col-4 ">
+            <!--<div class="col-12 d-flex text-center justify-content-center">-->
 			   <label class="form-label">Current showing data for all branches.</label>
 			   <?php if($branchCode != "") { ?>
 					<input type="hidden" class="form-control" name="branchCode" id="branchCode" value="<?= $branchCode; ?>" readonly>
@@ -35,8 +36,10 @@
 </div>
 <div class="page-content m-5">
     <section class="row">
+
         <div class="col-12 col-lg-12">
             <div class="row">
+                
                 <div class="col-6 col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body px-4 py-4-5">
@@ -180,11 +183,7 @@
                         </div>
                     </div>
                 </div>
-            
-            </div>
-        </div>
-		 <div class="col-12 col-lg-12">
-            <div class="row">
+
                   <div class="col-6 col-lg-3 col-md-6 mt-2">
                     <div class="card">
                         <div class="card-body px-4 py-4-5">
@@ -204,9 +203,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
-		    </div>
+           
 		</div>
+            
+            </div>
+        </div>
+
+
+
     </section>
 </div>
 <script>

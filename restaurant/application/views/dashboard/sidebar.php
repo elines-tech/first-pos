@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <div class="sidebar-menu"> 
+        <div class="sidebar-menu">  
             <ul class="menu">
 				<?php
 				$cmpcode=$this->GlobalModel->getCompcode();

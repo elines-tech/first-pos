@@ -804,7 +804,7 @@ progress {
     margin-right: auto;
     padding-left: calc(var(--bs-gutter-x)*.5);
     padding-right: calc(var(--bs-gutter-x)*.5);
-    width: 100%
+    width: 100%;
 }
 
 @media (min-width:576px) {
@@ -4976,7 +4976,7 @@ select,
     align-items: center;
     display: flex;
     flex-wrap: inherit;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -5471,6 +5471,22 @@ select,
     border-radius: 20px;
 }
 
+
+#chart_1.card {
+    border: none;
+    margin-bottom: 2.2rem;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    height: auto;
+}
+
+.chart_1{
+    height:1px;
+    height: auto;
+    width: 100%;
+}
+
+
 .card>.list-group {
     border-bottom: inherit;
     border-top: inherit
@@ -5497,6 +5513,14 @@ footer {
     padding: 1.5rem;
     background-color: #fff;
     height: 60px;
+    position: fixed;   /* Fix the footer at the bottom of the screen */
+    bottom: 0;         /* Align it to the bottom */
+    left: 0;           /* Align it to the left edge */
+    width: 100%;       /* Make it full-width */
+    color: white;      /* Set text color */
+    padding: 10px 0;   /* Padding for spacing */
+    text-align: center; /* Center the text */
+    z-index: 9999;  
 }
 
 header {
@@ -9528,6 +9552,13 @@ header {
 
 .pb-0 {
     padding-bottom: 0 !important
+}
+
+.mb{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 1000; /* Ensures it appears above other elements */
 }
 
 .pb-1 {
@@ -21033,10 +21064,16 @@ body .bi:before {
     color: #002152
 }
 
+
 .btn.btn-light-secondary {
-    background-color: #e6eaee;
-    color: #181e24
+    background-color: #37B181;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
+
+
+
 
 .btn.btn-light-success {
     background-color: #d2ffe8;
@@ -21185,6 +21222,7 @@ body .bi:before {
 .nav-item i,
 .burger-btn i {
     font-size: 16px !important;
+    color: white;
 }
 
 .card.card-statistic .chart-wrapper {
@@ -21906,7 +21944,7 @@ body#login {
     letter-spacing: 0.6px;
     align-items: center;
     border-radius: .5rem;
-    color: #25396f;
+    color: #173D69;
     display: block;
     display: flex;
     font-size: 14px;
@@ -21920,6 +21958,11 @@ body#login {
     color: #7c8db5
 }
 
+.sidebar-wrapper .menu .sidebar-link:hover i,
+.sidebar-wrapper .menu .sidebar-link:hover svg{
+    color: white
+}
+
 .sidebar-wrapper .menu .sidebar-link i:before {
     vertical-align: top
 }
@@ -21929,7 +21972,8 @@ body#login {
 }
 
 .sidebar-wrapper .menu .sidebar-link:hover {
-    background-color: #f0f1f5
+    background-color: #173D69;
+    color: white;
 }
 
 .sidebar-wrapper .menu .sidebar-item {
@@ -21986,8 +22030,12 @@ body#login {
 }
 
 .sidebar-wrapper .menu .submenu .submenu-item.active>a {
-    color: #4180C2;
-    font-weight: 700
+    /*color: #4180C2;*/
+    color: white;
+    background-color: #173D69;
+    font-weight: 700;
+    border-start-start-radius: 20px;
+    border-end-start-radius: 20px;
 }
 
 .sidebar-wrapper .menu .submenu .submenu-item a {
@@ -22012,6 +22060,16 @@ body#login {
 
 .text-right:hover{
     transform: translatex(5px);
+}
+
+
+#view.text-right {
+    text-align: right; /* Reset or override the styles for elements inside #view */
+    transition: none; /* Remove transition */
+}
+
+#view.text-right:hover {
+    transform: none; /* Prevent hover effect for elements inside #view */
 }
 
 
@@ -22086,6 +22144,7 @@ body#login {
 .navbar {
     /*height: 60px;*/
     height: 70px;
+    background-color: #173D69;
 }
 
 .user-name p {
@@ -22671,7 +22730,7 @@ body#login {
 
 #main.layout-navbar {
     padding: 0;
-    transition: margin-left .5s ease-out
+    transition: margin-left .5s ease-out;
 }
 
 #main.layout-horizontal {
