@@ -1,0 +1,10 @@
+Dt --> 17-12-24 02:22:05 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+17-12-24 02:40:56	127.0.0.1	Admin	saidemad	USR24_1 - saidemad Profile is updated.
+17-12-24 02:41:16	127.0.0.1	Admin	saidemad	USR24_1 - saidemad Profile is updated.
+Dt --> 17-12-24 02:41:22 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 17-12-24 02:41:39 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-17 15:16:01	127.0.0.1	Admin	saidemad	PCAT_1 - dsadf product category is added.
+2024-12-17 15:44:45	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is added.
+2024-12-17 16:33:16	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is updated.
+2024-12-17 16:47:19	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is updated.
+2024-12-17 16:58:02	127.0.0.1	Admin	saidemad	PSCT_1 - fsdf product Subcategory is added.

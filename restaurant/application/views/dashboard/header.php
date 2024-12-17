@@ -65,7 +65,7 @@ if (isset($this->session->userdata['logged_in' . $session_key])) {
             cursor: pointer;
             margin: 0 10px;
             line-height: 1;
-            background: #cee8ff;
+            background: white;
             padding: 10px;
             border-radius: 50%;
             position: relative;
@@ -234,15 +234,18 @@ if (isset($this->session->userdata['logged_in' . $session_key])) {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-lg-0">
+                                
                                 <div class="icon" id="bell" title="Stock Notifications">
                                     <span id="lowstockCnt"></span>
                                     <i class="fa fa-bell-o"></i>
                                 </div>
+
                                 <div class="notifications" id="notify-box">
                                     <h2>Stock Alerts - </h2>
                                     <div id="lowstock">
                                     </div>
                                 </div>
+
                             </ul>
                             <div class="dropdown">
                                 <a href="#" data-bs-toggle="dropdown" aria-expanded="false">

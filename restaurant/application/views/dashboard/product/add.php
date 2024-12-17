@@ -6,7 +6,7 @@
 <nav class="navbar navbar-light">
     <div class="container d-block">
         <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last">
+            <div class="col-12 white col-md-6 order-md-1 order-last">
                 <a href="<?php echo base_url(); ?>Product/listrecords"><i class="fa fa-times fa-2x"></i></a>
             </div>
         </div>

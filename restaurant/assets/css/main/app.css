@@ -401,7 +401,12 @@ sup {
 
 a {
     color: var(--bs-link-color);
-    text-decoration: underline
+    text-decoration: underline;
+}
+
+#add_category{
+    font-size: 60px;
+    color: #37B181;
 }
 
 a:hover {
@@ -2828,6 +2833,11 @@ textarea.form-control-lg {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23a1afdf'/%3E%3C/svg%3E")
 }
 
+.bell-color {
+    background-color: red;
+}
+
+
 .form-switch .form-check-input:checked {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E");
     background-position: 100%
@@ -4401,30 +4411,34 @@ tfoot td {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Semi-transparent background */
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 9999;
-  }
-  
-  #status {
+}
+
+#status {
     width: 50px;
     height: 50px;
-    border: 5px solid rgba(0, 0, 0, 0.1); /* Light border color */
-    border-top: 5px solid #3498db; /* Main color */
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    /* Light border color */
+    border-top: 5px solid #3498db;
+    /* Main color */
     border-radius: 50%;
     animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 
 .choices__inner {
@@ -5480,8 +5494,8 @@ select,
     height: auto;
 }
 
-.chart_1{
-    height:1px;
+.chart_1 {
+    height: 1px;
     height: auto;
     width: 100%;
 }
@@ -5513,14 +5527,21 @@ footer {
     padding: 1.5rem;
     background-color: #fff;
     height: 60px;
-    position: fixed;   /* Fix the footer at the bottom of the screen */
-    bottom: 0;         /* Align it to the bottom */
-    left: 0;           /* Align it to the left edge */
-    width: 100%;       /* Make it full-width */
-    color: white;      /* Set text color */
-    padding: 10px 0;   /* Padding for spacing */
-    text-align: center; /* Center the text */
-    z-index: 9999;  
+    position: fixed;
+    /* Fix the footer at the bottom of the screen */
+    bottom: 0;
+    /* Align it to the bottom */
+    left: 0;
+    /* Align it to the left edge */
+    width: 100%;
+    /* Make it full-width */
+    color: white;
+    /* Set text color */
+    padding: 10px 0;
+    /* Padding for spacing */
+    text-align: center;
+    /* Center the text */
+    z-index: 9999;
 }
 
 header {
@@ -5542,12 +5563,14 @@ header {
 }
 
 #maindiv {
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
-    background-color: #f8f9fa;
+    /*box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);*/
+    background-color: transparent;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
+
+
 
 .card-body {
     padding-top: 30px !important;
@@ -9554,11 +9577,12 @@ header {
     padding-bottom: 0 !important
 }
 
-.mb{
+.mb {
     position: sticky;
     top: 0%;
     width: 100%;
-    z-index: 1000; /* Ensures it appears above other elements */
+    z-index: 1000;
+    /* Ensures it appears above other elements */
 }
 
 .pb-1 {
@@ -9714,11 +9738,11 @@ header {
 }
 
 .text-center {
-    text-align: center !important ;
+    text-align: center !important;
     transition: all 0.3s ease;
 }
 
-#textButton:hover{
+#textButton:hover {
     transform: translateX(-5px);
 }
 
@@ -18278,7 +18302,7 @@ header {
     transition: all 0.3s ease;
 }
 
-.text-left:hover{
+.text-left:hover {
     transform: translatex(-5px);
 }
 
@@ -21072,6 +21096,28 @@ body .bi:before {
     border-radius: 10px;
 }
 
+#closeCategoryBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#closeSubCategoryBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#closeView.btn.btn-light-secondary{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
 
 
 
@@ -21097,7 +21143,7 @@ body .bi:before {
 
 
 .btn-primary {
-    background-color: #37B181;
+    background-color: red;
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
     color: #ffffff;
     transition: all 0.3s ease;
@@ -21111,6 +21157,46 @@ body .bi:before {
   transform: scale(1.05);*/
     background-color: #445D83;
     transform: translateY(5px);
+}
+
+
+
+#saveCategoryBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveCategoryBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#saveSubCategoryBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveSubCategoryBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
 }
 
 
@@ -21131,6 +21217,78 @@ body .bi:before {
     background-color: #445D83;
     transform: translateY(5px);
 }
+
+
+
+#view.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: white;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#view.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+#edit.btn-info {
+    background-color: #0dcaf0;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: white;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#edit.btn-info:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+#delete.btn-danger {
+    background-color: #dc3545;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: white;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#delete.btn-danger:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+.floating-action-button {
+    position: fixed; /* Fixes the button to a position on the screen */
+    bottom: 70px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 60px; /* Set width */
+    height: 60px; /* Set height */
+    background-color: transparent; /* Primary color, you can change this */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensures it appears above other content */
+}
+
+
 
 .btn.btn-danger,
 .btn.btn-info,
@@ -21237,7 +21395,7 @@ body .bi:before {
     border: none;
 }
 
-.card .card-header .h4, 
+.card .card-header .h4,
 .card .card-header h4 {
     font-size: 1.2rem;
     font-weight: 700
@@ -21268,7 +21426,7 @@ body#login {
     color: black;
     background-color: white;
     padding: 15px;
-  }
+}
 
 .card .card-title {
     text-align: center;
@@ -21536,7 +21694,7 @@ body#login {
     content: " *"
 }
 
-.form-group.is-invalid * {    
+.form-group.is-invalid * {
     border-color: #dc3545;
     color: #dc3545;
     text-align: left;
@@ -21959,7 +22117,7 @@ body#login {
 }
 
 .sidebar-wrapper .menu .sidebar-link:hover i,
-.sidebar-wrapper .menu .sidebar-link:hover svg{
+.sidebar-wrapper .menu .sidebar-link:hover svg {
     color: white
 }
 
@@ -22058,18 +22216,21 @@ body#login {
     transition: all 0.3s ease;
 }
 
-.text-right:hover{
+.text-right:hover {
     transform: translatex(5px);
 }
 
 
 #view.text-right {
-    text-align: right; /* Reset or override the styles for elements inside #view */
-    transition: none; /* Remove transition */
+    text-align: right;
+    /* Reset or override the styles for elements inside #view */
+    transition: none;
+    /* Remove transition */
 }
 
 #view.text-right:hover {
-    transform: none; /* Prevent hover effect for elements inside #view */
+    transform: none;
+    /* Prevent hover effect for elements inside #view */
 }
 
 
