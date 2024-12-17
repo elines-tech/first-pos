@@ -58,16 +58,16 @@ class Product extends CI_Controller
             foreach ($Records->result() as $row) {
                 $actionHtml = '';
                 if ($this->rights != '' && $this->rights['view'] == 1) {
-                    $actionHtml .= '<a href="' . base_url() . 'Product/view/' . $row->code . '" class="btn btn-primary btn-sm m-1"><i id="edt" title="View" class="fa fa-eye cursor_pointer" ></i></a>';
+                    $actionHtml .= '<a href="' . base_url() . 'Product/view/' . $row->code . '" id="view" class="btn btn-primary btn-sm m-1"><i id="edt" title="View" class="fa fa-eye cursor_pointer" ></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['update'] == 1) {
-                    $actionHtml .= '<a href="' . base_url() . 'Product/edit/' . $row->code . '" class="btn btn-info btn-sm m-1"><i id="edt" title="Edit" class="fa fa-pencil cursor_pointer"></i></a>';
+                    $actionHtml .= '<a href="' . base_url() . 'Product/edit/' . $row->code . '" id="edit" class="btn btn-info btn-sm m-1"><i id="edt" title="Edit" class="fa fa-pencil cursor_pointer"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['delete'] == 1) {
-                    $actionHtml .= '<a class="btn btn-sm btn-danger delete_id m-1" id="' . $row->code . '" ><i title="Delete" class="fa fa-trash cursor_pointer"></i></a>';
+                    $actionHtml .= '<a id="delete" class="btn btn-sm btn-danger delete_id m-1" id="' . $row->code . '" ><i title="Delete" class="fa fa-trash cursor_pointer"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['insert'] == 1) {
-                    $actionHtml .= '<a href="' . base_url() . 'Product/extras/' . $row->code . '" class="btn btn-success btn-sm m-1"><i id="edt" title="Product Extras" class="fa fa-plus cursor_pointer" ></i></a>';
+                    $actionHtml .= '<a href="' . base_url() . 'Product/extras/' . $row->code . '" id="customize" class="btn btn-success btn-sm m-1"><i id="edt" title="Product Extras" class="fa fa-plus cursor_pointer" ></i></a>';
                 }
                 // <a href="' . base_url() . 'Product/customizeaddon/' . $row->code . '" class="btn btn-success btn-sm m-1"><i id="edt" title="Addons" class="fa fa-plus cursor_pointer" ></i></a>--></div>';
 

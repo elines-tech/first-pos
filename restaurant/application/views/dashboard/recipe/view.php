@@ -6,7 +6,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>recipe/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>recipe/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 		</div>
 	</div>
 </nav>
@@ -30,11 +30,11 @@
 										<div class="row">
 											<div class="col-md-12 col-12">
 												<div class="row">
-													<div class="col-md-6 col-12">
+													<div class="col-md-12 text-center col-12">
 														<div class="form-group">
 															<label for="product-name" class="form-label">Product</label>
 															<input type="hidden" class="form-control" id="recipeCode" name="recipeCode" value="<?= $br->code ?>">
-															<select class="form-control" name="productCode" id="productCode" disabled>
+															<select class="form-control text-center" name="productCode" id="productCode" disabled>
 																<option value="">Select</option>
 																<?php if ($product) {
 																	foreach ($product->result() as $pr) {

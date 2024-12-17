@@ -1,14 +1,14 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>recipe/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>recipe/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 		</div>
 	</div>
 </nav>
 
 
 <div class="container">
-	<section id="multiple-column-form" class="mt-5">
+	<section id="multiple-column-form" class="mt-5 mb-5">
 		<div class="row match-height">
 			<div class="col-12">
 				<div class="card">
@@ -25,7 +25,7 @@
 										<div class="row">
 											<div class="col-md-12 col-12">
 												<div class="row">
-													<div class="col-md-6 col-12">
+													<div class="col-md-12 text-center col-12">
 														<div class="form-group mandatory">
 															<label for="product-name" class="form-label">Product :</label>
 															<input type="hidden" class="form-control" id="recipeCode" name="recipeCode" value="<?= $br->code ?>">
@@ -164,7 +164,7 @@
 																		<input type="checkbox" style="width:25px; height:25px;" class="" name="isCustomizable0" id="isCustomizable0">
 																	</td>
 																	<td>
-																		<a href="#" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>
+																		<a id="customize" href="#" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>
 																	</td>
 																</tr>
 															</tbody>
@@ -180,9 +180,9 @@
 												<div class="row">
 													<div class="col-12 d-flex justify-content-end">
 														<?php if ($updateRights == 1) { ?>
-															<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveRecipeBtn">Update</button>
+															<button type="submit" class="btn btn-success" id="saveRecipeBtn">Update</button>
 														<?php } ?>
-														<button type="button" id="cancelRecipeBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+														<button type="button" id="cancelRecipeBtn" class="btn btn-light-secondary">Reset</button>
 													</div>
 												</div>
 											</div>

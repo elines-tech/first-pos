@@ -78,13 +78,13 @@ class Recipe extends CI_Controller
 				}
 				$actionHtml = '';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml .= '<a href="' . base_url() . 'recipe/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a href="' . base_url() . 'recipe/view/' . $row->code . '" id="view" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a href="' . base_url() . 'recipe/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a href="' . base_url() . 'recipe/edit/' . $row->code . '" id="edit" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-danger btn-sm cursor_pointer delete_recipe m-1" id="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a id="delete" class="btn btn-danger btn-sm cursor_pointer delete_recipe m-1" id="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
 				}
 
 				$data[] = array(

@@ -190,6 +190,10 @@ screen and (-ms-high-contrast:active) {
     --bs-highlight-bg: #fcf8e3
 }
 
+.text-green{
+    color: var(--bs-orange);
+}
+
 *,
 :after,
 :before {
@@ -402,6 +406,10 @@ sup {
 a {
     color: var(--bs-link-color);
     text-decoration: underline;
+}
+
+#exitButton{
+    color:white
 }
 
 #add_category{
@@ -9749,7 +9757,7 @@ header {
 
 .form-control {
     border-radius: 15px;
-    padding: 20px;
+    /*padding-top: 20px;*/
     border-color: #E2E8EE;
     color: black;
     background-color: white;
@@ -21111,6 +21119,39 @@ body .bi:before {
     border-radius: 10px;
 }
 
+
+#cancelProductExtras.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelProductExtras.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+#cancelRecipeBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelRecipeBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
 #closeView.btn.btn-light-secondary{
     background-color: red;
     color: white;
@@ -21143,7 +21184,7 @@ body .bi:before {
 
 
 .btn-primary {
-    background-color: red;
+    background-color: #37B181;
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
     color: #ffffff;
     transition: all 0.3s ease;
@@ -21173,6 +21214,64 @@ body .bi:before {
 
 
 #saveCategoryBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+#saveCategoryBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveCategoryBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+#saveProductExtras.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveProductExtras.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#saveRecipeBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveRecipeBtn.btn-success:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/
@@ -21231,6 +21330,44 @@ body .bi:before {
 
 
 #view.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+
+#customize.btn-success {
+    background-color: orange;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: white;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#customize.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+
+#view.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: white;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#view.btn-primary:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/

@@ -19,7 +19,7 @@
             <div id="maindiv" class="container">
                 <!--<div class="row">-->
                     <!--<div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">-->
-                        <div class="floating-action-button">
+                        <div class="floating-action-button"> 
                             <a id="add_category" href="<?php echo base_url(); ?>Product/add">
                                 <i class="fa fa-plus-circle"></i></a>
                             </div>

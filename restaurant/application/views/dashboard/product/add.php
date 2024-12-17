@@ -6,14 +6,14 @@
 <nav class="navbar navbar-light">
     <div class="container d-block">
         <div class="row">
-            <div class="col-12 white col-md-6 order-md-1 order-last">
-                <a href="<?php echo base_url(); ?>Product/listrecords"><i class="fa fa-times fa-2x"></i></a>
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <a href="<?php echo base_url(); ?>Product/listrecords"><i id='exitButton' class="fa fa-times fa-2x"></i></a>
             </div>
         </div>
     </div>
 </nav>
 <div class="container">
-    <section id="multiple-column-form" class="mt-5">
+    <section id="multiple-column-form" class="mt-5 mb-5">
         <div class="row match-height">
             <div class="col-12">
                 <div class="card">
@@ -33,63 +33,79 @@
                                 <div class="row">
                                     <div class="col-md-7 col-12">
                                         <div class="row">
-                                            <div class="col-md-12 col-12">
-                                                <div class="form-group mandatory">
-                                                    <label for="product-english-name" class="form-label">English Name</label>
-                                                    <input type="text" value="<?= set_value('product-english-name') ?>" id="product-english-name" class="form-control" placeholder="English Name" name="product-english-name" data-parsley-required="true">
-                                                </div>
-                                                <?php echo form_error('product-english-name', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div>
-                                            <div class="col-md-12 col-12">
-                                                <div class="form-group">
-                                                    <label for="desc-column" class="form-label">English Description</label>
-                                                    <textarea class="form-control" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='1000' data-parsley-minlength="10" data-parsley-minlength-message="You need to enter at least 10 characters" data-parsley-trigger="change"><?= set_value('product-english-description') ?></textarea>
-                                                </div>
-                                                <?php echo form_error('product-english-description', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div>
-                                            <div class="col-md-12 col-12">
+
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="product-arabic-name" class="form-label">Arabic Name</label>
                                                     <input type="text" id="product-arabic-name" value="<?= set_value('product-arabic-name') ?>" class="form-control" placeholder="Arabic Name" name="product-arabic-name" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('product-arabic-name', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-12 col-12">
-                                                <div class="form-group">
-                                                    <label for="desc-column" class="form-label">Arabic Description</label>
-                                                    <textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='1000' data-parsley-minlength="10" data-parsley-minlength-message="You need to enter at least 10 characters" data-parsley-trigger="change"><?= set_value('product-arabic-description') ?></textarea>
+
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="product-english-name" class="form-label">English Name</label>
+                                                    <input type="text" value="<?= set_value('product-english-name') ?>" id="product-english-name" class="form-control" placeholder="English Name" name="product-english-name" data-parsley-required="true">
                                                 </div>
-                                                <?php echo form_error('product-arabic-description', '<span class="error text-danger text-right">', '</span>'); ?>
+                                                <?php echo form_error('product-english-name', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-12 col-12">
+
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group">
                                                     <label for="product-hindi-name" class="form-label">Hindi</label>
                                                     <input type="text" id="product-hindi-name" class="form-control" value="<?= set_value('product-hindi-name') ?>" placeholder="Hindi Name" name="product-hindi-name">
                                                 </div>
                                                 <?php echo form_error('product-hindi-name', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-12 col-12">
+
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="product-urdu-name" class="form-label">Urdu</label>
+                                                    <input type="text" id="product-urdu-name" class="form-control" value="<?= set_value('product-urdu-name') ?>" placeholder="Urdu Name" name="product-urdu-name">
+                                                </div>
+                                                <?php echo form_error('product-urdu-name', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
+
+
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="desc-column" class="form-label">Arabic Description</label>
+                                                    <textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='1000' data-parsley-minlength="10" data-parsley-minlength-message="You need to enter at least 10 characters" data-parsley-trigger="change"><?= set_value('product-arabic-description') ?></textarea>
+                                                </div>
+                                                <?php echo form_error('product-arabic-description', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
+
+
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="desc-column" class="form-label">English Description</label>
+                                                    <textarea class="form-control" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='1000' data-parsley-minlength="10" data-parsley-minlength-message="You need to enter at least 10 characters" data-parsley-trigger="change"><?= set_value('product-english-description') ?></textarea>
+                                                </div>
+                                                <?php echo form_error('product-english-description', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
+
+
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group">
                                                     <label for="desc-column" class="form-label">Hindi Description</label>
                                                     <textarea class="form-control" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='1000' data-parsley-minlength="10" data-parsley-minlength-message="You need to enter at least 10 characters" data-parsley-trigger="change"><?= set_value('product-hindi-description') ?></textarea>
                                                 </div>
                                                 <?php echo form_error('product-hindi-description', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-12 col-12">
-                                                <div class="form-group">
-                                                    <label for="product-urdu-name" class="form-label">Urdu</label>
-                                                    <input type="text" id="product-urdu-name" class="form-control" value="<?= set_value('product-urdu-name') ?>" placeholder="Urdu Name" name="product-urdu-name" >
-                                                </div>
-                                                <?php echo form_error('product-urdu-name', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div>
-                                            <div class="col-md-12 col-12">
+
+
+
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group">
                                                     <label for="desc-column" class="form-label">Urdu Description</label>
                                                     <textarea class="form-control" placeholder="Product Urdu Description" id="product-urdu-description" name="product-urdu-description" maxlength='1000' data-parsley-minlength="10" data-parsley-minlength-message="You need to enter at least 10 characters" data-parsley-trigger="change"><?= set_value('product-urdu-description') ?></textarea>
                                                 </div>
                                                 <?php echo form_error('product-urdu-description', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
+
                                         </div>
+
+
                                         <div class="row">
                                             <div class="col-md-6 col-6 mb-3">
                                                 <div class="form-group mandatory">
@@ -104,23 +120,42 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-6 mb-3">
-                                            <div class="form-check mandatory">
-                                                <div class="checkbox">
-                                                    <label for="checkbox1">Status</label>
-                                                    <input type="checkbox" id="isActive" class="form-check-input" name="isActive">
+
+
+                                        <div class="col-md-4 col-12 mb-3">
+
+                                            <div class="d-flex align-items-center">
+
+                                                <div class="form-check mandatory">
+                                                    <div class="checkbox">
+                                                        <label for="checkbox1">Status</label>
+                                                        <input type="checkbox" id="isActive" class="form-check-input" name="isActive">
+                                                    </div>
                                                 </div>
+
+                                                <div class="ms-5 form-check">
+                                                    <div class="checkbox">
+                                                        <label for="checkbox2">Is it an Addon?</label>
+                                                        <input type="checkbox" id="isAddOnProduct" class="form-check-input" name="isAddOnProduct">
+                                                    </div>
+                                                </div>
+
                                             </div>
+
                                         </div>
-                                        <div class="col-md-4 col-6 mb-3">
+
+                                        <!--<div class="col-md-4 col-6 mb-3">
                                             <div class="form-check">
                                                 <div class="checkbox">
                                                     <label for="checkbox2">Is it an Addon?</label>
                                                     <input type="checkbox" id="isAddOnProduct" class="form-check-input" name="isAddOnProduct">
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
+
                                     </div>
+
+
                                     <div class="col-md-5 col-12">
                                         <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                             <div class="card card-custom gutter-b bg-white border-0">
@@ -153,6 +188,8 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
+                                        
                                         <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                             <div class="card card-custom gutter-b bg-white border-0">
                                                 <div class="card-body">
@@ -189,26 +226,28 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group m-3 mt-2 row align-items-center mandatory" id="costingShow">
-                                                        <div class="form-group m-3 row">
-                                                            <div class=" col-md-4">
-                                                                <label class="col-form-label lng">Branches</label>
-                                                            </div>
-                                                            <div class="col-md-8">
-                                                                <select class="form-select select2" name="branches[]" multiple="multiple" id="branches">
-                                                                </select>
-                                                            </div>
+                                                        <!--<div class="form-group m-3 row">-->
+                                                        <div class=" col-md-4">
+                                                            <label class="col-form-label lng">Branches</label>
                                                         </div>
+                                                        <div class="col-md-8">
+                                                            <select class="form-select select2" name="branches[]" multiple="multiple" id="branches">
+                                                            </select>
+                                                        </div>
+                                                        <!--</div>-->
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <?php if ($insertRights == 1) { ?>
-                                                <button type="submit" class="btn btn-success white me-1 mb-1 sub_1">Save</button>
+                                                <button id="saveCategoryBtn" type="submit" class="btn btn-success">Save</button>
                                             <?php } ?>
-                                            <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                            <button id="closeCategoryBtn" type="reset" class="btn btn-light-secondary">Reset</button>
                                         </div>
                                     </div>
                             </form>
@@ -330,7 +369,7 @@
                  });
              }
          });*/
-    }  
+    }
     google.setOnLoadCallback(onLoad);
     $(document).ready(function() {
         $("#productsubcategory").select2({

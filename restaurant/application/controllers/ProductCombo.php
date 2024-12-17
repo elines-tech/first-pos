@@ -75,13 +75,13 @@ class ProductCombo extends CI_Controller
                 }
                 $actionHtml = '';
                 if ($this->rights != '' && $this->rights['view'] == 1) {
-                    $actionHtml .= '<a class="view_group btn btn-primary btn-sm m-1" data-seq="' . $row->code . '"><i id="edt" title="View" class="fa fa-eye cursor_pointer"></i></a>';
+                    $actionHtml .= '<a id="view" class="view_group btn btn-primary btn-sm m-1" data-seq="' . $row->code . '"><i id="edt" title="View" class="fa fa-eye cursor_pointer"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['update'] == 1) {
-                    $actionHtml .= '<a class="btn btn-info btn-sm m-1" href="' . base_url() . 'ProductCombo/editProductCombo/' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil cursor_pointer"></i></a>';
+                    $actionHtml .= '<a id="edit" class="btn btn-info btn-sm m-1" href="' . base_url() . 'ProductCombo/editProductCombo/' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil cursor_pointer"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['delete'] == 1) {
-                    $actionHtml .= '<a class="btn btn-danger btn-sm  delete_group m-1" data-seq="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash cursor_pointer"></i></a>';
+                    $actionHtml .= '<a id="delete" class="btn btn-danger btn-sm  delete_group m-1" data-seq="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash cursor_pointer"></i></a>';
                 }
                 $data[] = array(
                     $srno,

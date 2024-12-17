@@ -8,3 +8,14 @@ Dt --> 17-12-24 02:41:39 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> 
 2024-12-17 16:33:16	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is updated.
 2024-12-17 16:47:19	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is updated.
 2024-12-17 16:58:02	127.0.0.1	Admin	saidemad	PSCT_1 - fsdf product Subcategory is added.
+2024-12-17 19:17:02	127.0.0.1	Admin	saidemad	TAC_1 - dsadas Tax Rate is updated.
+2024-12-17 19:17:11	127.0.0.1	Admin	saidemad	TAG_1 - dasdas Tax Group is added.
+2024-12-17 19:18:15	127.0.0.1	Admin	saidemad	TAG_1 - dasdas Tax Group is updated.
+17-12-24 07:19:08	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is added.
+2024-12-17 20:19:35	127.0.0.1	Admin	saidemad	UOM_1 - fsdf unit is added.
+2024-12-17 20:20:29	127.0.0.1	Admin	saidemad	ITEM24_1 - yrtyr item is added.
+2024-12-17 20:20:53	127.0.0.1	Admin	saidemad	 deleted Product Extras
+17-12-24 08:21:10	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is updated.
+17-12-24 08:27:44	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is updated.
+2024-12-17 20:27:59	127.0.0.1	Admin	saidemad	REC24_1 - PRO24_1 recipe is added.
+2024-12-17 21:11:17	127.0.0.1	Admin	saidemad	PC_1 - jhgjhgProduct Combo is updated.

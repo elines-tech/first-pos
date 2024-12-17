@@ -3,7 +3,7 @@
 	   <?php if ($productData) {
              foreach ($productData->result() as $row) {  ?>
         <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Product/edit/<?= $row->code ?>"><i class="fa fa-times fa-2x"></i></a></div>
+            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Product/listrecords/<?= $row->code ?>"><i id='exitButton' class="fa fa-times fa-2x"></i></a></div>
         </div>
 		 <?php }
          } ?>
@@ -157,7 +157,7 @@
                                                 <input type="text" class="form-control" name="itemCustPrice0" id="itemCustPrice0">
                                             </td>
                                             <td>
-                                                <a href="#" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>
+                                                <a href="#" id="customize" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -166,9 +166,9 @@
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-end">
 									<?php if($insertRights==1){ ?>
-                                        <button type="submit" class="btn btn-success white me-2 mb-1 sub_1" id="saveProductExtras">Save</button>
+                                        <button type="submit" class="btn btn-success" id="saveProductExtras">Save</button> 
 									<?php } ?>
-                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="cancelProductExtras">Reset</button>
+                                        <button type="reset" class="btn btn-light-secondary" id="cancelProductExtras">Reset</button>
                                     </div>
                                 </div>
                             </form>

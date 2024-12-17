@@ -20,7 +20,10 @@
             <div id="maindiv" class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                        <h2><a href="#generl_modal" data-bs-toggle="modal" data-bs-target="#generl_modal"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+                        <div class="floating-action-button">
+                            <a id="add_category" href="#generl_modal" data-bs-toggle="modal" data-bs-target="#generl_modal">
+                                <i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -529,13 +532,13 @@
                         var obj = JSON.parse(response);
                         if (obj.status) {
                             toastr.success(obj.message, 'Product Combo', {
-								"progressBar": true,
-								 onHidden: function() {
-									window.location.reload();
-								}
-							});
+                                "progressBar": true,
+                                onHidden: function() {
+                                    window.location.reload();
+                                }
+                            });
                             //loadProductComboTable();
-                            
+
                         } else {
                             toastr.error(obj.message, 'Product Combo', {
                                 "progressBar": true
@@ -614,9 +617,9 @@
                     if (obj.status) {
                         toastr.success(obj.message, 'Product Combo', {
                             "progressBar": true,
-							 onHidden: function() {
-								window.location.reload();
-							}
+                            onHidden: function() {
+                                window.location.reload();
+                            }
                         });
                     } else {
                         toastr.error(obj.message, 'Product Combo', {
@@ -733,7 +736,7 @@
                 toastr.error('Product already exists..Please select another..', 'Product Combo', {
                     "progressBar": true
                 });
-				$("#pro_name" + id).val(null).trigger('change.select2');
+                $("#pro_name" + id).val(null).trigger('change.select2');
                 $('#pr_price' + id).val('');
                 $('#pro_name' + id).focus();
                 $('#productComboAddForm').parsley().destroy();

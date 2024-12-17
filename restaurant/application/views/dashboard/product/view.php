@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
     <div class="container d-block">
         <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Product/listrecords"><i class="fa fa-times fa-2x"></i></a></div>
+            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Product/listrecords"><i id='exitButton' class="fa fa-times fa-2x"></i></a></div>
 
         </div>
     </div>
@@ -11,7 +11,7 @@
 <div class="container">
 
     <!-- // Basic multiple Column Form section start -->
-    <section id="multiple-column-form" class="mt-5">
+    <section id="multiple-column-form" class="mt-5 mb-5">
         <div class="row match-height">
             <div class="col-12">
                 <div class="card">
@@ -24,59 +24,75 @@
                             <div class="row">
                                 <div class="col-md-7 col-12">
                                     <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group mandatory">
-                                                <label for="product-english-name" class="form-label">English Name</label>
-                                                <input type="text" id="product-english-name" class="form-control" placeholder="Product Name" name="product-english-name" data-parsley-required="true" value="<?= $productData[0]['productEngName'] ?>">
-                                            </div>
-                                        </div>
-										 <div class="col-md-12 col-12">
-											<div class="form-group">
-												<label for="desc-column" class="form-label">English Description</label>
-												<textarea class="form-control" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='2000' readonly><?= $productData[0]['productEngDesc'] ?></textarea>
-											</div>
-										</div>
-                                        <div class="col-md-12 col-12">
+
+
+                                        <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
                                                 <label for="product-arabic-name" class="form-label">Arabic Name</label>
                                                 <input type="text" id="product-arabic-name" class="form-control" placeholder="Arabic Name" name="product-arabic-name" readonly value="<?= $productData[0]['productArbName'] ?>">
                                             </div>
                                         </div>
-										
-										<div class="col-md-12 col-12">
-											<div class="form-group">
-												<label for="desc-column" class="form-label">Arabic Description</label>
-												<textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='2000' readonly><?= $productData[0]['productArbDesc'] ?></textarea>
-											</div>
-										</div>
-                                        <div class="col-md-12 col-12">
+
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group mandatory">
+                                                <label for="product-english-name" class="form-label">English Name</label>
+                                                <input type="text" id="product-english-name" class="form-control" placeholder="Product Name" name="product-english-name" data-parsley-required="true" value="<?= $productData[0]['productEngName'] ?>">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
                                                 <label for="product-hindi-name" class="form-label">Hindi</label>
                                                 <input type="text" id="product-hindi-name" class="form-control" placeholder="Hindi Name" name="product-hindi-name" readonly value="<?= $productData[0]['productHinName'] ?>">
                                             </div>
                                         </div>
-										 
-										<div class="col-md-12 col-12">
-											<div class="form-group">
-												<label for="desc-column" class="form-label">Hindi Description</label>
-												<textarea class="form-control" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='2000' readonly><?= $productData[0]['productHinDesc'] ?></textarea>
-											</div>
-										</div>
-                                        <div class="col-md-12 col-12">
+
+
+                                        <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
                                                 <label for="product-urdu-name" class="form-label">Urdu</label>
                                                 <input type="text" id="product-urdu-name" class="form-control" placeholder="Urdu Name" name="product-urdu-name" readonly value="<?= $productData[0]['productUrduName'] ?>">
                                             </div>
                                         </div>
-										
-										<div class="col-md-12 col-12">
-											<div class="form-group">
-												<label for="desc-column" class="form-label">Urdu Description</label>
-												<textarea class="form-control" placeholder="Product Urdu Description" id="product-urdu-description" name="product-urdu-description" maxlength='2000' readonly><?= $productData[0]['productUrduDesc'] ?></textarea>
-											</div>
-										</div>
+
+
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="desc-column" class="form-label">Arabic Description</label>
+                                                <textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='2000' readonly><?= $productData[0]['productArbDesc'] ?></textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="desc-column" class="form-label">English Description</label>
+                                                <textarea class="form-control" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='2000' readonly><?= $productData[0]['productEngDesc'] ?></textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="desc-column" class="form-label">Hindi Description</label>
+                                                <textarea class="form-control" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='2000' readonly><?= $productData[0]['productHinDesc'] ?></textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="desc-column" class="form-label">Urdu Description</label>
+                                                <textarea class="form-control" placeholder="Product Urdu Description" id="product-urdu-description" name="product-urdu-description" maxlength='2000' readonly><?= $productData[0]['productUrduDesc'] ?></textarea>
+                                            </div>
+                                        </div>
                                     </div>
-                                  
+
+
                                     <div class="row">
                                         <div class="col-md-6 col-6 mb-3">
                                             <div class="form-group">
@@ -92,21 +108,45 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-12 mb-3">
-                                        <div class="form-check mandatory">
-                                            <div class="checkbox">
-                                                <label for="checkbox1">Status</label>
-                                                <?php if ($productData[0]['isActive'] == 1) {
-                                                    echo " <span class='badge bg-success mt-2'>Active</span>";
-                                                } else {
-                                                    echo "<span class='badge bg-danger mt-2'>Inactive</span>";
-                                                }
 
-                                                ?>
+
+                                    <div class="col-md-4 col-12 mb-3">
+
+                                        <div class="d-flex align-items-center">
+
+
+                                            <div class="form-check mandatory">
+                                                <div class="checkbox">
+                                                    <label for="checkbox1">Status</label>
+                                                    <?php if ($productData[0]['isActive'] == 1) {
+                                                        echo " <span class='badge bg-success mt-2'>Active</span>";
+                                                    } else {
+                                                        echo "<span class='badge bg-danger mt-2'>Inactive</span>";
+                                                    }
+
+                                                    ?>
+                                                </div>
                                             </div>
+
+
+                                            <div class="form-check">
+                                                <div class="checkbox">
+                                                    <label for="checkbox2">Is it an Addon?</label>
+                                                    <?php if ($productData[0]['isAddOn'] == 1) {
+                                                        echo " <span class='badge bg-success mt-2'>Active</span>";
+                                                    } else {
+                                                        echo "<span class='badge bg-danger mt-2'>Inactive</span>";
+                                                    }
+
+                                                    ?>
+                                                </div>
+                                            </div>
+
                                         </div>
+
                                     </div>
-                                    <div class="col-md-4 col-6 mb-3">
+
+                                    <!--<div class="col-md-4 col-6 mb-3">
                                         <div class="form-check">
                                             <div class="checkbox">
                                                 <label for="checkbox2">Is it an Addon?</label>
@@ -119,7 +159,9 @@
                                                 ?>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
+
+                                    
                                 </div>
                                 <div class="col-md-5 col-12">
                                     <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
@@ -262,15 +304,15 @@
 
                                                             if ($branchdata) {
                                                                 foreach ($branchdata->result() as $branch) {
-																	if($inActiveBranches!=""){
-																		if (in_array($branch->code, $inActiveBranches)) {
-																			echo '<option value="' . $branch->code . '" selected>' . $branch->branchName . '</option>';
-																		} else {
-																			echo '<option value="' . $branch->code . '">' . $branch->branchName . '</option>';
-																		}
-																	}else{
-																		echo '<option value="' . $branch->code . '">' . $branch->branchName . '</option>';
-																	}
+                                                                    if ($inActiveBranches != "") {
+                                                                        if (in_array($branch->code, $inActiveBranches)) {
+                                                                            echo '<option value="' . $branch->code . '" selected>' . $branch->branchName . '</option>';
+                                                                        } else {
+                                                                            echo '<option value="' . $branch->code . '">' . $branch->branchName . '</option>';
+                                                                        }
+                                                                    } else {
+                                                                        echo '<option value="' . $branch->code . '">' . $branch->branchName . '</option>';
+                                                                    }
                                                                 }
                                                             } ?>
                                                         </select>
