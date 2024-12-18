@@ -19,7 +19,10 @@
             <div id="maindiv" class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                        <h2><a href="#generl_modal" data-bs-toggle="modal" data-bs-target="#generl_modal"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+                        <div class="floating-action-button">
+                            <a id="add_category" href="#generl_modal" data-bs-toggle="modal" data-bs-target="#generl_modal">
+                                <i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,135 +58,135 @@
         </div>
     </div>
 </div>
+
+
 <div class="modal fade text-left" id="generl_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel130" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-        <div class="modal-content">
+        <div class="modal-content mb-5">
             <div class="modal-header">
                 <h5>Add Item</h5>
             </div>
             <div class="modal-body">
                 <form id="itemForm" class="form" data-parsley-validate>
                     <div class="row">
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row mandatory">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Name</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="itemName" class="form-control" placeholder="Enter Name" name="itemName" required data-parsley-required-message="Item Name is required">
-                                </div>
+
+
+                        <div class="row col-md-12 mb-3 col-12">
+
+                            <div class="form-group col-md-6 col-12 mandatory">
+                                <label for="category-name-column" class="form-label text-left">Item English Name</label>
+                                <input type="text" id="itemName" class="form-control" placeholder="Enter Name" name="itemName" required data-parsley-required-message="Item Name is required">
+                            </div>
+
+                            <div class="form-group col-md-6 col-12 mandatory">
+                                <label for="category-name-column" class="form-label text-left">Category</label>
+                                <select class="form-control" style="width:100%" name="category" id="category" required data-parsley-required-message="Category is required">
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row col-md-12 mb-3 col-12">
+
+                            <div class="form-group col-md-6 col-12 mandatory">
+                                <label for="category-name-column" class="form-label text-left">Storage Unit</label>
+                                <select class="form-control" name="itemUnit" style="width:100%" id="itemUnit" required data-parsley-required-message="Storage Unit is required">
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6 col-12 mandatory">
+                                <label for="category-name-column" class="form-label text-left">Ingredient Unit</label>
+                                <select class="form-control" name="ingredientUnit" style="width:100%" id="ingredientUnit" required data-parsley-required-message="Ingredient Unit is required">
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row col-md-12 mb-3 col-12">
+
+                            <div class="form-group col-md-6 col-12 mandatory">
+                                <label for="category-name-column" class="form-label text-left">Ingredient Factor</label>
+                                <input type="text" id="ingredientFactor" class="form-control" placeholder="Enter Ingredient Factor" name="ingredientFactor" required data-parsley-required-message="Ingredient factor is required" onkeypress="return isNumber(event)">
+                            </div>
+
+                            <div class="form-group col-md-6 col-12 mandatory">
+                                <label for="category-name-column" class="form-label text-left">Item Price</label>
+                                <input type="text" id="itemPrice" class="form-control" placeholder="Enter Item Price" name="itemPrice" required data-parsley-required-message="Item Price is required" onkeypress="return isNumber(event)">
+                            </div>
+
+                        </div>
+
+
+                        <div class="row col-md-12 mb-3 col-12">
+
+                            <div class="form-group col-md-6 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item Arabic Name</label>
+                                <input type="text" id="itemArbName" class="form-control" name="itemArbName" value="">
+                            </div>
+
+                            <div class="form-group col-md-6 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item Hindi Name</label>
+                                <input type="text" id="itemHinName" class="form-control" name="itemHinName" value="">
+                            </div>
+
+                        </div>
+
+                        <div class="row col-md-12 mb-3 col-12">
+                            <div class="form-group col-md-12 mb-3 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item Urdu Name</label>
+                                <input type="text" id="itemUrduName" class="form-control" name="itemUrduName" value="">
                             </div>
                         </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row mandatory">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Category</label>
-                                <div class="col-md-8">
-                                    <select class="form-control" style="width:100%" name="category" id="category" required data-parsley-required-message="Category is required">
-                                    </select>
-                                </div>
+
+
+                        <div class="row col-md-12 mb-3 col-12">
+
+                            <div class="form-group col-md-6 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item Arabic Description</label>
+                                <textarea rows="4" id="itemArbDesc" class="form-control" name="itemArbDesc"></textarea>
                             </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row mandatory">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Storage Unit</label>
-                                <div class="col-md-8">
-                                    <select class="form-control" name="itemUnit" style="width:100%" id="itemUnit" required data-parsley-required-message="Storage Unit is required">
-                                    </select>
-                                </div>
+
+
+                            <div class="form-group col-md-6 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item English Description</label>
+                                <textarea type="text" id="itemDesc" class="form-control" rows="4" name="itemDesc"></textarea>
                             </div>
+
                         </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row mandatory">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Ingredient Unit</label>
-                                <div class="col-md-8">
-                                    <select class="form-control" name="ingredientUnit" style="width:100%" id="ingredientUnit" required data-parsley-required-message="Ingredient Unit is required">
-                                    </select>
-                                </div>
+
+
+                        <div class="row col-md-12 mb-3 col-12">
+
+                            <div class="form-group col-md-6 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item Hindi Description</label>
+                                <textarea rows="4" type="text" id="itemHinDesc" class="form-control" name="itemHinDesc"></textarea>
                             </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row mandatory">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Ingredient Factor</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="ingredientFactor" class="form-control" placeholder="Enter Ingredient Factor" name="ingredientFactor" required data-parsley-required-message="Ingredient factor is required" onkeypress="return isNumber(event)">
-                                </div>
+
+
+                            <div class="form-group col-md-6 col-12">
+                                <label for="category-name-column" class="form-label text-left">Item Urdu Description</label>
+                                <textarea rows="4" type="text" id="itemUrduDesc" class="form-control" name="itemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
                             </div>
+
                         </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row mandatory">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Price</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="itemPrice" class="form-control" placeholder="Enter Item Price" name="itemPrice" required data-parsley-required-message="Item Price is required" onkeypress="return isNumber(event)">
-                                </div>
-                            </div>
+
+
+
+                        <div class="form-group d-flex col-md-12 col-12 text-center items-center justify-content-center row">
+                            <label for="status" class="form-label col-sm-2">Active</label>
+                            <!--<div class="col-sm-9 checkbox">-->
+                            <input type="checkbox" name="isActive" id="isActive" checked class=" " style="width:25px; height:25px">
+                            <!--</div>-->
                         </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Description</label>
-                                <div class="col-md-8">
-                                    <textarea type="text" id="itemDesc" class="form-control" rows="4" name="itemDesc"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Name</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="itemArbName" class="form-control" name="itemArbName" value="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Description</label>
-                                <div class="col-md-8">
-                                    <textarea rows="4" id="itemArbDesc" class="form-control" name="itemArbDesc"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Name</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="itemHinName" class="form-control" name="itemHinName" value="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Description</label>
-                                <div class="col-md-8">
-                                    <textarea rows="4" type="text" id="itemHinDesc" class="form-control" name="itemHinDesc"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Urdu Name</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="itemUrduName" class="form-control" name="itemUrduName" value="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Urdu Description</label>
-                                <div class="col-md-8">
-                                    <textarea rows="4" type="text" id="itemUrduDesc" class="form-control" name="itemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-12">
-                            <div class="form-group row">
-                                <label for="status" class="col-sm-5 col-form-label text-left">Active</label>
-                                <div class="col-sm-7 checkbox">
-                                    <input type="checkbox" name="isActive" id="isActive" checked class=" " style="width:25px; height:25px">
-                                </div>
-                            </div>
-                        </div>
+
+
                     </div>
                     <div class="row">
                         <div class="col-12 d-flex justify-content-end">
-                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveItemBtn">Save</button>
-                            <button type="button" class="btn btn-light-secondary me-1 mb-1 " id="closeItemBtn" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary" id="saveItemBtn">Save</button>
+                            <button type="button" class="btn btn-light-secondary" id="closeItemBtn" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </form>
@@ -232,7 +235,7 @@
         controlArabic.makeTransliteratable(['itemArbName']);
         controlArabic.makeTransliteratable(['itemArbDesc']);
     }
-    
+
     google.setOnLoadCallback(onLoad);
 
     $(document).ready(function() {

@@ -74,13 +74,13 @@ class Item extends CI_Controller
 				}
 				$actionHtml = '';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml .= '<a href="' . base_url() . 'item/view/' . $row->code . '" class="btn btn-sm btn-success cursor_pointer m-1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a id="view" href="' . base_url() . 'item/view/' . $row->code . '" class="btn btn-sm btn-success cursor_pointer m-1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-info cursor_pointer edit_item m-1" href="' . base_url() . 'item/edit/' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="btn btn-sm btn-info cursor_pointer edit_item m-1" href="' . base_url() . 'item/edit/' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-danger btn-sm cursor_pointer delete_item m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a id="delete" class="btn btn-danger btn-sm cursor_pointer delete_item m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
 				}
 				if (strtolower($lang) == "urdu") {
 					$itemName = $row->itemUrduName;

@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <?php if ($insertRights == 1) { ?>
+        <?php if ($insertRights == 1) { ?> 
             <div id="maindiv" class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
@@ -75,67 +75,38 @@
                             <div class="panel-body">
                                 <form id="productComboAddForm" class="form" data-parsley-validate>
                                     <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <div class="form-group mandatory">
+
+                                        <div class="row col-md-12 col-12">
+                                            <div class="col-md-6 col-12 form-group mandatory">
                                                 <label for="var-name-column" class="form-label">English Name</label>
                                                 <input type="text" id="cname" class="form-control reqClass" placeholder="Combos/Meals English Name" name="cname" data-parsley-required="true" data-parsley-required-message="Product Combo Name is required.">
 
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <div class="form-group mandatory">
+                                            <div class="col-md-6 col-12 form-group mandatory">
                                                 <label for="var-name-column" class="form-label">Arabic Name</label>
                                                 <input type="text" id="carabicname" class="form-control reqClass" placeholder="Combos/Meals Arabic Name" name="carabicname" data-parsley-required="true" data-parsley-required-message="Product Combo Name is required.">
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-12">
-                                            <div class="form-group mandatory">
+
+
+                                        <div class="row col-md-12 mb-3 col-12">
+
+                                            <div class="col-md-6 col-12 form-group mandatory">
                                                 <label for="var-name-column">Hindi Name</label>
                                                 <input type="text" id="chindiname" class="form-control reqClass" placeholder="Combos/Meals Hindi Name" name="chindiname" maxlength="150">
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <div class="form-group mandatory">
+                                            <div class="col-md-6 col-12 form-group mandatory">
                                                 <label for="var-name-column">Urdu Name</label>
                                                 <input type="text" id="curduname" class="form-control reqClass" placeholder="Combos/Meals Urdu Name" name="curduname" maxlength="150">
+                                            </div>
+                                            
+                                        </div>
 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <div class="form-group mandatory">
-                                                <label for="var-name-column" class="form-label">Category</label>
-                                                <select class="form-select select2" id="productcategory" style="width:100%" name="productcategory" data-parsley-required="true" data-parsley-required-message="Product Category is required.">
-                                                    <option>Select Category</option>
-                                                    <?php
-                                                    if ($category) {
-                                                        foreach ($category->result() as $cat) {
-                                                            echo "<optgroup label='Category - " . $cat->categoryName . "'>";
-                                                            if ($subcategory) {
-                                                                foreach ($subcategory->result() as $sub) {
-                                                                    if ($sub->categoryCode == $cat->code) {
-                                                                        echo "<option value='" . $sub->code . "' data-category-code='" . $cat->code . "'>" . $sub->subcategoryName . "</option>";
-                                                                    }
-                                                                }
-                                                            }
-                                                            echo "</optgroup>";
-                                                        }
-                                                    }
-                                                    ?>
-                                                </select>
 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-6">
-                                            <div class="form-group row">
-                                                <label for="status" class="form-label">Active</label>
-                                                <div class="checkbox">
-                                                    <input type="checkbox" name="isActive" id="isActive" checked style="width:25px; height:25px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <?php
-                                        $option = 0;
-                                        ?>
+
+
+
+
                                         <div class="col-md-12 col-12">
                                             <div class="form-group mandatory">
                                                 <label for="var-name-column" class="col-md-4 form-label text-left">Products & Price</label>
@@ -169,24 +140,81 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-12">
-                                            <div class="form-group">
+
+
+
+
+
+                                        <div class="row mb-2 col-md-12 col-12">
+
+                                            <div class="col-md-4 col-12 form-group">
                                                 <label for="pric-column" class="form-label">Sub Total</label>
                                                 <input type="text" id="price" class="form-control reqClass" placeholder="Total price" onkeypress="return isNumber(event)" name="price" readonly>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 col-12">
-                                            <div class="form-group">
+                                            <div class="col-md-4 col-12 form-group">
                                                 <label for="pric-column" class="form-label">Total Tax Amount</label>
                                                 <input type="text" id="totalTaxAmount" class="form-control reqClass" placeholder="Total Tax Amount" onkeypress="return isNumber(event)" name="totalTaxAmount" readonly>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 col-12">
-                                            <div class="form-group">
+                                            <div class="col-md-4 col-12 form-group">
                                                 <label for="pric-column" class="form-label">Final Amount</label>
                                                 <input type="text" id="finalAmount" class="form-control reqClass" placeholder="Final Price" onkeypress="return isNumber(event)" name="finalAmount" readonly>
                                             </div>
+
                                         </div>
+
+
+                                        <div class="row mb-2 col-md-12 col-12">
+
+                                            <div class="col-md-11 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="var-name-column" class="form-label">Category</label>
+                                                    <select class="form-select select2" id="productcategory" style="width:100%" name="productcategory" data-parsley-required="true" data-parsley-required-message="Product Category is required.">
+                                                        <option>Select Category</option>
+                                                        <?php
+                                                        if ($category) {
+                                                            foreach ($category->result() as $cat) {
+                                                                echo "<optgroup label='Category - " . $cat->categoryName . "'>";
+                                                                if ($subcategory) {
+                                                                    foreach ($subcategory->result() as $sub) {
+                                                                        if ($sub->categoryCode == $cat->code) {
+                                                                            echo "<option value='" . $sub->code . "' data-category-code='" . $cat->code . "'>" . $sub->subcategoryName . "</option>";
+                                                                        }
+                                                                    }
+                                                                }
+                                                                echo "</optgroup>";
+                                                            }
+                                                        }
+                                                        ?>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-1 col-6">
+                                                <div class="form-group row text-center">
+                                                    <label for="status" class="form-label">Active</label>
+                                                    <div class="checkbox">
+                                                        <input type="checkbox" name="isActive" id="isActive" checked style="width:25px; height:25px">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <?php
+                                        $option = 0;
+                                        ?>
+
+
+
+
+
+
+
+
+
                                         <div class="col-md-4 col-12" id="file_uploadDiv">
                                             <div class="form-group">
                                                 <label for="productImage" class="form-label">Combo Image :</label>
@@ -198,8 +226,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="productComboCode" name="productComboCode">
-                                            <button type="button" class="btn btn-primary white me-2 mb-1 sub_1" id="saveProductCombo">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal" id="closeProductCombo">Close</button>
+                                            <button type="button" class="btn btn-primary" id="saveProductCombo">Save</button>
+                                            <button id="cancelRecipeBtn" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" id="closeProductCombo">Close</button>
                                         </div>
                                     </div>
                                 </form>

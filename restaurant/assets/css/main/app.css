@@ -190,7 +190,7 @@ screen and (-ms-high-contrast:active) {
     --bs-highlight-bg: #fcf8e3
 }
 
-.text-green{
+.text-green {
     color: var(--bs-orange);
 }
 
@@ -250,7 +250,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #25396f;
+    /*color: #25396f;*/
+    color: var(--bs-breadcrumb-item-active-color);
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: .5rem;
@@ -408,11 +409,11 @@ a {
     text-decoration: underline;
 }
 
-#exitButton{
-    color:white
+#exitButton {
+    color: white
 }
 
-#add_category{
+#add_category {
     font-size: 60px;
     color: #37B181;
 }
@@ -4789,7 +4790,7 @@ select,
 
 .card .card-header {
     border-bottom: 2px solid #b2b2b26b !important;
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    /*box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);*/
 }
 
 .form-select {
@@ -21120,6 +21121,23 @@ body .bi:before {
 }
 
 
+
+#closeItemBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#closeItemBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
 #cancelProductExtras.btn.btn-light-secondary {
     background-color: red;
     color: white;
@@ -21145,6 +21163,14 @@ body .bi:before {
 }
 
 
+#closeProductCombo.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
 #cancelRecipeBtn.btn.btn-light-secondary {
     background-color: red;
     color: white;
@@ -21152,7 +21178,7 @@ body .bi:before {
     border-radius: 10px;
 }
 
-#closeView.btn.btn-light-secondary{
+#closeView.btn.btn-light-secondary {
     background-color: red;
     color: white;
     border: none;
@@ -21214,6 +21240,46 @@ body .bi:before {
 
 
 #saveCategoryBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#saveItemBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveItemBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#updateProductCombo.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#updateProductCombo.btn-primary:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/
@@ -21291,6 +21357,26 @@ body .bi:before {
 }
 
 
+#saveProductCombo.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveProductCombo.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
 #saveSubCategoryBtn.btn-primary:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
@@ -21320,9 +21406,11 @@ body .bi:before {
 
 
 #view.btn-success {
-    background-color: #37B181;
+    /*background-color: #37B181;*/
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
-    color: white;
+    background-color: transparent;
+    font-size: large;
+    color: #37B181;
     transition: none;
     border: none;
     border-radius: 50%;
@@ -21338,10 +21426,33 @@ body .bi:before {
 
 
 
-#customize.btn-success {
-    background-color: orange;
+#add_option.btn-success {
+    /*background-color: #37B181;*/
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
-    color: white;
+    background-color: transparent;
+    font-size: large;
+    color: #37B181;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#add_option.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+
+#customize.btn-success {
+    /*background-color: orange;*/
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    background-color: transparent;
+    font-size: large;
+    color: orange;
     transition: none;
     border: none;
     border-radius: 50%;
@@ -21358,9 +21469,11 @@ body .bi:before {
 
 
 #view.btn-primary {
-    background-color: #37B181;
+    /*background-color: #37B181;*/
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
-    color: white;
+    background-color: transparent;
+    font-size: large;
+    color: #37B181;
     transition: none;
     border: none;
     border-radius: 50%;
@@ -21376,9 +21489,11 @@ body .bi:before {
 
 
 #edit.btn-info {
-    background-color: #0dcaf0;
+    /*background-color: #0dcaf0;*/
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
-    color: white;
+    background-color: transparent;
+    font-size: large;
+    color: #0dcaf0;
     transition: none;
     border: none;
     border-radius: 50%;
@@ -21394,9 +21509,11 @@ body .bi:before {
 
 
 #delete.btn-danger {
-    background-color: #dc3545;
+    /*background-color: #dc3545;*/
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
-    color: white;
+    background-color: transparent;
+    color: #dc3545;
+    font-size: large;
     transition: none;
     border: none;
     border-radius: 50%;
@@ -21412,17 +21529,25 @@ body .bi:before {
 
 
 .floating-action-button {
-    position: fixed; /* Fixes the button to a position on the screen */
-    bottom: 70px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-    width: 60px; /* Set width */
-    height: 60px; /* Set height */
-    background-color: transparent; /* Primary color, you can change this */
-    border-radius: 50%; /* Makes it a circle */
+    position: fixed;
+    /* Fixes the button to a position on the screen */
+    bottom: 70px;
+    /* Distance from the bottom */
+    right: 20px;
+    /* Distance from the right */
+    width: 60px;
+    /* Set width */
+    height: 60px;
+    /* Set height */
+    background-color: transparent;
+    /* Primary color, you can change this */
+    border-radius: 50%;
+    /* Makes it a circle */
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000; /* Ensures it appears above other content */
+    z-index: 1000;
+    /* Ensures it appears above other content */
 }
 
 
@@ -23063,6 +23188,7 @@ h3,
 .page-heading h3 {
     font-weight: 700;
     font-size: 22px;
+    color: #636262;
 }
 
 .page-title-headings {
