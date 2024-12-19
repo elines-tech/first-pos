@@ -15,15 +15,18 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a href="<?php echo base_url(); ?>Quotation/add"><i class="fa fa-plus-circle"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" href="<?php echo base_url(); ?>Quotation/add">
+                                <i class="fa fa-plus-circle"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -36,7 +39,7 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-10">
                             <label class="form-label lng">Remark</label>
                             <div class="form-group mandatory">
                                 <select class="form-select" name="remark" id="remark">
@@ -47,10 +50,10 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
                             <div class="d-flex mt-4">
-                                <button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
                             </div>
                         </div>
                     </div>

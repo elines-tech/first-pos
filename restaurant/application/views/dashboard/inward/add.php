@@ -11,7 +11,7 @@ if ($unitmaster) {
 	<div class="container d-block">
 		<div class="row">
 			<div class="col-12 col-md-6 order-md-1 order-last">
-				<a href="<?php echo base_url(); ?>inward/listRecords"><i class="fa fa-times fa-2x"></i></a>
+				<a href="<?php echo base_url(); ?>inward/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a>
 			</div>
 		</div>
 	</div>
@@ -120,7 +120,7 @@ if ($unitmaster) {
 																<input type="number" step="0.01" class="form-control subtotal" value="0.00" name="subTotal[]" id="subTotal0" readonly>
 															</td>
 															<td class="add_btn">
-																<a href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a>
+																<a id="view" href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a>
 															</td>
 														</tr>
 													</tbody>
@@ -136,9 +136,9 @@ if ($unitmaster) {
 												</div>
 											</div>
 											<div class="col-12 d-flex justify-content-end">
-											    <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-												<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveInwardBtn">Save</button>
-												<a href="<?php echo base_url(); ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary me-1 mb-1">Close</a>
+											    <button type="submit" id="saveDefault" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
+												<button type="submit" class="btn btn-success" id="saveInwardBtn">Save</button>
+												<a href="<?php echo base_url(); ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary">Close</a>
 											</div>
 										</div>
 									</div>

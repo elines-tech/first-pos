@@ -1,0 +1,40 @@
+Dt --> 19-12-24 02:52:36 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-19 14:55:19	127.0.0.1	Admin	saidemad	CUSTG_1 - gfdgfdg Customer Groupname is added.
+2024-12-19 14:57:05	127.0.0.1	Admin	saidemad	BR24_1 - fhgf Branch is added.
+Dt --> 19-12-24 03:20:25 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 19-12-24 03:45:08 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 19-12-24 03:57:32 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 19-12-24 04:07:46 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+19-12-24 04:09:25	127.0.0.1	Admin	saidemad	USR24_2 - said User is added.
+Dt --> 19-12-24 04:10:09 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 19-12-24 04:10:56 IP --> 127.0.0.1 LOGIN USER --> USR24_2 ADDED USER --> USR24_2 	USR24_2 Cashier logged in.
+Dt --> 19-12-24 04:12:46 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+19-12-24 04:13:48	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is updated.
+19-12-24 04:14:15	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is updated.
+2024-12-19 16:18:19	127.0.0.1	Admin	saidemad	1 - ddd sector zone is added.
+2024-12-19 16:18:37	127.0.0.1	Admin	saidemad	TAB_1  table is added.
+19-12-24 04:19:52	127.0.0.1	Admin	saidemad	PRO24_2 - ffffffffff Product is added.
+19-12-24 04:22:20	127.0.0.1	Admin	saidemad	PRO24_2 - ffffffffff Product is updated.
+2024-12-19 16:22:32	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is updated.
+19-12-24 04:25:09	127.0.0.1	Admin	saidemad	PRO24_2 - ffffffffff Product is updated.
+2024-12-19 16:26:28	127.0.0.1	Admin	saidemad	REC24_1 - PRO24_1 recipe is updated.
+2024-12-19 16:26:32	127.0.0.1	Admin	saidemad	REC24_1 - PRO24_1 recipe is updated.
+19-12-24 04:36:46	127.0.0.1	Admin	saidemad	SUP24_1 - said Supplier is added.
+19-12-24 05:02:37	127.0.0.1	Admin	saidemad	SUP24_1 - saidSupplier is updated.
+2024-12-19 17:26:05	127.0.0.1	Admin	saidemad	IN24_1 - SUP24_1 of BR24_1 having amount 50.00 inward is added.
+2024-12-19 17:26:18	127.0.0.1	Admin	saidemad	IN24_1 - SUP24_1 of BR24_1 having amount 50.00 inward is updated.
+2024-12-19 17:26:55	127.0.0.1	Admin	saidemad	IN24_2 - SUP24_1 of BR24_1 having amount 1000.00 inward is added.
+2024-12-19 18:10:06	127.0.0.1	Admin	saidemad	BR24_2 - hhhhhhhhhhhhhh Branch is added.
+2024-12-19 18:10:52	127.0.0.1	Admin	saidemad	IN24_3 - BR24_1 of BR24_2 having amount 10.00  is transfer.
+2024-12-19 18:11:15	127.0.0.1	Admin	saidemad	IN24_4 - BR24_1 of BR24_2 having amount 5.00  is transfer.
+2024-12-19 18:43:52	127.0.0.1	Admin	saidemad	IN24_2 - SUP24_1 of BR24_1 having amount 1000.00 inward is updated.
+2024-12-19	127.0.0.1	Admin	saidemad	ACTE_1 - soso Account Expense is added.
+Dt --> 19-12-24 07:17:30 IP --> 127.0.0.1 LOGIN USER --> USR24_2 ADDED USER --> USR24_2 	USR24_2 Cashier logged in.
+Dt --> 19-12-24 07:18:40 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 19-12-24 07:21:15 IP --> 127.0.0.1 LOGIN USER --> USR24_2 ADDED USER --> USR24_2 	USR24_2 Cashier logged in.
+Dt --> 19-12-24 07:21:43 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+19-12-24 07:26:19	127.0.0.1	Admin	saidemad	USR24_3 - soso User is added.
+Dt --> 19-12-24 07:29:59 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-19 19:43:13	127.0.0.1	Admin	saidemad	true - gfdgfdghhhhhhhhhhhhh Customer Groupname is updated.
+Dt --> 19-12-24 07:47:34 IP --> 127.0.0.1 LOGIN USER --> USR24_2 ADDED USER --> USR24_2 	USR24_2 Cashier logged in.
+Dt --> 19-12-24 07:48:33 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.

@@ -33,11 +33,11 @@ if (!empty($kotOrders)) {
                     $kotSection = $statusButton = "";
                     switch ($order['kotStatus']) {
                         case "PND":
-                            $statusButton = '<button type="button" class="btn btn-default btn-sm btn-preparing" data-cart-id="' . $order['id'] . '"> Preparing </button>';
+                            $statusButton = '<button type="button" id="saveDefault" class="btn btn-default btn-sm btn-preparing" data-cart-id="' . $order['id'] . '"> Preparing </button>';
                             $kotSection = '<div class="text-center text-light"><b>Waiting for your action...</b></div>';
                             break;
                         case "PRE":
-                            $statusButton = '<button type="button" class="btn btn-default btn-sm btn-ready-serve" data-cart-id="' . $order['id'] . '"> Ready to Serve </button>';
+                            $statusButton = '<button type="button" id="ready" class="btn btn-default btn-sm btn-ready-serve" data-cart-id="' . $order['id'] . '"> Ready to Serve </button>';
                             $kotSection = '<div class="row text-light">
                                 <div class="col-6"> Preparing In </div> 
                                 <div class="col-6"><b class="time badge badge-light" style="font-weight:bold;font-size:14px" id="kot-order-' . $order['id'] . '">00:00</b></div>
@@ -75,7 +75,7 @@ if (!empty($kotOrders)) {
                 </div>
                 <div class="kot-footer text-center">
                     <?= $statusButton ?>
-                    <button type="button" class="btn btn-sm btn-primary ml-1 view-order-details" data-kotnumber="<?= $order['kotNumber'] ?>" data-cart-id="<?= $order['id'] ?>">View Order</button>
+                    <button id="viewOrder" type="button" class="btn btn-sm btn-primary ml-1 view-order-details" data-kotnumber="<?= $order['kotNumber'] ?>" data-cart-id="<?= $order['id'] ?>">View Order</button>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
     <div class="container d-block">
         <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Supplier/listrecords"><i class="fa fa-times fa-2x"></i></a></div>
+            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Supplier/listrecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
         </div>
     </div>
 </nav>
@@ -75,29 +75,29 @@
                                                     <input type="text" id="companyname" class="form-control" placeholder="Company Name" name="companyname" value="<?= $supplierData[0]['companyName'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
                                                 </div>
                                             </div>
-											 <div class="col-md-6 col-12">
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group  mandatory">
                                                     <label for="Phone" class="form-label">Phone</label>
                                                     <input type="text" min="1" id="phone" class="form-control" placeholder="Phone" name="phone" value="<?= $supplierData[0]['phone'] ?>" onkeypress="return isNumberKey(event)" data-parsley-required="true">
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
-										<div class="row">
-										    <div class="col-md-6 col-12">
+                                        <div class="row">
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group">
                                                     <label for="email-column" class="form-label">Email</label>
                                                     <input type="email" id="email" class="form-control" placeholder="Email" name="email" value="<?= $supplierData[0]['email'] ?>" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
                                                 </div>
                                             </div>
-										    <div class="col-md-6 col-12">
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group">
                                                     <label for="financial" class="form-label">Financial Account</label>
                                                     <input type="text" id="financial" class="form-control" placeholder="Financial Account" name="financial" value="<?= $supplierData[0]['financialAccount'] ?>">
                                                 </div>
                                             </div>
-										</div>
-										 <div class="row">
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-12 col-12">
                                                 <div class="form-group">
                                                     <label for="addr-column" class="form-label">Address</label>
@@ -112,19 +112,20 @@
 
                                                     <label for="Country" class="form-label">Country</label>
                                                     <!--<input type="text" id="country" class="form-control" placeholder="Country Name" name="country" value="<?= $supplierData[0]['country'] ?>" onkeypress="return  ValidateAlpha(event)">-->
-													<?php
-                                                      $country = file_get_contents('assets/country.json');	
-  													  $items = json_decode($country,true);		
-				                                      
-													?>
-													<select class="form-select select2" name="country" id="country">
-                                                         <?php foreach($items as $item){ 
-														     if($item['country']==$supplierData[0]['country']){
-														 ?>
-														 <option value="<?= $item['country'] ?>" selected ><?= $item['country'] ?></option>
-														 <?php }else {?>
-														   <option value="<?= $item['country'] ?>"><?= $item['country'] ?></option>
-														 <?php } }?>
+                                                    <?php
+                                                    $country = file_get_contents('assets/country.json');
+                                                    $items = json_decode($country, true);
+
+                                                    ?>
+                                                    <select class="form-select select2" name="country" id="country">
+                                                        <?php foreach ($items as $item) {
+                                                            if ($item['country'] == $supplierData[0]['country']) {
+                                                        ?>
+                                                                <option value="<?= $item['country'] ?>" selected><?= $item['country'] ?></option>
+                                                            <?php } else { ?>
+                                                                <option value="<?= $item['country'] ?>"><?= $item['country'] ?></option>
+                                                        <?php }
+                                                        } ?>
                                                     </select>
                                                 </div>
                                             </div>
@@ -152,7 +153,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                           
+
                                             <div class="col-md-6 col-12 d-none">
                                                 <div class="form-group ">
                                                     <label for="Tax" class="form-label">Tax (%)</label>
@@ -161,7 +162,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            
+
                                             <div class="col-md-2 col-12">
                                                 <div class="form-group">
                                                     <label class="form-label lng" key="status">Status</label>
@@ -176,16 +177,16 @@
 
                                             </div>
                                         </div>
-                                     
+
                                     </div>
 
                                 </div>
 
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-end">
-									<?php if($updateRights==1){ ?>
-                                        <button type="submit" class="btn btn-success white me-3 mb-1 sub_2">Update</button>
-									<?php } ?>
+                                        <?php if ($updateRights == 1) { ?>
+                                            <button id="saveDefault" type="submit" class="btn btn-success">Update</button>
+                                        <?php } ?>
                                         <!--<button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>-->
                                     </div>
                                 </div>
@@ -201,13 +202,14 @@
 </div>
 <script type="text/javascript" src=<?php echo base_url() . 'assets/js/google_jsapi.js'; ?>></script>
 <script type="text/javascript">
-    function setPattern(){
-		var countryCode = $('#countryCode').val();
-		if(countryCode!=''){
-			var pattern = $('#countryCode').find(':selected').data('pattern');
-			$('#phone').attr('data-parsley-pattern',pattern);
-		}
-	}
+    function setPattern() {
+        var countryCode = $('#countryCode').val();
+        if (countryCode != '') {
+            var pattern = $('#countryCode').find(':selected').data('pattern');
+            $('#phone').attr('data-parsley-pattern', pattern);
+        }
+    }
+
     function isNumberKey(evt) {
         var charCode = evt.which ? evt.which : evt.keyCode;
         if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) return false;
@@ -219,7 +221,7 @@
         if (keyCode > 47 && keyCode < 58) return false;
         return true;
     }
-    	google.load("elements", "1", {
+    google.load("elements", "1", {
         packages: "transliteration"
     });
 
@@ -232,7 +234,7 @@
         }
         var controlArabic = new google.elements.transliteration.TransliterationControl(optionsArabic);
         controlArabic.makeTransliteratable(['arabicname']);
-       
+
     }
     google.setOnLoadCallback(onLoad);
     $(document).ready(function() {

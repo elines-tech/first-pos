@@ -26,7 +26,9 @@
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-4">
+
+
+                        <div class="col-md-6">
                             <label class="form-label lng">Customer</label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="customer" id="customer">
@@ -39,7 +41,9 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
+
+
+                        <div class="col-md-6">
                             <label class="form-label lng">Customer Group</label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="customergroup" id="customergroup">
@@ -54,10 +58,12 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="d-flex mt-4">
-                                <button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+
+
+                        <div class="col-md-12">
+                            <div class="d-flex mt-4 justify-content-center">
+                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
                             </div>
                         </div>
                     </div>

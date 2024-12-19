@@ -61,13 +61,13 @@ class CustomerGroup extends CI_Controller
                 }
                 $actionHtml = '';
                 if ($this->rights != '' && $this->rights['view'] == 1) {
-                    $actionHtml .= '<a class="view_group btn btn-success btn-sm cursor_pointer m-1" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
+                    $actionHtml .= '<a id="view" class="view_group btn btn-success btn-sm cursor_pointer m-1" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['update'] == 1) {
-                    $actionHtml .= '<a class="edit_group btn btn-info btn-sm cursor_pointer m-1" data-seq="' . $row->code . '" id="' . $row->code . '" data-type="2"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+                    $actionHtml .= '<a id="edit" class="edit_group btn btn-info btn-sm cursor_pointer m-1" data-seq="' . $row->code . '" id="' . $row->code . '" data-type="2"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['delete'] == 1) {
-                    $actionHtml .= '<a class="btn btn-sm btn-danger delete_group m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete"  class="fa fa-trash"></i></a>';
+                    $actionHtml .= '<a id="delete" class="btn btn-sm btn-danger delete_group m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete"  class="fa fa-trash"></i></a>';
                 }
                 $data[] = array(
                     $srno,

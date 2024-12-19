@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
     <div class="container d-block">
         <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Supplier/listrecords"><i class="fa fa-times fa-2x"></i></a></div>
+            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Supplier/listrecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
         </div>
     </div>
 </nav>
@@ -185,9 +185,9 @@
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-end">
 									<?php if($insertRights==1){ ?>
-                                        <button type="submit" class="btn btn-success white me-3 mb-1 sub_1">Save</button>
+                                        <button type="submit" id="saveDefault" class="btn btn-success">Save</button>
 									<?php }?>
-                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                        <button type="reset" id="cancelDefault" class="btn btn-light-secondary">Reset</button>
                                     </div>
                                 </div>
                             </form>

@@ -9,7 +9,7 @@ if ($unitmaster) {
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Transfer/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>Transfer/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 		</div>
 	</div>
 </nav>
@@ -33,17 +33,21 @@ if ($unitmaster) {
 								}
 								echo "</div>";
 								?>
-								<div class="form-group row">
-									<div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+								<div class="form-group col-md-12 col-sm-12 col-xs-12 row">
+
+								
+									<div class="col-md-12 col-sm-12 col-xs-12 mb-3">
 										<div class="form-group mandatory">
 											<label class="form-label">Date</label>
 											<input type="date" class="form-control bg-white" name="transferDate" id="transferDate" value="<?= date('Y-m-d') ?>">
 										</div>
 									</div>
-									<div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+
+
+									<div class="col-md-6 col-sm-12 col-xs-12 mb-3">
 										<div class="form-group mandatory">
 											<label class="form-label">From Branch</label>
-											<div class="col-md-10 col-sm-12 col-xs-12">
+											<div class="col-md-12 col-sm-12 col-xs-12">
 												<input type="hidden" class="form-control" id="transferCode" name="transferCode">
 												<select class="form-select select2" name="fromBranch" id="fromBranch" data-parsley-required="true" style="width:100%" required>
 
@@ -52,10 +56,12 @@ if ($unitmaster) {
 
 										</div>
 									</div>
-									<div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+
+
+									<div class="col-md-6 col-sm-12 col-xs-12 mb-3">
 										<div class="form-group mandatory">
 											<label class="form-label">To Branch</label>
-											<div class="col-md-10 col-sm-12 col-xs-12">
+											<div class="col-md-12 col-sm-12 col-xs-12">
 												<select class="form-select select2" name="toBranch" id="toBranch" data-parsley-required="true" required>
 
 												</select>
@@ -66,7 +72,11 @@ if ($unitmaster) {
                                             </a>-->
 										</div>
 									</div>
+
+
 								</div>
+
+
 								<table class="table table-bordered table-hover" id="transferTable">
 									<thead>
 										<tr>
@@ -92,7 +102,7 @@ if ($unitmaster) {
 
 											</td>
 											<td class="text-right">
-												<input type="number" class="form-control" name="itemQty[]" id="itemQty0" onchange="checkQty(0);"> 
+												<input type="number" class="form-control" name="itemQty[]" id="itemQty0" onchange="checkQty(0);">
 											</td>
 											<td class="text-right">
 												<select class="form-select select2" id="itemUnit0" name="itemUnit[]" readonly>
@@ -104,7 +114,7 @@ if ($unitmaster) {
 												<input type="text" class="form-control subtotal" name="subTotal[]" id="subTotal0" readonly>
 											</td>
 											<td class="add_btn">
-												<a href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a>
+												<a id="view" href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a>
 											</td>
 										</tr>
 									</tbody>
@@ -119,12 +129,12 @@ if ($unitmaster) {
 										</div>
 									</div>
 									<div class="col-12 d-flex justify-content-end">
-									    
+
 										<?php if ($insertRights == 1) { ?>
-										    <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
-											<button type="submit" class="btn btn-success white me-2 mb-1 sub_1" id="saveTransferBtn">Transfer</button>
+											<button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
+											<button type="submit" class="btn btn-success" id="saveTransferBtn">Transfer</button>
 										<?php } ?>
-										<a href="<?php echo base_url(); ?>Transfer/listRecords" class="btn btn-light-secondary me-1 mb-1" id="cancelTransferBtn">Close</a>
+										<a href="<?php echo base_url(); ?>Transfer/listRecords" class="btn btn-light-secondary" id="cancelTransferBtn">Close</a>
 									</div>
 								</div>
 							</form>
@@ -183,7 +193,7 @@ if ($unitmaster) {
 				remove();
 			}
 			branchCode = $('#fromBranch').val();
-		
+
 			getItemsFromBranch(branchCode);
 		});
 		$("#toBranch").select2({
@@ -259,7 +269,7 @@ if ($unitmaster) {
 
 	});
 
-	function getItemsFromBranch(branchCode) { 
+	function getItemsFromBranch(branchCode) {
 		$("select.itemsdropDown").select2({
 			placeholder: "Select Item",
 			allowClear: true,
@@ -280,13 +290,13 @@ if ($unitmaster) {
 					return {
 						//results: response
 						results: $.map(response, function(item) {
-                            return {
-                                text: item.text,
-                                id: item.id,
-                                price: item.price,
-                                stock: item.stock
-                            }
-                        })
+							return {
+								text: item.text,
+								id: item.id,
+								price: item.price,
+								stock: item.stock
+							}
+						})
 					};
 
 				},
@@ -334,7 +344,7 @@ if ($unitmaster) {
 		if (itemCode != "") {
 			for (i = 1; i <= table_len; i++) {
 				var rowClass = tr[i].classList;
-				var row_id = rowClass[1].substring(12); 
+				var row_id = rowClass[1].substring(12);
 				var itemCode_row = document.getElementById("itemCode" + row_id).value.toLowerCase();
 				if (itemCode_row == itemCode && row_id != id) {
 					toastr.error('Item already exists', 'Transfer', {
@@ -391,11 +401,11 @@ if ($unitmaster) {
 
 	function checkQty(id) {
 		var itemQty = Number($('#itemQty' + id).val());
-		var getdata = $('#itemCode'+id).select2('data')[0];
-		var stock=getdata.stock
-		
-		if (itemQty != '' && itemQty > 0) { 
-			if(stock<itemQty){
+		var getdata = $('#itemCode' + id).select2('data')[0];
+		var stock = getdata.stock
+
+		if (itemQty != '' && itemQty > 0) {
+			if (stock < itemQty) {
 				$('#itemQty' + id).val('');
 				calculate_subTotal(id)
 				toastr.error('Stock is not available.', 'Transfer Products', {
@@ -403,15 +413,15 @@ if ($unitmaster) {
 				});
 				return false;
 			}
-			
-		} else{
+
+		} else {
 			$('#itemQty' + id).val('');
 			toastr.error('Item Quantity should be greater than 0', 'Transfer Products', {
 				"progressBar": false
 			});
 			return false;
 		}
-		 calculate_subTotal(id)
+		calculate_subTotal(id)
 	}
 
 
@@ -419,11 +429,11 @@ if ($unitmaster) {
 
 		var itemQty = Number($('#itemQty' + id).val());
 		var itemPrice = Number($('#itemPrice' + id).val());
-	
+
 		subTotal = itemQty * itemPrice;
 		$('input#subTotal' + id).val(subTotal.toFixed(2));
 		calculateTotal();
-		
+
 	}
 
 	function calculateTotal() {
@@ -540,13 +550,13 @@ if ($unitmaster) {
 				processResults: function(response) {
 					return {
 						results: $.map(response, function(item) {
-                            return {
-                                text: item.text,
-                                id: item.id,
-                                price: item.price,
-                                stock: item.stock
-                            }
-                        })
+							return {
+								text: item.text,
+								id: item.id,
+								price: item.price,
+								stock: item.stock
+							}
+						})
 					};
 
 				},

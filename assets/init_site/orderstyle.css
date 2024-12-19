@@ -148,14 +148,14 @@ textarea.parsley-error {
 button.btn-preparing {
 	color: #ffffff;
 	border: 1px solid transparent;
-	background: linear-gradient(to right, #f36265, #961276);
+	/*background: linear-gradient(to right, #f36265, #961276);*/
 	transition: all 0.3s ease-in-out;
 }
 
 button.btn-preparing:hover,
 button.btn-preparing:focus {
 	color: #ffffff;
-	background: linear-gradient(to right, #961276, #f36265);
+	/*background: linear-gradient(to right, #961276, #f36265);*/
 }
 
 button.btn-ready-serve {

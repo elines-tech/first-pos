@@ -2456,7 +2456,7 @@ h3 {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    padding: 0.389rem 0.9rem;
+    /*padding: 0.389rem 0.9rem;*/
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     width: 100%
 }
@@ -21155,6 +21155,160 @@ body .bi:before {
 
 
 
+
+
+
+
+#cancelQuotationBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelQuotationBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+#closeAccountExpenseBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#closeAccountExpenseBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+#cancelTransferBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelTransferBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+#cancelReturnBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelReturnBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#btnClear.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#btnClear.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+#cancelInwardBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelInwardBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+#cancelDefault.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#cancelDefault.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
 #cancelRecipeBtn.btn.btn-light-secondary {
     background-color: red;
     color: white;
@@ -21248,6 +21402,111 @@ body .bi:before {
 
 
 
+
+#saveGroupName.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveGroupName.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+
+
+#updateGroupName.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#updateGroupName.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+#saveAccountExpenseBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveAccountExpenseBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+
+#approveTransferBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#approveTransferBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+
 #saveItemBtn.btn-primary {
     background-color: #37B181;
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
@@ -21304,6 +21563,222 @@ body .bi:before {
   transform: scale(1.05);*/
     transform: none
 }
+
+
+
+
+
+
+#saveTransferBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveTransferBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+#btnSearch.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#btnSearch.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+#saveDefault.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveDefault.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+#saveQuotationBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveQuotationBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+#saveDefault.btn-preparing {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveDefault.btn-preparing:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#ready.btn-ready-serve {
+    background-color: #0077FF;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#ready.btn-ready-serve:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#viewOrder.btn-primary {
+    background-color: orange;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#viewOrder.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+#saveInwardBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveInwardBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+#saveDefault.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveDefault.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+
+
 
 
 #saveProductExtras.btn-success {
@@ -21377,6 +21852,46 @@ body .bi:before {
 
 
 
+
+
+
+
+
+
+
+#saveReturnBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveReturnBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #saveSubCategoryBtn.btn-primary:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
@@ -21426,6 +21941,31 @@ body .bi:before {
 
 
 
+
+
+#view.btn-primary {
+    /*background-color: #37B181;*/
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    background-color: transparent;
+    font-size: large;
+    color: #37B181;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#view.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+
+
+
 #add_option.btn-success {
     /*background-color: #37B181;*/
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
@@ -21460,6 +22000,31 @@ body .bi:before {
 
 
 #customize.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+
+
+
+
+
+#customize.btn-warning {
+    /*background-color: orange;*/
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    background-color: transparent;
+    font-size: large;
+    color: orange;
+    transition: none;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#customize.btn-warning:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/

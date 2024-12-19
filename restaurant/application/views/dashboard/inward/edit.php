@@ -10,8 +10,8 @@ if ($unitmaster) {
 	<div class="container d-block">
 		<div class="row">
 			<div class="col-12 col-md-6 order-md-1 order-last">
-			    <a href="<?php echo base_url(); ?>inward/listRecords"><i class="fa fa-times fa-2x"></i></a>
-		    </div>
+				<a href="<?php echo base_url(); ?>inward/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a>
+			</div>
 		</div>
 	</div>
 </nav>
@@ -25,7 +25,7 @@ if ($unitmaster) {
 					</div>
 					<div class="card-content">
 						<div class="card-body">
-							<form id="inwardForm" class="form" method="post" enctype="multipart/form-data" action="<?= base_url('inward/updateInwards') ?>" data-parsley-validate >
+							<form id="inwardForm" class="form" method="post" enctype="multipart/form-data" action="<?= base_url('inward/updateInwards') ?>" data-parsley-validate>
 								<?php
 								echo "<div class='text-danger text-center' id='error_message'>";
 								if (isset($error_message)) {
@@ -49,23 +49,23 @@ if ($unitmaster) {
 													<div class="form-group mandatory">
 														<label for="product-name" class="form-label">Branch</label>
 														<input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code'] ?>">
-														<?php if($branchCode!=""){?>
-														      <input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
-															  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-														 <?php } else{?>
-														<select class="form-select select2" name="branchCode" id="branchCode" data-parsley-required="true" required>
-															<option value="">Select</option>
-															<?php if ($branch) {
-																foreach ($branch->result() as $br) {
-																	if ($result['branchCode'] == $br->code) {
-																		echo '<option value="' . $br->code . '" selected>' . $br->branchName . '</option>';
-																	} else {
-																		echo '<option value="' . $br->code . '">' . $br->branchName . '</option>';
+														<?php if ($branchCode != "") { ?>
+															<input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
+															<input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+														<?php } else { ?>
+															<select class="form-select select2" name="branchCode" id="branchCode" data-parsley-required="true" required>
+																<option value="">Select</option>
+																<?php if ($branch) {
+																	foreach ($branch->result() as $br) {
+																		if ($result['branchCode'] == $br->code) {
+																			echo '<option value="' . $br->code . '" selected>' . $br->branchName . '</option>';
+																		} else {
+																			echo '<option value="' . $br->code . '">' . $br->branchName . '</option>';
+																		}
 																	}
-																}
-															} ?>
-														</select>
-														 <?php } ?>
+																} ?>
+															</select>
+														<?php } ?>
 													</div>
 												</div>
 												<div class="col-md-4 col-12">
@@ -87,18 +87,18 @@ if ($unitmaster) {
 												</div>
 
 											</div>
-											
+
 											<div class="row">
 												<div class="col-md-4 col-12">
 													<div class="form-group mandatory">
 														<label for="" class="form-label">Total</label>
-														<input type="number"  step="0.01" id="total" class="form-control" required name="total" readonly value="<?= $result['total'] ?>" required>
+														<input type="number" step="0.01" id="total" class="form-control" required name="total" readonly value="<?= $result['total'] ?>" required>
 													</div>
 												</div>
 												<!--<div class="col-md-4 col-12">
 													<div class="form-group">
 														<label for="product-name" class="form-label">Reference</label>
-														<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref']?>">
+														<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref'] ?>">
 													</div>
 												</div>-->
 												<div class="col-md-2 col-12 d-none">
@@ -130,7 +130,7 @@ if ($unitmaster) {
 															$i = 1;
 															if ($inwardLineEntries) {
 																foreach ($inwardLineEntries->result_array() as $co) {
-															    
+
 															?>
 																	<tr id="row<?= $i ?>" class="inrows removeclassP<?= $i ?>">
 																		<td>
@@ -167,7 +167,7 @@ if ($unitmaster) {
 																			</select>
 																		</td>
 																		<td>
-																			<input type="number" class="form-control" name="itemQty[]"  id="itemQty<?= $i ?>" value="<?= $co['itemQty'] ?>"  onchange="checkQty(<?= $i ?>);" onkeyup="calculate_subTotal(<?= $i ?>);">
+																			<input type="number" class="form-control" name="itemQty[]" id="itemQty<?= $i ?>" value="<?= $co['itemQty'] ?>" onchange="checkQty(<?= $i ?>);" onkeyup="calculate_subTotal(<?= $i ?>);">
 																		</td>
 																		<td>
 																			<input type="number" step="0.01" class="form-control" name="itemPrice[]" onchange="checkPrice(<?= $i ?>);" id="itemPrice<?= $i ?>" value="<?= $co['itemPrice'] ?>" onkeyup="calculate_subTotal(<?= $i ?>)">
@@ -179,29 +179,28 @@ if ($unitmaster) {
 																			<a href="#" class="btn btn-danger" onclick="delete_row(<?= $i ?>,'<?= $co['code'] ?>')"><i class="fa fa-trash"></i>
 																		</td>
 																	</tr>
-															<?php 
-															    $i+=1;
-															   }
-															
-															} ?> 														
+															<?php
+																	$i += 1;
+																}
+															} ?>
 														</tbody>
 													</table>
 													<div id="pricesection_add_btn">
 														<div class="col-md-1 mb-3">
-															<?php if($i==1) { ?>
-																<button class="btn btn-success" type="button"  onclick="add_row(1,'add');"><i class="fa fa-plus"></i></button>
-															<?php } else {?>
-																<button class="btn btn-success" type="button"  onclick="add_row(<?=$i-1?>,'edit');"><i class="fa fa-plus"></i></button>
+															<?php if ($i == 1) { ?>
+																<button class="btn btn-success" type="button" onclick="add_row(1,'add');"><i class="fa fa-plus"></i></button>
+															<?php } else { ?>
+																<button class="btn btn-success" type="button" onclick="add_row(<?= $i - 1 ?>,'edit');"><i class="fa fa-plus"></i></button>
 															<?php } ?>
 														</div>
 													</div>
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-12 d-flex justify-content-end">
-												    <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveInwardBtn">Save</button>
-													<a href="<?php echo base_url(); ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary me-1 mb-1">Close</a>
+												<div class="col-12 d-flex justify-content-end"> 
+													<button type="submit" id="saveDefault" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
+													<button type="submit" class="btn btn-success" id="saveInwardBtn">Save</button>
+													<a href="<?php echo base_url(); ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary">Close</a>
 												</div>
 											</div>
 										</div>
@@ -217,10 +216,11 @@ if ($unitmaster) {
 	</section>
 </div>
 <script type="text/javascript">
-    var room = 1;
+	var room = 1;
 	var objTo = document.querySelector('#table-rows');
 	var unitoptions = "<?= $units ?>";
-    function eventFire() {
+
+	function eventFire() {
 		var $eventSelect = $(`select.itemsdropDown`);
 		$eventSelect.on("select2:select", function(e) {
 			var itemCode = e.target.value;
@@ -246,8 +246,8 @@ if ($unitmaster) {
 		});
 	}
 	$(document).ready(function() {
-		
-	    $("select.itemsdropDown").select2({
+
+		$("select.itemsdropDown").select2({
 			placeholder: "Select Item",
 			allowClear: true,
 			ajax: {
@@ -270,7 +270,7 @@ if ($unitmaster) {
 			}
 		});
 		eventFire();
-		
+
 		$('.cancel').removeClass('btn-default').addClass('btn-info');
 		var today = new Date().toISOString().split('T')[0];
 		document.getElementsByName("inwardDate")[0].setAttribute('max', today);
@@ -280,42 +280,42 @@ if ($unitmaster) {
 			if (String.fromCharCode(charCode).match(/[^1-9]/g))
 				return false;
 		});
-		
+
 		$('#cancelInwardBtn').click(function(e) {
 			window.location.reload();
 		});
-		
-		$("body").delegate(".add_fields","click",function(){
+
+		$("body").delegate(".add_fields", "click", function() {
 			var pos = $(this).data('id');
 			var flag = $(this).data('flag');
-			add_row(pos,flag);
+			add_row(pos, flag);
 		});
-		
+
 		$("body").delegate(".remove_price_fields", "click", function(e) {
-		e.preventDefault();;
-		var remove_room_id = Number($(this).data('id'));
-		swal({
-			title: "Are you sure?",
-			text: "You want to delete this item ",
-			type: "warning",
-			showCancelButton: !0,
-			confirmButtonColor: "#DD6B55",
-			confirmButtonText: "Yes, delete it!",
-			cancelButtonText: "No, cancel it!",
-			closeOnConfirm: !1,
-			closeOnCancel: !1
-		}, function(e) {
-			if (e) {
-				swal.close();
-				$(".removeclassP" + remove_room_id).remove();
-				$("#pricesection_add_btn").empty().append('<div class="col-md-1 mb-3"><button type="button" data-id="' + (remove_room_id - 1) + '" class="btn btn-success add_fields" ><i class="fa fa-plus"></i></button></div>');
-				calculateTotal();
-			} else {
-				swal.close();
-			}
+			e.preventDefault();;
+			var remove_room_id = Number($(this).data('id'));
+			swal({
+				title: "Are you sure?",
+				text: "You want to delete this item ",
+				type: "warning",
+				showCancelButton: !0,
+				confirmButtonColor: "#DD6B55",
+				confirmButtonText: "Yes, delete it!",
+				cancelButtonText: "No, cancel it!",
+				closeOnConfirm: !1,
+				closeOnCancel: !1
+			}, function(e) {
+				if (e) {
+					swal.close();
+					$(".removeclassP" + remove_room_id).remove();
+					$("#pricesection_add_btn").empty().append('<div class="col-md-1 mb-3"><button type="button" data-id="' + (remove_room_id - 1) + '" class="btn btn-success add_fields" ><i class="fa fa-plus"></i></button></div>');
+					calculateTotal();
+				} else {
+					swal.close();
+				}
+			});
 		});
 	});
-});
 
 	function isNumber(evt) {
 		evt = (evt) ? evt : window.event;
@@ -336,7 +336,7 @@ if ($unitmaster) {
 			return false;
 		}
 	}
-	
+
 	function add_row(count, flag) {
 		if (flag == 'edit') {
 			if (room == 1) {
@@ -459,7 +459,7 @@ if ($unitmaster) {
 					dataType: "JSON",
 					success: function(response) {
 						if (response) {
-							
+
 							swal({
 									title: "Completed",
 									text: "Successfully Deleted",
@@ -467,7 +467,7 @@ if ($unitmaster) {
 								},
 								function(isConfirm) {
 									if (isConfirm) {
-										
+
 										var row = document.getElementById("row" + id);
 										row.parentNode.removeChild(row);
 										calculateTotal();
@@ -480,14 +480,14 @@ if ($unitmaster) {
 						}
 					}
 				});
-			}else{
+			} else {
 				swal.close();
 			}
 		});
 	}
 
 
-	function checkDuplicateItem(id) { 
+	function checkDuplicateItem(id) {
 		var table = document.getElementById("pert_tbl");
 		var table_len = (table.rows.length) - 1;
 		var tr = table.getElementsByTagName("tr");
@@ -495,7 +495,7 @@ if ($unitmaster) {
 		if (itemCode != "") {
 			for (i = 1; i <= table_len; i++) {
 				var rowClass = tr[i].classList;
-				var row_id = rowClass[1].substring(12); 
+				var row_id = rowClass[1].substring(12);
 				var itemCode_row = document.getElementById("itemCode" + row_id).value.toLowerCase();
 				if (itemCode_row == itemCode && row_id != id) {
 					toastr.error('Item already exists', 'Duplicate', {
@@ -515,7 +515,7 @@ if ($unitmaster) {
 		}
 	}
 
-   function calculate_subTotal(id) {
+	function calculate_subTotal(id) {
 		var itemQty = Number($('#itemQty' + id).val());
 		var itemPrice = Number($('#itemPrice' + id).val());
 		subTotal = itemQty * itemPrice;
@@ -532,7 +532,7 @@ if ($unitmaster) {
 				total += Number(element.value);
 			});
 		}
-		$('#total').val(total.toFixed(2)); 
+		$('#total').val(total.toFixed(2));
 	}
 
 	function checkPrice(id) {

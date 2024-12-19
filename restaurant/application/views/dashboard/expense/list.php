@@ -15,15 +15,19 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_account_expense"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_account_expense">
+                                <i class="fa fa-plus-circle cursor_pointer"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -73,13 +77,13 @@
                                             <div class="form-group row mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Branch</label>
                                                 <div class="col-md-8">
-												    <?php if($branchCode!=""){?>		
-														  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
-                                                    <select class="form-select select2" style="width:100%" name="branch" id="branch" required data-parsley-required-message="Branch is required">
-                                                        
-                                                    </select>
-													<?php } ?>
+                                                    <?php if ($branchCode != "") { ?>
+                                                        <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+                                                    <?php } else { ?>
+                                                        <select class="form-select select2" style="width:100%" name="branch" id="branch" required data-parsley-required-message="Branch is required">
+
+                                                        </select>
+                                                    <?php } ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -121,10 +125,10 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-											<?php if($insertRights==1){ ?>
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveAccountExpenseBtn">Save</button>
-											<?php } ?>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeAccountExpenseBtn" data-bs-dismiss="modal">Close</button>
+                                            <?php if ($insertRights == 1) { ?>
+                                                <button type="submit" class="btn btn-primary" id="saveAccountExpenseBtn">Save</button>
+                                            <?php } ?>
+                                            <button type="button" class="btn btn-light-secondary" id="closeAccountExpenseBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -204,7 +208,7 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal">Close</button>
+                                            <button id="cancelDefault" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                             </div>
@@ -219,28 +223,28 @@
     $(document).ready(function() {
         $('.cancel').removeClass('btn-default').addClass('btn-info');
         loadAccountExpense();
-		$("#branch").select2({
-			    placeholder: "Select Branch",
-                allowClear: true,
-				ajax: {
-					url:  base_path+'Common/getBranch',
-					type: "get",
-					delay:250,
-					dataType: 'json',
-					data: function (params) { 
-						var query = {
-                            search: params.term
-                          }
-                          return query;
-					}, 
-					processResults: function (response) {
-						return {
-							results: response
-						};
-					},
-					cache: true
-				}	
-		    }); 
+        $("#branch").select2({
+            placeholder: "Select Branch",
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getBranch',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
+                    return query;
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        });
     });
 
     function isNumberKey(evt) {
@@ -257,7 +261,7 @@
     $('.add_account_expense').click(function() {
         $('#accountExpenseForm').parsley().destroy();
         $('#generl_modal').modal('show');
-		$('#branch').val('').trigger('change');
+        $('#branch').val('').trigger('change');
         $('#modal_label').text('Add Account Expense');
         $('#saveAccountExpenseBtn').text('Save');
         $('#code').val('');
@@ -273,7 +277,7 @@
         if ($.fn.DataTable.isDataTable("#datatableAccountExpense")) {
             $('#datatableAccountExpense').DataTable().clear().destroy();
         }
-        
+
         var dataTable = $('#datatableAccountExpense').DataTable({
             stateSave: true,
             "processing": true,
@@ -285,7 +289,7 @@
                 type: "GET",
                 "complete": function(response) {
                     $('.edit_account_expense').click(function() {
-                        
+
                         var code = $(this).data('seq');
                         var type = $(this).data('type');
                         $.ajax({

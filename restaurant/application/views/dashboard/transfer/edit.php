@@ -11,7 +11,7 @@ if ($unitmaster) {
     <div class="container d-block">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <a href="<?php echo base_url(); ?>Transfer/listRecords"><i class="fa fa-times fa-2x"></i></a>
+                <a href="<?php echo base_url(); ?>Transfer/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a>
             </div>
         </div>
     </div>
@@ -38,34 +38,36 @@ if ($unitmaster) {
                                     $result = $inwardData->result_array()[0];
                                 ?>
                                     <div class="form-group row">
-                                        <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+
+
+                                        <div class="col-md-2 col-sm-12 col-xs-12 mb-3">
                                             <label class="form-label lng">Date<i class="text-danger">*</i></label>
                                             <input type="date" class="form-control bg-white" name="transferDate" id="transferDate" value="<?= date('Y-m-d', strtotime($result['inwardDate'])) ?>">
                                         </div>
-                                        <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+
+
+                                        <div class="col-md-5 col-sm-12 col-xs-12 mb-3">
                                             <label class="form-label lng">From Branch</label>
-                                            <div class="form-group mb-3 d-flex">
-                                                <div class="col-md-10 col-sm-12 col-xs-12">
-                                                    <input type="hidden" class="form-control" id="transferCode" name="transferCode" value="<?= $result['code'] ?>">
-                                                    <input type="hidden" class="form-control" id="fromBranch" name="fromBranch" value="<?= $result['branchCode'] ?>">
-                                                    <input type="text" class="form-control" id="fromBranchName" name="fromBranchName" value="<?= $result['fromBranchName'] ?>" readonly>
-
-                                                </div>
-
+                                            <div class="form-group col-md-12 col-sm-12 col-xs-12 mb-3 d-flex">
+                                                <input type="hidden" class="form-control" id="transferCode" name="transferCode" value="<?= $result['code'] ?>">
+                                                <input type="hidden" class="form-control" id="fromBranch" name="fromBranch" value="<?= $result['branchCode'] ?>">
+                                                <input type="text" class="form-control" id="fromBranchName" name="fromBranchName" value="<?= $result['fromBranchName'] ?>" readonly>
                                             </div>
                                         </div>
-                                        <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+
+
+                                        <div class="col-md-5 col-sm-12 col-xs-12 mb-3">
                                             <label class="form-label lng">To Branch</label>
-                                            <div class="form-group mb-3 d-flex">
-                                                <div class="col-md-10 col-sm-12 col-xs-12">
-                                                    <input type="hidden" class="form-control" id="toBranch" name="toBranch" value="<?= $result['supplierCode'] ?>">
-                                                    <input type="text" class="form-control" id="toBranchName" name="toBranchName" value="<?= $result['toBranchName'] ?>" readonly>
-                                                </div>
-                                                <a href="<?php echo base_url(); ?>Branch/listRecords" class="col-md-2 col-sm-12 col-xs-12 circleico btn btn-primary a_plus text-light d-flex align-items-center justify-content-center rounded-circle shadow-sm " style="">
+                                            <div class="form-group mb-3 col-md-10 col-sm-12 col-xs-12 d-flex">
+                                                <input type="hidden" class="form-control" id="toBranch" name="toBranch" value="<?= $result['supplierCode'] ?>">
+                                                <input type="text" class="form-control" id="toBranchName" name="toBranchName" value="<?= $result['toBranchName'] ?>" readonly>
+                                                <a id="view" href="<?php echo base_url(); ?>Branch/listRecords" class="col-md-2 col-sm-12 col-xs-12 circleico btn btn-primary a_plus d-flex align-items-center justify-content-center rounded-circle shadow-sm " style="">
                                                     <i class="fa fa-plus"></i>
                                                 </a>
                                             </div>
                                         </div>
+
+
                                     </div>
                                     <table class="table table-bordered table-hover" id="transferTable">
                                         <thead>
@@ -124,7 +126,7 @@ if ($unitmaster) {
                                                                 }
                                                                 ?>
                                                             </select>
-                                                        </td> 
+                                                        </td>
                                                         <td class="test">
                                                             <input type="text" class="form-control subtotal" name="subTotal[]" id="subTotal<?= $i ?>" readonly value="<?= $co['subTotal'] ?>">
                                                         </td>
@@ -139,7 +141,7 @@ if ($unitmaster) {
                                         </tbody>
                                     </table>
                                     <div id="pricesection_add_btn">
-                                        <div class="col-md-1 mb-3">
+                                        <div class="col-md-1">
                                             <?php if ($i == 1) { ?>
                                                 <button class="btn btn-success" type="button" onclick="add_row(1,'add');"><i class="fa fa-plus"></i></button>
                                             <?php } else { ?>
@@ -147,6 +149,8 @@ if ($unitmaster) {
                                             <?php } ?>
                                         </div>
                                     </div>
+
+
                                     <div class="row">
                                         <div class="col-md-4 offset-md-8 col-12">
                                             <div class="form-group mandatory">
@@ -155,14 +159,16 @@ if ($unitmaster) {
                                             </div>
                                         </div>
                                         <div class="col-12 d-flex justify-content-end">
-										   <?php if ($updateRights == 1) { ?>
-										    <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
-                                            
-                                             <button type="submit" class="btn btn-success white me-2 mb-1 sub_1" id="saveTransferBtn">Transfer</button>
+                                            <?php if ($updateRights == 1) { ?>
+                                                <button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
+
+                                                <button type="submit" class="btn btn-success" id="saveTransferBtn">Transfer</button>
                                             <?php } ?>
-                                           <a href="<?php echo base_url(); ?>Transfer/listRecords" class="btn btn-light-secondary me-1 mb-1" id="cancelTransferBtn">Close</a>
+                                            <a href="<?php echo base_url(); ?>Transfer/listRecords" class="btn btn-light-secondary" id="cancelTransferBtn">Close</a>
                                         </div>
                                     </div>
+
+
                                 <?php }
                                 ?>
                             </form>
@@ -186,9 +192,9 @@ if ($unitmaster) {
             var no = id.substring(8);
             var getdata = $(this).select2('data')[0];
             //console.log(getdata);
-			if(getdata!=''){
-              $(`#itemPrice${no}`).val(getdata.price);
-			}
+            if (getdata != '') {
+                $(`#itemPrice${no}`).val(getdata.price);
+            }
             if (itemCode != '') {
                 //checkDuplicateItem(no);
                 $.ajax({
@@ -248,7 +254,7 @@ if ($unitmaster) {
     });
 
 
-    function checkDuplicateItem(id) { 
+    function checkDuplicateItem(id) {
         var table = document.getElementById("transferTable");
         var table_len = (table.rows.length) - 2;
         var tr = table.getElementsByTagName("tr");
@@ -256,7 +262,7 @@ if ($unitmaster) {
         if (itemCode != "") {
             for (i = 1; i <= table_len; i++) {
                 var rowClass = tr[i].classList;
-				var row_id = rowClass[1].substring(12);
+                var row_id = rowClass[1].substring(12);
                 var itemCode_row = document.getElementById("itemCode" + row_id).value.toLowerCase();
                 if (itemCode_row == itemCode && row_id != id) {
                     toastr.error('Item already exists', 'Transfer', {
@@ -308,49 +314,49 @@ if ($unitmaster) {
     }
 
     function checkQty(id) {
-		var newstock = $('#itemCode' + id).find(':selected').data('stock');
+        var newstock = $('#itemCode' + id).find(':selected').data('stock');
         var itemQty = Number($('#itemQty' + id).val());
-		var getdata = $('#itemCode'+id).select2('data')[0];
-		if(getdata!=""){
-			var availableStock=getdata.stock;
-		} 
+        var getdata = $('#itemCode' + id).select2('data')[0];
+        if (getdata != "") {
+            var availableStock = getdata.stock;
+        }
         if (itemQty != '' && itemQty > 0) {
-			if(availableStock !=undefined && availableStock < itemQty){
-				$('#itemQty' + id).val('');
-				calculate_subTotal(id);
-				toastr.error('Stock is not available.', 'Transfer Products', {
-					"progressBar": false
-				});
-				return false;
-			}
-			if(newstock < itemQty){
-				$('#itemQty' + id).val('');
-				calculate_subTotal(id);
-				toastr.error('Stock is not available.', 'Transfer Products', {
-					"progressBar": false
-				});
-				return false;
-			}
-			
-		} else {
+            if (availableStock != undefined && availableStock < itemQty) {
+                $('#itemQty' + id).val('');
+                calculate_subTotal(id);
+                toastr.error('Stock is not available.', 'Transfer Products', {
+                    "progressBar": false
+                });
+                return false;
+            }
+            if (newstock < itemQty) {
+                $('#itemQty' + id).val('');
+                calculate_subTotal(id);
+                toastr.error('Stock is not available.', 'Transfer Products', {
+                    "progressBar": false
+                });
+                return false;
+            }
+
+        } else {
             $('#itemQty' + id).val('');
             toastr.error('Item Quantity should be greater than 0', 'Transfer Products', {
                 "progressBar": false
             });
             return false;
         }
-		
-		 calculate_subTotal(id);
+
+        calculate_subTotal(id);
 
     }
 
     function calculate_subTotal(id) {
         var itemQty = Number($('#itemQty' + id).val());
-		var itemPrice = Number($('#itemPrice' + id).val())
-		subTotal = itemQty * itemPrice;
-		$('input#subTotal' + id).val(subTotal);
-		calculateTotal();
-        
+        var itemPrice = Number($('#itemPrice' + id).val())
+        subTotal = itemQty * itemPrice;
+        $('input#subTotal' + id).val(subTotal);
+        calculateTotal();
+
     }
 
     function calculateTotal() {

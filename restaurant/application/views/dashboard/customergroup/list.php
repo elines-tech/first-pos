@@ -23,12 +23,12 @@
                     <div class="card-header">
 					<?php if($insertRights==1){ ?>
                         <div class="col-12 order-md-1 order-last" id="leftdiv">
-                            <h5><i class="fa fa-plus-circle"></i> Add Customer Groups</h5>
+                            <h5><i class="fa fa-plus-circle"></i> Add Customer Groups</h5> 
 
                         </div>
 					<?php } ?>
                     </div>
-                    <div class="card-content">
+                    <div class="card-content"> 
                         <div class="card-body" id="appendForm">
 
                         </div>

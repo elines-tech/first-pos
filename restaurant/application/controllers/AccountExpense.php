@@ -68,13 +68,13 @@ class AccountExpense extends CI_Controller
                 $code = $row->code;
 				$actionHtml='<div class="d-flex">';
 				if($this->rights !='' && $this->rights['view']==1){
-					$actionHtml .= ' <a class="btn btn-sm btn-success cursor_pointer view_account_expense m-1" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= ' <a id="view" class="btn btn-sm btn-success cursor_pointer view_account_expense m-1" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
 				}
 				if($this->rights !='' && $this->rights['update']==1){
-					$actionHtml .= '<a class="btn btn-sm btn-info cursor_pointer edit_account_expense m-1" data-seq="' . $row->code . '" data-type="2"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="btn btn-sm btn-info cursor_pointer edit_account_expense m-1" data-seq="' . $row->code . '" data-type="2"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if($this->rights !='' && $this->rights['delete']==1){
-					$actionHtml .= '<a class="btn btn-sm btn-danger cursor_pointer delete_account_expense m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a></div>';
+					$actionHtml .= '<a id="delete" class="btn btn-sm btn-danger cursor_pointer delete_account_expense m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a></div>';
 				}
                 $date = "";
                 if ($row->accExpenseDate != "") {

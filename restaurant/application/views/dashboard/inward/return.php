@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>inward/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>inward/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 
 		</div>
 	</div>
@@ -154,8 +154,8 @@
 											</div>
 											<div class="row">
 												<div class="col-12 d-flex justify-content-end">
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveReturnBtn">Save</button>
-													<button type="button" id="cancelReturnBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+													<button type="submit" class="btn btn-success" id="saveReturnBtn">Save</button>
+													<button type="button" id="cancelReturnBtn" class="btn btn-light-secondary">Reset</button>
 												</div>
 											</div>
 										</div>

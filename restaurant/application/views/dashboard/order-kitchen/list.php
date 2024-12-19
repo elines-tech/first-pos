@@ -8,8 +8,8 @@
         </div>
         <div class="col-5 align-self-center">
             <div class="d-flex no-block justify-content-end align-items-center">
-                <h5 class="text-danger mx-1 m-b-0 font-medium"><span id="timeOut"></span>'s</h5>
-                <a class="btn btn-sm btn-outline-info mx-1" href="<?= base_url('Kitchen/listRecords') ?>"><i class="fa fa-angle-left"></i> Back </a>
+                <h5 class="text-danger mx-1 mt-1 font-medium"><span id="timeOut"></span>'s</h5>
+                <a id="cancelDefault" class="btn btn-sm btn-light-secondary mx-1" href="<?= base_url('Kitchen/listRecords') ?>"><i class="fa fa-angle-left"></i> Back </a>
             </div>
         </div>
     </div>
@@ -27,6 +27,9 @@
     </div>
 </div>
 
+
+
+
 <div class="modal fade text-left" id="generl_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel130" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -39,4 +42,6 @@
         </div>
     </div>
 </div>
+
+
 <script src="<?= base_url("assets/init_site/kitchenorderlist.js") ?>"></script>
