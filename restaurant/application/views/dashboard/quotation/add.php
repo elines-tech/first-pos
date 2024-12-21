@@ -8,7 +8,7 @@
 </nav>
 
 
-<div class="container">
+<div class="container mb-5">
 	<section id="multiple-column-form" class="mt-5">
 		<div class="row match-height">
 			<div class="col-12">
@@ -138,39 +138,54 @@
 													<tfoot>
 
 														<tr>
-															<td class="text-right"><b>Subtotal :</b></td>
-															<td>
-																<input type="text" id="subTotal" class="text-right form-control" name="subTotal" value="0.00" readonly="readonly" autocomplete="off">
+															<td colspan="3">
+																<label><b>Subtotal</b></label>
+																<input type="text" id="subTotal" class="text-center form-control" name="subTotal" value="0.00" readonly="readonly" autocomplete="off">
 															</td>
 
-															<td class="text-right"><b>Discount (₹) :</b></td>
-															<td>
-																<input type="text" id="discount" class="text-right form-control decimal" name="discount" autocomplete="off" onkeyup="calculateTotal()">
+														</tr>
+
+														<tr>
+
+															<td colspan="3">
+																<label class="text-right text-nowrap"><b>Discount (₹)</b></label>
+																<input type="text" id="discount" class="text-center form-control decimal" name="discount" autocomplete="off" onkeyup="calculateTotal()">
 															</td>
+
+														</tr>
+
+														<tr>
+
+															<td colspan="3">
+																<label class="text-right text-nowrap"><b>Discount Amount</b></label>
+																<input type="text" id="discountAmount" class="text-center form-control decimal" name="discountAmount" disabled>
+															</td>
+
+
 														</tr>
 
 
 														<tr>
-															<td class="text-right"><b>Discount Amount:</b></td>
-															<td>
-																<input type="text" id="discountAmount" class="text-right form-control decimal" name="discountAmount" disabled>
-															</td>
 
-
-															<td class="text-right"><b>Tax :</b></td>
-															<td>
-																<input type="hidden" id="totalTax" class="text-right form-control" name="totalTax" readonly="readonly" value="0.00" autocomplete="off">
-																<input type="text" id="taxAmount" class="text-right form-control" name="taxAmount" readonly="readonly" value="0.00" autocomplete="off">
+															<td colspan="3">
+																<label class="text-right"><b>Tax</b></label>
+																<input type="hidden" id="totalTax" class="text-center form-control" name="totalTax" readonly="readonly" value="0.00" autocomplete="off">
+																<input type="text" id="taxAmount" class="text-center form-control" name="taxAmount" readonly="readonly" value="0.00" autocomplete="off">
 
 															</td>
+
 														</tr>
 
 
 														<tr>
-															<td class="text-right"><b>Grand Total :</b></td>
-															<td>
-																<input type="text" id="grandTotal" class="text-right form-control" name="grandTotal" readonly="readonly" value="0.00" autocomplete="off">
+
+
+															<td colspan="3">
+																<label class="text-right"><b>Grand Total</b></label>
+																<input type="text" id="grandTotal" class="text-center form-control" name="grandTotal" readonly="readonly" value="0.00" autocomplete="off">
 															</td>
+
+
 														</tr>
 
 
@@ -189,7 +204,7 @@
 												<?php if ($insertRights == 1) { ?>
 													<button type="submit" class="btn btn-success" id="saveQuotationBtn">Save</button>
 												<?php } ?>
-												<button type="button" id="cancelQuotationBtn" class="btn btn-light-secondary">Reset</button>
+												<button type="reset" id="cancelQuotationBtn" class="btn btn-light-secondary">Reset</button>
 											</div>
 										</div>
 									</div>

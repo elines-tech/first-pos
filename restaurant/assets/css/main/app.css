@@ -21199,6 +21199,7 @@ body .bi:before {
 
 
 
+
 #cancelTransferBtn.btn.btn-light-secondary {
     background-color: red;
     color: white;
@@ -21398,6 +21399,35 @@ body .bi:before {
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/
     transform: none
+}
+
+
+.btn-printFormat{
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#datatableTable_paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+.btn-printFormat:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+    background-color: #37B181;
 }
 
 

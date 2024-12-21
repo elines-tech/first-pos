@@ -221,7 +221,7 @@ class Report extends CI_Controller
 		if ($Records) {
 			foreach ($Records->result() as $row) {
 				$code = $row->code;
-				$actionHtml = ' <a class="btn btn-success btn-sm cursor_pointer edit_group" data-seq="' . $row->code . '"><i id="view" title="View" class="fa fa-eye"></i></a>';
+				$actionHtml = ' <a id="view" class="btn btn-success btn-sm cursor_pointer edit_group" data-seq="' . $row->code . '"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				if ($export == 0) {
 					$data[] = array($srno, $row->code, date('d/m/Y', strtotime($row->inwardDate)), $row->fromBranchName, $row->toBranchName, $row->total, $actionHtml);
 				} else {
@@ -271,7 +271,7 @@ class Report extends CI_Controller
 		$Records = $this->GlobalModel->selectQuery($orderColumns, $tableName, $condition, $orderBy, $join, $joinType, $like, $limit, $offset, $groupByColumn, $extraCondition);
 		if ($Records) {
 			foreach ($Records->result() as $row) {
-				$actionHtml = '<a href="' . base_url() . 'purchaseReport/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
+				$actionHtml = '<a id="view" href="' . base_url() . 'purchaseReport/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				if ($export == 0) {
 					$data[] = array($srno, $row->code, date('d/m/Y', strtotime($row->inwardDate)), $row->branchName, $row->supplierName, $row->total, $actionHtml);
 				} else {
