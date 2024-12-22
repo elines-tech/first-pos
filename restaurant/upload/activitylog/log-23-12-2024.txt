@@ -1,0 +1,48 @@
+Dt --> 23-12-24 01:16:20 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-23 01:17:01	127.0.0.1	Admin	saidemad	CAT_3 - category category is added.
+2024-12-23 01:18:13	127.0.0.1	Admin	saidemad	ITEM24_2 - burger item is added.
+2024-12-23 01:19:17	127.0.0.1	Admin	saidemad	PCAT_3 - foods product category is added.
+23-12-24 01:20:15	127.0.0.1	Admin	saidemad	PRO24_3 - bbbbbbbbbbbbbb Product is added.
+Dt --> 23-12-24 01:21:06 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 23-12-24 01:21:38 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 23-12-24 01:22:24 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 23-12-24 01:25:24 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-23 01:25:35	127.0.0.1	Admin	saidemad	PCAT_1 - dsadf product category is deleted.
+2024-12-23 01:25:38	127.0.0.1	Admin	saidemad	PCAT_2 - dsds product category is deleted.
+23-12-24 01:26:33	127.0.0.1	Admin	saidemad	PRO24_3 - bbbbbbbbbbbbbb Product is updated.
+23-12-24 01:27:25	127.0.0.1	Admin	saidemad	PRO24_3 - bbbbbbbbbbbbbb Product is updated.
+2024-12-23 01:27:59	127.0.0.1	Admin	saidemad	REC24_2 - PRO24_3 recipe is added.
+2024-12-23 01:30:06	127.0.0.1	Admin	saidemad	PSCT_2 - fffffffffff product Subcategory is added.
+23-12-24 01:30:25	127.0.0.1	Admin	saidemad	PRO24_3 - bbbbbbbbbbbbbb Product is updated.
+2024-12-23 01:30:40	127.0.0.1	Admin	saidemad	REC24_2 - PRO24_3 recipe is updated.
+2024-12-23 01:31:31	127.0.0.1	Admin	saidemad	REC24_2 - PRO24_3 recipe is updated.
+2024-12-23 01:31:36	127.0.0.1	Admin	saidemad	REC24_2 - PRO24_3 recipe is updated.
+23-12-24 01:33:25	127.0.0.1	Admin	saidemad	PRO24_3 - bbbbbbbbbbbbbb Product is updated.
+2024-12-23 01:34:09	127.0.0.1	Admin	saidemad	PC_2 - burgerProduct Combo is updated.
+2024-12-23 01:36:10	127.0.0.1	Admin	saidemad	REC24_2 - PRO24_3 recipe is updated.
+2024-12-23 01:39:25	127.0.0.1	Admin	saidemad	PCAT_4 - drinks product category is added.
+23-12-24 01:39:37	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:39:42	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:39:56	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:40:10	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:40:19	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:40:40	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is updated.
+23-12-24 01:40:47	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:40:58	127.0.0.1	Admin	saidemad	PRO24_1 - gdfgfdgfdgd Product is updated.
+23-12-24 01:41:01	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:41:14	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+23-12-24 01:42:07	127.0.0.1	Admin	saidemad	PRO24_2 - dddddddddddddd Product is updated.
+2024-12-23 01:43:10	127.0.0.1	Admin	saidemad	REC24_3 - PRO24_2 recipe is added.
+23-12-24 02:51:44	127.0.0.1	Admin	saidemad	USR24_7 - wwwwwcom User is updated.
+23-12-24 02:55:16	127.0.0.1	Admin	saidemad	USR24_10 - taha User is added.
+Dt --> 23-12-24 02:55:51 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 23-12-24 02:56:09 IP --> 127.0.0.1 LOGIN USER --> USR24_10 ADDED USER --> USR24_10 	USR24_10 User id is login.
+Dt --> 23-12-24 02:56:27 IP --> 127.0.0.1 LOGIN USER --> USR24_10 ADDED USER --> USR24_10 	USR24_10 User id is logout.
+Dt --> 23-12-24 02:56:37 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 23-12-24 02:57:31 IP --> 127.0.0.1 LOGIN USER --> USR24_10 ADDED USER --> USR24_10 	USR24_10 User id is login.
+23-12-24 03:03:37	127.0.0.1	Chef	taha	USR24_11 - waiter User is added.
+Dt --> 23-12-24 03:03:45 IP --> 127.0.0.1 LOGIN USER --> USR24_10 ADDED USER --> USR24_10 	USR24_10 User id is logout.
+Dt --> 23-12-24 03:04:18 IP --> 127.0.0.1 LOGIN USER --> USR24_11 ADDED USER --> USR24_11 	USR24_11 User id is login.
+Dt --> 23-12-24 03:05:02 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 23-12-24 03:06:22 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 23-12-24 03:06:33 IP --> 127.0.0.1 LOGIN USER --> USR24_11 ADDED USER --> USR24_11 	USR24_11 User id is login.
