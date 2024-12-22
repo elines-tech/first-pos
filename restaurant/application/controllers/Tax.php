@@ -66,10 +66,10 @@ class Tax extends CI_Controller
 
 				$actionHtml = '<div class="d-flex">';
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-info mx-1 cursor_pointer edit_tax" data-seq="' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="btn btn-sm btn-info mx-1 cursor_pointer edit_tax" data-seq="' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-danger mx-1 delete_tax" data-seq="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a id="delete" class="btn btn-sm btn-danger mx-1 delete_tax" data-seq="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
 				}
 				$actionHtml .= '</div>';
 
@@ -269,10 +269,10 @@ class Tax extends CI_Controller
 
 				$actionHtml = '<div class="d-flex">';
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-info cursor_pointer edit_group mx-1" data-seq="' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="btn btn-sm btn-info cursor_pointer edit_group mx-1" data-seq="' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-danger cursor_pointer delete_group mx-1"  data-seq="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a id="delete" class="btn btn-sm btn-danger cursor_pointer delete_group mx-1"  data-seq="' . $row->code . '" ><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
 				}
 				$actionHtml .= '</div>';
 

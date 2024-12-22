@@ -19,13 +19,15 @@
             <div id="maindiv" class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                        <h2><a class="add_zone"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_zone"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         <?php } ?>
 
-        <section class="section">
+        <section class="section items-center justify-content-center">
             <div class="card">
                 <div class="card-header">
                     <div class="row">
@@ -50,6 +52,8 @@
                 </div>
             </div>
         </section>
+
+
     </div>
 </div>
 <div class="modal fade text-left" id="generl_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel130" aria-hidden="true">
@@ -69,20 +73,20 @@
                                             <div class="form-group row mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Branch</label>
                                                 <div class="col-md-8">
-												     <?php if($branchCode!=""){?>		
-														  <input type="text" class="form-control" name="branchCode" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
-                                                    <select class="form-select select2 validate" style="width:100%" id="branchCode" name="branchCode" required>
-                                                        <option value="">Select</option>
-                                                        <?php
-                                                        if ($branches) {
-                                                            foreach ($branches->result() as $br) {
-                                                                echo "<option value='" . $br->code . "'>" . $br->branchName . "</option>'";
+                                                    <?php if ($branchCode != "") { ?>
+                                                        <input type="text" class="form-control" name="branchCode" value="<?= $branchName; ?>" readonly>
+                                                    <?php } else { ?>
+                                                        <select class="form-select select2 validate" style="width:100%" id="branchCode" name="branchCode" required>
+                                                            <option value="">Select</option>
+                                                            <?php
+                                                            if ($branches) {
+                                                                foreach ($branches->result() as $br) {
+                                                                    echo "<option value='" . $br->code . "'>" . $br->branchName . "</option>'";
+                                                                }
                                                             }
-                                                        }
-                                                        ?>
-                                                    </select>
-													<?php } ?>
+                                                            ?>
+                                                        </select>
+                                                    <?php } ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -94,30 +98,34 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row ">
-                                                <label for="status" class="col-sm-4 col-form-label text-left">Active</label>
-                                                <div class="col-sm-8 checkbox">
-                                                    <input type="checkbox" name="isActive" checked id="isActive" class=" " style="width:25px; height:25px">
-                                                </div>
-                                            </div>
+
+
+                                        <div class="form-group d-flex mt-3 col-md-12 col-12 text-center items-center justify-content-center row">
+                                            <!--<div class="form-group row ">-->
+                                            <label for="status" class="col-sm-2 form-label">Active</label>
+                                            <!--<div class="col-sm-8 checkbox">-->
+                                            <input type="checkbox" name="isActive" checked id="isActive" class=" " style="width:25px; height:25px">
                                         </div>
+                                        <!--</div>-->
                                     </div>
-                                    <div class="row">
-                                        <div class="col-12 d-flex justify-content-end">
-                                            <input type="hidden" class="form-control validate" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveTableZoneBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeTableZoneBtn" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </form>
+
+
                             </div>
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-end">
+                                    <input type="hidden" class="form-control validate" id="code" name="code">
+                                    <button type="submit" class="btn btn-primary" id="saveTableZoneBtn">Save</button>
+                                    <button type="button" class="btn btn-light-secondary" id="closeTableZoneBtn" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <script>
     $(document).ready(function() {
@@ -276,7 +284,7 @@
                         toastr.success(response.message, 'Sector Zone', {
                             "progressBar": true,
                             "onHidden": function() {
-								window.location.href=base_path+"Sectorzone/listRecords";
+                                window.location.href = base_path + "Sectorzone/listRecords";
                                 if ($('#code').val() != '') {
                                     $('#generl_modal').modal('hide');
                                 } else {
@@ -284,8 +292,8 @@
                                     $("#branchCode").val(null).trigger('change');
                                     $('#zoneName').val('');
                                 }
-								loadTable();
-								
+                                loadTable();
+
                             }
                         });
                     } else {

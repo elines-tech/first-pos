@@ -49,7 +49,7 @@
 										</div> 
 										
 									</div>
-									<div class="col-md-6 col-12">
+									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
 											<label  class="form-label">Template</label>
 											<select class="form-select select2" name="template" id="template">
@@ -58,7 +58,7 @@
 										</div> 
 										
 									</div>
-									<div class="col-md-6 col-12">
+									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
 											<label  class="form-label">subject</label>
 											<input type="text" class="form-control" name="subject" id="subject"/>
@@ -72,10 +72,10 @@
 										</div> 
 										<?php echo form_error('message', '<span class="error text-danger text-right">', '</span>'); ?>
 									</div>
-                                    <div class="row">
+                                    <div class="row mt-3">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-success white me-1 mb-1 sub_1">Send</button>
-                                            <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                            <button id="saveDefault" type="submit" class="btn btn-success white">Send</button>
+                                            <button id="cancelDefault" type="reset" class="btn btn-light-secondary">Reset</button>
                                         </div>
                                     </div>
                             </form>

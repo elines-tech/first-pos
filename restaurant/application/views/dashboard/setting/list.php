@@ -59,16 +59,19 @@ if ($setting) {
                     </div>
                 <?php
                 } ?>
+
+
                 <div class="card">
                     <div class="card-body">
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-servicecharge-tab" data-bs-toggle="tab" data-bs-target="#nav-servicecharge" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Serive Charge</button>
-                                <button class="nav-link" id="nav-waitingtime-tab" data-bs-toggle="tab" data-bs-target="#nav-waitingtime" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Waiting Time</button>
-                                <button class="nav-link" id="nav-email-tab" data-bs-toggle="tab" data-bs-target="#nav-email" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Email</button>
-                                <button class="nav-link" id="nav-textsms-tab" data-bs-toggle="tab" data-bs-target="#nav-textsms" type="button" role="tab" aria-controls="nav-textssms" aria-selected="false">Text-SMS</button>
+                                <button class="nav-link active col-md-3 col-12" id="nav-servicecharge-tab" data-bs-toggle="tab" data-bs-target="#nav-servicecharge" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Serive Charge</button>
+                                <button class="nav-link col-md-3 col-12" id="nav-waitingtime-tab" data-bs-toggle="tab" data-bs-target="#nav-waitingtime" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Waiting Time</button>
+                                <button class="nav-link col-md-3 col-12" id="nav-email-tab" data-bs-toggle="tab" data-bs-target="#nav-email" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Email</button>
+                                <button class="nav-link col-md-3 col-12" id="nav-textsms-tab" data-bs-toggle="tab" data-bs-target="#nav-textsms" type="button" role="tab" aria-controls="nav-textssms" aria-selected="false">Text-SMS</button>
                             </div>
                         </nav>
+
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-servicecharge" role="tabpanel" aria-labelledby="nav-serviceharge-tab">
                                 <div class="col-12 p-3">
@@ -81,16 +84,19 @@ if ($setting) {
                                     <form class="form" id="frmServiceCharge" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url('setting/servicecharge'); ?>">
                                         <input type="hidden" id="settingCode" readonly name="settingCode" class="form-control" value="STG_1">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
+
+                                            <div class="col-md-12 text-center mt-3 mb-3 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">Order Service Charges</label>
                                                     <input type="number" id="settingValue" step="0.01" class="form-control" placeholder="User Name" name="settingValue" value="<?= $settingValue ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('settingValue', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-12">
-                                                <button type="submit" class="btn btn-success">Update</button>
+
+                                            <div class="col-12 text-center">
+                                                <button id="saveDefault" type="submit" class="btn btn-success">Update</button>
                                             </div>
+
                                         </div>
                                     </form>
                                 </div>
@@ -106,15 +112,15 @@ if ($setting) {
                                     <form class="form" id="frmWaitingTime" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url('setting/waitingtime'); ?>">
                                         <input type="hidden" id="settingCode" readonly name="settingCode" class="form-control" value="STG_2">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
+                                            <div class="col-md-12 mt-3 mb-3 text-center col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">Waiting Time (seconds)</label>
                                                     <input type="text" id="settingValue" minlength="2" maxlength="4" min="45" max="3600" class="form-control" placeholder="User Name" name="settingValue" value="<?= $settingValue ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('settingValue', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-12">
-                                                <button type="submit" class="btn btn-success">Update</button>
+                                            <div class="col-12 text-center">
+                                                <button id="saveDefault" type="submit" class="btn btn-success">Update</button>
                                             </div>
                                         </div>
                                     </form>
@@ -146,7 +152,7 @@ if ($setting) {
                                         }
                                     }
                                     ?>
-                                    <form class="form" id="frmEmail" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url('setting/update_email'); ?>">
+                                    <form class="form mt-3 mb-3" id="frmEmail" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url('setting/update_email'); ?>">
                                         <input type="hidden" id="settingCode" readonly name="settingCode" class="form-control" value="STG_3">
                                         <div class="row">
                                             <div class="col-md-4 col-12">
@@ -205,8 +211,8 @@ if ($setting) {
                                                 </div>
                                                 <?php echo form_error('fromname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-12">
-                                                <button type="submit" class="btn btn-success">Update</button>
+                                            <div class="col-12 text-center">
+                                                <button id="saveDefault" type="submit" class="btn btn-success">Update</button>
                                             </div>
                                         </div>
                                     </form>
@@ -234,7 +240,7 @@ if ($setting) {
                                     <form class="form" id="frmSms" enctype="multipart/form-data" data-parsley-validate method="post" action="<?= $formUrl ?>">
                                         <input type="hidden" id="settingCode" readonly name="settingCode" class="form-control" value="STG_4">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
+                                            <div class="col-md-12 mb-12 mt-12 text-center col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="maildriver" class="form-label">Provider</label>
                                                     <select id="smsprovider" minlength="1" class="form-select" name="smsprovider" value="<?= $maildriver ?>" data-parsley-required="true">
@@ -299,16 +305,19 @@ if ($setting) {
                                             ?>
                                         </div>
                                         <div class="row">
-                                            <div class="col-12">
-                                                <button type="submit" class="btn btn-success">Update</button>
+                                            <div class="col-12 text-center">
+                                                <button id="saveDefault" type="submit" class="btn btn-success">Update</button>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>

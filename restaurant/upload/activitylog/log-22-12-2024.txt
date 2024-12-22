@@ -1,0 +1,57 @@
+2024-12-22 04:33:57	127.0.0.1	Admin	saidemad	BR24_2 - hhhhhhhhhhhhhh branch is deleted.
+2024-12-22 04:34:02	127.0.0.1	Admin	saidemad	BR24_3 - bbbb Branch is added.
+2024-12-22 04:51:27	127.0.0.1	Admin	saidemad	BR24_3 - said Branch is updated.
+2024-12-22 04:52:00	127.0.0.1	Admin	saidemad	BR24_3 - said Branch is updated.
+Dt --> 22-12-24 01:59:19 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-22 15:01:20	127.0.0.1	Admin	saidemad	1 - ffff sector zone is updated.
+2024-12-22 15:08:48	127.0.0.1	Admin	saidemad	x - 1.2 table is deleted.
+Dt --> 22-12-24 03:47:48 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+22-12-24 04:40:39	127.0.0.1	Admin	saidemad	USR24_6 - ssssssssssssss User is added.
+22-12-24 04:41:47	127.0.0.1	Admin	saidemad	USR24_7 - wwwww User is added.
+22-12-24 04:41:59	127.0.0.1	Admin	saidemad	USR24_7 - wwwww User is updated.
+22-12-24 05:25:51	127.0.0.1	Admin	saidemad	USR24_8 - manager User is added.
+Dt --> 22-12-24 05:27:23 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 22-12-24 05:27:34 IP --> 127.0.0.1 LOGIN USER --> USR24_8 ADDED USER --> USR24_8 	USR24_8 User id is login.
+Dt --> 22-12-24 05:39:25 IP --> 127.0.0.1 LOGIN USER --> USR24_8 ADDED USER --> USR24_8 	USR24_8 User id is logout.
+Dt --> 22-12-24 05:39:30 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-22 17:59:09	127.0.0.1	Admin	saidemad	Textsms Setting is updated.
+2024-12-22 18:17:43	127.0.0.1	Admin	saidemad	 - dsdsd sms template is added.
+2024-12-22 18:17:54	127.0.0.1	Admin	saidemad	 - fsdfsdfsdf sms template is added.
+2024-12-22 18:18:55	127.0.0.1	Admin	saidemad	 - jghjhgjghjghj sms template is added.
+2024-12-22 18:19:22	127.0.0.1	Admin	saidemad	CAT_3 - jghjhgjghjghjsassasasasasasas sms template is updated.
+2024-12-22 18:19:45	127.0.0.1	Admin	saidemad	CAT_2 - soooooooooooo sms template is updated.
+2024-12-22 18:19:59	127.0.0.1	Admin	saidemad	CAT_3 - jghjhgjghjghjsassasasasasasas sms template is updated.
+2024-12-22 18:20:29	127.0.0.1	Admin	saidemad	Textsms Setting is updated.
+2024-12-22 18:20:41	127.0.0.1	Admin	saidemad	Textsms Setting is updated.
+2024-12-22 18:28:27	127.0.0.1	Admin	saidemad	 - dasdasd email template is added.
+2024-12-22 18:29:14	127.0.0.1	Admin	saidemad	 - fsdfsdf email template is added.
+2024-12-22 18:30:37	127.0.0.1	Admin	saidemad	 -  email template is added.
+2024-12-22 18:30:51	127.0.0.1	Admin	saidemad	CAT_5 -  email template is deleted.
+2024-12-22 18:32:36	127.0.0.1	Admin	saidemad	 -  email template is added.
+2024-12-22 18:32:45	127.0.0.1	Admin	saidemad	CAT_6 -  email template is deleted.
+2024-12-22 18:33:22	127.0.0.1	Admin	saidemad	CAT_4 - fsdfsdf email template is updated.
+2024-12-22 18:44:31	127.0.0.1	Admin	saidemad	DIS_1 - 10 discount is added.
+2024-12-22 18:46:32	127.0.0.1	Admin	saidemad	DIS_2 - 21 discount is added.
+2024-12-22 19:02:08	127.0.0.1	Admin	saidemad	COP24_1 - 2121 coupon is added.
+2024-12-22 19:02:33	127.0.0.1	Admin	saidemad	COP24_2 - 321 coupon is added.
+2024-12-22 19:05:27	127.0.0.1	Admin	saidemad	COP24_3 - fsd coupon is added.
+2024-12-22 19:09:34	127.0.0.1	Admin	saidemad	COP24_3 - sa3adaaaaa coupon is updated.
+2024-12-22 19:14:12	127.0.0.1	Admin	saidemad	OFF24_1 - ffffffffffffffffff offer is added.
+2024-12-22 19:21:37	127.0.0.1	Admin	saidemad	DIS_2 - 21.00 discount is deleted.
+Dt --> 22-12-24 07:35:52 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 22-12-24 07:37:09 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+22-12-24 07:54:44	127.0.0.1	Admin	saidemad	USR24_1 - saidemad Profile is updated.
+22-12-24 07:55:10	127.0.0.1	Admin	saidemad	USR24_1 - saidemad Profile is updated.
+22-12-24 07:55:33	127.0.0.1	Admin	saidemad	USR24_1 - saidemad Profile is updated.
+Dt --> 22-12-24 08:43:03 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 22-12-24 08:56:03 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+22-12-24 08:58:02	127.0.0.1	Admin	saidemad	USR24_9 - accounts User is added.
+Dt --> 22-12-24 08:58:20 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 22-12-24 08:58:48 IP --> 127.0.0.1 LOGIN USER --> USR24_9 ADDED USER --> USR24_9 	USR24_9 User id is login.
+Dt --> 22-12-24 08:59:11 IP --> 127.0.0.1 LOGIN USER --> USR24_9 ADDED USER --> USR24_9 	USR24_9 User id is logout.
+Dt --> 22-12-24 08:59:16 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+22-12-24 09:27:24	127.0.0.1	Admin	saidemad	PRO24_2 - ffffffffff Product is updated.
+Dt --> 22-12-24 09:28:07 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 22-12-24 09:28:18 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 22-12-24 09:29:46 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 22-12-24 09:29:54 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.

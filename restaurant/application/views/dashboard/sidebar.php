@@ -33,7 +33,7 @@
 						if($menu['type']==1){
 				?>
 						<li class="sidebar-item has-sub"><a href="#" class='sidebar-link'><i class="<?= $menu['icon']?>"></i><span><?= $menu['name']?></span></a>
-							<ul class="submenu ">
+							<ul class="submenu">
 								<?php 
 								$submenuSeq = array_column($menu['submenu'], 'seq');
 				                array_multisort($submenuSeq, SORT_ASC, $menu['submenu']);

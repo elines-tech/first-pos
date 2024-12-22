@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>offer/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>offer/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 
 		</div>
 	</div>
@@ -19,8 +19,8 @@
 					<div class="card-content">
 						<div class="card-body">
 							<div class="row">
-							 <div class="col-sm-3"></div>
-                            <div class="col-sm-6">
+							 <!--<div class="col-sm-3"></div>-->
+                            <div class="col-sm-12">
 							<form id="offerForm"  method="post"  enctype="multipart/form-data" data-parsley-validate="">
 								<?php if ($offerData) {
 									$result = $offerData->result()[0];
@@ -29,13 +29,13 @@
 									<div class="col-md-12 col-12">
 										<div class="row">
 											<input type="hidden" class="form-control" id="code" name="code" value="<?= $result->code?>">
-											<div class="col-md-8 col-12">
+											<div class="col-md-6 col-12">
 												<div class="form-group mandatory">
 													<label for="" class="form-label">Offer Title</label>
 													<input type="text" id="title" name="title" disabled class="form-control" required value="<?= $result->title?>"> 
 												</div>
 											</div>
-											<div class="col-md-4 col-12">
+											<div class="col-md-6 col-12">
 												<div class="form-group mandatory">
 													<label for="product-name" class="form-label">Offer type</label>
 													<select id="offerType" name="offerType" disabled class="form-control" required>

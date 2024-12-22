@@ -34,7 +34,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 text-end" id="leftdiv">
-                            <a href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
+                            <a id="saveDefault" href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
                         </div>
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="btnSave">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="btnClose" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveDefault">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="cancelDefault" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>

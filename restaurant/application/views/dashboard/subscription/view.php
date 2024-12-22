@@ -23,7 +23,7 @@
                             <h5>Subscription Detail</h5>
                         </div>
                         <div class="col-md-2 text-end">
-                            <a href="<?= base_url('subscriptions/listRecords')?>" class="btn btn-sm btn-primary">Back</a>
+                            <a id="cancelDefault" href="<?= base_url('subscriptions/listRecords')?>" class="btn btn-sm btn-primary">Back</a>
                         </div>
                     </div>
                 </div>

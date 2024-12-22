@@ -19,8 +19,8 @@
 					<div class="card-content">
 						<div class="card-body">
 							<div class="row">
-							 <div class="col-sm-3"></div>
-                            <div class="col-sm-6">
+							 <!--<div class="col-sm-3"></div>-->
+                            <div class="col-sm-12">
 							<form id="couponForm"  method="post"  enctype="multipart/form-data" data-parsley-validate="">
 								<?php if ($couponData) {
 									$result = $couponData->result()[0];
@@ -125,9 +125,9 @@
 										<div class="row">
 											<div class="col-12 d-flex justify-content-end">
 											<?php if($updateRights==1){ ?>
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveCouponBtn">Update</button>
+													<button type="submit" class="btn btn-success" id="saveCouponBtn">Update</button>
 											<?php }?>
-												<button type="button" id="closeCouponBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+												<button type="button" id="closeCouponBtn" class="btn btn-light-secondary">Reset</button>
 											</div>
 										</div>
 									</div>

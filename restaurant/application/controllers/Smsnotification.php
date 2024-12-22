@@ -58,9 +58,10 @@ class Smsnotification extends CI_Controller
         $Records = $this->GlobalModel->selectQuery($orderColumns, $tableName, $condition, $orderBy, $join, $joinType, $like, $limit, $offset, $groupByColumn, $extraCondition);
         if ($Records) {
             foreach ($Records->result() as $row) {
-                $actionBtn = '<a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-success btn-view"><i class="fa fa-eye"></i></a>
-                <a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-info btn-edit"><i class="fa fa-edit"></i></a>
-                <a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-danger btn-delete"><i class="fa fa-trash"></i></a>';
+                $actionBtn = '
+                <a id="view" href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-success btn-view" style="display:none;" ><i class="fa fa-eye"></i></a>
+                <a id="edit" href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-info btn-edit"><i class="fa fa-edit"></i></a>
+                <a id="delete" href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-danger btn-delete"><i class="fa fa-trash"></i></a>';
                 $data[] = array(
                     $srno,
                     $row->templateName,

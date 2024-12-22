@@ -15,15 +15,17 @@
                 </div>
             </div>
         </div>
-			<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_discount"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_discount"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-			<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -32,7 +34,7 @@
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
                             <h5>Discount List</h5>
                         </div>
-                       
+
                     </div>
                 </div>
                 <div class="card-body" id="print_div">
@@ -78,18 +80,18 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row ">
-                                               <label for="status" class="col-sm-4 col-form-label text-left">Active</label>
-                                               <div class="col-sm-8 checkbox">
+                                                <label for="status" class="col-sm-4 col-form-label text-left">Active</label>
+                                                <div class="col-sm-8 checkbox">
                                                     <input type="checkbox" name="isActive" checked id="isActive" class=" " style="width:25px; height:25px">
-                                               </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveDiscountBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeDiscountBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveDiscountBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeDiscountBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -103,27 +105,29 @@
 </div>
 <script>
     $(document).ready(function() {
-		$('.cancel').removeClass('btn-default').addClass('btn-info');
+        $('.cancel').removeClass('btn-default').addClass('btn-info');
         loadTable();
     });
-	$('.add_discount').click(function() {
-		$('#discountForm').parsley().destroy();
-		$('#generl_modal').modal('show');
-		$('#modal_label').text('Add Discount');
-		$('#saveDiscountBtn').removeClass('d-none');
-		$('#saveDiscountBtn').text('Save');
-		$('#code').val('');
-		$('#discount').val('');
-		$("#isActive").prop("checked", true);
-	});
-	function isNumber(evt) {
-		evt = (evt) ? evt : window.event;
-		var charCode = (evt.which) ? evt.which : evt.keyCode;
-		if (charCode > 31 && (charCode < 46 || charCode > 57 || charCode==47)) {
-			return false;
-		}
-		return true;
-	}
+    $('.add_discount').click(function() {
+        $('#discountForm').parsley().destroy();
+        $('#generl_modal').modal('show');
+        $('#modal_label').text('Add Discount');
+        $('#saveDiscountBtn').removeClass('d-none');
+        $('#saveDiscountBtn').text('Save');
+        $('#code').val('');
+        $('#discount').val('');
+        $("#isActive").prop("checked", true);
+    });
+
+    function isNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 46 || charCode > 57 || charCode == 47)) {
+            return false;
+        }
+        return true;
+    }
+
     function loadTable() {
         if ($.fn.DataTable.isDataTable("#datatableTable")) {
             $('#datatableTable').DataTable().clear().destroy();
@@ -138,9 +142,9 @@
                 url: base_path + "discount/getDiscountList",
                 type: "GET",
                 "complete": function(response) {
-                    $('.edit_discount').click(function(){
-                        var code=$(this).data('seq');
-                        var type=$(this).data('type');
+                    $('.edit_discount').click(function() {
+                        var code = $(this).data('seq');
+                        var type = $(this).data('type');
                         $.ajax({
                             url: base_path + "discount/editDiscount",
                             type: 'POST',
@@ -150,31 +154,33 @@
                             success: function(response) {
                                 var obj = JSON.parse(response);
                                 if (obj.status) {
-									$('#discountForm').parsley().destroy();
+                                    $('#discountForm').parsley().destroy();
                                     $('#generl_modal').modal('show');
-									if(type==1){
-										$('#modal_label').text('View Discount');
-										$('#saveDiscountBtn').addClass('d-none');
-									}else{
-										$('#modal_label').text('Update Discount');
-										$('#saveDiscountBtn').removeClass('d-none');
-										$('#saveDiscountBtn').text('Update');
-									}
+                                    if (type == 1) {
+                                        $('#modal_label').text('View Discount');
+                                        $('#saveDiscountBtn').addClass('d-none');
+                                    } else {
+                                        $('#modal_label').text('Update Discount');
+                                        $('#saveDiscountBtn').removeClass('d-none');
+                                        $('#saveDiscountBtn').text('Update');
+                                    }
                                     $('#code').val(obj.code);
                                     $('#discount').val(obj.discount);
                                     if (obj.isActive == 1) {
                                         $("#isActive").prop("checked", true);
                                     }
-                                }else{
-                                    toastr.error('Something Wend Wrong','Edit Discount',{progressBar:true})
+                                } else {
+                                    toastr.error('Something Wend Wrong', 'Edit Discount', {
+                                        progressBar: true
+                                    })
                                 }
                             }
                         });
                     });
                     $('.delete_discount').on("click", function() {
-				        var code=$(this).data('seq');
+                        var code = $(this).data('seq');
                         swal({
-                            title:"Are you sure you want to delete this?",
+                            title: "Are you sure you want to delete this?",
                             type: "warning",
                             showCancelButton: !0,
                             confirmButtonColor: "#DD6B55",
@@ -183,87 +189,99 @@
                             closeOnConfirm: !1,
                             closeOnCancel: !1
                         }, function(e) {
-						    if(e){
-							    $.ajax({
-								    url: base_path+"discount/deleteDiscount",
-								    type: 'POST',
-								    data:{
-								    'code':code
-								    },
-								    success: function(data) {
-										swal.close();
-							            if(data){
-									       loadTable();
-										   toastr.success('Discount deleted successfully', 'Discount',  {"progressBar": true});
-                                        }else{
-								           toastr.error('Discount not deleted', 'Discount',  {"progressBar":true});
-								        }
-								    }
-							   });
-						    }else{
-								swal.close()
-							}
-					    });
-				    });
+                            if (e) {
+                                $.ajax({
+                                    url: base_path + "discount/deleteDiscount",
+                                    type: 'POST',
+                                    data: {
+                                        'code': code
+                                    },
+                                    success: function(data) {
+                                        swal.close();
+                                        if (data) {
+                                            loadTable();
+                                            toastr.success('Discount deleted successfully', 'Discount', {
+                                                "progressBar": true
+                                            });
+                                        } else {
+                                            toastr.error('Discount not deleted', 'Discount', {
+                                                "progressBar": true
+                                            });
+                                        }
+                                    }
+                                });
+                            } else {
+                                swal.close()
+                            }
+                        });
+                    });
                 }
             }
         });
     }
 
-   $("#discountForm").submit(function(e) {
-		e.preventDefault();  
-		var formData = new FormData(this);
-		var form = $(this);
-	    form.parsley().validate();
-		if (form.parsley().isValid()){
-			if(isNaN($('#discount').val())){
-				toastr.error('Invalid discount', 'Discount', {"progressBar": true});
-			}else{
-				if($('#discount').val()>0){
-					var isActive=0;
-					if($("#isActive").is(':checked')){
-						isActive=1;
-					}
-					formData.append('isActive',isActive);
-					$.ajax({
-						url: base_path + "discount/saveDiscount",
-						type: 'POST',
-						data: formData,
-						cache: false,
-						contentType: false,
-						processData: false,
-						beforeSend: function() {
-							$('#saveDiscountBtn').prop('disabled',true);
-							$('#saveDiscountBtn').text('Please wait..');
-							$('#closeDiscountBtn').prop('disabled',true);
-						},
-						success: function(response) {
-							$('#saveDiscountBtn').prop('disabled',false);
-							if($('#code').val()!=''){
-								$('#saveDiscountBtn').text('Update');
-							}else{
-								$('#saveDiscountBtn').text('Save');
-							}
-							$('#closeDiscountBtn').prop('disabled',false);
-							var obj = JSON.parse(response);
-							if (obj.status) {
-								toastr.success(obj.message, 'Discount', {"progressBar": true});
-								loadTable()
-								if($('#code').val()!=''){
-									$('#generl_modal').modal('hide');
-								}else{
-									$('#code').val('');
-									$('#discount').val('');
-								}
-							} else {
-								toastr.error(obj.message, 'Discount', {"progressBar": true});
-							}
-						}
-					});
-				}else{
-					toastr.error('Discount should be greater than zero', 'Discount', {"progressBar": true});
-				}
-			}
-		}
+    $("#discountForm").submit(function(e) {
+        e.preventDefault();
+        var formData = new FormData(this);
+        var form = $(this);
+        form.parsley().validate();
+        if (form.parsley().isValid()) {
+            if (isNaN($('#discount').val())) {
+                toastr.error('Invalid discount', 'Discount', {
+                    "progressBar": true
+                });
+            } else {
+                if ($('#discount').val() > 0) {
+                    var isActive = 0;
+                    if ($("#isActive").is(':checked')) {
+                        isActive = 1;
+                    }
+                    formData.append('isActive', isActive);
+                    $.ajax({
+                        url: base_path + "discount/saveDiscount",
+                        type: 'POST',
+                        data: formData,
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        beforeSend: function() {
+                            $('#saveDiscountBtn').prop('disabled', true);
+                            $('#saveDiscountBtn').text('Please wait..');
+                            $('#closeDiscountBtn').prop('disabled', true);
+                        },
+                        success: function(response) {
+                            $('#saveDiscountBtn').prop('disabled', false);
+                            if ($('#code').val() != '') {
+                                $('#saveDiscountBtn').text('Update');
+                            } else {
+                                $('#saveDiscountBtn').text('Save');
+                            }
+                            $('#closeDiscountBtn').prop('disabled', false);
+                            var obj = JSON.parse(response);
+                            if (obj.status) {
+                                toastr.success(obj.message, 'Discount', {
+                                    "progressBar": true
+                                });
+                                loadTable()
+                                if ($('#code').val() != '') {
+                                    $('#generl_modal').modal('hide');
+                                } else {
+                                    $('#code').val('');
+                                    $('#discount').val('');
+                                }
+                            } else {
+                                toastr.error(obj.message, 'Discount', {
+                                    "progressBar": true
+                                });
+                            }
+                        }
+                    });
+                } else {
+                    toastr.error('Discount should be greater than zero', 'Discount', {
+                        "progressBar": true
+                    });
+                }
+            }
+        }
     });
 </script>

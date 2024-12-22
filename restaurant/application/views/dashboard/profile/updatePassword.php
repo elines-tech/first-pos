@@ -38,13 +38,13 @@
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <input type="hidden" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>">
 										<div class="row">                                            												                                              
-											<div class="col-md-4 col-12">
+											<div class="col-md-6 col-12">
 												<div class="form-group">
 													<label for="arabicname-column" class="form-label">Password</label>
 													<input type="password" id="password" class="form-control" placeholder="Password" name="password" data-parsley-required="true" onchange="checkPasswordMatch();">
 												</div>
 											</div>
-											<div class="col-md-4 col-12">
+											<div class="col-md-6 col-12">
 												<div class="form-group">
 													<label for="arabicname-column" class="form-label">Confirm Password</label>
 													<input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();" data-parsley-required="true">
@@ -52,9 +52,9 @@
 												<div id="CheckPasswordMatch" style="color:#e66060;"></div>
 											</div>										
                                         
-											<div class="col-md-4 col-12">
+											<div class="col-md-12 col-12 text-center">
 												<div class="col-12 mt-4">
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_2" id="editUser">Update</button>
+													<button type="submit" class="btn btn-success" id="editUser">Update</button>
 												</div>
 											</div>
 										</div>

@@ -72,7 +72,7 @@ class Subscriptions extends CI_Controller
             $srno = $_GET['start'] + 1;
             if ($Records) {
                 foreach ($Records->result() as $row) {
-                    $actionHtml = '<a href="' . base_url('subscriptions/view/' . $row->code) . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
+                    $actionHtml = '<a id="view" href="' . base_url('subscriptions/view/' . $row->code) . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
                     if ($row->type == "subscription" || $row->type == "freetrial") {
                         $servicePeriod = date('d/M/Y', strtotime($row->startDate)) . " - " . date("d/M/Y", strtotime($row->expiryDate));
                         $status = date('Y-m-d H:i:00') > $row->expiryDate ? '<span class="badge bg-danger">Expired</span>' : '<span class="badge bg-success">Active</span>';

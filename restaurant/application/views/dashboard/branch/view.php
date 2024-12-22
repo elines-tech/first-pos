@@ -18,8 +18,8 @@
         <div class="container">
             <div class="row mb-2 float-right">
                 <div class="col-12 col-md-12">
-                    <a href="<?= base_url() ?>branch/listRecords" class="btn btn-primary text-center">Back</a>
-                    <button class="btn btn-primary text-center edit_branch">Edit Branch</button>
+                    <a href="<?= base_url() ?>branch/listRecords" id="cancelDefault" class="btn btn-primary text-center">Back</a>
+                    <button id="saveDefault" class="btn btn-primary text-center edit_branch">Edit Branch</button>
                 </div>
             </div>
         </div>

@@ -19,9 +19,10 @@
             <div id="maindiv" class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                        <h2><a class="add_table"><i class="fa fa-plus-circle cursor_pointer"></i></a>
-                            <a class=" btn btn-sm btn-info add_bulk" href="#bulk_modal" data-bs-toggle="modal" data-bs-target="#bulk_modal">Create Bulk</a>
-                        </h2>
+                        <a id="saveDefault" class=" btn btn-sm btn-info add_bulk" href="#bulk_modal" data-bs-toggle="modal" data-bs-target="#bulk_modal">Create Bulk</a>
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_table"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,9 +128,9 @@
                                             <input type="hidden" id="urlToken" class="form-control" name="urlToken">
                                             <input type="hidden" class="form-control" id="code" name="code">
                                             <?php if ($insertRights == 1) { ?>
-                                                <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveTableBtn">Save</button>
+                                                <button type="submit" class="btn btn-primary" id="saveTableBtn">Save</button>
                                             <?php } ?>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeTableBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeTableBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -206,9 +207,9 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <?php if ($insertRights == 1) { ?>
-                                                <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveTableBulkBtn">Save</button>
+                                                <button type="submit" class="btn btn-primary" id="saveTableBulkBtn">Save</button>
                                             <?php } ?>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeTableBulkBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeTableBulkBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>

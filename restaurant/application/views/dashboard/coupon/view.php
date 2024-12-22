@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>coupon/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>coupon/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 
 		</div>
 	</div>
@@ -14,13 +14,13 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="card-title">Edit Coupon</h3>
+						<h3 class="card-title">View Coupon</h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
 							<div class="row">
-							 <div class="col-sm-3"></div>
-                            <div class="col-sm-6">
+							 <!--<div class="col-sm-3"></div>-->
+                            <div class="col-sm-12">
 							<form id="couponForm"  method="post"  enctype="multipart/form-data" data-parsley-validate="">
 								<?php if ($couponData) {
 									$result = $couponData->result()[0];

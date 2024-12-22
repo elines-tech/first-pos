@@ -20,7 +20,10 @@
             <div id="maindiv" class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                        <h2><a href="#generl_modal" data-bs-toggle="modal" data-bs-target="#generl_modal"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+                        <div class="floating-action-button">
+                            <a id="add_category" href="#generl_modal" data-bs-toggle="modal" data-bs-target="#generl_modal">
+                                <i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,7 +36,7 @@
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
                             <h5>Reservation List</h5>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="card-body" id="print_div">
@@ -44,8 +47,8 @@
                                 <th>Code</th>
                                 <th>Customer Name</th>
                                 <th>Mobile Number</th>
-								<th>Branch</th>
-								<th>Sector</th>
+                                <th>Branch</th>
+                                <th>Sector</th>
                                 <th>Table No.</th>
                                 <th>No. of Persons</th>
                                 <th>Start Time</th>
@@ -77,75 +80,75 @@
                             <div class="panel-body1">
                                 <form class="form" id="reservationForm" data-parsley-validate>
                                     <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Customer Name  <a class="add_customer m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:18px;"></i></a></label>
-												
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" style="width:100%" name="customerName" id="customerName" required onchange="getMobileNumber();">
-                                                        <option value="">Select Customer</option>
-                                                        <?php
-                                                        if ($customer) {
-                                                            foreach ($customer->result() as $cust) {
-                                                                echo "<option value='" . $cust->code . "'>" . $cust->name . "</option>";
-                                                            }
-                                                        }
-                                                        ?>
-                                                    </select>
-													
-                                                </div>
-                                            </div>
+
+
+                                        <div class="form-group col-md-12 col-12 mandatory">
+                                            <label for="category-name-column" class="col-md-12 form-label text-left">Customer Name <a class="add_customer"><i class="fa fa-plus-circle cursor_pointer" style="font-size:18px;"></i></a></label>
+
+                                            <select class="form-select select2" style="width:100%" name="customerName" id="customerName" required onchange="getMobileNumber();">
+                                                <option value="">Select Customer</option>
+                                                <?php
+                                                if ($customer) {
+                                                    foreach ($customer->result() as $cust) {
+                                                        echo "<option value='" . $cust->code . "'>" . $cust->name . "</option>";
+                                                    }
+                                                }
+                                                ?>
+                                            </select>
+
                                         </div>
+
+
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
                                                 <label for="qty-column" class="form-label text-left col-md-4">Mobile No.</label>
                                                 <div class="col-md-8">
-												    <div class="input-group">
-														<select name="countrycode" id="countrycode">
-															<option value="+966">+966 (SAR)</option>
-															<option value="+971">+971 (UAE)</option>
-														</select>				
-													   
-													   <input type="number" class="form-control" name="mobilephone" id="mobilephone"  required>
-												   </div>
-                                                   
+                                                    <div class="input-group">
+                                                        <select name="countrycode" id="countrycode">
+                                                            <option value="+966">+966 (SAR)</option>
+                                                            <option value="+971">+971 (UAE)</option>
+                                                        </select>
+
+                                                        <input type="number" class="form-control" name="mobilephone" id="mobilephone" required>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
-										<div class="col-md-12 col-12">
-										    <div class="form-group row mandatory">
-										      <label class="col-md-4 form-label text-left">Branch</label>
-											    <div class="col-md-8">
-													<?php if($branchCode!=""){?>
-																  <input type="hidden" class="form-control" id="branch" name="branchCode" value="<?= $branchCode; ?>" readonly>
-																  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
-													<select class="form-select select2" style="width:100%" name="branchCode" id="branchCode" data-parsley-required="true" required>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group row mandatory">
+                                                <label class="col-md-4 form-label text-left">Branch</label>
+                                                <div class="col-md-8">
+                                                    <?php if ($branchCode != "") { ?>
+                                                        <input type="hidden" class="form-control" id="branch" name="branchCode" value="<?= $branchCode; ?>" readonly>
+                                                        <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+                                                    <?php } else { ?>
+                                                        <select class="form-select select2" style="width:100%" name="branchCode" id="branchCode" data-parsley-required="true" required>
 
-													</select>
-													<?php } ?>
-												</div>
-											 </div>
-										</div>
-										<div class="col-md-12 col-12">
-										    <div class="form-group row mandatory">
-										     <label class="col-md-4 form-label text-left">Sector</label>
-											     <div class="col-md-8">
-												    <select class="form-select select2" style="width:100%" name="sector" id="sector" 
-						                             data-parsley-required="true" required>
+                                                        </select>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group row mandatory">
+                                                <label class="col-md-4 form-label text-left">Sector</label>
+                                                <div class="col-md-8">
+                                                    <select class="form-select select2" style="width:100%" name="sector" id="sector"
+                                                        data-parsley-required="true" required>
 
-													</select>
-												 </div>
-											 </div> 
-										</div>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Table No.</label>
                                                 <div class="col-md-8">
-												     <select class="form-select select2" style="width:100%" name="tableNumber" id="tableNumber" data-parsley-required="true" required>
+                                                    <select class="form-select select2" style="width:100%" name="tableNumber" id="tableNumber" data-parsley-required="true" required>
 
-													</select>
-                                                    
+                                                    </select>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -187,9 +190,9 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <?php if ($insertRights == 1) { ?>
-                                                <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveTableBtn">Save</button>
+                                                <button type="submit" class="btn btn-primary" id="saveTableBtn">Save</button>
                                             <?php } ?>
-                                            <button type="reset" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal" id="closeTableBtn">Close</button>
+                                            <button type="reset" class="btn btn-light-secondary" data-bs-dismiss="modal" id="closeTableBtn">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -256,53 +259,53 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                      <div class="col-sm-12 col-md-12">
+                    <div class="col-sm-12 col-md-12">
                         <div class="panel">
                             <div class="panel-body1 panel-body-new">
-							<div class="row">
-								 <form class="form" id="submitcustomerForm" data-parsley-validate>
-								   <div class="col-md-12 col-12">
+                                <div class="row">
+                                    <form class="form" id="submitcustomerForm" data-parsley-validate>
+                                        <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
                                                 <label class="form-label text-left col-md-4">Customer Name</label>
                                                 <div class="col-md-8">
-                                                    <input type="text" class="form-control" id="name" name="name"required>
+                                                    <input type="text" class="form-control" id="name" name="name" required>
                                                 </div>
                                             </div>
-                                     </div>
-									 <div class="col-md-12 col-12">
+                                        </div>
+                                        <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
                                                 <label class="form-label text-left col-md-4">Email</label>
                                                 <div class="col-md-8">
                                                     <input type="email" class="form-control" id="email" name="email" required>
                                                 </div>
                                             </div>
-                                     </div>
-									<div class="col-12">
-									    <div class="form-group row mandatory">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group row mandatory">
                                                 <label class="form-label text-left col-md-4">Phone </label>
                                                 <div class="col-md-8">
-												   <div class="input-group">
-														<select name="countrycode" id="countrycode">
-															<option value="+966">+966 (SAR)</option>
-															<option value="+971">+971 (UAE)</option>
-														</select>								
-													
-													   <input type="number" class="form-control" name="phone" id="phone"  required>
-												   </div>
-												</div>
-                                         </div>										
-									</div>
-								</div>
-                                <div class="row">
-                                        <div class="col-12 d-flex justify-content-end">                                           
-                                          <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveCustomerBtn">Save</button>                                          
-                                            <button type="reset" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal" id="closeCustomerBtn">Close</button>
+                                                    <div class="input-group">
+                                                        <select name="countrycode" id="countrycode">
+                                                            <option value="+966">+966 (SAR)</option>
+                                                            <option value="+971">+971 (UAE)</option>
+                                                        </select>
+
+                                                        <input type="number" class="form-control" name="phone" id="phone" required>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>								
-								</form>							
-                          </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary" id="saveCustomerBtn">Save</button>
+                                        <button type="reset" class="btn btn-light-secondary" data-bs-dismiss="modal" id="closeCustomerBtn">Close</button>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
                         </div>
-                    </div>				
+                    </div>
                 </div>
             </div>
         </div>
@@ -320,49 +323,49 @@
         $('#tableNumber').select2({
             dropdownParent: $('#generl_modal')
         });
-		 $("#sector").select2({
+        $("#sector").select2({
             placeholder: "Select Sector",
             allowClear: true
-		 });
-		 $("#tableNumber").select2({
+        });
+        $("#tableNumber").select2({
             placeholder: "Select Table",
             allowClear: true
-		 });
-	   $('.add_customer').click(function() {
-            $('#generl_modal3').modal('show');
-			$('#generl_modal').modal('hide');
         });
-		
-		$("#branchCode").select2({
-			placeholder: "Select Branch",
-			allowClear: true,
-			ajax: {
-				url: base_path + 'Common/getBranch',
-				type: "get",
-				delay: 250,
-				dataType: 'json',
-				data: function(params) {
-					var query = {
-						search: params.term
-					}
-					return query;
-				},
-				processResults: function(response) {
-					return {
-						results: response
-					};
-				},
-				cache: true
-			}
-		}).on("select2:select", function(e) {
+        $('.add_customer').click(function() {
+            $('#generl_modal3').modal('show');
+            $('#generl_modal').modal('hide');
+        });
+
+        $("#branchCode").select2({
+            placeholder: "Select Branch",
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getBranch',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
+                    return query;
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        }).on("select2:select", function(e) {
             var branch = $(e.currentTarget).val();
-            getSector(branch); 
-        }); 
+            getSector(branch);
+        });
 
     });
-	
-	function getSector(branch) {
-		debugger
+
+    function getSector(branch) {
+        debugger
         $("#sector").select2({
             placeholder: "Select Sector",
             allowClear: true,
@@ -390,12 +393,12 @@
             }
         }).on("select2:select", function(e) {
             var sector = $(e.currentTarget).val();
-            getTable(sector); 
-        }); 
+            getTable(sector);
+        });
     }
-	
-	function getTable(sector){
-		$("#tableNumber").select2({
+
+    function getTable(sector) {
+        $("#tableNumber").select2({
             placeholder: "Select Table",
             allowClear: true,
             ajax: {
@@ -421,10 +424,10 @@
                 cache: true
             }
         });
-		
-	}
-	
-	
+
+    }
+
+
     function getMobileNumber(id) {
         var code = $('#customerName').val();
         if (code != '') {
@@ -436,9 +439,9 @@
                 },
                 success: function(response) {
                     var obj = JSON.parse(response);
-                    if (obj.status==true) {
+                    if (obj.status == true) {
                         $('#mobilephone').val(obj.mobile);
-						$('#countrycode').val(obj.countryCode)  
+                        $('#countrycode').val(obj.countryCode)
                     } else {
                         $('#mobilephone').val('')
                     }
@@ -462,7 +465,7 @@
                 url: base_path + "Reservation/getReservationList",
                 type: "GET",
                 "complete": function(response) {
-                   /* $('.edit_booktable').click(function() {
+                    /* $('.edit_booktable').click(function() {
                         var code = $(this).data('seq');
                         $.ajax({
                             url: base_path + "Reservation/edit",
@@ -623,48 +626,48 @@
             });
         }
     });
-	
-	
-	 $("#submitcustomerForm").submit(function(e) {
-            e.preventDefault();
-            var formData = new FormData(this);
-            var form = $(this);
-            form.parsley().validate();
-            if (form.parsley().isValid()) {
-                $.ajax({
-                    url: base_path + "Reservation/saveCustomer",
-                    type: 'POST',
-                    data: formData,
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    beforeSend: function() {
-                        $('#saveCustomerBtn').prop('disabled', true);
-                        $('#saveCustomerBtn').text('Please wait..');
-                        $('#closeCustomerBtn').prop('disabled', true);
-                    },
-                    success: function(response) {
-                        $('#saveCustomerBtn').prop('disabled', false);
-                        $('#closeCustomerBtn').text('Save');
-                        var obj = JSON.parse(response);
-                        if (obj.status) {
-                            toastr.success(obj.message, 'Customer', {
-                                "progressBar": true,
-								onHidden: function() {
-								window.location.href = base_path + "Reservation/listRecords";
-							    }
-                            });
-                            $('#generl_modal3').modal('hide');
 
-                        } else {
-                            toastr.error(obj.message, 'Customer', {
-                                "progressBar": true
-                            });
-                        }
+
+    $("#submitcustomerForm").submit(function(e) {
+        e.preventDefault();
+        var formData = new FormData(this);
+        var form = $(this);
+        form.parsley().validate();
+        if (form.parsley().isValid()) {
+            $.ajax({
+                url: base_path + "Reservation/saveCustomer",
+                type: 'POST',
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false,
+                beforeSend: function() {
+                    $('#saveCustomerBtn').prop('disabled', true);
+                    $('#saveCustomerBtn').text('Please wait..');
+                    $('#closeCustomerBtn').prop('disabled', true);
+                },
+                success: function(response) {
+                    $('#saveCustomerBtn').prop('disabled', false);
+                    $('#closeCustomerBtn').text('Save');
+                    var obj = JSON.parse(response);
+                    if (obj.status) {
+                        toastr.success(obj.message, 'Customer', {
+                            "progressBar": true,
+                            onHidden: function() {
+                                window.location.href = base_path + "Reservation/listRecords";
+                            }
+                        });
+                        $('#generl_modal3').modal('hide');
+
+                    } else {
+                        toastr.error(obj.message, 'Customer', {
+                            "progressBar": true
+                        });
                     }
-                });
-            }
-        });
+                }
+            });
+        }
+    });
 
     $(document).on("click", "button#updateTableBtn", function(e) {
         $('#reservationUpdateForm').parsley();
