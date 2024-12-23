@@ -3,7 +3,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Item</h3>
+                    <h3>View Item</h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -15,24 +15,39 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+
+
+
+        <!--<div class="container">
             <div class="row mb-2 float-right">
-                <div class="col-12 col-md-12">
-                    <a href="<?= base_url() ?>item/listRecords" class="btn btn-primary text-center">back</a>
-                    <button class="btn btn-primary text-center edit_item">Edit Item</button>
+                <div class="col-12 col-md-12 justify-end text-end">
+                    <a id="cancelDefault" href="<?= base_url() ?>item/listRecords" class="btn btn-primary text-center">back</a>
+                    <a id="saveDefault" href="<?= base_url() ?>item/edit/" class="btn btn-primary text-center edit_item">Edit Item</a>
                 </div>
             </div>
-        </div>
+        </div>-->
+
+
         <div class="row">
             <section class="section col-12 col-md-12">
                 <div class="card">
+
+
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                            <div class="col-7">
                                 <h5>Item</h5>
                             </div>
+
+                            <div class="col-5 text-end">
+                                <a id="cancelDefault" href="<?= base_url() ?>item/listRecords" class="btn btn-primary text-center">Back</a>
+                                <!--<a id="saveDefault" href="<?= base_url() ?>item/edit/" class="btn btn-primary text-center edit_item">Edit Item</a>-->
+                            </div>
+
                         </div>
                     </div>
+
+
                     <div class="card-body">
                         <?php
                         if ($itemData) {
@@ -40,6 +55,9 @@
                         ?>
                                 <div class="row mb-1">
                                     <form class="form">
+
+
+                                    
                                         <div class="row mb-3">
                                             <div class="col-md-6">
                                                 <label for="itemName">Item Name : </label>
@@ -52,6 +70,8 @@
                                             </div>
 
                                         </div>
+
+
                                         <div class="row mb-3">
                                             <div class="col-md-6">
                                                 <label for="ingredientUnit">Ingredient Unit: </label>
@@ -63,6 +83,8 @@
                                             </div>
 
                                         </div>
+
+
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <label for="itemPrice">Item price : </label>
@@ -75,6 +97,7 @@
 
                                         </div>
 
+
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <label for="itemHinName">Item Hindi Name : </label>
@@ -86,6 +109,8 @@
                                             </div>
 
                                         </div>
+
+
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <label for="itemDesc">Item description : </label>
@@ -96,6 +121,8 @@
                                                 <textarea type="text" rows="4" class="form-control" id="itemArbDesc"><?= $br->itemArbDesc ?></textarea>
                                             </div>
                                         </div>
+
+
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <label for="itemHinDesc">Item Hindi description : </label>
@@ -106,6 +133,8 @@
                                                 <textarea type="text" rows="4" class="form-control" id="itemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
                                             </div>
                                         </div>
+
+                                        
                                     </form>
                                 </div>
                         <?php }

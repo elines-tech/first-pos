@@ -17,182 +17,199 @@
         </div>
 
         <div class="row">
-            <section class="section col-12 col-md-8">
+            <section class="section col-12 col-md-12">
                 <form id="updateitemForm" class="form" data-parsley-validate>
                     <?php
                     if ($itemData) {
                         foreach ($itemData->result() as $br) { ?>
                             <input type="hidden" class="form-control" id="modalItemCode" name="modalItemCode" value="<?= $br->code ?>">
                             <div class="card">
+
+
                                 <div class="card-header">
                                     <div class="row">
                                         <div class="col-7">
                                             <h5>Update Item</h5>
                                         </div>
                                         <div class="col-5 text-end">
-                                            <a href="<?= base_url('item/listRecords') ?>"><button type="button" class="btn btn-info btn-sm">Back</button></a>
+                                            <a href="<?= base_url('item/listRecords') ?>"><button id="cancelDefault" type="button" class="btn btn-primary">Back</button></a>
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
+
+
+                                        <div class="col-md-12 row col-12 mb-3">
+
+
+                                            <div class="form-group col-md-6 col-12 mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Item Name</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="modalItemName" class="form-control" placeholder="Item Name" value="<?= $br->itemEngName ?>" name="modalItemName" required>
-                                                </div>
+                                                <input type="text" id="modalItemName" class="form-control" placeholder="Item Name" value="<?= $br->itemEngName ?>" name="modalItemName" required>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
+
+
+                                            <div class="form-group col-md-6 col-12 mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Category</label>
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" name="category" id="category" required data-parsley-required-message="Category is required">
-                                                        <option value="">Select</option>
-                                                        <?php
-                                                        if ($categorydata) {
-                                                            foreach ($categorydata->result() as $catData) {
-                                                                if ($catData->code == $br->categoryCode) {
-                                                                    echo "<option value='" . $catData->code . "' selected >" . $catData->categoryName . "</option>'";
-                                                                } else {
-                                                                    echo "<option value='" . $catData->code . "'>" . $catData->categoryName . "</option>'";
-                                                                }
+                                                <select class="form-select select2" name="category" id="category" required data-parsley-required-message="Category is required">
+                                                    <option value="">Select</option>
+                                                    <?php
+                                                    if ($categorydata) {
+                                                        foreach ($categorydata->result() as $catData) {
+                                                            if ($catData->code == $br->categoryCode) {
+                                                                echo "<option value='" . $catData->code . "' selected >" . $catData->categoryName . "</option>'";
+                                                            } else {
+                                                                echo "<option value='" . $catData->code . "'>" . $catData->categoryName . "</option>'";
                                                             }
                                                         }
-                                                        ?>
-                                                    </select>
-                                                </div>
+                                                    }
+                                                    ?>
+                                                </select>
                                             </div>
+
+
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
+
+
+                                        <div class="col-md-12 row col-12 mb-3">
+
+
+                                            <div class="form-group col-md-6 col-12 mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Storage Unit</label>
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" name="modalItemUnit" id="modalItemUnit" required>
-                                                        <option value="">Select</option>
-                                                        <?php
-                                                        if ($units) {
-                                                            foreach ($units->result() as $tc) {
-                                                                if ($tc->code == $br->storageUnit) {
-                                                                    echo "<option value='" . $tc->code . "' selected>" . $tc->unitName . "</option>";
-                                                                } else {
-                                                                    echo "<option value='" . $tc->code . "'>" . $tc->unitName . "</option>'";
-                                                                }
+                                                <select class="form-select select2" name="modalItemUnit" id="modalItemUnit" required>
+                                                    <option value="">Select</option>
+                                                    <?php
+                                                    if ($units) {
+                                                        foreach ($units->result() as $tc) {
+                                                            if ($tc->code == $br->storageUnit) {
+                                                                echo "<option value='" . $tc->code . "' selected>" . $tc->unitName . "</option>";
+                                                            } else {
+                                                                echo "<option value='" . $tc->code . "'>" . $tc->unitName . "</option>'";
                                                             }
                                                         }
-                                                        ?>
-                                                    </select>
-                                                </div>
+                                                    }
+                                                    ?>
+                                                </select>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
+
+
+                                            <div class="form-group col-md-6 col-12 mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Ingredient Unit</label>
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" name="modalIngredientUnit" id="modalIngredientUnit" required>
-                                                        <option value="">Select</option>
-                                                        <?php
-                                                        if ($units) {
-                                                            foreach ($units->result() as $tc) {
-                                                                if ($tc->code == $br->ingredientUnit) {
-                                                                    echo "<option value='" . $tc->code . "' selected>" . $tc->unitName . "</option>";
-                                                                } else {
-                                                                    echo "<option value='" . $tc->code . "'>" . $tc->unitName . "</option>'";
-                                                                }
+                                                <select class="form-select select2" name="modalIngredientUnit" id="modalIngredientUnit" required>
+                                                    <option value="">Select</option>
+                                                    <?php
+                                                    if ($units) {
+                                                        foreach ($units->result() as $tc) {
+                                                            if ($tc->code == $br->ingredientUnit) {
+                                                                echo "<option value='" . $tc->code . "' selected>" . $tc->unitName . "</option>";
+                                                            } else {
+                                                                echo "<option value='" . $tc->code . "'>" . $tc->unitName . "</option>'";
                                                             }
                                                         }
-                                                        ?>
-                                                    </select>
-                                                </div>
+                                                    }
+                                                    ?>
+                                                </select>
                                             </div>
+
+
+
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
+
+
+
+                                        <div class="col-md-12 col-12 row mb-3">
+
+
+                                            <div class="form-group col-md-6 col-12 mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Ingredient Factor</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="modalIngredientFactor" class="form-control" placeholder="Ingredient Factor" name="modalIngredientFactor" required onkeypress="return isNumber(event)" value="<?= $br->ingredientFactor ?>">
-                                                </div>
+                                                <input type="text" id="modalIngredientFactor" class="form-control" placeholder="Ingredient Factor" name="modalIngredientFactor" required onkeypress="return isNumber(event)" value="<?= $br->ingredientFactor ?>">
                                             </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
+
+
+                                            <div class="form-group col-md-6 col-12 mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Item Price</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="modalItemPrice" class="form-control" name="modalItemPrice" required onkeypress="return isNumber(event)" onkeypress="return isNumber(event)" value="<?= $br->itemPrice ?>">
-                                                </div>
+                                                <input type="text" id="modalItemPrice" class="form-control" name="modalItemPrice" required onkeypress="return isNumber(event)" onkeypress="return isNumber(event)" value="<?= $br->itemPrice ?>">
                                             </div>
+
+
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Description</label>
-                                                <div class="col-md-8">
-                                                    <textarea rows="4" type="text" id="modalItemDesc" class="form-control" name="modalItemDesc"><?= $br->itemEngDesc ?></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
+
+
+
+                                        <div class="col-md-12 col-12 row mb-3">
+
+                                            <div class="form-group col-md-12 col-12">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Name</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="modalItemArbName" class="form-control" name="modalItemArbName" value="<?= $br->itemArbName ?>">
-                                                </div>
+                                                <input type="text" id="modalItemArbName" class="form-control" name="modalItemArbName" value="<?= $br->itemArbName ?>">
                                             </div>
+
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Description</label>
-                                                <div class="col-md-8">
-                                                    <textarea rows="4" id="modalItemArbDesc" class="form-control" name="modalItemArbDesc"><?= $br->itemArbDesc ?></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
+
+
+                                        <div class="col-md-12 col-12 row mb-3">
+
+                                            <div class="form-group col-md-6 col-12">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Name</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="modalItemHinName" class="form-control" name="modalItemHinName" value="<?= $br->itemHinName ?>">
-                                                </div>
+                                                <input type="text" id="modalItemHinName" class="form-control" name="modalItemHinName" value="<?= $br->itemHinName ?>">
                                             </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Description</label>
-                                                <div class="col-md-8">
-                                                    <textarea rows="4" type="text" id="modalItemHinDesc" class="form-control" name="modalItemHinDesc"><?= $br->itemHinDesc ?></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
+
+                                            <div class="form-group col-md-6 col-12">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Item Urdu Name</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="modalItemUrduName" class="form-control" name="modalItemUrduName" value="<?= $br->itemUrduName ?>">
-                                                </div>
+                                                <input type="text" id="modalItemUrduName" class="form-control" name="modalItemUrduName" value="<?= $br->itemUrduName ?>">
                                             </div>
+
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
+
+
+
+
+                                        <div class="col-md-12 col-12 row mb-3">
+
+                                            <div class="form-group col-md-6 col-12">
+                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Description</label>
+                                                <textarea rows="4" id="modalItemArbDesc" class="form-control" name="modalItemArbDesc"><?= $br->itemArbDesc ?></textarea>
+                                            </div>
+
+                                            <div class="form-group col-md-6 col-12">
+                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Description</label>
+                                                <textarea rows="4" type="text" id="modalItemDesc" class="form-control" name="modalItemDesc"><?= $br->itemEngDesc ?></textarea>
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="col-md-12 col-12 row mb-3">
+
+                                            <div class="form-group col-md-6 col-12">
+                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Description</label>
+                                                <textarea rows="4" type="text" id="modalItemHinDesc" class="form-control" name="modalItemHinDesc"><?= $br->itemHinDesc ?></textarea>
+                                            </div>
+
+                                            <div class="form-group col-md-6 col-12">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Item Urdu Description</label>
-                                                <div class="col-md-8">
-                                                    <textarea rows="4" type="text" id="modalItemUrduDesc" class="form-control" name="modalItemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
-                                                </div>
+                                                <textarea rows="4" type="text" id="modalItemUrduDesc" class="form-control" name="modalItemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
                                             </div>
+
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
-                                                <label for="status" class="col-sm-4 col-form-label text-left">Active</label>
-                                                <div class="col-sm-8 checkbox">
-                                                    <input type="checkbox" name="modalisActive" id="modalisActive" <?= $br->isActive == 1 ? 'checked' : ""  ?> class=" " style="width:25px; height:25px">
-                                                </div>
-                                            </div>
+
+
+                                        <div class="form-group d-flex col-md-12 col-12 text-center items-center justify-content-center row">
+                                            <!--<div class="col-sm-8 checkbox">-->
+                                            <input type="checkbox" name="modalisActive" id="modalisActive" <?= $br->isActive == 1 ? 'checked' : ""  ?> class=" " style="width:25px; height:25px">
+                                            <!--</div>-->
                                         </div>
+
+
                                     </div>
                                 </div>
-                                <div class="card-footer">
-                                    <button type="button" class="btn btn-primary white me-2 mb-1 sub_1" id="updateItemBtn">Update</button>
 
+                                <div class="card-footer col-12 text-end">
+                                    <button type="button" class="btn btn-primary" id="updateItemBtn">Update</button>
                                 </div>
+
                             </div>
                     <?php
                         }

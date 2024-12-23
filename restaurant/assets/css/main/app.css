@@ -21435,6 +21435,22 @@ body .bi:before {
     border-radius: 10px;
 }
 
+#cancelDefault.btn.btn-outline-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+#cancelDefault.btn.btn-outline-dark {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
 
 #cancelDefault.btn.btn-light-secondary {
     background-color: red;
@@ -21933,6 +21949,26 @@ body .bi:before {
 
 
 
+#updateItemBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#updateItemBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
 #updateProductCombo.btn-primary {
     background-color: #37B181;
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
@@ -21964,6 +22000,59 @@ body .bi:before {
 
 
 #saveCategoryBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#reLoginPin.btn-light-secondary {
+    background-color: orange;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#add_to_cart.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#add_to_cart.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#bookTableBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#bookTableBtn.btn-success:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/

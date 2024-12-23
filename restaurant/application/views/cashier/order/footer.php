@@ -1,7 +1,7 @@
         </section>
         <footer>
             <div class="footer clearfix mb-0 text-muted text-center">
-                <p>Application Developed By | 2022 ©<a href="www.kaem.in" target="_blank">KAEM Software</a></p>
+                <p>Application Developed By | 2024 ©<a href="https://elines.tech/" target="_blank">Elines.tech</a></p>
             </div>
         </footer>
         </div>

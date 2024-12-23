@@ -46,3 +46,12 @@ Dt --> 23-12-24 03:04:18 IP --> 127.0.0.1 LOGIN USER --> USR24_11 ADDED USER -->
 Dt --> 23-12-24 03:05:02 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
 Dt --> 23-12-24 03:06:22 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
 Dt --> 23-12-24 03:06:33 IP --> 127.0.0.1 LOGIN USER --> USR24_11 ADDED USER --> USR24_11 	USR24_11 User id is login.
+Dt --> 23-12-24 02:59:40 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+23-12-24 03:08:20	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+2024-12-23 15:51:08	127.0.0.1	Admin	saidemad	true - burger item is updated.
+2024-12-23 15:51:24	127.0.0.1	Admin	saidemad	true - burger item is updated.
+Dt --> 23-12-24 04:09:10 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 23-12-24 04:15:30 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 23-12-24 04:20:54 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 23-12-24 04:31:08 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-23 17:37:09	127.0.0.1	Admin	saidemad	CAT_4 - gdfgggggggggggggggggg category is added.

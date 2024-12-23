@@ -29,9 +29,9 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="<?= base_url() ?>assets/extensions/datatables.net-bs5/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.bootstrap5.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/css/pages/datatables.css">    
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/pages/datatables.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/webix.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/admin/assets/libs/toastr/build/toastr.min.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/admin/assets/libs/sweetalert2/dist/sweet-alert.css'; ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/admin/assets/libs/select2/dist/css/select2.min.css' ?>">
@@ -115,7 +115,7 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
             <header class='mb'>
                 <nav class="navbar navbar-expand navbar-light navbar-top">
                     <div class="container-fluid">
-                        <a href="#" class="burger-btn d-block">
+                        <a href="#" class="burger-btn d-block d-xl-none">
                             <i class="bi bi-justify fs-3"></i>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,8 +128,8 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
                                 <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     <div class="user-menu d-flex">
                                         <div class="user-name text-end me-3">
-                                            <h6 class="mb-0 text-gray-600"><?= $name . ' ' . $empno ?></h6>
-                                            <p class="mb-0 text-sm text-gray-600"><?= $role . '-' . $loginpin ?></p>
+                                            <h6 class="mb-0 text-white"><?= $name . ' ' . $empno ?></h6>
+                                            <p class="mb-0 text-sm text-white"><?= $role . '-' . $loginpin ?></p>
                                         </div>
                                         <div class="user-img d-flex align-items-center">
 

@@ -45,7 +45,7 @@ if ($categories) {
             ?>
         </div>
         <div class="col-4 text-end">
-            <a class="btn btn-sm btn-primary new_order" href="javascript:void(0);" title="New-Order">New Order <i class="fa fa-plus"></i></a>
+            <a id="saveDefault" class="btn btn-sm btn-primary new_order" href="javascript:void(0);" title="New-Order">New Order <i class="fa fa-plus"></i></a>
             <a class="btn btn-sm btn-outline-primary btn-full-screen" href="javascript:void(0)" title="Full-Screen"><i class="fa fa-expand"></i></a>
             <a class="btn btn-sm btn-outline-dark" href="<?= base_url('Cashier/order/listRecords') ?>" title="Close page and back to orders"><i class="fa fa-times"></i></a>
         </div>
@@ -164,8 +164,8 @@ if ($categories) {
                                 <div class="float-end" id="cartTotal">0.00</div>
                             </div>
                             <div class="my-2 w-100 d-flex">
-                                <button type="button" class="btn btn-outline-danger btn-sm draft-order w-50 m-1"><i class="fa fa-copy"></i> Draft</button>
-                                <button type="button" class="btn btn-primary btn-place-order w-50 m-1"> <i class="fa fa-check"></i> Place Order</button>
+                                <button id="cancelDefault" type="button" class="btn btn-outline-danger btn-sm draft-order w-50 m-1"><i class="fa fa-copy"></i> Draft</button>
+                                <button id="saveDefault" type="button" class="btn btn-primary btn-place-order w-50 m-1"> <i class="fa fa-check"></i> Place Order</button>
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ if ($categories) {
         <div class="modal-content">
             <div class="modal-header">
                 <h3>Book Table First</h3>
-                <button type="button" class="close">×</button>
+                <button type="button" class="close" style="color: red;" >×</button>
             </div>
             <div class="modal-body">
                 <form class="extablk" id="newCustomer" method="post" data-parsley-validate="">
@@ -256,7 +256,7 @@ if ($categories) {
             <form id="addToCart" class="extablk" method="post">
                 <div class="modal-header" style="align-items: center;">
                     <h3>Add Item/Product</h3>
-                    <button type="button" class="close" data-bs-dismiss="modal">×</button>
+                    <button type="button" class="close" style="color: red;" data-bs-dismiss="modal">×</button>
                 </div>
                 <div class="modal-body prd-det" style="padding: 0px 12px 12px 12px">
                 </div>

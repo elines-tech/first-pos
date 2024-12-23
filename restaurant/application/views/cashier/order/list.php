@@ -13,8 +13,8 @@
             ?>
         </div>
         <div class="col-5 text-end">
-            <a class="btn btn-sm btn-primary mx-1" href="<?= base_url('Cashier/order/add') ?>"> <i class="fa fa-plus-circle"></i> New Order</a>
-            <a class="btn btn-sm btn-outline-dark mx-1" href="<?= base_url('Cashier/dashboard') ?>"> <i class="fa fa-angle-left"></i> Back </a>
+            <a id="saveDefault" class="btn btn-sm btn-primary mx-1" href="<?= base_url('Cashier/order/add') ?>"> <i class="fa fa-plus-circle"></i> New Order</a>
+            <a id="cancelDefault" class="btn btn-sm btn-outline-dark mx-1" href="<?= base_url('Cashier/dashboard') ?>"> <i class="fa fa-angle-left"></i> Back </a>
         </div>
     </div>
     <div class="row g-2">

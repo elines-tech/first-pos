@@ -58,27 +58,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-6 col-lg-3 col-md-6">
-                    <div class="card">
-                        <div class="card-body px-4 py-4-5">
-                            <div class="row">
-                                <div class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start ">
-                                    <div class="stats-icon red mb-2">
-                                        <i class="iconly-boldHome"></i>
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Net Purchase</h6>
-                                    <h6 class="font-extrabold mb-0" id="totalPurchases">10</h6>
-                                </div>
-                                <div id="view" class="col-sm-12 text-right">
-                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="#">View</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-6 col-lg-3 col-md-6">
                     <div class="card">
@@ -100,22 +79,47 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+
+
+
+                <div class="col-6 col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body px-4 py-4-5">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start ">
+                                    <div class="stats-icon red mb-2">
+                                        <i class="iconly-boldHome"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
+                                    <h6 class="text-muted font-semibold">Net Purchase</h6>
+                                    <h6 class="font-extrabold mb-0" id="totalPurchases">10</h6>
+                                </div>
+                                <div id="view" class="col-sm-12 p-4 text-right">
+                                    <!--<a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="#">View</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
 
         <div class="col-12 col-lg-12">
             <div class="row">
 
-            <div class="col-sm-6">
+                <div class="col-sm-6">
                     <div id='chart_1' class="card">
                         <div class="card-body">
                             <h5 class="p-2">Category Wise Stock</h5>
-                            <canvas id="chart_1" class='chart_1'></canvas> 
+                            <canvas id="chart_1" class='chart_1'></canvas>
                         </div>
                     </div>
                 </div>
 
-            <div class="col-sm-6">
+                <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="p-2">Inward List</h5>
@@ -142,7 +146,7 @@
             </div>
         </div>
 
-        
+
     </section>
 </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
