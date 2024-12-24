@@ -136,14 +136,14 @@ class Transfer extends CI_Controller
                 }
                 $actionHtml = '<div calss="d-flex">';
                 if ($this->rights != '' && $this->rights['view'] == 1) {
-                    $actionHtml .= ' <a class="btn btn-success btn-sm cursor_pointer m-2 edit_transfer" data-seq="' . $row->code . '"><i id="view" title="View" class="fa fa-eye"></i></a>';
+                    $actionHtml .= ' <a id="view" class="btn btn-success btn-sm cursor_pointer m-2 edit_transfer" data-seq="' . $row->code . '"><i id="view" title="View" class="fa fa-eye"></i></a>';
                 }
                 if ($row->isApproved == 0) {
                     if ($this->rights != '' && $this->rights['update'] == 1) {
-                        $actionHtml .= ' <a href="' . base_url() . 'transfer/edit/' . $row->code . '" class="btn btn-info btn-sm m-2 cursor_pointer"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+                        $actionHtml .= ' <a id="edit" href="' . base_url() . 'transfer/edit/' . $row->code . '" class="btn btn-info btn-sm m-2 cursor_pointer"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
                     }
                     if ($this->rights != '' && $this->rights['delete'] == 1) {
-                        $actionHtml .= '<a class="btn btn-danger btn-sm m-2 cursor_pointer delete_group" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+                        $actionHtml .= '<a id="delete" class="btn btn-danger btn-sm m-2 cursor_pointer delete_group" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
                     }
                 }
                 $actionHtml .= '</div>';

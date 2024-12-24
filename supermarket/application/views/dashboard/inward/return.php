@@ -82,7 +82,7 @@
 
 											</div>
 											<div class="row">
-												<div class="col-md-3 col-12">
+												<div class="col-md-12 col-12">
 													<div class="form-group">
 														<label for="product-name" class="form-label">Reference</label>
 														<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref']?>" disabled>
@@ -134,8 +134,8 @@
 											</div>
 											<div class="row">
 												<div class="col-12 d-flex justify-content-end">
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveReturnBtn">Save</button>
-													<button type="button" id="cancelReturnBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+													<button type="submit" class="btn btn-success" id="saveReturnBtn">Save</button>
+													<button type="button" id="cancelReturnBtn" class="btn btn-light-secondary">Reset</button>
 												</div>
 											</div>
 										</div>

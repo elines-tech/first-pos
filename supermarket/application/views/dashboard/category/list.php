@@ -15,15 +15,17 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_category"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_category"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -41,7 +43,7 @@
                                 <th>Sr No</th>
                                 <th>Code</th>
                                 <th>Category Name</th>
-                               <!-- <th>Short Name</th>-->
+                                <!-- <th>Short Name</th>-->
                                 <th>Icon</th>
                                 <th>Status</th>
                                 <th>Action</th>
@@ -93,14 +95,18 @@
                                                 </div>
                                             </div>
                                         </div>
+
+
                                         <div class="col-md-12 col-12" id="file_uploadDiv">
                                             <div class="form-group row">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Icon :</label>
                                                 <div class="col-md-8">
-                                                    <input type="file" id="categoryIcon" class="form-control" name="categoryIcon">
+                                                    <input type="file" id="categoryIcon" class="form-control" name="categoryIcon" style="padding: 5px;">
                                                 </div>
                                             </div>
                                         </div>
+
+                                        
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
                                                 <label for="status" class="col-sm-4 col-form-label text-left">Active : </label>
@@ -122,8 +128,8 @@
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
                                             <input type="hidden" class="form-control" id="previousIcon" name="previousIcon">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveCategoryBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeCategoryBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveCategoryBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeCategoryBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -149,10 +155,10 @@
         $('#code').val('');
         $('#file_uploadDiv').removeClass('d-none');
         $('#saveCategoryBtn').removeClass('d-none');
-		$('#categoryName').prop('disabled',false)
-		$('#categorySName').prop('disabled',false)
-		$('#description').prop('disabled',false)
-		$("#isActive").prop("disabled", false);
+        $('#categoryName').prop('disabled', false)
+        $('#categorySName').prop('disabled', false)
+        $('#description').prop('disabled', false)
+        $("#isActive").prop("disabled", false);
         $('#categorySName').val('');
         $('#categoryName').val('');
         $('#categoryIcon').val('');
@@ -194,19 +200,19 @@
                                         $('#modal_label').text('View Category');
                                         $('#file_uploadDiv').addClass('d-none');
                                         $('#saveCategoryBtn').addClass('d-none');
-										$('#categoryName').prop('disabled',true)
-										$('#categorySName').prop('disabled',true)
-										$('#description').prop('disabled',true)
-										$("#isActive").prop("disabled", true);
+                                        $('#categoryName').prop('disabled', true)
+                                        $('#categorySName').prop('disabled', true)
+                                        $('#description').prop('disabled', true)
+                                        $("#isActive").prop("disabled", true);
                                     } else {
                                         $('#file_uploadDiv').removeClass('d-none');
                                         $('#saveCategoryBtn').removeClass('d-none');
                                         $('#modal_label').text('Update Category');
                                         $('#saveCategoryBtn').text('Update');
-										$('#categoryName').prop('disabled',false)
-										$('#categorySName').prop('disabled',false)
-										$('#description').prop('disabled',false)
-										$("#isActive").prop("disabled", false);
+                                        $('#categoryName').prop('disabled', false)
+                                        $('#categorySName').prop('disabled', false)
+                                        $('#description').prop('disabled', false)
+                                        $("#isActive").prop("disabled", false);
                                     }
 
                                     $('#nameDiv').removeClass('is-invalid');
@@ -215,10 +221,10 @@
                                     $('#categoryName').val(obj.categoryName);
                                     $('#categorySName').val(obj.categorySName);
                                     $('#description').val(obj.description);
-									$('#iconImg').attr('src', '');
-									$('#categoryIcon').val('');
-                                        $('#previousIcon').val(obj.previousIcon);
-									$('#previewDiv').addClass('d-none');
+                                    $('#iconImg').attr('src', '');
+                                    $('#categoryIcon').val('');
+                                    $('#previousIcon').val(obj.previousIcon);
+                                    $('#previewDiv').addClass('d-none');
                                     if (obj.icon != '') {
                                         $('#previewDiv').removeClass('d-none');
                                         $('#iconImg').attr('src', obj.icon);

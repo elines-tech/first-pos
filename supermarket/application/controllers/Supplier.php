@@ -60,13 +60,13 @@ class Supplier extends CI_Controller
             foreach ($Records->result() as $row) {
                 $actionHtml = '<div class="d-flex">';
                 if ($this->rights != '' && $this->rights['view'] == 1) {
-                    $actionHtml .= '<a href="' . base_url() . 'supplier/view/' . $row->code . '" class="btn btn-sm btn-success cursor_pointer m-1" ><i id="edt" title="View" class="fa fa-eye" ></i></a>';
+                    $actionHtml .= '<a id="view" href="' . base_url() . 'supplier/view/' . $row->code . '" class="btn btn-sm btn-success cursor_pointer m-1" ><i id="edt" title="View" class="fa fa-eye" ></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['update'] == 1) {
-                    $actionHtml .= '<a class="btn btn-sm btn-info cursor_pointer m-1" href="' . base_url() . 'supplier/edit/' . $row->code . '" ><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+                    $actionHtml .= '<a id="edit" class="btn btn-sm btn-info cursor_pointer m-1" href="' . base_url() . 'supplier/edit/' . $row->code . '" ><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
                 }
                 if ($this->rights != '' && $this->rights['delete'] == 1) {
-                    $actionHtml .= '<a class="btn btn-sm btn-danger delete_id cursor_pointer m-1" id="' . $row->code . '"  ><i title="Delete" id="edt" class="fa fa-trash" ></i></a>';
+                    $actionHtml .= '<a id="delete" class="btn btn-sm btn-danger delete_id cursor_pointer m-1" id="' . $row->code . '"  ><i title="Delete" id="edt" class="fa fa-trash" ></i></a>';
                 }
                 $actionHtml .= '</div>';
                 if ($row->isActive == "1") {

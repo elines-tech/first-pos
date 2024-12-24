@@ -15,16 +15,17 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-					<h2><a href="<?= base_url() ?>inward/add"><i class="fa fa-plus-circle"></i></a></h2>
-                    
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" href="<?= base_url() ?>inward/add"><i class="fa fa-plus-circle"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -32,19 +33,19 @@
                     <div class="row">
                         <div class="col-9">
                             <h5>Filter </h5>
-                        </div>                
+                        </div>
                     </div>
                     <hr>
                     <div class="row mt-3">
                         <div class="col-md-3">
                             <label class="form-label lng">From Branch</label>
                             <div class="form-group mandatory">
-                                <select class="form-select select2" name="frombranch" id="frombranch"  <?php if($branchCode!=""){?>disabled <?php }?>>
-                                       <?php if($branchCode!=""){?>
-									   <option value="<?php echo $branchCode;?>"><?php echo $branchName;?></option>                               
-							           <?php } ?>
-							   </select>
-                            </div> 
+                                <select class="form-select select2" name="frombranch" id="frombranch" <?php if ($branchCode != "") { ?>disabled <?php } ?>>
+                                    <?php if ($branchCode != "") { ?>
+                                        <option value="<?php echo $branchCode; ?>"><?php echo $branchName; ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
                         </div>
                         <div class="col-md-3">
                             <label class="form-label lng">To Branch</label>
@@ -84,10 +85,10 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="d-flex mt-4">
-                                <button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+                        <div class="col-md-12">
+                            <div class="d-flex text-center justify-content-center mt-4">
+                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
                             </div>
                         </div>
                     </div>
@@ -127,7 +128,8 @@
 </div>
 <script>
     $(document).ready(function() {
-		var data = '<?php echo $this->session->flashdata('message'); unset($_SESSION['message']);?>';
+        var data = '<?php echo $this->session->flashdata('message');
+                    unset($_SESSION['message']); ?>';
         if (data != '') {
             var obj = JSON.parse(data);
             if (obj.status) {

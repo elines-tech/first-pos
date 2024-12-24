@@ -32,7 +32,7 @@ if ($items) {
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Edit Inward<span style="float:right"><a href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3>Edit Inward<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -66,23 +66,23 @@ if ($items) {
 														<div class="form-group mandatory">
 															<label for="product-name" class="form-label">Branch</label>
 															<input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code'] ?>">
-															<?php if($branchCode!=""){?>
-														      <input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
-															  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-														   <?php } else{?>
-															<select class="form-select select2" name="branchCode" id="branchCode" data-parsley-required="true" required>
-																<option value="">Select</option>
-																<?php if ($branch) {
-																	foreach ($branch->result() as $br) {
-																		if ($result['branchCode'] == $br->code) {
-																			echo '<option value="' . $br->code . '" selected>' . $br->branchName . '</option>';
-																		} else {
-																			echo '<option value="' . $br->code . '">' . $br->branchName . '</option>';
+															<?php if ($branchCode != "") { ?>
+																<input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
+																<input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+															<?php } else { ?>
+																<select class="form-select select2" name="branchCode" id="branchCode" data-parsley-required="true" required>
+																	<option value="">Select</option>
+																	<?php if ($branch) {
+																		foreach ($branch->result() as $br) {
+																			if ($result['branchCode'] == $br->code) {
+																				echo '<option value="' . $br->code . '" selected>' . $br->branchName . '</option>';
+																			} else {
+																				echo '<option value="' . $br->code . '">' . $br->branchName . '</option>';
+																			}
 																		}
-																	}
-																} ?>
-															</select>
-														   <?php } ?>
+																	} ?>
+																</select>
+															<?php } ?>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
@@ -105,7 +105,7 @@ if ($items) {
 
 												</div>
 												<div class="row">
-													<div class="col-md-3 col-12">
+													<div class="col-md-12 col-12">
 														<div class="form-group">
 															<label for="product-name" class="form-label">Reference</label>
 															<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref'] ?>">
@@ -190,7 +190,7 @@ if ($items) {
 																			<input type="number" min="0" max="99999999999" step="0.01" required class="form-control subtotal" name="subTotal[]" id="subTotal<?= $i ?>" value="<?= $co['subTotal'] ?>" readonly>
 																		</div>
 																	</div>
-																	<div class="col-md-3 col-12 mt-3">
+																	<div class="col-md-3 col-12 mt-4">
 																		<a href="#" class="btn btn-danger" onclick="delete_row(<?= $i ?>,'<?= $co['code'] ?>')"><i class="fa fa-trash"></i></a>
 																	</div>
 																</div>
@@ -212,16 +212,16 @@ if ($items) {
 													</div>
 												</div>
 												<div class="row">
-													<div class="col-md-4 offset-md-8 col-12">
+													<div class="col-md-4 offset-md-8 col-12 mb-2">
 														<div class="form-group mandatory">
 															<label for="" class="form-label">Total</label>
 															<input type="number" step="0.01" id="total" class="form-control" name="total" required readonly value="<?= $result['total'] ?>">
 														</div>
 													</div>
 													<div class="col-12 d-flex justify-content-end">
-														<button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-														<button type="submit" class="btn btn-success white me-2 mb-1 sub_1 submitBtn" name="saveInwardBtn" value="2">Save</button>
-														<button type="button" id="cancelInwardBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+														<button id="saveDefaultButton" type="submit" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
+														<button id="saveInwardBtn" type="submit" class="btn btn-success submitBtn" name="saveInwardBtn" value="2">Save</button>
+														<button type="reset" id="cancelInwardBtn" class="btn btn-light-secondary ">Reset</button>
 													</div>
 												</div>
 											</div>
@@ -581,7 +581,7 @@ if ($items) {
 						<input type="number" min="0" max="999999999" step="0.01" value="0.00" required class="form-control subtotal" name="subTotal[]" id="subTotal${room}" readonly>
 					</div>
 				</div>
-				<div class="col-md-3 col-12 mt-3">
+				<div class="col-md-3 col-12 mt-4">
 					 <div class="add_btn"><button type="button" class="btn btn-danger remove_price_fields" data-id="${room}"><i class="fa fa-trash"></i></button></div>
 				</div>
                 <hr>				

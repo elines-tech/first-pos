@@ -107,18 +107,18 @@ class Inward extends CI_Controller
 				}
 				$actionHtml = '<div class="d-flex">';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml .= '<a href="' . base_url() . 'inward/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a id="view" href="' . base_url() . 'inward/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				}
 				if ($row->isApproved == 0) {
 					if ($this->rights != '' && $this->rights['update'] == 1) {
-						$actionHtml .= '<a href="' . base_url() . 'inward/edit/' . $row->code . '" class="btn btn-info btn-sm m-1 cursor_pointer"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+						$actionHtml .= '<a id="edit" href="' . base_url() . 'inward/edit/' . $row->code . '" class="btn btn-info btn-sm m-1 cursor_pointer"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 					}
 					if ($this->rights != '' && $this->rights['delete'] == 1) {
-						$actionHtml .= '<a class="btn btn-danger btn-sm m-1 cursor_pointer delete_inward" id="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+						$actionHtml .= '<a id="delete" class="btn btn-danger btn-sm m-1 cursor_pointer delete_inward" id="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
 					}
 				} else if ($row->isApproved == 1) {
 					if ($this->rights != '' && $this->rights['update'] == 1) {
-						$actionHtml .= '<a class="btn btn-warning btn-sm m-1 cursor_pointer" href="' . base_url() . 'inward/returns/' . $row->code . '"><i id="dlt" title="Return" class="fa fa-undo"></i></a>';
+						$actionHtml .= '<a id="customize" class="btn btn-warning btn-sm m-1 cursor_pointer" href="' . base_url() . 'inward/returns/' . $row->code . '"><i id="dlt" title="Return" class="fa fa-undo"></i></a>';
 					}
 				}
 				$actionHtml .= '</div>';

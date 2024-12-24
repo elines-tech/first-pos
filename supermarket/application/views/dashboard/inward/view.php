@@ -21,7 +21,7 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3>View Inward<span style="float:right"><a href="<?= base_url()?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+						<h3>View Inward<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url()?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -83,7 +83,7 @@
 
 											</div>
 											<div class="row">
-												<div class="col-md-3 col-12">
+												<div class="col-md-12 col-12">
 													<div class="form-group">
 														<label for="product-name" class="form-label">Reference</label>
 														<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref']?>" disabled>

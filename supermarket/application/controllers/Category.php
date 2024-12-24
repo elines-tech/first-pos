@@ -62,13 +62,13 @@ class Category extends CI_Controller
 				}
 				$actionHtml = '<div class="d-flex">';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml .= '<a class="edit_category btn btn-success m-1 btn-sm cursor_pointer" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a id="view" class="edit_category btn btn-success m-1 btn-sm cursor_pointer" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a class="edit_category btn btn-info m-1 btn-sm cursor_pointer" data-seq="' . $row->code . '" data-type="2"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="edit_category btn btn-info m-1 btn-sm cursor_pointer" data-seq="' . $row->code . '" data-type="2"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-danger m-1 delete_category" data-seq="' . $row->code . '"><i id="dlt" title="Delete"  class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a id="delete" class="btn btn-sm btn-danger m-1 delete_category" data-seq="' . $row->code . '"><i id="dlt" title="Delete"  class="fa fa-trash"></i></a>';
 				}
 				$actionHtml .= '</div>';
 				$iconPath = '';

@@ -21,7 +21,7 @@
 					<div class="col-12">
 						<div class="card">
 							<div class="card-header">
-								<h3>Add Transfer<span style="float:right"><a href="<?= base_url() ?>transfer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+								<h3>Add Transfer<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>transfer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 							</div>
 							<div class="card-content">
 								<div class="card-body">
@@ -33,39 +33,46 @@
 										}
 										echo "</div>";
 										?>
-										<div class="form-group row">
-											<div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+
+
+										<div class="form-group col-md-12 col-sm-12 col-xs-12 row">
+
+
+											<div class="col-md-12 col-sm-12 col-xs-12 mb-3">
 												<div class="form-group mandatory">
 													<label class="form-label">Date</label>
 													<input type="date" class="form-control bg-white" name="transferDate" id="transferDate" value="<?= date('Y-m-d') ?>">
 												</div>
 											</div>
-											<div class="col-md-3 col-sm-12 col-xs-12 mb-3">
-												<div class="form-group mandatory">
-													<label class="form-label">From Branch</label>
-													<div class="col-md-10 col-sm-12 col-xs-12">
-														<input type="hidden" class="form-control" id="transferCode" name="transferCode">
-														<?php if($branchCode!=""){?>
-														 <input type="hidden" class="form-control" name="branch" id="branch"  value="<?= $branchCode; ?>" readonly>
-													     <input type="text" class="form-control" name="fromBranch" value="<?= $branchName; ?>" readonly>
-														
-													    <?php } else{?>
+
+
+											<div class="form-group col-md-6 col-sm-12 col-xs-12 mb-3 mandatory">
+												<label class="form-label">From Branch</label>
+												<div class="col-md-12 col-sm-12 col-xs-12">
+													<input type="hidden" class="form-control" id="transferCode" name="transferCode">
+													<?php if ($branchCode != "") { ?>
+														<input type="hidden" class="form-control" name="branch" id="branch" value="<?= $branchCode; ?>" readonly>
+														<input type="text" class="form-control" name="fromBranch" value="<?= $branchName; ?>" readonly>
+
+													<?php } else { ?>
 														<select class="form-select select2" name="fromBranch" id="fromBranch" data-parsley-required="true" style="width:100%" required onchange="getBranchBatches()">
 														</select>
-														<?php } ?>   
-													</div>
+													<?php } ?>
 												</div>
 											</div>
-											<div class="col-md-3 col-sm-12 col-xs-12 mb-3">
-												<div class="form-group mandatory">
-													<label class="form-label">To Branch</label>
-													<div class="col-md-10 col-sm-12 col-xs-12">
-														<select class="form-select select2" name="toBranch" id="toBranch" data-parsley-required="true" required>
-														</select>
-													</div>
+
+											<div class="form-group col-md-6 col-sm-12 col-xs-12 mb-3 mandatory">
+												<label class="form-label">To Branch</label>
+												<div class="col-md-12 col-sm-12 col-xs-12">
+													<select class="form-select select2" name="toBranch" id="toBranch" data-parsley-required="true" required>
+													</select>
 												</div>
 											</div>
+
 										</div>
+
+
+
 										<table class="table table-hover" id="transferTable">
 											<thead>
 												<tr>
@@ -109,23 +116,23 @@
 														<input type="text" class="form-control subtotal" name="subTotal[]" id="subTotal0" readonly>
 													</td>
 													<td>
-														<a href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a>
+														<a href="#" id="view" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a>
 													</td>
 												</tr>
 											</tbody>
 										</table>
 										<div id="pricesection_add_btn"></div>
 										<div class="row">
-											<div class="col-md-6 offset-md-6 col-12">
+											<div class="col-md-6 offset-md-6 mb-3 col-12">
 												<div class="form-group mandatory">
 													<label for="" class="form-label">Total</label>
 													<input type="text" id="total" class="text-right form-control" name="total" value="0.00" readonly="readonly" autocomplete="off">
 												</div>
 											</div>
 											<div class="col-12 d-flex justify-content-end">
-												<button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
-												<button type="submit" class="btn btn-success white me-2 mb-1 sub_1" id="saveTransferBtn">Save</button>
-												<button type="reset" class="btn btn-light-secondary me-1 mb-1" id="cancelTransferBtn">Reset</button>
+												<button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
+												<button type="submit" class="btn btn-success" id="saveTransferBtn">Save</button>
+												<button type="reset" class="btn btn-light-secondary" id="cancelTransferBtn">Reset</button>
 											</div>
 										</div>
 									</form>
@@ -248,7 +255,7 @@
 				}
 			});
 		});
-	}); 
+	});
 
 	function remove() {
 		swal({
@@ -356,7 +363,7 @@
 			remove();
 		}
 		branchCode = $('#fromBranch').val();
-		
+
 		if (branchCode != '' && branchCode != undefined) {
 			$.ajax({
 				url: base_path + "transfer/getBranchBatches",

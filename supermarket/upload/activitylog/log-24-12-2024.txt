@@ -1,0 +1,32 @@
+Dt --> 24-12-24 02:08:00 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+24-12-24 02:08:52	127.0.0.1	CLT24_8	 updated company details after account creation 	
+2024-12-24 15:43:46	127.0.0.1	Admin	admin	BRD_1 - adidas brand is added.
+2024-12-24 15:47:27	127.0.0.1	Admin	admin	true - adidass brand is updated.
+2024-12-24 15:47:32	127.0.0.1	Admin	admin	true - adidas brand is updated.
+2024-12-24 16:17:47	127.0.0.1	Admin	admin	CAT_1 - shooses category is added.
+2024-12-24 16:45:24	127.0.0.1	Admin	admin	SCAT_1 - subShooses subcategory is added.
+2024-12-24 16:46:39	127.0.0.1	Admin	admin	SCAT_1 - subShoose Subcategory is updated.
+2024-12-24 17:34:43	127.0.0.1	Admin	admin	 - kilo base unit is added.
+2024-12-24 17:35:07	127.0.0.1	Admin	admin	UOM_1 - kiloooo unit is added.
+2024-12-24 17:36:17	127.0.0.1	Admin	admin	TAC_1 - tax Tax Rate is updated.
+2024-12-24 17:36:33	127.0.0.1	Admin	admin	TAG_1 - taxgroup Tax Group is added.
+24-12-24 05:37:13	127.0.0.1	Admin	admin	PRO24_1 - rice Product is added.
+24-12-24 17:37:39	127.0.0.1	Admin	admin	PRO24_1 - rice Product is updated.
+24-12-24 17:40:22	127.0.0.1	Admin	admin	PRO24_1 - rice Product is updated.
+24-12-24 07:09:43	127.0.0.1	Admin	admin	SUP24_1 - sasa Supplier is added.
+24-12-24 07:21:22	127.0.0.1	Admin	admin	SUP24_1 - sasaSupplier is updated.
+24-12-24 07:21:35	127.0.0.1	Admin	admin	SUP24_1 - sasaSupplier is updated.
+2024-12-24 19:31:33	127.0.0.1	Admin	admin	BR24_1 - ddddd Branch is added.
+2024-12-24 19:38:58	127.0.0.1	Admin	admin	IN24_1 - SUP24_1 of BR24_1 having amount 500.00 inward is added.
+2024-12-24 19:39:08	127.0.0.1	Admin	admin	IN24_1 - SUP24_1 of BR24_1 having amount 500.00 inward is updated.
+2024-12-24 19:40:22	127.0.0.1	Admin	admin	IN24_2 - SUP24_1 of BR24_1 having amount 60.00 inward is added.
+2024-12-24 19:50:56	127.0.0.1	Admin	admin	IN24_2 - SUP24_1 of BR24_1 having amount 30.00 inward is updated.
+2024-12-24 19:55:09	127.0.0.1	Admin	admin	IN24_2 - SUP24_1 of BR24_1 having amount 30.00 inward is updated.
+2024-12-24 19:58:07	127.0.0.1	Admin	admin	IN24_3 - SUP24_1 of BR24_1 having amount 1320.00 inward is added.
+2024-12-24 20:22:10	127.0.0.1	Admin	admin	BR24_2 - uuuuuu Branch is added.
+2024-12-24 20:23:06	127.0.0.1	Admin	admin	IN24_4 - BR24_1 of BR24_2 having amount 3.00  is transfer.
+2024-12-24 20:24:15	127.0.0.1	Admin	admin	IN24_5 - BR24_1 of BR24_2 having amount 50.00  is transfer.
+2024-12-24 20:47:23	127.0.0.1	Admin	admin	IN24_4 - BR24_2 of BR24_1 having amount 0.00  is transfer.
+2024-12-24 20:51:55	127.0.0.1	Admin	admin	IN24_4 Transfer is deleted.
+2024-12-24 20:52:32	127.0.0.1	Admin	admin	IN24_6 - BR24_2 of BR24_1 having amount 50.00  is transfer.
+2024-12-24 21:27:18	127.0.0.1	Admin	admin	BAR24_1 - barcode is generated.

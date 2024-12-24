@@ -15,16 +15,18 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-					<h2><a href="<?php echo base_url(); ?>barcode/add"><i class="fa fa-plus-circle"></i></a></h2>
-                    
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" href="<?php echo base_url(); ?>barcode/add"><i class="fa fa-plus-circle"></i></a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -33,7 +35,7 @@
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
                             <h5>Barcode List</h5>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="card-body" id="print_div">
@@ -72,11 +74,11 @@
                     <div class="col-sm-12 col-md-12">
                         <div class="panel">
                             <div class="panel-body1">
-                                <form id="barcodeForm" method="post" action="<?= base_url()?>barcode/generateBarcode" class="form" data-parsley-validate>
+                                <form id="barcodeForm" method="post" action="<?= base_url() ?>barcode/generateBarcode" class="form" data-parsley-validate>
                                     <div class="row">
                                         <div class="col-md-5 col-12">
-                                              <label class="form-label">Barcode Quantity : <b style="color:red">*</b></label>
-										<input type="text" id="barcodeQty" class="form-control" name="barcodeQty" required>
+                                            <label class="form-label">Barcode Quantity : <b style="color:red">*</b></label>
+                                            <input type="text" id="barcodeQty" class="form-control" name="barcodeQty" required>
                                         </div>
 
                                         <div class="col-md-5 col-12" style="margin-top:32px;">
@@ -165,5 +167,4 @@
             });
         });
     }
-	
 </script>

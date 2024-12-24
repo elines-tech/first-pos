@@ -33,7 +33,7 @@ if ($items) {
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Add Inward <span style="float:right"><a href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3>Add Inward <span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -82,7 +82,7 @@ if ($items) {
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-md-3 col-12">
+												<div class="col-md-12 col-12">
 													<div class="form-group">
 														<label for="product-name" class="form-label">Reference</label>
 														<input type="text" class="form-control" name="refNo" id="refNo" value="">
@@ -142,8 +142,8 @@ if ($items) {
 															<input type="number" min="0" max="9999999999999" step="0.01" value="0.00" class="form-control subtotal" name="subTotal[]" id="subTotal0" readonly>
 														</div>
 													</div>
-													<div class="col-md-3 col-12 mt-3">
-														<div class="add_btn"><a href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a></div>
+													<div class="col-md-3 col-12 mt-4">
+														<div class="add_btn"><a id="view" href="#" class="btn btn-success add_fields" data-id="0"><i class="fa fa-plus"></i></a></div>
 													</div>
 												</div>
 												<hr>
@@ -151,16 +151,16 @@ if ($items) {
 											<div id="add_fields_section"></div>
 											<div class="row" id="pricesection_add_btn"></div>
 											<div class="row">
-												<div class="col-md-4 offset-md-8 col-12">
+												<div class="col-md-4 offset-md-8 col-12 mb-2">
 													<div class="form-group mandatory">
 														<label for="total" class="form-label">Total</label>
 														<input type="number" value="0.00" min="0" step="0.01" id="total" class="form-control" name="total" required readonly>
 													</div>
 												</div>
 												<div class="col-12 d-flex justify-content-end">
-													<button type="submit" class="btn btn-primary white me-2 mb-1 sub_1 submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveInwardBtn">Save</button>
-													<a href="<?= base_url() ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary me-1 mb-1">Close</a>
+													<button type="submit" id="saveDefaultButton" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
+													<button type="submit" class="btn btn-success" id="saveInwardBtn">Save</button>
+													<a href="<?= base_url() ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary">Close</a>
 												</div>
 											</div>
 										</div>
@@ -555,7 +555,7 @@ if ($items) {
 						<input type="number" min="0" max="9999999999999" step="0.01" value="0.00" class="form-control subtotal" name="subTotal[]" id="subTotal${room}" readonly>
 					</div>
 				</div>
-				<div class="col-md-3 col-12 mt-3">
+				<div class="col-md-3 col-12 mt-4">
 					 <div class="add_btn"><button type="button" class="btn btn-danger remove_price_fields" data-id="${room}"><i class="fa fa-trash"></i></button></div>
 				</div>
                  <hr>				

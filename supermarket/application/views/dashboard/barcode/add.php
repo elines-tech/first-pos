@@ -21,7 +21,7 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3>Barcode<span class="float-end"><a class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a></span></h3>
+						<h3>Barcode<span class="float-end"><a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a></span></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -35,80 +35,86 @@
 								?>
 								<div class="row">
 									<div class="col-md-12 col-12">
-										<div class="row">
-											<div class="col-md-4 col-12">
-												<div class="form-group mandatory">
-													<label for="branchCode" class="form-label">Branch</label>
-													<?php if($branchCode!=""){?>
-														  <input type="hidden" class="form-control" name="branchCode" id="branchCode" value="<?= $branchCode; ?>" readonly>
-														  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
+
+
+										<div class="row col-md-12 col-12">
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="branchCode" class="form-label">Branch</label>
+												<?php if ($branchCode != "") { ?>
+													<input type="hidden" class="form-control" name="branchCode" id="branchCode" value="<?= $branchCode; ?>" readonly>
+													<input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+												<?php } else { ?>
 													<select class="form-select select2 branchCode" id="branchCode" name="branchCode" required style="width:100%">
 													</select>
-													<?php } ?>
-												</div>
+												<?php } ?>
 											</div>
-											<div class="col-md-4 col-12">
-												<div class="form-group mandatory">
-													<label for="batchNo" class="form-label">Batch</label>
-													<select class="form-select select2" id="batchNo" name="batchNo" required style="width:100%">
-													</select>
-												</div>
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="batchNo" class="form-label">Batch</label>
+												<select class="form-select select2" id="batchNo" name="batchNo" required style="width:100%">
+												</select>
 											</div>
+
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="branchCode" class="form-label">Product</label>
+												<select class="form-select prds select2" required id="productCode" style="width:100%" name="productCode" onchange="getProductDetails()">
+												</select>
+												<input type="hidden" class="form-control" id="code" name="code" value=''>
+											</div>
+
+
 										</div>
-										<div class="row">
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<label for="branchCode" class="form-label">Product</label>
-													<select class="form-select prds select2" required id="productCode" style="width:100%" name="productCode" onchange="getProductDetails()">
-													</select>
-													<input type="hidden" class="form-control" id="code" name="code" value=''>
-												</div>
+
+
+										<div class="row col-md-12 col-12">
+
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="branchCode" class="form-label">Selling Unit</label>
+												<select class="form-select select2" required id="sellingUnit" style="width:100%" name="sellingUnit">
+												</select>
 											</div>
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<label for="branchCode" class="form-label">Selling Unit</label>
-													<select class="form-select select2" required id="sellingUnit" style="width:100%" name="sellingUnit">
-													</select>
-												</div>
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="sellingQty" class="form-label">Selling Qty</label>
+												<input type="text" required class="form-control text-left" name="sellingQty" id="sellingQty" onkeypress="return isDecimal(event)" onkeyup="checkQty(0);">
 											</div>
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<label for="sellingQty" class="form-label">Selling Qty</label>
-													<input type="text" required class="form-control text-right" name="sellingQty" id="sellingQty" onkeypress="return isDecimal(event)" onkeyup="checkQty(0);">
-												</div>
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="sellingPrice" class="form-label">Selling Price</label>
+												<input type="text" required class="form-control text-left" name="sellingPrice" id="sellingPrice" onkeypress="return isDecimal(event)" onkeyup="checkPrice(0);calculate_subTotal(0)">
 											</div>
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<label for="sellingPrice" class="form-label">Selling Price</label>
-													<input type="text" required class="form-control text-right" name="sellingPrice" id="sellingPrice" onkeypress="return isDecimal(event)" onkeyup="checkPrice(0);calculate_subTotal(0)">
-												</div>
-											</div>
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<label for="discountPrice" class="form-label">Discount Price</label>
-													<input type="text" required class="form-control text-right" name="discountPrice" id="discountPrice" onkeypress="return isDecimal(event)" onkeyup="calculate_subTotal(0)">
-												</div>
-											</div>
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<label for="taxPercent" class="form-label">Tax(%)</label>
-													<input type="text" required class="form-control text-right" name="taxPercent" id="taxPercent" readonly>
-												</div>
-											</div>
-											<div class="col-md-4 col-sm-6">
-												<div class="form-group mandatory">
-													<lable for="taxAmount" class="form-label">Tax Amount</lable>
-													<input type="text" required class="form-control text-right" name="taxAmount" id="taxAmount" readonly>
-												</div>
-											</div>
+
 										</div>
+
+										<div class="row col-md-12 col-12">
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="discountPrice" class="form-label">Discount Price</label>
+												<input type="text" required class="form-control text-left" name="discountPrice" id="discountPrice" onkeypress="return isDecimal(event)" onkeyup="calculate_subTotal(0)">
+											</div>
+
+											<div class="form-group col-md-4 col-12 mandatory">
+												<label for="taxPercent" class="form-label">Tax(%)</label>
+												<input type="text" required class="form-control text-left" name="taxPercent" id="taxPercent" readonly>
+											</div>
+
+											<div class="form-group col-md-4 font-bold mt-2 col-12 mandatory">
+												<lable for="taxAmount" class="form-label">Tax Amount</lable>
+												<input type="text" required class="form-control text-left" name="taxAmount" id="taxAmount" readonly>
+											</div>
+
+										</div>
+
+
 									</div>
 								</div>
-								<div class="row">
+								<div class="row mt-3">
 									<div class="col-12 d-flex justify-content-end">
-										<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveBarcodeBtn">Save</button>
-										<button type="button" id="cancelBarcodeBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+										<button type="submit" class="btn btn-success" id="saveBarcodeBtn">Save</button>
+										<button type="reset" id="cancelBarcodeBtn" class="btn btn-light-secondary">Reset</button>
 									</div>
 								</div>
 							</form>
@@ -120,7 +126,7 @@
 	</section>
 </div>
 <script type="text/javascript">
-    var selectedBranch = selectedBatchNo = "";
+	var selectedBranch = selectedBatchNo = "";
 	$(document).ready(function() {
 		$('.cancel').removeClass('btn-default').addClass('btn-info');
 
@@ -174,7 +180,7 @@
 		}).on("select2:select", function(e) {
 			if (selectedBranch !== "") {
 				$("#batchNo").val(null).trigger("change");
-				$("#productCode").val(null).trigger("change"); 
+				$("#productCode").val(null).trigger("change");
 			}
 			selectedBranch = $('.branchCode').val();
 		});
@@ -188,8 +194,8 @@
 				delay: 250,
 				dataType: 'json',
 				data: function(params) {
-					var query = { 
-						search: params.term,      
+					var query = {
+						search: params.term,
 						branch: $("#branchCode").val(),
 					}
 					return query;
@@ -203,7 +209,7 @@
 			}
 		}).on("select2:select", function(e) {
 			if (selectedBatchNo !== "") {
-				$("#productCode").val(null).trigger("change"); 
+				$("#productCode").val(null).trigger("change");
 			}
 			selectedBatchNo = $('#batchNo').val();
 			fetchPorducts();
