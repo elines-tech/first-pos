@@ -107,7 +107,7 @@
 												<?php if ($insertRights == 1) { ?>
 													<button type="submit" class="btn btn-success" id="saveRecipeBtn">Save</button>
 												<?php } ?>
-												<button type="button" id="cancelRecipeBtn" class="btn btn-light-secondary">Reset</button>
+												<button type="reset" id="cancelRecipeBtn" class="btn btn-light-secondary">Reset</button>
 											</div>
 										</div>
 									</div>

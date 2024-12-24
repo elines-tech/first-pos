@@ -287,7 +287,7 @@
                                         <?php if ($updateRights == 1) { ?>
                                             <button type="button" class="btn btn-primary" id="updateProductCombo">Update</button>
                                         <?php } ?>
-                                        <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" id="closeProductCombo">Close</button>
+                                        <button type="reset" class="btn btn-light-secondary" data-bs-dismiss="modal" id="closeProductCombo">Reset</button>
                                     </div>
                                 </div>
 
