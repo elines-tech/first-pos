@@ -22,7 +22,7 @@
                     <div class="card">
                         <div class="card-header">
                             <h3>Update Product<span style="float:right">
-                                    <div class="d-flex"><?php if ($productData[0]['hasVariants'] == 1) { ?><a href="<?= base_url() ?>Product/variant/<?= $productData[0]['code'] ?>" class="btn btn-sm btn-primary m-1">Product Variants</a><?php } ?><a href="<?= base_url() ?>product/listRecords" class="btn btn-sm btn-primary m-1">Back</a></div>
+                                    <div class="d-flex"><?php if ($productData[0]['hasVariants'] == 1) { ?><a id="productVariants" href="<?= base_url() ?>Product/variant/<?= $productData[0]['code'] ?>" class="btn btn-sm btn-primary m-1">Product Variants</a><?php } ?><a id="cancelDefaultButton" href="<?= base_url() ?>product/listRecords" class="btn btn-sm btn-primary m-1">Back</a></div>
                                 </span></h3>
                         </div>
                         <div class="card-content">
@@ -39,62 +39,93 @@
                                     <div class="row">
                                         <div class="col-md-7 col-12">
                                             <div class="row">
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group mandatory">
+
+
+                                                <div class="row col-md-12 col-12">
+
+                                                    <div class="form-group col-md-6 col-12 mandatory">
+                                                        <label for="product-arabic-name" class="form-label">Arabic Name</label>
+                                                        <input type="text" id="product-arabic-name" class="form-control" placeholder="Arabic Name" name="product-arabic-name" data-parsley-required="true" value="<?= $productData[0]['productArbName'] ?>">
+                                                    </div>
+
+
+                                                    <div class="form-group col-md-6 col-12 mandatory">
                                                         <label for="product-english-name" class="form-label">English Name</label>
                                                         <input type="text" id="product-english-name" class="form-control" placeholder="English Name" name="product-english-name" data-parsley-required="true" value="<?= $productData[0]['productEngName'] ?>">
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group">
+
+
+                                                <div class="row col-md-12 col-12">
+
+                                                    <div class="form-group col-md-6 col-12">
+                                                        <label for="desc-column">Arabic Description</label>
+                                                        <textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= $productData[0]['productArbDesc'] ?></textarea>
+                                                    </div>
+
+
+                                                    <div class="form-group col-md-6 col-12">
                                                         <label for="desc-column">English Description</label>
                                                         <textarea class="form-control" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= $productData[0]['productEngDesc'] ?></textarea>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group mandatory">
-                                                        <label for="product-arabic-name" class="form-label">Arabic Name</label>
-                                                        <input type="text" id="product-arabic-name" class="form-control" placeholder="Arabic Name" name="product-arabic-name" data-parsley-required="true" value="<?= $productData[0]['productArbName'] ?>">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group">
-                                                        <label for="desc-column">Arabic Description</label>
-                                                        <textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= $productData[0]['productArbDesc'] ?></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group mandatory">
+
+
+
+                                                <div class="row col-md-12 col-12">
+
+
+                                                    <div class="form-group col-md-6 col-12 mandatory">
                                                         <label for="product-hindi-name">Hindi</label>
                                                         <input type="text" id="product-hindi-name" class="form-control" placeholder="Hindi Name" name="product-hindi-name" value="<?= $productData[0]['productHinName'] ?>">
                                                     </div>
-                                                </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group">
-                                                        <label for="desc-column">Hindi Description</label>
-                                                        <textarea class="form-control" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= $productData[0]['productHinDesc'] ?></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group mandatory">
+
+
+                                                    <div class="form-group col-md-6 col-12 mandatory">
                                                         <label for="product-urdu-name">Urdu</label>
                                                         <input type="text" id="product-urdu-name" class="form-control" placeholder="Urdu Name" name="product-urdu-name" value="<?= $productData[0]['productUrduName'] ?>">
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12 col-12">
-                                                    <div class="form-group">
+
+
+                                                <div class="row col-md-12 col-12">
+
+
+                                                    <div class="form-group col-md-6 col-12">
+                                                        <label for="desc-column">Hindi Description</label>
+                                                        <textarea class="form-control" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= $productData[0]['productHinDesc'] ?></textarea>
+                                                    </div>
+
+                                                    <div class="form-group form-group col-md-6 col-12">
                                                         <label for="desc-column">Urdu Description</label>
                                                         <textarea class="form-control" placeholder="Product Urdu Description" id="product-urdu-description" name="product-urdu-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= $productData[0]['productUrduDesc'] ?></textarea>
                                                     </div>
+
                                                 </div>
+
+
                                             </div>
+
+
+
                                             <div class="row">
-                                                <div class="col-md-6 col-12">
-                                                    <div class="form-group mandatory">
+
+                                                <div class="row col-md-12 col-12">
+
+                                                    <div class="form-group col-md-6 col-12 mandatory">
                                                         <label for="productprice" class="form-label">SKU</label>
                                                         <input type="text" class="form-control" name="productsku" id="productsku" value="<?= $productData[0]['sku'] ?>" data-parsley-required="true" data-parsley-required-message="Product Price is required." value="<?= set_value('productsku') ?>">
                                                     </div>
+
+                                                    <div class="form-group col-md-6 col-12">
+                                                        <label for="productprice" class="form-label">Alert Quantity</label>
+                                                        <input type="text" min="1" class="form-control" name="alertQty" id="alertQty" value="<?php $productData[0]['alertQty'] != "" ? $productData[0]['alertQty'] : 0 ?>" onkeypress="return isDecimal(event)">
+                                                    </div>
+
+
                                                 </div>
+
+
                                                 <!--
                                                 <div class="col-md-6 col-12">
                                                     <div class="form-group mandatory">
@@ -103,13 +134,10 @@
                                                     </div>
                                                 </div>
                                                 -->
-                                                <div class="col-md-6 col-12">
-                                                    <div class="form-group">
-                                                        <label for="productprice" class="form-label">Alert Quantity</label>
-                                                        <input type="text" min="1" class="form-control" name="alertQty" id="alertQty" value="<?php $productData[0]['alertQty'] != "" ? $productData[0]['alertQty'] : 0 ?>" onkeypress="return isDecimal(event)">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-12">
+
+
+
+                                                <div class="row col-md-12 col-12">
                                                     <div class="form-group mandatory">
                                                         <label for="productprice" class="form-label">Tax Group</label>
                                                         <select class="form-select select2" name="producttaxgroup" id="producttaxgroup" data-parsley-required="true" data-parsley-required-message="Product Tax Group is required.">
@@ -123,29 +151,36 @@
                                                         </select>
                                                     </div>
                                                 </div>
+
+
                                             </div>
 
 
-                                            <div class="col-md-4 col-12 mb-3">
-                                                <div class="form-check mandatory">
-                                                    <div class="checkbox">
+                                            <div class="row col-md-12 col-12 mb-3">
+
+                                                <div class="form-check col-md-6 col-12 mandatory">
+                                                    <div class="checkbox form-check col-md-6 col-12 mandatory">
                                                         <label for="checkbox1">Status</label>
                                                         <input type="checkbox" id="isActive" class="form-check-input" name="isActive" <?php if ($productData[0]['isActive'] == 1) {
                                                                                                                                             echo "checked";
                                                                                                                                         } ?>>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-4 col-6 mb-3">
-                                                <div class="form-check mandatory">
-                                                    <div class="checkbox">
+
+                                                <div class="form-check col-md-6 col-12 mandatory">
+                                                    <div class="checkbox form-check col-md-6 col-12 mandatory">
                                                         <label>has Variants?</label>
                                                         <input type="checkbox" id="isVariants" class="form-check-input" name="isVariants" <?php if ($productData[0]['hasVariants'] == 1) {
                                                                                                                                                 echo "checked";
                                                                                                                                             } ?>>
                                                     </div>
                                                 </div>
+
+
                                             </div>
+
+
+
 
                                         </div>
                                         <div class="col-md-5 col-12">
@@ -207,13 +242,13 @@
                                                     <div class="card-body">
                                                         <h3 class="mt-0 header-title lng">Product Images</h3>
 
-                                                        <div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
+                                                        <div class="col-md-12 col-sm-12 col-xs-12 text-center mb-2 p-0 text-left">
                                                             <?php if ($productData[0]['productImage'] != "") { ?>
                                                                 <img class="img-thumbnail mb-2" width="120px" id="logo_icon" src="<?= base_url() . $productData[0]['productImage'] ?>" data-src="">
                                                             <?php } else { ?>
                                                                 <img class="img-thumbnail mb-2" width="120px" id="logo_icon" src="https://sub.kaemsoftware.com/development/assets/images/faces/default-img.jpg" data-src="">
                                                             <?php } ?>
-                                                            <input class="form-control" type="file" id="formFile" name="productImage">
+                                                            <input class="form-control" type="file" id="formFile" name="productImage" style="padding: 5px;">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -223,8 +258,8 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-success white me-1 mb-1 sub_1">Update</button>
-                                            <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                            <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
+                                            <button id="cancelDefaultButton" type="reset" class="btn btn-light-secondary">Reset</button>
                                         </div>
                                     </div>
                                 </form>

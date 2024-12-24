@@ -21162,6 +21162,34 @@ body .bi:before {
 }
 
 
+
+
+
+
+#productVariants.btn-primary {
+    background-color: orange;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#productVariants.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
 #saveDefaultButton.btn-success {
     background-color: #37B181;
     /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
@@ -21174,6 +21202,30 @@ body .bi:before {
 
 
 #saveDefaultButton.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+
+
+#saveProductExtras.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveProductExtras.btn-success:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/
@@ -21275,6 +21327,15 @@ body .bi:before {
 
 
 #cancelDefaultButton.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#cancelProductExtras.btn.btn-light-secondary {
     background-color: red;
     color: white;
     border: none;
@@ -21405,6 +21466,27 @@ body .bi:before {
 }
 
 
+
+
+#saveSubCategoryBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveSubCategoryBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
 #closeBrandBtn.btn.btn-light-secondary {
     background-color: red;
     color: white;
@@ -21414,6 +21496,14 @@ body .bi:before {
 
 
 #closeCategoryBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#closeSubCategoryBtn.btn.btn-light-secondary {
     background-color: red;
     color: white;
     border: none;

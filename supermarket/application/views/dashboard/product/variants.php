@@ -23,13 +23,13 @@
                             <div class="card-header">
                                 <h3>
                                     Product Variants
-									 <?php if ($productData) {
-                                                foreach ($productData->result() as $row) {  ?>
-                                    <span class="float-end">
-                                        <a type="button" href="<?= base_url() ?>product/edit/<?= $row->code ?>" class="btn btn-sm btn-primary m-1">Back</a>
-                                    </span>
-									 <?php } 
-									 }?> 
+                                    <?php if ($productData) {
+                                        foreach ($productData->result() as $row) {  ?>
+                                            <span class="float-end">
+                                                <a id="cancelDefaultButton" type="button" href="<?= base_url() ?>product/edit/<?= $row->code ?>" class="btn btn-sm btn-primary m-1">Back</a>
+                                            </span>
+                                    <?php }
+                                    } ?>
                                 </h3>
                             </div>
                             <div class="card-content">
@@ -46,8 +46,8 @@
                                             <?php if ($productData) {
                                                 foreach ($productData->result() as $row) {  ?>
                                                     <div class="form-row">
-                                                        <div class="col-md-7 col-12">
-                                                            <div class="form-group">
+                                                        <div class="col-md-12 col-12">
+                                                            <div class="form-group text-center">
                                                                 <label for="product-name" class="form-label">Product Name</label>
                                                                 <input type="text" id="product-name" class="form-control" placeholder="Product Name" name="product-name" value="<?= $row->productEngName ?>" readonly>
                                                                 <input type="hidden" id="productCode" name="productCode" value="<?= $row->code ?>" class="form-control-line" readonly>
@@ -81,7 +81,7 @@
                                                                 <input type="text" class="form-control" name="variantName[]" id="variantName<?= $i ?>" value="<?= $co['variantName'] ?>" onchange="checkDuplicateItem(<?= $i ?>)">
                                                             </td>
                                                             <td>
-                                                                <div class="form-check">
+                                                                <div class="form-check text-center">
                                                                     <input type="hidden" name="isActive[]" id="tisActive<?= $i ?>" value="<?= $co['isActive'] == 1 ? 1 : 0 ?>" readonly>
                                                                     <input class="form-check-input" type="checkbox" id="isActive<?= $i ?>" <?= $co['isActive'] == 1 ? "checked" : "" ?>>
                                                                     <label class="form-check-label" for="isActive<?= $i ?>">
@@ -103,16 +103,16 @@
                                         <div id="pricesection_add_btn">
                                             <div class="col-md-1 mb-3">
                                                 <?php if ($i == 1) { ?>
-                                                    <button class="btn btn-success" type="button" onclick="add_row(1,'add');"><i class="fa fa-plus"></i></button>
+                                                    <button id="view" class="btn btn-success" type="button" onclick="add_row(1,'add');"><i class="fa fa-plus"></i></button>
                                                 <?php } else { ?>
-                                                    <button class="btn btn-success" type="button" onclick="add_row(<?= $i - 1 ?>,'edit');"><i class="fa fa-plus"></i></button>
+                                                    <button id="view" class="btn btn-success" type="button" onclick="add_row(<?= $i - 1 ?>,'edit');"><i class="fa fa-plus"></i></button>
                                                 <?php } ?>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success white me-2 mb-1 sub_1" id="saveProductExtras">Save</button>
-                                                <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="cancelProductExtras">Reset</button>
+                                                <button type="submit" class="btn btn-success" id="saveProductExtras">Save</button>
+                                                <button type="reset" class="btn btn-light-secondary" id="cancelProductExtras">Reset</button>
                                             </div>
                                         </div>
                                     </form>
@@ -302,7 +302,7 @@
 				<input type="text" class="form-control" name="variantName[]" id="variantName${room}" onchange="checkDuplicateItem(${room})">
 			</td>
             <td>
-                <div class="form-check">
+                <div class="form-check text-center">
                     <input type="hidden" name="isActive[]" id="tisActive${room}" value="1" readonly>
                     <input class="form-check-input" type="checkbox" value="1" id="isActive${room}" checked>
                     <label class="form-check-label" for="isActive${room}">
@@ -316,11 +316,11 @@
 		`;
         divtest.innerHTML = element;
         objTo.appendChild(divtest);
-        $("#pricesection_add_btn").empty().append('<div class="col-md-1 mb-3"><button type="button" data-flag="edit" data-id="' + room + '" class="btn btn-success add_fields"><i class="fa fa-plus"></i></button></div>');
+        $("#pricesection_add_btn").empty().append('<div class="col-md-1 mb-3"><button id="view" type="button" data-flag="edit" data-id="' + room + '" class="btn btn-success add_fields"><i class="fa fa-plus"></i></button></div>');
     }
-    
+
     $(document).ready(function() {
-      
+
         var today = new Date().toISOString().split('T')[0];
 
         $("body").delegate(".add_fields", "click", function() {
@@ -353,7 +353,7 @@
                 }
             });
         });
-        
+
         var data = '<?php echo $this->session->flashdata('message');
                     unset($_SESSION['message']); ?>';
         if (data != '') {
@@ -369,7 +369,6 @@
             }
         }
 
-        
-    });
 
+    });
 </script>

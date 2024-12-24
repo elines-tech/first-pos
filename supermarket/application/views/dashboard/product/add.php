@@ -282,8 +282,8 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveBrandBtn" onclick="save_brand()">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeBrandBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveBrandBtn" onclick="save_brand()">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeBrandBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -320,8 +320,8 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveCategoryBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeCategoryBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveCategoryBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeCategoryBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -369,8 +369,8 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveSubCategoryBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeSubCategoryBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveSubCategoryBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeSubCategoryBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
