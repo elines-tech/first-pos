@@ -49,11 +49,13 @@ body {
 }
 
 @keyframes pillerPushUp {
+
 	0%,
 	40%,
 	100% {
 		background-position: 0px 90px, 15px 78px, 30px 66px, 45px 58px, 60px 50px;
 	}
+
 	50%,
 	90% {
 		background-position: 0px 50px, 15px 58px, 30px 66px, 45px 78px, 60px 90px;
@@ -64,57 +66,75 @@ body {
 	0% {
 		transform: translate(0, 0);
 	}
+
 	5% {
 		transform: translate(8px, -14px);
 	}
+
 	10% {
 		transform: translate(15px, -10px);
 	}
+
 	17% {
 		transform: translate(23px, -24px);
 	}
+
 	20% {
 		transform: translate(30px, -20px);
 	}
+
 	27% {
 		transform: translate(38px, -34px);
 	}
+
 	30% {
 		transform: translate(45px, -30px);
 	}
+
 	37% {
 		transform: translate(53px, -44px);
 	}
+
 	40% {
 		transform: translate(60px, -40px);
 	}
+
 	50% {
 		transform: translate(60px, 0);
 	}
+
 	57% {
 		transform: translate(53px, -14px);
 	}
+
 	60% {
 		transform: translate(45px, -10px);
 	}
+
 	67% {
 		transform: translate(37px, -24px);
 	}
+
 	70% {
 		transform: translate(30px, -20px);
 	}
+
 	77% {
 		transform: translate(22px, -34px);
 	}
+
 	80% {
 		transform: translate(15px, -30px);
 	}
+
 	87% {
 		transform: translate(7px, -44px);
 	}
+
 	90% {
 		transform: translate(0, -40px);
 	}
+
 	100% {
 		transform: translate(0, 0);
 	}
@@ -147,11 +167,13 @@ body {
 }
 
 @keyframes flash {
+
 	0%,
 	50%,
 	100% {
 		opacity: 1;
 	}
+
 	25%,
 	75% {
 		opacity: 0;
@@ -281,14 +303,17 @@ ul.pos-ses-user li .user-avatar {
 }
 
 .btn-current-order {
-	border: none;
 	margin: 5px 0;
 	width: 100%;
 	height: 40px;
-	border-radius: 5px;
 	color: #ffffff;
 	text-align: center;
-	background: linear-gradient(98deg, #0d988c, #1e6eb7);
+	background-color: orange;
+	/*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+	color: #ffffff;
+	transition: none;
+	border: none;
+	border-radius: 10px;
 }
 
 .order-tabs {
@@ -400,18 +425,19 @@ ul.tb-order-list li div.tb-order-box:focus span.text-order {
 }
 
 .btn-find-barcode {
-	border: 1px solid transparent;
-	background: #dbf7f4;
-	color: #0d988c;
-	font-weight: 600;
-	transition: all 0.2s ease-in-out;
-	outline: none;
+	background-color: #37B181;
+	/*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+	color: #ffffff;
+	transition: none;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 10px;
 }
 
 .btn-find-barcode:hover,
 .btn-find-barcode:focus {
-	color: #ffffff;
-	background: #0d988c;
+	color: white;
 }
 
 .table {
@@ -424,7 +450,7 @@ ul.tb-order-list li div.tb-order-box:focus span.text-order {
 	margin-bottom: 10px;
 }
 
-.table > :not(:first-child) {
+.table> :not(:first-child) {
 	border-top: 1px solid #9a9a9a;
 }
 
@@ -518,26 +544,27 @@ div.final-amt-box span:last-child {
 .btn-add-offer {
 	outline: none;
 	width: 100%;
-	background: linear-gradient(98deg, #0d988c, #1e6eb7);
+	background: #37B181;
 	color: #ffffff;
 }
 
 .btn-add-offer:hover,
 .btn-add-offer:focus {
-	background: linear-gradient(-98deg, #0d988c, #1e6eb7);
+	background: #37B181;
 	color: #ffffff;
 }
 
 .btn-new-customer {
 	outline: none;
 	width: 100%;
-	background: #e2eaf1;
-	color: #2071b7;
+	background: #173D69;
+	;
+	color: white;
 }
 
 .btn-new-customer:hover,
 .btn-new-customer:focus {
-	background-color: #2071b7;
+	background: #173D69;
 	color: #ffffff;
 }
 
@@ -597,7 +624,7 @@ div.final-amt-box span:last-child {
 }
 
 .btn-clear-order {
-	background: #d16870;
+	background: red;
 	color: #ffffff;
 }
 
@@ -610,13 +637,12 @@ div.final-amt-box span:last-child {
 .btn-apply-gift {
 	outline: none;
 	width: 100%;
-	background: linear-gradient(98deg, #0d988c, #1e6eb7);
+	background: #37B181;
 	color: #ffffff;
 }
 
 .btn-apply-gift:hover,
 .btn-apply-gift:focus {
-	background: linear-gradient(-98deg, #0d988c, #1e6eb7);
+	background: #37B181;
 	color: #ffffff;
 }
-

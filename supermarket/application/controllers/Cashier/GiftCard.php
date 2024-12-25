@@ -70,10 +70,10 @@ class GiftCard extends CI_Controller
 				$code = $row->code;
 				$actionHtml = '<form method="post" action="' . base_url() . 'Cashier/giftCard/sale">
 					<input type="hidden" class="form-control" name="giftCode" value="' . $row->code . '">
-					<button type="submit" class="btn btn-primary btn-sm m-1  w-100 cursor_pointer"><i title="Add Sale" class="fa fa-plus"></i> New Sale</button> </form>';
+					<button type="submit" id="saveDefaultButton" class="btn btn-primary btn-sm m-1 w-100 cursor_pointer"><i title="Add Sale" class="fa fa-plus"></i> New Sale</button> </form>';
 				$actionHtml .= '<form method="post" action="' . base_url() . 'Cashier/giftCard/salehistory">
 				<input type="hidden" class="form-control" name="giftCode" value="' . $row->code . '">
-				<button type="submit" class="btn btn-info btn-sm m-1 cursor_pointer w-100"><i title="Sale History" class="fa fa-time"></i>  Sale History</button></form>';
+				<button type="submit" id="saveDefaultButton" class="btn btn-info btn-sm m-1 cursor_pointer w-100"><i title="Sale History" class="fa fa-time"></i>  Sale History</button></form>';
 				$data[] = array(
 					$srno,
 					$row->title,

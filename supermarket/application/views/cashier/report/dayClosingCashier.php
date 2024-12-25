@@ -32,15 +32,15 @@
 				<div class="card-header">
 			       
 			      <div class="row mt-1">
-						<div class="col-md-3">
-						    <label class="form-label lng">Date</label>
+						<div class="col-md-12 text-center">
+						    <label class="form-label lng mb-2">Date</label>
 							<div class="form-group mandatory">
 								<input type="date" class="form-control" id="date" name="date" value="<?= date('Y-m-d')?>">
 							</div>
 						</div>
-						<div class="col-md-8" style="margin-top:30px;">
-							<button type="button" class="btn btn-success white me-1 sub_1" style="padding-top:2px;padding-bottom:2px" id="btnSearch">Search</button>
-							<button type="button" class="btn btn-success me-1 sub_1" style="padding-top:2px;padding-bottom:2px" id="btnClear">Clear</button>
+						<div class="col-md-12 text-center" style="margin-top:20px;">
+							<button type="button" class="btn btn-success" style="padding-top:2px;padding-bottom:2px" id="btnSearch">Search</button>
+							<button type="button" class="btn btn-success" style="padding-top:2px;padding-bottom:2px" id="btnClear">Clear</button>
 						</div>
 					</div>
 				</div>

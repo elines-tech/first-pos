@@ -15,39 +15,70 @@
                 </div>
             </div>
         </div>
-        
+
         <section class="section">
-        <div class="row match-height">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-body">
-                            <div class="row">
-                               
+            <div class="row match-height">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="row">
+
                                     <form class="form" id="editUserForm" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>Cashier/Profile/update">
                                         <?php
                                         echo "<div class='text-danger text-center' id='error_message'>";
                                         if (isset($error_message)) {
                                             echo $error_message;
-                                        }    
-                                        echo "</div>";        
+                                        }
+                                        echo "</div>";
                                         ?>
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
-                                                    <div class="form-group mandatory">
-                                                        <label for="arabicname-column" class="form-label">Full Name</label>
-                                                        <input type="text" id="fullname" class="form-control" placeholder="Full Name" name="fullname" value="<?= $userData[0]['name'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
+
+
+                                            <div class="row">
+
+                                                <div class="col-md-12 mt-3 d-flex text-center justify-content-center mb-3 items-center">
+                                                    <div class="form-group col-md-4 text-center justify-content-center items-center">
+                                                        <!--<label class="form-label">Image</label>-->
+                                                        <!--<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">-->
+                                                        <?php if ($userData[0]['userImage'] != "") { ?>
+                                                            <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['userImage'] ?>" data-src="">
+                                                        <?php } else { ?>
+                                                            <img class="img-thumbnail mb-2" width="120px" id="userimg" src="/assets/images/faces/default-img.jpg" data-src="">
+                                                        <?php } ?>
+
+                                                        <input class="form-control" type="file" id="formFile" name="userImage" style="padding: 5px;">
+                                                        <!--</div>-->
                                                     </div>
-                                                    <?php echo form_error('fullname', '<span class="error text-danger text-right">', '</span>'); ?>
+                                                </div>
+
+                                            </div>
+
+
+
+
+
+
+
+
+
+
+
+                                            <div class="col-md-4 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">Full Name</label>
+                                                    <input type="text" id="fullname" class="form-control" placeholder="Full Name" name="fullname" value="<?= $userData[0]['name'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
+                                                </div>
+                                                <?php echo form_error('fullname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
-                                                    <div class="form-group mandatory">
-                                                        <label for="arabicname-column" class="form-label">User Name</label>
-                                                        <input type="text" id="name" class="form-control" placeholder="Name" name="name" value="<?= $userData[0]['userName'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
-                                                    </div>
-                                                    <?php echo form_error('name', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div> 
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">User Name</label>
+                                                    <input type="text" id="name" class="form-control" placeholder="Name" name="name" value="<?= $userData[0]['userName'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
+                                                </div>
+                                                <?php echo form_error('name', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">Language</label>
@@ -75,8 +106,8 @@
                                                 </div>
                                                 <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
 
-                                            </div>  
-											  <div class="col-md-4 col-12 d-none" id="counterDiv">
+                                            </div>
+                                            <div class="col-md-4 col-12 d-none" id="counterDiv">
                                                 <div class="form-group mandatory">
                                                     <label for="product-name" class="form-label">User Counter</label>
                                                     <select class=" form-select select2" name="userCounter" id="userCounter" style="width:100%" disabled>
@@ -97,58 +128,40 @@
                                                     $('#counterDiv').removeClass('d-none');
                                                 }
                                             </script>
-                                            <div class="col-md-4" id="loginPinDetails">
-												<div class="form-group mandatory">
-													<label class="form-label">Login Pin</label>
-													<input type="text" id="loginpin" value="<?= $userData[0]['loginpin'] ?>" class="form-control" placeholder="Login Pin" name="loginpin" readonly>
+                                            <div class="col-md-6" id="loginPinDetails">
+                                                <div class="form-group mandatory">
+                                                    <label class="form-label">Login Pin</label>
+                                                    <input type="text" id="loginpin" value="<?= $userData[0]['loginpin'] ?>" class="form-control" placeholder="Login Pin" name="loginpin" readonly>
 
-												</div>
-											</div>
-											<?php echo form_error('loginpin', '<span class="error text-danger text-right">', '</span>'); ?>
-
-											<div class="col-md-4 mt-sm-4" id="loginPinDetails1">
-												<a class="btn btn-light-secondary me-1 mb-1 cursor-pointer" id="reLoginPin" onclick="randomNumber();">Regenerate</a>
-											</div>
-                                            											
-							
-										</div>
-										<div class="row">
-											
-                                            <div class="row">
-											  <div class="col-md-9">
-                                                    <div class="form-group">												
-													 <label class="form-label">Image</label>
-														<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
-														     <?php if ($userData[0]['userImage'] != "") { ?>
-																<img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['userImage'] ?>" data-src="">
-															<?php } else { ?>
-																<img class="img-thumbnail mb-2" width="120px" id="userimg" src="/assets/images/faces/default-img.jpg" data-src="">
-															<?php } ?>
-															
-															<input class="form-control" type="file" id="formFile" name="userImage">
-														</div>
-													</div>
-												</div>
-                                              
+                                                </div>
                                             </div>
+                                            <?php echo form_error('loginpin', '<span class="error text-danger text-right">', '</span>'); ?>
+
+                                            <div class="col-md-4 mt-sm-4" id="loginPinDetails1">
+                                                <a class="btn btn-light-secondary me-1 mb-1 cursor-pointer" id="reLoginPin" onclick="randomNumber();">Regenerate</a>
+                                            </div>
+
+
                                         </div>
+
+
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success white me-1 mb-1 sub_2" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
                                                 <!--<button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>-->
                                             </div>
                                         </div>
                                     </form>
-                                
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- // Basic multiple Column Form section end -->
-</div>
+        </section>
+        <!-- // Basic multiple Column Form section end -->
+    </div>
 </div>
 <script type="text/javascript">
     var cnt = 0;
@@ -170,7 +183,7 @@
         $('#loginpin').val(number);
     }
     $(document).ready(function() {
-	    $("#formFile").change(function() {
+        $("#formFile").change(function() {
             const file = this.files[0];
             if (file) {
                 let reader = new FileReader();
@@ -181,8 +194,9 @@
                 reader.readAsDataURL(file);
             }
         });
-		
-		var data = '<?php echo $this->session->flashdata('message'); unset($_SESSION['message']);?>';
+
+        var data = '<?php echo $this->session->flashdata('message');
+                    unset($_SESSION['message']); ?>';
         if (data != '') {
             var obj = JSON.parse(data);
             if (obj.status) {
@@ -198,26 +212,27 @@
 
 
     });
-	function getBranchCounters(id) {
-		var branchCode  = $('#branchname').val();
-		if(branchCode!=''){
-			$.ajax({
-				url: base_path + 'users/getBranchCounters',
-				data: {
-					'branchCode': branchCode
-				},
-				type: 'post',
-				success: function(response) {
-					var res = JSON.parse(response);
-					if (res.status) {
-						$('select#userCounter').empty();
-						$('select#userCounter').append(res.counters);
-					} else {
-						$('#branchname' + id).val('');
-						$('select#userCounter' +id).attr('disabled', true);
-					}
-				}
-			});
-		}
-	}
+
+    function getBranchCounters(id) {
+        var branchCode = $('#branchname').val();
+        if (branchCode != '') {
+            $.ajax({
+                url: base_path + 'users/getBranchCounters',
+                data: {
+                    'branchCode': branchCode
+                },
+                type: 'post',
+                success: function(response) {
+                    var res = JSON.parse(response);
+                    if (res.status) {
+                        $('select#userCounter').empty();
+                        $('select#userCounter').append(res.counters);
+                    } else {
+                        $('#branchname' + id).val('');
+                        $('select#userCounter' + id).attr('disabled', true);
+                    }
+                }
+            });
+        }
+    }
 </script>

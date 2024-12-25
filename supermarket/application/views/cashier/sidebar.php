@@ -3,7 +3,8 @@
         <div class="sidebar-header position-relative">
             <div class="align-items-center">
                 <div class="logo">
-                    <a href="#"><img src="<?= base_url() ?>assets/images/logo/logomain.png" alt="Logo" srcset=""></a>
+                    <!--<a href="#"><img src="<?= base_url() ?>assets/images/logo/logomain.png" alt="Logo" srcset=""></a>-->
+                    <a href="#"><img src="<?= base_url() ?>assets/images/logo/Group.svg" alt="Logo" srcset=""></a>
                 </div>
                 <div class="sidebar-toggler  x">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>

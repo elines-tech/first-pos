@@ -19,7 +19,7 @@
             <div class="card col-12 col-md-6 p-5 d-flex justify-center text-center m-3">
 
                 <div class="col-md-12 col-lg-12 mb-2 col-xl-12 d-flex flex-column align-items-center justify-content-center">
-                    <div class="stats-icon green d-flex justify-content-center align-items-center" style="height: 50px; width: 50px;">
+                    <div class="stats-icon blue d-flex justify-content-center align-items-center" style="height: 50px; width: 50px;">
                         <i class="iconly-boldAdd-User"></i>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
             <div class="card col-12 col-md-6 p-5 d-flex justify-center text-center m-3">
 
                 <div class="col-md-12 col-lg-12 mb-2 col-xl-12 d-flex flex-column align-items-center justify-content-center">
-                    <div class="stats-icon purple mb-2 d-flex justify-content-center align-items-center" style="height: 50px; width: 50px;">
+                    <div class="stats-icon red mb-2 d-flex justify-content-center align-items-center" style="height: 50px; width: 50px;">
                         <i class="iconly-boldArrow---Right-Circle "></i>
                     </div>
                 </div>

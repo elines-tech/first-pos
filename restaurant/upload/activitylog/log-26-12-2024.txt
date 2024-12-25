@@ -1,0 +1,1 @@
+Dt --> 26-12-24 02:11:28 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.

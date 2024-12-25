@@ -35,7 +35,7 @@
 					<div class="col-12">
 						<div class="card">
 							<div class="card-header">
-								<h3>Giftcard Details<span class="float-end"><a class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords">Back</a></span></h3>
+								<h3>Giftcard Details<span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords">Back</a></span></h3>
 							</div>
 							<div class="card-content">
 								<div class="card-body">
@@ -115,8 +115,8 @@
 												<input type="text" id="mtotalPrice" disabled class="form-control" name="totalPrice" required onkeypress="return isNumber(event)">
 											</div>
 											<div class="col-md-2 col-12" style="margin-top:32px;">
-												<button type="button" onclick="generate()" class="btn btn-primary white sub_1" id="generateBtn">Generate</button>
-												<button type="button" onclick="clear()" class="d-none btn btn-primary white sub_1" id="clearBtn">Clear</button>
+												<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn">Generate</button>
+												<button type="button" onclick="clear()" class="d-none btn btn-primary" id="clearBtn">Clear</button>
 											</div>
 										</div>
 									</div>

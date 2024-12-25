@@ -77,7 +77,7 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
             <div class="order-control my-1">
                 <div class="row">
                     <div class="col-sm-3 text-center">
-                        <button class="btn-current-order w-100">Current Order</button>
+                        <button id="saveDefaultButton" class="btn-current-order w-100">Current Order</button>
                     </div>
                     <div class="col-sm-9">
                         <div class="order-tabs <?= count($draftOrders) == 0 ? 'd-none' : '' ?>">
@@ -272,7 +272,7 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
                                 <label for="newCustomerPhone">Contact Number</label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <select class="form-select">
+                                        <select class="form-select" style="height: 100%;">
                                             <option value="+971">UAE</option>
                                             <option value="+966">SAR</option>
                                         </select>

@@ -22,7 +22,7 @@
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-12 order-md-1 order-last" id="leftdiv">
-                                    <h5>Gift Details <span class="float-end"><a class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords">Back</a></span></h5>
+                                    <h5>Gift Details <span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords">Back</a></span></h5>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                                     </div>
                                     <form method="post" action="<?= base_url() ?>Cashier/giftCard/sale">
                                         <input type="hidden" class="form-control" name="giftCode" id="giftCode" value="<?= $result->code ?>">
-                                        <button type="submit" class="btn btn-success btn-sm m-1 cursor_pointer"><i id="dlt" title="Add Sale" class="fa fa-plus"></i></button>
+                                        <button type="submit" id="view" class="btn btn-success btn-sm m-1 cursor_pointer"><i id="dlt" title="Add Sale" class="fa fa-plus"></i></button>
                                     </form>
                                 </div>
                             <?php }
