@@ -72,9 +72,9 @@
 							</div>
 						</div>
                         <div style="text-align:center;">
-						   <div class="d-flex mt-2">
-								<button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-								<button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+						   <div class="d-flex mt-2 justify-content-center">
+								<button type="button" class="btn btn-success" id="btnSearch">Search</button>
+								<button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
 							</div>
 						</div>
 					</div>
@@ -174,8 +174,8 @@
 				}	
 		});
         loadTable();
-		$(".buttons-html5").removeClass('btn-primary').addClass('btn-primary sub_1');
-		$(".dt_buttons").removeClass('flex_wrap');
+		$(".buttons-html5").removeClass('btn-primary').addClass('btn-printFormat');
+		$(".dt_buttons").removeClass('flex_wrap'); 
 		$('#btnSearch').on('click', function(e) {
 			if($("#branch").val()!=""){
 			    var branchCode = $("#branch").val();

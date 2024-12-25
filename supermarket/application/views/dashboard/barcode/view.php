@@ -22,7 +22,7 @@
 				<div class="card">
 					<div class="card-header">
 						
-						<h3>View Barcode<span class="float-end"><a class="btn btn-primary" href="<?= base_url()?>barcode/listRecords">Back</a></span></h3>
+						<h3>View Barcode<span class="float-end"><a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url()?>barcode/listRecords">Back</a></span></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">

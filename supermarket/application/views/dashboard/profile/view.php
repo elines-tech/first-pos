@@ -29,10 +29,29 @@
                                         if (isset($error_message)) {
                                             echo $error_message;
                                         }
-                                        echo "</div>"; 
+                                        echo "</div>";
                                         ?>
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <div class="row">
+
+
+                                            <div class="col-md-12 mt-3 d-flex text-center justify-content-center mb-3 items-center">
+                                                <div class="form-group col-md-4 text-center justify-content-center items-center">
+                                                    <!--<label class="form-label">Image</label>-->
+                                                    <!--<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">-->
+                                                    <?php if ($userData[0]['userImage'] != "") { ?>
+                                                        <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['userImage'] ?>" data-src="">
+                                                    <?php } else { ?>
+                                                        <img class="img-thumbnail mb-2" width="120px" id="userimg" src="/assets/images/faces/default-img.jpg" data-src="">
+                                                    <?php } ?>
+
+                                                    <input class="form-control" type="file" id="formFile" name="userImage" style="padding: 5px;">
+                                                    <!--</div>-->
+                                                </div>
+                                            </div>
+
+
+
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label class="form-label">Full Name</label>
@@ -44,8 +63,8 @@
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">User Name</label>
-                                                    <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" oninput="this.value=this.value.replace(/[^a-z]/gi,'')" data-parsley-required="true" maxlength="20" 
-													data-parsley-minlength="3" data-parsley-minlength-message="You need to enter at least 3 characters" data-parsley-trigger="change">
+                                                    <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" oninput="this.value=this.value.replace(/[^a-z]/gi,'')" data-parsley-required="true" maxlength="20"
+                                                        data-parsley-minlength="3" data-parsley-minlength-message="You need to enter at least 3 characters" data-parsley-trigger="change">
                                                 </div>
                                                 <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
@@ -76,26 +95,11 @@
                                                 </div>
                                                 <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Image</label>
-                                                        <div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
-                                                            <?php if ($userData[0]['userImage'] != "") { ?>
-                                                                <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['userImage'] ?>" data-src="">
-                                                            <?php } else { ?>
-                                                                <img class="img-thumbnail mb-2" width="120px" id="userimg" src="/assets/images/faces/default-img.jpg" data-src="">
-                                                            <?php } ?>
 
-                                                            <input class="form-control" type="file" id="formFile" name="userImage">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success white me-1 mb-1 sub_2" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
                                             </div>
                                         </div>
                                     </form>
@@ -155,7 +159,8 @@
             }
         });
 
-        var data = '<?php echo $this->session->flashdata('message'); unset($_SESSION['message']);?>';
+        var data = '<?php echo $this->session->flashdata('message');
+                    unset($_SESSION['message']); ?>';
         if (data != '') {
             var obj = JSON.parse(data);
             if (obj.status) {

@@ -39,22 +39,22 @@
                     </div>
                     <hr>
                     <div class="row mt-3">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <label class="form-label lng">From Date</label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d', strtotime(' - 7 days')) ?>">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <label class="form-label lng">To Date</label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d') ?>">
                             </div>
                         </div>
                         <div style="text-align:center;">
-                            <div class="d-flex mt-2">
-                                <button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+                            <div class="d-flex justify-content-center mt-2">
+                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
         var fromDate = $("#fromDate").val();
         var toDate = $("#toDate").val();
         loadTable('', fromDate, toDate);
-        $(".buttons-html5").removeClass('btn-primary').addClass('btn-primary sub_1');
+        $(".buttons-html5").removeClass('btn-primary').addClass('btn-printFormat');
         $(".dt_buttons").removeClass('flex_wrap');
 
         $('#btnSearch').on('click', function(e) {

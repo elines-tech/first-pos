@@ -22,8 +22,8 @@
                
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-4 col-sm-4">
-                            <label class="form-label lng">Role</label>
+                        <div class="col-md-12 text-center col-sm-4">
+                            <label class="form-label mb-2 lng">On this page you can define roles for all your users: Manager , Staff , Accounts, etc...</label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="role" id="role" style="width:100%">
                                     <option value="">Select Role</option>
@@ -35,10 +35,10 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-4">
-                            <div class="d-flex" style="margin-top:30px;">
-                                <button type="button" onclick="getMenuList()" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-                                <button type="button" onclick="clearSelection()" class="btn btn-success white me-1 mb-1 sub_1 d-none" id="btnClear">Clear</button>
+                        <div class="col-md-12 text-center col-sm-12">
+                            <div class="d-flex col-md-12 justify-content-center text-center" style="margin-top:25px;">
+                                <button type="button" onclick="getMenuList()" class="btn btn-success" id="btnSearch">Search</button>
+                                <button type="button" onclick="clearSelection()" class="btn btn-success d-none" id="btnClear">Clear</button>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                 </div>
 				<div class="row">
 					<div class="col-12 d-flex justify-content-end">
-						<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" onclick="updateMenuRights()" id="submitBtn">Submit</button>
+						<button type="submit" class="btn btn-success" onclick="updateMenuRights()" id="submitBtn">Submit</button>
 						
 					</div>
 				</div>

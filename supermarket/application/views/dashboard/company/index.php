@@ -52,22 +52,20 @@
                                         ?>
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $code ?>">
                                         <div class="row">
-                                            <div class="col-6">
-                                                <div class="form-group">
-                                                    <label class="form-label">Company Logo</label>
-                                                    <div class="col-6">
-                                                        <?php if ($cmplogo != "") { ?>
-                                                            <img class="img-thumbnail mb-2" width="120px" id="preview" src="<?= base_url($cmplogo) ?>" data-src="">
-                                                        <?php } else { ?>
-                                                            <img class="img-thumbnail mb-2" width="120px" id="preview" src="/assets/images/faces/default-img.jpg" data-src="">
-                                                        <?php } ?>
-                                                    </div>
+                                            <div class="col-md-12 mt-3 d-flex text-center justify-content-center mb-3 items-center">
+                                                <div class="form-group col-md-4 text-center justify-content-center items-center">
+                                                    <!--<label class="form-label">Company Logo</label>-->
+                                                    <?php if ($cmplogo != "") { ?>
+                                                        <img class="img-thumbnail mb-2" width="120px" id="preview" src="<?= base_url($cmplogo) ?>" data-src="">
+                                                    <?php } else { ?>
+                                                        <img class="img-thumbnail mb-2" width="120px" id="preview" src="/assets/images/faces/default-img.jpg" data-src="">
+                                                    <?php } ?>
                                                     <input class="form-control" type="file" id="cmpLogo" name="cmpLogo">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-8">
+                                            <div class="col-md-12">
                                                 <div class="form-group mandatory">
                                                     <label class="form-label" for="companyname">Company Name </label>
                                                     <input type="text" id="companyname" tabindex="1" class="form-control" name="companyname" value="<?= $companyname ?>" data-parsley-required="true" data-parsley-length="[6, 100]">
@@ -77,14 +75,14 @@
 
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-6">
                                                 <div class="form-group mandatory">
                                                     <label for="crno" class="form-label">CR No.</label>
                                                     <input type="text" id="crno" class="form-control" name="crno" tabindex="3" value="<?= $crno ?>" data-parsley-required="true" data-parsley-length="[5, 50]">
                                                 </div>
                                                 <?php echo form_error('crno', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div> 
-                                            <div class="col-md-4">
+                                            </div>
+                                            <div class="col-md-6">
                                                 <div class="form-group mandatory">
                                                     <label for="crno" class="form-label">VAT Number</label>
                                                     <input type="number" step="1" class="form-control" tabindex="5" id="vatno" name="vatno" value="<?= $vatno ?>" required>
@@ -142,9 +140,9 @@
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row mt-3">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-primary">Update</button>
+                                                <button id="saveDefaultButton" type="submit" class="btn btn-primary">Update</button>
                                             </div>
                                         </div>
                                     </form>

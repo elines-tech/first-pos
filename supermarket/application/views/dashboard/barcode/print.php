@@ -26,7 +26,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Barcode Details<span class="float-end"><a class="btn btn-sm btn-primary" href="<?= base_url()?>barcode/listRecords">Back</a></span></h3>
+							<h3>Barcode Details<span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url()?>barcode/listRecords">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -85,7 +85,7 @@
 										</select>
 									</div>
 									<div class="col-md-5 col-12" style="margin-top:32px;">
-										<button type="button" onclick="generate()" class="btn btn-primary white sub_1" id="generateBtn">Generate</button>
+										<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn">Generate</button>
 										<button type="button" onclick="print()" id="printBtn" class="btn btn-primary white sub_1 d-none" id="printBtn">Print</button>
 									</div>
 								</div>

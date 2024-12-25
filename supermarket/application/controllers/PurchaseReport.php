@@ -94,7 +94,7 @@ class PurchaseReport extends CI_Controller
 					$branch = $this->GlobalModel->selectQuery("branchmaster.*", "branchmaster", array("branchmaster.code" => $row->supplierCode), array(), array(), array(), array(), '', '', array(), '');
 					$name = $branch->result_array()[0]['branchName'];
 				}
-				$actionHtml = '<a href="' . base_url() . 'purchaseReport/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
+				$actionHtml = '<a id="view" href="' . base_url() . 'purchaseReport/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				if ($export == 0) {
 					$data[] = array($srno, $row->batchNo, date('d/m/Y', strtotime($row->inwardDate)), $row->branchName, $name, $row->flag, $row->total, $actionHtml);
 				} else {

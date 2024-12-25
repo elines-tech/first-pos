@@ -67,13 +67,13 @@ class Branch extends CI_Controller
 				}
 				$actionHtml = '<div class="d-flex">';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml .= '<a class="btn btn-success btn-sm  m-1 cursor_pointer" href="' . base_url() . 'branch/view/' . $row->code . '"><i id="edt" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a id="view" class="btn btn-success btn-sm  m-1 cursor_pointer" href="' . base_url() . 'branch/view/' . $row->code . '"><i id="edt" title="View" class="fa fa-eye"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a class="btn btn-info btn-sm m-1 cursor_pointer edit_branch" data-seq="' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="btn btn-info btn-sm m-1 cursor_pointer edit_branch" data-seq="' . $row->code . '"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-danger m-1 cursor_pointer delete_branch" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a id="delete" class="btn btn-sm btn-danger m-1 cursor_pointer delete_branch" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a>';
 				}
 				$actionHtml .= '</div>';
 				$data[] = array(

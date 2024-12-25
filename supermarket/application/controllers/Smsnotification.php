@@ -62,13 +62,13 @@ class Smsnotification extends CI_Controller
 				
 				$actionBtn='<div class="d-flex">';
 				if($this->rights !='' && $this->rights['view']==1){
-					$actionBtn .= '<a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-success btn-view m-1"><i class="fa fa-eye"></i></a>';
+					//$actionBtn .= '<a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-success btn-view m-1"><i class="fa fa-eye"></i></a>';
 				}
 				if($this->rights !='' && $this->rights['update']==1){
-					$actionBtn .= '<a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-info btn-edit m-1"><i class="fa fa-edit"></i></a>';
+					$actionBtn .= '<a id="edit" href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-info btn-edit m-1"><i class="fa fa-edit"></i></a>';
 				}
 				if($this->rights !='' && $this->rights['delete']==1){
-					$actionBtn .= '<a href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-danger btn-delete m-1"><i class="fa fa-trash"></i></a>';
+					$actionBtn .= '<a id="delete" href="javascript:void(0)" data-id="' . $row->code . '" class="btn btn-sm btn-danger btn-delete m-1"><i class="fa fa-trash"></i></a>';
 				}
                 $actionBtn .='</div>';
 			

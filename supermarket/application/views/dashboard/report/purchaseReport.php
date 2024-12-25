@@ -91,10 +91,10 @@
 						</div>
 					</div>
 					<div class="row">
-                        <div class="col-md-4">
-						   <div class="d-flex mt-4">
-								<button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-								<button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+                        <div class="col-md-12">
+						   <div class="d-flex justify-content-center mt-4">
+								<button type="button" class="btn btn-success" id="btnSearch">Search</button>
+								<button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
 							</div>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
         var fromDate = $("#fromDate").val();
 	    var toDate = $("#toDate").val();
         loadTable("","",fromDate,toDate,"");
-		$(".buttons-html5").removeClass('btn-primary').addClass('btn-primary sub_1');
+		$(".buttons-html5").removeClass('btn-primary').addClass('btn-printFormat');
 		$(".dt_buttons").removeClass('flex_wrap');
 		$("#frombranch").select2({
 			    placeholder: "Select Branch",

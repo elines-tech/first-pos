@@ -18,9 +18,9 @@
         <div class="container">
             <div class="row mb-2 float-right">
                 <div class="col-12 col-md-12">
-                    <a href="<?= base_url() ?>branch/listRecords" class="btn btn-primary text-center">Back</a>
+                    <a id="cancelDefaultButton" href="<?= base_url() ?>branch/listRecords" class="btn btn-primary text-center">Back</a>
                     <?php if($updateRights==1){ ?>
-					<button class="btn btn-primary text-center edit_branch">Edit Branch</button>
+					<button id="saveDefaultButton" class="btn btn-primary text-center edit_branch">Edit Branch</button>
                     <?php } ?>
 				</div>
             </div>

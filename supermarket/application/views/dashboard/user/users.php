@@ -17,17 +17,19 @@
 
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
 
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a href="<?php echo base_url(); ?>users/add"><i class="fa fa-plus-circle"></i></a></h2>
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" href="<?php echo base_url(); ?>users/add"><i class="fa fa-plus-circle"></i></a>
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -143,7 +145,8 @@
     }
 
     $(document).ready(function() {
-        var data = '<?php echo $this->session->flashdata('message'); unset($_SESSION['message']);?>';
+        var data = '<?php echo $this->session->flashdata('message');
+                    unset($_SESSION['message']); ?>';
         if (data != '') {
             var obj = JSON.parse(data);
             if (obj.status) {

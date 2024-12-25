@@ -42,17 +42,23 @@
 
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
 
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                    <div class="col-12 col-md-12 text-center order-md-1 order-last" id="leftdiv">
 
-                    <h2><a class='add_tax'><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+                        <button id="add_category_text" class='add_tax'>
+                            Add new Tax Rate
+                        </button>
+
+
+                    </div>
+
+
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -97,17 +103,22 @@
                 </div>
             </div>
         </div>
-	    <?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
 
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                    <div class="col-12 col-md-12 text-center order-md-1 order-last" id="leftdiv">
 
-                    <h2><a class="add_group"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+                        <button id="add_category_text" class='add_group'>
+                            Add new Tax Group
+                        </button>
+
+                    </div>
+
+
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -187,8 +198,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="taxCode" name="taxCode">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveTaxBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeTaxBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveTaxBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeTaxBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -216,8 +227,8 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Tax Group Name : <b style="color:red">*</b></label>
-                                                <div class="col-md-8">
+                                                <label for="category-name-column" class="col-md-5 form-label text-left">Tax Group Name : <b style="color:red">*</b></label>
+                                                <div class="col-md-7">
                                                     <input type="text" id="taxGroupName" class="form-control" placeholder="Tax Group Name" name="taxGroupName" required>
                                                 </div>
                                             </div>
@@ -225,9 +236,9 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Taxes : <b style="color:red">*</b></label>
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" id="taxes" name="taxes[]" required multiple="multiple"  data-border-variation="accent-2" required style="width:100%">
+                                                <label for="category-name-column" class="col-md-5 form-label text-left">Taxes : <b style="color:red">*</b></label>
+                                                <div class="col-md-7">
+                                                    <select class="form-select select2" id="taxes" name="taxes[]" required multiple="multiple" data-border-variation="accent-2" required style="width:100%">
                                                         <?php
                                                         if ($taxes) {
                                                             foreach ($taxes->result() as $tr) {
@@ -242,8 +253,8 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Tax Group Ref : <b style="color:red">*</b></label>
-                                                <div class="col-md-8">
+                                                <label for="category-name-column" class="col-md-5 form-label text-left">Tax Group Ref : <b style="color:red">*</b></label>
+                                                <div class="col-md-7">
                                                     <input type="text" id="taxGroupRef" class="form-control" placeholder="Tax Group Ref" name="taxGroupRef">
                                                 </div>
                                             </div>
@@ -251,8 +262,8 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="status" class="col-sm-4 col-form-label text-left">Active</label>
-                                                <div class="col-sm-8 checkbox">
+                                                <label for="status" class="col-sm-5 col-form-label text-left">Active</label>
+                                                <div class="col-sm-7 checkbox">
                                                     <input type="checkbox" name="taxGroupisActive" id="taxGroupisActive" checked class=" " style="width:25px; height:25px">
                                                 </div>
                                             </div>
@@ -261,8 +272,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="taxGroupCode" name="taxGroupCode">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveTaxGroupBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeTaxGroupBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveTaxGroupBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeTaxGroupBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -305,7 +316,7 @@
         $('#taxGroupName').val('');
         $('#taxGroupRef').val('');
         $('#taxGroupisActive').prop('checked', false);
-       $("#taxes").val(null).trigger('change.select2');
+        $("#taxes").val(null).trigger('change.select2');
     });
 
     function loadTaxTable() {
@@ -352,7 +363,7 @@
                     });
                     $('.delete_tax').on("click", function() {
                         var code = $(this).data('seq');
-						 var  validtext='';
+                        var validtext = '';
                         $.ajax({
                             url: base_path + "tax/checkTax",
                             type: 'POST',
@@ -461,7 +472,7 @@
                                 $('#taxCode').val('');
                                 $('#taxName').val('');
                                 $('#taxPer').val('');
-                               
+
                             }
                             $('#taxes').html('');
                             $('#taxes').append(obj.taxes);
@@ -615,7 +626,7 @@
                             $('#taxGroupName').val('');
                             $('#taxGroupRef').val('');
                             $("#taxes").val(null).trigger('change.select2');
-							$('#generl_modal2').modal('hide');
+                            $('#generl_modal2').modal('hide');
                             //$("#taxes").val('').trigger('change');
                         }
                     } else {

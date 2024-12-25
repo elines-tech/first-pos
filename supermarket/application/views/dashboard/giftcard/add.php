@@ -20,7 +20,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Add Giftcard<span style="float:right"><a href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3>Add Giftcard<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -59,22 +59,13 @@
 														</div>
 													</div>
 													<div class="row">
-														<div class="col-md-4 col-12">
+														<div class="col-md-12 col-12">
 															<div class="form-group mandatory">
 																<label for="validityInDays" class="form-label">Validity (In days)</label>
 																<input type="number" id="validityInDays" name="validityInDays" min="1" max="365" class="form-control" onkeypress="return isNumber(event)" required>
 															</div>
 														</div>
-														<div class="col-md-4 col-12">
-															<div class="form-group">
-																<div class="form-check">
-																	<input class="form-check-input" type="checkbox" value="1" id="isActive" name="isActive" checked>
-																	<label class="form-check-label" for="isActive">
-																		Active
-																	</label>
-																</div>
-															</div>
-														</div>
+
 													</div>
 													<div class="row">
 														<div class="col-md-12 col-12">
@@ -84,10 +75,23 @@
 															</div>
 														</div>
 													</div>
+
+													<div class="col-md-4 col-12">
+														<div class="form-group">
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="1" id="isActive" name="isActive" checked>
+																<label class="form-check-label" for="isActive">
+																	Active
+																</label>
+															</div>
+														</div>
+													</div>
+
+
 													<div class="row">
 														<div class="col-12 d-flex justify-content-end">
-															<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveCardBtn">Save</button>
-															<button type="button" id="closeCardBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+															<button type="submit" class="btn btn-success" id="saveCardBtn">Save</button>
+															<button type="reset" id="closeCardBtn" class="btn btn-light-secondary">Reset</button>
 														</div>
 													</div>
 												</div>

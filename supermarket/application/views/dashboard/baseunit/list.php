@@ -15,16 +15,18 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_unit"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_unit"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
-        <!-- Basic Tables start --> 
+        <?php } ?>
+        <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
                 <div class="card-header">
@@ -68,45 +70,43 @@
                             <div class="panel-body1">
                                 <form id="baseunitForm" class="form" data-parsley-validate>
                                     <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory" id="nameDiv">
-                                                <label for="BaseUnit-name-column" class="col-md-4 form-label text-left">Name</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="baseunitName" class="form-control" placeholder="Enter Name" name="baseunitName" required>
-                                                </div>
-                                            </div>
+
+
+                                        <div class="form-group col-md-12 col-12 text-center mandatory" id="nameDiv">
+                                            <label for="BaseUnit-name-column" class="form-label text-left">Name</label>
+                                            <input type="text" id="baseunitName" class="form-control" placeholder="Enter Name" name="baseunitName" required>
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory" id="shortNameDiv">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Short Name</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="baseunitSName" class="form-control" maxlength="3" placeholder="Enter Short Name" name="baseunitSName" required>
-                                                </div>
-                                            </div>
+
+
+                                        <div class="form-group col-md-12 col-12 text-center mandatory" id="shortNameDiv">
+                                            <label for="Unit-name-column" class="form-label text-left">Short Name</label>
+                                            <input type="text" id="baseunitSName" class="form-control" maxlength="3" placeholder="Enter Short Name" name="baseunitSName" required>
                                         </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Description : </label>
-                                                <div class="col-md-8">
-                                                    <textarea id="description" rows="6" class="form-control" placeholder="" name="description"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>										
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row">
-                                                <label for="status" class="col-sm-4 col-form-label text-left">Active : </label>
-                                                <div class="col-sm-8 checkbox">
-                                                    <input type="checkbox" name="isActive" id="isActive" class=" " style="width:25px; height:25px">
-                                                </div>
-                                            </div>
+
+
+                                        <div class="form-group col-md-12 col-12 text-center">
+                                            <label for="Unit-name-column" class="form-label text-left">Description</label>
+                                            <textarea id="description" rows="6" class="form-control" placeholder="" name="description"></textarea>
                                         </div>
+
+
+                                        <div class="form-group d-flex col-md-12 col-12 text-center items-center justify-content-start row">
+                                            <!--<div class="form-group row">-->
+                                            <label for="status" class="col-sm-2 form-label">Active</label>
+                                            <!--<div class="col-sm-8 checkbox">-->
+                                            <input type="checkbox" name="isActive" id="isActive" class="mt-2" style="width:25px; height:25px">
+                                            <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+
+
                                     </div>
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveUnitBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeUnitBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveUnitBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeUnitBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>

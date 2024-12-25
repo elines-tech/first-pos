@@ -49,7 +49,7 @@
 										</div> 
 										
 									</div>
-									<div class="col-md-6 col-12">
+									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
 											<label  class="form-label">Template</label>
 											<select class="form-select select2" name="template" id="template">
@@ -67,8 +67,8 @@
 									</div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-success white me-1 mb-1 sub_1">Send</button>
-                                            <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                            <button id="saveDefaultButton" type="submit" class="btn btn-success">Send</button>
+                                            <button id="cancelDefaultButton" type="reset" class="btn btn-light-secondary">Reset</button>
                                         </div>
                                     </div>
                             </form>

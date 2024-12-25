@@ -9,7 +9,7 @@
     }
 </style>
 <?php
-$emailData = $smsData = $skuprefix = false;
+$emailData = $smsData = $skuprefix = false; 
 if ($setting) {
     foreach ($setting->result() as $s) {
         switch ($s->code) {
@@ -62,9 +62,9 @@ if ($setting) {
 
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-skuprefix-tab" data-bs-toggle="tab" data-bs-target="#nav-skuprefix" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SKU Prefix</button>
-                                <button class="nav-link" id="nav-email-tab" data-bs-toggle="tab" data-bs-target="#nav-email" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Email</button>
-                                <button class="nav-link" id="nav-textsms-tab" data-bs-toggle="tab" data-bs-target="#nav-textsms" type="button" role="tab" aria-controls="nav-textssms" aria-selected="false">Text-SMS</button>
+                                <button class="nav-link active col-md-4 col-12" id="nav-skuprefix-tab" data-bs-toggle="tab" data-bs-target="#nav-skuprefix" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SKU Prefix</button>
+                                <button class="nav-link col-md-4 col-12" id="nav-email-tab" data-bs-toggle="tab" data-bs-target="#nav-email" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Email</button>
+                                <button class="nav-link col-md-4 col-12" id="nav-textsms-tab" data-bs-toggle="tab" data-bs-target="#nav-textsms" type="button" role="tab" aria-controls="nav-textssms" aria-selected="false">Text-SMS</button>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
@@ -79,7 +79,7 @@ if ($setting) {
                                     <form class="form" id="frmSkuPrefix" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url('setting/skuprefix'); ?>">
                                         <input type="hidden" id="settingCode" readonly name="settingCode" class="form-control" value="STG_1">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
+                                            <div class="col-md-12 text-center col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">SKU Prefix</label>
                                                     <input type="text" id="settingValue" minLength="1" maxlength="3" class="form-control" placeholder="User Name" name="settingValue" value="<?= $settingValue ?>" data-parsley-required="true">
@@ -87,8 +87,8 @@ if ($setting) {
                                                 <?php echo form_error('settingValue', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <?php if ($updateRights == 1) { ?>
-                                                <div class="col-12">
-                                                    <button type="submit" class="btn btn-success">Update</button>
+                                                <div class="col-12 text-center mt-3">
+                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
                                                 </div>
                                             <?php } ?>
                                         </div>
@@ -175,8 +175,8 @@ if ($setting) {
                                                 <?php echo form_error('fromname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <?php if ($updateRights == 1) { ?>
-                                                <div class="col-12">
-                                                    <button type="submit" class="btn btn-success">Update</button>
+                                                <div class="col-12 mt-3 text-center">
+                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
                                                 </div>
                                             <?php } ?>
                                         </div>
@@ -205,7 +205,7 @@ if ($setting) {
                                     <form class="form" id="frmSms" enctype="multipart/form-data" data-parsley-validate method="post" action="<?= $formUrl ?>">
                                         <input type="hidden" id="settingCode" readonly name="settingCode" class="form-control" value="STG_3">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
+                                            <div class="col-md-12 text-center col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="maildriver" class="form-label">Provider</label>
                                                     <select id="smsprovider" minlength="1" class="form-select" name="smsprovider" value="<?= $maildriver ?>" data-parsley-required="true">
@@ -271,8 +271,8 @@ if ($setting) {
                                         </div>
                                         <?php if ($updateRights == 1) { ?>
                                             <div class="row">
-                                                <div class="col-12">
-                                                    <button type="submit" class="btn btn-success">Update</button>
+                                                <div class="col-12 mt-3 text-center">
+                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
                                                 </div>
                                             </div>
                                         <?php } ?>

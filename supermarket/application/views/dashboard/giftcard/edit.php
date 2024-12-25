@@ -20,7 +20,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Update Giftcard<span style="float:right"><a href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3>Update Giftcard<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -62,22 +62,14 @@
 															</div>
 														</div>
 														<div class="row">
-															<div class="col-md-4 col-12">
+															<div class="col-md-12 col-12">
 																<div class="form-group mandatory">
 																	<label for="" class="form-label">Validity (In days)</label>
 																	<input type="number" step="1" id="validityInDays" min="1" max="365" name="validityInDays" class="form-control" onkeypress="return isNumber(event)" required value="<?= $result->validityInDays ?>">
 																</div>
 															</div>
-															<div class="col-md-4 col-12">
-																<div class="form-group">
-																	<div class="form-check">
-																		<input class="form-check-input" type="checkbox" value="1" id="isActive" name="isActive" <?= ($result->isActive == 1) ? "checked" : "" ?>>
-																		<label class="form-check-label" for="isActive">
-																			Active
-																		</label>
-																	</div>
-																</div>
-															</div>
+
+
 														</div>
 														<div class="row">
 															<div class="col-md-12 col-12">
@@ -87,10 +79,23 @@
 																</div>
 															</div>
 														</div>
+
+														<div class="col-md-4 col-12">
+															<div class="form-group">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="1" id="isActive" name="isActive" <?= ($result->isActive == 1) ? "checked" : "" ?>>
+																	<label class="form-check-label" for="isActive">
+																		Active
+																	</label>
+																</div>
+															</div>
+														</div>
+
+
 														<div class="row">
 															<div class="col-12 d-flex justify-content-end">
-																<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveCardBtn">Update</button>
-																<button type="button" id="closeCardBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+																<button type="submit" class="btn btn-success" id="saveCardBtn">Update</button>
+																<button type="reset" id="closeCardBtn" class="btn btn-light-secondary">Reset</button>
 															</div>
 														</div>
 													</div>

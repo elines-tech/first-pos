@@ -15,15 +15,17 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_counter"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_counter"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -68,17 +70,17 @@
                             <div class="panel-body1">
                                 <form id="counterForm" class="form" data-parsley-validate>
                                     <div class="row">
-									   <div class="col-md-12 col-12">
+                                        <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label  class="col-md-4 form-label text-left">Branch</label>
+                                                <label class="col-md-4 form-label text-left">Branch</label>
                                                 <div class="col-md-8">
-												    <?php if($branchCode!=""){?>		
-														  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
-                                                    <select class="form-select select2" style="width:100%" name="branchCode" id="branchCode" required>
-                                                      
-                                                    </select>
-													<?php } ?>
+                                                    <?php if ($branchCode != "") { ?>
+                                                        <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+                                                    <?php } else { ?>
+                                                        <select class="form-select select2" style="width:100%" name="branchCode" id="branchCode" required>
+
+                                                        </select>
+                                                    <?php } ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,12 +92,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                       
+
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
                                                 <label for="status" class="col-sm-4 col-form-label text-left">Active : </label>
                                                 <div class="col-sm-8 checkbox">
-                                                    <input type="checkbox" name="isActive" id="isActive" class=" " style="width:25px; height:25px">
+                                                    <input type="checkbox" name="isActive" id="isActive" class="mt-2" style="width:25px; height:25px">
                                                 </div>
                                             </div>
                                         </div>
@@ -104,8 +106,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="counterCode" name="counterCode">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveCounterBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeCounterBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveCounterBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeCounterBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -120,29 +122,29 @@
 <script>
     $(document).ready(function() {
         $('.cancel').removeClass('btn-default').addClass('btn-info');
-		$("#branchCode").select2({
-			     dropdownParent: $('#generl_modal .modal-content'),
-				 placeholder: "Select Branch",
-                 allowClear: true,
-				ajax: {
-					url:  base_path+'Common/getBranch', 
-					type: "get",
-					delay:250,
-					dataType: 'json',
-					data: function (params) {
-						var query = {
-                            search: params.term
-                          }
-                          return query;
-					}, 
-					processResults: function (response) {
-						return {
-							results: response
-						};
-					},
-					cache: true
-				}	
-		  });
+        $("#branchCode").select2({
+            dropdownParent: $('#generl_modal .modal-content'),
+            placeholder: "Select Branch",
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getBranch',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
+                    return query;
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        });
         loadCounter();
     });
     $('.add_counter').click(function() {
@@ -156,11 +158,13 @@
         $('#counterName').val('');
         $("#isActive").prop("checked", true);
     });
-	function isalphanumeric(e) {
+
+    function isalphanumeric(e) {
         var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
-		var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <=122) || (keyCode == 32));
-			return ret;
+        var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (keyCode == 32));
+        return ret;
     }
+
     function loadCounter() {
         if ($.fn.DataTable.isDataTable("#datatableCounter")) {
             $('#datatableCounter').DataTable().clear().destroy();
@@ -175,7 +179,7 @@
                 url: base_path + "counter/getCounterList",
                 type: "GET",
                 "complete": function(response) {
-                    $('.edit_counter').click(function() { 	
+                    $('.edit_counter').click(function() {
                         var code = $(this).data('seq');
                         var type = $(this).data('type');
                         $.ajax({
@@ -196,39 +200,39 @@
                                         $('#saveCounterBtn').removeClass('d-none');
                                         $('#modal_label').text('Update Counter');
                                         $('#saveCounterBtn').text('Update');
-                                    }              
+                                    }
                                     $('#counterCode').val(obj.code);
-									//$("#branchCode").select2("data", { id: obj.branchCode, text: obj.branchName }); 
+                                    //$("#branchCode").select2("data", { id: obj.branchCode, text: obj.branchName }); 
                                     //$('#branchCode').val(obj.branchCode).select2(); 
-									var newOption = new Option(obj.branchName, obj.branchCode, true, true);
-									// Append it to the select
-									$('#branchCode').append(newOption).trigger('change'); 
+                                    var newOption = new Option(obj.branchName, obj.branchCode, true, true);
+                                    // Append it to the select
+                                    $('#branchCode').append(newOption).trigger('change');
                                     $('#counterName').val(obj.counterName);
-									
-									$("#branchCode").select2({
-										 dropdownParent: $('#generl_modal .modal-content'),
-										 placeholder: "Select Branch",
-										 allowClear: true,
-										ajax: {
-											url:  base_path+'Common/getBranch', 
-											type: "get",
-											delay:250,
-											dataType: 'json',
-											data: function (params) {
-												var query = {
-													search: params.term
-												  }
-												  return query;
-											}, 
-											processResults: function (response) {
-												return {
-													results: response
-												};
-											},
-											cache: true
-										}	
-								  });
-									
+
+                                    $("#branchCode").select2({
+                                        dropdownParent: $('#generl_modal .modal-content'),
+                                        placeholder: "Select Branch",
+                                        allowClear: true,
+                                        ajax: {
+                                            url: base_path + 'Common/getBranch',
+                                            type: "get",
+                                            delay: 250,
+                                            dataType: 'json',
+                                            data: function(params) {
+                                                var query = {
+                                                    search: params.term
+                                                }
+                                                return query;
+                                            },
+                                            processResults: function(response) {
+                                                return {
+                                                    results: response
+                                                };
+                                            },
+                                            cache: true
+                                        }
+                                    });
+
                                     if (obj.isActive == 1) {
                                         $("#isActive").prop("checked", true);
                                     }
@@ -286,7 +290,7 @@
             }
         });
     }
-	
+
     $("#counterForm").submit(function(e) {
         e.preventDefault();
         var formData = new FormData(this);

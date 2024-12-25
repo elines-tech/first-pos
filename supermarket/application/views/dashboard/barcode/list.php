@@ -16,7 +16,7 @@
             </div>
         </div>
         <?php if ($insertRights == 1) { ?>
-            <div id="maindiv" class="container">
+            <div id="maindiv" class="container"> 
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
                         <div class="floating-action-button">

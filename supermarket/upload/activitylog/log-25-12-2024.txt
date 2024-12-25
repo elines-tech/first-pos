@@ -7,3 +7,70 @@ Dt --> 25-12-24 01:56:04 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> 
 25-12-24 02:32:17	127.0.0.1	Admin	admin	PRO24_1 - riceeeeeeeeeeee Product is updated.
 25-12-24 02:33:30	127.0.0.1	Admin	admin	PRO24_1 - riceeeeeeeeeeee Product is updated.
 25-12-24 02:33:46	127.0.0.1	Admin	admin	PRO24_1 - riceeeeeeeeeeee Product is updated.
+Dt --> 25-12-24 03:12:12 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-25 15:19:13	127.0.0.1	Admin	admin	BAR24_1 - barcode is updated
+2024-12-25 15:19:50	127.0.0.1	Admin	admin	BAR24_2 - barcode is generated.
+2024-12-25	127.0.0.1	Admin	admin	ACTE_1 - ssssss Account Expense is added.
+2024-12-25	127.0.0.1	Admin	admin	true - ssssss Account Expense is updated.
+2024-12-25 15:33:20	127.0.0.1	Admin	admin	CUSTG_1 - dasdsa Customer Groupname is added.
+2024-12-25 15:46:06	127.0.0.1	Admin	admin	CO24_1 - dddddd counter is added.
+25-12-24 03:46:56	127.0.0.1	Admin	admin	USR24_2 - saidemad User is added.
+Dt --> 25-12-24 03:47:53 IP --> 127.0.0.1 LOGIN USER --> USR24_2 ADDED USER --> USR24_2 	USR24_2 Cashier logged in.
+Dt --> 25-12-24 03:49:02 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-25 15:52:25	127.0.0.1	Admin	admin	BAR24_2 - barcode is updated
+2024-12-25 15:53:15	127.0.0.1	Admin	admin	BAR24_3 - barcode is generated.
+Dt --> 25-12-24 03:58:27 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 25-12-24 03:59:20 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-25 16:40:25	127.0.0.1	Admin	admin	BR24_2 - uuuuuu branch is deleted.
+2024-12-25 16:40:28	127.0.0.1	Admin	admin	BR24_1 - ddddd branch is deleted.
+2024-12-25 16:40:34	127.0.0.1	Admin	admin	BR24_3 - bbbbbbbb1 Branch is added.
+2024-12-25 16:52:49	127.0.0.1	Admin	admin	TAC_2 - ggg Tax Rate is updated.
+2024-12-25 16:58:30	127.0.0.1	Admin	admin	TAG_2 - kkkkkkkk Tax Group is added.
+2024-12-25 16:58:37	127.0.0.1	Admin	admin	TAG_2 - kkkkkkkk Tax Group is updated.
+2024-12-25 16:59:14	127.0.0.1	Admin	admin	TAG_2 - kkkkkkkk Tax Group is updated.
+2024-12-25 17:18:01	127.0.0.1	Admin	admin	 - daraga base unit is added.
+2024-12-25 17:18:32	127.0.0.1	Admin	admin	BUOM_2 - daragaaaaaaaaaa base unit is updated.
+2024-12-25 17:23:50	127.0.0.1	Admin	admin	UOM_2 - dddddddddddddd unit is added.
+2024-12-25 17:33:32	127.0.0.1	Admin	admin	CO24_2 - b1 counter is added.
+2024-12-25 17:34:39	127.0.0.1	Admin	admin	CO24_1 -  counter is deleted.
+25-12-24 05:38:20	127.0.0.1	Admin	admin	USR24_2 User is deleted.
+25-12-24 06:08:22	127.0.0.1	Admin	admin	USR24_3 - sososo User is added.
+2024-12-25 18:28:04	127.0.0.1	Admin	admin	Text-SMS Setting is updated.
+2024-12-25 18:42:03	127.0.0.1	Admin	admin	OFF24_1 - offfff offer is added.
+2024-12-25 18:42:30	127.0.0.1	Admin	admin	OFF24_2 - oooooooooo offer is added.
+2024-12-25 18:45:18	127.0.0.1	Admin	admin	OFF24_2 - o offer is updated.
+2024-12-25 18:53:19	127.0.0.1	Admin	admin	GIC24_1 - gift giftcard is added.
+2024-12-25 19:02:13	127.0.0.1	Admin	admin	 - smsmmsmsmsm sms template is added.
+2024-12-25 19:02:40	127.0.0.1	Admin	admin	CAT_1 - smsmmsmsmsm sms template is updated.
+2024-12-25 19:03:23	127.0.0.1	Admin	admin	CAT_1 - smsmmsmsmsm sms template is updated.
+2024-12-25 19:03:29	127.0.0.1	Admin	admin	CAT_1 - smsmmsmsmsmaaaaaaaaaaaaaa sms template is updated.
+2024-12-25 19:07:58	127.0.0.1	Admin	admin	 - eee email template is added.
+25-12-24 07:28:28	127.0.0.1	Admin	admin	USR24_1 - USR24_1 Profile is updated.
+25-12-24 07:28:37	127.0.0.1	Admin	admin	USR24_1 - USR24_1 Profile is updated.
+25-12-24 07:29:35	127.0.0.1	Admin	admin	USR24_1 - USR24_1 Profile is updated.
+25-12-24 09:00:05	127.0.0.1	Admin	admin	USR24_3 - said User is updated.
+25-12-24 09:00:59	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:01:21	127.0.0.1	Admin	admin	USR24_3 - said User is updated.
+25-12-24 09:01:27	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:02:17	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:04:12	127.0.0.1	Admin	admin	USR24_4 - saidemadrrrr User is added.
+25-12-24 09:11:20	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:12:14	127.0.0.1	Admin	admin	USR24_5 - saidemadsasas User is added.
+25-12-24 09:13:16	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:13:52	127.0.0.1	Admin	admin	USR24_5 User is deleted.
+25-12-24 09:15:29	127.0.0.1	Admin	admin	USR24_6 - saidemadfdsf User is added.
+25-12-24 09:15:38	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:16:04	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:16:36	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:16:47	127.0.0.1	Admin	admin	USR24_6 User is deleted.
+25-12-24 09:17:54	127.0.0.1	Admin	admin	USR24_7 - saidemadfdsfsdf User is added.
+25-12-24 09:18:00	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:26:17	127.0.0.1	Admin	admin	delete User is deleted.
+25-12-24 09:26:50	127.0.0.1	Admin	admin	 User is deleted.
+25-12-24 09:27:12	127.0.0.1	Admin	admin	USR24_7 User is deleted.
+25-12-24 09:28:02	127.0.0.1	Admin	admin	USR24_8 - saidemaddddddddd User is added.
+25-12-24 09:29:34	127.0.0.1	Admin	admin	USR24_8 User is deleted.
+2024-12-25 21:29:41	127.0.0.1	Admin	admin	TAC_2 - ggg Tax rate is deleted.
+25-12-24 09:30:23	127.0.0.1	Admin	admin	USR24_9 - saidemadsaid User is added.
+25-12-24 09:42:08	127.0.0.1	Admin	admin	USR24_9 User is deleted.
+25-12-24 09:42:43	127.0.0.1	Admin	admin	USR24_10 - cash User is added.

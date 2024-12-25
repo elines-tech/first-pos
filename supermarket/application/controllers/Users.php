@@ -68,13 +68,13 @@ class Users extends CI_Controller
 			foreach ($Records->result() as $row) {
 				$actionHtml = '';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml .= '<a href="' . base_url() . 'Users/view/' . $row->code . '" class="btn btn-sm btn-success m-1 cursor_pointer"><i id="edt" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a id="view" href="' . base_url() . 'Users/view/' . $row->code . '" class="btn btn-sm btn-success m-1 cursor_pointer"><i id="edt" title="View" class="fa fa-eye"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a href="' . base_url() . 'Users/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" href="' . base_url() . 'Users/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a class="btn btn-sm btn-danger m-1 cursor_pointer delete_id" id="' . $row->code . '" ><i  title="Delete" class="fa fa-trash"></i></a>';
+					$actionHtml .= '<a class="btn btn-sm btn-danger m-1 cursor_pointer delete_id" style="    background-color: transparent; color: #dc3545;font-size: large;transition: none;border: none;border-radius: 50%;" id="' . $row->code . '" ><i  title="Delete" class="fa fa-trash"></i></a>';
 				}
 				if ($row->isActive == "1") {
 					$status = " <span class='badge bg-success'>Active</span>";

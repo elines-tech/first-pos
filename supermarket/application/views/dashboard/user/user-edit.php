@@ -20,7 +20,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Update User<span style="float:right"><a href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+                            <h3>Update User<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -36,43 +36,98 @@
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <input type="hidden" name="invoicePreference" readonly value="autocut">
                                         <div class="row">
-                                            <div class="col-md-4 col-12">
+
+                                            <div class="col-md-12 row col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="product-name" class="form-label">Branch Name</label>
-													
-													<?php if($branchCode!=""){?>
-														  <input type="hidden" class="form-control" name="branchname" id="branchname" value="<?= $branchCode; ?>" readonly>
-														  <input type="text" class="form-control" name="branch" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
-                                                    <select class="form-select" name="branchname" id="branchname" data-parsley-required="true" onchange="getBranchCounters()">
-                                                        <option value="">Select Branch</option>
-                                                        <?php if ($branchdata) {
-                                                            foreach ($branchdata->result() as $branch) {
-                                                                $selected = $userData[0]['userBranchCode'] == $branch->code ? 'selected' : '';
-                                                                echo '<option value="' . $branch->code . '"' . $selected . '>' . $branch->branchName . '</option>';
-                                                            }
-                                                        } ?>
-                                                    </select>
-													<?php } ?>
+
+                                                    <?php if ($branchCode != "") { ?>
+                                                        <input type="hidden" class="form-control" name="branchname" id="branchname" value="<?= $branchCode; ?>" readonly>
+                                                        <input type="text" class="form-control" name="branch" value="<?= $branchName; ?>" readonly>
+                                                    <?php } else { ?>
+                                                        <select class="form-select" name="branchname" id="branchname" data-parsley-required="true" onchange="getBranchCounters()">
+                                                            <option value="">Select Branch</option>
+                                                            <?php if ($branchdata) {
+                                                                foreach ($branchdata->result() as $branch) {
+                                                                    $selected = $userData[0]['userBranchCode'] == $branch->code ? 'selected' : '';
+                                                                    echo '<option value="' . $branch->code . '"' . $selected . '>' . $branch->branchName . '</option>';
+                                                                }
+                                                            } ?>
+                                                        </select>
+                                                    <?php } ?>
                                                 </div>
                                                 <?php echo form_error('branchname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-4 col-12">
-                                                <div class="form-group mandatory">
+
+
+                                            <div class="row col-md-12 col-12">
+
+
+                                                <div class="form-group col-md-6 col-12 mandatory">
                                                     <label for="arabicname-column" class="form-label">Name</label>
                                                     <input type="text" id="name" class="form-control" placeholder="Name" name="name" value="<?= $userData[0]['name'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('name', '<span class="error text-danger text-right">', '</span>'); ?>
+
+
+                                                <div class="form-group col-md-6 col-12 mandatory">
+                                                    <label for="arabicname-column" class="form-label">User Employee Number</label>
+                                                    <input type="text" id="userempnumber" class="form-control" placeholder="User Employee Number" name="userempnumber" value="<?= $userData[0]['userEmpNo'] ?>" data-parsley-required="true" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                                <?php echo form_error('userempnumber', '<span class="error text-danger text-right">', '</span>'); ?>
+
+
+
                                             </div>
-                                            <div class="col-md-4 col-12">
-                                                <div class="form-group mandatory">
+
+
+                                            <div class="row col-md-12 col-12">
+
+
+                                                <div class="form-group col-md-12 col-12 mandatory">
                                                     <label for="arabicname-column" class="form-label">User Name</label>
-                                                    <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" oninput="this.value=this.value.replace(/[^a-z]/gi,'')" data-parsley-required="true" maxlength="20" 
-													data-parsley-minlength="3" data-parsley-minlength-message="You need to enter at least 3 characters" data-parsley-trigger="change">
+                                                    <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" oninput="this.value=this.value.replace(/[^a-z]/gi,'')" data-parsley-required="true" maxlength="20"
+                                                        data-parsley-minlength="3" data-parsley-minlength-message="You need to enter at least 3 characters" data-parsley-trigger="change">
                                                 </div>
                                                 <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
+
+
+
+                                                <div class="form-group mandatory col-md-12 col-12 d-none" id="counterDiv">
+                                                    <label for="product-name" class="form-label">User Counter</label>
+                                                    <select class=" form-select select2" name="userCounter" id="userCounter" style="width:100%" <?= $userData[0]['userRole'] == 'R_5' ? 'required' : '' ?>>
+                                                        <option value="">Select Counter</option>
+                                                        <?php
+                                                        if ($counterdata) {
+                                                            foreach ($counterdata->result() as $cnt) {
+                                                                if ($cnt->branchCode == $userData[0]['userBranchCode']) {
+                                                                    $selected = $userData[0]['userCounter'] == $cnt->code ? 'selected' : '';
+                                                                    echo '<option value="' . $cnt->code . '"  ' . $selected . '>' . $cnt->counterName . '</option>';
+                                                                }
+                                                            }
+                                                        }
+                                                        ?>
+                                                    </select>
+                                                </div>
+                                                <?php echo form_error('userCounter', '<span class="error text-danger text-right">', '</span>'); ?>
+
                                             </div>
-                                            <div class="col-md-4 col-12">
+
+
+
+                                            <div class="row col-md-12 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">User Email</label>
+                                                    <input type="email" id="useremail" class="form-control" placeholder="Email" name="useremail" data-parsley-required="true" value="<?= $userData[0]['userEmail'] ?>" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
+                                                </div>
+                                                <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
+
+                                            </div>
+
+
+
+
+                                            <div class="col-md-6 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">User Language</label>
                                                     <select class="form-select" name="userlanguage" id="userlanguage" data-parsley-required="true">
@@ -85,22 +140,11 @@
                                                 </div>
                                                 <?php echo form_error('userlanguage', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-4 col-12">
-                                                <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Employee Number</label>
-                                                    <input type="text" id="userempnumber" class="form-control" placeholder="User Employee Number" name="userempnumber" value="<?= $userData[0]['userEmpNo'] ?>" data-parsley-required="true" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                                <?php echo form_error('userempnumber', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div>
-                                            <div class="col-md-4 col-12">
-                                                <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Email</label>
-                                                    <input type="email" id="useremail" class="form-control" placeholder="Email" name="useremail" data-parsley-required="true" value="<?= $userData[0]['userEmail'] ?>" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
-                                                </div>
-                                                <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
 
-                                            </div>
-                                            <div class="col-md-4 col-12">
+
+
+
+                                            <div class="col-md-6 row col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="product-name" class="form-label">User Role</label>
                                                     <select class=" form-control" name="userrole" id="userrole" data-parsley-required="true">
@@ -115,51 +159,45 @@
                                                 </div>
                                                 <?php echo form_error('userrole', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                            <div class="col-md-4 col-12 d-none" id="counterDiv">
-                                                <div class="form-group mandatory">
-                                                    <label for="product-name" class="form-label">User Counter</label>
-                                                    <select class=" form-select select2" name="userCounter" id="userCounter" style="width:100%" <?= $userData[0]['userRole'] == 'R_5' ? 'required' : '' ?>>
-                                                        <option value="">Select Counter</option>
-                                                        <?php 
-                                                        if ($counterdata) {
-                                                            foreach ($counterdata->result() as $cnt) {
-                                                                if ($cnt->branchCode == $userData[0]['userBranchCode']) {
-                                                                    $selected = $userData[0]['userCounter'] == $cnt->code ? 'selected' : '';
-                                                                    echo '<option value="' . $cnt->code . '"  ' . $selected . '>' . $cnt->counterName . '</option>';
-                                                                }
-                                                            }
-                                                        } 
-                                                        ?>
-                                                    </select>
-                                                </div>
-                                                <?php echo form_error('userCounter', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div>
+
+
+
                                             <script>
                                                 var role = '<?= $userData[0]['userRole'] ?>'
                                                 if (role == 'R_5') {
                                                     $('#counterDiv').removeClass('d-none');
                                                 }
                                             </script>
-                                            <div class="col-md-4" id="loginPinDetails" style="display:<?= $userData[0]['userRole'] == 'R_5' ? '' : 'none' ?>">
-                                                <div class="form-group mandatory">
+
+
+                                            <div class="col-md-12 row col-12">
+                                                <div class="form-group mandatory col-md-10" id="loginPinDetails" style="display:<?= $userData[0]['userRole'] == 'R_5' ? '' : 'none' ?>">
                                                     <label class="form-label">Login Pin</label>
                                                     <input type="text" id="loginpin" value="<?= $userData[0]['loginpin'] ?>" class="form-control" placeholder="Login Pin" name="loginpin">
 
                                                 </div>
+
+                                                <?php echo form_error('loginpin', '<span class="error text-danger text-right">', '</span>'); ?>
+
+
+                                                <div class="col-md-2 text-end mt-sm-4" id="loginPinDetails1" style="display:<?= $userData[0]['userRole'] == 'R_5' ? '' : 'none' ?>">
+                                                    <a class="btn btn-light-secondary me-1 mb-1 cursor-pointer" id="reLoginPin" onclick="randomNumber();">Regenerate</a>
+                                                </div>
+
+
                                             </div>
-                                            <?php echo form_error('loginpin', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            <div class="col-md-4 mt-sm-4" id="loginPinDetails1" style="display:<?= $userData[0]['userRole'] == 'R_5' ? '' : 'none' ?>">
-                                                <a class="btn btn-light-secondary me-1 mb-1 cursor-pointer" id="reLoginPin" onclick="randomNumber();">Regenerate</a>
-                                            </div>
+
+
+
                                             <div id="userDetails" style="display:<?= $userData[0]['userRole'] != 'R_5' ? '' : 'none' ?>">
                                                 <div class="row">
-                                                    <div class="col-md-4 col-12">
+                                                    <div class="col-md-6 col-12">
                                                         <div class="form-group">
                                                             <label for="arabicname-column" class="form-label">Password</label>
                                                             <input type="password" id="password" class="form-control" placeholder="Password" name="password">
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4 col-12">
+                                                    <div class="col-md-6 col-12">
                                                         <div class="form-group">
                                                             <label for="arabicname-column" class="form-label">Confirm Password</label>
                                                             <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();">
@@ -168,35 +206,45 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+
+
                                             <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Image</label>
-                                                        <div>
-                                                            <?php if ($userData[0]['userImage'] != "") { ?>
-                                                                <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['userImage'] ?>" data-src="">
-                                                            <?php } else { ?>
-                                                                <img class="img-thumbnail mb-2" width="120px" id="userimg" src="/assets/images/faces/default-img.jpg" data-src="">
-                                                            <?php } ?>
-                                                        </div>
-                                                        <input class="form-control" type="file" id="formFile" name="userImage">
+
+                                                <div class="col-md-12 col-12 mt-3">
+                                                    <div class="form-group col-md-12 col-12 text-center">
+                                                        <!--<label class="form-label">Image</label>-->
+                                                        <?php if ($userData[0]['userImage'] != "") { ?>
+                                                            <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['userImage'] ?>" data-src="">
+                                                        <?php } else { ?>
+                                                            <img class="img-thumbnail mb-2" width="120px" id="userimg" src="/assets/images/faces/default-img.jpg" data-src="">
+                                                        <?php } ?>
+                                                        <input class="form-control" type="file" id="formFile" name="userImage" style="padding: 5px;">
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4">
-                                                    <div class="form-group">
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" name="isActive" id="isActive" <?= ($userData[0]['isActive'] == 1) ? "checked" : "" ?>>
-                                                            <label class="form-check-label" for="isActive">
-                                                                Active
-                                                            </label>
-                                                        </div>
-                                                    </div>
+
+                                                <!--<div class="col-md-4">-->
+                                                <!--<div class="form-group">-->
+                                                <div class="form-check form-group col-md-12 col-12 text-center d-flex justify-content-center">
+                                                    <input class="form-check-input mx-2" type="checkbox" name="isActive" id="isActive" <?= ($userData[0]['isActive'] == 1) ? "checked" : "" ?>>
+                                                    <label class="form-check-label" for="isActive">
+                                                        Active
+                                                    </label>
                                                 </div>
+                                                <!--</div>-->
+                                                <!--</div>-->
+
+
+
                                             </div>
+
+
                                         </div>
+
+
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success white me-1 mb-1 sub_2" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
                                                 <!--<button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>-->
                                             </div>
                                         </div>

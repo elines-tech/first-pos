@@ -23,7 +23,7 @@
 							<h3>
 								Edit Barcode
 								<span class="float-end">
-									<a class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a>
+									<a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a>
 								</span>
 							</h3>
 						</div>
@@ -82,7 +82,7 @@
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3">
 														<label for="sellingQty" class="from-label">Selling Quantity <b class="text-danger">*</b></label>
-														<input type="number" min="1" step="1" class="form-control text-right" name="sellingQty" id="sellingQty" onkeypress="return isDecimal(event)" value="<?= $barcode['sellingQty'] ?>" onkeyup="checkQty();">
+														<input type="number" min="1" step="1" class="form-control text-left" name="sellingQty" id="sellingQty" onkeypress="return isDecimal(event)" value="<?= $barcode['sellingQty'] ?>" onkeyup="checkQty();">
 													</div>
 													<div class="col-md-4 col-sm-6">
 														<label for="sellingQty" class="from-label">Selling Unit <b class="text-danger">*</b></label>
@@ -102,24 +102,24 @@
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
 														<label for="">Selling Price <b class="text-danger">*</b></label>
-														<input type="number" min="1" step="0.01" class="form-control text-right" name="sellingPrice" id="sellingPrice" onkeypress="return isDecimal(event)" onkeyup="checkPrice();calculate_subTotal('')" value="<?= $barcode['sellingPrice'] ?>">
+														<input type="number" min="1" step="0.01" class="form-control text-left" name="sellingPrice" id="sellingPrice" onkeypress="return isDecimal(event)" onkeyup="checkPrice();calculate_subTotal('')" value="<?= $barcode['sellingPrice'] ?>">
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
 														<label for="">Discount Price <b class="text-danger">*</b></label>
-														<input type="number" min="0" step="0.01" class="form-control text-right" name="discountPrice" id="discountPrice" onkeypress="return isDecimal(event)" onkeyup="calculate_subTotal()" value="<?= $barcode['discountPrice'] ?>">
+														<input type="number" min="0" step="0.01" class="form-control text-left" name="discountPrice" id="discountPrice" onkeypress="return isDecimal(event)" onkeyup="calculate_subTotal()" value="<?= $barcode['discountPrice'] ?>">
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
 														<label for="">Tax Percent <b class="text-danger">*</b></label>
-														<input type="number" step="0.01" min="0" class="form-control text-right" name="taxPercent" id="taxPercent" disabled value="<?= $barcode['taxPercent'] ?>">
+														<input type="number" step="0.01" min="0" class="form-control text-left" name="taxPercent" id="taxPercent" disabled value="<?= $barcode['taxPercent'] ?>">
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
 														<label for="">Tax Amount</label>
-														<input type="number" class="form-control text-right" name="taxAmount" id="taxAmount" disabled value="<?= $barcode['taxAmount'] ?>">
+														<input type="number" class="form-control text-left" name="taxAmount" id="taxAmount" disabled value="<?= $barcode['taxAmount'] ?>">
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12 d-flex justify-content-end">
-														<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveBarcodeBtn">Update</button>
+														<button type="submit" class="btn btn-success" id="saveBarcodeBtn">Update</button>
 													</div>
 												</div>
 											</div>

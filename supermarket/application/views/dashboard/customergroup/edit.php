@@ -22,7 +22,7 @@
         <input type="hidden" id="code" name="code" value="<?= $row->code ?>" class="form-control" readonly>
         <div class="row">
             <div class="col-12 d-flex justify-content-end">
-                <button type="button" class="btn btn-primary white me-2 mb-1 sub_2" id="updateGroupName">Update</button>
+                <button type="button" class="btn btn-primary" id="updateGroupName">Update</button>
 
             </div>
         </div>

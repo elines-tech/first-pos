@@ -35,7 +35,7 @@
                     <div class="row">
 					    <?php if($insertRights==1){ ?>
                         <div class="col-12 text-end" id="leftdiv">
-                            <a href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
+                            <a id="saveDefaultButton" href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
                         </div>
 						<?php } ?>
                     </div>
@@ -96,8 +96,8 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="btnSave">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="btnClose" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="btnSave">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="btnClose" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>

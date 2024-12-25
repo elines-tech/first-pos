@@ -21,7 +21,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Add Offer<span style="float:right"><a href="<?= base_url() ?>offer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3>Add Offer<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>offer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -31,13 +31,13 @@
 											<div class="row">
 												<div class="col-md-12 col-12">
 													<div class="row">
-														<div class="col-md-8 col-12">
+														<div class="col-md-6 col-12">
 															<div class="form-group mandatory">
 																<label for="" class="form-label">Offer Title</label>
 																<input type="text" id="title" name="title" class="form-control" required>
 															</div>
 														</div>
-														<div class="col-md-4 col-12">
+														<div class="col-md-6 col-12">
 															<div class="form-group mandatory">
 																<label for="product-name" class="form-label">Offer type</label>
 																<select id="offerType" name="offerType" class="form-control" required>
@@ -83,13 +83,13 @@
 														</div>
 													</div>
 													<div class="row">
-														<div class="col-md-4 col-sm-6">
+														<div class="col-md-6 col-sm-6">
 															<div class="form-group mandatory">
 																<label for="" class="form-label">Start Date</label>
 																<input type="text" id="startDate" name="startDate" class="form-control datepicker" placeholder="Ex. dd-MM-yyyy hh:mm" required>
 															</div>
 														</div>
-														<div class="col-md-4 col-sm-6">
+														<div class="col-md-6 col-sm-6">
 															<div class="form-group mandatory">
 																<label for="" class="form-label">End Date</label>
 																<input type="text" id="endDate" name="endDate" class="form-control datepicker" placeholder="Ex. dd-MM-yyyy hh:mm" required>
@@ -112,8 +112,8 @@
 													</div>
 													<div class="row">
 														<div class="col-12 d-flex justify-content-end">
-															<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveOfferBtn">Save</button>
-															<button type="button" id="closeOfferBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+															<button type="submit" class="btn btn-success" id="saveOfferBtn">Save</button>
+															<button type="reset" id="closeOfferBtn" class="btn btn-light-secondary">Reset</button>
 														</div>
 													</div>
 												</div>

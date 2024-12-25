@@ -37,19 +37,19 @@
                     </div>
 					<hr>
 			      <div class="row mt-3">
-						<div class="col-md-3">
+						<div class="col-md-4">
 						    <label class="form-label lng">From Date</label>
 							<div class="form-group mandatory">
 								<input type="date" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d',strtotime(' - 7 days'))?>">
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-4">
 						    <label class="form-label lng">To Date</label>
 							<div class="form-group mandatory">
 								<input type="date" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d')?>">
 							</div>
 						</div>
-					    <div class="col-md-3">
+					    <div class="col-md-4">
 						    <label class="form-label lng">Branch</label>
 							<div class="form-group mandatory">
 							    <?php if($branchCode!=""){?>
@@ -69,9 +69,9 @@
 							</div>
 						</div>
                         <div style="text-align:center;">
-						   <div class="d-flex mt-2">
-								<button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-								<button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+						   <div class="d-flex justify-content-center mt-2">
+								<button type="button" class="btn btn-success" id="btnSearch">Search</button>
+								<button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
 							</div>
 						</div>
 					</div>
@@ -174,7 +174,7 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal">Close</button>
+                                            <button id="cancelDefaultButton" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                             </div>
@@ -190,7 +190,7 @@
 		var fromDate = $("#fromDate").val();
 	    var toDate = $("#toDate").val();
         loadTable('',fromDate,toDate);
-		$(".buttons-html5").removeClass('btn-primary').addClass('btn-primary sub_1');
+		$(".buttons-html5").removeClass('btn-primary').addClass('btn-printFormat');
 		$(".dt_buttons").removeClass('flex_wrap');
 		$("#branch").select2({
 			    placeholder: "Select Branch",

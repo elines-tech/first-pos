@@ -88,7 +88,7 @@ class ExpenseReport extends CI_Controller
         if ($Records) {
             foreach ($Records->result() as $row) {
                 $code = $row->code;
-                $actionHtml = '<div class="d-flex"><a class="btn btn-sm btn-success cursor_pointer view_account_expense m-1" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>
+                $actionHtml = '<div class="d-flex"><a id="view" class="btn btn-sm btn-success cursor_pointer view_account_expense m-1" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="View" class="fa fa-eye"></i></a>
 					</div>';
                 $date = "";
                 if ($row->accExpenseDate != "") {

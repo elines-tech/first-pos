@@ -15,15 +15,17 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_unit"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_unit"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -74,7 +76,7 @@
                                                 <label class="col-md-4 form-label text-left">Base Unit</label>
                                                 <div class="col-md-8">
                                                     <select class="form-select select2" style="width:100%" name="baseUnit" id="baseUnit" required>
-                                                        
+
                                                     </select>
                                                 </div>
                                             </div>
@@ -97,7 +99,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Description : </label>
+                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Description</label>
                                                 <div class="col-md-8">
                                                     <textarea id="description" rows="6" class="form-control" placeholder="" name="description"></textarea>
                                                 </div>
@@ -116,9 +118,9 @@
                                                 </div>
                                             </div>
                                         </div>
-										<div class="col-md-12 col-12">
+                                        <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Conversion Factor</label>
+                                                <label for="Unit-name-column" class="col-md-4 form-label text-nowrap text-left">Conversion Factor</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="conversionFactor" class="form-control" onkeypress="return isDecimal(event)" placeholder="Enter Conversion Factor" name="conversionFactor" onchange="checkConversionFactor()" required>
                                                 </div>
@@ -128,7 +130,7 @@
                                             <div class="form-group row">
                                                 <label for="status" class="col-sm-4 col-form-label text-left">Active : </label>
                                                 <div class="col-sm-8 checkbox">
-                                                    <input type="checkbox" name="isActive" id="isActive" class=" " style="width:25px; height:25px">
+                                                    <input type="checkbox" name="isActive" id="isActive" class="mt-2" style="width:25px; height:25px">
                                                 </div>
                                             </div>
                                         </div>
@@ -137,8 +139,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveUnitBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeUnitBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveUnitBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeUnitBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -154,32 +156,32 @@
     $(document).ready(function() {
         $('.cancel').removeClass('btn-default').addClass('btn-info');
         loadUnit();
-		 $("#baseUnit").select2({
-			    placeholder: "Select Base Unit",
-				dropdownParent: $('#generl_modal .modal-content'),
-                allowClear: true,
-				ajax: {
-					url:  base_path+'Common/getBaseUnit',
-					type: "get",
-					delay:250,
-					dataType: 'json',
-					data: function (params) {
-						var query = {
-                            search: params.term
-                          }
+        $("#baseUnit").select2({
+            placeholder: "Select Base Unit",
+            dropdownParent: $('#generl_modal .modal-content'),
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getBaseUnit',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
 
-                          return query;
-					}, 
-					processResults: function (response) {
-						
-							return {
-								results: response
-							};
-						
-					},
-					cache: true
-				}
-			});
+                    return query;
+                },
+                processResults: function(response) {
+
+                    return {
+                        results: response
+                    };
+
+                },
+                cache: true
+            }
+        });
     });
     $('.add_unit').click(function() {
         $('#unitForm').parsley().destroy();
@@ -343,16 +345,16 @@
 
         }
     }
-	
-	function checkConversionFactor() {
+
+    function checkConversionFactor() {
         var conversionFactor = Number($('#conversionFactor').val());
-        if(conversionFactor=='' || conversionFactor==0) {
+        if (conversionFactor == '' || conversionFactor == 0) {
             toastr.error("Invalid conversion factor..", 'Conversion Factor', {
                 "progressBar": true
             });
-			$('#conversionFactor').val('');
-			$('#conversionFactor').val(1);
-			$('#conversionFactor').focus();
+            $('#conversionFactor').val('');
+            $('#conversionFactor').val(1);
+            $('#conversionFactor').focus();
         }
     }
 

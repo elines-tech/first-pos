@@ -20,7 +20,7 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3>View Offer<span style="float:right"><a href="<?= base_url()?>offer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+						<h3>View Offer<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url()?>offer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -34,13 +34,13 @@
 									<div class="col-md-12 col-12">
 										<div class="row">
 											<input type="hidden" class="form-control" id="code" name="code" value="<?= $result->code?>">
-											<div class="col-md-8 col-12">
+											<div class="col-md-6 col-12">
 												<div class="form-group mandatory">
 													<label for="" class="form-label">Offer Title</label>
 													<input type="text" id="title" name="title" disabled class="form-control" required value="<?= $result->title?>"> 
 												</div>
 											</div>
-											<div class="col-md-4 col-12">
+											<div class="col-md-6 col-12">
 												<div class="form-group mandatory">
 													<label for="product-name" class="form-label">Offer type</label>
 													<select id="offerType" name="offerType" disabled class="form-control" required>
@@ -85,7 +85,7 @@
 										</div>
 										
 										<div class="row">
-											<div class="col-md-6 col-12">
+											<div class="col-md-12 col-12">
 												<div class="form-group mandatory">
 													<label for="description" class="form-label mb-1">Offer Description : </label>
 													<textarea class="form-control" id="description" disabled name="description" placeholder="Description"><?= $result->description?></textarea>

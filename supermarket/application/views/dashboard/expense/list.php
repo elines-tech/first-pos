@@ -15,15 +15,17 @@
                 </div>
             </div>
         </div>
-		<?php if($insertRights==1){ ?>
-        <div id="maindiv" class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                    <h2><a class="add_account_expense"><i class="fa fa-plus-circle cursor_pointer"></i></a></h2>
+        <?php if ($insertRights == 1) { ?>
+            <div id="maindiv" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <div class="floating-action-button">
+                            <a id="add_category" class="add_account_expense"><i class="fa fa-plus-circle cursor_pointer"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-		<?php } ?>
+        <?php } ?>
         <!-- Basic Tables start -->
         <section class="section">
             <div class="card">
@@ -73,20 +75,20 @@
                                             <div class="form-group row mandatory">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Branch</label>
                                                 <div class="col-md-8">
-												    <?php if($branchCode!=""){?>		
-														  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-													<?php } else{?>
-                                                    <select class="form-select select2" style="width:100%" name="branch" id="branch" required data-parsley-required-message="Branch is required">
-                                                        <option value="">Select</option>
-                                                        <?php
-                                                        if ($branch) {
-                                                            foreach ($branch->result() as $br) {
-                                                                echo "<option value='" . $br->code . "'>" . $br->branchName . "</option>'";
+                                                    <?php if ($branchCode != "") { ?>
+                                                        <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+                                                    <?php } else { ?>
+                                                        <select class="form-select select2" style="width:100%" name="branch" id="branch" required data-parsley-required-message="Branch is required">
+                                                            <option value="">Select</option>
+                                                            <?php
+                                                            if ($branch) {
+                                                                foreach ($branch->result() as $br) {
+                                                                    echo "<option value='" . $br->code . "'>" . $br->branchName . "</option>'";
+                                                                }
                                                             }
-                                                        }
-                                                        ?>
-                                                    </select>
-													<?php } ?>
+                                                            ?>
+                                                        </select>
+                                                    <?php } ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -128,8 +130,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveAccountExpenseBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" id="closeAccountExpenseBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveAccountExpenseBtn">Save</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeAccountExpenseBtn" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </form>
@@ -209,7 +211,7 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal">Close</button>
+                                            <button id="cancelDefaultButton" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                             </div>
@@ -227,11 +229,11 @@
     });
 
     function isDecimal(evt, element) {
-    var charCode = (evt.which) ? evt.which : event.keyCode
-    if (            
-        (charCode != 46 || $(element).val().indexOf('.') != -1) &&      // “.” CHECK DOT, AND ONLY ONE.
-        (charCode < 48 || charCode > 57))
-        return false;
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (
+            (charCode != 46 || $(element).val().indexOf('.') != -1) && // “.” CHECK DOT, AND ONLY ONE.
+            (charCode < 48 || charCode > 57))
+            return false;
         return true;
     }
     $('.add_account_expense').click(function() {
@@ -241,7 +243,7 @@
         $('#saveAccountExpenseBtn').text('Save');
         $('#code').val('');
         $('#saveAccountExpenseBtn').removeClass('d-none');
-		$("#branch").val(null).trigger('change.select2');
+        $("#branch").val(null).trigger('change.select2');
         $('#date').val("<?= date('Y-m-d') ?>");
         $('#expensename').val('');
         $('#expensecost').val('');
@@ -252,7 +254,7 @@
         if ($.fn.DataTable.isDataTable("#datatableAccountExpense")) {
             $('#datatableAccountExpense').DataTable().clear().destroy();
         }
-       
+
         var dataTable = $('#datatableAccountExpense').DataTable({
             stateSave: true,
             "processing": true,
@@ -264,7 +266,7 @@
                 type: "GET",
                 "complete": function(response) {
                     $('.edit_account_expense').click(function() {
-                  
+
                         var code = $(this).data('seq');
                         var type = $(this).data('type');
                         $.ajax({
@@ -274,7 +276,7 @@
                                 'code': code,
                             },
                             success: function(response) {
-                                
+
                                 var obj = JSON.parse(response);
                                 if (obj.status) {
                                     $('#accountExpenseForm').parsley().destroy();
@@ -302,7 +304,7 @@
                     });
 
                     $('.view_account_expense').click(function() {
-                        
+
                         var code = $(this).data('seq');
                         $.ajax({
                             url: base_path + "AccountExpense/editAccountExpense",
@@ -311,7 +313,7 @@
                                 'code': code,
                             },
                             success: function(response) {
-                               
+
                                 var obj = JSON.parse(response);
                                 if (obj.status) {
                                     $('#generl_modal1').modal('show');

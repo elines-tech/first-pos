@@ -21086,6 +21086,15 @@ body .bi:before {
     color: #37B181;
 }
 
+#add_category_text {
+    font-size: 20px;
+    color: white;
+    background-color: #37B181;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 
 #btnSearch.btn-success {
     background-color: #37B181;
@@ -21164,6 +21173,143 @@ body .bi:before {
 
 
 
+#updateBranchBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#updateBranchBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#btnSave.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#btnSave.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#saveCounterBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveCounterBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+#saveTaxBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveTaxBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#updateGroupName.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#updateGroupName.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#saveBranchBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveBranchBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+.btn-printFormat {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+
 
 
 #productVariants.btn-primary {
@@ -21202,6 +21348,114 @@ body .bi:before {
 
 
 #saveDefaultButton.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#editUser.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#editUser.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+#submitBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#submitBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+#saveOfferBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveOfferBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#saveCardBtn.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveCardBtn.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#submit.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#submit.btn-success:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/
@@ -21335,6 +21589,133 @@ body .bi:before {
 }
 
 
+
+#closeBranchBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+
+#cancelplan.btn.btn-danger {
+    background-color: var(--bs-red);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+#cancelplan.btn.btn-danger:hover {
+    background-color: red;
+}
+
+
+#btnClose.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#closeCardBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+#closeOfferBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+
+#reset.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#closeCounterBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+
+#closeUnitBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+
+#closeTaxGroupBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#closeTaxBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#closeBranchBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#closeProductCombo.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+
+#closeAccountExpenseBtn.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
 #cancelProductExtras.btn.btn-light-secondary {
     background-color: red;
     color: white;
@@ -21415,6 +21796,111 @@ body .bi:before {
 
 
 #saveBrandBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#saveTaxGroupBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveTaxGroupBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+#saveUnitBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveUnitBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+#saveGroupName.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveGroupName.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+
+
+#generateBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#generateBtn.btn-primary:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+#saveAccountExpenseBtn.btn-primary {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#saveAccountExpenseBtn.btn-primary:hover {
     /*-webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);*/
@@ -21602,6 +22088,17 @@ body .bi:before {
     transition: none;
     border: none;
     border-radius: 50%;
+}
+
+
+#reLoginPin {
+    background-color: orange;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
 }
 
 
@@ -22516,12 +23013,18 @@ body#login {
     font-size: 14px;
     padding: .7rem 1rem;
     text-decoration: none;
-    transition: all .5s
+    transition: all .5s;
 }
 
 .sidebar-wrapper .menu .sidebar-link i,
 .sidebar-wrapper .menu .sidebar-link svg {
     color: #7c8db5
+}
+
+
+.sidebar-wrapper .menu .sidebar-link:hover i,
+.sidebar-wrapper .menu .sidebar-link:hover svg {
+    color: white
 }
 
 .sidebar-wrapper .menu .sidebar-link i:before {
@@ -22664,7 +23167,7 @@ body#login {
 }
 
 .nav-tabs .nav-link.active {
-    background: linear-gradient(to right, #00A79D, #4280C2);
+    background: #173D69;
     border: none;
     color: #fff;
     position: relative
