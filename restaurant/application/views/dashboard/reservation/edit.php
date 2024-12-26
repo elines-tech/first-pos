@@ -2,7 +2,7 @@
     <div class="container d-block">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <a href="<?php echo base_url(); ?>Reservation/listrecords"><i class="fa fa-times fa-2x"></i></a>
+                <a href="<?php echo base_url(); ?>Reservation/listrecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a>
             </div>
         </div>
     </div>
@@ -145,9 +145,9 @@
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
                                                 <?php if ($updateRights == 1) { ?>
-                                                    <button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="updateTableBtn">Update</button>
+                                                    <button type="submit" class="btn btn-primary" id="updateTableBtn">Update</button>
                                                 <?php } ?>
-                                                <button type="reset" class="btn btn-light-secondary me-1 mb-1" onclick="window.location.reload();" id="closeTableBtn">Reset</button>
+                                                <button type="reset" class="btn btn-light-secondary" onclick="window.location.reload();" id="closeTableBtn">Reset</button>
                                             </div>
                                         </div>
                                 <?php }

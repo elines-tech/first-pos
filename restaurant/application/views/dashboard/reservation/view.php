@@ -5,8 +5,8 @@
             <div class="row">
                 <div class="col-md-12 col-12">
                     <div class="form-group row mandatory">
-                        <label for="category-name-column" class="col-md-4 form-label text-left">Customer Name</label>
-                        <div class="col-md-8">
+                        <label for="category-name-column" class="col-md-12 form-label text-left">Customer Name</label>
+                        <div class="col-md-12">
                             <input type="hidden" class="form-control" name="resCode" id="resCode" value="<?= $row->code ?>">
                             <select class="form-select select2" style="width:100%" name="modalcustomerName" id="modalcustomerName" disabled>
                                 <option value="">Select Customer</option>

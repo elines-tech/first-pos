@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>quotation/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>quotation/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 
 		</div>
 	</div>
@@ -19,7 +19,7 @@
 					<div class="card-content">
 						<div class="card-body">
 							<form id="quotationForm" class="form" method="post" enctype="multipart/form-data" data-parsley-validate>
-								
+
 								<?php if ($quotationData) {
 									$result = $quotationData->result_array()[0];
 								?>
@@ -42,17 +42,17 @@
 													<div class="form-group mandatory">
 														<label for="" class="form-label">Peoples</label>
 														<input type="text" class="form-control" name="people" id="people" required value="<?= $result['peoples'] ?>">
-														
+
 													</div>
 												</div>
 												<input type="hidden" class="form-control" name="quotationCode" id="quotationCode" value="<?= $result['code'] ?>">
 											</div>
-											
+
 											<div class="row">
 												<div class="col-md-12 col-12">
 													<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 														<thead>
-															<tr>																
+															<tr>
 																<th width="25%">Products</th>
 																<th width="25%">Quantity/person</th>
 																<th width="25%">Price/person</th>
@@ -66,70 +66,83 @@
 																foreach ($quotationLineEntries->result() as $co) {
 																	$i++;
 															?>
-																	<tr id="row<?= $i ?>">																		
+																	<tr id="row<?= $i ?>">
 																		<td>
-																			<select class="form-control" id="productCode<?= $i?>" name="productCode<?= $i?>" disabled>
+																			<select class="form-control" id="productCode<?= $i ?>" name="productCode<?= $i ?>" disabled>
 																				<option value="<?= $co->productCode ?>"><?= $co->productEngName ?></option>
 
 																			</select>
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control" name="qtyPerPerson<?= $i?>" id="qtyPerPerson<?= $i?>" onkeypress="return isNumber(event)" value="<?= $co->qtyPerPerson ?>" disabled>
+																			<input type="text" class="text-right form-control" name="qtyPerPerson<?= $i ?>" id="qtyPerPerson<?= $i ?>" onkeypress="return isNumber(event)" value="<?= $co->qtyPerPerson ?>" disabled>
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control" name="pricePerPerson<?= $i?>" id="pricePerPerson<?= $i?>" onkeypress="return isNumber(event)" value="<?= $co->pricePerPerson ?>" disabled>
+																			<input type="text" class="text-right form-control" name="pricePerPerson<?= $i ?>" id="pricePerPerson<?= $i ?>" onkeypress="return isNumber(event)" value="<?= $co->pricePerPerson ?>" disabled>
 																		</td>
 																		<td>
 																			<input type="text" class="text-right form-control" name="subTotal<?= $i ?>" id="subTotal<?= $i ?>" disabled value="<?= $co->subTotal ?>">
 																		</td>
-																	
+
 																	</tr>
 															<?php }
 															} ?>
-														
+
 														</tbody>
+
 														<tfoot>
-														<tr>
-															<td colspan="3" class="text-right"><b>Subtotal :</b></td>
-															<td class="text-right">
-																<input type="text" id="subTotal" class="text-right form-control" name="subTotal" value="<?= $result['subTotal'] ?>" readonly="readonly" autocomplete="off">
-															</td>
-														</tr>
-														<tr>
-															<td colspan="3" class="text-right"><b>Discount (₹) :</b></td>
-															<td class="text-right">
-																<input type="text" id="discount" class="text-right form-control" disabled name="discount" value="<?= $result['discount'] ?>" onkeypress="return isNumber(event)" autocomplete="off" onkeyup="getTaxAmount()">
-															</td>
-														</tr>
-														<tr>
-															<td colspan="3" class="text-right"><b>Discount Amount:</b></td>
-															<td class="text-right">
-																<input type="text" id="discountAmount" class="text-right form-control decimal" name="discountAmount" disabled value="<?= $result['subTotal'] - $result['discount'] ?>" >
-															</td>
-														</tr>
-														<tr>
-															<td colspan="3" class="text-right"><b>Tax :</b></td>
-															<td class="text-right">
-																<input type="text" id="taxAmount" class="text-right form-control" name="taxAmount" readonly="readonly" value="<?= $result['taxAmount'] ?>" autocomplete="off">
-																<input type="hidden" id="discountAmount" class="form-control" name="discountAmount" value="0.00">
-															</td>
-														</tr>
-														<tr>
-															<td colspan="3" class="text-right"><b>Grand Total :</b></td>
-															<td class="text-right">
-																<input type="text" id="grandTotal" class="text-right form-control" name="grandTotal" readonly="readonly" value="<?= $result['grandTotal'] ?>" autocomplete="off">
-															</td>
-														</tr>
-													</tfoot>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Subtotal</b></label>
+																	<input type="text" id="subTotal" class="text-center form-control" name="subTotal" value="<?= $result['subTotal'] ?>" readonly="readonly" autocomplete="off">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Discount (₹)</b>
+																	</label> <input type="text" id="discount" class="text-center form-control" disabled name="discount" value="<?= $result['discount'] ?>" onkeypress="return isNumber(event)" autocomplete="off" onkeyup="getTaxAmount()">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Discount Amount</b></label>
+																	<input type="text" id="discountAmount" class="text-center form-control decimal" name="discountAmount" disabled value="<?= $result['subTotal'] - $result['discount'] ?>">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Tax</b></label>
+																	<input type="text" id="taxAmount" class="text-center form-control" name="taxAmount" readonly="readonly" value="<?= $result['taxAmount'] ?>" autocomplete="off">
+																	<input type="hidden" id="discountAmount" class="form-control" name="discountAmount" value="0.00">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Grand Total</b>
+																	</label> <input type="text" id="grandTotal" class="text-center form-control" name="grandTotal" readonly="readonly" value="<?= $result['grandTotal'] ?>" autocomplete="off">
+																</td>
+															</tr>
+
+
+														</tfoot>
 													</table>
 												</div>
 											</div>
-											
+
 										</div>
 									</div>
 								<?php }
 								?>
-							</form> 
+							</form>
 						</div>
 					</div>
 				</div>

@@ -134,8 +134,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" name="customerCode" value="" id="customerCode">
-                                            <button type="button" class="btn btn-primary white me-2 mb-1 sub_1" id="applyGroup">Apply</button>
-                                            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary" id="applyGroup">Apply</button>
+                                            <button id="cancelDefault" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                             </div>

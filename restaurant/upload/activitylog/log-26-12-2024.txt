@@ -1,1 +1,21 @@
 Dt --> 26-12-24 02:11:28 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 26-12-24 02:43:40 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 26-12-24 02:55:16 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 26-12-24 04:17:27 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 26-12-24 05:30:43 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 26-12-24 05:31:03 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 26-12-24 05:32:41 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 26-12-24 05:56:42 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 26-12-24 05:56:51 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 26-12-24 05:57:15 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 26-12-24 06:34:10 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 26-12-24 06:34:18 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 26-12-24 06:34:49 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 26-12-24 06:34:57 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-26 19:01:49	127.0.0.1	Admin	saidemad	CUSTG_2 - kkkkkkkkkkkkkkkkkkkk Customer Groupname is added.
+2024-12-26 21:03:49	127.0.0.1	Admin	saidemad	TAB_164 - 1.2 table is deleted.
+2024-12-26 21:10:44	127.0.0.1	Admin	saidemad	TAB_170  table is added.
+2024-12-26 21:11:02	127.0.0.1	Admin	saidemad	2 Bulk tables are added.
+2024-12-26 21:12:02	127.0.0.1	Admin	saidemad	TR24_2 - TAB_89 Tbale is reserved.
+2024-12-26 21:16:20	127.0.0.1	Admin	saidemad	TR24_2 - x22 TAB_89 Table booked is updated.
+2024-12-26 21:23:28	127.0.0.1	Admin	saidemad	OFF24_1 - ffffffffffffffffff offer is updated.

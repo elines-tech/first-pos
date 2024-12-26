@@ -2,14 +2,14 @@
 	<div class="container d-block">
 		<div class="row">
 			<div class="col-12 col-md-6 order-md-1 order-last">
-				<a href="<?php echo base_url(); ?>quotation/listRecords"><i class="fa fa-times fa-2x"></i></a>
+				<a href="<?php echo base_url(); ?>quotation/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a>
 			</div>
 		</div>
 	</div>
 </nav>
 
 
-<div class="container">
+<div class="container mb-5">
 	<section id="multiple-column-form" class="mt-5">
 		<div class="row match-height">
 			<div class="col-12">
@@ -47,7 +47,7 @@
 
 													</div>
 												</div>
-												<div class="col-md-4 col-12">
+												<div class="col-md-12 col-12">
 													<div class="form-group">
 														<label for="" class="form-label">Remark</label>
 														<select class=" form-select" name="remark" id="remark">
@@ -61,7 +61,7 @@
 												<div class="col-md-4 col-12" id="showDate" style="display:<?= $result['remark'] == 'Next follow up date' ? '' : 'none' ?>">
 													<div class="form-group">
 														<label for="" class="form-label">Next Follow Up Date</label>
-														<input type="date" class="form-control bg-white" name="remarkDate" id="remarkDate" <?php if($result['remarkDate']!=""){?>value="<?= date('Y-m-d', strtotime($result['remarkDate'])) ?>"<?php } ?>>
+														<input type="date" class="form-control bg-white" name="remarkDate" id="remarkDate" <?php if ($result['remarkDate'] != "") { ?>value="<?= date('Y-m-d', strtotime($result['remarkDate'])) ?>" <?php } ?>>
 													</div>
 												</div>
 												<input type="hidden" class="form-control" name="quotationCode" id="quotationCode" value="<?= $result['code'] ?>">
@@ -71,7 +71,7 @@
 												<div class="col-md-12 col-12">
 													<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 														<thead>
-															<tr>					
+															<tr>
 																<th width="25%">Products</th>
 																<th width="15%">Quantity/person</th>
 																<th width="25%">Price/person</th>
@@ -86,12 +86,12 @@
 																foreach ($quotationLineEntries->result() as $co) {
 																	$i++;
 															?>
-																	<tr id="row<?= $i ?>">																	
+																	<tr id="row<?= $i ?>">
 																		<td>
-																		    <input type="hidden" class="form-control" name="dbproductCode<?= $i ?>" id="dbproductCode<?= $i ?>" value="<?= $co->productCode ?>">
+																			<input type="hidden" class="form-control" name="dbproductCode<?= $i ?>" id="dbproductCode<?= $i ?>" value="<?= $co->productCode ?>">
 																			<input type="hidden" class="form-control" name="quotationLineCode<?= $i ?>" id="quotationLineCode<?= $i ?>" value="<?= $co->code ?>">
 																			<input type="hidden" class="form-control" name="perProductTax<?= $i ?>" id="perProductTax<?= $i ?>" value="<?= $co->tax ?>" readonly>
-																            <input type="hidden" class="form-control" name="perProductTaxAmount<?= $i ?>" id="perProductTaxAmount<?= $i ?>" value="<?= $co->taxamount ?>" readonly>
+																			<input type="hidden" class="form-control" name="perProductTaxAmount<?= $i ?>" id="perProductTaxAmount<?= $i ?>" value="<?= $co->taxamount ?>" readonly>
 																			<select class="form-select itemsdropDown select2" id="productCode<?= $i ?>" name="productCode[]" onchange="checkDuplicateProduct(<?= $i ?>);getProductTaxAmount(<?= $i ?>);">
 																				<option value="<?= $co->productCode ?>"><?= $co->productEngName ?></option>
 
@@ -114,11 +114,11 @@
 																	//echo '<script>getProductByCategory('.$i.')</script>';
 																}
 															} ?>
-															<tr id="row0">															
+															<tr id="row0">
 																<td>
-																    <input type="hidden" class="form-control" name="quotationLineCode0" id="quotationLineCode0" value="">
-																	 <input type="hidden" class="form-control" name="perProductTax0" id="perProductTax0" readonly>
-																<input type="hidden" class="form-control" name="perProductTaxAmount0" id="perProductTaxAmount0" readonly>
+																	<input type="hidden" class="form-control" name="quotationLineCode0" id="quotationLineCode0" value="">
+																	<input type="hidden" class="form-control" name="perProductTax0" id="perProductTax0" readonly>
+																	<input type="hidden" class="form-control" name="perProductTaxAmount0" id="perProductTaxAmount0" readonly>
 																	<select class="form-select itemsdropDown select2" id="productCode0" name="productCode[]" onchange="checkDuplicateProduct(0);getProductTaxAmount(0);">
 																		<option value=""></option>
 
@@ -134,53 +134,68 @@
 																	<input type="text" class="text-right form-control" name="subTotal0" id="subTotal0" disabled>
 																</td>
 																<td>
-																	<a href="#" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>
+																	<a id="view" href="#" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>
 																</td>
 															</tr>
 														</tbody>
-														<tfoot>
-															<tr>
-																<td colspan="3" class="text-right"><b>Subtotal :</b></td>
-																<td class="text-right">
-																	<input type="text" id="subTotal" class="text-right form-control" name="subTotal" value="<?= $result['subTotal'] ?>" readonly="readonly" autocomplete="off">
-																</td>
-															</tr>
-															<tr>
-																<td colspan="3" class="text-right"><b>Discount (₹) :</b></td>
-																<td class="text-right">
-																	<input type="text" id="discount" class="text-right form-control decimal" name="discount" value="<?= $result['discount'] ?>" onkeypress="return isNumber(event)" autocomplete="off" onkeyup="calculateTotal()">
-																</td>
-															</tr>
-															<tr>
-																<td colspan="3" class="text-right"><b>Discount Amount:</b></td>
-																<td class="text-right">
-																	<input type="text" id="discountAmount" class="text-right form-control decimal" name="discountAmount" disabled value="<?= $result['subTotal'] - $result['discount'] ?>">
-																</td>
-															</tr>
-															<tr>
-																<td colspan="3" class="text-right"><b>Tax :</b></td>
-																<td class="text-right">
-																    <input type="hidden" id="totalTax" class="text-right form-control" name="totalTax" readonly="readonly" autocomplete="off" value="<?= $result['totalTax'] ?>">
-																	<input type="text" id="taxAmount" class="text-right form-control" name="taxAmount" readonly="readonly" value="<?= $result['taxAmount'] ?>" autocomplete="off">
 
-																</td>
-															</tr>
+
+														<tfoot>
+
+
 															<tr>
-																<td colspan="3" class="text-right"><b>Grand Total :</b></td>
-																<td class="text-right">
-																	<input type="text" id="grandTotal" class="text-right form-control" name="grandTotal" readonly="readonly" value="<?= $result['grandTotal'] ?>" autocomplete="off">
+																<td colspan="3">
+																	<label><b>Subtotal</b></label>
+																	<input type="text" id="subTotal" class="text-center form-control" name="subTotal" value="<?= $result['subTotal'] ?>" readonly="readonly" autocomplete="off">
 																</td>
 															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Discount (₹)</b></label>
+																	<input type="text" id="discount" class="text-center form-control decimal" name="discount" value="<?= $result['discount'] ?>" onkeypress="return isNumber(event)" autocomplete="off" onkeyup="calculateTotal()">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Discount Amount</b></label>
+																	<input type="text" id="discountAmount" class="text-center form-control decimal" name="discountAmount" disabled value="<?= $result['subTotal'] - $result['discount'] ?>">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Tax</b></label>
+																	<input type="hidden" id="totalTax" class="text-center form-control" name="totalTax" readonly="readonly" autocomplete="off" value="<?= $result['totalTax'] ?>">
+																	<input type="text" id="taxAmount" class="text-center form-control" name="taxAmount" readonly="readonly" value="<?= $result['taxAmount'] ?>" autocomplete="off">
+																</td>
+															</tr>
+
+
+															<tr>
+																<td colspan="3">
+																	<label><b>Grand Total</b></label>
+																	<input type="text" id="grandTotal" class="text-center form-control" name="grandTotal" readonly="readonly" value="<?= $result['grandTotal'] ?>" autocomplete="off">
+																</td>
+															</tr>
+
+
 														</tfoot>
+
+
 													</table>
 												</div>
 											</div>
 											<div class="row">
 												<div class="col-12 d-flex justify-content-end">
-													<?php if($updateRights==1){ ?>
-													<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveQuotationBtn">Save</button>
+													<?php if ($updateRights == 1) { ?>
+														<button type="submit" class="btn btn-success" id="saveQuotationBtn">Save</button>
 													<?php } ?>
-													<button type="button" id="cancelQuotationBtn" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+													<button type="reset" id="cancelQuotationBtn" class="btn btn-light-secondary">Reset</button>
 												</div>
 											</div>
 										</div>
@@ -226,7 +241,7 @@
 			$('select#productCode' + id).empty();
 		}
 	}*/
-	
+
 	$(document).ready(function() {
 
 		$("body").on("change", "#remark", function(e) {
@@ -270,9 +285,9 @@
 				cache: true
 			}
 		});
-		
+
 		$("#quotationForm").parsley();
-		$("form").on("submit", function(e) { 
+		$("form").on("submit", function(e) {
 			e.preventDefault();
 			var fd = new FormData();
 			var other_data = $('form').serializeArray();
@@ -388,7 +403,7 @@
 			url: base_path + 'quotation/getTaxAmount',
 			async: false,
 			data: {
-				'productCodes': productCodes,  
+				'productCodes': productCodes,
 				'discount': discount,
 				'subTotal': subTotal
 			},
@@ -450,7 +465,7 @@
 	}
 
 	function delete_row(id, lineCode) {
-		var people=$("#people").val();
+		var people = $("#people").val();
 		swal({
 			title: "Are you sure?",
 			text: "You want to delete this product ",
@@ -468,7 +483,7 @@
 					type: 'POST',
 					data: {
 						'lineCode': lineCode,
-						'people':people
+						'people': people
 					},
 					dataType: "JSON",
 					success: function(response) {
@@ -483,7 +498,7 @@
 									if (isConfirm) {
 										var row = document.getElementById("row" + id);
 										row.parentNode.removeChild(row);
-										calculateTotal();  
+										calculateTotal();
 									}
 								});
 						} else {
@@ -493,7 +508,7 @@
 						}
 					}
 				});
-			}else{
+			} else {
 				swal.close();
 			}
 		});
@@ -528,25 +543,25 @@
 			}
 		}
 	}
-	
-	function getProductTaxAmount(id){
-		var productCode=$('#productCode'+id).val();
-		var subTotal = $('#subTotal'+id).val();
-			$.ajax({
-				url: base_path + 'quotation/getProductTaxAmount',
-				async:false,
-				data: {
-					'productCode': productCode,
-					'subTotal':subTotal
-				},
-				type: 'post',
-				success: function(response) {
-					var res = JSON.parse(response);
-					$('#perProductTax'+id).val(res.tax);
-					$('#perProductTaxAmount'+id).val(res.taxAmount); 
-					calculateTotal();
-				}
-			});
+
+	function getProductTaxAmount(id) {
+		var productCode = $('#productCode' + id).val();
+		var subTotal = $('#subTotal' + id).val();
+		$.ajax({
+			url: base_path + 'quotation/getProductTaxAmount',
+			async: false,
+			data: {
+				'productCode': productCode,
+				'subTotal': subTotal
+			},
+			type: 'post',
+			success: function(response) {
+				var res = JSON.parse(response);
+				$('#perProductTax' + id).val(res.tax);
+				$('#perProductTaxAmount' + id).val(res.taxAmount);
+				calculateTotal();
+			}
+		});
 	}
 
 	function isNumber(evt) {
@@ -571,22 +586,22 @@
 		var table_len = (table.rows.length) - 6;
 		var tr = table.getElementsByTagName("tr");
 		var total = 0;
-		var tax=0;
-		var taxAmount=0;
+		var tax = 0;
+		var taxAmount = 0;
 		for (i = 1; i <= table_len; i++) {
 			var id = tr[i].id.substring(3);
 			total = Number(total) + Number($('#subTotal' + id).val());
-			tax =Number(tax) + Number($('#perProductTax' + id).val());
-			taxAmount=Number(taxAmount) + Number($('#perProductTaxAmount' + id).val());
+			tax = Number(tax) + Number($('#perProductTax' + id).val());
+			taxAmount = Number(taxAmount) + Number($('#perProductTaxAmount' + id).val());
 		}
 		var people = Number($('#people').val());
 		var subTotal = people * total;
 		$('#subTotal').val(subTotal);
 		var discount = $('#discount').val();
 		var discountAmount = Number(subTotal - discount);
-		$('#discountAmount').val(discountAmount); 
-        $('#totalTax').val(tax);
-        $('#taxAmount').val(taxAmount);			
+		$('#discountAmount').val(discountAmount);
+		$('#totalTax').val(tax);
+		$('#taxAmount').val(taxAmount);
 		//getTaxAmount();
 		//var taxAmount = $('#taxAmount').val();
 		var grandTotal = Number(Number(subTotal - discount)) + Number(taxAmount);

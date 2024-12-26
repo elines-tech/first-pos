@@ -87,13 +87,13 @@ class Quotation extends CI_Controller
 				}
 				 $actionHtml='<div class="d-flex">';
 				if($this->rights !='' && $this->rights['view']==1){
-					$actionHtml .='<a href="' . base_url() . 'quotation/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .='<a id="view" href="' . base_url() . 'quotation/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				}
 				if($this->rights !='' && $this->rights['update']==1){
-					$actionHtml .='<a href="' . base_url() . 'quotation/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+					$actionHtml .='<a id="edit" href="' . base_url() . 'quotation/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if($this->rights !='' && $this->rights['delete']==1){
-					$actionHtml .='<a class="btn btn-danger btn-sm cursor_pointer delete_quotation m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a></div>';
+					$actionHtml .='<a id="delete" class="btn btn-danger btn-sm cursor_pointer delete_quotation m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a></div>';
 				}
 
 				$data[] = array(
