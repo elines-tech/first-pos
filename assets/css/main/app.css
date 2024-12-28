@@ -226,6 +226,17 @@ body {
     text-align: var(--bs-body-text-align)
 }
 
+
+body#login {
+    background-image: url("../../images/bg/pattern2.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    /* Full viewport height */
+}
+
 hr {
     border: 0;
     border-top: 2px solid;
@@ -246,7 +257,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: #25396f;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: .5rem;
@@ -3381,6 +3391,15 @@ textarea.form-control.is-invalid {
     z-index: 3
 }
 
+
+.form-control {
+    border-radius: 15px;
+    /*padding: 20px;*/
+    border-color: #E2E8EE;
+    color: black;
+    background-color: white;
+}
+
 .btn {
     --bs-btn-padding-x: 0.75rem;
     --bs-btn-padding-y: 0.375rem;
@@ -3481,6 +3500,143 @@ fieldset:disabled .btn {
     --bs-btn-disabled-bg: #4180C2;
     --bs-btn-disabled-border-color: #4180C2
 }
+
+#edit.btn-primary{
+    background-color: #37B181;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#back.btn-primary{
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+#btnSearch.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#btnSearch.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+#editUser.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#editUser.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none
+}
+
+
+
+#btnClear.btn.btn-light-secondary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#btnClear.btn.btn-light-secondary:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transform: none
+}
+
+
+
+#btnClear.btn.btn-success {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#btnClear.btn.btn-success:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transform: none
+}
+
+
+
+.floating-action-button {
+    position: fixed;
+    /* Fixes the button to a position on the screen */
+    bottom: 70px;
+    /* Distance from the bottom */
+    right: 20px;
+    /* Distance from the right */
+    width: 60px;
+    /* Set width */
+    height: 60px;
+    /* Set height */
+    background-color: transparent;
+    /* Primary color, you can change this */
+    border-radius: 50%;
+    /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* Ensures it appears above other content */
+}
+
+
+#add_category {
+    font-size: 60px;
+    color: #37B181;
+}
+
+
+#add_category_text {
+    font-size: 20px;
+    color: white;
+    background-color: #37B181;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
 
 .btn-secondary {
     --bs-btn-color: #fff;
@@ -4362,6 +4518,7 @@ tfoot td {
     border: 0 solid !important;
 }
 
+/*
 #preloader {
     position: fixed;
     top: 0;
@@ -4384,6 +4541,33 @@ tfoot td {
     background-repeat: no-repeat;
     background-position: center;
     transform: translate(-50%, -50%);
+}
+    */
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#status {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    /* Light border color */
+    border-top: 5px solid #3498db;
+    /* Main color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
 }
 
 .choices__inner {
@@ -5515,6 +5699,28 @@ header {
 
 .card-footer:last-child {
     border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius)
+}
+
+
+footer {
+    padding: 1.5rem;
+    background-color: #fff;
+    height: 60px;
+    position: fixed;
+    /* Fix the footer at the bottom of the screen */
+    bottom: 0;
+    /* Align it to the bottom */
+    left: 0;
+    /* Align it to the left edge */
+    width: 100%;
+    /* Make it full-width */
+    color: white;
+    /* Set text color */
+    padding: 10px 0;
+    /* Padding for spacing */
+    text-align: center;
+    /* Center the text */
+    z-index: 9999;
 }
 
 .card-header-tabs {
@@ -9277,6 +9483,15 @@ header {
 
 .me-auto {
     margin-right: auto !important
+}
+
+
+.mb {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #173D69;
 }
 
 .mb-0 {
@@ -20985,6 +21200,48 @@ body .bi:before {
     color: #fff
 }
 
+
+
+.btn-success {
+    background-color: #37B181;
+    /*background: linear-gradient(90deg, #0d988c, #1e6eb7);*/
+    color: #ffffff;
+    transition: all 0.3s ease;
+    border: 1px solid #37B181;
+}
+
+
+.btn-success:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    background-color: #445D83;
+    transform: translateY(5px);
+}
+
+
+.text-right {
+    text-align: right;
+    transition: all 0.3s ease;
+}
+
+.text-right:hover {
+    transform: translatex(5px);
+}
+
+
+.text-left {
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.text-left:hover {
+    transform: translatex(-5px);
+}
+
+
+
+
 .btn.btn-light {
     color: #607080
 }
@@ -21765,13 +22022,13 @@ body .bi:before {
     letter-spacing: 0.6px;
     align-items: center;
     border-radius: .5rem;
-    color: #25396f;
+    color: #173D69;
     display: block;
     display: flex;
     font-size: 14px;
     padding: .7rem 1rem;
     text-decoration: none;
-    transition: all .5s
+    transition: all .5s;
 }
 
 .sidebar-wrapper .menu .sidebar-link i,
@@ -21788,7 +22045,8 @@ body .bi:before {
 }
 
 .sidebar-wrapper .menu .sidebar-link:hover {
-    background-color: #f0f1f5
+    background-color: #173D69;
+    color: white;
 }
 
 .sidebar-wrapper .menu .sidebar-item {
@@ -21845,8 +22103,11 @@ body .bi:before {
 }
 
 .sidebar-wrapper .menu .submenu .submenu-item.active>a {
-    color: #4180C2;
-    font-weight: 700
+    color: white;
+    background-color: #173D69;
+    font-weight: 700;
+    border-start-start-radius: 20px;
+    border-end-start-radius: 20px;
 }
 
 .sidebar-wrapper .menu .submenu .submenu-item a {

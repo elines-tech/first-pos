@@ -15,26 +15,45 @@
                 </div>
             </div>
         </div>
-        
+
         <section class="section">
-        <div class="row match-height">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-body">
-                            <div class="row">
-                               
-                                    <form class="form" id="editUserForm" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>profile/update"> 
+            <div class="row match-height">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="row">
+
+                                    <form class="form" id="editUserForm" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>profile/update">
                                         <?php
                                         echo "<div class='text-danger text-center' id='error_message'>";
                                         if (isset($error_message)) {
                                             echo $error_message;
-                                        }    
-                                        echo "</div>";        
+                                        }
+                                        echo "</div>";
                                         ?>
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <div class="row">
-										    <div class="col-md-4 col-12">
+
+
+                                            <div class="col-md-12 mt-3 d-flex text-center justify-content-center mb-3 items-center">
+                                                <div class="form-group col-md-4 text-center justify-content-center items-center">
+                                                    <!--<label class="form-label">Image</label>-->
+                                                    <!--<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">-->
+                                                        <?php if ($userData[0]['profilePhoto'] != "") { ?>
+                                                            <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['profilePhoto'] ?>" data-src="">
+                                                        <?php } else { ?>
+                                                            <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() ?>/assets/images/faces/default-img.jpg" data-src="">
+                                                        <?php } ?>
+
+                                                        <input class="form-control" type="file" id="formFile" name="userImage">
+                                                    <!--</div>-->
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label class="form-label">First Name</label>
                                                     <input type="test" id="firstname" class="form-control" placeholder="First Name" name="firstname" data-parsley-required="true" value="<?= $userData[0]['firstName'] ?>">
@@ -42,7 +61,7 @@
                                                 <?php echo form_error('fullname', '<span class="error text-danger text-right">', '</span>'); ?>
 
                                             </div>
-											<div class="col-md-4 col-12">
+                                            <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label class="form-label">Last Name</label>
                                                     <input type="test" id="lastname" class="form-control" placeholder="Last Name" name="lastname" data-parsley-required="true" value="<?= $userData[0]['lastName'] ?>">
@@ -63,65 +82,52 @@
                                                 </div>
                                                 <?php echo form_error('userlanguage', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                           
+
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">User Email</label>
                                                     <input type="email" id="useremail" class="form-control" placeholder="Email" name="useremail" data-parsley-required="true" value="<?= $userData[0]['userEmail'] ?>" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
                                                 </div>
-											 </div>
-                                                <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
-                                                <div class="col-md-4 col-12">
-                                                    <div class="form-group mandatory">
-                                                        <label for="arabicname-column" class="form-label">User Name</label>
-                                                        <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['username'] ?>" onkeypress="return  ValidateAlpha(event)">
-                                                    </div>
-                                                    <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
-                                                </div> 
-                                             <div class="col-md-4 col-12">
+                                            </div>
+                                            <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            <div class="col-md-4 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">User Name</label>
+                                                    <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['username'] ?>" onkeypress="return  ValidateAlpha(event)">
+                                                </div>
+                                                <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
+                                            <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">Contact Number</label>
                                                     <input type="text" id="contactnumber" class="form-control" placeholder="Contact Number" name="contactnumber" value="<?= $userData[0]['contactNumber'] ?>" onkeypress="return isNumberKey(event)">
                                                 </div>
                                                 <?php echo form_error('contactnumber', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
-                                                                 
-                                               <div class="row">
-												
-                                                  <div class="col-md-4">
-                                                    <div class="form-group">												
-													 <label class="form-label">Image</label>
-														<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
-														     <?php if ($userData[0]['profilePhoto'] != "") { ?>
-																<img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['profilePhoto'] ?>" data-src="">
-															<?php } else { ?>
-																<img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() ?>/assets/images/faces/default-img.jpg" data-src="">
-															<?php } ?>
-															
-															<input class="form-control" type="file" id="formFile" name="userImage">
-														</div>
-													</div>
-												</div>                                              
-                                           </div>                               
-                                           
+
+                                            <div class="row">
+
+
+                                            </div>
+
                                         </div>
-                                        <div class="row">
+                                        <div class="row mt-3">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success white me-1 mb-1 sub_2" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
                                                 <!--<button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>-->
                                             </div>
                                         </div>
                                     </form>
-                                
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- // Basic multiple Column Form section end -->
-</div>
+        </section>
+        <!-- // Basic multiple Column Form section end -->
+    </div>
 </div>
 <script type="text/javascript">
     var cnt = 0;
@@ -144,7 +150,7 @@
     }
     $(document).ready(function() {
 
-	    $("#formFile").change(function() {
+        $("#formFile").change(function() {
             const file = this.files[0];
             if (file) {
                 let reader = new FileReader();
@@ -155,8 +161,8 @@
                 reader.readAsDataURL(file);
             }
         });
-		
-		var data = '<?php echo $this->session->flashdata('profile_message'); ?>';
+
+        var data = '<?php echo $this->session->flashdata('profile_message'); ?>';
         if (data != '') {
             var obj = JSON.parse(data);
             if (obj.status) {
@@ -171,5 +177,4 @@
         }
 
     });
-	
 </script>

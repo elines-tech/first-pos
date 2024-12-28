@@ -68,7 +68,7 @@
 </head>
 
 
-<body>
+<body id="login">
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
@@ -80,7 +80,8 @@
                         <div class="card">
                             <div class="card-content">
                                 <center>
-                                    <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">
+                                    <!--<img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">-->
+                                    <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/Group.svg' ?>">
                                     <h2><?= AppName ?></h2>
                                 </center>
                                 <h3 class="card-title">Recover your password</h3>
@@ -106,13 +107,13 @@
                                                 </div>
 
                                                 <div class="row mt-3">
-                                                    <div class="col-md-12">
-                                                        <input type="submit" class="btn btn-success white me-3 mb-1 sub_1 w-100" name="btnSubmit" value="Send Email">
+                                                    <div class="col-md-12 text-center">
+                                                        <input type="submit" class="btn btn-success w-25" name="btnSubmit" value="Send Email">
                                                     </div>
                                                 </div>
-                                                <div class="row mt-5">
+                                                <div class="row mt-3">
                                                     <div class="col-md-10">
-                                                        <p class="text-inverse text-left m-b-0">Thank you.</p>
+                                                        <!--<p class="text-inverse text-left m-b-0">Thank you.</p>-->
                                                         <p class="text-inverse text-left"><a href="<?php echo base_url(); ?>login"><b class="f-w-600">Back
                                                                     to login</b></a></p>
                                                     </div>

@@ -3,7 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 define('SESS_KEY', 'Kaemsoftware-superadmin');
 
-define('AppName', 'Tamakan Software');
+define('AppName', 'First Software');
 
 defined('mailName') or define('mailName', 'Tamakan POS');
 defined('mailId') or define('mailId', 'support@tmkn-pos.com');

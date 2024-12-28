@@ -1,0 +1,6 @@
+Dt --> 28-12-24 11:31:18 IP --> 127.0.0.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 28-12-24 12:04:29 IP --> 127.0.0.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+Dt --> 28-12-24 06:09:23 IP --> 127.0.0.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.
+28-12-24 10:34:47	127.0.0.1	Superadmin	admin	USR24_2 - saidemad User is added.
+Dt --> 28-12-24 10:35:26 IP --> 127.0.0.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.
+Dt --> 28-12-24 10:35:52 IP --> 127.0.0.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 Super User id is login.

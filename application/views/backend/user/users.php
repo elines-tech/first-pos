@@ -16,46 +16,52 @@
             </div>
         </div>
     </div>
-    <div id="maindiv" class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                <h2><a href="<?php echo base_url(); ?>users/add"><i class="fa fa-plus-circle"></i></a></h2>
+
+
+    <!--<div id="maindiv" class="container">-->
+    <div class="row">
+        <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+            <div class="floating-action-button">
+                <a id="add_category" href="<?php echo base_url(); ?>users/add"><i class="fa fa-plus-circle"></i></a>
             </div>
         </div>
-        <section class="section">
-            <div class="card">
-                <div class="card-header">
-                    <div class="row">
+    </div>
+    <section class="section">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
 
-                        <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Users List</h5>
-                        </div>
-
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
+                        <h5>Users List</h5>
                     </div>
-                </div>
-                <div class="card-body" id="print_div">
-                    <table class="table table-striped" id="dataTable-User">
-                        <thead>
-                            <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>User name</th>
-                                <th>Name</th>
-                                <th>Employee Number</th>
-                                <th>Email</th>
-                                <th>Role</th>
-                                <th>Status</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
+
                 </div>
             </div>
+            <div class="card-body" id="print_div">
+                <table class="table table-striped" id="dataTable-User">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Code</th>
+                            <th>User name</th>
+                            <th>Name</th>
+                            <th>Employee Number</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-        </section>
-    </div>
+    </section>
+    <!--</div>-->
+
+
 </div>
 <script src="https://cdn.datatables.net/v/bs5/dt-1.12.1/datatables.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>

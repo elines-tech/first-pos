@@ -85,7 +85,7 @@
 </div>
 <!-- Preloader -->
 
-<body>
+<body id="login">
     <div class="container mt-5">
 
         <!-- // Basic multiple Column Form section start -->
@@ -96,7 +96,8 @@
                     <div class="card">
                         <div class="card-content">
                             <center>
-                                <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">
+                                <!--<img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">-->
+                                <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/Group.svg' ?>">
                                 <h2>Kaemsoftware</h2>
                             </center>
                             <h3 class="card-title">Reset your password</h3>
@@ -108,15 +109,15 @@
                                             if (($this->session->flashdata('message'))) {
                                                 echo '<span class="text-center text-danger">' . $this->session->flashdata('message') . '</span>';
                                                 unset($_SESSION['message']);
-											}
+                                            }
                                             ?>
                                             <div class="row">
-											    <div id="CheckPasswordMatch" style="color:#e66060;"></div>
+                                                <div id="CheckPasswordMatch" style="color:#e66060;"></div>
                                                 <div class="col-md-12 col-12">
                                                     <div class="form-group mandatory">
                                                         <label class="form-label">New Password</label>
                                                         <input type="hidden" name="code" value="<?= $code ?>" readonly class="form-control">
-														 <input type="hidden" name="cmpcode" value="<?= $cmpcode ?>" readonly class="form-control">
+                                                        <input type="hidden" name="cmpcode" value="<?= $cmpcode ?>" readonly class="form-control">
                                                         <input type="hidden" name="token" value="<?= $token ?>" readonly class="form-control">
                                                         <input type="password" id="password" class="form-control" placeholder="Password" name="password" data-parsley-required="true" onchange="checkPasswordMatch();">
                                                     </div>
@@ -131,13 +132,13 @@
                                                 </div>
                                             </div>
                                             <div class="row mt-3">
-                                                <div class="col-md-12">
-                                                    <input type="submit" class="btn btn-success white me-3 mb-1 sub_1 w-100" name="btnSubmit" value="Update Password" id="submit">
+                                                <div class="col-md-12 text-center">
+                                                    <input type="submit" class="btn btn-success w-25" name="btnSubmit" value="Update Password" id="submit">
                                                 </div>
                                             </div>
-                                            <div class="row mt-5">
+                                            <div class="row mt-3">
                                                 <div class="col-md-10">
-                                                    <p class="text-inverse text-left m-b-0">Thank you.</p>
+                                                    <!--<p class="text-inverse text-left m-b-0">Thank you.</p>-->
                                                     <p class="text-inverse text-left"><a href="<?php echo base_url(); ?>Login/index"><b class="f-w-600">Back
                                                                 to Login</b></a></p>
                                                 </div>
@@ -181,19 +182,19 @@
     <script src="<?php echo base_url() . 'assets/admin/assets/libs/toastr/build/toastr.min.js'; ?>"></script>
     <script src="<?php echo base_url() . 'assets/admin/assets/libs/sweetalert2/dist/sweet-alert.min.js'; ?>"></script>
     <script>
-	    function checkPasswordMatch() {
-			var password = $("#password").val();
-			var confirmPassword = $("#confirmpassword").val();
-			if(password != "" && confirmPassword != ""){
-				if (password != confirmPassword) {
-					$('#submit').prop('disabled', true);
-					$("#CheckPasswordMatch").html("Passwords does not match!");
-				} else {
-					$('#submit').prop('disabled', false);
-					$("#CheckPasswordMatch").html("");
-				}
-			}
-		}
+        function checkPasswordMatch() {
+            var password = $("#password").val();
+            var confirmPassword = $("#confirmpassword").val();
+            if (password != "" && confirmPassword != "") {
+                if (password != confirmPassword) {
+                    $('#submit').prop('disabled', true);
+                    $("#CheckPasswordMatch").html("Passwords does not match!");
+                } else {
+                    $('#submit').prop('disabled', false);
+                    $("#CheckPasswordMatch").html("");
+                }
+            }
+        }
         $(window).on('load', function() { // makes sure the whole site is loaded 
             $('#status').fadeOut(); // will first fade out the loading animation 
             $('#preloader').delay(250).fadeOut('slow'); // will fade out the white DIV that covers the website. 

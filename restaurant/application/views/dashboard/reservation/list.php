@@ -82,7 +82,7 @@
                                     <div class="row">
 
 
-                                        <div class="form-group col-md-12 col-12 mandatory">
+                                        <div class="form-group col-md-6 col-12 mandatory">
                                             <label for="category-name-column" class="col-md-12 form-label text-left">Customer Name <a class="add_customer"><i class="fa fa-plus-circle cursor_pointer" style="font-size:18px;"></i></a></label>
 
                                             <select class="form-select select2" style="width:100%" name="customerName" id="customerName" required onchange="getMobileNumber();">
@@ -99,92 +99,75 @@
                                         </div>
 
 
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="qty-column" class="form-label text-left col-md-4">Mobile No.</label>
-                                                <div class="col-md-8">
-                                                    <div class="input-group">
-                                                        <select name="countrycode" id="countrycode">
-                                                            <option value="+966">+966 (SAR)</option>
-                                                            <option value="+971">+971 (UAE)</option>
-                                                        </select>
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label for="qty-column" class="form-label text-left text-nowrap">Mobile No.</label>
+                                            <div class="input-group">
+                                                <select name="countrycode" id="countrycode">
+                                                    <option value="+966">+966 (SAR)</option>
+                                                    <option value="+971">+971 (UAE)</option>
+                                                </select>
 
-                                                        <input type="number" class="form-control" name="mobilephone" id="mobilephone" required>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label class="col-md-4 form-label text-left">Branch</label>
-                                                <div class="col-md-8">
-                                                    <?php if ($branchCode != "") { ?>
-                                                        <input type="hidden" class="form-control" id="branch" name="branchCode" value="<?= $branchCode; ?>" readonly>
-                                                        <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-                                                    <?php } else { ?>
-                                                        <select class="form-select select2" style="width:100%" name="branchCode" id="branchCode" data-parsley-required="true" required>
-
-                                                        </select>
-                                                    <?php } ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label class="col-md-4 form-label text-left">Sector</label>
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" style="width:100%" name="sector" id="sector"
-                                                        data-parsley-required="true" required>
-
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Table No.</label>
-                                                <div class="col-md-8">
-                                                    <select class="form-select select2" style="width:100%" name="tableNumber" id="tableNumber" data-parsley-required="true" required>
-
-                                                    </select>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">No. of Peoples</label>
-                                                <div class="col-md-8">
-                                                    <input type="text" id="numberofpeople" class="form-control" placeholder="Peoples" name="numberofpeople" onkeypress="return isNumberKey(event)" required>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="qty-column" class="form-label text-left col-md-4"> Reservation Date</label>
-                                                <div class="col-md-8">
-                                                    <input type="date" id="date" class="form-control" value="<?= date('Y-m-d') ?>" name="date" required>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="qty-column" class="form-label text-left col-md-4">Start Time</label>
-                                                <div class="col-md-8">
-                                                    <input type="time" id="stime" class="form-control" placeholder="0:30:00" name="stime" required>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <div class="form-group row mandatory">
-                                                <label for="qty-column" class="form-label text-left col-md-4">End Time</label>
-                                                <div class="col-md-8">
-                                                    <input type="time" id="etime" class="form-control" onchange="validateToTime()" placeholder="0:30:00" name="etime" required>
-                                                </div>
+                                                <input type="number" class="form-control" name="mobilephone" id="mobilephone" required>
                                             </div>
 
                                         </div>
+
+
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label class="form-label text-left">Branch</label>
+                                            <?php if ($branchCode != "") { ?>
+                                                <input type="hidden" class="form-control" id="branch" name="branchCode" value="<?= $branchCode; ?>" readonly>
+                                                <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+                                            <?php } else { ?>
+                                                <select class="form-select select2" style="width:100%" name="branchCode" id="branchCode" data-parsley-required="true" required>
+
+                                                </select>
+                                            <?php } ?>
+                                        </div>
+
+
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label class="form-label text-left">Sector</label>
+                                            <select class="form-select select2" style="width:100%" name="sector" id="sector"
+                                                data-parsley-required="true" required>
+
+                                            </select>
+                                        </div>
+
+
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label for="category-name-column" class="form-label text-left">Table No.</label>
+                                            <select class="form-select select2" style="width:100%" name="tableNumber" id="tableNumber" data-parsley-required="true" required>
+
+                                            </select>
+
+                                        </div>
+
+
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label for="category-name-column" class="form-label text-left">No. of Peoples</label>
+                                            <input type="text" id="numberofpeople" class="form-control" placeholder="Peoples" name="numberofpeople" onkeypress="return isNumberKey(event)" required>
+                                        </div>
+
+
+                                        <div class="form-group col-md-12 col-12 mandatory">
+                                            <label for="qty-column" class="form-label text-left"> Reservation Date</label>
+                                            <input type="date" id="date" class="form-control" value="<?= date('Y-m-d') ?>" name="date" required>
+                                        </div>
+
+
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label for="qty-column" class="form-label text-left">Start Time</label>
+                                            <input type="time" id="stime" class="form-control" placeholder="0:30:00" name="stime" required>
+                                        </div>
+
+                                        <div class="form-group col-md-6 col-12 mandatory">
+                                            <label for="qty-column" class="form-label text-left">End Time</label>
+                                            <input type="time" id="etime" class="form-control" onchange="validateToTime()" placeholder="0:30:00" name="etime" required>
+                                        </div>
+
+
+
                                     </div>
 
                                     <div class="row">

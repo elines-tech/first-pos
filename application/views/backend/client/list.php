@@ -42,13 +42,14 @@
                     </div>
                     <div class="col-md-3">
                         <label class="form-label lng">From Date</label>
-                        <input type="date" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d', strtotime(' - 7 days')) ?>">
+                        <input type="date" style="padding: 5px;" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d', strtotime(' - 7 days')) ?>">
                     </div>
                     <div class="col-md-3">
                         <label class="form-label lng">To Date</label>
-                        <input type="date" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d') ?>">
+                        <input type="date" style="padding: 5px;" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d') ?>">
                     </div>
-                    <div class="col-md-3">
+
+                    <div class="col-md-4 mt-3">
                         <label class="form-label lng">Category</label>
                         <select class="form-select" name="category" id="category">
                             <option value="">Select</option>
@@ -56,7 +57,7 @@
                             <option value="supermarket">Supermarket</option>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-3">
                         <label class="form-label lng">Name</label>
                         <select class="form-select" name="name" id="name">
                             <option value="">Select</option>
@@ -69,7 +70,7 @@
                             ?>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-3">
                         <label class="form-label lng">Phone</label>
                         <select class="form-select" name="phone" id="phone">
                             <option value="">Select</option>
@@ -83,10 +84,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="d-flex mt-4">
-                            <button type="button" class="btn btn-success white me-1 mb-1 sub_1" id="btnSearch">Search</button>
-                            <button type="reset" class="btn btn-light-secondary me-1 mb-1" id="btnClear">Clear</button>
+                    <div class="col-md-12">
+                        <div class="d-flex mt-4 justify-content-center">
+                            <button type="button" class="btn btn-success" id="btnSearch">Search</button>
+                            <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
                         </div>
                     </div>
                 </div>

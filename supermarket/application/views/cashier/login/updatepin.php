@@ -19,7 +19,7 @@
     </script>
 </head>
 
-<body>
+<body id="login">
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
@@ -28,7 +28,8 @@
             <div class="card">
                 <div class="card-content ">
                     <div class="text-center">
-                        <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">
+                        <!--<img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/logomain.png' ?>">-->
+                        <img class="text-center image-responsive mt-4" src="<?= base_url() . 'assets/images/logo/Group.svg' ?>">
                         <h2><?= AppName ?></h2>
                         <h3 class="card-title">Reset your login pin</h3>
                     </div>
@@ -55,13 +56,13 @@
                                         </div>
                                     </div>
                                     <div class="row mt-3">
-                                        <div class="col-md-12">
-                                            <input type="submit" class="btn btn-success white me-3 mb-1 sub_1 w-100" name="btnSubmit" value="Update Pin">
+                                        <div class="col-md-12 text-center">
+                                            <input type="submit" class="btn btn-success w-25" name="btnSubmit" value="Update Pin">
                                         </div>
                                     </div>
-                                    <div class="row mt-5">
+                                    <div class="row mt-3">
                                         <div class="col-md-10">
-                                            <p class="text-inverse text-left m-b-0">Thank you.</p>
+                                            <!--<p class="text-inverse text-left m-b-0">Thank you.</p>-->
                                             <p class="text-inverse text-left"><a href="<?php echo base_url(); ?>Cashier/login"><b class="f-w-600">Back
                                                         to Login</b></a></p>
                                         </div>
@@ -79,7 +80,7 @@
     </div>
     <script src="<?= base_url() ?>assets/js/bootstrap.js"></script>
     <script src="<?= base_url() ?>assets/js/app.js"></script>
-    <script src="<?= base_url() ?>assets/extensions/jquery/jquery.min.js"></script>    
+    <script src="<?= base_url() ?>assets/extensions/jquery/jquery.min.js"></script>
     <script src="<?= base_url() ?>assets/extensions/parsleyjs/parsley.min.js"></script>
     <script src="<?= base_url() ?>assets/js/pages/parsley.js"></script>
     <script src="<?php echo base_url() . 'assets/admin/assets/libs/toastr/build/toastr.min.js'; ?>"></script>

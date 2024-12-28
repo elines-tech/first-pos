@@ -18,12 +18,12 @@
     <section class="row">
         <div class="col-12 col-lg-12">
             <div class="row">
-			    <div class="col-6 col-lg-3 col-md-6">
+			    <div class="col-6 col-lg-4 col-md-6">
                     <div class="card h-100">
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
                                 <div class="col-md-2 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
-                                    <div class="stats-icon purple mb-2">
+                                    <div class="stats-icon red mb-2">
                                         <i class="iconly-boldArrow---Right-Circle "></i>
                                     </div>
                                 </div>
@@ -35,12 +35,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3 col-md-6">
+                <div class="col-6 col-lg-4 col-md-6">
                     <div class="card h-100">
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
                                 <div class="col-md-2 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
-                                    <div class="stats-icon purple mb-2">
+                                    <div class="stats-icon blue mb-2">
                                         <i class="iconly-boldArrow---Right-Circle "></i>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3 col-md-6">
+                <div class="col-6 col-lg-4 col-md-6">
                     <div class="card h-100">
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
@@ -70,12 +70,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3 col-md-6">
+
+                <div class="col-6 col-lg-4 col-md-6 mt-4">
                     <div class="card h-100">
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
                                 <div class="col-md-2 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
-                                    <div class="stats-icon purple mb-2">
+                                    <div class="stats-icon red mb-2">
                                         <i class="iconly-boldHome"></i>
                                     </div>
                                 </div>
@@ -87,12 +88,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3 col-md-6 mt-4">
+                <div class="col-6 col-lg-4 col-md-6 mt-4">
                     <div class="card h-100">
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
                                 <div class="col-md-2 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
-                                    <div class="stats-icon purple mb-2">
+                                    <div class="stats-icon blue mb-2">
                                         <i class="iconly-boldHome"></i>
                                     </div>
                                 </div>
@@ -104,12 +105,12 @@
                         </div>
                     </div>
                 </div>
-				 <div class="col-6 col-lg-3 col-md-6 mt-4">
+				 <div class="col-6 col-lg-4 col-md-6 mt-4">
                     <div class="card h-100">
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
                                 <div class="col-md-2 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
-                                    <div class="stats-icon purple mb-2">
+                                    <div class="stats-icon green mb-2">
                                         <i class="iconly-boldHome"></i>
                                     </div>
                                 </div>

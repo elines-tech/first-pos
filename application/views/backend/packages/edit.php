@@ -7,13 +7,13 @@
                 </div>
             </div>
             <div class="col-5 align-self-center text-end">
-                <a href="<?= base_url("packages/view") ?>" class="btn btn-sm btn-primary">Back</a>
+                <a id="back" href="<?= base_url("packages/view") ?>" class="btn btn-sm btn-primary">Back</a>
             </div>
         </div>
     </div>
 </div>
 <div class="page-content m-4">
-    <section class="container col-md-6">
+    <section class="container col-md-6" style="padding-bottom: 15px;">
         <form class="form" id="editForm" enctype="multipart/form-data" method="post" action="<?php echo base_url(); ?>packages/update" data-parsley-validate>
             <?php
             echo "<div class='text-danger text-center' id='error_message'>";
@@ -109,8 +109,8 @@
                             </div>
                         </div>
 
-                        <div class="card-footer">
-                            <button type="submit" class="btn btn-primary">Update</button>
+                        <div class="card-footer d-flex justify-content-end">
+                            <button id="edit" type="submit" class="btn btn-primary">Update</button>
                         </div>
                     <?php } ?>
                     </div>

@@ -1,0 +1,1 @@
+Dt --> 29-12-24 12:04:43 IP --> 127.0.0.1 LOGIN USER --> USR_1 ADDED USER --> USR_1 	USR_1 User id is logout.

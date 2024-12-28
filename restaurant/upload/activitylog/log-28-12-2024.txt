@@ -1,0 +1,3 @@
+Dt --> 28-12-24 02:01:52 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-28 02:26:36	127.0.0.1	Admin	saidemad	TR24_2 - x22 TAB_89 Table booked is updated.
+Dt --> 28-12-24 09:53:46 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.

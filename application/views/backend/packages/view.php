@@ -11,7 +11,7 @@
 </div>
 <div class="page-content m-4">
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <?php
             if ($supermarket) {
                 foreach ($supermarket->result() as $item) { ?>
@@ -19,7 +19,7 @@
                         <form action="">
                             <div class="card">
                                 <div class="card-header">
-                                    <h5>Supermarket<span style="float:right"><a href="<?= base_url() ?>packages/edit/<?= $item->code ?>" class="btn btn-sm btn-primary">Edit</a></span></h5>
+                                    <h5>Supermarket<span style="float:right"><a id="edit" href="<?= base_url() ?>packages/edit/<?= $item->code ?>" class="btn btn-sm btn-primary">Edit</a></span></h5>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -113,7 +113,7 @@
                         <form action="">
                             <div class="card">
                                 <div class="card-header">
-                                    <h5> Restaurant<span style="float:right"><a href="<?= base_url() ?>packages/edit/<?= $item->code ?>" class="btn btn-sm btn-primary">Edit</a></span></h5>
+                                    <h5> Restaurant<span style="float:right"><a id="edit" href="<?= base_url() ?>packages/edit/<?= $item->code ?>" class="btn btn-sm btn-primary">Edit</a></span></h5>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
