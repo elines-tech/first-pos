@@ -1,3 +1,6 @@
+<?php include '/home/said/Desktop/first-pos/config.php'; ?>
+
+
 <div class="page-heading m-5">
     <div class="page-breadcrumb">
         <div class="row">
@@ -6,6 +9,14 @@
                 <div class="d-flex align-items-center">
 
                 </div>
+
+                <div class="language-switcher">
+                    <a href="?lang=en">English</a> |
+                    <a href="?lang=ar">العربية</a>
+                </div>
+
+
+
             </div>
             <div class="col-5 text-right">
                 <h4><span id="timeOut"></span>'s</h4>
@@ -28,7 +39,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Suppliers</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['suppliers']; ?></h6>
                                     <h6 class="font-extrabold mb-0" id="countSupplier">-</h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
