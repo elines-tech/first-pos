@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Stock</li>
                         </ol>
                     </nav>
@@ -31,10 +31,10 @@
                         <div class="col-md-12">
                             <label class="form-label lng">Branch</label>
                             <div class="form-group mandatory">
-                                <select class="form-select select2" name="branch" id="branch" <?php if($branchCode!=""){?>disabled <?php }?>>
-                                    <?php if($branchCode!=""){?>
-									   <option value="<?php echo $branchCode;?>"><?php echo $branchName;?></option>                               
-							           <?php } ?>
+                                <select class="form-select select2" name="branch" id="branch" <?php if ($branchCode != "") { ?>disabled <?php } ?>>
+                                    <?php if ($branchCode != "") { ?>
+                                        <option value="<?php echo $branchCode; ?>"><?php echo $branchName; ?></option>
+                                    <?php } ?>
                                 </select>
                             </div>
                         </div>

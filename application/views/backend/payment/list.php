@@ -6,7 +6,7 @@
                     <h3>All Payments (Subscriptions)</h3>
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?= base_url('dashboard/listRecords') ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Payments</li>
                         </ol>
                     </nav>

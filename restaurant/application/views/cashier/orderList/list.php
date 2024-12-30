@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../../Cashier/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Order</li>
                         </ol>
                     </nav>
@@ -71,8 +71,7 @@
                 url: base_path + "Cashier/orderList/getOrderList",
                 data: {},
                 type: "GET",
-                complete: function(response) {
-                }
+                complete: function(response) {}
             }
         });
     }

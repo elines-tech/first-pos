@@ -20,7 +20,7 @@ if ($items) {
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+							<li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
 							<li class="breadcrumb-item active" aria-current="page">Inward</li>
 						</ol>
 					</nav>
@@ -64,12 +64,12 @@ if ($items) {
 													<div class="form-group mandatory">
 														<label for="product-name" class="form-label">Branch</label>
 														<input type="hidden" class="form-control" id="inwardCode" name="inwardCode">
-														<?php if($branchCode!=""){?>
-														      <input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
-															  <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
-														<?php } else{?>
-														    <select class="form-select select2" name="branchCode" id="branchCode" data-parsley-required="true" required>
-														    </select>
+														<?php if ($branchCode != "") { ?>
+															<input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
+															<input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
+														<?php } else { ?>
+															<select class="form-select select2" name="branchCode" id="branchCode" data-parsley-required="true" required>
+															</select>
 														<?php } ?>
 													</div>
 												</div>

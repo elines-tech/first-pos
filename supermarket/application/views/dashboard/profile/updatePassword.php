@@ -8,25 +8,25 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Update Password</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
-        
+
         <section class="section">
-        <div class="row match-height">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header">  
-                         <h3>Update Password</h3>					
-                    </div>
-                    <div class="card-content">
-                        <div class="card-body">
-                            <div class="row">
-                               
+            <div class="row match-height">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Update Password</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="row">
+
                                     <form class="form" id="editUserForm" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>Profile/passwordUpdate">
                                         <?php
                                         echo "<div class='text-danger text-center' id='error_message'>";
@@ -37,20 +37,20 @@
                                         ?>
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <input type="hidden" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>">
-										<div class="row">                                            												                                              
-											<div class="col-md-6 col-12">
-												<div class="form-group">
-													<label for="arabicname-column" class="form-label">Password</label>
-													<input type="password" id="password" class="form-control" placeholder="Password" name="password" data-parsley-required="true">
-												</div>
-											</div>
-											<div class="col-md-6 col-12">
-												<div class="form-group">
-													<label for="arabicname-column" class="form-label">Confirm Password</label>
-													<input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();" data-parsley-required="true">
-												</div>
-												<div id="CheckPasswordMatch" style="color:#e66060;"></div>
-											</div>										
+                                        <div class="row">
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="arabicname-column" class="form-label">Password</label>
+                                                    <input type="password" id="password" class="form-control" placeholder="Password" name="password" data-parsley-required="true">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="arabicname-column" class="form-label">Confirm Password</label>
+                                                    <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();" data-parsley-required="true">
+                                                </div>
+                                                <div id="CheckPasswordMatch" style="color:#e66060;"></div>
+                                            </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-center mt-4">
@@ -59,16 +59,16 @@
                                             </div>
                                         </div>
                                     </form>
-                                
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- // Basic multiple Column Form section end -->
-</div>
+        </section>
+        <!-- // Basic multiple Column Form section end -->
+    </div>
 </div>
 <script type="text/javascript">
     var cnt = 0;

@@ -66,3 +66,20 @@ ERROR - 2024-12-30 04:56:31 --> Severity: Warning --> session_start(): Failed to
 ERROR - 2024-12-30 04:56:31 --> Severity: Warning --> fopen(/var/lib/php/sessions/ci_wf_myvegizpkv3pprbdbkmfa2shnh4qkmsb4o47b3a): Failed to open stream: Permission denied /home/said/Desktop/first-pos/supermarket/system/libraries/Session/drivers/Session_files_driver.php 174
 ERROR - 2024-12-30 04:56:31 --> Session: Unable to open file '/var/lib/php/sessions/ci_wf_myvegizpkv3pprbdbkmfa2shnh4qkmsb4o47b3a'.
 ERROR - 2024-12-30 04:56:31 --> Severity: Warning --> session_start(): Failed to read session data: user (path: /var/lib/php/sessions) /home/said/Desktop/first-pos/supermarket/system/libraries/Session/Session.php 143
+ERROR - 2024-12-30 17:14:00 --> 404 Page Not Found: Product/dashboard
+ERROR - 2024-12-30 17:14:58 --> 404 Page Not Found: Product/dashboard
+ERROR - 2024-12-30 17:22:14 --> 404 Page Not Found: Inward/dashboard
+ERROR - 2024-12-30 17:31:16 --> 404 Page Not Found: PurchaseReport/dashboard
+ERROR - 2024-12-30 17:31:41 --> 404 Page Not Found: PurchaseReport/dashboard
+ERROR - 2024-12-30 17:35:08 --> 404 Page Not Found: Branch/dashboard
+ERROR - 2024-12-30 17:46:53 --> 404 Page Not Found: Offer/dashboard
+ERROR - 2024-12-30 18:06:08 --> Severity: Warning --> Undefined array key "code" /home/said/Desktop/first-pos/supermarket/application/controllers/Cashier/Authentication.php 39
+ERROR - 2024-12-30 18:09:07 --> 404 Page Not Found: Cashier/Cashier/dashboard
+ERROR - 2024-12-30 21:05:41 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'neosaoco_pos_kaemsoft_24umdsi.stockinfo.code'; this is incompatible with sql_mode=only_full_group_by
+ERROR - 2024-12-30 21:12:15 --> 
+ERROR - 2024-12-30 21:12:15 --> No records found.
+ERROR - 2024-12-30 21:12:16 --> 
+ERROR - 2024-12-30 21:12:16 --> No records found.
+ERROR - 2024-12-30 21:12:23 --> 
+ERROR - 2024-12-30 21:12:23 --> No records found.
+ERROR - 2024-12-30 21:12:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'neosaoco_pos_kaemsoft_24umdsi.stockinfo.code'; this is incompatible with sql_mode=only_full_group_by

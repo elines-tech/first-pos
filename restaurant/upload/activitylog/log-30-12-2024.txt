@@ -1,0 +1,23 @@
+Dt --> 30-12-24 02:42:55 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 30-12-24 03:57:26 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 30-12-24 03:57:37 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 30-12-24 04:08:51 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 30-12-24 04:08:58 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 30-12-24 04:10:34 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 30-12-24 04:10:41 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 30-12-24 04:17:26 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 30-12-24 04:17:32 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-30 16:24:35	127.0.0.1	Admin	saidemad	IN24_5 - SUP24_1 of BR24_1 having amount 22.00 inward is added.
+2024-12-30 16:58:24	127.0.0.1	Admin	saidemad	OFF24_1 - ffffffffffffffffff offer is updated.
+Dt --> 30-12-24 05:02:55 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 30-12-24 05:03:04 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 30-12-24 05:06:30 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 30-12-24 05:07:40 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 30-12-24 05:07:52 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 30-12-24 06:52:01 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 30-12-24 07:18:24 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 30-12-24 07:18:32 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 30-12-24 07:18:35 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 30-12-24 07:18:42 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 30-12-24 07:40:56 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 30-12-24 08:58:01 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.

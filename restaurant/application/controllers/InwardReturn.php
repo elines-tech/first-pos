@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class InwardReturn extends CI_Controller
-{
+{ 
 	var $session_key;
 	protected $rolecode,$branchCode;
 	public function __construct()

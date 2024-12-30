@@ -21,7 +21,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">SMS Templates List</li>
                         </ol>
                     </nav>
@@ -33,11 +33,11 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-					     <?php if($insertRights==1){ ?>
-                        <div class="col-12 text-end" id="leftdiv">
-                            <a id="saveDefaultButton" href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
-                        </div>
-						 <?php } ?>
+                        <?php if ($insertRights == 1) { ?>
+                            <div class="col-12 text-end" id="leftdiv">
+                                <a id="saveDefaultButton" href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
+                            </div>
+                        <?php } ?>
                     </div>
                 </div>
                 <div class="card-body" id="print_div">

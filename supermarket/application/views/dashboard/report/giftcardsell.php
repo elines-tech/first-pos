@@ -21,7 +21,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Gift Sell Report</li>
                         </ol>
                     </nav>
@@ -192,34 +192,38 @@
             loadTable(branchCode, fromDate, toDate);
         });
 
-       $('#btnClear').on('click', function(e) {
-			$("#frombranch").val('').trigger('change');
+        $('#btnClear').on('click', function(e) {
+            $("#frombranch").val('').trigger('change');
             $("#tobranch").val('').trigger('change');
-            $("#fromDate").val('<?= date('Y-m-d',strtotime(' - 7 days'))?>')
-			$("#toDate").val('<?= date('Y-m-d')?>')
-			loadTable("","","<?= date('Y-m-d',strtotime(' - 7 days'))?>","<?= date('Y-m-d')?>","");
-		});
-		
-		$("body").on("change","#toDate",function(e){
-		var endDate = $(this).val();
-		var startDate =$('#fromDate').val();
-		if(startDate  > endDate){
-			$("#toDate").val('<?= date('Y-m-d')?>')
-			toastr.success("The End Date should be greater than the Start date.","Purchase",{"progressBar":true});
-			return false
-		  }
-	    });
-		$("body").on("change","#fromDate",function(e){
-			var endDate = $('#toDate').val();		
-			if(endDate!=""){
-				
-				var startDate =$(this).val();
-				if(startDate  > endDate){
-				$("#fromDate").val('<?= date('Y-m-d',strtotime(' - 7 days'))?>')
-				toastr.success("The End Date should be greater than the Start date.","Purchase",{"progressBar":true});
-				return false 
-				}
-			  }
-		});
+            $("#fromDate").val('<?= date('Y-m-d', strtotime(' - 7 days')) ?>')
+            $("#toDate").val('<?= date('Y-m-d') ?>')
+            loadTable("", "", "<?= date('Y-m-d', strtotime(' - 7 days')) ?>", "<?= date('Y-m-d') ?>", "");
+        });
+
+        $("body").on("change", "#toDate", function(e) {
+            var endDate = $(this).val();
+            var startDate = $('#fromDate').val();
+            if (startDate > endDate) {
+                $("#toDate").val('<?= date('Y-m-d') ?>')
+                toastr.success("The End Date should be greater than the Start date.", "Purchase", {
+                    "progressBar": true
+                });
+                return false
+            }
+        });
+        $("body").on("change", "#fromDate", function(e) {
+            var endDate = $('#toDate').val();
+            if (endDate != "") {
+
+                var startDate = $(this).val();
+                if (startDate > endDate) {
+                    $("#fromDate").val('<?= date('Y-m-d', strtotime(' - 7 days')) ?>')
+                    toastr.success("The End Date should be greater than the Start date.", "Purchase", {
+                        "progressBar": true
+                    });
+                    return false
+                }
+            }
+        });
     });
 </script>

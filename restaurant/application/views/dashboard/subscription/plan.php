@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">View Plan</li>
                         </ol>
                     </nav>
@@ -147,10 +147,10 @@
                                 <button class="btn btn-danger w-100" id="cancelplan" data-id="<?= $plan->code ?>" data-client="<?= $plan->clientCode ?>">Cancel Plan</button>
                             </div>
                         </div>
-                        <?php
+                <?php
                     }
                 }
-                        ?>
+                ?>
 
             </section>
         <?php

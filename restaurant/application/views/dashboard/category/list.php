@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Item Category</li>
                         </ol>
                     </nav>
@@ -18,13 +18,13 @@
         <?php if ($insertRights == 1) { ?>
             <div id="maindiv" class="container justify-content-center text-center">
                 <!--<div class="row">-->
-                    <!--<div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">-->
-                        <div class="floating-action-button">
-                            <a id="add_category" class="add_category d-flex align-items-center justify-content-center">
-                                <i class="fa fa-plus-circle cursor_pointer"></i>
-                            </a>
-                        </div>
-                    <!--</div>-->
+                <!--<div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">-->
+                <div class="floating-action-button">
+                    <a id="add_category" class="add_category d-flex align-items-center justify-content-center">
+                        <i class="fa fa-plus-circle cursor_pointer"></i>
+                    </a>
+                </div>
+                <!--</div>-->
                 <!--</div>-->
             </div>
         <?php } ?>
@@ -84,7 +84,7 @@
                                             </div>
                                         </div>
 
-                                        
+
                                         <div class="col-md-12 col-12 d-none">
                                             <div class="form-group row mandatory" id="shortNameDiv">
                                                 <label for="category-name-column" class="col-md-4 form-label text-left">Short Name</label>
@@ -123,7 +123,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
 
                                         <div class="col-md-12 col-12 d-none" id="previewDiv">
                                             <div class="form-group row">

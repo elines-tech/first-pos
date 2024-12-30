@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Item</li>
                         </ol>
                     </nav>
@@ -57,7 +57,7 @@
                                     <form class="form">
 
 
-                                    
+
                                         <div class="row mb-3">
                                             <div class="col-md-6">
                                                 <label for="itemName">Item Name : </label>
@@ -134,7 +134,7 @@
                                             </div>
                                         </div>
 
-                                        
+
                                     </form>
                                 </div>
                         <?php }

@@ -9,7 +9,7 @@
     }
 </style>
 <?php
-$emailData = $smsData = $skuprefix = false; 
+$emailData = $smsData = $skuprefix = false;
 if ($setting) {
     foreach ($setting->result() as $s) {
         switch ($s->code) {
@@ -36,7 +36,7 @@ if ($setting) {
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Settings</li>
                         </ol>
                     </nav>

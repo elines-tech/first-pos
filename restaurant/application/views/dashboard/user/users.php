@@ -9,7 +9,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">User</li>
                         </ol>
                     </nav>
@@ -21,7 +21,7 @@
             <div id="maindiv" class="container">
                 <div class="row">
 
-                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv"> 
+                    <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
                         <div class="floating-action-button">
                             <a id="add_category" href="<?php echo base_url(); ?>Users/add">
                                 <i class="fa fa-plus-circle"></i></a>

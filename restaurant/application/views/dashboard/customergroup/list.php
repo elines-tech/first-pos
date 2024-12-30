@@ -9,7 +9,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Customer Groups</li>
                         </ol>
                     </nav>
@@ -21,14 +21,14 @@
             <div id="maindiv1" class="col-12 col-md-5">
                 <div class="card">
                     <div class="card-header">
-					<?php if($insertRights==1){ ?>
-                        <div class="col-12 order-md-1 order-last" id="leftdiv">
-                            <h5><i class="fa fa-plus-circle"></i> Add Customer Groups</h5> 
+                        <?php if ($insertRights == 1) { ?>
+                            <div class="col-12 order-md-1 order-last" id="leftdiv">
+                                <h5><i class="fa fa-plus-circle"></i> Add Customer Groups</h5>
 
-                        </div>
-					<?php } ?>
+                            </div>
+                        <?php } ?>
                     </div>
-                    <div class="card-content"> 
+                    <div class="card-content">
                         <div class="card-body" id="appendForm">
 
                         </div>

@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="../../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Branch</li>
                         </ol>
                     </nav>
@@ -19,10 +19,10 @@
             <div class="row mb-2 float-right">
                 <div class="col-12 col-md-12">
                     <a id="cancelDefaultButton" href="<?= base_url() ?>branch/listRecords" class="btn btn-primary text-center">Back</a>
-                    <?php if($updateRights==1){ ?>
-					<button id="saveDefaultButton" class="btn btn-primary text-center edit_branch">Edit Branch</button>
+                    <?php if ($updateRights == 1) { ?>
+                        <button id="saveDefaultButton" class="btn btn-primary text-center edit_branch">Edit Branch</button>
                     <?php } ?>
-				</div>
+                </div>
             </div>
         </div>
         <div class="row">

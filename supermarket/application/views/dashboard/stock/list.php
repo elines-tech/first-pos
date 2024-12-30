@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Stock</li>
                         </ol>
                     </nav>
@@ -28,20 +28,20 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                       
-						<div class="col-md-6">
+
+                        <div class="col-md-6">
                             <label class="form-label lng mb-2">Branch</label>
                             <div class="form-group mandatory">
-                              <select class="form-select" name="branch" id="branch"  <?php if($branchCode!=""){?>disabled <?php }?>>
-									   <option value="<?php echo $branchCode;?>"><?php echo $branchName;?></option>               
-								</select> 
+                                <select class="form-select" name="branch" id="branch" <?php if ($branchCode != "") { ?>disabled <?php } ?>>
+                                    <option value="<?php echo $branchCode; ?>"><?php echo $branchName; ?></option>
+                                </select>
                             </div>
                         </div>
-						 <div class="col-md-6">
+                        <div class="col-md-6">
                             <label class="form-label lng mb-2">Product</label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="product" id="product">
-                                    
+
                                 </select>
                             </div>
                         </div>
@@ -87,61 +87,61 @@
         $('#btnSearch').on('click', function(e) {
             var product = $("#product").val();
             var branch = $("#branch").val();
-            getDataTable(branch,product);
+            getDataTable(branch, product);
         });
         $('#btnClear').on('click', function(e) {
             $("#product").val('').trigger('change');
             $("#branch").val('').trigger('change');
-            getDataTable("","");
+            getDataTable("", "");
         });
-		$("#branch").select2({
-			    placeholder: "Select Branch",
-                allowClear: true,
-				ajax: {
-					url:  base_path+'Common/getBranch',
-					type: "get",
-					delay:250,
-					dataType: 'json',
-					data: function (params) { 
-						var query = {
-                            search: params.term
-                          }
-                          return query;
-					}, 
-					processResults: function (response) {
-						return {
-							results: response
-						};
-					},
-					cache: true
-				}	
-		});
-		
-		$("#product").select2({
-			    placeholder: "Select Product",
-                allowClear: true,
-				ajax: {
-					url:  base_path+'Common/getProductForStock',
-					type: "get",
-					delay:250,
-					dataType: 'json',
-					data: function (params) { 
-						var query = {
-                            search: params.term
-                          }
-                          return query;
-					}, 
-					processResults: function (response) {
-						return {
-							results: response
-						};
-					},
-					cache: true
-				}	
-		});
+        $("#branch").select2({
+            placeholder: "Select Branch",
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getBranch',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
+                    return query;
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        });
+
+        $("#product").select2({
+            placeholder: "Select Product",
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getProductForStock',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
+                    return query;
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        });
     });
 
-    function getDataTable(branch,product) {
+    function getDataTable(branch, product) {
         $.fn.DataTable.ext.errMode = 'none';
         if ($.fn.DataTable.isDataTable("#dataTableStock")) {
             $('#dataTableStock').DataTable().clear().destroy();

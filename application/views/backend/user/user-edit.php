@@ -8,25 +8,25 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">User</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
-        
+
         <section class="section">
-        <div class="row match-height">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Update User<span style="float:right"><a href="<?= base_url()?>users/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
-                    </div>
-                    <div class="card-content">
-                        <div class="card-body">
-                            <div class="row">
-                               
+            <div class="row match-height">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Update User<span style="float:right"><a href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="row">
+
                                     <form class="form" id="editUserForm" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>users/update">
                                         <?php
                                         echo "<div class='text-danger text-center' id='error_message'>";
@@ -37,27 +37,27 @@
                                         ?>
                                         <input type="hidden" id="code" readonly name="code" class="form-control" value="<?= $userData[0]['code'] ?>">
                                         <div class="row">
-                                          
-										   <div class="col-md-4 col-12">
-												<div class="form-group mandatory">
-													<label for="arabicname-column" class="form-label">First Name</label>
-													<input type="text" id="firstname"  class="form-control" placeholder="First Name" name="firstname" onkeypress="return  ValidateAlpha(event)"  data-parsley-required="true" value="<?= $userData[0]['firstName'] ?>">
-												</div>
-												<?php echo form_error('firstname', '<span class="error text-danger text-right">', '</span>'); ?>
-										    </div>
-											<div class="col-md-4 col-12">
-												<div class="form-group mandatory">
-													<label for="arabicname-column" class="form-label">Last Name</label>
-													<input type="text" id="lastname"  class="form-control" placeholder="Last Name" name="lastname" onkeypress="return  ValidateAlpha(event)"  data-parsley-required="true" value="<?= $userData[0]['lastName'] ?>">
-												</div>
-												<?php echo form_error('lastname', '<span class="error text-danger text-right">', '</span>'); ?> 
-										    </div>
+
                                             <div class="col-md-4 col-12">
-                                                    <div class="form-group mandatory">
-                                                        <label for="arabicname-column" class="form-label">User Name</label>
-                                                        <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
-                                                    </div>
-                                                    <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">First Name</label>
+                                                    <input type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true" value="<?= $userData[0]['firstName'] ?>">
+                                                </div>
+                                                <?php echo form_error('firstname', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
+                                            <div class="col-md-4 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">Last Name</label>
+                                                    <input type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true" value="<?= $userData[0]['lastName'] ?>">
+                                                </div>
+                                                <?php echo form_error('lastname', '<span class="error text-danger text-right">', '</span>'); ?>
+                                            </div>
+                                            <div class="col-md-4 col-12">
+                                                <div class="form-group mandatory">
+                                                    <label for="arabicname-column" class="form-label">User Name</label>
+                                                    <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
+                                                </div>
+                                                <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
@@ -87,7 +87,7 @@
                                                 <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
 
                                             </div>
-											<div class="col-md-4 col-12">
+                                            <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
                                                     <label for="arabicname-column" class="form-label">Contact Number</label>
                                                     <input type="text" id="contactnumber" class="form-control" placeholder="Contact Number" name="contactnumber" value="<?= $userData[0]['contactNumber'] ?>" onkeypress="return isNumberKey(event)" data-parsley-required="true">
@@ -108,46 +108,47 @@
                                                     </select>
                                                 </div>
                                                 <?php echo form_error('userrole', '<span class="error text-danger text-right">', '</span>'); ?>
-                                            </div>											
-                                           												                                              
-											<div class="col-md-4 col-12">
-												<div class="form-group">
-													<label for="arabicname-column" class="form-label">Password</label>
-													<input type="password" id="password" class="form-control" placeholder="Password" name="password">
-												</div>
-											</div>
-											<div class="col-md-4 col-12">
-												<div class="form-group">
-													<label for="arabicname-column" class="form-label">Confirm Password</label>
-													<input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();">
-												</div>
-												<div id="CheckPasswordMatch" style="color:#e66060;"></div>
-											</div>								   
-                                                                                   
-                                            <div class="row">
-											  <div class="col-md-4">
-                                                    <div class="form-group">												
-													 <label class="form-label">Image</label>
-														<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
-														     <?php if ($userData[0]['profilePhoto'] != "") { ?>
-																<img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['profilePhoto'] ?>" data-src="">
-															<?php } else { ?>
-																<img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() ?>/assets/images/faces/default-img.jpg" data-src="">
-															<?php } ?>
-															
-															<input class="form-control" type="file" id="formFile" name="userImage">
-														</div>
-													</div>
-												</div>
-                                              <div class="col-md-4">
+                                            </div>
+
+                                            <div class="col-md-4 col-12">
                                                 <div class="form-group">
-                                                    <label for="status" class="form-label">Active:</label>
+                                                    <label for="arabicname-column" class="form-label">Password</label>
+                                                    <input type="password" id="password" class="form-control" placeholder="Password" name="password">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-12">
+                                                <div class="form-group">
+                                                    <label for="arabicname-column" class="form-label">Confirm Password</label>
+                                                    <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();">
+                                                </div>
+                                                <div id="CheckPasswordMatch" style="color:#e66060;"></div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Image</label>
+                                                        <div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
+                                                            <?php if ($userData[0]['profilePhoto'] != "") { ?>
+                                                                <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() . $userData[0]['profilePhoto'] ?>" data-src="">
+                                                            <?php } else { ?>
+                                                                <img class="img-thumbnail mb-2" width="120px" id="userimg" src="<?= base_url() ?>/assets/images/faces/default-img.jpg" data-src="">
+                                                            <?php } ?>
+
+                                                            <input class="form-control" type="file" id="formFile" name="userImage">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="status" class="form-label">Active:</label>
                                                         <div class="checkbox">
                                                             <input type="checkbox" name="isActive" id="isActive" class=" " style="width:25px; height:25px" <?php if ($userData[0]['isActive'] == 1) {
                                                                                                                                                                 echo "checked";
-                                                                                                                                                            } ?>>                                                        </div>
+                                                                                                                                                            } ?>>
+                                                        </div>
                                                     </div>
-                                                </div> 
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -157,16 +158,16 @@
                                             </div>
                                         </div>
                                     </form>
-                                
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- // Basic multiple Column Form section end -->
-</div>
+        </section>
+        <!-- // Basic multiple Column Form section end -->
+    </div>
 </div>
 <script type="text/javascript">
     var cnt = 0;
@@ -204,19 +205,19 @@
         $("body").on("change", "#userrole", function(e) {
             var thisVal = $(this).find('option:selected').val();
             var thisVal = $(this).val();
-			if(thisVal=='R_3'){
-				$('#counterDiv').removeClass('d-none');
-				$('#userCounter').attr("data-parsley-required", true);
-				 $("#userCounter").attr("data-parsley-required-message", "Counter is required");
-			}else{
-				$('#counterDiv').addClass('d-none');
-				$('#userCounter').attr("data-parsley-required", false);
-				 $("#password").attr("data-parsley-required-message", "");
-			}
+            if (thisVal == 'R_3') {
+                $('#counterDiv').removeClass('d-none');
+                $('#userCounter').attr("data-parsley-required", true);
+                $("#userCounter").attr("data-parsley-required-message", "Counter is required");
+            } else {
+                $('#counterDiv').addClass('d-none');
+                $('#userCounter').attr("data-parsley-required", false);
+                $("#password").attr("data-parsley-required-message", "");
+            }
             if (thisVal == "R_5") {
-                $("#userDetails").css('display','inline');
-                $("#loginPinDetails").css('display','none');
-				$("#loginPinDetails1").css('display','none');
+                $("#userDetails").css('display', 'inline');
+                $("#loginPinDetails").css('display', 'none');
+                $("#loginPinDetails1").css('display', 'none');
                 //$("#username").attr("data-parsley-required", true);
                 //$("#password").attr("data-parsley-required", true);
                 //$("#confirmpassword").attr("data-parsley-required", true);
@@ -224,11 +225,11 @@
                 //$("#password").attr("data-parsley-required-message", "Password is required.");
                 //$("#confirmpassword").attr("data-parsley-required-message", "Confirm Password is required.");
                 $("#loginpin").attr("data-parsley-required", false);
-				$("#loginpin").val('');
+                $("#loginpin").val('');
             } else {
-                $("#userDetails").css('display','none');
-                $("#loginPinDetails").css('display','inline');
-				$("#loginPinDetails1").css('display','inline');
+                $("#userDetails").css('display', 'none');
+                $("#loginPinDetails").css('display', 'inline');
+                $("#loginPinDetails1").css('display', 'inline');
                 //$("#username").attr("data-parsley-required", false);
                 $("#password").attr("data-parsley-required", false);
                 $("#confirmpassword").attr("data-parsley-required", false);
@@ -236,8 +237,8 @@
                 $("#loginpin").attr("data-parsley-required-message", "Login Pin is required.");
             }
         });
-		
-	    $("#formFile").change(function() {
+
+        $("#formFile").change(function() {
             const file = this.files[0];
             if (file) {
                 let reader = new FileReader();
@@ -250,26 +251,27 @@
         });
 
     });
-	function getBranchCounters(id) {
-		var branchCode  = $('#branchname').val();
-		if(branchCode!=''){
-			$.ajax({
-				url: base_path + 'users/getBranchCounters',
-				data: {
-					'branchCode': branchCode
-				},
-				type: 'post',
-				success: function(response) {
-					var res = JSON.parse(response);
-					if (res.status) {
-						$('select#userCounter').empty();
-						$('select#userCounter').append(res.counters);
-					} else {
-						$('#branchname' + id).val('');
-						$('select#userCounter' +id).attr('disabled', true);
-					}
-				}
-			});
-		}
-	}
+
+    function getBranchCounters(id) {
+        var branchCode = $('#branchname').val();
+        if (branchCode != '') {
+            $.ajax({
+                url: base_path + 'users/getBranchCounters',
+                data: {
+                    'branchCode': branchCode
+                },
+                type: 'post',
+                success: function(response) {
+                    var res = JSON.parse(response);
+                    if (res.status) {
+                        $('select#userCounter').empty();
+                        $('select#userCounter').append(res.counters);
+                    } else {
+                        $('#branchname' + id).val('');
+                        $('select#userCounter' + id).attr('disabled', true);
+                    }
+                }
+            });
+        }
+    }
 </script>

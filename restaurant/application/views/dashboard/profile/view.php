@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Profile Update</li>
                         </ol>
                     </nav>
@@ -38,7 +38,7 @@
 
 
                                             <div class="col-md-12 mt-3 d-flex text-center justify-content-center mb-3 items-center">
-                                                <div class="form-group col-md-4 text-center justify-content-center items-center"> 
+                                                <div class="form-group col-md-4 text-center justify-content-center items-center">
                                                     <!--<label class="form-label">Image</label>-->
                                                     <!--<div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">-->
                                                     <?php if ($userData[0]['userImage'] != "") { ?>

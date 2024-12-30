@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><i class="fa fa-dashboard"></i> Dashboard</li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Inward Return</li>
                         </ol>
                     </nav>
@@ -16,35 +16,35 @@
             </div>
         </div>
         <section class="section">
-			<div class="card">
-				<div class="card-header">
-			        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
                             <h5>Filter</h5>
                         </div>
                     </div>
-				</div>
-				<div class="card-body">
-			      <div class="row">
-					    <div class="col-md-10">
-						    <label class="form-label lng">Branch</label>
-							<div class="form-group mandatory">
-								<select class="form-select" name="branch" id="branch" <?php if($branchCode!=""){?>disabled <?php }?>>
-									<?php if($branchCode!=""){?>
-									   <option value="<?php echo $branchCode;?>"><?php echo $branchName;?></option>                               
-							           <?php } ?>
-								</select>
-							</div>
-						</div>
-                        <div class="col-md-2"> 
-						   <div class="d-flex mt-4 justify-content-center">
-								<button type="button" class="btn btn-success" id="btnSearch">Search</button>
-								<button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <label class="form-label lng">Branch</label>
+                            <div class="form-group mandatory">
+                                <select class="form-select" name="branch" id="branch" <?php if ($branchCode != "") { ?>disabled <?php } ?>>
+                                    <?php if ($branchCode != "") { ?>
+                                        <option value="<?php echo $branchCode; ?>"><?php echo $branchName; ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="d-flex mt-4 justify-content-center">
+                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-header">
                     <div class="row">
@@ -63,7 +63,7 @@
                                 <th>Inward Date</th>
                                 <th>Branch</th>
                                 <th>Supplier</th>
-								<th>No Of Returns</th>
+                                <th>No Of Returns</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -79,36 +79,36 @@
 <script>
     $(document).ready(function() {
         getDataTable();
-	   $("#branch").select2({
-			    placeholder: "Select Branch",
-                allowClear: true,
-				ajax: {
-					url:  base_path+'Common/getBranch',
-					type: "get",
-					delay:250,
-					dataType: 'json',
-					data: function (params) { 
-						var query = {
-                            search: params.term
-                          }
-                          return query;
-					}, 
-					processResults: function (response) {
-						return {
-							results: response
-						};
-					},
-					cache: true
-				}	
-		    }); 
-		$('#btnSearch').on('click', function(e) {
-			var branch = $("#branch").val();
-			getDataTable(branch);
-		});
-		$('#btnClear').on('click', function(e) {
-			$("#branch").val('').trigger('change')
-			getDataTable("");
-		});
+        $("#branch").select2({
+            placeholder: "Select Branch",
+            allowClear: true,
+            ajax: {
+                url: base_path + 'Common/getBranch',
+                type: "get",
+                delay: 250,
+                dataType: 'json',
+                data: function(params) {
+                    var query = {
+                        search: params.term
+                    }
+                    return query;
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        });
+        $('#btnSearch').on('click', function(e) {
+            var branch = $("#branch").val();
+            getDataTable(branch);
+        });
+        $('#btnClear').on('click', function(e) {
+            $("#branch").val('').trigger('change')
+            getDataTable("");
+        });
     });
 
     function getDataTable(branch) {
@@ -128,11 +128,10 @@
             ajax: {
                 url: base_path + "inwardReturn/getReturnList",
                 data: {
-					'branch':branch
-				},
+                    'branch': branch
+                },
                 type: "GET",
-                complete: function(response) {
-                }
+                complete: function(response) {}
             }
         });
     }

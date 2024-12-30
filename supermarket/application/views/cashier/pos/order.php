@@ -233,14 +233,18 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
                                 <button class="btn btn-card">Credit/Debit Card</button>
                             </div>
                         </div>
-                        <div class="row g-2 mb-1">
+
+
+                        <!--<div class="row g-2 mb-1">
                             <div class="col text-center">
                                 <button class="btn btn-upi">UPI</button>
                             </div>
                             <div class="col text-center">
                                 <button class="btn btn-netbank">Net Banking</button>
                             </div>
-                        </div>
+                        </div>-->
+
+
                         <div class="row g-2 m-35">
                             <div class="col text-center">
                                 <button class="btn btn-draft-order"><i class="fa fa-inbox"></i><span>Draft Order</span></button>
