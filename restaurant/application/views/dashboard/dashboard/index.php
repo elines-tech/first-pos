@@ -1,4 +1,4 @@
-<?php include '/home/said/Desktop/first-pos/config.php'; ?>
+<?php include '/home/said/Desktop/first-pos/restaurant/config.php'; ?>
 
 
 <div class="page-heading m-5">

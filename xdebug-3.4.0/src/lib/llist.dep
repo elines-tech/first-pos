@@ -1,0 +1,3 @@
+src/lib/llist.lo: \
+ /home/said/Desktop/first-pos/xdebug-3.4.0/src/lib/llist.c \
+ /home/said/Desktop/first-pos/xdebug-3.4.0/src/lib/llist.h

@@ -67,7 +67,7 @@ class Customer extends CI_Controller
 			foreach ($Records->result() as $row) {
 				$actionHtml = '';
 				if ($this->rights != '' && $this->rights['update'] == 1) {
-					$actionHtml .= '<a class="apply_group btn btn-success btn-sm cursor_pointer" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="Apply Customer Group" class="fa fa-pencil"></i></a>';
+					$actionHtml .= '<a id="edit" class="apply_group btn btn-info btn-sm cursor_pointer" data-seq="' . $row->code . '" data-type="1"><i id="edt" title="Apply Customer Group" class="fa fa-pencil"></i></a>';
 				}
 				$data[] = array(
 					$srno,

@@ -190,7 +190,8 @@
 
 
                                                             <div class="form-group mandatory">
-                                                                <label for="productbrand" class="form-label">Product Brand </label><a id="smallButton" class="add_brand m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>
+                                                                <label for="productbrand" class="form-label">Product Brand </label>
+                                                                <!--<a id="smallButton" class="add_brand m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>-->
                                                                 <select class="form-select select2" style="width:100%" name="productbrand" id="productbrand" data-parsley-required="true" data-parsley-required-message="Product Brand is required.">
 
                                                                 </select>
@@ -198,7 +199,8 @@
 
 
                                                             <div class="form-group mandatory">
-                                                                <label for="productcategory" class="form-label">Product Category</label><a id="smallButton" class="add_category m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>
+                                                                <label for="productcategory" class="form-label">Product Category</label>
+                                                                <!--<a id="smallButton" class="add_category m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>-->
                                                                 <select class="form-select select2" style="width:100%" name="productcategory" id="productcategory" data-parsley-required="true" data-parsley-required-message="Product Category is required.">
 
                                                                 </select>
@@ -206,8 +208,9 @@
 
 
                                                             <div class="form-group">
-                                                                <label for="productsubcategory" class="form-label">Product Subcategory</label><a id="smallButton" class="add_subcategory m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>
-                                                                <input type="hidden" class="form-control" id="dbproductsubcategory" name="dbproductsubcategory" value="">
+                                                                <label for="productsubcategory" class="form-label">Product Subcategory</label>
+                                                                <!--<a id="smallButton" class="add_subcategory m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>-->
+                                                                <!--<input type="hidden" class="form-control" id="dbproductsubcategory" name="dbproductsubcategory" value="">-->
                                                                 <select class="form-select select2" style="width:100%" name="productsubcategory" id="productsubcategory">
 
                                                                 </select>
