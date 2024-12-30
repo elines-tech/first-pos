@@ -1,0 +1,13 @@
+Dt --> 31-12-24 12:42:58 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 31-12-24 02:08:25 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-31 02:22:03	127.0.0.1	Admin	saidemad	DIS_1 - 10.00 discount is deleted.
+2024-12-31 02:26:43	127.0.0.1	Admin	saidemad	COP24_3 - sa3adaaaaa coupon is updated.
+31-12-24 02:30:39	127.0.0.1	Admin	saidemad	deleteProduct is deleted.
+2024-12-31 02:36:35	127.0.0.1	Admin	saidemad	OFF24_1 - ffffffffffffffffff offer is updated.
+Dt --> 31-12-24 02:43:37 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 31-12-24 02:43:43 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 31-12-24 02:58:49 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 31-12-24 03:00:22 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 31-12-24 03:06:42 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier loggedout.
+Dt --> 31-12-24 03:06:49 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 31-12-24 03:21:56 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.

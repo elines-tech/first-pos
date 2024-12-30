@@ -205,8 +205,8 @@
 													<b style="border-bottom:1px dashed black;margin-top:5px;"></b>
 													<div class="col-md-6 col-xs-6"><span class="label"><strong>Grand Total :</strong></span></div>
 													<div class="col-md-6 col-xs-6 text-right"><span class="value" id="grandTotalText"></span></div>
-													<div class="col-md-12 frmbtn d-flex">
-														<a class="btn btn-success me-1 mb-1 sub_1 paynow" id="paynowBtn" style="width:100%;font-size: 18px;">Pay Now</a>
+													<div class="col-md-12 frmbtn d-flex justify-content-center">
+														<a class="btn btn-success paynow" id="paynowBtn" style="width:100%;font-size: 18px;">Pay Now</a>
 													</div>
 												</div>
 											</div>

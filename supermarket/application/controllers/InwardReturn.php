@@ -73,7 +73,7 @@ class InwardReturn extends CI_Controller
 				$code = $row->code;
 				$actionHtml='';
 				if($this->rights !='' && $this->rights['view']==1){
-					$actionHtml .= '<a href="' . base_url() . 'inwardReturn/view/' . $row->inwardCode . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml .= '<a id="view" href="' . base_url() . 'inwardReturn/view/' . $row->inwardCode . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				}
 
 				$data[] = array(

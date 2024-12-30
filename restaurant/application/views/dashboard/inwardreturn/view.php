@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
     <div class="container d-block">
         <div class="row">
-            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>inwardReturn/listRecords"><i class="fa fa-times fa-2x"></i></a></div>
+            <div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>inwardReturn/listRecords"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 
         </div>
     </div>

@@ -21,7 +21,7 @@
 				<div class="col-18">
 					<div class="card">
 						<div class="card-header">
-							<h3>View Inward Return <span style="float:right"><a href="<?= base_url() ?>inwardReturn/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3>View Inward Return <span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inwardReturn/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">

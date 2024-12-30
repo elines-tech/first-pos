@@ -111,7 +111,7 @@ class Coupon extends CI_Controller
 					$actionHtml .= '<a id="edit" href="' . base_url() . 'coupon/edit/' . $row->code . '" class="btn btn-info btn-sm m-1 cursor_pointer"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
 				if ($this->rights != '' && $this->rights['delete'] == 1) {
-					$actionHtml .= '<a id="delete" class="btn btn-danger btn-sm m-1 cursor_pointer delete_coupon" id="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a><div>';
+					//$actionHtml .= '<a id="delete" class="btn btn-danger btn-sm m-1 cursor_pointer delete_coupon" id="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a><div>';
 				}
 				$data[] = array(
 					$srno,
