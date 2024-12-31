@@ -58,7 +58,7 @@
 														</select>
 													</div>
 												</div>
-												<div class="col-md-4 col-12" id="showDate" style="display:<?= $result['remark'] == 'Next follow up date' ? '' : 'none' ?>">
+												<div class="col-md-12 col-12" id="showDate" style="display:<?= $result['remark'] == 'Next follow up date' ? '' : 'none' ?>">
 													<div class="form-group">
 														<label for="" class="form-label">Next Follow Up Date</label>
 														<input type="date" class="form-control bg-white" name="remarkDate" id="remarkDate" <?php if ($result['remarkDate'] != "") { ?>value="<?= date('Y-m-d', strtotime($result['remarkDate'])) ?>" <?php } ?>>
@@ -98,13 +98,13 @@
 																			</select>
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control decimal" name="qtyPerPerson<?= $i ?>" id="qtyPerPerson<?= $i ?>" value="<?= $co->qtyPerPerson ?>" onkeyup="calculate_subTotal(<?= $i ?>);getProductTaxAmount(<?= $i ?>);">
+																			<input type="text" class="text-left form-control decimal" name="qtyPerPerson<?= $i ?>" id="qtyPerPerson<?= $i ?>" value="<?= $co->qtyPerPerson ?>" onkeyup="calculate_subTotal(<?= $i ?>);getProductTaxAmount(<?= $i ?>);">
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control decimal" name="pricePerPerson<?= $i ?>" id="pricePerPerson<?= $i ?>" value="<?= $co->pricePerPerson ?>" onkeyup="calculate_subTotal(<?= $i ?>);getProductTaxAmount(<?= $i ?>);">
+																			<input type="text" class="text-left form-control decimal" name="pricePerPerson<?= $i ?>" id="pricePerPerson<?= $i ?>" value="<?= $co->pricePerPerson ?>" onkeyup="calculate_subTotal(<?= $i ?>);getProductTaxAmount(<?= $i ?>);">
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control" name="subTotal<?= $i ?>" id="subTotal<?= $i ?>" disabled value="<?= $co->subTotal ?>">
+																			<input type="text" class="text-left form-control" name="subTotal<?= $i ?>" id="subTotal<?= $i ?>" disabled value="<?= $co->subTotal ?>">
 																		</td>
 																		<td>
 																			<a href="#" class="btn btn-danger" onclick="delete_row(<?= $i ?>,'<?= $co->code ?>')"><i class="fa fa-trash"></i>
@@ -125,13 +125,13 @@
 																	</select>
 																</td>
 																<td>
-																	<input type="text" class="text-right form-control decimal" name="qtyPerPerson0" id="qtyPerPerson0" onkeyup="calculate_subTotal(0);getProductTaxAmount(0);">
+																	<input type="text" class="text-left form-control decimal" name="qtyPerPerson0" id="qtyPerPerson0" onkeyup="calculate_subTotal(0);getProductTaxAmount(0);">
 																</td>
 																<td>
-																	<input type="text" class="text-right form-control decimal" name="pricePerPerson0" id="pricePerPerson0" onkeypress="return isNumber(event)" onkeyup="calculate_subTotal(0);getProductTaxAmount(0);">
+																	<input type="text" class="text-left form-control decimal" name="pricePerPerson0" id="pricePerPerson0" onkeypress="return isNumber(event)" onkeyup="calculate_subTotal(0);getProductTaxAmount(0);">
 																</td>
 																<td>
-																	<input type="text" class="text-right form-control" name="subTotal0" id="subTotal0" disabled>
+																	<input type="text" class="text-left form-control" name="subTotal0" id="subTotal0" disabled>
 																</td>
 																<td>
 																	<a id="view" href="#" class="btn btn-success" onclick="add_row()"><i class="fa fa-plus"></i>

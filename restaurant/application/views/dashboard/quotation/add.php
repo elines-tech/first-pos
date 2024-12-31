@@ -149,7 +149,7 @@
 
 															<td colspan="3">
 																<label class="text-right text-nowrap"><b>Discount (₹)</b></label>
-																<input type="text" id="discount" class="text-center form-control decimal" name="discount" autocomplete="off" onkeyup="calculateTotal()">
+																<input type="text" id="discount" class="text-center form-control decimal" name="discount" value="0.00" autocomplete="off" onkeyup="calculateTotal()">
 															</td>
 
 														</tr>

@@ -1,5 +1,20 @@
 <?php
 return [
-    'suppliers' => 'الموردين',
-    'items' => '3naser',
+    'suppliers' => 'الموردون',
+    'Items' => 'العناصر',
+    'Extras/Product' => 'الإضافات/المنتج',
+    'Net Purchase' => 'صافي الشراء',
+    'Category Wise Stock' => 'المخزون حسب الفئة',
+    'Inward List' => 'القائمة الواردة',
+    'Show' => 'إظهار',
+    'entries' => 'الإدخالات',
+    'Search' => 'بحث',
+    'Sr No' => 'رقم السلسلة',
+    'Inward Date' => 'تاريخ الوارد',
+    'Branch' => 'الفرع',
+    'Supplier' => 'المورد',
+    'Total' => 'الإجمالي',
+    'Status' => 'الحالة',
+    'Inventory Dashboard (Updates in Every 60 sec)' => 'لوحة معلومات المخزون (تحديثات كل 60 ثانية)',
+    'View' => "عرض",
 ];

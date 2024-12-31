@@ -313,6 +313,7 @@ class Reservation extends CI_Controller
 		else{
 			$data = array(
                 'name' => $customerName,
+                'arabicName' => $customerName,
                 'phone' => $clientPhone,
 				'email'=>$email,
                 'isActive' => 1

@@ -5,7 +5,7 @@
     <div class="page-breadcrumb">
         <div class="row">
             <div class="col-7 align-self-center">
-                <h5 class="page-title">Inventory Dashboard (Updates in Every 60 sec)</h5>
+                <h5 class="page-title"><?php echo $translations['Inventory Dashboard (Updates in Every 60 sec)']; ?></h5>
                 <div class="d-flex align-items-center">
 
                 </div>
@@ -43,7 +43,7 @@
                                     <h6 class="font-extrabold mb-0" id="countSupplier">-</h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>supplier/listRecords">View</a>
+                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>supplier/listRecords"><?php echo $translations['View']; ?></a>
                                 </div>
                             </div>
                         </div>
@@ -59,11 +59,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Items</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Items'] ?></h6>
                                     <h6 class="font-extrabold mb-0" id="countItem">-</h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a id="view" class='btn btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>item/listRecords">View</a>
+                                    <a id="view" class='btn btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>item/listRecords"><?php echo $translations['View']; ?></a>
                                 </div>
                             </div>
                         </div>
@@ -80,11 +80,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Extras/Product</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Extras/Product']; ?></h6>
                                     <h6 class="font-extrabold mb-0" id="countProduct">-</h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>product/listRecords">View</a>
+                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>product/listRecords"><?php echo $translations['View']; ?></a>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Net Purchase</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Net Purchase']; ?></h6>
                                     <h6 class="font-extrabold mb-0" id="totalPurchases">10</h6>
                                 </div>
                                 <div id="view" class="col-sm-12 p-4 text-right">
@@ -124,7 +124,7 @@
                 <div class="col-sm-6">
                     <div id='chart_1' class="card">
                         <div class="card-body">
-                            <h5 class="p-2">Category Wise Stock</h5>
+                            <h5 class="p-2"><?php echo $translations['Category Wise Stock'] ?></h5>
                             <canvas id="chart_1" class='chart_1'></canvas>
                         </div>
                     </div>
@@ -133,22 +133,22 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="p-2">Inward List</h5>
+                            <h5 class="p-2"><?php echo $translations['Inward List'] ?></h5>
                             <div class="table-responsive">
                                 <table class="table table-striped table-responsive display" style="width:100%" id="dataTableInward">
                                     <thead>
                                         <tr>
-                                            <th>Sr No</th>
-                                            <th>Inward Date</th>
-                                            <th>Branch</th>
-                                            <th>Supplier</th>
-                                            <th>Total</th>
-                                            <th>Status</th>
+                                            <th><?php echo $translations['Sr No'] ?></th>
+                                            <th><?php echo $translations['Inward Date'] ?></th>
+                                            <th><?php echo $translations['Branch'] ?></th>
+                                            <th><?php echo $translations['Supplier'] ?></th>
+                                            <th><?php echo $translations['Total'] ?></th>
+                                            <th><?php echo $translations['Status'] ?></th>
                                         </tr>
                                     </thead>
                                 </table>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>inward/listRecords">View</a>
+                                    <a id="view" class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>inward/listRecords"><?php echo $translations['View'] ?></a>
                                 </div>
                             </div>
                         </div>

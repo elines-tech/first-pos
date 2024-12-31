@@ -74,13 +74,13 @@
 																			</select>
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control" name="qtyPerPerson<?= $i ?>" id="qtyPerPerson<?= $i ?>" onkeypress="return isNumber(event)" value="<?= $co->qtyPerPerson ?>" disabled>
+																			<input type="text" class="text-left form-control" name="qtyPerPerson<?= $i ?>" id="qtyPerPerson<?= $i ?>" onkeypress="return isNumber(event)" value="<?= $co->qtyPerPerson ?>" disabled>
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control" name="pricePerPerson<?= $i ?>" id="pricePerPerson<?= $i ?>" onkeypress="return isNumber(event)" value="<?= $co->pricePerPerson ?>" disabled>
+																			<input type="text" class="text-left form-control" name="pricePerPerson<?= $i ?>" id="pricePerPerson<?= $i ?>" onkeypress="return isNumber(event)" value="<?= $co->pricePerPerson ?>" disabled>
 																		</td>
 																		<td>
-																			<input type="text" class="text-right form-control" name="subTotal<?= $i ?>" id="subTotal<?= $i ?>" disabled value="<?= $co->subTotal ?>">
+																			<input type="text" class="text-left form-control" name="subTotal<?= $i ?>" id="subTotal<?= $i ?>" disabled value="<?= $co->subTotal ?>">
 																		</td>
 
 																	</tr>

@@ -260,7 +260,8 @@ class Table extends CI_Controller
             $data['urlToken'] = $result['urlToken'];
             $enccmp = $this->encrypt($cmpdbkey);
             $text = base_url('restaurant/table/' . $enccmp . '/' . $result['urlToken']);
-            $qrImageGenerateUrl = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=$text%2F&choe=UTF-8";
+            //$qrImageGenerateUrl = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=$text%2F&choe=UTF-8";
+            $qrImageGenerateUrl = "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=$text";
             $data['qrCodeImage'] = $qrImageGenerateUrl;
         } else {
             $data['status'] = false;

@@ -14,31 +14,31 @@ class Quotation extends CI_Controller
 		if (!isset($this->session->userdata['logged_in' . $this->session_key]['code'])) {
 			redirect('Login', 'refresh');
 		}
-		$this->rights = $this->GlobalModel->getMenuRights('6.3',$rolecode);
-		if($this->rights ==''){
+		$this->rights = $this->GlobalModel->getMenuRights('6.3', $rolecode);
+		if ($this->rights == '') {
 			$this->load->view('errors/norights.php');
 		}
 		$res = $this->GlobalModel->checkActiveSubscription();
-        if ($res == "EXPIRED") {
-            redirect('package', 'refresh');
-        }
+		if ($res == "EXPIRED") {
+			redirect('package', 'refresh');
+		}
 	}
 
 	public function listRecords()
 	{
-		if($this->rights !='' && $this->rights['view']==1){
+		if ($this->rights != '' && $this->rights['view'] == 1) {
 			$data['insertRights'] = $this->rights['insert'];
-			$this->load->view('dashboard/header');		
-			$this->load->view('dashboard/quotation/list',$data);
+			$this->load->view('dashboard/header');
+			$this->load->view('dashboard/quotation/list', $data);
 			$this->load->view('dashboard/footer');
-		}else{
+		} else {
 			$this->load->view('errors/norights.php');
 		}
 	}
 
 	public function add()
 	{
-		if($this->rights !='' && $this->rights['insert']==1){
+		if ($this->rights != '' && $this->rights['insert'] == 1) {
 			$data['insertRights'] = $this->rights['insert'];
 			//$data['category'] = $this->GlobalModel->selectActiveData('productcategorymaster');
 			//$data['subcategory'] = $this->GlobalModel->selectActiveData('productsubcategorymaster');
@@ -46,7 +46,7 @@ class Quotation extends CI_Controller
 			$this->load->view('dashboard/commonheader');
 			$this->load->view('dashboard/quotation/add', $data);
 			$this->load->view('dashboard/footer');
-		}else{
+		} else {
 			$this->load->view('errors/norights.php');
 		}
 	}
@@ -68,7 +68,7 @@ class Quotation extends CI_Controller
 		$limit = $this->input->GET("length");
 		$offset = $this->input->GET("start");
 		$extraCondition = " quotationentries.isDelete=0 OR quotationentries.isDelete IS NULL";
-		$like = array("quotationentries.eventName" => $search . "~both","quotationentries.remark" => $search . "~both","quotationentries.code" => $search . "~both","quotationentries.peoples" => $search . "~both","quotationentries.remark" => $search . "~both");
+		$like = array("quotationentries.eventName" => $search . "~both", "quotationentries.remark" => $search . "~both", "quotationentries.code" => $search . "~both", "quotationentries.peoples" => $search . "~both", "quotationentries.remark" => $search . "~both");
 		$Records = $this->GlobalModel->selectQuery($orderColumns, $tableName, $condition, $orderBy, $join, $joinType, $like, $limit, $offset, $groupByColumn, $extraCondition);
 		$srno = $_GET['start'] + 1;
 		if ($Records) {
@@ -85,15 +85,15 @@ class Quotation extends CI_Controller
 				} else {
 					$date = "";
 				}
-				 $actionHtml='<div class="d-flex">';
-				if($this->rights !='' && $this->rights['view']==1){
-					$actionHtml .='<a id="view" href="' . base_url() . 'quotation/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
+				$actionHtml = '<div class="d-flex">';
+				if ($this->rights != '' && $this->rights['view'] == 1) {
+					$actionHtml .= '<a id="view" href="' . base_url() . 'quotation/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer m-1"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				}
-				if($this->rights !='' && $this->rights['update']==1){
-					$actionHtml .='<a id="edit" href="' . base_url() . 'quotation/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
+				if ($this->rights != '' && $this->rights['update'] == 1) {
+					$actionHtml .= '<a id="edit" href="' . base_url() . 'quotation/edit/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer m-1"><i id="edt" title="Edit" class="fa fa-pencil"></i></a>';
 				}
-				if($this->rights !='' && $this->rights['delete']==1){
-					$actionHtml .='<a id="delete" class="btn btn-danger btn-sm cursor_pointer delete_quotation m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a></div>';
+				if ($this->rights != '' && $this->rights['delete'] == 1) {
+					$actionHtml .= '<a id="delete" class="btn btn-danger btn-sm cursor_pointer delete_quotation m-1" data-seq="' . $row->code . '"><i id="dlt" title="Delete" class="fa fa-trash"></i></a></div>';
 				}
 
 				$data[] = array(
@@ -130,37 +130,36 @@ class Quotation extends CI_Controller
 
 	public function edit()
 	{
-		if($this->rights !='' && $this->rights['update']==1){
+		if ($this->rights != '' && $this->rights['update'] == 1) {
 			$data['updateRights'] = $this->rights['update'];
 			$code = $this->uri->segment(3);
 			$data['category'] = $this->GlobalModel->selectActiveData('productcategorymaster');
 			$data['subcategory'] = $this->GlobalModel->selectActiveData('productsubcategorymaster');
 			$data['quotationData'] = $this->GlobalModel->selectQuery('quotationentries.*', 'quotationentries', array('quotationentries.code' => $code));
 			$joinType = array('productmaster' => 'inner');
-            $join = array('productmaster' => 'productmaster.code=quotationlineentries.productCode');
-			$data['quotationLineEntries'] = $this->GlobalModel->selectQuery('quotationlineentries.*,productmaster.productEngName', 'quotationlineentries', array('quotationlineentries.quotationCode' => $code, 'quotationlineentries.isActive' => 1),array(),$join, $joinType);
+			$join = array('productmaster' => 'productmaster.code=quotationlineentries.productCode');
+			$data['quotationLineEntries'] = $this->GlobalModel->selectQuery('quotationlineentries.*,productmaster.productEngName', 'quotationlineentries', array('quotationlineentries.quotationCode' => $code, 'quotationlineentries.isActive' => 1), array(), $join, $joinType);
 			$this->load->view('dashboard/commonheader');
 			$this->load->view('dashboard/quotation/edit', $data);
 			$this->load->view('dashboard/footer');
-		}else{
+		} else {
 			$this->load->view('errors/norights.php');
 		}
 	}
 	public function view()
 	{
-		if($this->rights !='' && $this->rights['view']==1){
+		if ($this->rights != '' && $this->rights['view'] == 1) {
 			$code = $this->uri->segment(3);
 			$data['category'] = $this->GlobalModel->selectActiveData('productcategorymaster');
 			$data['subcategory'] = $this->GlobalModel->selectActiveData('productsubcategorymaster');
 			$data['quotationData'] = $this->GlobalModel->selectQuery('quotationentries.*', 'quotationentries', array('quotationentries.code' => $code));
 			$joinType = array('productmaster' => 'inner');
-            $join = array('productmaster' => 'productmaster.code=quotationlineentries.productCode');
-			$data['quotationLineEntries'] = $this->GlobalModel->selectQuery('quotationlineentries.*,productmaster.productEngName', 'quotationlineentries', array('quotationlineentries.quotationCode' => $code, 'quotationlineentries.isActive' => 1),array(),$join, $joinType);
+			$join = array('productmaster' => 'productmaster.code=quotationlineentries.productCode');
+			$data['quotationLineEntries'] = $this->GlobalModel->selectQuery('quotationlineentries.*,productmaster.productEngName', 'quotationlineentries', array('quotationlineentries.quotationCode' => $code, 'quotationlineentries.isActive' => 1), array(), $join, $joinType);
 			$this->load->view('dashboard/commonheader');
 			$this->load->view('dashboard/quotation/view', $data);
 			$this->load->view('dashboard/footer');
-		}
-		else{
+		} else {
 			$this->load->view('errors/norights.php');
 		}
 	}
@@ -177,10 +176,10 @@ class Quotation extends CI_Controller
 		$subTotal = $this->input->post("subTotal");
 		$discount = $this->input->post("discount");
 		$taxAmount = $this->input->post("taxAmount");
-		$tax = $this->input->post("totalTax"); 
+		$tax = $this->input->post("totalTax");
 		$grandTotal = $this->input->post("grandTotal");
-		$remark = $this->input->post("remark");
-		$remarkDate = $this->input->post("remarkDate");
+		$remark = $this->input->post("remark")  == null ? 'Not interested' :  $this->input->post("remark");
+		$remarkDate = $this->input->post("remarkDate") == null ? $eventDate :  $this->input->post("remarkDate");
 		$isActive = $this->input->post("isActive");
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$data = array(
@@ -190,7 +189,7 @@ class Quotation extends CI_Controller
 			'subTotal' => $subTotal,
 			'discount' => $discount,
 			'taxAmount' => $taxAmount,
-			'totalTax'=>$tax,
+			'totalTax' => $tax,
 			'grandTotal' => $grandTotal,
 			'isActive' => 1,
 		);
@@ -204,6 +203,8 @@ class Quotation extends CI_Controller
 			$successMsg = 'Quotation updated Successfully';
 			$warningMsg = "Failed to update quotation";
 		} else {
+			$data['remark'] = $remark;
+			$data['remarkDate'] = $remarkDate;
 			$data['addID'] = $addID;
 			$data['addIP'] = $ip;
 			$code = $this->GlobalModel->addNew($data, 'quotationentries', 'QUO');
@@ -238,8 +239,8 @@ class Quotation extends CI_Controller
 		$qtyPerPerson = $this->input->post("qtyPerPerson");
 		$pricePerPerson = $this->input->post("pricePerPerson");
 		$subTotal = $this->input->post("subTotal");
-		$perProductTaxAmount=$this->input->post("perProductTaxAmount");
-		$perProductTax=$this->input->post("perProductTax");
+		$perProductTaxAmount = $this->input->post("perProductTaxAmount");
+		$perProductTax = $this->input->post("perProductTax");
 		$data = array(
 			'quotationCode' => $quotationCode,
 			'categoryCode' => $categoryCode,
@@ -247,8 +248,8 @@ class Quotation extends CI_Controller
 			'productCode' => $productCode,
 			'qtyPerPerson' => $qtyPerPerson,
 			'pricePerPerson' => $pricePerPerson,
-			'tax'=>$perProductTax,
-			'taxamount'=>$perProductTaxAmount,
+			'tax' => $perProductTax,
+			'taxamount' => $perProductTaxAmount,
 			'subTotal' => $subTotal,
 			'isActive' => 1
 		);
@@ -289,25 +290,26 @@ class Quotation extends CI_Controller
 		$userRole = $this->session->userdata['logged_in' . $this->session_key]['role'];
 		$userName = $this->session->userdata['logged_in' . $this->session_key]['username'];
 		$ip = $_SERVER['REMOTE_ADDR'];
-		$people=$this->input->post('people');
+		$people = $this->input->post('people');
 		$getDetails = $this->GlobalModel->selectQuery('quotationlineentries.*', 'quotationlineentries', array('quotationlineentries.code' => $lineCode));
 		if ($getDetails  && $getDetails->num_rows() > 0) {
 			$code = $getDetails->result()[0]->quotationCode;
 			$tax = $getDetails->result()[0]->tax;
 			$taxAmount = $getDetails->result()[0]->taxamount;
-			$subTotal=$getDetails->result()[0]->subTotal*$people;
+			$subTotal = $getDetails->result()[0]->subTotal * $people;
 			$getQut = $this->GlobalModel->selectQuery('quotationentries.*', 'quotationentries', array('quotationentries.code' => $code));
-		    if ($getQut && $getQut->num_rows() > 0) {
-				$finalTax=$getQut->result()[0]->totalTax-$tax;
-				$finaltaxAmount=$getQut->result()[0]->taxAmount-$taxAmount;
-				$finalsubTotal=$getQut->result()[0]->subTotal-$subTotal;
-				$finalGrandTotal=$getQut->result()[0]->grandTotal-$subTotal-$taxAmount;
+			if ($getQut && $getQut->num_rows() > 0) {
+				$finalTax = $getQut->result()[0]->totalTax - $tax;
+				$finaltaxAmount = $getQut->result()[0]->taxAmount - $taxAmount;
+				$finalsubTotal = $getQut->result()[0]->subTotal - $subTotal;
+				$finalGrandTotal = $getQut->result()[0]->grandTotal - $subTotal - $taxAmount;
 				//echo $finalTax;
-				$subdata=["subTotal"=>$finalsubTotal,
-				       "totalTax"=>$finalTax,
-					   "taxAmount"=>$finaltaxAmount,
-					   "grandTotal"=>$finalGrandTotal
-					   ];
+				$subdata = [
+					"subTotal" => $finalsubTotal,
+					"totalTax" => $finalTax,
+					"taxAmount" => $finaltaxAmount,
+					"grandTotal" => $finalGrandTotal
+				];
 				$this->GlobalModel->doEdit($subdata, 'quotationentries', $code);
 			}
 		}
@@ -348,7 +350,7 @@ class Quotation extends CI_Controller
 		echo json_encode($response);
 	}
 
-    public function getProduct()
+	public function getProduct()
 	{
 		$productHtml = '';
 		$response['status'] = 'false';
@@ -368,7 +370,7 @@ class Quotation extends CI_Controller
 	public function getTaxAmount()
 	{
 		$taxAmount = 0;
-		$tax=0;
+		$tax = 0;
 		$productCodes = $this->input->post("productCodes");
 		$productCodes = implode("','", $productCodes);
 		$discount = $this->input->post("discount");
@@ -384,7 +386,7 @@ class Quotation extends CI_Controller
 				$getTaxes = $this->GlobalModel->plainQuery("select taxes.taxPer from taxes where taxes.isActive=1 and taxes.code in('" . implode("','", $taxes) . "')");
 				if ($getTaxes) {
 					foreach ($getTaxes->result() as $t) {
-						$tax=$tax+$t->taxPer;
+						$tax = $tax + $t->taxPer;
 						$taxAmount = $taxAmount + ($discountAmount * $t->taxPer / 100);
 					}
 				}
@@ -392,29 +394,30 @@ class Quotation extends CI_Controller
 		}
 		echo $taxAmount;
 	}
-	
-	public function getProductTaxAmount(){  
+
+	public function getProductTaxAmount()
+	{
 		$taxAmount = 0;
-		$tax=0;
+		$tax = 0;
 		$productCode = $this->input->post("productCode");
 		$subTotal = $this->input->post("subTotal");
 		$joinType = array('taxgroupmaster' => 'inner');
 		$join = array('taxgroupmaster' => 'taxgroupmaster.code=productmaster.productTaxGrp');
-	    $prdDetails = $this->GlobalModel->selectQuery('productmaster.productTaxGrp,taxgroupmaster.taxes', 'productmaster', array('productmaster.isActive' => 1, 'taxgroupmaster.isActive' => 1,"productmaster.code"=>$productCode), array('productmaster.id' => 'ASC'), $join, $joinType, array(), "", "", array());
+		$prdDetails = $this->GlobalModel->selectQuery('productmaster.productTaxGrp,taxgroupmaster.taxes', 'productmaster', array('productmaster.isActive' => 1, 'taxgroupmaster.isActive' => 1, "productmaster.code" => $productCode), array('productmaster.id' => 'ASC'), $join, $joinType, array(), "", "", array());
 		if ($prdDetails) {
 			foreach ($prdDetails->result() as $pt) {
 				$taxes = json_decode($pt->taxes, true);
 				$getTaxes = $this->GlobalModel->plainQuery("select taxes.taxPer from taxes where taxes.isActive=1 and taxes.code in('" . implode("','", $taxes) . "')");
 				if ($getTaxes) {
 					foreach ($getTaxes->result() as $t) {
-						$tax=$tax+$t->taxPer;
+						$tax = $tax + $t->taxPer;
 						$taxAmount = $taxAmount + ((int)$subTotal * (int)$t->taxPer / 100);
 					}
 				}
 			}
 		}
 		$response['tax'] =  $tax;
-		$response['taxAmount']=$taxAmount;
+		$response['taxAmount'] = $taxAmount;
 		echo json_encode($response);
 	}
 }

@@ -86,13 +86,13 @@
 									</div>
 									<div class="col-md-5 col-12" style="margin-top:32px;">
 										<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn">Generate</button>
-										<button type="button" onclick="print()" id="printBtn" class="btn btn-primary white sub_1 d-none" id="printBtn">Print</button>
+										<button type="button" onclick="print()" id="printBtn" class="btn btn-primary d-none" id="printBtn">Print</button>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="card d-none" id="previewDiv">
+					<div class="card d-none" id="previewDiv"> 
 						<div class="card-content">
 							<div class="card-body m-0" id="println">
 							</div>

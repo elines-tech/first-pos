@@ -56,7 +56,7 @@
         </section>
     </div>
 </div>
-
+ 
 <div class="modal fade text-left" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" id="generl_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel130" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -204,8 +204,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-12 d-flex justify-content-end">
+                                    <div class="row mt-3">
+                                        <div class="col-12 d-flex mt-3 justify-content-end">
                                             <?php if ($insertRights == 1) { ?>
                                                 <button type="submit" class="btn btn-primary" id="saveTableBulkBtn">Save</button>
                                             <?php } ?>

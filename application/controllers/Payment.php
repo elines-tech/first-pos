@@ -359,7 +359,7 @@ class Payment extends MY_Controller
       copy(FCPATH . "assets/projconfig/supermarket/R_1.json", $rightsFolder . "/R_1.json");
     }
 
-    
+
     $this->db->query("CREATE DATABASE `$dbName`");
     $this->db->query('use ' . $dbName);
 
@@ -2200,6 +2200,7 @@ class Payment extends MY_Controller
             `subTotal` decimal(18, 2) NULL DEFAULT NULL,
             `discount` decimal(18, 2) NULL DEFAULT NULL,
             `taxAmount` decimal(18, 2) NULL DEFAULT NULL,
+            `totalTax` decimal(18, 2) NULL DEFAULT NULL,
             `grandTotal` decimal(18, 2) NULL DEFAULT NULL,
             `isActive` tinyint(1) NULL DEFAULT NULL,
             `isDelete` tinyint(1) NULL DEFAULT 0,
@@ -2230,6 +2231,8 @@ class Payment extends MY_Controller
             `productCode` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
             `qtyPerPerson` decimal(18, 2) NULL DEFAULT NULL,
             `pricePerPerson` decimal(18, 2) NULL DEFAULT NULL,
+            `tax` decimal(18, 2) NULL DEFAULT NULL,
+            `taxamount` decimal(18, 2) NULL DEFAULT NULL, 
             `subTotal` decimal(18, 2) NULL DEFAULT NULL,
             `isActive` tinyint(1) NULL DEFAULT NULL,
             `isDelete` tinyint(1) NULL DEFAULT 0,

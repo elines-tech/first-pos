@@ -1,1 +1,8 @@
 Dt --> 31-12-24 03:22:17 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 31-12-24 08:48:08 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 31-12-24 09:05:55 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 31-12-24 09:06:07 IP --> 127.0.0.1 LOGIN USER --> USR24_10 ADDED USER --> USR24_10 	USR24_10 Cashier logged in.
+Dt --> 31-12-24 09:24:11 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+2024-12-31 21:25:36	127.0.0.1	Admin	admin	IN24_7 - SUP24_1 of BR24_3 having amount 2200.00 inward is added.
+2024-12-31 21:27:25	127.0.0.1	Admin	admin	BAR24_4 - barcode is generated.
+31-12-24 21:30:34	127.0.0.1	Admin	admin	PRO24_1 - riceeeeeeeeeeee Product is updated.
