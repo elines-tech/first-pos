@@ -20,7 +20,7 @@ class InwardReturn extends CI_Controller
 		if ($this->rights == '') {
 			$this->load->view('errors/norights.php');
 		}
-		$res = $this->GlobalModel->checkActiveSubscription();
+		$res = $this->GlobalModel->checkActiveSubscription(); 
         if ($res == "EXPIRED") {
             redirect('package', 'refresh');
         }

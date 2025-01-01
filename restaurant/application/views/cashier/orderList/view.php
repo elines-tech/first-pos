@@ -94,7 +94,7 @@
 																	<input type="text" id="offerText" name="offerText" class="form-control-line" value="<?= $offerText ?>" readonly>
 																</div>
 															</div>
-															<div class="col-md-6 col-12">
+															<div class="col-md-8 col-12">
 																<div class="form-group mandatory">
 																	<label for="orderStatus"> Remark: </label>
 																	<input type="text" id="remark" name="remark" value="<?= $row->remark ?>" class="form-control-line" required disabled>

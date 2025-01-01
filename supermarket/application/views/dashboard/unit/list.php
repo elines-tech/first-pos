@@ -122,7 +122,7 @@
                                             <div class="form-group row mandatory">
                                                 <label for="Unit-name-column" class="col-md-4 form-label text-nowrap text-left">Conversion Factor</label>
                                                 <div class="col-md-8">
-                                                    <input type="text" id="conversionFactor" class="form-control" onkeypress="return isDecimal(event)" placeholder="Enter Conversion Factor" name="conversionFactor" onchange="checkConversionFactor()" required>
+                                                    <input type="text" id="conversionFactor" class="form-control" onkeypress="return isDecimal(event)" placeholder="Enter Conversion Factor Number" name="conversionFactor" onchange="checkConversionFactor()" required>
                                                 </div>
                                             </div>
                                         </div>

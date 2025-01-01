@@ -337,7 +337,7 @@ class Report extends CI_Controller
 
 		if ($Records) {
 			foreach ($Records->result() as $row) {
-				$actionHtml = '<a href="' . base_url() . 'saleReport/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
+				$actionHtml = '<a id="view" href="' . base_url() . 'saleReport/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				if ($export == 0) {
 					$data[] = array($srno, date('d/m/Y h:i A', strtotime($row->addDate)), $row->code, $row->branchName, $row->tableNumber . ' / ' . $row->zoneName, $row->custName . ' - ' . $row->custPhone, "<span class='badge bg-success'>" . $row->paymentMode . "</span>", $row->grandTotal, $actionHtml);
 				} else {

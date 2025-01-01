@@ -469,6 +469,7 @@ class Order extends CI_Controller
 		if ($cartproductDetails) {
 			$data = array(
 				'name' => $custName,
+				'arabicName' => $custName,
 				'isActive' => 1
 			);
 			$checkCustomer = $this->GlobalModel->selectQuery('customer.code', 'customer', array('customer.isActive' => 1, 'customer.phone' => $custPhone));

@@ -1,0 +1,37 @@
+Dt --> 01-01-25 06:15:07 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 01-01-25 06:39:15 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is logout.
+Dt --> 01-01-25 06:39:23 IP --> 127.0.0.1 LOGIN USER --> USR24_7 ADDED USER --> USR24_7 	USR24_7 Cashier logged in.
+Dt --> 01-01-25 06:40:04 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 01-01-25 02:21:46 IP --> 127.0.0.1 LOGIN USER --> USR24_1 ADDED USER --> USR24_1 	USR24_1 User id is login.
+Dt --> 01-01-25 06:08:26 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+01-01-25 06:08:42	127.0.0.1	CLT25_20	 updated company details after account creation 	
+2025-01-01 18:09:18	127.0.0.1	Admin	admin	PCAT_1 - Pcategory product category is added.
+2025-01-01 18:09:38	127.0.0.1	Admin	admin	PSCT_1 - PScategory product Subcategory is added.
+01-01-25 06:10:12	127.0.0.1	Admin	admin	USR25_1 - admin Profile is updated.
+Dt --> 01-01-25 06:10:20 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 01-01-25 06:10:30 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-01 18:11:46	127.0.0.1	Admin	admin	TAC_1 - tax Tax Rate is updated.
+2025-01-01 18:11:57	127.0.0.1	Admin	admin	TAG_1 - taxgroup Tax Group is added.
+2025-01-01 18:12:25	127.0.0.1	Admin	admin	BR25_1 - branch Branch is added.
+01-01-25 06:13:16	127.0.0.1	Admin	admin	PRO25_1 - برودكت  Product is added.
+2025-01-01 18:13:53	127.0.0.1	Admin	admin	CAT_1 - vict category is added.
+2025-01-01 18:14:22	127.0.0.1	Admin	admin	UOM_1 - unit unit is added.
+2025-01-01 18:15:07	127.0.0.1	Admin	admin	ITEM25_1 - botato item is added.
+01-01-25 06:15:45	127.0.0.1	Admin	admin	SUP25_1 - said Supplier is added.
+2025-01-01 18:16:11	127.0.0.1	Admin	admin	IN25_1 - SUP25_1 of BR25_1 having amount 5000.00 inward is added.
+2025-01-01 18:16:52	127.0.0.1	Admin	admin	1 - out sector zone is added.
+2025-01-01 18:17:03	127.0.0.1	Admin	admin	TAB_1  table is added.
+01-01-25 06:17:53	127.0.0.1	Admin	admin	USR25_2 - cash User is added.
+Dt --> 01-01-25 06:17:58 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 01-01-25 06:18:20 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-01 18:18:37	127.0.0.1	Admin	admin	QUO25_1 quotation is added.
+Dt --> 01-01-25 06:19:04 IP --> 127.0.0.1 LOGIN USER --> USR25_2 ADDED USER --> USR25_2 	USR25_2 Cashier logged in.
+Dt --> 01-01-25 06:19:40 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-01 18:20:21	127.0.0.1	Admin	admin	REC25_1 - PRO25_1 recipe is added.
+Dt --> 01-01-25 06:36:55 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 01-01-25 07:30:32 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 01-01-25 08:34:37 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-01	127.0.0.1	Admin	admin	ACTE_1 - ex1 Account Expense is added.
+2025-01-01 20:53:01	127.0.0.1	Admin	admin	BR25_2 - ggg Branch is added.
+2025-01-01 20:53:23	127.0.0.1	Admin	admin	IN25_2 - BR25_1 of BR25_2 having amount 100.00  is transfer.
+2025-01-01 20:54:20	127.0.0.1	Admin	admin	IN25_2 - BR25_1 of BR25_2 having amount 100.00  is transfer.

@@ -6,7 +6,7 @@ class OrderList extends CI_Controller
 	var $session_key;
 	protected $rolecode,$branchCode;
 	public function __construct()
-	{
+	{ 
 		parent::__construct();
 		$this->load->helper('form', 'url', 'html');
 		$this->load->model('GlobalModel');
@@ -57,7 +57,7 @@ class OrderList extends CI_Controller
 				$paymentMode = "<span class='badge bg-success'>" . $row->paymentMode . "</span>";
 				$actionHtml = '';
 				if ($this->rights != '' && $this->rights['view'] == 1) {
-					$actionHtml = '<a href="' . base_url() . 'orderList/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
+					$actionHtml = '<a id="view" href="' . base_url() . 'orderList/view/' . $row->code . '" class="btn btn-success btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-eye"></i></a>';
 				}
 				$data[] = array(
 					$srno,

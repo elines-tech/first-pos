@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>saleReport/list"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>saleReport/list"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 		</div>
 	</div>
 </nav>
@@ -97,7 +97,7 @@
 											<div class="card-body">
 												<h5 class="float-left">Product Details</h5>
 											</div>
-										  <div class="col-12">
+										  <div class="col-12 p-3">
 											<div class="table-responsive">
 												<table id="datatableOrderDetails" class="table table-striped table-bordered">
 													<thead>

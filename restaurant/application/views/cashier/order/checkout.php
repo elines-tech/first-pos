@@ -108,12 +108,18 @@
 																					<div><span class="mr-2">Qty : <span class="badge bg-success">' . $r->productQty . '</span></span><span class="mr-2">Tax : <span class="badge bg-primary">' . $r->taxAmount . '</span></span></div>
 																					<div class="extra">' . rtrim($extraText, ', ') . '</div>
 																				</div>
-																				<div class="col-md-2 col-6 text-right">
-																					<h6>' . $r->totalPrice . '</h6>
+
+																				<div class="row col-md-3 col-12 d-flex justify-content-end text-end">
+																					<div class="">
+																						<h6>' . $r->totalPrice . '</h6>
+																					</div>
+																					<div class="mb-2">
+																						<a class="btn btn-sm btn-danger" onclick="deleteProduct(' . $r->cartPrdId . ')" id="productRemoveBtn' . $r->cartPrdId . '"><i class="fa fa-times"></i></a>
+																					</div>
 																				</div>
-																				<div class="col-md-1 col-6">
-																					<a class="btn btn-sm btn-danger" onclick="deleteProduct(' . $r->cartPrdId . ')" id="productRemoveBtn' . $r->cartPrdId . '"><i class="fa fa-times"></i></a>
-																				</div>
+
+
+
 																			</div>
 																		</div>	
 																	</li>';

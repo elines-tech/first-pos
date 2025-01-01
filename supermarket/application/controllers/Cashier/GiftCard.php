@@ -142,7 +142,7 @@ class GiftCard extends CI_Controller
 			'addIP' => $ip,
 			'isActive' => 1,
 		);
-		$code = $this->GlobalModel->addNew($data, 'salegiftcard', 'SGC');
+		$code = $this->GlobalModel->addNew($data, 'salegiftcard', 'SGC'); 
 		if ($code != 'false') {
 			for ($i = 0; $i < count($custPhone); $i++) {
 				$barcodeText = $this->GlobalModel->generateCardNo();

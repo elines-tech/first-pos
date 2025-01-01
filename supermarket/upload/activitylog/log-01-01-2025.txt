@@ -1,0 +1,27 @@
+Dt --> 01-01-25 07:32:29 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+01-01-25 07:32:47	127.0.0.1	CLT25_21	 updated company details after account creation 	
+2025-01-01 19:33:12	127.0.0.1	Admin	admin	BRD_1 - adidas brand is added.
+2025-01-01 19:33:21	127.0.0.1	Admin	admin	CAT_1 - category category is added.
+2025-01-01 19:33:34	127.0.0.1	Admin	admin	SCAT_1 - subCategory subcategory is added.
+2025-01-01 19:34:03	127.0.0.1	Admin	admin	TAC_1 - tax Tax Rate is updated.
+2025-01-01 19:34:11	127.0.0.1	Admin	admin	TAG_1 - taxgroup Tax Group is added.
+2025-01-01 19:34:15	127.0.0.1	Admin	admin	TAG_1 - taxgroup Tax Group is updated.
+2025-01-01 19:34:35	127.0.0.1	Admin	admin	 - base base unit is added.
+2025-01-01 19:35:00	127.0.0.1	Admin	admin	BR25_1 - branch Branch is added.
+2025-01-01 19:38:21	127.0.0.1	Admin	admin	UOM_1 - unit unit is added.
+2025-01-01 19:44:56	127.0.0.1	Admin	admin	UOM_2 - gggggggggggggg unit is added.
+2025-01-01 19:45:01	127.0.0.1	Admin	admin	UOM_2 - gggggggggggggg unit is deleted.
+2025-01-01 19:45:31	127.0.0.1	Admin	admin	CO25_1 - counter counter is added.
+01-01-25 07:46:00	127.0.0.1	Admin	admin	USR25_2 - cashier User is added.
+01-01-25 07:46:57	127.0.0.1	Admin	admin	PRO25_1 - برودكت  Product is added.
+01-01-25 07:47:30	127.0.0.1	Admin	admin	SUP25_1 - said Supplier is added.
+2025-01-01 19:48:03	127.0.0.1	Admin	admin	IN25_1 - SUP25_1 of BR25_1 having amount 2040.00 inward is added.
+2025-01-01 19:48:35	127.0.0.1	Admin	admin	BAR25_1 - barcode is generated.
+Dt --> 01-01-25 07:49:41 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 01-01-25 07:49:52 IP --> 127.0.0.1 LOGIN USER --> USR25_2 ADDED USER --> USR25_2 	USR25_2 Cashier logged in.
+Dt --> 01-01-25 07:50:28 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-01 19:58:06	127.0.0.1	Admin	admin	GIC25_1 - gift giftcard is added.
+Dt --> 01-01-25 08:34:12 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 01-01-25 08:34:19 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 01-01-25 08:34:23 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 01-01-25 08:37:15 IP --> 127.0.0.1 LOGIN USER --> USR25_2 ADDED USER --> USR25_2 	USR25_2 Cashier logged in.

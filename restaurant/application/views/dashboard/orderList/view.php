@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light">
 	<div class="container d-block">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>orderList/getOrders"><i class="fa fa-times fa-2x"></i></a></div>
+			<div class="col-12 col-md-6 order-md-1 order-last"><a href="<?php echo base_url(); ?>orderList/getOrders"><i id="exitButton" class="fa fa-times fa-2x"></i></a></div>
 		</div>
 	</div>
 </nav>
@@ -89,7 +89,7 @@
 														<input type="text" id="offerText" name="offerText" class="form-control-line" value="<?= $offerText ?>" readonly>
 													</div>
 												</div>
-												<div class="col-md-6 col-12">
+												<div class="col-md-8 col-12">
 													<div class="form-group mandatory">
 														<label for="orderStatus"> Remark: </label>
 														<input type="text" id="remark" name="remark" value="<?= $row->remark ?>" class="form-control-line" required disabled>
