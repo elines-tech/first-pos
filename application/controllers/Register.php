@@ -1222,6 +1222,7 @@ class Register extends MY_Controller
             `deleteID` varchar(25) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
             `deleteIP` varchar(25) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
             `deleteDate` timestamp(0) NULL DEFAULT NULL,
+            `barcodeText` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
             PRIMARY KEY (`code`) USING BTREE,
             UNIQUE INDEX `id`(`id`) USING BTREE
           ) ENGINE = InnoDB AUTO_INCREMENT = 0 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;";

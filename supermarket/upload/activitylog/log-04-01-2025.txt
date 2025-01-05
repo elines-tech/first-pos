@@ -1,0 +1,4 @@
+Dt --> 04-01-25 09:07:45 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 04-01-25 09:12:06 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 04-01-25 09:12:16 IP --> 127.0.0.1 LOGIN USER --> USR25_2 ADDED USER --> USR25_2 	USR25_2 Cashier logged in.
+Dt --> 04-01-25 09:12:35 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.

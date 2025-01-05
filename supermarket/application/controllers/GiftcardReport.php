@@ -81,7 +81,7 @@ class GiftcardReport extends CI_Controller
                     $row->custPhone,
                     number_format($row->totalPrice, 2, '.', ''),
                     $row->cardCount,
-                    '<a href="' . base_url('giftcardReport/view/' . $row->code) . '" class="btn btn-sm btn-success">View<a>'
+                    '<a id="saveDefaultButton" href="' . base_url('giftcardReport/view/' . $row->code) . '" class="btn btn-sm btn-success">View<a>'
                 );
                 $srno++;
             }

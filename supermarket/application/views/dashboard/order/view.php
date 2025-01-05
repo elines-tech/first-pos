@@ -22,7 +22,7 @@
 						<div class="card-header">
 							<h3>
 								View Order
-								<span class="float-end"><a href="<?= base_url("order/listRecords") ?>" class="btn btn-sm btn-outline-info">Back</a></span>
+								<span class="float-end"><a id="cancelDefaultButton" href="<?= base_url("order/listRecords") ?>" class="btn btn-sm btn-outline-info">Back</a></span>
 							</h3>
 						</div>
 						<div class="card-content">

@@ -98,7 +98,7 @@ class GiftCard extends CI_Controller
 
 	public function saveCardDetails()
 	{
-		$date = date('Y-m-d H:i:s');
+		$date = date('Y-m-d H:i:s'); 
 		$giftCode = $this->input->post("giftCode");
 		$mcardCount = $this->input->post("mcardCount");
 		$mcustPhone = $this->input->post("mcustPhone");
@@ -205,7 +205,7 @@ class GiftCard extends CI_Controller
 				$code = $row->code;
 				$actionHtml = '<form method="post" action="' . base_url() . 'Cashier/giftCard/print">
 				<input type="hidden" class="form-control" name="giftCode" value="' . $row->code . '">
-				<button type="submit" class="btn btn-info btn-sm m-1 cursor_pointer w-100"><i title="Sale History" class="fa fa-print"></i> Print Cards</button></form>';
+				<button type="submit" id="printCards" class="btn btn-info btn-sm m-1 cursor_pointer w-100"><i title="Sale History" class="fa fa-print"></i> Print Cards</button></form>';
 				$data[] = array(
 					$srno,
 					$row->custName,

@@ -49,7 +49,7 @@ class OrderReturn extends CI_Controller
 		if ($fromDate != '' && $toDate != '') {
 			$extraCondition .= " ordermaster.orderDate between '" . $fromDate . " 00:00:00' and '" . $toDate . " 23:59:00'";
 		}
-		//echo $extraCondition;
+		//echo $extraCondition; 
 		
 		$like = array("ordermaster.code" => $search . "~both");
 		$Records = $this->GlobalModel->selectQuery($orderColumns, $tableName, $condition, $orderBy, $join, $joinType, $like, $limit, $offset, $groupByColumn, $extraCondition);
@@ -60,7 +60,7 @@ class OrderReturn extends CI_Controller
 				$actionHtml = "Order Return";
 				$paymentMode = "<span class='badge bg-success'>" . ucwords($row->paymentMode) . "</span>";
 				if ($row->return == false || $row->return == '') {
-					$actionHtml = '<a href="' . base_url() . 'Cashier/OrderReturn/details/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-undo"></i></a>';
+					$actionHtml = '<a id="edit" href="' . base_url() . 'Cashier/OrderReturn/details/' . $row->code . '" class="btn btn-info btn-sm cursor_pointer"><i id="view" title="View" class="fa fa-undo"></i></a>';
 				}
 				$data[] = array(
 					$srno,

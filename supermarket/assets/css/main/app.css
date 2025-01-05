@@ -21236,6 +21236,27 @@ body .bi:before {
 
 
 
+#printCards.btn-info {
+    background-color: #0dcaf0;
+    color: #ffffff;
+    transition: none;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    transition: none;
+}
+
+
+#printCards.btn-info:hover {
+    /*-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);*/
+    transform: none;
+}
+
+
+
 
 #updateBranchBtn.btn-primary {
     background-color: #37B181;
@@ -21732,6 +21753,24 @@ body .bi:before {
     border-radius: 10px;
     transition: none;
 }
+
+#cancelDefaultButton.btn-outline-info {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
+
+#cancelDefaultButton.btn-info{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: none;
+}
+
 
 
 

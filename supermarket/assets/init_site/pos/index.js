@@ -196,14 +196,17 @@ function fetchItemAddOrder(barcode) {
         barcode: barcode,
         tempOrderId: tempOrderId.value,
         customerCode: customerCode.value,
-        customerName: customerName.value,
-        customerPhone: customerPhone.value,
+        //customerName: customerName.value,
+        //customerPhone: customerPhone.value,
+        customerName: newCustomerName.value,
+        customerPhone: newCustomerPhone.value,
       },
       dataType: "JSON",
       beforeSend: function () {
         preloader.show();
       },
       success: function (response) {
+        console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' , response)
         if (response.status === "200") {
           var tempOrder = response.data.order;
           var tempProduct = response.data.product;
@@ -221,7 +224,8 @@ function fetchItemAddOrder(barcode) {
           });
         }
       },
-      error: function () {
+      error: function (response) {
+        console.log('fffffffffffffffffffffffffff' , response)
         swal({ title: "Oops", text: "Cannot add product the cart. Please try with different barcode-product", type: "error", closeOnClickOutside: false }, function (e) {
           if (e) {
             barcodeText.value = null;

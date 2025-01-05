@@ -110,7 +110,7 @@ class Posorder extends REST_Controller
             if (!empty($customer)) {
                 return $this->response(array("status" => "200", "message" => "Customer found and selected successfully", "data" => $customer), 200);
             } else {
-                $transaction = ['name' => $name, "phone" => $phone, "addID" => $userCode];
+                $transaction = ['name' => $name, 'arabicName' => $name , "phone" => $phone, "addID" => $userCode];
                 $this->load->model('GlobalModel');
                 $customer = $this->GlobalModel->addNew($transaction, "customer", "CUST");
                 if ($customer != "false") {

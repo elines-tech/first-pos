@@ -96,22 +96,22 @@ $(document).on("click", "button.btn-new-customer", function (e) {
 
 function push_product_row(product, tempOrder) {
 	var productName = "";
-	var variantText="";
-	if(product.variantName==null || product.variantName==''){}else{
-		var variantText = ' | '+ product.variantName;
+	var variantText = "";
+	if (product.variantName == null || product.variantName == '') { } else {
+		var variantText = ' | ' + product.variantName;
 	}
 	switch (lang) {
 		case "english":
-			productName = `${product.productEngName}`+ variantText;
+			productName = `${product.productEngName}` + variantText;
 			break;
 		case "hindi":
-			productName = `${product.productHinName}`+ variantText;
+			productName = `${product.productHinName}` + variantText;
 			break;
 		case "urdu":
-			productName = `${product.productUrduName}`+ variantText;
+			productName = `${product.productUrduName}` + variantText;
 			break;
 		case "arabic":
-			productName = `${product.productArbName}`+ variantText;
+			productName = `${product.productArbName}` + variantText;
 			break;
 	}
 	var row_id = `${product.barcode}-${product.productCode}-${product.variantCode}`;
@@ -177,8 +177,10 @@ function fetchItemAddOrder(barcode) {
 				barcode: barcode,
 				tempOrderId: tempOrderId.value,
 				customerCode: customerCode.value,
-				customerName: customerName.value,
-				customerPhone: customerPhone.value,
+				//customerName: customerName.value,
+				//customerPhone: customerPhone.value,
+				customerName: newCustomerName.value,
+				customerPhone: newCustomerPhone.value,
 			},
 			dataType: "JSON",
 			success: function (response) {
@@ -224,9 +226,9 @@ $(document).on("click", "button.btn-del-item", function (e) {
 	debugger
 	var item = $(this).data("productid");
 	var tempPrdId = $(this).data("temprowid");
-	var rowCount = $('#productTable tr').length -1;
+	var rowCount = $('#productTable tr').length - 1;
 	var conText = '';
-	if(rowCount==1){
+	if (rowCount == 1) {
 		var conText = "Once delete, you will not be able to recover the order again!";
 	}
 	swal(
@@ -256,7 +258,7 @@ $(document).on("click", "button.btn-del-item", function (e) {
 					success: function (response) {
 						$(".preloader").hide();
 						if (response.status === "200") {
-							$('#tmp-row-'+item).remove();
+							$('#tmp-row-' + item).remove();
 							toastr.success(response.message, "Success", { progressBar: true });
 						} else {
 							toastr.error(response.message, "Error", { progressBar: true });
@@ -460,7 +462,7 @@ function placeOrder(paymentMode) {
 				$(".preloader").show();
 			},
 			success: function (response) {
-				
+
 				if (response.status === "200") {
 					const title = `Success #${response.txnId}`;
 					toastr.success(response.message, title, { progressBar: true, positionClass: "toast-top-center" });

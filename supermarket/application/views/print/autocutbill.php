@@ -18,11 +18,11 @@
         $branchHeader = $branch['receiptHead'];
         $receiptFooter = $branch['receiptFoot'];
     }
-    if (!empty($order)) {
+    if (!empty($order)) { 
     ?>
         <div style="width:100%;margin:0 auto;text-align:center;margin:15px;" id="btn-block">
-            <button type="button" id="print" style="background:#1b3da5;color:#FFFFFF;font-size:15px;padding:5px 15px">Print</button>
-            <button type="button" id="back" style="background:#525356;color:#FFFFFF;font-size:15px;padding:5px 15px">Back</button>
+            <button type="button" id="print" style="background-color: #37B181;color: #ffffff;transition: none;margin-right: 10px;border: none;border-radius: 10px; padding:15px">Print</button>
+            <button type="button" id="back" style="background-color: red;color: #ffffff;transition: none;margin-right: 10px;border: none;border-radius: 10px; padding:15px">Back</button>
         </div>
         <div id="posbill-wrap">
             <div id="inv-header">

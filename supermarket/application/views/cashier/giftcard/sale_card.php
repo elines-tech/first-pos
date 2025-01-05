@@ -133,7 +133,7 @@
 									</div>
 									<div class="row">
 										<div class="col-12 d-flex justify-content-end">
-											<button type="submit" class="btn btn-primary white me-2 mb-1 sub_1" id="saveCardBtn">Save</button>
+											<button type="submit" class="btn btn-primary" id="saveCardBtn">Save</button>
 										</div>
 									</div>
 								</div>
@@ -298,7 +298,7 @@
 			var custPhone = $('input[name="custPhone[]"]').map(function() {
 				return this.value;
 			}).get();
-			if (hasEmptyElement(custName) && hasEmptyElement(custEmail) && hasEmptyElement(cardNo) && hasEmptyElement(custPhone)) {
+			if (hasEmptyElement(custName) && hasEmptyElement(custEmail) && /*hasEmptyElement(cardNo) &&*/ hasEmptyElement(custPhone)) {
 				formData.append('giftCode', giftCode);
 				formData.append('mcustName', mcustName);
 				formData.append('mcountryCode', mcountryCode);

@@ -28,7 +28,7 @@
                                  <h5>Gift Sell Card Details</h5>
                              </div>
                              <div class="col-12 col-md-6 text-end">
-                                 <a href="<?= base_url('giftcardReport/list') ?>" class="btn btn-sm btn-info">Back</a>
+                                 <a id="cancelDefaultButton" href="<?= base_url('giftcardReport/list') ?>" class="btn btn-sm btn-info">Back</a>
                              </div>
                          </div>
                          <div class="row mt-3">

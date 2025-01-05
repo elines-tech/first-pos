@@ -21,7 +21,7 @@
 
 					<div class="card">
 						<div class="card-header">
-							<h3>Order Return<span style="float:right"><a style="cursor:pointer;" class="btn btn-sm btn-primary totalOrderReturn">Total Order Return</a></span></h3>
+							<h3>Order Return<span style="float:right"><a id="saveDefaultButton" style="cursor:pointer;" class="btn btn-sm btn-primary totalOrderReturn">Total Order Return</a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -148,7 +148,7 @@
 
 												<div class="row">
 													<div class="col-12 d-flex justify-content-end">
-														<button type="submit" class="btn btn-success white me-1 mb-1 sub_1" id="saveReturnBtn">Order Return</button>
+														<button type="submit" class="btn btn-success" id="saveReturnBtn">Order Return</button>
 
 													</div>
 												</div>
