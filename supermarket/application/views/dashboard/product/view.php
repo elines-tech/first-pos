@@ -23,12 +23,17 @@
         forn-weight: bold
     }
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
+
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Product</h3>
+                    <h3><?php echo $translations['Product']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -46,7 +51,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>View Product<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>product/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+                            <h3><?php echo $translations['View Product']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>product/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -60,12 +65,12 @@
 
 
                                                 <div class="form-group col-md-6 col-12 mandatory">
-                                                    <label for="product-arabic-name" class="form-label">Arabic Name</label>
+                                                    <label for="product-arabic-name" class="form-label"><?php echo $translations['Arabic Name']?></label>
                                                     <input type="text" id="product-arabic-name" class="form-control" disabled placeholder="Arabic Name" name="product-arabic-name" readonly value="<?= $productData[0]['productArbName'] ?>">
                                                 </div>
 
                                                 <div class="form-group col-md-6 col-12 mandatory">
-                                                    <label for="product-english-name" class="form-label">English Name</label>
+                                                    <label for="product-english-name" class="form-label"><?php echo $translations['English Name']?></label>
                                                     <input type="text" id="product-english-name" class="form-control" disabled placeholder="Product Name" name="product-english-name" data-parsley-required="true" value="<?= $productData[0]['productEngName'] ?>">
                                                 </div>
 
@@ -75,13 +80,13 @@
                                             <div class="row col-md-12 col-12">
 
                                                 <div class="form-group col-md-6 col-12">
-                                                    <label for="desc-column" class="form-label">Arabic Description</label>
+                                                    <label for="desc-column" class="form-label"><?php echo $translations['Arabic Description']?></label>
                                                     <textarea class="form-control" placeholder="Product Arabic Description" disabled id="product-arabic-description" name="product-arabic-description" maxlength='2000' readonly><?= $productData[0]['productArbDesc'] ?></textarea>
                                                 </div>
 
 
                                                 <div class="form-group col-md-6 col-12">
-                                                    <label for="desc-column" class="form-label">English Description</label>
+                                                    <label for="desc-column" class="form-label"><?php echo $translations['English Description']?></label>
                                                     <textarea class="form-control" placeholder="Product English Description" disabled id="product-english-description" name="product-english-description" maxlength='2000' readonly><?= $productData[0]['productEngDesc'] ?></textarea>
                                                 </div>
                                             </div>
@@ -95,12 +100,12 @@
                                             <div class="row col-md-12 col-12">
 
                                                 <div class="form-group col-md-6 col-12 mandatory">
-                                                    <label for="product-hindi-name" class="form-label">Hindi</label>
+                                                    <label for="product-hindi-name" class="form-label"><?php echo $translations['Hindi']?></label>
                                                     <input type="text" id="product-hindi-name" class="form-control" disabled placeholder="Hindi Name" name="product-hindi-name" readonly value="<?= $productData[0]['productHinName'] ?>">
                                                 </div>
 
                                                 <div class="form-group col-md-6 col-12 mandatory">
-                                                    <label for="product-urdu-name" class="form-label">Urdu</label>
+                                                    <label for="product-urdu-name" class="form-label"><?php echo $translations['Urdu']?></label>
                                                     <input type="text" id="product-urdu-name" class="form-control" disabled placeholder="Urdu Name" name="product-urdu-name" readonly value="<?= $productData[0]['productUrduName'] ?>">
                                                 </div>
 
@@ -111,12 +116,12 @@
 
                                             <div class="row col-md-12 col-12">
                                                 <div class="form-group col-md-6 col-12">
-                                                    <label for="desc-column" class="form-label">Hindi Description</label>
+                                                    <label for="desc-column" class="form-label"><?php echo $translations['Hindi Description']?></label>
                                                     <textarea class="form-control" placeholder="Product Hindi Description" disabled id="product-hindi-description" name="product-hindi-description" maxlength='2000' readonly><?= $productData[0]['productHinDesc'] ?></textarea>
                                                 </div>
 
                                                 <div class="form-group col-md-6 col-12">
-                                                    <label for="desc-column" class="form-label">Urdu Description</label>
+                                                    <label for="desc-column" class="form-label"><?php echo $translations['Urdu Description']?></label>
                                                     <textarea class="form-control" placeholder="Product Urdu Description" disabled id="product-urdu-description" name="product-urdu-description" maxlength='2000' readonly><?= $productData[0]['productUrduDesc'] ?></textarea>
                                                 </div>
                                             </div>
@@ -138,12 +143,12 @@
                                             <div class="row col-md-12 col-12">
 
                                                 <div class="form-group col-md-6 col-12 mandatory">
-                                                    <label for="productprice" class="form-label">SKU</label>
+                                                    <label for="productprice" class="form-label"><?php echo $translations['SKU']?></label>
                                                     <input type="text" class="form-control" name="productsku" id="productsku" disabled value="<?= $productData[0]['sku'] ?>">
                                                 </div>
 
                                                 <div class="form-group col-md-6 col-12">
-                                                    <label for="productprice" class="form-label">Alert Quantity</label>
+                                                    <label for="productprice" class="form-label"><?php echo $translations['Alert Quantity']?></label>
                                                     <input type="text" min="1" class="form-control" name="alertQty" id="alertQty" disabled value="<?= $productData[0]['alertQty'] ?>">
                                                 </div>
 
@@ -163,7 +168,7 @@
 
                                             <div class="row col-md-12 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="productprice" class="form-label">Tax Group</label>
+                                                    <label for="productprice" class="form-label"><?php echo $translations['Tax Group']?></label>
                                                     <select class="form-select select2" disabled name="producttaxgroup" id="producttaxgroup">
                                                         <option value="">Select Tax Group</option>
                                                         <?php if ($taxGroupData) {
@@ -181,7 +186,7 @@
                                         </div>
 
                                         <div class="checkbox mb-5 form-check mandatory mt-2 col-md-12 col-12 d-flex justify-content-center text-center">
-                                            <label for="checkbox1 mr-2">Status</label>
+                                            <label for="checkbox1 mr-2"><?php echo $translations['Status']?></label>
                                             <?php if ($productData[0]['isActive'] == 1) {
                                                 echo " <span class='badge bg-success'>Active</span>";
                                             } else {
@@ -198,7 +203,7 @@
                                                 <div class="card-body">
                                                     <div class="col-md-12 col-sm-6 col-xs-6">
                                                         <div class="form-group mandatory">
-                                                            <label for="productbrand">Product Brand</label>
+                                                            <label for="productbrand"><?php echo $translations['Product Brand']?></label>
                                                             <select class="form-select select2" disabled name="productbrand" id="productbrand" data-parsley-required="true" data-parsley-required-message="Product Brand is required.">
                                                                 <option value="">Select </option>
                                                                 <?php if ($branddata) {
@@ -210,7 +215,7 @@
                                                             </select>
                                                         </div>
                                                         <div class="form-group mandatory">
-                                                            <label for="productcategory">Product Category</label>
+                                                            <label for="productcategory"><?php echo $translations['Product Category']?></label>
                                                             <select class="form-select select2" name="productcategory" style="width:100%" id="productcategory" disabled>
                                                                 <option value="">Select Category</option>
                                                                 <?php if ($categorydata) {
@@ -223,14 +228,14 @@
                                                         </div>
 
                                                         <div class="form-group mandatory">
-                                                            <label for="productsubcategory">Product Subcategory</label>
+                                                            <label for="productsubcategory"><?php echo $translations['Product Subcategory']?></label>
                                                             <input type="hidden" class="form-control" id="dbproductsubcategory" name="dbproductsubcategory" value="<?= $productData[0]['productSubcategory'] ?>">
                                                             <select class="form-select select2" style="width:100%" disabled name="productsubcategory" id="productsubcategory" data-parsley-required="true" data-parsley-required-message="Product Subcategory is required.">
                                                                 <option value="">Select </option>
                                                             </select>
                                                         </div>
                                                         <div class="form-group mandatory">
-                                                            <label for="productcategory">Product Unit</label>
+                                                            <label for="productcategory"><?php echo $translations['Product Unit']?></label>
                                                             <select class="form-select select2" name="productUnit" disabled id="productUnit" data-parsley-required="true" data-parsley-required-message="Product Unit is required.">
                                                                 <option value="">Select </option>
                                                                 <?php if ($unitdata) {
@@ -249,7 +254,7 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                             <div class="card card-custom gutter-b bg-white border-0">
                                                 <div class="card-body">
-                                                    <h3 class="mt-0 header-title lng">Product Images</h3>
+                                                    <h3 class="mt-0 header-title lng"><?php echo $translations['Product Images']?></h3>
 
                                                     <div class="col-md-12 text-center col-sm-12 col-xs-12 mb-2 p-0">
                                                         <?php if ($productData[0]['productImage'] != "") { ?>

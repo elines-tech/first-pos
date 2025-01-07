@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Product</h3>
+                    <h3><?php echo $translations['Product']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Add Product<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>product/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+                            <h3><?php echo $translations['Add Product']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>product/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -42,14 +44,14 @@
                                                 <div class="col-md-12 row col-12">
 
                                                     <div class="form-group col-md-6 col-12 mandatory">
-                                                        <label for="product-arabic-name" class="form-label">Arabic Name</label>
+                                                        <label for="product-arabic-name" class="form-label"><?php echo $translations['Arabic Name']?></label>
                                                         <input type="text" id="product-arabic-name" value="<?= set_value('product-arabic-name') ?>" class="form-control" placeholder="Arabic Name" name="product-arabic-name" data-parsley-required="true">
                                                     </div>
                                                     <?php echo form_error('product-arabic-name', '<span class="error text-danger text-right">', '</span>'); ?>
 
 
                                                     <div class="form-group col-md-6 col-12 mandatory">
-                                                        <label for="product-english-name" class="form-label">English Name</label>
+                                                        <label for="product-english-name" class="form-label"><?php echo $translations['English Name']?></label>
                                                         <input type="text" value="<?= set_value('product-english-name') ?>" id="product-english-name" class="form-control" placeholder="Product Name" name="product-english-name" data-parsley-required="true">
                                                     </div>
                                                     <?php echo form_error('product-english-name', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -60,14 +62,14 @@
                                                 <div class="row col-md-12 col-12">
 
                                                     <div class="form-group col-md-6 col-12 mandatory">
-                                                        <label for="product-hindi-name">Hindi</label>
+                                                        <label for="product-hindi-name"><?php echo $translations['Hindi']?></label>
                                                         <input type="text" id="product-hindi-name" class="form-control" value="<?= set_value('product-hindi-name') ?>" placeholder="Hindi Name" name="product-hindi-name">
                                                     </div>
                                                     <?php echo form_error('product-hindi-name', '<span class="error text-danger text-right">', '</span>'); ?>
 
 
                                                     <div class="form-group col-md-6 col-12 mandatory">
-                                                        <label for="product-urdu-name">Urdu</label>
+                                                        <label for="product-urdu-name"><?php echo $translations['Urdu']?></label>
                                                         <input type="text" id="product-urdu-name" class="form-control" placeholder="Urdu Name" name="product-urdu-name" value="<?= set_value('product-urdu-name') ?>">
                                                     </div>
                                                     <?php echo form_error('product-urdu-name', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -79,13 +81,13 @@
                                                 <div class="row col-md-12 col-12">
 
                                                     <div class="form-group col-md-6 col-12">
-                                                        <label for="desc-column" class="form-label">Arabic Description</label>
+                                                        <label for="desc-column" class="form-label"><?php echo $translations['Arabic Description']?></label>
                                                         <textarea class="form-control summernote" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= set_value('product-arabic-description') ?></textarea>
                                                     </div>
                                                     <?php echo form_error('product-arabic-description', '<span class="error text-danger text-right">', '</span>'); ?>
 
                                                     <div class="form-group col-md-6 col-12">
-                                                        <label for="desc-column" class="form-label">English Description</label>
+                                                        <label for="desc-column" class="form-label"><?php echo $translations['English Description']?></label>
 
                                                         <textarea class="form-control summernote" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= set_value('product-english-description') ?></textarea>
                                                     </div>
@@ -97,14 +99,14 @@
                                                 <div class="row col-md-12 col-12">
 
                                                     <div class="form-group col-md-6 col-12">
-                                                        <label for="desc-column" class="form-label">Hindi Description</label>
+                                                        <label for="desc-column" class="form-label"><?php echo $translations['Hindi Description']?></label>
                                                         <textarea class="form-control summernote" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= set_value('product-hindi-description') ?></textarea>
                                                     </div>
                                                     <?php echo form_error('product-hindi-description', '<span class="error text-danger text-right">', '</span>'); ?>
 
 
                                                     <div class="form-group col-md-6 col-12">
-                                                        <label for="desc-column" class="form-label">Urdu Description</label>
+                                                        <label for="desc-column" class="form-label"><?php echo $translations['Urdu Description']?></label>
                                                         <textarea class="form-control summernote" placeholder="Product Urdu Description" id="product-urdu-description" name="product-urdu-description" maxlength='2000' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= set_value('product-urdu-description') ?></textarea>
                                                     </div>
                                                     <?php echo form_error('product-urdu-description', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -123,12 +125,12 @@
                                                 <div class="row col-md-12 col-12">
 
                                                     <div class="form-group col-md-6 col-12">
-                                                        <label for="productprice" class="form-label">SKU</label>
+                                                        <label for="productprice" class="form-label"><?php echo $translations['SKU']?></label>
                                                         <input type="text" class="form-control" name="productsku" id="productsku" value="<?= set_value('productsku') ?>">
                                                     </div>
 
                                                     <div class="form-group col-md-6 col-12">
-                                                        <label for="productprice" class="form-label">Alert Quantity</label>
+                                                        <label for="productprice" class="form-label"><?php echo $translations['Alert Quantity']?></label>
                                                         <input type="text" min="1" class="form-control" name="alertQty" id="alertQty" onkeypress="return isDecimal(event)" value="0">
                                                     </div>
 
@@ -146,7 +148,7 @@
 
                                                 <div class="col-md-12 row mb-2 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="productprice" class="form-label">Tax Group</label>
+                                                        <label for="productprice" class="form-label"><?php echo $translations['Tax Group']?></label>
                                                         <select class="form-select select2" name="producttaxgroup" style="width:100%" id="producttaxgroup" data-parsley-required="true" data-parsley-required-message="Product Tax Group is required.">
                                                         </select>
                                                     </div>
@@ -160,14 +162,14 @@
 
                                                 <div class="form-check col-md-6 col-12 mandatory">
                                                     <div class="checkbox form-check col-md-6 col-12 mandatory">
-                                                        <label for="checkbox1">Status</label>
+                                                        <label for="checkbox1"><?php echo $translations['Status']?></label>
                                                         <input type="checkbox" id="isActive" class="form-check-input" name="isActive">
                                                     </div>
                                                 </div>
 
                                                 <div class="form-check col-md-6 col-12 mandatory">
                                                     <div class="checkbox form-check col-md-6 col-12 mandatory">
-                                                        <label for="checkbox1">has Variants?</label>
+                                                        <label for="checkbox1"><?php echo $translations['has Variants?']?></label>
                                                         <input type="checkbox" id="isVariants" class="form-check-input" name="isVariants">
                                                     </div>
                                                 </div>
@@ -190,7 +192,7 @@
 
 
                                                             <div class="form-group mandatory">
-                                                                <label for="productbrand" class="form-label">Product Brand </label>
+                                                                <label for="productbrand" class="form-label"><?php echo $translations['Product Brand']?></label>
                                                                 <!--<a id="smallButton" class="add_brand m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>-->
                                                                 <select class="form-select select2" style="width:100%" name="productbrand" id="productbrand" data-parsley-required="true" data-parsley-required-message="Product Brand is required.">
 
@@ -199,7 +201,7 @@
 
 
                                                             <div class="form-group mandatory">
-                                                                <label for="productcategory" class="form-label">Product Category</label>
+                                                                <label for="productcategory" class="form-label"><?php echo $translations['Product Category']?></label>
                                                                 <!--<a id="smallButton" class="add_category m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>-->
                                                                 <select class="form-select select2" style="width:100%" name="productcategory" id="productcategory" data-parsley-required="true" data-parsley-required-message="Product Category is required.">
 
@@ -208,7 +210,7 @@
 
 
                                                             <div class="form-group">
-                                                                <label for="productsubcategory" class="form-label">Product Subcategory</label>
+                                                                <label for="productsubcategory" class="form-label"><?php echo $translations['Product Subcategory']?></label>
                                                                 <!--<a id="smallButton" class="add_subcategory m-1"><i class="fa fa-plus-circle cursor_pointer" style="font-size:25px;"></i></a>-->
                                                                 <!--<input type="hidden" class="form-control" id="dbproductsubcategory" name="dbproductsubcategory" value="">-->
                                                                 <select class="form-select select2" style="width:100%" name="productsubcategory" id="productsubcategory">
@@ -218,7 +220,7 @@
 
 
                                                             <div class="form-group mandatory">
-                                                                <label for="productunit" class="form-label">Product Unit</label>
+                                                                <label for="productunit" class="form-label"><?php echo $translations['Product Unit']?></label>
                                                                 <select class="form-select select2" style="width:100%" name="productUnit" id="productUnit" data-parsley-required="true" data-parsley-required-message="Product Unit is required.">
 
                                                                 </select>
@@ -232,7 +234,7 @@
                                             <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                                 <div class="card card-custom gutter-b bg-white border-0">
                                                     <div class="card-body">
-                                                        <h3 class="mt-0 header-title lng">Product Image</h3>
+                                                        <h3 class="mt-0 header-title lng"><?php echo $translations['Product Image']?></h3>
 
                                                         <div class="col-md-12 col-sm-12 col-xs-12 mb-2 p-0 text-center">
                                                             <img class="img-thumbnail mb-2" width="120px" id="logo_icon" data-src="<?= base_url("assets/images/bgfood.png") ?>" src="<?= base_url("assets/images/bgfood.png") ?>" data-src="">
@@ -245,8 +247,8 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button id="saveDefaultButton" type="submit" class="btn btn-success white">Save</button>
-                                                <button id="cancelDefaultButton" type="reset" class="btn btn-light-secondary">Reset</button>
+                                                <button id="saveDefaultButton" type="submit" class="btn btn-success white"><?php echo $translations['Save']?></button>
+                                                <button id="cancelDefaultButton" type="reset" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
                                             </div>
                                         </div>
                                     </div>

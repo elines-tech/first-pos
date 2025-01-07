@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Product</h3>
+                    <h3><?php echo $translations['Product']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +34,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Product List</h5>
+                            <h5><?php echo $translations['Product List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -41,17 +43,17 @@
                         <table class="table table-striped" id="dataTable-Product" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>Sr no</th>
-                                    <th>Code</th>
-                                    <th>SKU</th>
-                                    <th>Brand</th>
-                                    <th>Category</th>
-                                    <th>Subcategory</th>
-                                    <th>Product Name</th>
-                                    <th>Unit</th>
-                                    <th>Photo</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
+                                    <th><?php echo $translations['Sr No']?></th>
+                                    <th><?php echo $translations['Code']?></th>
+                                    <th><?php echo $translations['SKU']?></th>
+                                    <th><?php echo $translations['Brand']?></th>
+                                    <th><?php echo $translations['Category']?></th>
+                                    <th><?php echo $translations['Subcategory']?></th>
+                                    <th><?php echo $translations['Product Name']?></th>
+                                    <th><?php echo $translations['Unit']?></th>
+                                    <th><?php echo $translations['Photo']?></th>
+                                    <th><?php echo $translations['Status']?></th>
+                                    <th><?php echo $translations['Action']?></th>
                                 </tr>
                             </thead>
                             <tbody>

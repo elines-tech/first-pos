@@ -14,6 +14,8 @@ if ($unitmaster) {
 	</div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
+
 
 <div class="container">
 	<section id="multiple-column-form" class="mt-5">
@@ -21,7 +23,7 @@ if ($unitmaster) {
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="card-title">Add Transfer</h3>
+						<h3 class="card-title"><?php echo $translations['Add Transfer']?></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -38,7 +40,7 @@ if ($unitmaster) {
 								
 									<div class="col-md-12 col-sm-12 col-xs-12 mb-3">
 										<div class="form-group mandatory">
-											<label class="form-label">Date</label>
+											<label class="form-label"><?php echo $translations['Date']?></label>
 											<input type="date" class="form-control bg-white" name="transferDate" id="transferDate" value="<?= date('Y-m-d') ?>">
 										</div>
 									</div>
@@ -46,7 +48,7 @@ if ($unitmaster) {
 
 									<div class="col-md-6 col-sm-12 col-xs-12 mb-3">
 										<div class="form-group mandatory">
-											<label class="form-label">From Branch</label>
+											<label class="form-label"><?php echo $translations['From Branch']?></label>
 											<div class="col-md-12 col-sm-12 col-xs-12">
 												<input type="hidden" class="form-control" id="transferCode" name="transferCode">
 												<select class="form-select select2" name="fromBranch" id="fromBranch" data-parsley-required="true" style="width:100%" required>
@@ -60,7 +62,7 @@ if ($unitmaster) {
 
 									<div class="col-md-6 col-sm-12 col-xs-12 mb-3">
 										<div class="form-group mandatory">
-											<label class="form-label">To Branch</label>
+											<label class="form-label"><?php echo $translations['To Branch']?></label>
 											<div class="col-md-12 col-sm-12 col-xs-12">
 												<select class="form-select select2" name="toBranch" id="toBranch" data-parsley-required="true" required>
 
@@ -80,12 +82,12 @@ if ($unitmaster) {
 								<table class="table table-bordered table-hover" id="transferTable">
 									<thead>
 										<tr>
-											<th class="text-center">Item Name<i class="text-danger">*</i></th>
-											<th class="text-center">Price<i class="text-danger">*</i></th>
-											<th class="text-center">Qty<i class="text-danger">*</i></th>
-											<th class="text-center">UOM</th>
-											<th class="text-center">Sub Total</th>
-											<th class="text-center">Action</th>
+											<th class="text-center"><?php echo $translations['Item Name']?><i class="text-danger">*</i></th>
+											<th class="text-center"><?php echo $translations['Price']?><i class="text-danger">*</i></th>
+											<th class="text-center"><?php echo $translations['Qty']?><i class="text-danger">*</i></th>
+											<th class="text-center"><?php echo $translations['UOM']?></th>
+											<th class="text-center"><?php echo $translations['Sub Total']?></th>
+											<th class="text-center"><?php echo $translations['Action']?></th>
 										</tr>
 									</thead>
 									<tbody id="table_rows">
@@ -124,17 +126,17 @@ if ($unitmaster) {
 								<div class="row">
 									<div class="col-md-4 offset-md-8 col-12">
 										<div class="form-group mandatory">
-											<label for="" class="form-label">Total</label>
+											<label for="" class="form-label"><?php echo $translations['Total']?></label>
 											<input type="number" step="0.01" id="total" class="form-control" name="total" required readonly>
 										</div>
 									</div>
 									<div class="col-12 d-flex justify-content-end">
 
 										<?php if ($insertRights == 1) { ?>
-											<button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
-											<button type="submit" class="btn btn-success" id="saveTransferBtn">Transfer</button>
+											<button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1"><?php echo $translations['Save & Approve']?></button>
+											<button type="submit" class="btn btn-success" id="saveTransferBtn"><?php echo $translations['Transfer']?></button>
 										<?php } ?>
-										<a href="<?php echo base_url(); ?>Transfer/listRecords" class="btn btn-light-secondary" id="cancelTransferBtn">Close</a>
+										<a href="<?php echo base_url(); ?>Transfer/listRecords" class="btn btn-light-secondary" id="cancelTransferBtn"><?php echo $translations['Close']?></a>
 									</div>
 								</div>
 							</form>

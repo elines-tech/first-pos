@@ -11,12 +11,15 @@
 		float: right;
 	}
 </style>
+
+<?php include '../restaurant/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Sale Report</h3>
+					<h3><?php echo $translations['Sale Report']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -34,7 +37,7 @@
 				<div class="card-header">
 					<div class="row">
 						<div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-							<h5>Filter</h5>
+							<h5><?php echo $translations['Filter']?></h5>
 						</div>
 					</div>
 					<hr>
@@ -42,7 +45,7 @@
 
 
 						<div class="col-md-4">
-							<label class="form-label lng">Order</label>
+							<label class="form-label lng"><?php echo $translations['Order']?></label>
 							<div class="form-group mandatory">
 
 								<select class="form-select select2" name="orderCode" id="orderCode">
@@ -54,7 +57,7 @@
 
 
 						<div class="col-md-4">
-							<label class="form-label lng">Branch</label>
+							<label class="form-label lng"><?php echo $translations['Branch']?></label>
 							<div class="form-group mandatory">
 								<?php if ($branchCode != "") { ?>
 									<input type="hidden" class="form-control" name="branch" id="bCode" value="<?= $branchCode; ?>" readonly>
@@ -70,7 +73,7 @@
 
 
 						<div class="col-md-4">
-							<label class="form-label lng">Table</label>
+							<label class="form-label lng"><?php echo $translations['Table']?></label>
 							<div class="form-group mandatory">
 								<select class="form-select select2" name="tableCode" id="tableCode">
 									<option value="">Select </option>
@@ -86,8 +89,8 @@
 
 						<div class="col-md-12 d-flex justify-content-center">
 							<div class="d-flex mt-4">
-								<button type="button" class="btn btn-success" id="btnSearch">Search</button>
-								<button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+								<button type="button" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+								<button type="reset" class="btn btn-light-secondary" id="btnClear"><?php echo $translations['Clear']?></button>
 							</div>
 						</div>
 					</div>
@@ -98,15 +101,15 @@
 					<table class="table table-striped" id="datatableTable">
 						<thead>
 							<tr>
-								<th>Sr No</th>
-								<th>Order Date</th>
-								<th>Order Code</th>
-								<th>Branch Name</th>
-								<th>Table</th>
-								<th>Customer</th>
-								<th>Payment Mode</th>
-								<th>Grand Total</th>
-								<th>Action</th>
+								<th><?php echo $translations['Sr No']?></th>
+								<th><?php echo $translations['Order Date']?></th>
+								<th><?php echo $translations['Order Code']?></th>
+								<th><?php echo $translations['Branch Name']?></th>
+								<th><?php echo $translations['Table']?></th>
+								<th><?php echo $translations['Customer']?></th>
+								<th><?php echo $translations['Payment Mode']?></th>
+								<th><?php echo $translations['Grand Total']?></th>
+								<th><?php echo $translations['Action']?></th>
 							</tr>
 						</thead>
 					</table>

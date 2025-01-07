@@ -1,0 +1,4 @@
+Dt --> 07-01-25 02:22:50 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:22:59 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is logout.
+Dt --> 07-01-25 08:23:48 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-07 20:51:10	127.0.0.1	Admin	admin	SCAT_2 - eeeeeeeeeeeeeee subcategory is added.

@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Product Variants</h3>
+                    <h3><?php echo $translations['Product Variants']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -22,11 +24,11 @@
                         <div class="card">
                             <div class="card-header">
                                 <h3>
-                                    Product Variants
+                                    <?php echo $translations['Product Variants']?>
                                     <?php if ($productData) {
                                         foreach ($productData->result() as $row) {  ?>
                                             <span class="float-end">
-                                                <a id="cancelDefaultButton" type="button" href="<?= base_url() ?>product/edit/<?= $row->code ?>" class="btn btn-sm btn-primary m-1">Back</a>
+                                                <a id="cancelDefaultButton" type="button" href="<?= base_url() ?>product/edit/<?= $row->code ?>" class="btn btn-sm btn-primary m-1"><?php echo $translations['Back']?></a>
                                             </span>
                                     <?php }
                                     } ?>
@@ -48,7 +50,7 @@
                                                     <div class="form-row">
                                                         <div class="col-md-12 col-12">
                                                             <div class="form-group text-center">
-                                                                <label for="product-name" class="form-label">Product Name</label>
+                                                                <label for="product-name" class="form-label"><?php echo $translations['Product Name']?></label>
                                                                 <input type="text" id="product-name" class="form-control" placeholder="Product Name" name="product-name" value="<?= $row->productEngName ?>" readonly>
                                                                 <input type="hidden" id="productCode" name="productCode" value="<?= $row->code ?>" class="form-control-line" readonly>
                                                             </div>
@@ -60,10 +62,10 @@
                                         <table class="table table-hover" id="variantsTable">
                                             <thead>
                                                 <tr>
-                                                    <th class="text-center">Variants SKU</th>
-                                                    <th class="text-center">Variants Name<i class="text-danger">*</i></th>
-                                                    <th class="text-center">Status<i class="text-danger">*</i></th>
-                                                    <th class="text-center" style="width:40px;">Action</th>
+                                                    <th class="text-center"><?php echo $translations['Variants SKU']?></th>
+                                                    <th class="text-center"><?php echo $translations['Variants Name']?><i class="text-danger">*</i></th>
+                                                    <th class="text-center"><?php echo $translations['Status']?><i class="text-danger">*</i></th>
+                                                    <th class="text-center" style="width:40px;"><?php echo $translations['Action']?></th>
                                                 </tr>
                                             </thead>
                                             <tbody id="table-rows">
@@ -85,7 +87,7 @@
                                                                     <input type="hidden" name="isActive[]" id="tisActive<?= $i ?>" value="<?= $co['isActive'] == 1 ? 1 : 0 ?>" readonly>
                                                                     <input class="form-check-input" type="checkbox" id="isActive<?= $i ?>" <?= $co['isActive'] == 1 ? "checked" : "" ?>>
                                                                     <label class="form-check-label" for="isActive<?= $i ?>">
-                                                                        Active
+                                                                        <?php echo $translations['Active']?>
                                                                     </label>
                                                                 </div>
                                                             </td>
@@ -111,8 +113,8 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success" id="saveProductExtras">Save</button>
-                                                <button type="reset" class="btn btn-light-secondary" id="cancelProductExtras">Reset</button>
+                                                <button type="submit" class="btn btn-success" id="saveProductExtras"><?php echo $translations['Save']?></button>
+                                                <button type="reset" class="btn btn-light-secondary" id="cancelProductExtras"><?php echo $translations['Reset']?></button>
                                             </div>
                                         </div>
                                     </form>

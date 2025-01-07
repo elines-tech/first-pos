@@ -10,8 +10,10 @@
     </div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
 
-<div class="container">
+
+<div class="container"> 
 
     <!-- // Basic multiple Column Form section start -->
     <section id="multiple-column-form" class="mt-5">
@@ -19,7 +21,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Product Extras</h3>
+                        <h3 class="card-title"><?php echo $translations['Product Extras']?></h3>
                     </div>
                     <div class="card-content">
                         <div class="card-body">
@@ -35,9 +37,9 @@
                                     <?php if ($productData) {
                                         foreach ($productData->result() as $row) {  ?>
                                             <div class="form-row">
-                                                <div class="col-md-7 col-12">
+                                                <div class="col-md-12 col-12">
                                                     <div class="form-group">
-                                                        <label for="product-name" class="form-label">Product Name</label>
+                                                        <label for="product-name" class="form-label"><?php echo $translations['Product Name']?></label>
                                                         <input type="text" id="product-name" class="form-control" placeholder="Product Name" name="product-name" value="<?= $row->productEngName ?>" readonly>
                                                         <input type="hidden" id="productCode" name="productCode" value="<?= $row->code ?>" class="form-control-line" readonly>
                                                     </div>
@@ -49,12 +51,12 @@
                                 <table class="table table-bordered table-hover" id="extrasTable">
                                     <thead>
                                         <tr>
-                                            <th class="text-center">Item Name<i class="text-danger">*</i></th>
-                                            <th class="text-center">Unit<i class="text-danger">*</i></th>
-                                            <th class="text-center">Qty<i class="text-danger">*</i></th>
-                                            <th class="text-center">Cost<i class="text-danger">*</i></th>
-                                            <th class="text-center">Customer Price<i class="text-danger">*</i></th>
-                                            <th class="text-center" style="width:40px;">Action</th>
+                                            <th class="text-center"><?php echo $translations['Item Name']?><i class="text-danger">*</i></th>
+                                            <th class="text-center"><?php echo $translations['Unit']?><i class="text-danger">*</i></th>
+                                            <th class="text-center"><?php echo $translations['Qty']?><i class="text-danger">*</i></th>
+                                            <th class="text-center"><?php echo $translations['Cost']?><i class="text-danger">*</i></th>
+                                            <th class="text-center"><?php echo $translations['Customer Price']?><i class="text-danger">*</i></th>
+                                            <th class="text-center" style="width:40px;"><?php echo $translations['Action']?></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -166,9 +168,9 @@
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-end">
 									<?php if($insertRights==1){ ?>
-                                        <button type="submit" class="btn btn-success" id="saveProductExtras">Save</button> 
+                                        <button type="submit" class="btn btn-success" id="saveProductExtras"><?php echo $translations['Save']?></button> 
 									<?php } ?>
-                                        <button type="reset" class="btn btn-light-secondary" id="cancelProductExtras">Reset</button>
+                                        <button type="reset" class="btn btn-light-secondary" id="cancelProductExtras"><?php echo $translations['Reset']?></button>
                                     </div>
                                 </div>
                             </form>

@@ -4,27 +4,30 @@ if (!empty($kotOrders)) {
         $order = $kotOrders[$i];
 ?>
 
-        <div class="col-sm-6 col-md-4" id="kot-order-box-<?=$order['id']?>">
+        <?php include '../restaurant/config.php'; ?>
+
+
+        <div class="col-sm-6 col-md-4" id="kot-order-box-<?= $order['id'] ?>">
             <div class="kotcard">
                 <div class="kot-header">
                     <div class="row">
-                        <div class="col-sm-6 col-6"> KOT No. </div>
+                        <div class="col-sm-6 col-6"><?php echo $translations['KOT No'] ?></div>
                         <div class="col-sm-6 col-6"><span><?= $order['kotNumber'] ?></span></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-6"> Sector </div>
+                        <div class="col-sm-6 col-6"><?php echo $translations['Sector']?></div>
                         <div class="col-sm-6 col-6"><span><?= $order['zoneName'] ?></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-6"> Table No. </div>
+                        <div class="col-sm-6 col-6"><?php echo $translations['Table No']?></div>
                         <div class="col-sm-6 col-6"><span><?= $order['tblNo'] ?></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-6"> Phone </div>
+                        <div class="col-sm-6 col-6"><?php echo $translations['Phone']?></div>
                         <div class="col-sm-6 col-6"><span><?= $order['custPhone'] ?></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-6"> Name. </div>
+                        <div class="col-sm-6 col-6"><?php echo $translations['Name']?></div>
                         <div class="col-sm-6 col-6"><span><?= $order['custName'] ?></span></div>
                     </div>
                 </div>

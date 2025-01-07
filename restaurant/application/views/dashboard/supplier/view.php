@@ -6,6 +6,8 @@
     </div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
+
 
 <div class="container">
 
@@ -15,7 +17,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">View Supplier</h3>
+                        <h3 class="card-title"><?php echo $translations['View Supplier']?></h3>
                     </div>
                     <div class="card-content">
                         <div class="card-body">
@@ -25,7 +27,7 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                         <div class="card card-custom gutter-b bg-white border-0">
                                             <div class="card-body">
-                                                <h3 class="mt-0 header-title lng text-center">Image</h3>
+                                                <h3 class="mt-0 header-title lng text-center"><?php echo $translations['Image']?></h3>
 
                                                 <div class="col-md-12 col-sm-6 col-xs-6 mb-2 p-0 text-center">
                                                     <?php if ($supplierData[0]['supplierImage']  != "") { ?>
@@ -47,13 +49,13 @@
                                     <div class="row">
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="supplier-name" class="form-label">Name</label>
+                                                <label for="supplier-name" class="form-label"><?php echo $translations['Name']?></label>
                                                 <input type="text" id="supplier-name" class="form-control" placeholder="Supplier Name" name="suppliername" readonly value="<?= $supplierData[0]['supplierName'] ?>">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="arabicname-column" class="form-label">Arabic Name</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['Arabic Name']?></label>
                                                 <input type="text" id="arabicname" class="form-control" placeholder="Arabic Name" name="arabicname" value="<?= $supplierData[0]['arabicName'] ?>" readonly>
                                             </div>
                                         </div>
@@ -61,13 +63,13 @@
                                     <div class="row">
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="company-name" class="form-label">Company Name</label>
+                                                <label for="company-name" class="form-label"><?php echo $translations['Company Name']?></label>
                                                 <input type="text" id="companyname" class="form-control" placeholder="Company Name" name="companyname" value="<?= $supplierData[0]['companyName'] ?>" readonly>
                                             </div>
                                         </div>
 										<div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="Phone" class="form-label">Phone</label>
+                                                <label for="Phone" class="form-label"><?php echo $translations['Phone']?></label>
                                                 <input type="number" id="phone" class="form-control" placeholder="Phone" name="phone" value="<?= $supplierData[0]['phone'] ?>" readonly>
                                             </div>
                                         </div>
@@ -76,13 +78,13 @@
 									<div class="row">
 									    <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="email-column" class="form-label">Email</label>
+                                                <label for="email-column" class="form-label"><?php echo $translations['Email']?></label>
                                                 <input type="email" id="email" class="form-control" placeholder="Email" name="email" value="<?= $supplierData[0]['email'] ?>" readonly>
                                             </div>
                                         </div>
 										<div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="financial" class="form-label">Financial Account</label>
+                                                <label for="financial" class="form-label"><?php echo $translations['Financial Account']?></label>
                                                 <input type="text" id="financial" class="form-control" placeholder="Financial Account" name="financial" value="<?= $supplierData[0]['financialAccount'] ?>" readonly>
                                             </div>
                                         </div>
@@ -90,7 +92,7 @@
 									<div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group">
-                                                <label for="addr-column" class="form-label">Address</label>
+                                                <label for="addr-column" class="form-label"><?php echo $translations['Address']?></label>
                                                 <textarea class="form-control" placeholder="Address" id="address" name="address"><?= $supplierData[0]['address'] ?></textarea>
                                             </div>
                                         </div>
@@ -100,7 +102,7 @@
                                         <div class="col-md-6 col-12">
                                             <div class="form-group row align-items-center">
 
-                                                <label for="Country" class="form-label">Country</label>
+                                                <label for="Country" class="form-label"><?php echo $translations['Country']?></label>
                                                <?php
                                                       $country = file_get_contents('assets/country.json');	
   													  $items = json_decode($country,true);		
@@ -120,7 +122,7 @@
                                         <div class="col-md-6 col-12">
                                             <div class="form-group row align-items-center">
 
-                                                <label for="State" class="form-label">State</label>
+                                                <label for="State" class="form-label"><?php echo $translations['State']?></label>
                                                 <input type="text" id="state" class="form-control" placeholder="State Name" name="state" value="<?= $supplierData[0]['state'] ?>" readonly>
 
                                             </div>
@@ -129,13 +131,13 @@
                                     <div class="row">
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="City" class="form-label">City</label>
+                                                <label for="City" class="form-label"><?php echo $translations['City']?></label>
                                                 <input type="text" id="city" class="form-control" placeholder="City" name="city" value="<?= $supplierData[0]['city'] ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="pincode" class="form-label">Postal Code</label>
+                                                <label for="pincode" class="form-label"><?php echo $translations['Postal Code']?></label>
                                                 <input type="number" id="pincode" class="form-control" placeholder="Postal Code" name="pincode" value="<?= $supplierData[0]['postalCode'] ?>" readonly>
                                             </div>
                                         </div>
@@ -153,7 +155,7 @@
                                         
                                         <div class="col-md-2 col-12">
                                             <div class="form-group">
-                                                <label class="form-label lng" key="status">Status</label>
+                                                <label class="form-label lng" key="status"><?php echo $translations['Status']?></label>
                                                 <div class="input-group">
                                                     <?php if ($supplierData[0]['isActive'] == 1) {
                                                         echo " <span class='badge bg-success mt-2'>Active</span>";

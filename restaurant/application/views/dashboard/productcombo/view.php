@@ -1,16 +1,19 @@
+<?php include '../restaurant/config.php'; ?>
+
+
 <div class="row mb-2">
 
     <div class="row col-md-12 col-12">
 
         <div class="col-md-6 col-12 form-group">
-            <label for="var-name-column" class="form-label">English Name</label>
+            <label for="var-name-column" class="form-label"><?php echo $translations['English Name']?></label>
             <input type="hidden" id="ccode" name="ccode" data-parsley-required="true" value="<?= $productCombo->code ?>" readonly>
             <input type="text" id="cname1" class="form-control" placeholder="Combo Name" name="cname1" data-parsley-required="true" value="<?= $productCombo->productComboName ?>" readonly>
         </div>
 
 
         <div class="col-md-6 col-12 form-group">
-            <label for="var-name-column" class="form-label">Arabic Name</label>
+            <label for="var-name-column" class="form-label"><?php echo $translations['Arabic Name']?></label>
             <input type="text" id="carabicname" class="form-control reqClass" placeholder="Combos/Meals Arabic Name" name="carabicname1" readonly value="<?= $productCombo->productComboArabicName ?>">
         </div>
 
@@ -20,13 +23,13 @@
     <div class="row col-md-12 col-12">
 
         <div class="col-md-6 col-12 form-group">
-            <label for="var-name-column" class="form-label">Hindi Name</label>
+            <label for="var-name-column" class="form-label"><?php echo $translations['Hindi Name']?></label>
             <input type="text" id="chindiname" class="form-control reqClass" placeholder="Combos/Meals Hindi Name" name="chindiname1" readonly value="<?= $productCombo->productComboHindiName ?>">
         </div>
 
 
         <div class="col-md-6 col-12 form-group">
-            <label for="var-name-column" class="form-label">Urdu Name</label>
+            <label for="var-name-column" class="form-label"><?php echo $translations['Urdu Name']?></label>
             <input type="text" id="curduname" class="form-control reqClass" placeholder="Combos/Meals Urdu Name" name="curduname1" readonly value="<?= $productCombo->productComboUrduName ?>">
         </div>
 
@@ -38,7 +41,7 @@
 
     <div class="col-md-12 mb-3 col-12">
         <div class="form-group">
-            <label for="var-name-column" class="form-label">Products & Price</label>
+            <label for="var-name-column" class="form-label"><?php echo $translations['Products & Price']?></label>
             <?php
             $rws = "";
             if ($productComboLines) {
@@ -72,16 +75,16 @@
 
     <div class="row col-md-12 mb-2 col-12">
         <div class="col-md-4 col-12 form-group">
-            <label for="pric-column" class="form-label">Total Price</label>
+            <label for="pric-column" class="form-label"><?php echo $translations['Total Price']?></label>
             <input type="text" id="price1" class="form-control" placeholder="Combo price" name="price1" value="<?= $productCombo->productComboPrice ?>" required>
 
         </div>
         <div class="col-md-4 col-12 form-group">
-            <label for="pric-column" class="form-label">Total Tax Amount</label>
+            <label for="pric-column" class="form-label"><?php echo $translations['Total Tax Amount']?></label>
             <input type="text" id="totalTaxAmount" class="form-control reqClass" placeholder="Total Tax Amount" onkeypress="return isNumber(event)" name="totalTaxAmount" value="<?= $productCombo->taxAmount ?>" readonly>
         </div>
         <div class="col-md-4 col-12 form-group">
-            <label for="pric-column" class="form-label">Final Amount</label>
+            <label for="pric-column" class="form-label"><?php echo $translations['Final Amount']?></label>
             <input type="text" id="finalAmount" class="form-control reqClass" placeholder="Final Price" onkeypress="return isNumber(event)" name="finalAmount" value="<?= $productCombo->productFinalPrice ?>" readonly>
         </div>
     </div>
@@ -89,7 +92,7 @@
     <div class="row mb-2 col-md-12 items-center justify-content-center col-12">
         <div class="row col-md-12 col-12">
             <div class="col-md-11 col-12 form-group row">
-                <label for="var-name-column" class="form-label">Category</label>
+                <label for="var-name-column" class="form-label"><?php echo $translations['Category']?></label>
                 <div class="form-group mandatory">
                     <select class="form-control" id="productcategory1" name="productcategory1" disabled>
                         <option value="">Select</option>
@@ -151,7 +154,7 @@
 
     <div class="col-md-12 col-12" id="file_uploadDiv">
         <div class="col-md-12 col-12 justify-content-center items-center text-center form-group">
-            <label for="productImage" class="col-md-12 justify-content-center items-center text-center form-label">Product Image :</label>
+            <label for="productImage" class="col-md-12 justify-content-center items-center text-center form-label"><?php echo $translations['Product Image']?></label>
             <?php if ($productCombo->productComboImage != "") { ?>
                 <img width="100" height="150" src="<?= base_url() . $productCombo->productComboImage ?>" data-src="">
             <?php } else { ?>
@@ -162,7 +165,7 @@
 
     <div class="row">
         <div class="col-12 d-flex justify-content-end">
-            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal" id="closeProductCombo">Close</button>
+            <button type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal" id="closeProductCombo"><?php echo $translations['Close']?></button>
         </div>
     </div>
 </div>

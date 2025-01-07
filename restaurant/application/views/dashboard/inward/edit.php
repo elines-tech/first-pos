@@ -15,13 +15,18 @@ if ($unitmaster) {
 		</div>
 	</div>
 </nav>
+
+<?php include '../restaurant/config.php'; ?>
+
+
+
 <div class="container">
 	<section id="multiple-column-form" class="mt-5">
 		<div class="row match-height">
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="card-title">Edit Inward</h3>
+						<h3 class="card-title"><?php echo $translations['Edit Inward']?></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -41,13 +46,13 @@ if ($unitmaster) {
 											<div class="row">
 												<div class="col-md-4 col-12">
 													<div class="form-group mandatory">
-														<label for="" class="form-label">Inward</label>
+														<label for="" class="form-label"><?php echo $translations['Inward']?></label>
 														<input type="date" id="inwardDate" class="form-control" name="inwardDate" id="inwardDate" value="<?= date('Y-m-d', strtotime($result['inwardDate'])) ?>" required>
 													</div>
 												</div>
 												<div class="col-md-4 col-12">
 													<div class="form-group mandatory">
-														<label for="product-name" class="form-label">Branch</label>
+														<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 														<input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code'] ?>">
 														<?php if ($branchCode != "") { ?>
 															<input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
@@ -70,7 +75,7 @@ if ($unitmaster) {
 												</div>
 												<div class="col-md-4 col-12">
 													<div class="form-group mandatory">
-														<label for="product-name" class="form-label">Supplier</label>
+														<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 														<select class="form-select select2" name="supplierCode" id="supplierCode" data-parsley-required="true" required>
 															<option value="">Select</option>
 															<?php if ($supplier) {
@@ -91,7 +96,7 @@ if ($unitmaster) {
 											<div class="row">
 												<div class="col-md-4 col-12">
 													<div class="form-group mandatory">
-														<label for="" class="form-label">Total</label>
+														<label for="" class="form-label"><?php echo $translations['Total']?></label>
 														<input type="number" step="0.01" id="total" class="form-control" required name="total" readonly value="<?= $result['total'] ?>" required>
 													</div>
 												</div>
@@ -117,11 +122,11 @@ if ($unitmaster) {
 													<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 														<thead>
 															<tr>
-																<th width="35%">Item <span style="color:red;">*</span></th>
-																<th width="15%">Unit <span style="color:red;">*</span></th>
-																<th width="15%">Qty <span style="color:red;">*</span></th>
-																<th width="15%">Price <span style="color:red;">*</span></th>
-																<th width="15%">Subtotal <span style="color:red;">*</span></th>
+																<th width="35%"><?php echo $translations['Item']?><span style="color:red;">*</span></th>
+																<th width="15%"><?php echo $translations['Unit']?><span style="color:red;">*</span></th>
+																<th width="15%"><?php echo $translations['Qty']?><span style="color:red;">*</span></th>
+																<th width="15%"><?php echo $translations['Price']?><span style="color:red;">*</span></th>
+																<th width="15%"><?php echo $translations['Subtotal']?><span style="color:red;">*</span></th>
 																<th width="5%"></th>
 															</tr>
 														</thead>
@@ -198,9 +203,9 @@ if ($unitmaster) {
 											</div>
 											<div class="row">
 												<div class="col-12 d-flex justify-content-end"> 
-													<button type="submit" id="saveDefault" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-													<button type="submit" class="btn btn-success" id="saveInwardBtn">Save</button>
-													<a href="<?php echo base_url(); ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary">Close</a>
+													<button type="submit" id="saveDefault" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1"><?php echo $translations['Save & Approve']?></button>
+													<button type="submit" class="btn btn-success" id="saveInwardBtn"><?php echo $translations['Save']?></button>
+													<a href="<?php echo base_url(); ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary"><?php echo $translations['Close']?></a>
 												</div>
 											</div>
 										</div>

@@ -16,5 +16,447 @@ return [
     'Total' => 'الإجمالي',
     'Status' => 'الحالة',
     'Inventory Dashboard (Updates in Every 60 sec)' => 'لوحة معلومات المخزون (تحديثات كل 60 ثانية)',
+    'Sales Dashboard (Updates in Every 60 sec)' => 'لوحة تحكم المبيعات (تُحدث كل 60 ثانية)',
     'View' => "عرض",
+
+    'Today\'s Orders' => 'طلبات اليوم',
+    'Today\'s Dining' => 'تناول الطعام اليوم',
+    'Today\'s Pickup' => 'استلام اليوم',
+    'Today\'s Delivery' => 'توصيل اليوم',
+    'Today\'s Sale' => 'مبيعات اليوم',
+    'Today\'s Discount' => 'خصم اليوم',
+    'Today\'s Tax' => 'ضريبة اليوم',
+    'Today\'s Customer' => 'عميل اليوم',
+    'Current showing data for all branches.' => 'البيانات الحالية المعروضة لجميع الفروع.',
+
+    'Product Category' => 'فئة المنتج',
+    'Product Category List' => 'قائمة فئات المنتجات',
+    'Category Code' => 'رمز الفئة',
+    'Name' => 'الاسم',
+    'Icon' => 'رمز',
+    'Action' => 'إجراء',
+    'Add Product Category' => 'إضافة فئة منتج',
+    'Description' => 'الوصف',
+    'Active' => 'نشط',
+    'Save' => 'حفظ',
+    'Close' => 'إغلاق',
+    'Update' => 'تحديث',
+    'Reset' => 'إعادة تعيين',
+    'View Product Category' => 'عرض فئة المنتج',
+    'Update Category' => 'تحديث الفئة',
+
+    'View Product' => 'عرض المنتج',
+    'Pricing Method' => 'طريقة التسعير',
+    'Product Calories' => 'سعرات المنتج',
+    'Costing Method' => 'طريقة التكاليف',
+    'Cost (SAR)' => 'التكلفة (ريال سعودي)',
+
+
+    'Product Subcategory' => 'الفئة الفرعية للمنتج',
+    'Product Subcategory List' => 'قائمة الفئات الفرعية للمنتج',
+    'Subcategory Code' => 'رمز الفئة الفرعية',
+    'Subcategory Name' => 'اسم الفئة الفرعية',
+
+    'Add Product Subcategory' => 'إضافة فئة فرعية للمنتج',
+    'Category' => 'الفئة',
+    'Add Product' => 'إضافة منتج',
+
+
+    'View Product Subcategory' => 'عرض الفئة الفرعية للمنتج',
+    'Update Product Subcategory' => 'تحديث الفئة الفرعية للمنتج',
+    'Update Product' => 'تحديث المنتج',
+    'Customer Price' => 'سعر العميل',
+    'Product Extras' => 'إضافات المنتج',
+    'Total Price' => 'إجمالي السعر',
+    'Item List' => 'قائمة العناصر',
+    'Add Item' => 'إضافة عنصر',
+    'Item English Name' => 'اسم العنصر بالإنجليزية',
+    'Item English Description' => 'وصف العنصر بالإنجليزية',
+    'Update Supplier' => 'تحديث المورد',
+    'View Supplier' => 'عرض المورد',
+    'TO' => 'إلى',
+    'Reference' => 'مرجع',
+    'Edit Inward' => 'تعديل الوارد',
+    'Apply' => 'تطبيق',
+    'View Customer Group' => 'عرض مجموعة العملاء',
+
+    'Product' => 'المنتج',
+    'Product List' => 'قائمة المنتجات',
+    'Code' => 'الرمز',
+    'Arabic Name' => 'الاسم بالعربية',
+    'Hindi Name' => 'الاسم بالهندية',
+    'Urdu Name' => 'الاسم بالأوردو',
+    'Subcategory' => 'الفئة الفرعية',
+    'TaxGroup' => 'مجموعة الضريبة',
+    'Photo' => 'الصورة',
+
+    'English Name' => 'الاسم بالإنجليزية',
+    'English Description' => 'الوصف بالإنجليزية',
+    'Product English Description' => 'وصف المنتج بالإنجليزية',
+    'Arabic Description' => 'الوصف بالعربية',
+    'Hindi' => 'الهندية',
+    'Hindi Description' => 'الوصف بالهندية',
+    'Urdu' => 'الأوردية',
+    'Urdu Description' => 'الوصف بالأوردو',
+    'Cooking Time (Minutes)' => 'وقت الطهي (بالدقائق)',
+    'Number of persons served' => 'عدد الأشخاص الذين تم تقديم الخدمة لهم',
+    'Is it an Addon?' => 'هل هو إضافة؟',
+
+    'Product Image' => 'صورة المنتج',
+    'Price (SAR)' => 'السعر (بالريال السعودي)',
+    'Tax Group' => 'مجموعة الضريبة',
+    'Product Calories' => 'سعرات حرارية للمنتج',
+    'Branches' => 'الفروع',
+
+    'Recipe' => 'الوصفة',
+    'Recipe List' => 'قائمة الوصفات',
+    'Product Name' => 'اسم المنتج',
+    'No Of items' => 'عدد العناصر',
+
+    'Add Recipe' => 'إضافة وصفة',
+    'Item' => 'العنصر',
+    'Ingredient Unit' => 'وحدة المكونات',
+    'Quantity' => 'الكمية',
+    'Cost' => 'التكلفة',
+    'Customizable' => 'قابل للتخصيص',
+    'Direction' => 'الإتجاه',
+
+    'View Recipe' => 'عرض الوصفة',
+    'Edit Recipe' => 'تعديل الوصفة',
+
+    'Product Combos/Meals' => 'مجموعات الوجبات/المنتجات',
+    'Product Combos/Meals List' => 'قائمة مجموعات الوجبات/المنتجات',
+    'Combos/Meals Name' => 'اسم المجموعة/الوجبة',
+    'Combos/Meals Price' => 'سعر المجموعة/الوجبة',
+
+    'Add Combos/Meals' => 'إضافة مجموعة/وجبة',
+    'View Combos/Meals' => 'عرض مجموعة/وجبة',
+    'Update ProductCombo' => 'تحديث مجموعة المنتج',
+
+    'Products & Price' => 'المنتجات والسعر',
+    'Sub Total' => 'المجموع الفرعي',
+    'Total Tax Amount' => 'إجمالي مبلغ الضريبة',
+    'Final Amount' => 'المبلغ النهائي',
+    'Combo Image' => 'صورة المجموعة',
+
+    'Item Category' => 'فئة العنصر',
+    'Item Category List' => 'قائمة فئات العناصر',
+
+    'Add Category' => 'إضافة فئة',
+    'Storage Unit' => 'وحدة التخزين',
+    'Price' => 'السعر',
+
+    'Item Name' => 'اسم العنصر',
+    'Item price' => 'سعر العنصر',
+    'Item Hindi Name' => 'اسم العنصر بالهندية',
+    'Item description' => 'وصف العنصر',
+    'Item Hindi description' => 'وصف العنصر بالهندية',
+    'Ingredient Factor' => 'عامل المكونات',
+    'Item Arabic Name' => 'اسم العنصر بالعربية',
+    'Item Urdu Name' => 'اسم العنصر بالأوردو',
+    'Item Arabic description' => 'وصف العنصر بالعربية',
+    'Item Urdu description' => 'وصف العنصر بالأوردو',
+    'back' => 'عودة',
+    'Edit Item' => 'تعديل العنصر',
+    'Update Item' => 'تحديث العنصر',
+    'Back' => 'عودة',
+    'Item Price' => 'سعر العنصر',
+    'Item Description' => 'وصف العنصر',
+    'Item Arabic Description' => 'وصف العنصر بالعربية',
+    'Item Hindi Description' => 'وصف العنصر بالهندية',
+    'Item Urdu Description' => 'وصف العنصر بالأوردو',
+
+    'Supplier List' => 'قائمة الموردين',
+    'Company Name' => 'اسم الشركة',
+    'Email' => 'البريد الإلكتروني',
+    'Phone' => 'الهاتف',
+    'City' => 'المدينة',
+    'Financial Account' => 'الحساب المالي',
+    'Address' => 'العنوان',
+    'Country' => 'الدولة',
+    'State' => 'الولاية',
+    'Postal Code' => 'الرمز البريدي',
+    'Image' => 'الصورة',
+    'Add Supplier' => 'إضافة مورد',
+
+    'Inward' => 'الوارد',
+    'Filter' => 'تصفية',
+    'Inward Dates' => 'تواريخ الوارد',
+    'Approve' => 'الموافقة',
+    'Clear' => 'مسح',
+    'Unit' => 'الوحدة',
+    'Qty' => 'الكمية',
+    'Subtotal' => 'المجموع الفرعي',
+    'Save & Approve' => 'حفظ والموافقة',
+    'Add Inward' => 'إضافة وارد',
+    'View Inward' => 'عرض الوارد',
+    'Add Return' => 'إضافة إرجاع',
+    'Inward Code' => 'رمز الوارد',
+    'Return' => 'إرجاع',
+    'Stock Quantity' => 'كمية المخزون',
+    'Return Quantity' => 'كمية الإرجاع',
+
+    'Stock' => 'المخزون',
+    'Stock List' => 'قائمة المخزون',
+    'Branch Name' => 'اسم الفرع',
+    'Transfer' => 'التحويل',
+    'Transfer List' => 'قائمة التحويلات',
+    'Date' => 'التاريخ',
+    'Branch from' => 'الفرع من',
+    'Branch to' => 'الفرع إلى',
+    'Add Transfer' => 'إضافة تحويل',
+    'From Branch' => 'من الفرع',
+    'To Branch' => 'إلى الفرع',
+    'UOM' => 'وحدة القياس',
+    'Update Transfer' => 'تحديث التحويل',
+    'Inward Return' => 'إرجاع الوارد',
+    'No Of Returns' => 'عدد الإرجاعات',
+    'Inward Return List' => 'قائمة إرجاع الوارد',
+    'Inward No' => 'رقم الوارد',
+    'Return Date' => 'تاريخ الإرجاع',
+
+    'Account Expense' => 'نفقات الحساب',
+    'Account Expense List' => 'قائمة نفقات الحساب',
+    'Title' => 'العنوان',
+    'Expense Name' => 'اسم المصاريف',
+    'Expense Cost' => 'تكلفة المصاريف',
+    'Expense Description' => 'وصف المصاريف',
+    'View Account Expense Details' => 'عرض تفاصيل نفقات الحساب',
+    'Update Account Expense' => 'تحديث نفقات الحساب',
+    'Add Account Expense' => 'إضافة نفقات الحساب',
+    'Customer' => 'العميل',
+    'Customer Group' => 'مجموعة العملاء',
+    'Customer List' => 'قائمة العملاء',
+    'Customer Groups' => 'مجموعات العملاء',
+    'Add Customer Groups' => 'إضافة مجموعة عملاء',
+    'Customer Group List' => 'قائمة مجموعات العملاء',
+    'Group Name' => 'اسم المجموعة',
+    'Srno' => 'الرقم التسلسلي',
+
+
+    'KOT No' => 'رقم طلب المطبخ',
+    'Sector' => 'القطاع',
+    'Table No' => 'رقم الطاولة',
+    'Phone' => 'الهاتف',
+    'Name' => 'الاسم',
+    'Preparing In' => 'قيد التحضير في',
+    'Ready to Serve' => 'جاهز للتقديم',
+    'View Order' => 'عرض الطلب',
+    'Kitchen Orders' => 'طلبات المطبخ',
+    'Orders will be auto refreshed in every 1 minute...' => 'سيتم تحديث الطلبات تلقائيًا كل دقيقة...',
+    'Preparing' => 'قيد التحضير',
+    'Customer Name' => 'اسم العميل',
+    'Order Status' => 'حالة الطلب',
+    'Coupon/Offer' => 'قسيمة/عرض',
+    'Edit Sale Quotation' => 'تعديل عرض البيع',
+    'Day Closing Report' => 'تقرير إغلاق اليوم',
+    'Cashier' => 'أمين الصندوق',
+    'Total Orders' => 'إجمالي الطلبات',
+    'Total Sale' => 'إجمالي المبيعات',
+    'Cash Payments' => 'المدفوعات النقدية',
+    'Card Payments' => 'مدفوعات البطاقات',
+    'UPI Payments' => 'مدفوعات UPI',
+    'Netbanking Payments' => 'مدفوعات الخدمات المصرفية عبر الإنترنت',
+    'Offer Applied' => 'العرض المطبق',
+    'Offer Total' => 'إجمالي العرض',
+
+
+
+    'Product Details' => 'تفاصيل المنتج',
+    'Product Price' => 'سعر المنتج',
+    '(after discount)' => '(بعد الخصم)',
+    'Actual Tax' => 'الضريبة الفعلية',
+    'Service Charges' => 'رسوم الخدمة',
+    'Discount (₹)' => 'الخصم (₹)',
+    'View Sale Quotation' => 'عرض عرض البيع',
+
+
+
+
+
+    //orders: kitchen orders
+
+    'For more great management on this page you can choose any branch and view all orders in that branch.' =>
+    'لإدارة أفضل على هذه الصفحة، يمكنك اختيار أي فرع وعرض جميع الطلبات في ذلك الفرع.',
+
+    'Select the branch name' => 'اختر اسم الفرع',
+    'Select Branch' => 'اختر الفرع',
+    'Submit' => 'إرسال',
+
+    //submit clicked...
+
+    'Kitchen Orders' => 'طلبات المطبخ',
+    'Orders will be auto refreshed in every 1 minute...' => 'سيتم تحديث الطلبات تلقائيًا كل دقيقة',
+    'Back' => 'رجوع',
+
+
+    //orders: orders
+
+    'Order' => 'طلب',
+    'Order List' => 'قائمة الطلبات',
+    'Show' => 'عرض',
+    'entries' => 'إدخالات',
+    'Search' => 'بحث',
+    'Sr No' => 'رقم تسلسلي',
+    'Order Date' => 'تاريخ الطلب',
+    'Order Code' => 'رمز الطلب',
+    'Branch Name' => 'اسم الفرع',
+    'Table' => 'طاولة',
+    'Customer' => 'العميل',
+    'Grand Total' => 'الإجمالي الكلي',
+    'Remark' => 'ملاحظة',
+    'No data available in table' => 'لا توجد بيانات في الجدول',
+    'Showing 0 to 0 of 0 entries' => 'عرض من 0 إلى 0 من 0 إدخالات',
+    'Previous' => 'السابق',
+    'Next' => 'التالي',
+
+
+    //orders: sale quotation
+
+    'Quotation' => 'عرض الأسعار',
+    'Filter' => 'تصفية',
+    'Remark' => 'ملاحظة',
+    'Select Remark' => 'اختر ملاحظة',
+    'Search' => 'بحث',
+    'Clear' => 'مسح',
+
+    'Quotation List' => 'قائمة عروض الأسعار',
+    'Show' => 'عرض',
+    'entries' => 'إدخالات',
+    'Search' => 'بحث',
+    'Sr No' => 'رقم تسلسلي',
+    'Code' => 'رمز',
+    'Date' => 'تاريخ',
+    'Event Name' => 'اسم الحدث',
+    'Number of Peoples' => 'عدد الأشخاص',
+    'Remark' => 'ملاحظة',
+    'Action' => 'إجراء',
+    'No data available in table' => 'لا توجد بيانات في الجدول',
+    'Showing 0 to 0 of 0 entries' => 'عرض من 0 إلى 0 من 0 إدخالات',
+    'Previous' => 'السابق',
+    'Next' => 'التالي',
+
+    //add sale quotation
+
+    'Add Sale Quotation' => 'إضافة عرض أسعار مبيعات',
+    'Date' => 'تاريخ',
+    'Event Name' => 'اسم الحدث',
+    'People' => 'الأشخاص',
+    'Products' => 'المنتجات',
+    'Select Product' => 'اختيار منتج',
+    'Quantity/person' => 'الكمية/شخص',
+    'Price/person' => 'السعر/شخص',
+    'Subtotal' => 'المجموع الفرعي',
+    'Discount' => 'الخصم',
+    'Discount Amount' => 'مقدار الخصم',
+    'Tax' => 'الضريبة',
+    'Grand Total' => 'الإجمالي الكلي',
+    'Save' => 'حفظ',
+    'Reset' => 'إعادة تعيين',
+
+
+
+    //report: sale report
+
+    'Sale Report' => 'تقرير المبيعات',
+    'Filter' => 'تصفية',
+    'Order' => 'الطلب',
+    'Select Order' => 'اختر الطلب',
+    'Branch' => 'الفرع',
+    'Select Branch' => 'اختر الفرع',
+    'Table' => 'الطاولة',
+    'Select Table' => 'اختر الطاولة',
+    'Search' => 'بحث',
+    'Clear' => 'مسح',
+    'Show' => 'عرض',
+    'entries' => 'المدخلات',
+    'Sr No' => 'رقم تسلسلي',
+    'Order Date' => 'تاريخ الطلب',
+    'Order Code' => 'رمز الطلب',
+    'Branch Name' => 'اسم الفرع',
+    'Customer' => 'العميل',
+    'Payment Mode' => 'طريقة الدفع',
+    'Grand Total' => 'الإجمالي الكلي',
+    'Action' => 'إجراء',
+    'No data available in table' => 'لا توجد بيانات في الجدول',
+    'Showing 0 to 0 of 0 entries' => 'عرض 0 إلى 0 من 0 مدخلات',
+    'Previous' => 'السابق',
+    'Next' => 'التالي',
+
+    //report: purchase report
+
+    'Purchase Report' => 'تقرير الشراء',
+    'Filter' => 'تصفية',
+    'Branch' => 'الفرع',
+    'Select Branch' => 'اختر الفرع',
+    'To Branch' => 'إلى الفرع',
+    'Search' => 'بحث',
+    'Clear' => 'مسح',
+
+    'Show' => 'عرض',
+    'entries' => 'المدخلات',
+    'Sr No' => 'رقم تسلسلي',
+    'Code' => 'الرمز',
+    'Inward Date' => 'تاريخ الوارد',
+    'Supplier' => 'المورد',
+    'Total' => 'الإجمالي',
+    'Action' => 'إجراء',
+    'Showing 0 to 0 of 0 entries' => 'عرض 0 إلى 0 من 0 مدخلات',
+    'Previous' => 'السابق',
+    'Next' => 'التالي',
+
+    //action->view
+
+    'View Purchase' => 'عرض الشراء',
+    'Inward' => 'الوارد',
+    'Branch' => 'الفرع',
+    'Supplier' => 'المورد',
+    'Total' => 'الإجمالي',
+    'Item' => 'البند',
+    'Unit' => 'الوحدة',
+    'Qty' => 'الكمية',
+    'Price' => 'السعر',
+    'Subtotal' => 'الإجمالي الفرعي',
+
+    //reports: transfer report
+
+    'Transfer Report' => 'تقرير التحويل',
+    'Filter' => 'تصفية',
+    'Branch' => 'الفرع',
+    'Select Branch' => 'اختيار الفرع',
+    'Search' => 'بحث',
+    'Clear' => 'مسح',
+    'Show' => 'عرض',
+    'entries' => 'الإدخالات',
+    'Sr No' => 'رقم التسلسل',
+    'Code' => 'الرمز',
+    'Date' => 'التاريخ',
+    'Branch from' => 'الفرع من',
+    'Branch To' => 'الفرع إلى',
+    'Price' => 'السعر',
+    'Action' => 'الإجراء',
+    'No data available in table' => 'لا توجد بيانات متاحة في الجدول',
+    'Showing 0 to 0 of 0 entries' => 'عرض من 0 إلى 0 من 0 إدخالات',
+    'Previous' => 'السابق',
+    'Next' => 'التالي',
+
+
+    //reports: day closing report
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];

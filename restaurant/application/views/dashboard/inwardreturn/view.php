@@ -7,6 +7,8 @@
     </div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
+
 
 <div class="container">
     <section id="multiple-column-form" class="mt-5">
@@ -14,7 +16,7 @@
             <div class="col-18">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">View Inward</h3>
+                        <h3 class="card-title"><?php echo $translations['View Inward']?></h3>
                     </div>
                     <div class="card-content">
                         <div class="card-body">
@@ -27,19 +29,19 @@
 										<div class="row">
 											<div class="col-md-3 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="" class="form-label">Inward No</label>
+                                                    <label for="" class="form-label"><?php echo $translations['Inward No']?></label>
                                                     <input type="text" disabled id="inwardNo" class="form-control" name="inwardNo" disabled  value="<?=$result['inwardCode']?>" required>
                                                 </div>
                                             </div>
 											<div class="col-md-3 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="" class="form-label">Inward Date</label>
+                                                    <label for="" class="form-label"><?php echo $translations['Inward Date']?></label>
                                                     <input type="date" id="inwardDate" class="form-control" name="inwardDate" value="<?= date('Y-m-d' ,strtotime($result['inwardDate']))?>" disabled >
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-12">
 												<div class="form-group mandatory">
-													<label for="product-name" class="form-label">Branch</label>
+													<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 													<select class="form-control" disabled name="branchCode" id="branchCode" data-parsley-required="true" required>
 														<option value="">Select</option>
 														<?php if ($branch) {
@@ -57,7 +59,7 @@
 											</div>
 											 <div class="col-md-3 col-12">
 												<div class="form-group mandatory">
-													<label for="product-name" class="form-label">Supplier</label>
+													<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 													<select class="form-control" disabled name="supplierCode" id="supplierCode" data-parsley-required="true" required>
 														<option value="">Select</option>
 														<?php if ($supplier) {
@@ -78,9 +80,9 @@
 												<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 													<thead>
 														<tr>
-															<th width="15%">Return Date</th>
-															<th width="35%">Item Name</th>
-															<th width="15%">Return Quantity</th>
+															<th width="15%"><?php echo $translations['Return Date']?></th>
+															<th width="35%"><?php echo $translations['Item Name']?></th>
+															<th width="15%"><?php echo $translations['Return Quantity']?></th>
 														</tr>
 													</thead>
 													<tbody>

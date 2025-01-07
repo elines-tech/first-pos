@@ -1,16 +1,18 @@
+<?php include '../restaurant/config.php'; ?>
+
 <form class="form" method="post" id="updateGroupForm" enctype="multipart/form-data" data-parsley-validate>
     <?php foreach ($query->result() as $row) {  ?>
         <div class="row">
             <div class="col-md-12 col-12">
                 <div class="form-group mandatory">
-                    <label for="unit-name-column" class="form-label">Group Name</label>
+                    <label for="unit-name-column" class="form-label"><?php echo $translations['Group Name']?></label>
                     <input type="text" id="groupname" class="form-control" placeholder="Group Name" value="<?= $row->customerGroupName ?>" name="groupname" data-parsley-required="true">
                     <span class="text-danger" id="err"></span>
                 </div>
             </div>
             <div class="col-md-12 col-12">
                 <div class="form-group row">
-                    <label for="status" class="form-label">Active</label>
+                    <label for="status" class="form-label"><?php echo $translations['Active']?></label>
                     <div class="col-sm-4 checkbox">
                         <input type="checkbox" name="isActive" id="isActive" <?php if ($row->isActive == 1) {
                                                                                     echo "checked";
@@ -23,7 +25,7 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-end">
                 <?php if ($updateRights == 1) { ?>
-                    <button type="button" class="btn btn-primary" id="updateGroupName">Update</button>
+                    <button type="button" class="btn btn-primary" id="updateGroupName"><?php echo $translations['Update']?></button>
                 <?php } ?>
 
             </div>

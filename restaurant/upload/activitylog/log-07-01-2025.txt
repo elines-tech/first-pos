@@ -1,0 +1,14 @@
+Dt --> 07-01-25 05:22:41 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:19:59 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:20:35 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:21:47 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:24:22 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:27:03 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+Dt --> 07-01-25 02:27:27 IP --> 127.0.0.1 LOGIN USER --> USR25_1 ADDED USER --> USR25_1 	USR25_1 User id is login.
+2025-01-07 15:06:28	127.0.0.1	Admin	admin	PCAT_2 - dasdas product category is added.
+07-01-25 04:38:52	127.0.0.1	Admin	admin	PRO25_1 - برودكت Product is updated.
+2025-01-07 16:57:39	127.0.0.1	Admin	admin	PC_1 - sasaProduct Combo is updated.
+2025-01-07 17:23:34	127.0.0.1	Admin	admin	ITEM25_2 - fffffff item is added.
+2025-01-07 18:00:19	127.0.0.1	Admin	admin	IN25_3 - SUP25_1 of BR25_1 having amount 1056.00 inward is added.
+2025-01-07 18:11:30	127.0.0.1	Admin	admin	IN25_4 - BR25_1 of BR25_2 having amount 100.00  is transfer.
+2025-01-07 18:50:29	127.0.0.1	Admin	admin	CUSTG_1 - dsdsd Customer Groupname is added.

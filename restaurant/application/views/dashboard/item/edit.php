@@ -1,9 +1,11 @@
+<?php include '../restaurant/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Update Item</h3>
+                    <h3><?php echo $translations['Update Item']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -29,10 +31,10 @@
                                 <div class="card-header">
                                     <div class="row">
                                         <div class="col-7">
-                                            <h5>Update Item</h5>
+                                            <h5><?php echo $translations['Update Item']?></h5>
                                         </div>
                                         <div class="col-5 text-end">
-                                            <a href="<?= base_url('item/listRecords') ?>"><button id="cancelDefault" type="button" class="btn btn-primary">Back</button></a>
+                                            <a href="<?= base_url('item/listRecords') ?>"><button id="cancelDefault" type="button" class="btn btn-primary"><?php echo $translations['Back']?></button></a>
                                         </div>
                                     </div>
                                 </div>
@@ -46,13 +48,13 @@
 
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Name']?></label>
                                                 <input type="text" id="modalItemName" class="form-control" placeholder="Item Name" value="<?= $br->itemEngName ?>" name="modalItemName" required>
                                             </div>
 
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Category</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Category']?></label>
                                                 <select class="form-select select2" name="category" id="category" required data-parsley-required-message="Category is required">
                                                     <option value="">Select</option>
                                                     <?php
@@ -77,7 +79,7 @@
 
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Storage Unit</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Storage Unit']?></label>
                                                 <select class="form-select select2" name="modalItemUnit" id="modalItemUnit" required>
                                                     <option value="">Select</option>
                                                     <?php
@@ -96,7 +98,7 @@
 
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Ingredient Unit</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Ingredient Unit']?></label>
                                                 <select class="form-select select2" name="modalIngredientUnit" id="modalIngredientUnit" required>
                                                     <option value="">Select</option>
                                                     <?php
@@ -123,13 +125,13 @@
 
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Ingredient Factor</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Ingredient Factor']?></label>
                                                 <input type="text" id="modalIngredientFactor" class="form-control" placeholder="Ingredient Factor" name="modalIngredientFactor" required onkeypress="return isNumber(event)" value="<?= $br->ingredientFactor ?>">
                                             </div>
 
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Price</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Price']?></label>
                                                 <input type="text" id="modalItemPrice" class="form-control" name="modalItemPrice" required onkeypress="return isNumber(event)" onkeypress="return isNumber(event)" value="<?= $br->itemPrice ?>">
                                             </div>
 
@@ -141,7 +143,7 @@
                                         <div class="col-md-12 col-12 row mb-3">
 
                                             <div class="form-group col-md-12 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Arabic Name']?></label>
                                                 <input type="text" id="modalItemArbName" class="form-control" name="modalItemArbName" value="<?= $br->itemArbName ?>">
                                             </div>
 
@@ -151,12 +153,12 @@
                                         <div class="col-md-12 col-12 row mb-3">
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Hindi Name']?></label>
                                                 <input type="text" id="modalItemHinName" class="form-control" name="modalItemHinName" value="<?= $br->itemHinName ?>">
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Urdu Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Urdu Name']?></label>
                                                 <input type="text" id="modalItemUrduName" class="form-control" name="modalItemUrduName" value="<?= $br->itemUrduName ?>">
                                             </div>
 
@@ -168,12 +170,12 @@
                                         <div class="col-md-12 col-12 row mb-3">
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Arabic Description</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Arabic Description']?></label>
                                                 <textarea rows="4" id="modalItemArbDesc" class="form-control" name="modalItemArbDesc"><?= $br->itemArbDesc ?></textarea>
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Description</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Description']?></label>
                                                 <textarea rows="4" type="text" id="modalItemDesc" class="form-control" name="modalItemDesc"><?= $br->itemEngDesc ?></textarea>
                                             </div>
 
@@ -184,12 +186,12 @@
                                         <div class="col-md-12 col-12 row mb-3">
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Hindi Description</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Hindi Description']?></label>
                                                 <textarea rows="4" type="text" id="modalItemHinDesc" class="form-control" name="modalItemHinDesc"><?= $br->itemHinDesc ?></textarea>
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Item Urdu Description</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Item Urdu Description']?></label>
                                                 <textarea rows="4" type="text" id="modalItemUrduDesc" class="form-control" name="modalItemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
                                             </div>
 
@@ -207,7 +209,7 @@
                                 </div>
 
                                 <div class="card-footer col-12 text-end">
-                                    <button type="button" class="btn btn-primary" id="updateItemBtn">Update</button>
+                                    <button type="button" class="btn btn-primary" id="updateItemBtn"><?php echo $translations['Update']?></button>
                                 </div>
 
                             </div>

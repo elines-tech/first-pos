@@ -5,13 +5,17 @@
 		</div>
 	</div>
 </nav>
+
+<?php include '../restaurant/config.php'; ?>
+
+
 <div class="container">
 	<section id="multiple-column-form" class="mt-5">
 		<div class="row match-height">
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="card-title">Add Recipe</h3>
+						<h3 class="card-title"><?php echo $translations['Add Recipe']?></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -28,7 +32,7 @@
 										<div class="row">
 											<div class="col-md-12 text-center col-12 justify-content-center">
 												<div class="form-group mandatory">
-													<label for="product-name" class="form-label">Product </label>
+													<label for="product-name" class="form-label"><?php echo $translations['Product']?></label>
 													<input type="hidden" class="form-control" id="recipeCode" name="recipeCode">
 													<select class="form-select" style="width:100%" name="productCode" id="productCode" data-parsley-required="true">
 													</select>
@@ -52,11 +56,11 @@
 												<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 													<thead>
 														<tr>
-															<th width="35%">Item</th>
-															<th width="25%">Ingredient Unit</th>
-															<th width="15%">Quantity</th>
-															<th width="15%">Cost</th>
-															<th width="10%">Customizable</th>
+															<th width="35%"><?php echo $translations['Item']?></th>
+															<th width="25%"><?php echo $translations['Ingredient Unit']?></th>
+															<th width="15%"><?php echo $translations['Quantity']?></th>
+															<th width="15%"><?php echo $translations['Cost']?></th>
+															<th width="10%"><?php echo $translations['Customizable']?></th>
 															<th></th>
 														</tr>
 													</thead>
@@ -98,16 +102,16 @@
 										</div>
 										<div class="col-md-12 col-12">
 											<div class="form-group mandatory">
-												<label for="arabicname-column" class="form-label">Direction</label>
+												<label for="arabicname-column" class="form-label"><?php echo $translations['Direction']?></label>
 												<textarea id="recipeDirection" class="form-control" required name="recipeDirection"></textarea>
 											</div>
 										</div>
 										<div class="row">
 											<div class="col-12 d-flex justify-content-end">
 												<?php if ($insertRights == 1) { ?>
-													<button type="submit" class="btn btn-success" id="saveRecipeBtn">Save</button>
+													<button type="submit" class="btn btn-success" id="saveRecipeBtn"><?php echo $translations['Save']?></button>
 												<?php } ?>
-												<button type="reset" id="cancelRecipeBtn" class="btn btn-light-secondary">Reset</button>
+												<button type="reset" id="cancelRecipeBtn" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 											</div>
 										</div>
 									</div>

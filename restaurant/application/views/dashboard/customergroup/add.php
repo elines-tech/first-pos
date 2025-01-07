@@ -1,15 +1,17 @@
+<?php include '../restaurant/config.php'; ?>
+
 <form class="form" method="post" id="saveGroupForm" enctype="multipart/form-data" data-parsley-validate>
     <div class="row">
         <div class="col-md-12 col-12">
             <div class="form-group mandatory">
-                <label for="unit-name-column" class="form-label">Group Name</label>
+                <label for="unit-name-column" class="form-label"><?php echo $translations['Group Name']?></label>
                 <input type="text" id="groupname" class="form-control" placeholder="Group Name" name="groupname" data-parsley-required="true">
                 <span class="text-danger" id="err"></span>
             </div>
         </div>
         <div class="col-md-12 col-12">
             <div class="form-group row">
-                <label for="status" class="form-label">Active</label>
+                <label for="status" class="form-label"><?php echo $translations['Active']?></label>
                 <div class="col-sm-4 checkbox">
                     <input type="checkbox" name="isActive" id="isActive" checked style="width:25px; height:25px">
                 </div>
@@ -20,9 +22,9 @@
     <div class="row">
         <div class="col-12 d-flex justify-content-end">
 		<?php if($insertRights==1){ ?>
-            <button type="button" class="btn btn-primary" id="saveGroupName">Save</button>
+            <button type="button" class="btn btn-primary" id="saveGroupName"><?php echo $translations['Save']?></button>
 		<?php } ?>
-            <button type="reset" id="cancelDefault" class="btn btn-light-secondary">Reset</button>
+            <button type="reset" id="cancelDefault" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
         </div>
     </div>
 </form>

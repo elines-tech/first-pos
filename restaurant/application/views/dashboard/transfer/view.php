@@ -1,3 +1,5 @@
+<?php include '../restaurant/config.php'; ?>
+
 <div class="container-fluid">
     <div class="row mt-2">
         <div class="col-md-10">
@@ -5,10 +7,10 @@
                 <?php if ($inwardData) {
                     $result = $inwardData->result_array()[0];
                 ?>
-                    <strong class="font_size_mod lng">Transfer </strong> : <strong class="font_size_mod "><?= $result['code'] ?></strong><br>
-                    <strong class="font_size_mod lng">Date:</strong> : <strong class="font_size_mod "><?= date('d/m/Y', strtotime($result['inwardDate'])) ?></strong><br>
-                    <strong class="font_size_mod lng">From Branch:</strong> : <strong class="font_size_mod "><?= $result['fromBranchName'] ?></strong><br>
-                    <strong class="font_size_mod lng">To Branch:</strong> : <strong class="font_size_mod "><?= $result['toBranchName'] ?></strong><br>
+                    <strong class="font_size_mod lng"><?php echo $translations['Transfer']?></strong> : <strong class="font_size_mod "><?= $result['code'] ?></strong><br>
+                    <strong class="font_size_mod lng"><?php echo $translations['Date']?></strong> : <strong class="font_size_mod "><?= date('d/m/Y', strtotime($result['inwardDate'])) ?></strong><br>
+                    <strong class="font_size_mod lng"><?php echo $translations['From Branch']?></strong> : <strong class="font_size_mod "><?= $result['fromBranchName'] ?></strong><br>
+                    <strong class="font_size_mod lng"><?php echo $translations['To Branch']?></strong> : <strong class="font_size_mod "><?= $result['toBranchName'] ?></strong><br>
                 <?php } ?>
             </div>
         </div>
@@ -19,11 +21,11 @@
 <table class="table table-bordered product-quotation-list mt-3">
     <thead>
         <tr>
-            <th class="lng">Item Name</th>
-            <th class="lng">Price</th>
-            <th class="lng">Qty</th>
-            <th class="lng">UOM</th>
-            <th class="text-right lng">Sub Total</th>
+            <th class="lng"><?php echo $translations['Item Name']?></th>
+            <th class="lng"><?php echo $translations['Price']?></th>
+            <th class="lng"><?php echo $translations['Qty']?></th>
+            <th class="lng"><?php echo $translations['UOM']?></th>
+            <th class="text-right lng"><?php echo $translations['Sub Total']?></th>
         </tr>
     </thead>
     <tbody id="v_tbody">
@@ -68,7 +70,7 @@
                     <table class="table right-table mb-0">
                         <tbody>
                             <tr class="d-flex align-items-center justify-content-between">
-                                <th class="border-0 font-size-h5 mb-0 font-size-bold lng">Total</th>
+                                <th class="border-0 font-size-h5 mb-0 font-size-bold lng"><?php echo $translations['Total']?></th>
                                 <td class="border-0 justify-content-end m-0 d-flex font-size-base"><?= $result['total'] ?></td>
 
                             </tr>
@@ -81,7 +83,7 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-end">
 
-                <button id="cancelDefault" type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal">Close</button>
+                <button id="cancelDefault" type="button" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
             </div>
         </div>
 

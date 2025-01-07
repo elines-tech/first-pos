@@ -1,9 +1,11 @@
+<?php include '../restaurant/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Item Category</h3>
+                    <h3><?php echo $translations['Item Category']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -34,7 +36,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Item Category List</h5>
+                            <h5><?php echo $translations['Item Category List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -42,13 +44,13 @@
                     <table class="table table-striped" id="datatableCategory">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Category Code</th>
-                                <th>Name</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Category Code']?></th>
+                                <th><?php echo $translations['Name']?></th>
                                 <!--<th>Short Name</th>-->
-                                <th>Icon</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Icon']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -77,7 +79,7 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group text-center justify-content-center row mandatory" id="nameDiv">
-                                                <label for="category-name-column" class="col-md-12 text-center form-label text-left">Name</label>
+                                                <label for="category-name-column" class="col-md-12 text-center form-label text-left"><?php echo $translations['Name']?></label>
                                                 <div class="col-md-12">
                                                     <input type="text" id="categoryName" class="form-control" placeholder="Enter Name" name="categoryName" required>
                                                 </div>
@@ -87,7 +89,7 @@
 
                                         <div class="col-md-12 col-12 d-none">
                                             <div class="form-group row mandatory" id="shortNameDiv">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Short Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Short Name']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="categorySName" class="form-control" maxlength="3" placeholder="Enter Short Name" name="categorySName">
                                                 </div>
@@ -97,7 +99,7 @@
 
                                         <div class="col-md-12 mb-2 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-12 text-center form-label text-left">Description :</label>
+                                                <label for="category-name-column" class="col-md-12 text-center form-label text-left"><?php echo $translations['Description']?></label>
                                                 <div class="col-md-12">
                                                     <textarea id="description" rows="6" class="form-control" placeholder="" name="description"></textarea>
                                                 </div>
@@ -117,7 +119,7 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group justify-content-center items-center text-center">
-                                                <label for="status" class="">Active</label>
+                                                <label for="status" class=""><?php echo $translations['Active']?></label>
                                                 <div class="checkbox">
                                                     <input type="checkbox" name="isActive" id="isActive" class=" " style="width:25px; height:25px">
                                                 </div>
@@ -139,9 +141,9 @@
                                             <input type="hidden" class="form-control" id="code" name="code">
                                             <input type="hidden" class="form-control" id="previousIcon" name="previousIcon">
                                             <?php if ($insertRights == 1) { ?>
-                                                <button type="submit" class="btn btn-primary" id="saveCategoryBtn">Save</button>
+                                                <button type="submit" class="btn btn-primary" id="saveCategoryBtn"><?php echo $translations['Save']?></button>
                                             <?php } ?>
-                                            <button type="button" class="btn btn-light-secondary" id="closeCategoryBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeCategoryBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>

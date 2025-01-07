@@ -1,3 +1,6 @@
+<?php include '../supermarket/config.php'; ?>
+
+
 <div class="page-heading m-4">
     <div class="page-breadcrumb">
         <div class="row">
@@ -28,11 +31,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 mb-10 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Orders</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Orders']?></h6>
                                     <h6 class="font-extrabold mb-0"><?= $countOrders?></h6>
                                 </div>
 								 <div id="view" class="col-sm-12 text-right">
-                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>order/listRecords">View</a>
+                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>order/listRecords"><?php echo $translations['View']?></a>
                                 </div>
                             </div>
                         </div>
@@ -50,11 +53,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 mb-10 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Brand</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Brand']?></h6>
                                     <h6 class="font-extrabold mb-0"><?= $countBrand?></h6>
                                 </div>
                                  <div id="view" class="col-sm-12 text-right">
-                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>brand/listRecords">View</a>
+                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>brand/listRecords"><?php echo $translations['View']?></a>
                                 </div>
                             </div>
                         </div>
@@ -73,11 +76,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 mb-10 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Category</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Category']?></h6>
                                     <h6 class="font-extrabold mb-0"><?= $countCategory ?></h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>category/listRecords">View</a>
+                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>category/listRecords"><?php echo $translations['View']?></a>
                                 </div>
                             </div>
                         </div>
@@ -95,11 +98,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 mb-10 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Products</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Products']?></h6>
                                     <h6 class="font-extrabold mb-0"><?= $countProduct?></h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>product/listRecords">View</a>
+                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>product/listRecords"><?php echo $translations['View']?></a>
                                 </div>
                             </div>
                         </div>
@@ -118,11 +121,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 mb-10 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Supplier</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Supplier']?></h6>
                                     <h6 class="font-extrabold mb-0" id="totalSale"><?= $countSupplier?></h6>
                                 </div>
                                 <div id="view" class="col-sm-12 text-right">
-                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>supplier/listRecords">View</a>
+                                    <a class='btn btn-md btn-light-secondary font-bold mt-3' href="<?= base_url(); ?>supplier/listRecords"><?php echo $translations['View']?></a>
                                 </div>
                             </div>
                         </div>

@@ -6,6 +6,8 @@
     </div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
+
 
 <div class="container">
 
@@ -15,7 +17,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Add Supplier</h3>
+                        <h3 class="card-title"><?php echo $translations['Add Supplier']?></h3>
                     </div>
                     <div class="card-content">
                         <div class="card-body">
@@ -26,7 +28,7 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                             <div class="card card-custom gutter-b bg-white border-0">
                                                 <div class="card-body">
-                                                    <h3 class="mt-0 header-title lng text-center">Image</h3>
+                                                    <h3 class="mt-0 header-title lng text-center"><?php echo $translations['Image']?></h3>
 
                                                     <div class="col-md-12 col-sm-6 col-xs-6 mb-2 p-0 text-center">
                                                         <img class="img-thumbnail mb-2" width="120px" id="logo_icon" src="../assets/images/faces/default-img.jpg" data-src="">
@@ -44,14 +46,14 @@
                                         <div class="row">
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="suppliername" class="form-label">Name</label>
+                                                    <label for="suppliername" class="form-label"><?php echo $translations['Name']?></label>
                                                     <input type="text" id="supplier-name" class="form-control" placeholder="Supplier Name" name="suppliername" value="<?= set_value('suppliername') ?>" data-parsley-required="true" onkeypress="return  ValidateAlpha(event)">
                                                 </div>
                                                 <?php echo form_error('suppliername', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">Arabic Name</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Arabic Name']?></label>
                                                     <input type="text" id="arabicname" class="form-control" placeholder="Arabic Name" name="arabicname" value="<?= set_value('arabicname') ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('arabicname', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -60,14 +62,14 @@
                                         <div class="row">
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="company-name" class="form-label">Company Name</label>
+                                                    <label for="company-name" class="form-label"><?php echo $translations['Company Name']?></label>
                                                     <input type="text" id="companyname" class="form-control" placeholder="Company Name" name="companyname" value="<?= set_value('companyname') ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('companyname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
 											<div class="col-md-6 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="Phone" class="form-label">Phone</label>
+                                                    <label for="Phone" class="form-label"><?php echo $translations['Phone']?></label>
                                                     <input type="text" id="phone" class="form-control" placeholder="Phone" name="phone" value="<?= set_value('phone') ?>" onkeypress="return isNumberKey(event)" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('phone', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -78,14 +80,14 @@
 										<div class="row">
 										     <div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label for="email-column" class="form-label">Email</label>
+                                                    <label for="email-column" class="form-label"><?php echo $translations['Email']?></label>
                                                     <input type="email" id="email" class="form-control" placeholder="Email" name="email" value="<?= set_value('email') ?>"  pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
                                                 </div>
                                                 <?php echo form_error('email', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
 											<div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label for="financial" class="form-label">Financial Account</label>
+                                                    <label for="financial" class="form-label"><?php echo $translations['Financial Account']?></label>
                                                     <input type="text" id="financial" class="form-control" placeholder="Financial Account" name="financial" value="<?= set_value('financial') ?>">
                                                 </div>
                                                 <?php echo form_error('financial', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -94,7 +96,7 @@
 										  <div class="row">
                                             <div class="col-md-12 col-12">
                                                 <div class="form-group">
-                                                    <label for="addr-column" class="form-label">Address</label>
+                                                    <label for="addr-column" class="form-label"><?php echo $translations['Address']?></label>
                                                     <textarea class="form-control" placeholder="Address" id="address" name="address" maxlength='200' data-parsley-minlength="20" data-parsley-minlength-message="You need to enter at least 20 characters" data-parsley-trigger="change"><?= set_value('address') ?></textarea>
                                                 </div>
                                             </div>
@@ -104,7 +106,7 @@
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
 
-                                                    <label for="Country" class="form-label">Country</label>
+                                                    <label for="Country" class="form-label"><?php echo $translations['Country']?></label>
                                                     <!--<input type="text" id="country" class="form-control" placeholder="Country Name" name="country" value="<?= set_value('country') ?>" onkeypress="return  ValidateAlpha(event)">-->
 													<?php
                                                       $country = file_get_contents('assets/country.json');	
@@ -129,7 +131,7 @@
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
 
-                                                    <label for="State" class="form-label">State</label>
+                                                    <label for="State" class="form-label"><?php echo $translations['State']?></label>
                                                     <input type="text" id="state" class="form-control" placeholder="State Name" name="state" value="<?= set_value('state') ?>" onkeypress="return  ValidateAlpha(event)">
 
 
@@ -140,14 +142,14 @@
                                         <div class="row">
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label for="City" class="form-label">City</label>
+                                                    <label for="City" class="form-label"><?php echo $translations['City']?></label>
                                                     <input type="text" id="city" class="form-control" placeholder="City" name="city" value="<?= set_value('city') ?>" onkeypress="return  ValidateAlpha(event)" >
                                                 </div>
                                                 <?php echo form_error('city', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label for="pincode" class="form-label">Postal Code</label>
+                                                    <label for="pincode" class="form-label"><?php echo $translations['Postal Code']?></label>
                                                     <input type="text" id="pincode" class="form-control" placeholder="Postal Code" name="pincode" value="<?= set_value('pincode') ?>" onkeypress="return isNumberKey(event)">
                                                 </div>
                                                 <?php echo form_error('pincode', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -167,7 +169,7 @@
                                             
                                             <div class="col-md-2 col-12">
                                                 <div class="form-group">
-                                                    <label class="form-label lng" key="status">Status</label>
+                                                    <label class="form-label lng" key="status"><?php echo $translations['Status']?></label>
                                                     <div class="input-group">
                                                         <div class="input-group-prepend"><span class="input-group-text bg-soft-primary">
                                                                 <input type="checkbox" name="isActive" class="form-check-input" checked=""></span>
@@ -185,9 +187,9 @@
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-end">
 									<?php if($insertRights==1){ ?>
-                                        <button type="submit" id="saveDefault" class="btn btn-success">Save</button>
+                                        <button type="submit" id="saveDefault" class="btn btn-success"><?php echo $translations['Save']?></button>
 									<?php }?>
-                                        <button type="reset" id="cancelDefault" class="btn btn-light-secondary">Reset</button>
+                                        <button type="reset" id="cancelDefault" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
                                     </div>
                                 </div>
                             </form>

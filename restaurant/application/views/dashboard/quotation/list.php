@@ -1,9 +1,12 @@
+
+<?php include '../restaurant/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Quotation</h3>
+                    <h3><?php echo $translations['Quotation']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -33,17 +36,17 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Filter</h5>
+                            <h5><?php echo $translations['Filter']?></h5>
                         </div>
                     </div>
                 </div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-10">
-                            <label class="form-label lng">Remark</label>
+                            <label class="form-label lng"><?php echo $translations['Remark']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select" name="remark" id="remark">
-                                    <option value="">Select Remark</option>
+                                    <option value=""><?php echo $translations['Select Remark']?></option>
                                     <option value="Not interested">Not interested</option>
                                     <option value="Ask to call later">Ask to call later</option>
                                     <option value="Next follow up date"> Next follow up date</option>
@@ -52,8 +55,8 @@
                         </div>
                         <div class="col-md-2">
                             <div class="d-flex mt-4">
-                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+                                <button type="button" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear"><?php echo $translations['Clear']?></button>
                             </div>
                         </div>
                     </div>
@@ -63,7 +66,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Quotation List</h5>
+                            <h5><?php echo $translations['Quotation List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -71,13 +74,13 @@
                     <table class="table table-striped" id="dataTableQuotation">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Date</th>
-                                <th>Event Name</th>
-                                <th>Number of Peoples</th>
-                                <th>Remark</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Date']?></th>
+                                <th><?php echo $translations['Event Name']?></th>
+                                <th><?php echo $translations['Number of Peoples']?></th>
+                                <th><?php echo $translations['Remark']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                         <tbody>

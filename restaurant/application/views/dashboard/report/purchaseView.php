@@ -7,6 +7,8 @@
     </div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
+
 
 <div class="container">
     <section id="multiple-column-form" class="mt-5">
@@ -14,7 +16,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">View Purchase</h3>
+                        <h3 class="card-title"><?php echo $translations['View Purchase']?></h3>
                     </div>
                     <div class="card-content">
                         <div class="card-body">
@@ -34,13 +36,13 @@
 										<div class="row">
 											<div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="" class="form-label">Inward</label>
+                                                    <label for="" class="form-label"><?php echo $translations['Inward']?></label>
                                                     <input type="date" id="inwardDate" class="form-control" name="inwardDate" id="inwardDate" value="<?= date('Y-m-d' ,strtotime($result['inwardDate']))?>" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-4 col-12">
 												<div class="form-group mandatory">
-													<label for="product-name" class="form-label">Branch</label>
+													<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 													<input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code']?>">
 													<select class="form-control" disabled name="branchCode" id="branchCode" data-parsley-required="true" required>
 														<option value="">Select</option>
@@ -59,7 +61,7 @@
 											</div>
 											 <div class="col-md-4 col-12">
 												<div class="form-group mandatory">
-													<label for="product-name" class="form-label">Supplier</label>
+													<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 													<select class="form-control" disabled name="supplierCode" id="supplierCode" data-parsley-required="true" required>
 														<option value="">Select</option>
 														<?php if ($supplier) {
@@ -79,7 +81,7 @@
 										<div class="row">
 											 <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="" class="form-label">Total</label>
+                                                    <label for="" class="form-label"><?php echo $translations['Total']?></label>
                                                     <input type="text" id="total" class="form-control" required name="total" disabled value="<?= $result['total']?>" required>
                                                 </div>
                                             </div>
@@ -99,11 +101,11 @@
 												<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 													<thead>
 														<tr>
-															<th width="35%">Item</th>
-															<th width="15%">Unit</th>
-															<th width="15%">Qty</th>
-															<th width="15%">Price</th>
-															<th width="15%">Subtotal</th>
+															<th width="35%"><?php echo $translations['Item']?></th>
+															<th width="15%"><?php echo $translations['Unit']?></th>
+															<th width="15%"><?php echo $translations['Qty']?></th>
+															<th width="15%"><?php echo $translations['Price']?></th>
+															<th width="15%"><?php echo $translations['Subtotal']?></th>
 														</tr>
 													</thead>
 													<tbody>

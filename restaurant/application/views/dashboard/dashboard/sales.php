@@ -1,8 +1,10 @@
+<?php include '../restaurant/config.php'; ?>
+
 <div class="page-heading m-5">
     <div class="page-breadcrumb">
         <div class="row">
             <div class="col-7 align-self-center">
-                <h5 class="page-title">Sales Dashboard (Updates in Every 60 sec)</h5>
+                <h5 class="page-title"><?php echo $translations['Sales Dashboard (Updates in Every 60 sec)']; ?></h5>
                 <div class="d-flex align-items-center">
 
                 </div>
@@ -13,7 +15,7 @@
         </div>
 		<div class="row d-flex justify-content-center text-center">
 		    <!--<div class="col-4 ">-->
-            <label class="form-label text-nowrap mr-5">Current showing data for all branches.</label>
+            <label class="form-label text-nowrap mr-5"><?php echo $translations['Current showing data for all branches.']; ?></label>
             <div class="col-12 d-flex text-center justify-content-center">
 			   <?php if($branchCode != "") { ?>
 					<input type="hidden" class="form-control" name="branchCode" id="branchCode" value="<?= $branchCode; ?>" readonly>
@@ -50,7 +52,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Orders</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Orders']?></h6>
                                     <h6 class="font-extrabold mb-0" id="countOrders">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -70,7 +72,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Dining</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Dining']?></h6>
                                     <h6 class="font-extrabold mb-0" id="countDining">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -91,7 +93,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Pickup</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Pickup']?></h6>
                                     <h6 class="font-extrabold mb-0" id="countPickup">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -111,7 +113,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Delivery</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Delivery']?></h6>
                                     <h6 class="font-extrabold mb-0" id="countDeliver">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -132,7 +134,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Sale</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Sale'];?></h6>
                                     <h6 class="font-extrabold mb-0" id="totalSale">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -152,7 +154,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Discount</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Discount'];?></h6>
                                     <h6 class="font-extrabold mb-0" id="totalDiscount">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -173,7 +175,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Tax</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Tax'];?></h6>
                                     <h6 class="font-extrabold mb-0" id="totalTax">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">
@@ -195,7 +197,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Today's Customer</h6>
+                                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Customer']?></h6>
                                     <h6 class="font-extrabold mb-0" id="totalCustomer">-</h6>
                                 </div>
                                 <!--<div class="col-sm-12 text-right">

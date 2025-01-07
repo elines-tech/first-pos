@@ -1,15 +1,18 @@
 <link href="<?= base_url("assets/init_site/orderstyle.css") ?>" rel="stylesheet" />
 
+<?php include '../restaurant/config.php'; ?>
+
+
 <div id="maindiv" class="container-fluid my-2">
     <div class="row">
         <div class="col-7" id="leftdiv">
-            <h5> Kitchen Orders </h5>
-            <small>Orders will be auto refreshed in every 1 minute...</small>
+            <h5><?php echo $translations['Kitchen Orders']?></h5>
+            <small><?php echo $translations['Orders will be auto refreshed in every 1 minute...']?></small>
         </div>
         <div class="col-5 align-self-center">
             <div class="d-flex no-block justify-content-end align-items-center">
                 <h5 class="text-danger mx-1 mt-1 font-medium"><span id="timeOut"></span>'s</h5>
-                <a id="cancelDefault" class="btn btn-sm btn-light-secondary mx-1" href="<?= base_url('Kitchen/listRecords') ?>"><i class="fa fa-angle-left"></i> Back </a>
+                <a id="cancelDefault" class="btn btn-sm btn-light-secondary mx-1" href="<?= base_url('Kitchen/listRecords') ?>"><i class="fa fa-angle-left"></i><?php echo $translations['Back']?></a>
             </div>
         </div>
     </div>

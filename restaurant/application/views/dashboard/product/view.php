@@ -8,6 +8,9 @@
 </nav>
 
 
+<?php include '../restaurant/config.php'; ?>
+
+
 <div class="container">
 
     <!-- // Basic multiple Column Form section start -->
@@ -16,7 +19,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">View Product</h3>
+                        <h3 class="card-title"><?php echo $translations['View Product']?></h3>
                     </div>
                     <div class="card-content">
                         <div class="card-body">
@@ -28,14 +31,14 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="product-arabic-name" class="form-label">Arabic Name</label>
+                                                <label for="product-arabic-name" class="form-label"><?php echo $translations['Arabic Name']?></label>
                                                 <input type="text" id="product-arabic-name" class="form-control" placeholder="Arabic Name" name="product-arabic-name" readonly value="<?= $productData[0]['productArbName'] ?>">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="product-english-name" class="form-label">English Name</label>
+                                                <label for="product-english-name" class="form-label"><?php echo $translations['English Name']?></label>
                                                 <input type="text" id="product-english-name" class="form-control" placeholder="Product Name" name="product-english-name" data-parsley-required="true" value="<?= $productData[0]['productEngName'] ?>">
                                             </div>
                                         </div>
@@ -43,7 +46,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="product-hindi-name" class="form-label">Hindi</label>
+                                                <label for="product-hindi-name" class="form-label"><?php echo $translations['Hindi']?></label>
                                                 <input type="text" id="product-hindi-name" class="form-control" placeholder="Hindi Name" name="product-hindi-name" readonly value="<?= $productData[0]['productHinName'] ?>">
                                             </div>
                                         </div>
@@ -51,7 +54,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="product-urdu-name" class="form-label">Urdu</label>
+                                                <label for="product-urdu-name" class="form-label"><?php echo $translations['Urdu']?></label>
                                                 <input type="text" id="product-urdu-name" class="form-control" placeholder="Urdu Name" name="product-urdu-name" readonly value="<?= $productData[0]['productUrduName'] ?>">
                                             </div>
                                         </div>
@@ -59,7 +62,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="desc-column" class="form-label">Arabic Description</label>
+                                                <label for="desc-column" class="form-label"><?php echo $translations['Arabic Description']?></label>
                                                 <textarea class="form-control" placeholder="Product Arabic Description" id="product-arabic-description" name="product-arabic-description" maxlength='2000' readonly><?= $productData[0]['productArbDesc'] ?></textarea>
                                             </div>
                                         </div>
@@ -68,7 +71,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="desc-column" class="form-label">English Description</label>
+                                                <label for="desc-column" class="form-label"><?php echo $translations['English Description']?></label>
                                                 <textarea class="form-control" placeholder="Product English Description" id="product-english-description" name="product-english-description" maxlength='2000' readonly><?= $productData[0]['productEngDesc'] ?></textarea>
                                             </div>
                                         </div>
@@ -77,7 +80,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="desc-column" class="form-label">Hindi Description</label>
+                                                <label for="desc-column" class="form-label"><?php echo $translations['Hindi Description']?></label>
                                                 <textarea class="form-control" placeholder="Product Hindi Description" id="product-hindi-description" name="product-hindi-description" maxlength='2000' readonly><?= $productData[0]['productHinDesc'] ?></textarea>
                                             </div>
                                         </div>
@@ -86,7 +89,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="desc-column" class="form-label">Urdu Description</label>
+                                                <label for="desc-column" class="form-label"><?php echo $translations['Urdu Description']?></label>
                                                 <textarea class="form-control" placeholder="Product Urdu Description" id="product-urdu-description" name="product-urdu-description" maxlength='2000' readonly><?= $productData[0]['productUrduDesc'] ?></textarea>
                                             </div>
                                         </div>
@@ -96,14 +99,14 @@
                                     <div class="row">
                                         <div class="col-md-6 col-6 mb-3">
                                             <div class="form-group">
-                                                <label class="form-label lng">Cooking Time</label>
+                                                <label class="form-label lng"><?php echo $translations['Cooking Time (Minutes)']?></label> 
                                                 <input name="productcookingtime" type="text" class="form-control timepicker3 hasDatepicker" id="productcookingtime" placeholder="00:00" autocomplete="off" value="<?= $productData[0]['preparationTime'] ?>" readonly>
 
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-6">
                                             <div class="form-group">
-                                                <label for="number-of-person-served" class="form-label">Number of persons served</label>
+                                                <label for="number-of-person-served" class="form-label"><?php echo $translations['Number of persons served']?></label>
                                                 <input type="text" class="form-control" id="number_of_person_served" name="number_of_person_served" value="<?= $productData[0]['numberOfPersonServed'] ?>" readonly>
                                             </div>
                                         </div>
@@ -117,7 +120,7 @@
 
                                             <div class="form-check mandatory">
                                                 <div class="checkbox">
-                                                    <label for="checkbox1">Status</label>
+                                                    <label for="checkbox1"><?php echo $translations['Status']?></label>
                                                     <?php if ($productData[0]['isActive'] == 1) {
                                                         echo " <span class='badge bg-success mt-2'>Active</span>";
                                                     } else {
@@ -131,7 +134,7 @@
 
                                             <div class="form-check">
                                                 <div class="checkbox">
-                                                    <label for="checkbox2">Is it an Addon?</label>
+                                                    <label for="checkbox2"><?php echo $translations['Is it an Addon?']?></label>
                                                     <?php if ($productData[0]['isAddOn'] == 1) {
                                                         echo " <span class='badge bg-success mt-2'>Active</span>";
                                                     } else {
@@ -168,7 +171,7 @@
                                         <div class="card card-custom gutter-b bg-white border-0">
                                             <div class="card-body">
                                                 <div class="col-md-12 col-sm-6 col-xs-6">
-                                                    <h3 class="mt-0 header-title lng">Product Category <b style="color:red">*</b></h3>
+                                                    <h3 class="mt-0 header-title lng"><?php echo $translations['Product Category']?><b style="color:red">*</b></h3>
                                                     <div class="form-group mandatory">
                                                         <select class="form-select" name="productcategory" id="productcategory" disabled>
                                                             <option value="">Select Category</option>
@@ -182,7 +185,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 col-sm-6 col-xs-6">
-                                                    <h3 class="mt-0 header-title lng">Product Subcategory <b style="color:red">*</b></h3>
+                                                    <h3 class="mt-0 header-title lng"><?php echo $translations['Product Subcategory']?><b style="color:red">*</b></h3>
                                                     <div class="form-group mandatory">
                                                         <select class="form-select" name="productsubcategory" id="productsubcategory" disabled>
                                                             <option value="">Select Subcategory</option>
@@ -201,7 +204,7 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                                         <div class="card card-custom gutter-b bg-white border-0">
                                             <div class="card-body">
-                                                <h3 class="mt-0 header-title lng">Product Images</h3>
+                                                <h3 class="mt-0 header-title lng"><?php echo $translations['Product Image']?></h3>
 
                                                 <div class="col-md-5 col-sm-6 col-xs-6 mb-2 p-0 text-left">
                                                     <?php if ($productData[0]['productImage'] != "") { ?>
@@ -218,7 +221,7 @@
                                             <div class="card-body">
                                                 <div class="form-group m-3 row align-items-center">
                                                     <div class=" col-md-4">
-                                                        <label for="productpricingmethod" class="form-label">Pricing Method </label>
+                                                        <label for="productpricingmethod" class="form-label"><?php echo $translations['Pricing Method']?></label>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="form-group mb-3 d-flex">
@@ -233,7 +236,7 @@
                                                 </div>
                                                 <div class="form-group m-3 mt-2 row align-items-center mandatory" id="priceShow" style="display:<?= $productData[0]['productMethod'] == '1' ? '' : 'none' ?>">
                                                     <div class=" col-md-4">
-                                                        <label class="col-form-label lng">Price (SAR) <b style="color:red">*</b></label>
+                                                        <label class="col-form-label lng"><?php echo $translations['Price (SAR)']?><b style="color:red">*</b></label>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <input type="text" class="form-control" name="productprice" id="productprice" readonly value="<?= $productData[0]['productPrice'] ?>">
@@ -241,7 +244,7 @@
                                                 </div>
                                                 <div class="form-group m-3 row align-items-center">
                                                     <div class=" col-md-4">
-                                                        <label for="producttaxgroup" class="form-label">Tax Group <b style="color:red">*</b></label>
+                                                        <label for="producttaxgroup" class="form-label"><?php echo $translations['Tax Group']?><b style="color:red">*</b></label>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="form-group mandatory">
@@ -259,7 +262,7 @@
                                                 </div>
                                                 <div class="form-group m-3 row align-items-center">
                                                     <div class=" col-md-4">
-                                                        <label for="productcostingmethod" class="form-label">Costing Method </label>
+                                                        <label for="productcostingmethod" class="form-label"><?php echo $translations['Costing Method']?></label>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="form-group mb-3 d-flex">
@@ -274,7 +277,7 @@
                                                 </div>
                                                 <div class="form-group m-3 mt-2 row align-items-center mandatory" id="costingShow" style="display:<?= $productData[0]['costingMethod'] == '2' ? 'none' : '' ?>">
                                                     <div class=" col-md-4">
-                                                        <label class="col-form-label lng">Cost (SAR) <b style="color:red">*</b></label>
+                                                        <label class="col-form-label lng"><?php echo $translations['Cost (SAR)']?><b style="color:red">*</b></label>
                                                     </div>
 
                                                     <div class="col-md-8">
@@ -284,7 +287,7 @@
                                                 </div>
                                                 <div class="form-group m-3 mt-2 row align-items-center">
                                                     <div class=" col-md-4">
-                                                        <label class="col-form-label lng">Product Calories</label>
+                                                        <label class="col-form-label lng"><?php echo $translations['Product Calories']?></label>
                                                     </div>
 
                                                     <div class="col-md-8">
@@ -295,7 +298,7 @@
 
                                                 <div class="form-group m-3 row align-items-center">
                                                     <div class=" col-md-4">
-                                                        <label class="col-form-label lng">Branches</label>
+                                                        <label class="col-form-label lng"><?php echo $translations['Branches']?></label>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <select class="choices form-select multiple-remove" name="branches[]" multiple="multiple" id="branches" disabled>

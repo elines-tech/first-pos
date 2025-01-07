@@ -1,9 +1,11 @@
+<?php include '../restaurant/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Order</h3>
+                    <h3><?php echo $translations['Order']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Order List</h5>
+                            <h5><?php echo $translations['Order List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -28,15 +30,15 @@
                     <table class="table table-striped" id="dataTableOrder">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Order Date</th>
-                                <th>Order Code</th>
-                                <th>Branch Name</th>
-                                <th>Table</th>
-                                <th>Customer</th>
-                                <th>Grand Total</th>
-                                <th>Remark</th>
-                                <th></th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Order Date']?></th>
+                                <th><?php echo $translations['Order Code']?></th>
+                                <th><?php echo $translations['Branch Name']?></th>
+                                <th><?php echo $translations['Table']?></th>
+                                <th><?php echo $translations['Customer']?></th>
+                                <th><?php echo $translations['Grand Total']?></th>
+                                <th><?php echo $translations['Remark']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                         <tbody>

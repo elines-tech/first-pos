@@ -7,6 +7,8 @@
 	</div>
 </nav>
 
+<?php include '../restaurant/config.php'; ?>
+
 
 <div class="container mb-5">
 	<section id="multiple-column-form" class="mt-5">
@@ -14,7 +16,7 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="card-title">Add Sale Quotation</h3>
+						<h3 class="card-title"><?php echo $translations['Add Sale Quotation']?></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -26,19 +28,19 @@
 											<div class="col-md-4 col-12">
 												<input type="hidden" class="form-control" id="today" name="today" value="<?= date("Y-m-d") ?>" onblur="validateDate()">
 												<div class="form-group mandatory">
-													<label for="" class="form-label">Date</label>
+													<label for="" class="form-label"><?php echo $translations['Date']?></label>
 													<input type="date" class="form-control" name="date" onblur="validateDate()" id="date" required value="<?= date('Y-m-d') ?>">
 												</div>
 											</div>
 											<div class="col-md-4 col-12">
 												<div class="form-group mandatory">
-													<label for="" class="form-label">Event Name</label>
+													<label for="" class="form-label"><?php echo $translations['Event Name']?></label>
 													<input type="text" class="form-control" name="eventName" id="eventName" required>
 												</div>
 											</div>
 											<div class="col-md-4 col-12">
 												<div class="form-group mandatory">
-													<label for="" class="form-label">People</label>
+													<label for="" class="form-label"><?php echo $translations['People']?></label>
 													<input type="text" class="form-control" name="people" id="people" onkeypress="return isNumber(event)" onkeyup="calculateTotal()" required>
 
 												</div>
@@ -51,10 +53,10 @@
 												<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 													<thead>
 														<tr>
-															<th width="25%">Products</th>
-															<th width="15%">Quantity/person</th>
-															<th width="25%">Price/person</th>
-															<th width="25%">Subtotal</th>
+															<th width="25%"><?php echo $translations['Products']?></th>
+															<th width="15%"><?php echo $translations['Quantity/person']?></th>
+															<th width="25%"><?php echo $translations['Price/person']?></th>
+															<th width="25%"><?php echo $translations['Subtotal']?></th>
 															<th width="10%"></th>
 														</tr>
 													</thead>
@@ -139,7 +141,7 @@
 
 														<tr>
 															<td colspan="3">
-																<label><b>Subtotal</b></label>
+																<label><b><?php echo $translations['Subtotal']?></b></label>
 																<input type="text" id="subTotal" class="text-center form-control" name="subTotal" value="0.00" readonly="readonly" autocomplete="off">
 															</td>
 
@@ -148,7 +150,7 @@
 														<tr>
 
 															<td colspan="3">
-																<label class="text-right text-nowrap"><b>Discount (₹)</b></label>
+																<label class="text-right text-nowrap"><b><?php echo $translations['Discount (₹)']?></b></label>
 																<input type="text" id="discount" class="text-center form-control decimal" name="discount" value="0.00" autocomplete="off" onkeyup="calculateTotal()">
 															</td>
 
@@ -157,7 +159,7 @@
 														<tr>
 
 															<td colspan="3">
-																<label class="text-right text-nowrap"><b>Discount Amount</b></label>
+																<label class="text-right text-nowrap"><b><?php echo $translations['Discount Amount']?></b></label>
 																<input type="text" id="discountAmount" class="text-center form-control decimal" name="discountAmount" disabled>
 															</td>
 
@@ -168,7 +170,7 @@
 														<tr>
 
 															<td colspan="3">
-																<label class="text-right"><b>Tax</b></label>
+																<label class="text-right"><b><?php echo $translations['Tax']?></b></label>
 																<input type="hidden" id="totalTax" class="text-center form-control" name="totalTax" readonly="readonly" value="0.00" autocomplete="off">
 																<input type="text" id="taxAmount" class="text-center form-control" name="taxAmount" readonly="readonly" value="0.00" autocomplete="off">
 
@@ -181,7 +183,7 @@
 
 
 															<td colspan="3">
-																<label class="text-right"><b>Grand Total</b></label>
+																<label class="text-right"><b><?php echo $translations['Grand Total']?></b></label>
 																<input type="text" id="grandTotal" class="text-center form-control" name="grandTotal" readonly="readonly" value="0.00" autocomplete="off">
 															</td>
 
@@ -202,9 +204,9 @@
 										<div class="row">
 											<div class="col-12 d-flex justify-content-end">
 												<?php if ($insertRights == 1) { ?>
-													<button type="submit" class="btn btn-success" id="saveQuotationBtn">Save</button>
+													<button type="submit" class="btn btn-success" id="saveQuotationBtn"><?php echo $translations['Save']?></button>
 												<?php } ?>
-												<button type="reset" id="cancelQuotationBtn" class="btn btn-light-secondary">Reset</button>
+												<button type="reset" id="cancelQuotationBtn" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 											</div>
 										</div>
 									</div>

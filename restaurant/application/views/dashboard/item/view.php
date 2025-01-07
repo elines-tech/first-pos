@@ -1,9 +1,11 @@
+<?php include '../restaurant/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>View Item</h3>
+                    <h3><?php echo $translations['View Item']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -36,11 +38,11 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-7">
-                                <h5>Item</h5>
+                                <h5><?php echo $translations['Item']?></h5>
                             </div>
 
                             <div class="col-5 text-end">
-                                <a id="cancelDefault" href="<?= base_url() ?>item/listRecords" class="btn btn-primary text-center">Back</a>
+                                <a id="cancelDefault" href="<?= base_url() ?>item/listRecords" class="btn btn-primary text-center"><?php echo $translations['Back']?></a>
                                 <!--<a id="saveDefault" href="<?= base_url() ?>item/edit/" class="btn btn-primary text-center edit_item">Edit Item</a>-->
                             </div>
 
@@ -60,12 +62,12 @@
 
                                         <div class="row mb-3">
                                             <div class="col-md-6">
-                                                <label for="itemName">Item Name : </label>
+                                                <label for="itemName"><?php echo $translations['Item Name']?></label>
                                                 <input type="hidden" class="form-control-line" name="itemCode" id="itemCode" value="<?= $br->code ?>">
                                                 <input type="text" class="form-control-line" id="itemName" value="<?= $br->itemEngName ?>">
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="itemUnit">Storage Unit : </label>
+                                                <label for="itemUnit"><?php echo $translations['Storage Unit']?></label>
                                                 <input type="text" class="form-control-line" id="itemUnit" value="<?= $br->unitName ?>">
                                             </div>
 
@@ -74,11 +76,11 @@
 
                                         <div class="row mb-3">
                                             <div class="col-md-6">
-                                                <label for="ingredientUnit">Ingredient Unit: </label>
+                                                <label for="ingredientUnit"><?php echo $translations['Ingredient Unit']?></label>
                                                 <input type="text" class="form-control-line" id="ingredientUnit" value="<?= $br->ingUnitName ?>">
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="ingredientFactor">Ingredient Factor : </label>
+                                                <label for="ingredientFactor"><?php echo $translations['Ingredient Factor']?></label>
                                                 <input type="text" class="form-control-line" id="ingredientFactor" value="<?= $br->ingredientFactor ?>">
                                             </div>
 
@@ -87,11 +89,11 @@
 
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="itemPrice">Item price : </label>
+                                                <label for="itemPrice"><?php echo $translations['Item price']?></label>
                                                 <input type="text" class="form-control-line" id="itemPrice" value="<?= $br->itemPrice ?>">
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="itemArbName">Item Arablc Name : </label>
+                                                <label for="itemArbName"><?php echo $translations['Item Arablc Name']?></label>
                                                 <input type="text" class="form-control-line" id="itemArbName" value="<?= $br->itemArbName ?>">
                                             </div>
 
@@ -100,11 +102,11 @@
 
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="itemHinName">Item Hindi Name : </label>
+                                                <label for="itemHinName"><?php echo $translations['Item Hindi Name']?></label>
                                                 <input type="text" class="form-control-line" id="itemHinName" value="<?= $br->itemHinName ?>">
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="itemUrduName">Item Urdu Name : </label>
+                                                <label for="itemUrduName"><?php echo $translations['Item Urdu Name']?></label>
                                                 <input type="text" class="form-control-line" id="itemUrduName" value="<?= $br->itemUrduName ?>">
                                             </div>
 
@@ -113,11 +115,11 @@
 
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="itemDesc">Item description : </label>
+                                                <label for="itemDesc"><?php echo $translations['Item description']?></label>
                                                 <textarea rows="4" type="text" class="form-control" id="itemDesc"><?= $br->itemEngDesc ?></textarea>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="itemDesc">Item Arabic description : </label>
+                                                <label for="itemDesc"><?php echo $translations['Item Arabic description']?></label>
                                                 <textarea type="text" rows="4" class="form-control" id="itemArbDesc"><?= $br->itemArbDesc ?></textarea>
                                             </div>
                                         </div>
@@ -125,11 +127,11 @@
 
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="itemHinDesc">Item Hindi description : </label>
+                                                <label for="itemHinDesc"><?php echo $translations['Item Hindi description']?></label>
                                                 <textarea type="text" rows="4" class="form-control" id="itemHinDesc"><?= $br->itemHinDesc ?></textarea>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="itemUrduDesc">Item Urdu description : </label>
+                                                <label for="itemUrduDesc"><?php echo $translations['Item Urdu description']?></label>
                                                 <textarea type="text" rows="4" class="form-control" id="itemUrduDesc"><?= $br->itemUrduDesc ?></textarea>
                                             </div>
                                         </div>
