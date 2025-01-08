@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Barcode</h3>
+					<h3><?php echo $translations['Barcode']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +23,7 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header">
-						<h3>Barcode<span class="float-end"><a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a></span></h3>
+						<h3><?php echo $translations['Barcode']?><span class="float-end"><a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords"><?php echo $translations['Back']?></a></span></h3>
 					</div>
 					<div class="card-content">
 						<div class="card-body">
@@ -40,7 +42,7 @@
 										<div class="row col-md-12 col-12">
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="branchCode" class="form-label">Branch</label>
+												<label for="branchCode" class="form-label"><?php echo $translations['Branch']?></label>
 												<?php if ($branchCode != "") { ?>
 													<input type="hidden" class="form-control" name="branchCode" id="branchCode" value="<?= $branchCode; ?>" readonly>
 													<input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
@@ -51,14 +53,14 @@
 											</div>
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="batchNo" class="form-label">Batch</label>
+												<label for="batchNo" class="form-label"><?php echo $translations['Batch']?></label>
 												<select class="form-select select2" id="batchNo" name="batchNo" required style="width:100%">
 												</select>
 											</div>
 
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="branchCode" class="form-label">Product</label>
+												<label for="branchCode" class="form-label"><?php echo $translations['Product']?></label>
 												<select class="form-select prds select2" required id="productCode" style="width:100%" name="productCode" onchange="getProductDetails()">
 												</select>
 												<input type="hidden" class="form-control" id="code" name="code" value=''>
@@ -72,18 +74,18 @@
 
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="branchCode" class="form-label">Selling Unit</label>
+												<label for="branchCode" class="form-label"><?php echo $translations['Selling Unit']?></label>
 												<select class="form-select select2" required id="sellingUnit" style="width:100%" name="sellingUnit">
 												</select>
 											</div>
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="sellingQty" class="form-label">Selling Qty</label>
+												<label for="sellingQty" class="form-label"><?php echo $translations['Selling Qty']?></label>
 												<input type="text" required class="form-control text-left" name="sellingQty" id="sellingQty" onkeypress="return isDecimal(event)" onkeyup="checkQty(0);">
 											</div>
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="sellingPrice" class="form-label">Selling Price</label>
+												<label for="sellingPrice" class="form-label"><?php echo $translations['Selling Price']?></label>
 												<input type="text" required class="form-control text-left" name="sellingPrice" id="sellingPrice" onkeypress="return isDecimal(event)" onkeyup="checkPrice(0);calculate_subTotal(0)">
 											</div>
 
@@ -92,17 +94,17 @@
 										<div class="row col-md-12 col-12">
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="discountPrice" class="form-label">Discount Price</label>
+												<label for="discountPrice" class="form-label"><?php echo $translations['Discount Price']?></label>
 												<input type="text" required class="form-control text-left" name="discountPrice" id="discountPrice" onkeypress="return isDecimal(event)" onkeyup="calculate_subTotal(0)">
 											</div>
 
 											<div class="form-group col-md-4 col-12 mandatory">
-												<label for="taxPercent" class="form-label">Tax(%)</label>
+												<label for="taxPercent" class="form-label"><?php echo $translations['Tax(%)']?></label>
 												<input type="text" required class="form-control text-left" name="taxPercent" id="taxPercent" readonly>
 											</div>
 
 											<div class="form-group col-md-4 font-bold mt-2 col-12 mandatory">
-												<lable for="taxAmount" class="form-label">Tax Amount</lable>
+												<lable for="taxAmount" class="form-label"><?php echo $translations['Tax Amount']?></lable>
 												<input type="text" required class="form-control text-left" name="taxAmount" id="taxAmount" readonly>
 											</div>
 
@@ -113,8 +115,8 @@
 								</div>
 								<div class="row mt-3">
 									<div class="col-12 d-flex justify-content-end">
-										<button type="submit" class="btn btn-success" id="saveBarcodeBtn">Save</button>
-										<button type="reset" id="cancelBarcodeBtn" class="btn btn-light-secondary">Reset</button>
+										<button type="submit" class="btn btn-success" id="saveBarcodeBtn"><?php echo $translations['Save']?></button>
+										<button type="reset" id="cancelBarcodeBtn" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 									</div>
 								</div>
 							</form>

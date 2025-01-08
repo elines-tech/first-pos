@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Giftcard</h3>
+					<h3><?php echo $translations['Giftcard']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Update Giftcard<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3><?php echo $translations['Update Giftcard']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -36,13 +38,13 @@
 														<div class="row">
 															<div class="col-md-4 col-12">
 																<div class="form-group mandatory">
-																	<label for="title" class="form-label">Title</label>
+																	<label for="title" class="form-label"><?php echo $translations['Title']?></label>
 																	<input type="text" id="title" minlength="2" maxlength="100" name="title" class="form-control" required value="<?= $result->title ?>">
 																</div>
 															</div>
 															<div class="col-md-4 col-12 d-none">
 																<div class="form-group mandatory">
-																	<label for="product-name" class="form-label">Type</label>
+																	<label for="product-name" class="form-label"><?php echo $translations['Type']?></label>
 																	<select id="cardType" name="cardType" readonly class="form-select" required>
 																		<option value="per" selected>Per</option>
 																	</select>
@@ -50,13 +52,13 @@
 															</div>
 															<div class="col-md-4 col-12">
 																<div class="form-group mandatory">
-																	<label for="discount" class="form-label"> Discount (%)</label>
+																	<label for="discount" class="form-label"><?php echo $translations['Discount (%)']?></label>
 																	<input type="number" id="discount" name="discount" min="1" max="99" class="form-control" required value="<?= $result->discount ?>" onkeypress="return isNumber(event)">
 																</div>
 															</div>
 															<div class="col-md-4 col-12">
 																<div class="form-group mandatory">
-																	<label for="price" class="form-label">Price</label>
+																	<label for="price" class="form-label"><?php echo $translations['Price']?></label>
 																	<input type="number" id="price" name="price" class="form-control" required value="<?= $result->price ?>" onkeypress="return isNumber(event)">
 																</div>
 															</div>
@@ -64,7 +66,7 @@
 														<div class="row">
 															<div class="col-md-12 col-12">
 																<div class="form-group mandatory">
-																	<label for="" class="form-label">Validity (In days)</label>
+																	<label for="" class="form-label"><?php echo $translations['Validity (In days)']?></label>
 																	<input type="number" step="1" id="validityInDays" min="1" max="365" name="validityInDays" class="form-control" onkeypress="return isNumber(event)" required value="<?= $result->validityInDays ?>">
 																</div>
 															</div>
@@ -74,7 +76,7 @@
 														<div class="row">
 															<div class="col-md-12 col-12">
 																<div class="form-group mandatory">
-																	<label for="description" class="form-label mb-1">Description : </label>
+																	<label for="description" class="form-label mb-1"><?php echo $translations['Description']?></label>
 																	<textarea class="form-control" id="description" name="description" placeholder="Description"><?= $result->description ?></textarea>
 																</div>
 															</div>
@@ -85,7 +87,7 @@
 																<div class="form-check">
 																	<input class="form-check-input" type="checkbox" value="1" id="isActive" name="isActive" <?= ($result->isActive == 1) ? "checked" : "" ?>>
 																	<label class="form-check-label" for="isActive">
-																		Active
+																		<?php echo $translations['Active']?>
 																	</label>
 																</div>
 															</div>
@@ -94,8 +96,8 @@
 
 														<div class="row">
 															<div class="col-12 d-flex justify-content-end">
-																<button type="submit" class="btn btn-success" id="saveCardBtn">Update</button>
-																<button type="reset" id="closeCardBtn" class="btn btn-light-secondary">Reset</button>
+																<button type="submit" class="btn btn-success" id="saveCardBtn"><?php echo $translations['Update']?></button>
+																<button type="reset" id="closeCardBtn" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 															</div>
 														</div>
 													</div>

@@ -1,10 +1,12 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Transfer</h3>
+                    <h3><?php echo $translations['Transfer']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -37,7 +39,7 @@
                     <div class="row">
 
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Transfer List</h5>
+                            <h5><?php echo $translations['Transfer List']?></h5>
 
                         </div>
 
@@ -48,16 +50,16 @@
                     <table class="table table-striped" id="transferTable">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Batchno</th>
-                                <th>Date</th>
-                                <th>Branch from</th>
-                                <th>Branch to</th>
-                                <th>Price</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Batchno']?></th>
+                                <th><?php echo $translations['Date']?></th>
+                                <th><?php echo $translations['Branch from']?></th>
+                                <th><?php echo $translations['Branch to']?></th>
+                                <th><?php echo $translations['Price']?></th>
 
-                                <th>Approved</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Approved']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -77,7 +79,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
         <div class="modal-content">
             <div class="modal-header justify-content-between">
-                <h4 class="modal-title font-size-h4 text-center lng">Transfer</h4>
+                <h4 class="modal-title font-size-h4 text-center lng"><?php echo $translations['Transfer']?></h4>
             </div>
 
             <div class="modal-body panel-body">

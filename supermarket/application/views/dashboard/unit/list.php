@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Unit</h3>
+                    <h3><?php echo $translations['Unit']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +34,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Unit List</h5>
+                            <h5><?php echo $translations['Unit List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -40,15 +42,15 @@
                     <table class="table table-striped" id="datatableUnit">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Base unit</th>
-                                <th>Name</th>
-                                <th>Short Name</th>
-                                <th>Rounding Precision</th>
-                                <th>Conversion Factor</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Base unit']?></th>
+                                <th><?php echo $translations['Name']?></th>
+                                <th><?php echo $translations['Short Name']?></th>
+                                <th><?php echo $translations['Rounding Precision']?></th>
+                                <th><?php echo $translations['Conversion Factor']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -62,7 +64,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'>Add Unit</h5>
+                <h5 id='modal_label'><?php echo $translations['Add Unit']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -73,7 +75,7 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label class="col-md-4 form-label text-left">Base Unit</label>
+                                                <label class="col-md-4 form-label text-left"><?php echo $translations['Base Unit']?></label>
                                                 <div class="col-md-8">
                                                     <select class="form-select select2" style="width:100%" name="baseUnit" id="baseUnit" required>
 
@@ -83,7 +85,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory" id="nameDiv">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Name</label>
+                                                <label for="Unit-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Name']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="unitName" class="form-control" placeholder="Enter Name" name="unitName" required>
                                                 </div>
@@ -91,7 +93,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory" id="shortNameDiv">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Short Name</label>
+                                                <label for="Unit-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Short Name']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="unitSName" class="form-control" maxlength="3" placeholder="Enter Short Name" name="unitSName" required>
                                                 </div>
@@ -99,7 +101,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-left">Description</label>
+                                                <label for="Unit-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Description']?></label>
                                                 <div class="col-md-8">
                                                     <textarea id="description" rows="6" class="form-control" placeholder="" name="description"></textarea>
                                                 </div>
@@ -107,7 +109,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label class="col-md-4 form-label text-left">Round Precision</label>
+                                                <label class="col-md-4 form-label text-left"><?php echo $translations['Round Precision']?></label>
                                                 <div class="col-md-8">
                                                     <select class="form-select" required name="rounding" id="rounding">
                                                         <option value="0">0</option>
@@ -120,7 +122,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="Unit-name-column" class="col-md-4 form-label text-nowrap text-left">Conversion Factor</label>
+                                                <label for="Unit-name-column" class="col-md-4 form-label text-nowrap text-left"><?php echo $translations['Conversion Factor']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="conversionFactor" class="form-control" onkeypress="return isDecimal(event)" placeholder="Enter Conversion Factor Number" name="conversionFactor" onchange="checkConversionFactor()" required>
                                                 </div>
@@ -128,7 +130,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="status" class="col-sm-4 col-form-label text-left">Active : </label>
+                                                <label for="status" class="col-sm-4 col-form-label text-left"><?php echo $translations['Active']?></label>
                                                 <div class="col-sm-8 checkbox">
                                                     <input type="checkbox" name="isActive" id="isActive" class="mt-2" style="width:25px; height:25px">
                                                 </div>
@@ -139,8 +141,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary" id="saveUnitBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeUnitBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveUnitBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeUnitBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>

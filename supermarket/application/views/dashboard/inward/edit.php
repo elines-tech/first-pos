@@ -10,12 +10,16 @@ if ($items) {
 	}
 }
 ?>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Inward</h3>
+					<h3><?php echo $translations['Inward']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +36,7 @@ if ($items) {
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Edit Inward<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3><?php echo $translations['Edit Inward']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -52,19 +56,19 @@ if ($items) {
 												<div class="row">
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Batch No</label>
+															<label for="" class="form-label"><?php echo $translations['Batch No']?></label>
 															<input type="text" id="batchNo" class="form-control" name="batchNo" required readonly value="<?= $result['batchNo'] ?>">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Inward</label>
+															<label for="" class="form-label"><?php echo $translations['Inward']?></label>
 															<input type="date" id="inwardDate" class="form-control" name="inwardDate" id="inwardDate" value="<?= date('Y-m-d', strtotime($result['inwardDate'])) ?>" required>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="product-name" class="form-label">Branch</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 															<input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code'] ?>">
 															<?php if ($branchCode != "") { ?>
 																<input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
@@ -87,7 +91,7 @@ if ($items) {
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="product-name" class="form-label">Supplier</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 															<select class="form-select select2" name="supplierCode" id="supplierCode" data-parsley-required="true" required>
 																<option value="">Select</option>
 																<?php if ($supplier) {
@@ -107,7 +111,7 @@ if ($items) {
 												<div class="row">
 													<div class="col-md-12 col-12">
 														<div class="form-group">
-															<label for="product-name" class="form-label">Reference</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Reference']?></label>
 															<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref'] ?>">
 														</div>
 													</div>
@@ -122,7 +126,7 @@ if ($items) {
 																<div class="row">
 																	<div class="col-md-3 col-12">
 																		<div class="form-group mandatory">
-																			<label class="form-label">Product</label>
+																			<label class="form-label"><?php echo $translations['Product']?></label>
 																			<input type="hidden" class="form-control" name="inwardLineCode[]" id="inwardLineCode<?= $i ?>" value="<?= $co['code'] ?>">
 																			<select class="form-select select2 items" required id="itemCode<?= $i ?>" style="width:100%" name="itemCode[]" onchange="getItemStorageUnit(<?= $i ?>);checkDuplicateItem(<?= $i ?>);">
 																				<option value="">Select Item</option>
@@ -150,7 +154,7 @@ if ($items) {
 																	</div>
 																	<div class="col-md-3 col-12">
 																		<div class="form-group mandatory">
-																			<label class="form-label">Item Unit</label>
+																			<label class="form-label"><?php echo $translations['Item Unit']?></label>
 																			<input type="hidden" class="form-control" name="itemUnit[]" id="itemUnit<?= $i ?>" value="<?= $co['productUnit'] ?>" readonly>
 																			<input type="text" class="form-control" name="itemUnitName[]" id="itemUnitName<?= $i ?>" value="<?= $co['unitName'] ?>" readonly>
 																			<input type="hidden" class="form-control" name="productCode[]" id="productCode<?= $i ?>" value="<?= $co['productCode'] ?>" readonly>
@@ -160,7 +164,7 @@ if ($items) {
 																	</div>
 																	<div class="col-md-3 col-12">
 																		<div class="form-group mandatory">
-																			<label class="form-label">Expiry Date</label>
+																			<label class="form-label"><?php echo $translations['Expiry Date']?></label>
 																			<input type="date" class="form-control" name="expiryDate[]" id="expiryDate<?= $i ?>" onblur="validateExpiryDate(<?= $i ?>)" value="<?php if ($co['expiryDate'] != '' && $co['expiryDate'] != '0000-00-00') {
 																																																					echo date('Y-m-d', strtotime($co['expiryDate']));
 																																																				} ?>">
@@ -168,25 +172,25 @@ if ($items) {
 																	</div>
 																	<div class="col-md-3 col-12">
 																		<div class="form-group mandatory">
-																			<label class="form-label">Quantity</label>
+																			<label class="form-label"><?php echo $translations['Quantity']?></label>
 																			<input type="number" min="0" max="99999" step="0.01" required class="form-control" name="itemQty[]" id="itemQty<?= $i ?>" onchange="checkQty(<?= $i ?>);" value="<?= $co['productQty'] ?>" onkeyup="calculate_subTotal(<?= $i ?>)">
 																		</div>
 																	</div>
 																	<div class="col-md-3 col-12">
 																		<div class="form-group mandatory">
-																			<label class="form-label">Price</label>
+																			<label class="form-label"><?php echo $translations['Price']?></label>
 																			<input type="number" min="0" max="9999999" step="0.01" required class="form-control" name="itemPrice[]" id="itemPrice<?= $i ?>" value="<?= $co['productPrice'] ?>" onchange="checkPrice(<?= $i ?>);" onkeyup="calculate_subTotal(<?= $i ?>)">
 																		</div>
 																	</div>
 																	<div class="col-md-3 col-12">
 																		<div class="form-group">
-																			<label class="form-label">Tax</label>
+																			<label class="form-label"><?php echo $translations['Tax']?></label>
 																			<input type="number" min="0" max="99" step="0.01" required class="form-control" name="itemTax[]" id="itemTax<?= $i ?>" onchange="checkTax(<?= $i ?>);" onkeyup="calculate_subTotal(<?= $i ?>)" value="<?= $co['tax'] ?>">
 																		</div>
 																	</div>
 																	<div class="col-md-3 col-12">
 																		<div class="form-group mandatory">
-																			<label class="form-label">Subtotal</label>
+																			<label class="form-label"><?php echo $translations['Subtotal']?></label>
 																			<input type="number" min="0" max="99999999999" step="0.01" required class="form-control subtotal" name="subTotal[]" id="subTotal<?= $i ?>" value="<?= $co['subTotal'] ?>" readonly>
 																		</div>
 																	</div>
@@ -214,14 +218,14 @@ if ($items) {
 												<div class="row">
 													<div class="col-md-4 offset-md-8 col-12 mb-2">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Total</label>
+															<label for="" class="form-label"><?php echo $translations['Total']?></label>
 															<input type="number" step="0.01" id="total" class="form-control" name="total" required readonly value="<?= $result['total'] ?>">
 														</div>
 													</div>
 													<div class="col-12 d-flex justify-content-end">
-														<button id="saveDefaultButton" type="submit" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-														<button id="saveInwardBtn" type="submit" class="btn btn-success submitBtn" name="saveInwardBtn" value="2">Save</button>
-														<button type="reset" id="cancelInwardBtn" class="btn btn-light-secondary ">Reset</button>
+														<button id="saveDefaultButton" type="submit" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1"><?php echo $translations['Save & Approve']?></button>
+														<button id="saveInwardBtn" type="submit" class="btn btn-success submitBtn" name="saveInwardBtn" value="2"><?php echo $translations['Save']?></button>
+														<button type="reset" id="cancelInwardBtn" class="btn btn-light-secondary "><?php echo $translations['Reset']?></button>
 													</div>
 												</div>
 											</div>

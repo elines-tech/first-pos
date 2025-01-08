@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>User</h3>
+                    <h3><?php echo $translations['User']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Add User <span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+                            <h3><?php echo $translations['Add User']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -38,7 +40,7 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="product-name" class="form-label">Branch Name</label>
+                                                <label for="product-name" class="form-label"><?php echo $translations['Branch Name']?></label>
                                                 <?php if ($branchCode != "") { ?>
                                                     <input type="hidden" class="form-control" name="branchname" id="branchname" value="<?= $branchCode; ?>" readonly>
                                                     <input type="text" class="form-control" name="branch" value="<?= $branchName; ?>" readonly>
@@ -53,7 +55,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="arabicname-column" class="form-label">Name</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['Name']?></label>
                                                 <input type="text" id="name" value="<?= set_value('name') ?>" class="form-control" placeholder="Name" name="name" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
                                             </div>
                                             <?php echo form_error('name', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -62,7 +64,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="arabicname-column" class="form-label">User Name</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Name']?></label>
                                                 <input type="text" id="username" value="<?= set_value('username') ?>" class="form-control" placeholder="User Name" name="username" oninput="this.value=this.value.replace(/[^a-z]/gi,'')" data-parsley-required="true" maxlength="20" data-parsley-minlength="3" data-parsley-minlength-message="You need to enter at least 3 characters" data-parsley-trigger="change">
                                             </div>
                                             <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -74,7 +76,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="arabicname-column" class="form-label">User Email</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Email']?></label>
                                                 <input type="email" id="useremail" value="<?= set_value('useremail') ?>" class="form-control" placeholder="Email" name="useremail" data-parsley-required="true" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
                                             </div>
                                             <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -85,7 +87,7 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="arabicname-column" class="form-label">User Employee Number</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Employee Number']?></label>
                                                 <input type="text" id="userempnumber" value="<?= set_value('userempnumber') ?>" class="form-control" placeholder="User Employee Number" name="userempnumber" data-parsley-required="true" onkeypress="return isNumberKey(event)">
                                             </div>
                                             <?php echo form_error('userempnumber', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -96,9 +98,9 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="arabicname-column" class="form-label">User Language</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Language']?></label>
                                                 <select class="form-select select2" name="userlanguage" id="userlanguage" data-parsley-required="true">
-                                                    <option value="">Select Language</option>
+                                                    <option value=""><?php echo $translations['Select Language']?></option>
                                                     <option value="English" <?= set_select('userlanguage', 'English', False) ?>>English</option>
                                                     <option value="Arabic" <?= set_select('userlanguage', 'Arabic', False) ?>>Arabic</option>
                                                     <option value="Hindi" <?= set_select('userlanguage', 'Hindi', False) ?>>Hindi</option>
@@ -114,9 +116,9 @@
 
                                         <div class="col-md-6 col-12">
                                             <div class="form-group mandatory">
-                                                <label for="product-name" class="form-label">User Role</label>
+                                                <label for="product-name" class="form-label"><?php echo $translations['User Role']?></label>
                                                 <select class=" form-select select2" name="userrole" id="userrole" data-parsley-required="true">
-                                                    <option value="">Select Role</option>
+                                                    <option value=""><?php echo $translations['Select Role']?></option>
                                                     <?php if ($roledata) {
                                                         foreach ($roledata->result() as $role) {
                                                             echo '<option value="' . $role->code . '">' . $role->role . '</option>';
@@ -130,7 +132,7 @@
 
                                         <div class="col-md-6 col-12 d-none" id="counterDiv">
                                             <div class="form-group mandatory">
-                                                <label for="product-name" class="form-label">User Counter</label>
+                                                <label for="product-name" class="form-label"><?php echo $translations['User Counter']?></label>
                                                 <select class=" form-select select2" name="userCounter" id="userCounter" style="width:100%">
 
                                                 </select>
@@ -141,7 +143,7 @@
 
                                         <div class="col-md-6 col-12" style="display:none;" id="loginPinDetails">
                                             <div class="form-group mandatory">
-                                                <label class="form-label">Login Pin</label>
+                                                <label class="form-label"><?php echo $translations['Login Pin']?></label>
                                                 <input type="text" id="loginpin" value="<?= $loginpin ?>" class="form-control" placeholder="Login Pin" name="loginpin">
                                             </div>
                                             <?php echo form_error('loginpin', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -152,7 +154,7 @@
                                             <div class="row">
                                                 <div class="col-md-6 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="arabicname-column" class="form-label">Password</label>
+                                                        <label for="arabicname-column" class="form-label"><?php echo $translations['Password']?></label>
                                                         <input type="password" id="password" class="form-control" placeholder="Password" name="password">
                                                     </div>
                                                 </div>
@@ -160,7 +162,7 @@
 
                                                 <div class="col-md-6 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="arabicname-column" class="form-label">Confirm Password</label>
+                                                        <label for="arabicname-column" class="form-label"><?php echo $translations['Confirm Password']?></label>
                                                         <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();">
                                                     </div>
                                                     <div id="CheckPasswordMatch" style="color:#e66060;"></div>
@@ -187,7 +189,7 @@
                                                 <div class="form-check col-md-12 col-12 d-flex justify-content-center text-center">
                                                     <input class="form-check-input mx-2" type="checkbox" name="isActive" id="isActive" checked>
                                                     <label class="form-check-label" for="isActive">
-                                                        Active
+                                                        <?php echo $translations['Active']?>
                                                     </label>
                                                 </div>
                                             </div>
@@ -198,8 +200,8 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-success" id="submit">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="reset">Reset</button>
+                                            <button type="submit" class="btn btn-success" id="submit"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="reset"><?php echo $translations['Reset']?></button>
                                         </div>
                                     </div>
                                 </form>

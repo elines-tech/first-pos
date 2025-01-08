@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Account Expense</h3>
+                    <h3><?php echo $translations['Account Expense']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +34,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Account Expense List</h5>
+                            <h5><?php echo $translations['Account Expense List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -40,13 +42,13 @@
                     <table class="table table-striped" id="datatableAccountExpense">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Date</th>
-                                <th>Branch</th>
-                                <th>Title</th>
-                                <th>Cost</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Date']?></th>
+                                <th><?php echo $translations['Branch']?></th>
+                                <th><?php echo $translations['Title']?></th>
+                                <th><?php echo $translations['Cost']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -62,7 +64,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'>Add Account Expense</h5>
+                <h5 id='modal_label'><?php echo $translations['Add Account Expense']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -73,13 +75,13 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Branch</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Branch']?></label>
                                                 <div class="col-md-8">
                                                     <?php if ($branchCode != "") { ?>
                                                         <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
                                                     <?php } else { ?>
                                                         <select class="form-select select2" style="width:100%" name="branch" id="branch" required data-parsley-required-message="Branch is required">
-                                                            <option value="">Select</option>
+                                                            <option value=""><?php echo $translations['Select']?></option>
                                                             <?php
                                                             if ($branch) {
                                                                 foreach ($branch->result() as $br) {
@@ -94,7 +96,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Date</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Date']?></label>
                                                 <div class="col-md-8">
                                                     <input type="date" id="date" class="form-control" value="<?= date('Y-m-d') ?>" name="date" required>
                                                 </div>
@@ -102,7 +104,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="expensename" class="col-md-4 form-label text-left">Expense Name:</label>
+                                                <label for="expensename" class="col-md-4 form-label text-left"><?php echo $translations['Expense Name']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="expensename" class="form-control" placeholder="Expense Name" name="expensename" required>
                                                 </div>
@@ -110,7 +112,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="expensecost" class="col-md-4 form-label text-left">Expense Cost:</label>
+                                                <label for="expensecost" class="col-md-4 form-label text-left"><?php echo $translations['Expense Cost']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="expensecost" class="form-control" placeholder="Expense Cost" name="expensecost" onkeypress="return isDecimal(event,this)" required>
                                                 </div>
@@ -118,7 +120,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="expensedescription" class="col-md-4 form-label text-left">Expense Description :</label>
+                                                <label for="expensedescription" class="col-md-4 form-label text-left"><?php echo $translations['Expense Description']?></label>
                                                 <div class="col-md-8">
                                                     <textarea id="expensedescription" rows="6" class="form-control" name="expensedescription"></textarea>
                                                 </div>
@@ -130,8 +132,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary" id="saveAccountExpenseBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeAccountExpenseBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveAccountExpenseBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeAccountExpenseBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>
@@ -160,7 +162,7 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Branch</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Branch']?></label>
                                                 <div class="col-md-8">
                                                     <select class="form-select select2" style="width:100%" name="viewbranch" id="viewbranch" disabled>
                                                         <option value="">Select</option>
@@ -177,7 +179,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Date</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Date']?></label>
                                                 <div class="col-md-8">
                                                     <input type="date" id="viewdate" class="form-control" name="viewdate" readonly>
                                                 </div>
@@ -185,7 +187,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="expensename" class="col-md-4 form-label text-left">Expense Name:</label>
+                                                <label for="expensename" class="col-md-4 form-label text-left"><?php echo $translations['Expense Name']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="viewexpensename" class="form-control" placeholder="Expense Name" name="viewexpensename" readonly>
                                                 </div>
@@ -193,7 +195,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label for="expensecost" class="col-md-4 form-label text-left">Expense Cost:</label>
+                                                <label for="expensecost" class="col-md-4 form-label text-left"><?php echo $translations['Expense Cost']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="viewexpensecost" class="form-control" placeholder="Expense Cost" name="viewexpensecost" readonly onkeypress="return isDecimal(event,this)">
                                                 </div>
@@ -201,7 +203,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="expensedescription" class="col-md-4 form-label text-left">Expense Description :</label>
+                                                <label for="expensedescription" class="col-md-4 form-label text-left"><?php echo $translations['Expense Description']?></label>
                                                 <div class="col-md-8">
                                                     <textarea id="viewexpensedescription" rows="6" class="form-control" name="viewexpensedescription" readonly></textarea>
                                                 </div>
@@ -211,7 +213,7 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button id="cancelDefaultButton" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button id="cancelDefaultButton" type="button" class="btn btn-light-secondary" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                             </div>

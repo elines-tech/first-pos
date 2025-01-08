@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Transfer</h3>
+					<h3><?php echo $translations['Transfer']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +23,7 @@
 					<div class="col-12">
 						<div class="card">
 							<div class="card-header">
-								<h3>Add Transfer<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>transfer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+								<h3><?php echo $translations['Add Transfer']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>transfer/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 							</div>
 							<div class="card-content">
 								<div class="card-body">
@@ -40,14 +42,14 @@
 
 											<div class="col-md-12 col-sm-12 col-xs-12 mb-3">
 												<div class="form-group mandatory">
-													<label class="form-label">Date</label>
+													<label class="form-label"><?php echo $translations['Date']?></label>
 													<input type="date" class="form-control bg-white" name="transferDate" id="transferDate" value="<?= date('Y-m-d') ?>">
 												</div>
 											</div>
 
 
 											<div class="form-group col-md-6 col-sm-12 col-xs-12 mb-3 mandatory">
-												<label class="form-label">From Branch</label>
+												<label class="form-label"><?php echo $translations['From Branch']?></label>
 												<div class="col-md-12 col-sm-12 col-xs-12">
 													<input type="hidden" class="form-control" id="transferCode" name="transferCode">
 													<?php if ($branchCode != "") { ?>
@@ -62,7 +64,7 @@
 											</div>
 
 											<div class="form-group col-md-6 col-sm-12 col-xs-12 mb-3 mandatory">
-												<label class="form-label">To Branch</label>
+												<label class="form-label"><?php echo $translations['To Branch']?></label>
 												<div class="col-md-12 col-sm-12 col-xs-12">
 													<select class="form-select select2" name="toBranch" id="toBranch" data-parsley-required="true" required>
 													</select>
@@ -76,13 +78,13 @@
 										<table class="table table-hover" id="transferTable">
 											<thead>
 												<tr>
-													<th style="width:25%">Batch No<i class="text-danger">*</i></th>
-													<th style="width:25%">Product<i class="text-danger">*</i></th>
-													<th style="width:12%">Qty<i class="text-danger">*</i></th>
-													<th style="width:12%">Price</th>
-													<th style="width:12%">UOM</th>
-													<th style="width:12%">Sub Total</th>
-													<th style="width:2%">Action</th>
+													<th style="width:25%"><?php echo $translations['Batch No']?><i class="text-danger">*</i></th>
+													<th style="width:25%"><?php echo $translations['Product']?><i class="text-danger">*</i></th>
+													<th style="width:12%"><?php echo $translations['Qty']?><i class="text-danger">*</i></th>
+													<th style="width:12%"><?php echo $translations['Price']?></th>
+													<th style="width:12%"><?php echo $translations['UOM']?></th>
+													<th style="width:12%"><?php echo $translations['Sub Total']?></th>
+													<th style="width:2%"><?php echo $translations['Action']?></th>
 												</tr>
 											</thead>
 											<tbody id="table-rows">
@@ -125,14 +127,14 @@
 										<div class="row">
 											<div class="col-md-6 offset-md-6 mb-3 col-12">
 												<div class="form-group mandatory">
-													<label for="" class="form-label">Total</label>
+													<label for="" class="form-label"><?php echo $translations['Total']?></label>
 													<input type="text" id="total" class="text-right form-control" name="total" value="0.00" readonly="readonly" autocomplete="off">
 												</div>
 											</div>
 											<div class="col-12 d-flex justify-content-end">
-												<button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1">Save & Approve</button>
-												<button type="submit" class="btn btn-success" id="saveTransferBtn">Save</button>
-												<button type="reset" class="btn btn-light-secondary" id="cancelTransferBtn">Reset</button>
+												<button type="submit" class="btn btn-primary submitBtn" id="approveTransferBtn" name="approveTransferBtn" value="1"><?php echo $translations['Save & Approve']?></button>
+												<button type="submit" class="btn btn-success" id="saveTransferBtn"><?php echo $translations['Save']?></button>
+												<button type="reset" class="btn btn-light-secondary" id="cancelTransferBtn"><?php echo $translations['Reset']?></button>
 											</div>
 										</div>
 									</form>

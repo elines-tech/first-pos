@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Stock</h3>
+                    <h3><?php echo $translations['Stock']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -22,7 +24,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Filter</h5>
+                            <h5><?php echo $translations['Filter']?></h5>
                         </div>
                     </div>
                 </div>
@@ -30,7 +32,7 @@
                     <div class="row">
 
                         <div class="col-md-6">
-                            <label class="form-label lng mb-2">Branch</label>
+                            <label class="form-label lng mb-2"><?php echo $translations['Branch']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select" name="branch" id="branch" <?php if ($branchCode != "") { ?>disabled <?php } ?>>
                                     <option value="<?php echo $branchCode; ?>"><?php echo $branchName; ?></option>
@@ -38,7 +40,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label lng mb-2">Product</label>
+                            <label class="form-label lng mb-2"><?php echo $translations['Product']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="product" id="product">
 
@@ -47,8 +49,8 @@
                         </div>
                         <div class="col-md-12">
                             <div class="d-flex mt-4 text-center justify-content-center">
-                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+                                <button type="button" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear"><?php echo $translations['Clear']?></button>
                             </div>
                         </div>
                     </div>
@@ -58,7 +60,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Stock List</h5>
+                            <h5><?php echo $translations['Stock List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -66,10 +68,10 @@
                     <table class="table table-striped" id="dataTableStock">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Branch</th>
-                                <th>Product Variant</th>
-                                <th>Stock</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Branch']?></th>
+                                <th><?php echo $translations['Product Variant']?></th>
+                                <th><?php echo $translations['Stock']?></th>
                             </tr>
                         </thead>
 

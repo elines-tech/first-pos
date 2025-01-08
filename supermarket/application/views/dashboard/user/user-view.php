@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>User</h3>
+                    <h3><?php echo $translations['User']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>View User <span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+                            <h3><?php echo $translations['View User']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>users/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -30,7 +32,7 @@
 
                                         <div class="col-md-12 col-12 row">
                                             <div class="form-group col-md-12 col-12">
-                                                <label for="product-name" class="form-label">Branch Name</label>
+                                                <label for="product-name" class="form-label"><?php echo $translations['Branch Name']?></label>
                                                 <select class="form-control" name="branchname" id="branchname" disabled>
                                                     <option value="">Select Branch</option>
                                                     <?php if ($branchdata) {
@@ -48,13 +50,13 @@
                                         <div class="row col-md-12 col-12">
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="arabicname-column" class="form-label">Name</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['Name']?></label>
                                                 <input type="text" id="name" class="form-control" placeholder="Name" name="name" value="<?= $userData[0]['name'] ?>" readonly>
                                             </div>
 
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="arabicname-column" class="form-label">User Employee Number</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Employee Number']?></label>
                                                 <input type="number" id="userempnumber" class="form-control" placeholder="User Employee Number" name="userempnumber" value="<?= $userData[0]['userEmpNo'] ?>" readonly>
                                             </div>
 
@@ -68,13 +70,13 @@
 
 
                                             <div class="form-group col-md-12 col-12" id="userDetails" style="display:<?= $userData[0]['userRole'] == 'R_5' ? '' : 'none' ?>">
-                                                <label for="arabicname-column" class="form-label">User Name</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Name']?></label>
                                                 <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" readonly>
                                             </div>
 
 
                                             <div class="form-group col-md-12 col-12 d-none mandatory" id="counterDiv">
-                                                <label for="product-name" class="form-label">User Counter</label>
+                                                <label for="product-name" class="form-label"><?php echo $translations['User Counter']?></label>
                                                 <select class=" form-select select2" name="userCounter" disabled id="userCounter" style="width:100%">
                                                     <option value="">Select Counter</option>
                                                     <?php if ($counterdata) {
@@ -102,7 +104,7 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group col-md-12 col-12">
-                                                <label for="arabicname-column" class="form-label">User Email</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Email']?></label>
                                                 <input type="email" id="useremail" class="form-control" placeholder="Email" name="useremail" value="<?= $userData[0]['userEmail'] ?>" readonly>
                                             </div>
                                             <div id="emailDuplicate" style="color:#e66060;"></div>
@@ -113,7 +115,7 @@
                                         <div class="row col-md-12 col-12">
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="arabicname-column" class="form-label">User Language</label>
+                                                <label for="arabicname-column" class="form-label"><?php echo $translations['User Language']?></label>
                                                 <select class="form-select" name="userlanguage" id="userlanguage" disabled>
                                                     <option value="">Select Language</option>
                                                     <option value="English" <?= $userData[0]['userLang'] == 'English' ? 'selected' : '' ?>>English</option>
@@ -125,7 +127,7 @@
 
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="product-name" class="form-label">User Role</label>
+                                                <label for="product-name" class="form-label"><?php echo $translations['User Role']?></label>
                                                 <select class=" form-select" name="userrole" id="userrole" disabled>
                                                     <option value="">Select Role</option>
                                                     <?php if ($roledata) {
@@ -143,11 +145,11 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group mandatory col-md-6 col-12">
-                                                <label for="invoicePreference" class="form-label">Bill Print Preference</label>
+                                                <label for="invoicePreference" class="form-label"><?php echo $translations['Bill Print Preference']?></label>
                                                 <select class="form-select" name="invoicePreference" id="invoicePreference">
-                                                    <option value="">Select Language</option>
-                                                    <option value="invoice" <?= set_select('invoicePreference', 'invoice', False) ?>>Invoice</option>
-                                                    <option value="autocut" <?= set_select('userlanguage', 'autocut', False) ?>>Auto Cut Bill</option>
+                                                    <option value=""><?php echo $translations['Select Bill']?></option>
+                                                    <option value="invoice" <?= set_select('invoicePreference', 'invoice', False) ?>><?php echo $translations['Invoice']?></option>
+                                                    <option value="autocut" <?= set_select('userlanguage', 'autocut', False) ?>><?php echo $translations['Auto Cut Bill']?></option>
                                                 </select>
                                             </div>
                                             <?php echo form_error('invoicePreference', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -155,7 +157,7 @@
 
                                             <div class="col-md-6 col-12" id="loginPinDetails" style="display:<?= $userData[0]['userRole'] == 'R_5' ? '' : 'none' ?>">
                                                 <div class="form-group mandatory">
-                                                    <label class="form-label">Login Pin</label>
+                                                    <label class="form-label"><?php echo $translations['Login Pin']?></label>
                                                     <input type="text" id="loginpin" value="<?= $userData[0]['loginpin'] ?>" class="form-control" placeholder="Login Pin" name="loginpin" readonly>
                                                 </div>
                                                 <?php echo form_error('loginpin', '<span class="error text-danger text-right">', '</span>'); ?>

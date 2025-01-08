@@ -23,13 +23,17 @@
         forn-weight: bold
     }
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
 
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Tax Rates</h3>
+                    <h3><?php echo $translations['Tax Rates']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -49,7 +53,7 @@
                     <div class="col-12 col-md-12 text-center order-md-1 order-last" id="leftdiv">
 
                         <button id="add_category_text" class='add_tax'>
-                            Add new Tax Rate
+                            <?php echo $translations['Add new Tax Rate']?>
                         </button>
 
 
@@ -65,7 +69,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Tax Rates List</h5>
+                            <h5><?php echo $translations['Tax Rates List']?></h5>
                         </div>
 
                     </div>
@@ -75,12 +79,12 @@
                     <table class="table table-responsive table-striped" id="datatableTax">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Name</th>
-                                <th>Tax Rate %</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Name']?></th>
+                                <th><?php echo $translations['Tax Rate %']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -99,7 +103,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Tax Groups</h3>
+                    <h3><?php echo $translations['Tax Groups']?></h3>
                 </div>
             </div>
         </div>
@@ -110,7 +114,7 @@
                     <div class="col-12 col-md-12 text-center order-md-1 order-last" id="leftdiv">
 
                         <button id="add_category_text" class='add_group'>
-                            Add new Tax Group
+                            <?php echo $translations['Add new Tax Group']?>
                         </button>
 
                     </div>
@@ -125,7 +129,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Tax Groups List</h5>
+                            <h5><?php echo $translations['Tax Groups List']?></h5>
                         </div>
                     </div>
 
@@ -134,12 +138,12 @@
                     <table class="table table-striped" id="datatableTaxGroup">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Name</th>
-                                <th>Taxes</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Name']?></th>
+                                <th><?php echo $translations['Taxes']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -157,7 +161,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'>Add Taxes</h5>
+                <h5 id='modal_label'><?php echo $translations['Add Taxes']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -168,7 +172,7 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Name : <b style="color:red">*</b></label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Name']?><b style="color:red">*</b></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="taxName" class="form-control" placeholder="Tax Name" name="taxName" required>
                                                 </div>
@@ -178,7 +182,7 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Tax Rate % : <b style="color:red">*</b></label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-nowrap text-left"><?php echo $translations['Tax Rate %']?><b style="color:red">*</b></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="taxPer" class="form-control" placeholder="Tax Rate" name="taxPer" required>
                                                 </div>
@@ -187,7 +191,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="status" class="ccl-sm-4 col-form-label text-left">Active</label>
+                                                <label for="status" class="ccl-sm-4 col-form-label text-left"><?php echo $translations['Active']?></label>
                                                 <div class="col-sm-8 checkbox">
                                                     <input type="checkbox" name="taxisActive" id="taxisActive" checked class=" " style="width:25px; height:25px">
                                                 </div>
@@ -198,8 +202,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="taxCode" name="taxCode">
-                                            <button type="submit" class="btn btn-primary" id="saveTaxBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeTaxBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveTaxBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeTaxBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>
@@ -216,7 +220,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id="modal_label2">Add Tax Groups</h5>
+                <h5 id="modal_label2"><?php echo $translations['Add Tax Groups']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -227,7 +231,7 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-5 form-label text-left">Tax Group Name : <b style="color:red">*</b></label>
+                                                <label for="category-name-column" class="col-md-5 form-label text-left"><?php echo $translations['Tax Group Name']?><b style="color:red">*</b></label>
                                                 <div class="col-md-7">
                                                     <input type="text" id="taxGroupName" class="form-control" placeholder="Tax Group Name" name="taxGroupName" required>
                                                 </div>
@@ -236,7 +240,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-5 form-label text-left">Taxes : <b style="color:red">*</b></label>
+                                                <label for="category-name-column" class="col-md-5 form-label text-left"><?php echo $translations['Taxes']?><b style="color:red">*</b></label>
                                                 <div class="col-md-7">
                                                     <select class="form-select select2" id="taxes" name="taxes[]" required multiple="multiple" data-border-variation="accent-2" required style="width:100%">
                                                         <?php
@@ -253,7 +257,7 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="category-name-column" class="col-md-5 form-label text-left">Tax Group Ref : <b style="color:red">*</b></label>
+                                                <label for="category-name-column" class="col-md-5 form-label text-left"><?php echo $translations['Tax Group Ref']?><b style="color:red">*</b></label>
                                                 <div class="col-md-7">
                                                     <input type="text" id="taxGroupRef" class="form-control" placeholder="Tax Group Ref" name="taxGroupRef">
                                                 </div>
@@ -262,7 +266,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="status" class="col-sm-5 col-form-label text-left">Active</label>
+                                                <label for="status" class="col-sm-5 col-form-label text-left"><?php echo $translations['Active']?></label>
                                                 <div class="col-sm-7 checkbox">
                                                     <input type="checkbox" name="taxGroupisActive" id="taxGroupisActive" checked class=" " style="width:25px; height:25px">
                                                 </div>
@@ -272,8 +276,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="taxGroupCode" name="taxGroupCode">
-                                            <button type="submit" class="btn btn-primary" id="saveTaxGroupBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeTaxGroupBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveTaxGroupBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeTaxGroupBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>

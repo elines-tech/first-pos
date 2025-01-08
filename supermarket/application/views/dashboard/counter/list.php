@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Counter</h3>
+                    <h3><?php echo $translations['Counter']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +34,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Counter List</h5>
+                            <h5><?php echo $translations['Counter List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -40,12 +42,12 @@
                     <table class="table table-striped" id="datatableCounter">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Branch</th>
-                                <th>Counter Name</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Branch']?></th>
+                                <th><?php echo $translations['Counter Name']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -61,7 +63,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'>Add Counter</h5>
+                <h5 id='modal_label'><?php echo $translations['Add Counter']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -72,7 +74,7 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory">
-                                                <label class="col-md-4 form-label text-left">Branch</label>
+                                                <label class="col-md-4 form-label text-left"><?php echo $translations['Branch']?></label>
                                                 <div class="col-md-8">
                                                     <?php if ($branchCode != "") { ?>
                                                         <input type="text" class="form-control" name="branchName" value="<?= $branchName; ?>" readonly>
@@ -86,7 +88,7 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row mandatory" id="nameDiv">
-                                                <label class="col-md-4 form-label text-left">Name</label>
+                                                <label class="col-md-4 form-label text-left"><?php echo $translations['Name']?></label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="counterName" class="form-control" onkeypress="return isalphanumeric(event)" placeholder="Enter Name" name="counterName" required>
                                                 </div>
@@ -95,7 +97,7 @@
 
                                         <div class="col-md-12 col-12">
                                             <div class="form-group row">
-                                                <label for="status" class="col-sm-4 col-form-label text-left">Active : </label>
+                                                <label for="status" class="col-sm-4 col-form-label text-left"><?php echo $translations['Active']?></label>
                                                 <div class="col-sm-8 checkbox">
                                                     <input type="checkbox" name="isActive" id="isActive" class="mt-2" style="width:25px; height:25px">
                                                 </div>
@@ -106,8 +108,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="counterCode" name="counterCode">
-                                            <button type="submit" class="btn btn-primary" id="saveCounterBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeCounterBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveCounterBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeCounterBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>

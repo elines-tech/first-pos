@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Branch</h3>
+                    <h3><?php echo $translations['Branch']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +34,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                                <h5>Branch List</h5>
+                                <h5><?php echo $translations['Branch List']?></h5>
                             </div>
                         </div>
                     </div>
@@ -40,13 +42,13 @@
                         <table class="table table-striped" id="datatableBranch">
                             <thead>
                                 <tr>
-                                    <th>Sr No</th>
-                                    <th>Code</th>
-                                    <th>Name</th>
-                                    <th>Tax Group</th>
-                                    <th>Created</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
+                                    <th><?php echo $translations['Sr No']?></th>
+                                    <th><?php echo $translations['Code']?></th>
+                                    <th><?php echo $translations['Name']?></th>
+                                    <th><?php echo $translations['Tax Group']?></th>
+                                    <th><?php echo $translations['Created']?></th>
+                                    <th><?php echo $translations['Status']?></th>
+                                    <th><?php echo $translations['Action']?></th>
                                 </tr>
                             </thead>
                         </table>
@@ -64,7 +66,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content mb-5">
             <div class="modal-header">
-                <h5>Add Branch</h5>
+                <h5><?php echo $translations['Add Branch']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -77,12 +79,12 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Name']?></label>
                                                 <input type="text" id="branchName" class="form-control" placeholder="Branch Name" name="branchName" required>
                                             </div>
 
                                             <div class="form-group col-md-6 col-12 mandatory">
-                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left">Tax Group</label>
+                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left"><?php echo $translations['Tax Group']?></label>
                                                 <select class="form-select select2" style="width:100%" name="taxGroup" id="taxGroup" required>
 
                                                 </select>
@@ -96,12 +98,12 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-nowrap text-left">Tax Registration Name</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-nowrap text-left"><?php echo $translations['Tax Registration Name']?></label>
                                                 <input type="text" id="branchTaxRegName" class="form-control" name="branchTaxRegName">
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left">Tax Number</label>
+                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left"><?php echo $translations['Tax Number']?></label>
                                                 <input type="text" id="branchTaxRegNo" class="form-control" name="branchTaxRegNo">
                                             </div>
 
@@ -113,12 +115,12 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left">Opening From</label>
+                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left"><?php echo $translations['Opening From']?></label>
                                                 <input type="time" id="openingFrom" class="form-control" name="openingFrom">
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left">Opening To</label>
+                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left"><?php echo $translations['Opening To']?></label>
                                                 <input type="time" id="openingTo" onchange="validateToTime()" class="form-control" name="openingTo">
                                             </div>
 
@@ -130,7 +132,7 @@
 
                                         <div class="col-md-12 col-12 row">
                                             <div class="form-group col-md-12 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Phone</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Phone']?></label>
                                                 <input type="text" id="branchPhoneNo" class="form-control" name="branchPhoneNo">
                                             </div>
                                         </div>
@@ -139,12 +141,12 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Latitude</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Latitude']?></label>
                                                 <input type="text" id="branchLat" class="form-control" name="branchLat">
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Longitude</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Longitude']?></label>
                                                 <input type="text" id="branchLong" class="form-control" name="branchLong">
                                             </div>
 
@@ -154,7 +156,7 @@
 
                                         <div class="col-md-12 col-12 row">
                                             <div class="form-group col-md-12 col-12">
-                                                <label for="category-name-column" class="col-md-4 form-label text-left">Address</label>
+                                                <label for="category-name-column" class="col-md-4 form-label text-left"><?php echo $translations['Address']?></label>
                                                 <textarea rows="3" id="branchAddress" class="form-control" name="branchAddress"></textarea>
                                             </div>
                                         </div>
@@ -166,12 +168,12 @@
 
                                         <div class="row col-md-12 col-12">
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left">Receipt Header</label>
+                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left"><?php echo $translations['Receipt Header']?></label>
                                                 <textarea rows="3" id="receiptHead" class="form-control" name="receiptHead"></textarea>
                                             </div>
 
                                             <div class="form-group col-md-6 col-12">
-                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left">Receipt Foot</label>
+                                                <label for="category-name-column" class="col-md-4 text-nowrap form-label text-left"><?php echo $translations['Receipt Foot']?></label>
                                                 <textarea rows="3" id="receiptFoot" class="form-control" name="receiptFoot"></textarea>
                                             </div>
 
@@ -184,7 +186,7 @@
 
                                         <div class="form-group d-flex col-md-12 col-12 text-center items-center justify-content-center row">
                                             <!--<div class="form-group row">-->
-                                            <label for="status" class="col-sm-2 form-label">Active</label>
+                                            <label for="status" class="col-sm-2 form-label"><?php echo $translations['Active']?></label>
                                             <!--<div class="col-sm-8 checkbox">-->
                                             <input type="checkbox" name="isActive" id="isActive" checked class="mt-2" style="width:25px; height:25px">
                                             <!--</div>-->
@@ -196,8 +198,8 @@
 
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary" id="saveBranchBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeBranchBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveBranchBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeBranchBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>
@@ -214,7 +216,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5>Update Branch</h5>
+                <h5><?php echo $translations['Update Branch']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">

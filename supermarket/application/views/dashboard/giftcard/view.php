@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Giftcard</h3>
+					<h3><?php echo $translations['Giftcard']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>View Giftcard<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3><?php echo $translations['View Giftcard']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>giftCard/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -36,13 +38,13 @@
 														<div class="row">
 															<div class="col-md-4 col-12">
 																<div class="form-group ">
-																	<label for="" class="form-label">Title</label>
+																	<label for="" class="form-label"><?php echo $translations['Title']?></label>
 																	<input type="text" id="title" name="title" class="form-control-line" required value="<?= $result->title ?>">
 																</div>
 															</div>
 															<div class="col-md-4 col-12 d-none">
 																<div class="form-group">
-																	<label for="product-name" class="form-label">Type</label>
+																	<label for="product-name" class="form-label"><?php echo $translations['Type']?></label>
 																	<select id="cardType" name="cardType" readonly class="form-select" required>
 																		<option value="per" selected>Per</option>
 																	</select>
@@ -50,13 +52,13 @@
 															</div>
 															<div class="col-md-4 col-12">
 																<div class="form-group">
-																	<label for="" class="form-label"> Discount (%)</label>
+																	<label for="" class="form-label"><?php echo $translations['Discount (%)']?></label>
 																	<input type="text" id="discount" name="discount" class="form-control-line" required value="<?= $result->discount ?>">
 																</div>
 															</div>
 															<div class="col-md-4 col-12">
 																<div class="form-group">
-																	<label for="" class="form-label">Price</label>
+																	<label for="" class="form-label"><?php echo $translations['Price']?></label>
 																	<input type="text" id="price" name="price" class="form-control-line" required value="<?= $result->price ?>">
 																</div>
 															</div>
@@ -64,7 +66,7 @@
 														<div class="row">
 															<div class="col-md-12 col-12">
 																<div class="form-group">
-																	<label for="" class="form-label">Validity (In days)</label>
+																	<label for="" class="form-label"><?php echo $translations['Validity (In days)']?></label>
 																	<input type="text" id="validityInDays" name="validityInDays" class="form-control-line" required value="<?= $result->validityInDays ?>">
 																</div>
 															</div>
@@ -74,7 +76,7 @@
 														<div class="row">
 															<div class="col-md-12 col-12">
 																<div class="form-group">
-																	<label for="description" class="form-label mb-1">Description </label>
+																	<label for="description" class="form-label mb-1"><?php echo $translations['Description']?></label>
 																	<p><?= $result->description ?></p>
 																</div>
 															</div>

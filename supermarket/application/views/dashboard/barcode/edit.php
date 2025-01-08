@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3> Barcode</h3>
+					<h3><?php echo $translations['Barcode']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,9 +23,9 @@
 					<div class="card">
 						<div class="card-header">
 							<h3>
-								Edit Barcode
+								<?php echo $translations['Edit Barcode']?>
 								<span class="float-end">
-									<a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a>
+									<a id="cancelDefaultButton" class="btn btn-primary" href="<?= base_url() ?>barcode/listRecords"><?php echo $translations['Back']?></a>
 								</span>
 							</h3>
 						</div>
@@ -46,20 +48,20 @@
 												<div class="row">
 													<div class="col-md-4 col-12">
 														<div class="form-group">
-															<label for="branchName" class="form-label">Branch</label>
+															<label for="branchName" class="form-label"><?php echo $translations['Branch']?></label>
 															<input type="hidden" readonly id="branchCode" value="<?= $barcode['branchCode'] ?>">
 															<input type="text" id="branchName" name="branchName" readonly class="form-control" value="<?= $barcode['branchName'] ?>">
 														</div>
 													</div>
 													<div class="col-md-4 col-12">
 														<div class="form-group">
-															<label for="" class="form-label">Batch</label>
+															<label for="" class="form-label"><?php echo $translations['Batch']?></label>
 															<input type="text" id="batchNo" name="batchCode" readonly class="form-control" value="<?= $barcode['batchNo'] ?>">
 														</div>
 													</div>
 													<div class="col-md-4 col-12">
 														<div class="form-group">
-															<label for="" class="form-label">Barcode Number</label>
+															<label for="" class="form-label"><?php echo $translations['Barcode Number']?></label>
 															<input type="text" id="barcodeText" name="barcodeText" readonly class="form-control" value="<?= $barcode['barcodeText'] ?>">
 														</div>
 													</div>
@@ -67,7 +69,7 @@
 												<div class="row">
 													<div class="col-md-4 col-sm-6">
 														<div class="form-group">
-															<label for="" class="from-label">Product <b class="text-danger">*</b></label>
+															<label for="" class="from-label"><?php echo $translations['Product']?><b class="text-danger">*</b></label>
 															<?php
 															$productName = "";
 															if ($proQuery) {
@@ -81,11 +83,11 @@
 														</div>
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3">
-														<label for="sellingQty" class="from-label">Selling Quantity <b class="text-danger">*</b></label>
+														<label for="sellingQty" class="from-label"><?php echo $translations['Selling Quantity']?><b class="text-danger">*</b></label>
 														<input type="number" min="1" step="1" class="form-control text-left" name="sellingQty" id="sellingQty" onkeypress="return isDecimal(event)" value="<?= $barcode['sellingQty'] ?>" onkeyup="checkQty();">
 													</div>
 													<div class="col-md-4 col-sm-6">
-														<label for="sellingQty" class="from-label">Selling Unit <b class="text-danger">*</b></label>
+														<label for="sellingQty" class="from-label"><?php echo $translations['Selling Unit']?><b class="text-danger">*</b></label>
 														<select class="form-select select2" id="sellingUnit" style="width:100%" name="sellingUnit" value="<?= $co['sellingUnit'] ?>">
 															<?php
 															if ($unitData) {
@@ -101,25 +103,25 @@
 														</select>
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
-														<label for="">Selling Price <b class="text-danger">*</b></label>
+														<label for=""><?php echo $translations['Selling Price']?><b class="text-danger">*</b></label>
 														<input type="number" min="1" step="0.01" class="form-control text-left" name="sellingPrice" id="sellingPrice" onkeypress="return isDecimal(event)" onkeyup="checkPrice();calculate_subTotal('')" value="<?= $barcode['sellingPrice'] ?>">
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
-														<label for="">Discount Price <b class="text-danger">*</b></label>
+														<label for=""><?php echo $translations['Discount Price']?><b class="text-danger">*</b></label>
 														<input type="number" min="0" step="0.01" class="form-control text-left" name="discountPrice" id="discountPrice" onkeypress="return isDecimal(event)" onkeyup="calculate_subTotal()" value="<?= $barcode['discountPrice'] ?>">
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
-														<label for="">Tax Percent <b class="text-danger">*</b></label>
+														<label for=""><?php echo $translations['Tax Percent']?><b class="text-danger">*</b></label>
 														<input type="number" step="0.01" min="0" class="form-control text-left" name="taxPercent" id="taxPercent" disabled value="<?= $barcode['taxPercent'] ?>">
 													</div>
 													<div class="col-md-4 col-sm-6 mb-3" class="from-label">
-														<label for="">Tax Amount</label>
+														<label for=""><?php echo $translations['Tax Amount']?></label>
 														<input type="number" class="form-control text-left" name="taxAmount" id="taxAmount" disabled value="<?= $barcode['taxAmount'] ?>">
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12 d-flex justify-content-end">
-														<button type="submit" class="btn btn-success" id="saveBarcodeBtn">Update</button>
+														<button type="submit" class="btn btn-success" id="saveBarcodeBtn"><?php echo $translations['Update']?></button>
 													</div>
 												</div>
 											</div>

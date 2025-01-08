@@ -5,7 +5,7 @@
     <div class="page-breadcrumb">
         <div class="row">
             <div class="col-7 align-self-center">
-                <h5 class="page-title">Dashboard </h5>
+                <h5 class="page-title"><?php echo $translations['Dashboard']?></h5>
                 <div class="d-flex align-items-center">
 
                 </div>

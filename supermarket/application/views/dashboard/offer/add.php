@@ -1,10 +1,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Offer</h3>
+					<h3><?php echo $translations['Offer']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +24,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Add Offer<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>offer/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3><?php echo $translations['Add Offer']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>offer/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -33,17 +36,17 @@
 													<div class="row">
 														<div class="col-md-6 col-12">
 															<div class="form-group mandatory">
-																<label for="" class="form-label">Offer Title</label>
+																<label for="" class="form-label"><?php echo $translations['Offer Title']?></label>
 																<input type="text" id="title" name="title" class="form-control" required>
 															</div>
 														</div>
 														<div class="col-md-6 col-12">
 															<div class="form-group mandatory">
-																<label for="product-name" class="form-label">Offer type</label>
+																<label for="product-name" class="form-label"><?php echo $translations['Offer type']?></label>
 																<select id="offerType" name="offerType" class="form-control" required>
-																	<option value="">Select type</option>
-																	<option value="flat">Flat</option>
-																	<option value="cap">Cap</option>
+																	<option value=""><?php echo $translations['Select type']?></option>
+																	<option value="flat"><?php echo $translations['Flat']?></option>
+																	<option value="cap"><?php echo $translations['Cap']?></option>
 																</select>
 															</div>
 														</div>
@@ -51,25 +54,25 @@
 													<div class="row">
 														<div class="col-md-4 col-12">
 															<div class="form-group mandatory">
-																<label for="" class="form-label">Minimum Amount</label>
+																<label for="" class="form-label"><?php echo $translations['Minimum Amount']?></label>
 																<input type="number" id="minimumAmount" name="minimumAmount" class="form-control" required>
 															</div>
 														</div>
 														<div class="col-md-4 col-12 d-none" id="discountDiv">
 															<div class="form-group mandatory">
-																<label for="" class="form-label"> Discount (%)</label>
+																<label for="" class="form-label"><?php echo $translations['Discount (%)']?></label>
 																<input type="number" step="0.01" id="discount" name="discount" class="form-control" required>
 															</div>
 														</div>
 														<div class="col-md-4 col-12 d-none" id="capDiv">
 															<div class="form-group mandatory">
-																<label for="" class="form-label">Cap limit</label>
+																<label for="" class="form-label"><?php echo $translations['Cap limit']?></label>
 																<input type="number" id="capLimit" name="capLimit" class="form-control">
 															</div>
 														</div>
 														<div class="col-md-4 col-12 d-none" id="flatAmountDiv">
 															<div class="form-group mandatory">
-																<label for="" class="form-label">Flat Amount</label>
+																<label for="" class="form-label"><?php echo $translations['Flat Amount']?></label>
 																<input type="number" id="flatAmount" name="flatAmount" class="form-control">
 															</div>
 														</div>
@@ -77,7 +80,7 @@
 													<div class="row">
 														<div class="col-md-12">
 															<div class="form-group mandatory">
-																<label for="description" class="form-label mb-1">Offer Description : </label>
+																<label for="description" class="form-label mb-1"><?php echo $translations['Offer Description']?></label>
 																<textarea class="form-control" id="description" name="description" placeholder="Offer Description"></textarea>
 															</div>
 														</div>
@@ -85,13 +88,13 @@
 													<div class="row">
 														<div class="col-md-6 col-sm-6">
 															<div class="form-group mandatory">
-																<label for="" class="form-label">Start Date</label>
+																<label for="" class="form-label"><?php echo $translations['Start Date']?></label>
 																<input type="text" id="startDate" name="startDate" class="form-control datepicker" placeholder="Ex. dd-MM-yyyy hh:mm" required>
 															</div>
 														</div>
 														<div class="col-md-6 col-sm-6">
 															<div class="form-group mandatory">
-																<label for="" class="form-label">End Date</label>
+																<label for="" class="form-label"><?php echo $translations['End Date']?></label>
 																<input type="text" id="endDate" name="endDate" class="form-control datepicker" placeholder="Ex. dd-MM-yyyy hh:mm" required>
 															</div>
 														</div>
@@ -99,7 +102,7 @@
 													<div class="row">
 														<div class="col-md-2 col-12">
 															<div class="form-group">
-																<label class="form-label lng">Active</label>
+																<label class="form-label lng"><?php echo $translations['Active']?></label>
 																<div class="input-group">
 																	<div class="input-group-prepend">
 																		<span class="input-group-text bg-soft-primary">
@@ -112,8 +115,8 @@
 													</div>
 													<div class="row">
 														<div class="col-12 d-flex justify-content-end">
-															<button type="submit" class="btn btn-success" id="saveOfferBtn">Save</button>
-															<button type="reset" id="closeOfferBtn" class="btn btn-light-secondary">Reset</button>
+															<button type="submit" class="btn btn-success" id="saveOfferBtn"><?php echo $translations['Save']?></button>
+															<button type="reset" id="closeOfferBtn" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 														</div>
 													</div>
 												</div>

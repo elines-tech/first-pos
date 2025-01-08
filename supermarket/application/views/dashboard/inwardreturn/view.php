@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Inward</h3>
+					<h3><?php echo $translations['Inward']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +23,7 @@
 				<div class="col-18">
 					<div class="card">
 						<div class="card-header">
-							<h3>View Inward Return <span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inwardReturn/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3><?php echo $translations['View Inward Return']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inwardReturn/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -34,19 +36,19 @@
 												<div class="row">
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Batch No</label>
+															<label for="" class="form-label"><?php echo $translations['Batch No']?></label>
 															<input type="text" disabled id="batchNo" class="form-control" name="batchNo" disabled value="<?= $result['batchNo'] ?>" required>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Inward Date</label>
+															<label for="" class="form-label"><?php echo $translations['Inward Date']?></label>
 															<input type="date" id="inwardDate" class="form-control" name="inwardDate" value="<?= date('Y-m-d', strtotime($result['inwardDate'])) ?>" disabled>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="product-name" class="form-label">Branch</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 															<select class="form-control" disabled name="branchCode" id="branchCode" data-parsley-required="true" required>
 																<option value="">Select</option>
 																<?php if ($branch) {
@@ -63,7 +65,7 @@
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="product-name" class="form-label">Supplier</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 															<select class="form-control" disabled name="supplierCode" id="supplierCode" data-parsley-required="true" required>
 																<option value="">Select</option>
 																<?php if ($supplier) {
@@ -84,9 +86,9 @@
 														<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 															<thead>
 																<tr>
-																	<th width="15%">Return Date</th>
-																	<th width="35%">Product Name</th>
-																	<th width="15%">Return Quantity</th>
+																	<th width="15%"><?php echo $translations['Return Date']?></th>
+																	<th width="35%"><?php echo $translations['Product Name']?></th>
+																	<th width="15%"><?php echo $translations['Return Quantity']?></th>
 																</tr>
 															</thead>
 															<tbody>

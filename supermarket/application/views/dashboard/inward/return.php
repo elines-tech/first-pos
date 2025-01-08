@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Inward</h3>
+					<h3><?php echo $translations['Inward']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +23,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3 class="card-title">Add Return</h3>
+							<h3 class="card-title"><?php echo $translations['Add Return']?></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -34,20 +36,20 @@
 												<div class="row">
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Batch No</label>
+															<label for="" class="form-label"><?php echo $translations['Batch No']?></label>
 															<input type="text" id="batchNo" disabled class="form-control" name="batchNo" value="<?= $result['batchNo'] ?>">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="" class="form-label">Inward Date</label>
+															<label for="" class="form-label"><?php echo $translations['Inward Date']?></label>
 															<input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code'] ?>">
 															<input type="date" id="inwardDate" disabled class="form-control" name="inwardDate" value="<?= date('Y-m-d', strtotime($result['inwardDate'])) ?>">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="product-name" class="form-label">Branch</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 															<select class="form-select select2" name="branchCode" id="branchCode" disabled>
 																<option value="">Select</option>
 																<?php if ($branch) {
@@ -64,7 +66,7 @@
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="product-name" class="form-label">Supplier</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 															<select class="form-select select2" name="supplierCode" id="supplierCode" disabled>
 																<option value="">Select</option>
 																<?php if ($supplier) {
@@ -84,7 +86,7 @@
 												<div class="row">
 													<div class="col-md-12 col-12">
 														<div class="form-group">
-															<label for="product-name" class="form-label">Reference</label>
+															<label for="product-name" class="form-label"><?php echo $translations['Reference']?></label>
 															<input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref'] ?>" disabled>
 														</div>
 													</div>
@@ -94,11 +96,11 @@
 														<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 															<thead>
 																<tr>
-																	<th width="5%">Return</th>
-																	<th width="25%">Product</th>
-																	<th width="15%">Unit</th>
-																	<th width="15%">Stock Quantity</th>
-																	<th width="15%">Return Quantity</th>
+																	<th width="5%"><?php echo $translations['Return']?></th>
+																	<th width="25%"><?php echo $translations['Product']?></th>
+																	<th width="15%"><?php echo $translations['Unit']?></th>
+																	<th width="15%"><?php echo $translations['Stock Quantity']?></th>
+																	<th width="15%"><?php echo $translations['Return Quantity']?></th>
 																</tr>
 															</thead>
 															<tbody>
@@ -135,8 +137,8 @@
 												</div>
 												<div class="row">
 													<div class="col-12 d-flex justify-content-end">
-														<button type="submit" class="btn btn-success" id="saveReturnBtn">Save</button>
-														<button type="button" id="cancelReturnBtn" class="btn btn-light-secondary">Reset</button>
+														<button type="submit" class="btn btn-success" id="saveReturnBtn"><?php echo $translations['Save']?></button>
+														<button type="button" id="cancelReturnBtn" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 													</div>
 												</div>
 											</div>

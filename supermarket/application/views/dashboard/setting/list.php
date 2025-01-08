@@ -26,12 +26,16 @@ if ($setting) {
     }
 }
 ?>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Settings</h3>
+                    <h3><?php echo $translations['Settings'] ?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -62,9 +66,9 @@ if ($setting) {
 
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active col-md-4 col-12" id="nav-skuprefix-tab" data-bs-toggle="tab" data-bs-target="#nav-skuprefix" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SKU Prefix</button>
-                                <button class="nav-link col-md-4 col-12" id="nav-email-tab" data-bs-toggle="tab" data-bs-target="#nav-email" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Email</button>
-                                <button class="nav-link col-md-4 col-12" id="nav-textsms-tab" data-bs-toggle="tab" data-bs-target="#nav-textsms" type="button" role="tab" aria-controls="nav-textssms" aria-selected="false">Text-SMS</button>
+                                <button class="nav-link active col-md-4 col-12" id="nav-skuprefix-tab" data-bs-toggle="tab" data-bs-target="#nav-skuprefix" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><?php echo $translations['SKU Prefix']?></button>
+                                <button class="nav-link col-md-4 col-12" id="nav-email-tab" data-bs-toggle="tab" data-bs-target="#nav-email" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><?php echo $translations['Email']?></button>
+                                <button class="nav-link col-md-4 col-12" id="nav-textsms-tab" data-bs-toggle="tab" data-bs-target="#nav-textsms" type="button" role="tab" aria-controls="nav-textssms" aria-selected="false"><?php echo $translations['Text-SMS']?></button>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
@@ -81,14 +85,14 @@ if ($setting) {
                                         <div class="row">
                                             <div class="col-md-12 text-center col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">SKU Prefix</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['SKU Prefix']?></label>
                                                     <input type="text" id="settingValue" minLength="1" maxlength="3" class="form-control" placeholder="User Name" name="settingValue" value="<?= $settingValue ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('settingValue', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <?php if ($updateRights == 1) { ?>
                                                 <div class="col-12 text-center mt-3">
-                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
+                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success"><?php echo $translations['Update']?></button>
                                                 </div>
                                             <?php } ?>
                                         </div>
@@ -125,7 +129,7 @@ if ($setting) {
                                         <div class="row">
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="maildriver" class="form-label">Mail Driver</label>
+                                                    <label for="maildriver" class="form-label"><?php echo $translations['Mail Driver']?></label>
                                                     <select id="maildriver" class="form-select" name="maildriver" value="<?= $maildriver ?>" data-parsley-required="true">
                                                         <option value="smpt" selected>SMTP</option>
                                                     </select>
@@ -134,49 +138,49 @@ if ($setting) {
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="host" class="form-label">Host</label>
+                                                    <label for="host" class="form-label"><?php echo $translations['Host']?></label>
                                                     <input type="text" id="host" minlength="3" class="form-control" placeholder="Ex. google.com" name="host" value="<?= $host ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('host', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="port" class="form-label">Port</label>
+                                                    <label for="port" class="form-label"><?php echo $translations['Port']?></label>
                                                     <input type="number" id="port" step="1" minlength="2" maxlength="6" placeholder="Ex. 465" class="form-control" name="port" value="<?= $port ?>" data-parsley-required="true" onkeypress="isNumberKey(this)">
                                                 </div>
                                                 <?php echo form_error('port', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="username" class="form-label">Username</label>
+                                                    <label for="username" class="form-label"><?php echo $translations['Username']?></label>
                                                     <input type="text" id="username" minlength="1" class="form-control" placeholder="Ex. sample@mail.com" name="username" value="<?= $username ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('username', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="password" class="form-label">Password</label>
+                                                    <label for="password" class="form-label"><?php echo $translations['Password']?></label>
                                                     <input type="password" id="password" class="form-control" name="password" value="<?= $password ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('password', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="fromaddress" class="form-label">From Address</label>
+                                                    <label for="fromaddress" class="form-label"><?php echo $translations['From Address']?></label>
                                                     <input type="email" id="fromaddress" class="form-control" name="fromaddress" placeholder="Ex. sample@mail.com" value="<?= $fromaddress ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('fromaddress', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="fromname" class="form-label">From Name</label>
+                                                    <label for="fromname" class="form-label"><?php echo $translations['From Name']?></label>
                                                     <input type="text" id="fromname" minlength="3" maxlength="100" class="form-control" placeholder="Ex. Name of Email" name="fromname" value="<?= $fromname ?>" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('fromname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <?php if ($updateRights == 1) { ?>
                                                 <div class="col-12 mt-3 text-center">
-                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
+                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success"><?php echo $translations['Update']?></button>
                                                 </div>
                                             <?php } ?>
                                         </div>
@@ -207,7 +211,7 @@ if ($setting) {
                                         <div class="row">
                                             <div class="col-md-12 text-center col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="maildriver" class="form-label">Provider</label>
+                                                    <label for="maildriver" class="form-label"><?php echo $translations['Provider']?></label>
                                                     <select id="smsprovider" minlength="1" class="form-select" name="smsprovider" value="<?= $maildriver ?>" data-parsley-required="true">
                                                         <option value="">Select</option>
                                                         <option value="TWILIO" <?= $smsprovider == "TWILIO" ? "selected" : "" ?>>TWILIO</option>
@@ -226,19 +230,19 @@ if ($setting) {
                                             ?>
                                                         <div class="col-md-6 col-12">
                                                             <div class="form-group mandatory">
-                                                                <label for="sid" class="form-label">SID</label>
+                                                                <label for="sid" class="form-label"><?php echo $translations['SID']?></label>
                                                                 <input type="text" id="sid" class="form-control" name="sid" minlength="34" value="<?= $jsonData->sid ?>" data-parsley-required="true">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6 col-12">
                                                             <div class="form-group mandatory">
-                                                                <label for="token" class="form-label">Auth Token</label>
+                                                                <label for="token" class="form-label"><?php echo $translations['Auth Token']?></label>
                                                                 <input type="text" id="token" class="form-control" name="token" minlength="32" value="<?= $jsonData->token ?>" data-parsley-required="true">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6 col-12">
                                                             <div class="form-group mandatory">
-                                                                <label for="twilionumber" class="form-label">Twilio Number</label>
+                                                                <label for="twilionumber" class="form-label"><?php echo $translations['Twilio Number']?></label>
                                                                 <input type="tel" id="twilionumber" class="form-control" name="twilionumber" value="<?= $jsonData->twilionumber ?>" data-parsley-required="true">
                                                             </div>
                                                         </div>
@@ -247,19 +251,19 @@ if ($setting) {
                                                     ?>
                                                         <div class="col-md-6 col-12">
                                                             <div class="form-group mandatory">
-                                                                <label for="authid" class="form-label">Auth ID</label>
+                                                                <label for="authid" class="form-label"><?php echo $translations['Auth ID']?></label>
                                                                 <input type="text" id="authid" class="form-control" name="authid" minlength="15" value="<?= $jsonData->authid ?>" data-parsley-required="true">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6 col-12">
                                                             <div class="form-group mandatory">
-                                                                <label for="authtoken" class="form-label">Auth Token</label>
+                                                                <label for="authtoken" class="form-label"><?php echo $translations['Auth Token']?></label>
                                                                 <input type="text" id="authtoken" class="form-control" name="authtoken" minlength="15" value="<?= $jsonData->authtoken ?>" data-parsley-required="true">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6 col-12">
                                                             <div class="form-group mandatory">
-                                                                <label for="senderId" class="form-label">Sender ID</label>
+                                                                <label for="senderId" class="form-label"><?php echo $translations['Sender ID']?></label>
                                                                 <input type="text" id="senderId" class="form-control" name="senderId" minlength="15" value="<?= $jsonData->senderId ?>" data-parsley-required="true">
                                                             </div>
                                                         </div>
@@ -272,7 +276,7 @@ if ($setting) {
                                         <?php if ($updateRights == 1) { ?>
                                             <div class="row">
                                                 <div class="col-12 mt-3 text-center">
-                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success">Update</button>
+                                                    <button id="saveDefaultButton" type="submit" class="btn btn-success"><?php echo $translations['Update']?></button>
                                                 </div>
                                             </div>
                                         <?php } ?>

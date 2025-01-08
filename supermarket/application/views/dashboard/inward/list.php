@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Inward</h3>
+                    <h3><?php echo $translations['Inward']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,13 +34,13 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-9">
-                            <h5>Filter </h5>
+                            <h5><?php echo $translations['Filter']?></h5>
                         </div>
                     </div>
                     <hr>
                     <div class="row mt-3">
                         <div class="col-md-3">
-                            <label class="form-label lng">From Branch</label>
+                            <label class="form-label lng"><?php echo $translations['From Branch']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="frombranch" id="frombranch" <?php if ($branchCode != "") { ?>disabled <?php } ?>>
                                     <?php if ($branchCode != "") { ?>
@@ -48,7 +50,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">To Branch</label>
+                            <label class="form-label lng"><?php echo $translations['To Branch']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="tobranch" id="tobranch">
                                     <option value="">Select Branch</option>
@@ -72,13 +74,13 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">From Date</label>
+                            <label class="form-label lng"><?php echo $translations['From Date']?></label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d', strtotime(' - 7 days')) ?>">
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">To Date</label>
+                            <label class="form-label lng"><?php echo $translations['To Date']?></label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d') ?>">
                             </div>
@@ -87,8 +89,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="d-flex text-center justify-content-center mt-4">
-                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+                                <button type="button" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear"><?php echo $translations['Clear']?></button>
                             </div>
                         </div>
                     </div>
@@ -98,7 +100,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Inward List</h5>
+                            <h5><?php echo $translations['Inward List']?></h5>
                         </div>
 
                     </div>
@@ -107,14 +109,14 @@
                     <table class="table table-striped table-responsive display" id="dataTableInward">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Batch No</th>
-                                <th>Inward Date</th>
-                                <th>Branch</th>
-                                <th>Supplier</th>
-                                <th>Total</th>
-                                <th>Approved</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Batch No']?></th>
+                                <th><?php echo $translations['Inward Date']?></th>
+                                <th><?php echo $translations['Branch']?></th>
+                                <th><?php echo $translations['Supplier']?></th>
+                                <th><?php echo $translations['Total']?></th>
+                                <th><?php echo $translations['Approved']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
 

@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Purchase Report</h3>
+                    <h3><?php echo $translations['Purchase Report']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,7 +22,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Purchase View<span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>purchaseReport/getPurchaseReport" class="btn btn-sm btn-primary">Back</a></span></h3>
+                            <h3><?php echo $translations['Purchase View']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>purchaseReport/getPurchaseReport" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -33,19 +35,19 @@
                                             <div class="row">
                                                 <div class="col-md-3 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="" class="form-label">Batch No</label>
+                                                        <label for="" class="form-label"><?php echo $translations['Batch No']?></label>
                                                         <input type="text" id="batchNo" disabled class="form-control" name="batchNo" required disabled value="<?= $result['batchNo'] ?>">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="" class="form-label">Inward</label>
+                                                        <label for="" class="form-label"><?php echo $translations['Inward']?></label>
                                                         <input type="date" id="inwardDate" disabled class="form-control" name="inwardDate" id="inwardDate" value="<?= date('Y-m-d', strtotime($result['inwardDate'])) ?>" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="product-name" class="form-label">Branch</label>
+                                                        <label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
                                                         <input type="hidden" class="form-control" id="inwardCode" name="inwardCode" value="<?= $result['code'] ?>">
                                                         <select class="form-select select2" disabled name="branchCode" id="branchCode" data-parsley-required="true" required>
                                                             <option value="">Select</option>
@@ -63,7 +65,7 @@
                                                 </div>
                                                 <div class="col-md-3 col-12">
                                                     <div class="form-group mandatory">
-                                                        <label for="product-name" class="form-label">Supplier</label>
+                                                        <label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
                                                         <select class="form-select select2" disabled name="supplierCode" id="supplierCode" data-parsley-required="true" required>
                                                             <option value="">Select</option>
                                                             <?php if ($supplier) {
@@ -83,7 +85,7 @@
                                             <div class="row">
                                                 <div class="col-md-12 col-12">
                                                     <div class="form-group">
-                                                        <label for="product-name" class="form-label">Reference</label>
+                                                        <label for="product-name" class="form-label"><?php echo $translations['Reference']?></label>
                                                         <input type="text" class="form-control" name="refNo" id="refNo" value="<?= $result['ref'] ?>" disabled>
                                                     </div>
                                                 </div>
@@ -93,13 +95,13 @@
                                                     <table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
                                                         <thead>
                                                             <tr>
-                                                                <th width="15%">Product</th>
-                                                                <th width="10%">Unit</th>
-                                                                <th width="12%">Expiry Date</th>
-                                                                <th width="12%">Quantity</th>
-                                                                <th width="15%">Price</th>
-                                                                <th width="12%">Tax</th>
-                                                                <th width="15%">Subtotal</th>
+                                                                <th width="15%"><?php echo $translations['Product']?></th>
+                                                                <th width="10%"><?php echo $translations['Unit']?></th>
+                                                                <th width="12%"><?php echo $translations['Expiry Date']?></th>
+                                                                <th width="12%"><?php echo $translations['Quantity']?></th>
+                                                                <th width="15%"><?php echo $translations['Price']?></th>
+                                                                <th width="12%"><?php echo $translations['Tax']?></th>
+                                                                <th width="15%"><?php echo $translations['Subtotal']?></th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -135,7 +137,7 @@
                                                         </tbody>
                                                         <tfoot>
                                                             <tr>
-                                                                <td colspan="6" class="text-right"><b>Total :</b></td>
+                                                                <td colspan="6" class="text-right"><b><?php echo $translations['Total']?></b></td>
                                                                 <td colspan="7"><?= $result['total'] ?></td>
                                                             </tr>
                                                         </tfoot>

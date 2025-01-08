@@ -3,12 +3,15 @@
 		border: 1px solid black;
 	}
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3> Barcode</h3>
+					<h3><?php echo $translations['Barcode']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -26,7 +29,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Barcode Details<span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>barcode/listRecords">Back</a></span></h3>
+							<h3><?php echo $translations['Barcode Details']?><span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>barcode/listRecords"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -35,36 +38,36 @@
 								?>
 									<div class="row">
 										<div class="col-md-3 col-12 mb-2">
-											<label for="batchNo"><b>Batch No: </b></label>
+											<label for="batchNo"><b><?php echo $translations['Batch No']?></b></label>
 											<input type="hidden" id="code" name="code" class="form-control" value="<?= $result->code ?>">
 											<input type="text" id="batchNo" name="batchNo" class="form-control-line" value="<?= $result->batchNo ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="productName"><b>Product Name : </b></label>
+											<label for="productName"><b><?php echo $translations['Product Name']?></b></label>
 											<input type="text" id="productName" name="productName" class="form-control-line" value="<?= $result->productEngName ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="sellingUnit"><b>Selling Unit : </b></label>
+											<label for="sellingUnit"><b><?php echo $translations['Selling Unit']?></b></label>
 											<input type="text" id="sellingUnit" name="sellingUnit" class="form-control-line" value="<?= $result->unitName ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="sellingQty"><b>Selling Quantity : </b></label>
+											<label for="sellingQty"><b><?php echo $translations['Selling Quantity']?></b></label>
 											<input type="text" id="sellingQty" name="sellingQty" class="form-control-line" value="<?= $result->sellingQty ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="sellingPrice"><b>Selling Price: </b></label>
+											<label for="sellingPrice"><b><?php echo $translations['Selling Price']?></b></label>
 											<input type="text" id="sellingPrice" name="sellingPrice" class="form-control-line" value="<?= $result->sellingPrice ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="discountPrice"><b>Discount: </b></label>
+											<label for="discountPrice"><b><?php echo $translations['Discount']?></b></label>
 											<input type="text" id="discountPrice" name="discountPrice" class="form-control-line" value="<?= $result->discountPrice ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="taxPercent"><b>Tax (%) : </b></label>
+											<label for="taxPercent"><b><?php echo $translations['Tax (%)']?></b></label>
 											<input type="text" id="taxPercent" name="taxPercent" class="form-control-line" value="<?= $result->taxPercent ?>">
 										</div>
 										<div class="col-md-3 col-12 mb-2">
-											<label for="taxAmount"><b>Tax Amount : </b></label>
+											<label for="taxAmount"><b><?php echo $translations['Tax Amount']?></b></label>
 											<input type="text" id="taxAmount" name="taxAmount" class="form-control-line" value="<?= $result->taxAmount ?>">
 										</div>
 									</div>
@@ -72,11 +75,11 @@
 								?>
 								<div class="row">
 									<div class="col-md-3 col-12">
-										<label class="form-label"><b>Barcode Quantity : </b><b style="color:red">*</b></label>
+										<label class="form-label"><b><?php echo $translations['Barcode Quantity']?></b><b style="color:red">*</b></label>
 										<input type="text" id="barcodeQty" class="form-control" onkeypress="return isNumber(event)" name="barcodeQty" required>
 									</div>
 									<div class="col-md-3 col-12">
-										<label class="form-label"><b>Language: </b><b style="color:red">*</b></label>
+										<label class="form-label"><b><?php echo $translations['Language']?></b><b style="color:red">*</b></label>
 										<select id="language" class="form-control" name="language" required>
 											<option value="1">English</option>
 											<option value="2">Arabic</option>
@@ -85,8 +88,8 @@
 										</select>
 									</div>
 									<div class="col-md-5 col-12" style="margin-top:32px;">
-										<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn">Generate</button>
-										<button type="button" onclick="print()" id="printBtn" class="btn btn-primary d-none" id="printBtn">Print</button>
+										<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn"><?php echo $translations['Generate']?></button>
+										<button type="button" onclick="print()" id="printBtn" class="btn btn-primary d-none" id="printBtn"><?php echo $translations['Print']?></button>
 									</div>
 								</div>
 							</div>

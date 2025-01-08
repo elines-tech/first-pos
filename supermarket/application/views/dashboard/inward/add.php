@@ -10,12 +10,16 @@ if ($items) {
 	}
 }
 ?>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Inward</h3>
+					<h3><?php echo $translations['Inward']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -33,7 +37,7 @@ if ($items) {
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Add Inward <span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary">Back</a></span></h3>
+							<h3><?php echo $translations['Add Inward']?><span style="float:right"><a id="cancelDefaultButton" href="<?= base_url() ?>inward/listRecords" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -50,19 +54,19 @@ if ($items) {
 											<div class="row">
 												<div class="col-md-3 col-12">
 													<div class="form-group mandatory">
-														<label for="" class="form-label">Batch No</label>
+														<label for="" class="form-label"><?php echo $translations['Batch No']?></label>
 														<input type="text" id="batchNo" class="form-control" name="batchNo" required readonly value="<?= date('dmyhis') . "" . rand(10, 99); ?>">
 													</div>
 												</div>
 												<div class="col-md-3 col-12">
 													<div class="form-group mandatory">
-														<label for="" class="form-label">Inward Date</label>
+														<label for="" class="form-label"><?php echo $translations['Inward Date']?></label>
 														<input type="date" id="inwardDate" class="form-control" name="inwardDate" id="inwardDate" required value="<?= date('Y-m-d') ?>">
 													</div>
 												</div>
 												<div class="col-md-3 col-12">
 													<div class="form-group mandatory">
-														<label for="product-name" class="form-label">Branch</label>
+														<label for="product-name" class="form-label"><?php echo $translations['Branch']?></label>
 														<input type="hidden" class="form-control" id="inwardCode" name="inwardCode">
 														<?php if ($branchCode != "") { ?>
 															<input type="hidden" class="form-control" name="branchCode" value="<?= $branchCode; ?>" readonly>
@@ -75,7 +79,7 @@ if ($items) {
 												</div>
 												<div class="col-md-3 col-12">
 													<div class="form-group mandatory">
-														<label for="product-name" class="form-label">Supplier</label>
+														<label for="product-name" class="form-label"><?php echo $translations['Supplier']?></label>
 														<select class="form-select select2" name="supplierCode" id="supplierCode" data-parsley-required="true" required>
 														</select>
 													</div>
@@ -84,7 +88,7 @@ if ($items) {
 											<div class="row">
 												<div class="col-md-12 col-12">
 													<div class="form-group">
-														<label for="product-name" class="form-label">Reference</label>
+														<label for="product-name" class="form-label"><?php echo $translations['Reference']?></label>
 														<input type="text" class="form-control" name="refNo" id="refNo" value="">
 													</div>
 												</div>
@@ -94,17 +98,17 @@ if ($items) {
 												<div class="row">
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label class="form-label">Product</label>
+															<label class="form-label"><?php echo $translations['Product']?></label>
 															<input type="hidden" class="form-control" name="inwardLineCode[]" id="inwardLineCode0">
 															<select class="form-select select2 items" required id="itemCode0" style="width:100%" name="itemCode[]" onchange="getItemStorageUnit(0);checkDuplicateItem(0);">
-																<option value="">Select Item</option>
+																<option value=""><?php echo $translations['Select Item']?></option>
 																<?= $product ?>
 															</select>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group">
-															<label class="form-label">Item Unit</label>
+															<label class="form-label"><?php echo $translations['Item Unit']?></label>
 															<input type="hidden" class="form-control" name="itemUnit[]" id="itemUnit0" readonly>
 															<input type="text" class="form-control" name="itemUnitName[]" id="itemUnitName0" readonly>
 															<input type="hidden" class="form-control" name="productCode[]" id="productCode0" readonly>
@@ -114,31 +118,31 @@ if ($items) {
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group">
-															<label class="form-label">Expiry Date</label>
+															<label class="form-label"><?php echo $translations['Expiry Date']?></label>
 															<input type="date" class="form-control" name="expiryDate[]" id="expiryDate0" onblur="validateExpiryDate(0)">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label class="form-label">Quantity</label>
+															<label class="form-label"><?php echo $translations['Quantity']?></label>
 															<input type="number" step="0.01" max="9999999" min="0" required class="form-control" name="itemQty[]" id="itemQty0" onchange="checkQty(0);" onkeypress="return isNumber(event)" onkeyup="calculate_subTotal(0)">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label class="form-label">Price</label>
+															<label class="form-label"><?php echo $translations['Price']?></label>
 															<input type="number" min="0" max="9999999" step="0.01" value="0.00" class="form-control" name="itemPrice[]" id="itemPrice0" onchange="checkPrice(0);" onkeyup="calculate_subTotal(0)">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group">
-															<label class="form-label">Tax</label>
+															<label class="form-label"><?php echo $translations['Tax']?></label>
 															<input type="number" min="0" max="99" step="0.01" value="0.00" class="form-control" name="itemTax[]" id="itemTax0" onkeyup="calculate_subTotal(0)">
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label class="form-label">Subtotal</label>
+															<label class="form-label"><?php echo $translations['Subtotal']?></label>
 															<input type="number" min="0" max="9999999999999" step="0.01" value="0.00" class="form-control subtotal" name="subTotal[]" id="subTotal0" readonly>
 														</div>
 													</div>
@@ -153,14 +157,14 @@ if ($items) {
 											<div class="row">
 												<div class="col-md-4 offset-md-8 col-12 mb-2">
 													<div class="form-group mandatory">
-														<label for="total" class="form-label">Total</label>
+														<label for="total" class="form-label"><?php echo $translations['Total']?></label>
 														<input type="number" value="0.00" min="0" step="0.01" id="total" class="form-control" name="total" required readonly>
 													</div>
 												</div>
 												<div class="col-12 d-flex justify-content-end">
-													<button type="submit" id="saveDefaultButton" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1">Save & Approve</button>
-													<button type="submit" class="btn btn-success" id="saveInwardBtn">Save</button>
-													<a href="<?= base_url() ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary">Close</a>
+													<button type="submit" id="saveDefaultButton" class="btn btn-primary submitBtn" name="approveInwardBtn" value="1"><?php echo $translations['Save & Approve']?></button>
+													<button type="submit" class="btn btn-success" id="saveInwardBtn"><?php echo $translations['Save']?></button>
+													<a href="<?= base_url() ?>inward/listRecords" id="cancelInwardBtn" class="btn btn-light-secondary"><?php echo $translations['Close']?></a>
 												</div>
 											</div>
 										</div>

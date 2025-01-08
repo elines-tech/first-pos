@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Role Wise Rights</h3>
+					<h3><?php echo $translations['Role Wise Rights']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -23,10 +25,10 @@
 				<div class="card-body">
 					<div class="row">
 						<div class="col-md-12 text-center col-sm-4">
-							<label class="form-label mb-2 lng">On this page you can define roles for all your users: Manager , Staff , Accounts, etc...</label>
+							<label class="form-label mb-2 lng"><?php echo $translations['On this page you can define roles for all your users: Manager , Staff , Accounts, etc...']?></label>
 							<div class="form-group mandatory">
 								<select class="form-select select2" name="role" id="role" style="width:100%">
-									<option value="">Select Role</option>
+									<option value=""><?php echo $translations['Select Role']?></option>
 									<?php if ($roles) {
 										foreach ($roles->result() as $ro) {
 											echo '<option value="' . $ro->code . '">' . $ro->role . '</option>';
@@ -37,8 +39,8 @@
 						</div>
 						<div class="col-md-12 text-center col-sm-12">
 							<div class="d-flex col-md-12 justify-content-center text-center" style="margin-top:25px;">
-								<button type="button" onclick="getMenuList()" class="btn btn-success" id="btnSearch">Search</button>
-								<button type="button" onclick="clearSelection()" class="btn btn-success d-none" id="btnClear">Clear</button>
+								<button type="button" onclick="getMenuList()" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+								<button type="button" onclick="clearSelection()" class="btn btn-success d-none" id="btnClear"><?php echo $translations['Clear']?></button>
 							</div>
 						</div>
 					</div>
@@ -48,7 +50,7 @@
 				<div class="card-header">
 					<div class="row">
 						<div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-							<h5>View Management</h5>
+							<h5><?php echo $translations['View Management']?></h5>
 						</div>
 					</div>
 				</div>
@@ -57,7 +59,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12 d-flex justify-content-end">
-						<button type="submit" class="btn btn-success" onclick="updateMenuRights()" id="submitBtn">Submit</button>
+						<button type="submit" class="btn btn-success" onclick="updateMenuRights()" id="submitBtn"><?php echo $translations['Submit']?></button>
 
 					</div>
 				</div>

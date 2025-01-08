@@ -1,9 +1,11 @@
- <div id="main-content">
+<?php include '../supermarket/config.php'; ?>
+
+<div id="main-content">
      <div class="page-heading">
          <div class="page-title">
              <div class="row">
                  <div class="col-12 col-md-6 order-md-1 order-last">
-                     <h3>Gift Sell Detail</h3>
+                     <h3><?php echo $translations['Gift Sell Detail']?></h3>
                  </div>
                  <div class="col-12 col-md-6 order-md-2 order-first">
                      <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -25,7 +27,7 @@
                      <div class="card-header">
                          <div class="row">
                              <div class="col-12 col-md-6">
-                                 <h5>Gift Sell Card Details</h5>
+                                 <h5><?php echo $translations['Gift Sell Card Details']?></h5>
                              </div>
                              <div class="col-12 col-md-6 text-end">
                                  <a id="cancelDefaultButton" href="<?= base_url('giftcardReport/list') ?>" class="btn btn-sm btn-info">Back</a>
@@ -33,62 +35,62 @@
                          </div>
                          <div class="row mt-3">
                              <div class="col-md-4">
-                                 <label class="form-label lng">Name</label>
+                                 <label class="form-label lng"><?php echo $translations['Name']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="name" value="<?= $giftSell['custName'] ?>">
                                  </div>
                              </div>
                              <div class="col-md-4">
-                                 <label class="form-label lng">Phone</label>
+                                 <label class="form-label lng"><?php echo $translations['Phone']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="phone" value="<?= $giftSell['custPhone'] ?>">
                                  </div>
                              </div>
                              <div class="col-md-4">
-                                 <label class="form-label lng">Phone</label>
+                                 <label class="form-label lng"><?php echo $translations['Email']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="email" value="<?= $giftSell['custEmail'] ?>">
                                  </div>
                              </div>
                              <div class="col-md-3">
-                                 <label class="form-label lng">Sell Date</label>
+                                 <label class="form-label lng"><?php echo $translations['Sell Date']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="sellDate" value="<?= date('d/M/y', strtotime($giftSell['addDate'])) ?>">
                                  </div>
                              </div>
                              <div class="col-md-3">
-                                 <label class="form-label lng">Discount (%) <small>Per card</small></label>
+                                 <label class="form-label lng"><?php echo $translations['Discount (%)']?><small><?php echo $translations['Per card']?></small></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="toDate" name="expDate" value="<?= $giftCard['discount'] ?>">
                                  </div>
                              </div>
                              <div class="col-md-3">
-                                 <label class="form-label lng">Price <small>Per card</small></label>
+                                 <label class="form-label lng"><?php echo $translations['Price']?><small><?php echo $translations['Per card']?></small></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="toDate" name="expDate" value="<?= $giftCard['price'] ?>">
                                  </div>
                              </div>
                              <div class="col-md-3">
-                                 <label class="form-label lng">Validity (Days)</label>
+                                 <label class="form-label lng"><?php echo $translations['Validity (Days)']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="toDate" name="expDate" value="<?= $giftCard['validityInDays'] ?>">
                                  </div>
                              </div>
 
                              <div class="col-md-3">
-                                 <label class="form-label lng">Expiry Date</label>
+                                 <label class="form-label lng"><?php echo $translations['Expiry Date']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="toDate" name="expDate" value="<?= date('d/M/y', strtotime($giftSell['expiryDate'])) ?>">
                                  </div>
                              </div>
                              <div class="col-md-3">
-                                 <label class="form-label lng">Issued Cards</label>
+                                 <label class="form-label lng"><?php echo $translations['Issued Cards']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="issuedCards" value="<?= $giftSell['cardCount'] ?>">
                                  </div>
                              </div>
                              <div class="col-md-3">
-                                 <label class="form-label lng">Total Price</label>
+                                 <label class="form-label lng"><?php echo $translations['Total Price']?></label>
                                  <div class="form-group mandatory">
                                      <input type="text" class="form-control-line" id="totalPrice" value="<?= $giftSell['totalPrice'] ?>">
                                  </div>
@@ -99,10 +101,10 @@
                          <table class="table table-striped">
                              <thead>
                                  <tr>
-                                     <th>Card No.</th>
-                                     <th>Name</th>
-                                     <th>Phone</th>
-                                     <th>Email</th>
+                                     <th><?php echo $translations['Card No']?></th>
+                                     <th><?php echo $translations['Name']?></th>
+                                     <th><?php echo $translations['Phone']?></th>
+                                     <th><?php echo $translations['Email']?></th>
                                  </tr>
                              </thead>
                              <tbody>

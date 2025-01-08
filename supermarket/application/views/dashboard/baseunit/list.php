@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Base Unit</h3>
+                    <h3><?php echo $translations['Base Unit']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -32,7 +34,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Base Unit List</h5>
+                            <h5><?php echo $translations['Base Unit List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -40,12 +42,12 @@
                     <table class="table table-striped" id="datatableBaseUnit">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Code</th>
-                                <th>Base Unit Name</th>
-                                <th>Short Name</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Code']?></th>
+                                <th><?php echo $translations['Base Unit Name']?></th>
+                                <th><?php echo $translations['Short Name']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -61,7 +63,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'>Add Base Unit</h5>
+                <h5 id='modal_label'><?php echo $translations['Add Base Unit']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -73,26 +75,26 @@
 
 
                                         <div class="form-group col-md-12 col-12 text-center mandatory" id="nameDiv">
-                                            <label for="BaseUnit-name-column" class="form-label text-left">Name</label>
+                                            <label for="BaseUnit-name-column" class="form-label text-left"><?php echo $translations['Name']?></label>
                                             <input type="text" id="baseunitName" class="form-control" placeholder="Enter Name" name="baseunitName" required>
                                         </div>
 
 
                                         <div class="form-group col-md-12 col-12 text-center mandatory" id="shortNameDiv">
-                                            <label for="Unit-name-column" class="form-label text-left">Short Name</label>
+                                            <label for="Unit-name-column" class="form-label text-left"><?php echo $translations['Short Name']?></label>
                                             <input type="text" id="baseunitSName" class="form-control" maxlength="3" placeholder="Enter Short Name" name="baseunitSName" required>
                                         </div>
 
 
                                         <div class="form-group col-md-12 col-12 text-center">
-                                            <label for="Unit-name-column" class="form-label text-left">Description</label>
+                                            <label for="Unit-name-column" class="form-label text-left"><?php echo $translations['Description']?></label>
                                             <textarea id="description" rows="6" class="form-control" placeholder="" name="description"></textarea>
                                         </div>
 
 
                                         <div class="form-group d-flex col-md-12 col-12 text-center items-center justify-content-start row">
                                             <!--<div class="form-group row">-->
-                                            <label for="status" class="col-sm-2 form-label">Active</label>
+                                            <label for="status" class="col-sm-2 form-label"><?php echo $translations['Active']?></label>
                                             <!--<div class="col-sm-8 checkbox">-->
                                             <input type="checkbox" name="isActive" id="isActive" class="mt-2" style="width:25px; height:25px">
                                             <!--</div>-->
@@ -105,8 +107,8 @@
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
                                             <input type="hidden" class="form-control" id="code" name="code">
-                                            <button type="submit" class="btn btn-primary" id="saveUnitBtn">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="closeUnitBtn" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="saveUnitBtn"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="closeUnitBtn" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>

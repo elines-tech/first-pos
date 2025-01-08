@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Barcode</h3>
+                    <h3><?php echo $translations['Barcode']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -33,7 +35,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Barcode List</h5>
+                            <h5><?php echo $translations['Barcode List']?></h5>
                         </div>
 
                     </div>
@@ -42,16 +44,16 @@
                     <table class="table table-striped table-responsive display" id="datatableBarcode">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Batch</th>
-                                <th>Barcode</th>
-                                <th>Product</th>
-                                <th>Quantity</th>
-                                <th>Selling Price</th>
-                                <th>Discount Price</th>
-                                <th>Tax Percent</th>
-                                <th>Tax Amount</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Batch']?></th>
+                                <th><?php echo $translations['Barcode']?></th>
+                                <th><?php echo $translations['Product']?></th>
+                                <th><?php echo $translations['Quantity']?></th>
+                                <th><?php echo $translations['Selling Price']?></th>
+                                <th><?php echo $translations['Discount Price']?></th>
+                                <th><?php echo $translations['Tax Percent']?></th>
+                                <th><?php echo $translations['Tax Amount']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
 

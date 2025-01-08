@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Branch</h3>
+                    <h3><?php echo $translations['Branch']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -18,9 +20,9 @@
         <div class="container">
             <div class="row mb-2 float-right">
                 <div class="col-12 col-md-12">
-                    <a id="cancelDefaultButton" href="<?= base_url() ?>branch/listRecords" class="btn btn-primary text-center">Back</a>
+                    <a id="cancelDefaultButton" href="<?= base_url() ?>branch/listRecords" class="btn btn-primary text-center"><?php echo $translations['Back']?></a>
                     <?php if ($updateRights == 1) { ?>
-                        <button id="saveDefaultButton" class="btn btn-primary text-center edit_branch">Edit Branch</button>
+                        <button id="saveDefaultButton" class="btn btn-primary text-center edit_branch"><?php echo $translations['Edit Branch']?></button>
                     <?php } ?>
                 </div>
             </div>
@@ -31,7 +33,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                                <h5>Branch</h5>
+                                <h5><?php echo $translations['Branch']?></h5>
                             </div>
                         </div>
                     </div>
@@ -44,62 +46,62 @@
                                     <form class="form">
                                         <div class="row mb-3">
                                             <div class="col-md-6">
-                                                <label for="branchName">Branch Name</label>
+                                                <label for="branchName"><?php echo $translations['Branch Name']?></label>
                                                 <input type="hidden" class="form-control-line" name="branchCode" id="branchCode" value="<?= $br->code ?>">
                                                 <input type="text" class="form-control-line" id="branchName" placeholder="Branch Name" value="<?= $br->branchName ?>" name="branchName" readonly>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="taxGroup">Tax Group</label>
+                                                <label for="taxGroup"><?php echo $translations['Tax Group']?></label>
                                                 <input type="text" class="form-control-line" id="taxGroup" value="<?= $br->taxGroupName ?>" name="" readonly>
                                             </div>
                                         </div>
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="openingFrom">Opening From</label>
+                                                <label for="openingFrom"><?php echo $translations['Opening From']?></label>
                                                 <input type="text" class="form-control-line" id="openingFrom" value="<?= $br->openingFrom ?>" name="" readonly>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="openingTo">Opening To</label>
+                                                <label for="openingTo"><?php echo $translations['Opening To']?></label>
                                                 <input type="text" class="form-control-line" id="openingTo" value="<?= $br->openingTo ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="openingFrom">Tax Reg Name</label>
+                                                <label for="openingFrom"><?php echo $translations['Tax Reg Name']?></label>
                                                 <input type="text" class="form-control-line" id="taxRegName" value="<?= $br->branchTaxRegName ?>" name="modalbranchTaxRegName" readonly>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="openingTo">Tax Reg No</label>
+                                                <label for="openingTo"><?php echo $translations['Tax Reg No']?></label>
                                                 <input type="text" class="form-control-line" id="taxRegNo" value="<?= $br->branchTaxRegNo ?>" name="branchTaxRegNo" readonly>
                                             </div>
                                         </div>
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="openingFrom">Phone</label>
+                                                <label for="openingFrom"><?php echo $translations['Phone']?></label>
                                                 <input type="text" class="form-control-line" id="phone" value="<?= $br->branchPhoneNo ?>" name="branchPhoneNo" readonly>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="openingTo">Address</label>
+                                                <label for="openingTo"><?php echo $translations['Address']?></label>
                                                 <input type="text" class="form-control-line" id="address" value="<?= $br->branchAddress ?>" name="branchAddress" readonly>
                                             </div>
                                         </div>
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="openingFrom">Latitude</label>
+                                                <label for="openingFrom"><?php echo $translations['Latitude']?></label>
                                                 <input type="text" class="form-control-line" id="latitude" placeholder="Latitude" value="<?= $br->branchLat ?>" readonly>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="openingTo">Longitude</label>
+                                                <label for="openingTo"><?php echo $translations['Longitude']?></label>
                                                 <input type="text" class="form-control-line" id="longitude" placeholder="Longitude" value="<?= $br->branchLong ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="openingFrom">Receipt Header</label>
+                                                <label for="openingFrom"><?php echo $translations['Receipt Header']?></label>
                                                 <input type="text" class="form-control-line" id="receiptHeader" value="<?= $br->receiptHead ?>" readonly>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="openingTo">Receipt Footer</label>
+                                                <label for="openingTo"><?php echo $translations['Receipt Footer']?></label>
                                                 <input type="text" class="form-control-line" id="receiptFooter" value="<?= $br->receiptFoot ?>" readonly>
                                             </div>
                                         </div>
@@ -115,7 +117,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                                <h5>Users</h5>
+                                <h5><?php echo $translations['Users']?></h5>
                             </div>
                         </div>
                     </div>
@@ -123,10 +125,10 @@
                         <table class="table" id="datatableUsers">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Employee Number</th>
-                                    <th>Phone</th>
+                                    <th><?php echo $translations['Name']?></th>
+                                    <th><?php echo $translations['Email']?></th>
+                                    <th><?php echo $translations['Employee Number']?></th>
+                                    <th><?php echo $translations['Phone']?></th>
                                 </tr>
                             </thead>
                         </table>
