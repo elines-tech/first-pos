@@ -1,0 +1,95 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated /home/rooot/Desktop/first-pos/system/core/URI.php 101
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated /home/rooot/Desktop/first-pos/system/core/Router.php 127
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$benchmark is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$hooks is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$config is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$log is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$utf8 is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$uri is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$exceptions is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$router is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$output is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$security is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$input is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$lang is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$load is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 78
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$session is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$db is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 396
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated /home/rooot/Desktop/first-pos/system/database/DB_driver.php 371
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$email is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 20:50:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$form_validation is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$GlobalModel is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 358
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$phpmailer_lib is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property Welcome::$sendemail is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$email is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$GlobalModel is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$phpmailer_lib is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:20:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$sendemail is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 21:08:25 --> Severity: error --> Exception: Call to undefined function mysqli_init() /home/rooot/Desktop/first-pos/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2025-01-08 21:09:16 --> Severity: error --> Exception: Call to undefined function mysqli_init() /home/rooot/Desktop/first-pos/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2025-01-08 21:09:33 --> Severity: Warning --> fopen(/var/lib/php/sessions/ci_wf_myvegiz7c0icer57fs4ht0n7jrm2dn8nps1hcq1): Failed to open stream: Permission denied /home/rooot/Desktop/first-pos/system/libraries/Session/drivers/Session_files_driver.php 174
+ERROR - 2025-01-08 21:09:33 --> Session: Unable to open file '/var/lib/php/sessions/ci_wf_myvegiz7c0icer57fs4ht0n7jrm2dn8nps1hcq1'.
+ERROR - 2025-01-08 21:09:33 --> Severity: Warning --> session_start(): Failed to read session data: user (path: /var/lib/php/sessions) /home/rooot/Desktop/first-pos/system/libraries/Session/Session.php 143
+ERROR - 2025-01-08 21:09:33 --> Severity: error --> Exception: Call to undefined function mysqli_init() /home/rooot/Desktop/first-pos/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2025-01-08 21:10:55 --> Severity: error --> Exception: Call to undefined function mysqli_init() /home/rooot/Desktop/first-pos/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated /home/rooot/Desktop/first-pos/system/core/URI.php 101
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated /home/rooot/Desktop/first-pos/system/core/Router.php 127
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$benchmark is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$hooks is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$config is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$log is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$utf8 is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$uri is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$exceptions is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$router is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$output is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$security is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$input is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$lang is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 75
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$load is deprecated /home/rooot/Desktop/first-pos/system/core/Controller.php 78
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$session is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$db is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 396
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated /home/rooot/Desktop/first-pos/system/database/DB_driver.php 371
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$email is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 21:12:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$form_validation is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$GlobalModel is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 358
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$phpmailer_lib is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property Welcome::$sendemail is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 1283
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$email is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$GlobalModel is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$phpmailer_lib is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931
+ERROR - 2025-01-08 18:42:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$sendemail is deprecated /home/rooot/Desktop/first-pos/system/core/Loader.php 931

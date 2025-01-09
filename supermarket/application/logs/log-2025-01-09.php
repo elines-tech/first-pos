@@ -1,5 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
+<<<<<<< HEAD
 ERROR - 2025-01-09 04:42:53 --> Severity: Warning --> Undefined array key "code" /home/said/Desktop/first-pos/supermarket/application/controllers/Cashier/Authentication.php 39
 ERROR - 2025-01-09 04:45:25 --> Severity: 8192 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated /home/said/Desktop/first-pos/supermarket/application/libraries/REST_Controller.php 1730
 ERROR - 2025-01-09 04:45:25 --> Severity: 8192 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated /home/said/Desktop/first-pos/supermarket/application/libraries/REST_Controller.php 1733
@@ -160,3 +161,53 @@ ERROR - 2025-01-09 19:45:32 --> Severity: Warning --> Undefined variable $output
 ERROR - 2025-01-09 20:39:12 --> Severity: Warning --> Undefined variable $successMsg /home/said/Desktop/first-pos/supermarket/application/controllers/Brand.php 168
 ERROR - 2025-01-09 20:39:14 --> Severity: Warning --> Undefined variable $successMsg /home/said/Desktop/first-pos/supermarket/application/controllers/Brand.php 168
 ERROR - 2025-01-09 20:39:29 --> Severity: Warning --> Undefined variable $successMsg /home/said/Desktop/first-pos/supermarket/application/controllers/Brand.php 168
+=======
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/URI.php 101
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Router.php 127
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$benchmark is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$hooks is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$config is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$log is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$utf8 is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$uri is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$exceptions is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$router is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$output is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$security is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$input is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$lang is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 75
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$load is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Controller.php 78
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$session is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$db is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 396
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated /home/rooot/Desktop/first-pos/supermarket/system/database/DB_driver.php 371
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$email is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$form_validation is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$phpmailer_lib is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$sendemail is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$emailer is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$planchecker is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 1283
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property Login::$AdminModel is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 358
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session_key is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$email is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$phpmailer_lib is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$sendemail is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$emailer is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$planchecker is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+ERROR - 2025-01-09 18:01:10 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$AdminModel is deprecated /home/rooot/Desktop/first-pos/supermarket/system/core/Loader.php 931
+>>>>>>> 0d2b5d38d93abb9c39fdd90f5f25bf9941814269

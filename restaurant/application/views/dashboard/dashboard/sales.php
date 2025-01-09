@@ -22,7 +22,7 @@
 					<input type="text" class="form-control" name="branch" value="<?= $branchName; ?>" readonly>
 				<?php } else { ?>
 			   <select class="form-select select2" name="branchCode" id="branchCode">
-					<option value="">All Branch</option>
+					<option value=""><?php echo $translations['All Branch']?></option>
 					<?php if ($branchdata) {
 						foreach ($branchdata->result() as $branch) {
 					?>

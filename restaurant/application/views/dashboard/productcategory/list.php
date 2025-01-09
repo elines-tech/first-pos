@@ -10,8 +10,8 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Product Category</li>
+                            <li class="breadcrumb-item"><a href="../Dashboard/listRecords"><i class="fa fa-dashboard"></i><?php echo $translations['Dashboard']?></a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><?php echo $translations['Product Category']?></li>
                         </ol>
                     </nav>
                 </div>
@@ -62,7 +62,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'><?php echo $translations['Add Product Category'];?></h5>
+                <h5 id='modal_label'><?php echo $translations['Add Product Category']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
