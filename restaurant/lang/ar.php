@@ -18,6 +18,7 @@ return [
     'Inventory Dashboard (Updates in Every 60 sec)' => 'لوحة معلومات المخزون (تحديثات كل 60 ثانية)',
     'Sales Dashboard (Updates in Every 60 sec)' => 'لوحة تحكم المبيعات (تُحدث كل 60 ثانية)',
     'View' => "عرض",
+    'All Branch' => 'جميع الفروع',
 
     'Today\'s Orders' => 'طلبات اليوم',
     'Today\'s Dining' => 'تناول الطعام اليوم',

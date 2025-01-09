@@ -17,7 +17,8 @@ return [
     'Status' => 'Status',
     'Inventory Dashboard (Updates in Every 60 sec)' => 'Inventory Dashboard (Updates in Every 60 sec)',
     'Sales Dashboard (Updates in Every 60 sec)' => 'Inventory Dashboard (Updates in Every 60 sec)',
-    'View' => "View",
+    'View' => 'View',
+    'All Branch' => 'All Branch',
 
 
 
