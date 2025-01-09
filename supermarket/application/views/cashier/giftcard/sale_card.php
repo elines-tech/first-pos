@@ -11,12 +11,16 @@
 		color: red;
 	}
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3> Giftcard</h3>
+					<h3><?php echo $translations['Giftcard']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -35,7 +39,7 @@
 					<div class="col-12">
 						<div class="card">
 							<div class="card-header">
-								<h3>Giftcard Details<span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords">Back</a></span></h3>
+								<h3><?php echo $translations['Giftcard Details']?><span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords"><?php echo $translations['Back']?></a></span></h3>
 							</div>
 							<div class="card-content">
 								<div class="card-body">
@@ -50,24 +54,24 @@
 									?>
 										<div class="row">
 											<div class="col-md-3 col-12 mb-2">
-												<label for="batchNo"><b>Card Title : </b></label>
+												<label for="batchNo"><b><?php echo $translations['Card Title']?></b></label>
 												<input type="hidden" id="cardCode" name="cardCode" class="form-control-line" value="<?= $result->code ?>">
 												<input type="text" id="cardTitle" name="cardTitle" class="form-control-line" value="<?= $result->title ?>">
 											</div>
 											<div class="col-md-3 col-12 mb-2">
-												<label for="discount"><b>Discount (%) : </b></label>
+												<label for="discount"><b><?php echo $translations['Discount (%)']?></b></label>
 												<input type="text" id="discount" name="discount" class="form-control-line" value="<?= $result->discount ?>">
 											</div>
 											<div class="col-md-3 col-12 mb-2">
-												<label for="price"><b>Price: </b></label>
+												<label for="price"><b><?php echo $translations['Price']?></b></label>
 												<input type="text" id="price" name="price" class="form-control-line" value="<?= $result->price ?>">
 											</div>
 											<div class="col-md-3 col-12 mb-2">
-												<label for="validityInDays"><b>Validity (In Days) : </b></label>
+												<label for="validityInDays"><b><?php echo $translations['Validity (In Days)']?></b></label>
 												<input type="text" id="validityInDays" name="validityInDays" class="form-control-line" value="<?= $result->validityInDays ?>">
 											</div>
 											<div class="col-md-9 col-12 mb-2">
-												<label for="description"><b>Description: </b></label>
+												<label for="description"><b><?php echo $translations['Description']?></b></label>
 												<p><?= $result->description ?></p>
 											</div>
 
@@ -76,18 +80,18 @@
 									?>
 									<hr>
 									<div class="row mt-2">
-										<h5>Giftcard Purchase Details</h5>
+										<h5><?php echo $translations['Giftcard Purchase Details']?></h5>
 										<div class="row">
 											<div class="col-md-4 col-12">
-												<label class="form-label"><b>Customer Name: </b><b style="color:red">*</b></label>
+												<label class="form-label"><b><?php echo $translations['Customer Name']?></b><b style="color:red">*</b></label>
 												<input type="text" id="mcustName" class="form-control" name="custName" required>
 											</div>
 											<div class="col-md-4 col-12">
-												<label class="form-label"><b>Email: </b><b style="color:red">*</b></label>
+												<label class="form-label"><b><?php echo $translations['Email']?></b><b style="color:red">*</b></label>
 												<input type="text" id="mcustEmail" class="form-control" name="custEmail" required>
 											</div>
 											<div class="col-md-4 col-12">
-												<label class="form-label"><b>Phone: </b><b style="color:red">*</b></label>
+												<label class="form-label"><b><?php echo $translations['Phone']?></b><b style="color:red">*</b></label>
 												<div class="input-group mb-3">
 													<div class="input-group-prepend">
 														<select class="form-select" id="mcountryCode" onchange="setPattern()" name="mcountryCode" required>
@@ -101,22 +105,22 @@
 										</div>
 										<div class="row">
 											<div class="col-md-3 col-12">
-												<label class="form-label"><b>Giftcard Expiry Date: </b><b style="color:red">*</b></label>
+												<label class="form-label"><b><?php echo $translations['Giftcard Expiry Date']?></b><b style="color:red">*</b></label>
 												<input type="date" id="mexpiryDate" disabled class="form-control" name="expiryDate" required value="<?php if ($expiryDate != '') {
 																																						echo $expiryDate;
 																																					} ?>">
 											</div>
 											<div class="col-md-2 col-12">
-												<label class="form-label"><b>No Of Cards: </b><b style="color:red">*</b></label>
+												<label class="form-label"><b><?php echo $translations['No Of Cards']?></b><b style="color:red">*</b></label>
 												<input type="text" id="mcardCount" class="form-control" onkeyup="calculatePrice()" name="cardCount" required onkeypress="return isNumber(event)">
 											</div>
 											<div class="col-md-2 col-12">
-												<label class="form-label"><b>Total Price: </b><b style="color:red">*</b></label>
+												<label class="form-label"><b><?php echo $translations['Total Price']?></b><b style="color:red">*</b></label>
 												<input type="text" id="mtotalPrice" disabled class="form-control" name="totalPrice" required onkeypress="return isNumber(event)">
 											</div>
 											<div class="col-md-2 col-12" style="margin-top:32px;">
-												<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn">Generate</button>
-												<button type="button" onclick="clear()" class="d-none btn btn-primary" id="clearBtn">Clear</button>
+												<button type="button" onclick="generate()" class="btn btn-primary" id="generateBtn"><?php echo $translations['Generate']?></button>
+												<button type="button" onclick="clear()" class="d-none btn btn-primary" id="clearBtn"><?php echo $translations['Clear']?></button>
 											</div>
 										</div>
 									</div>
@@ -125,7 +129,7 @@
 						</div>
 						<div class="card d-none" id="previewDiv">
 							<div class="card-header">
-								<h5>Giftcard Users</h5>
+								<h5><?php echo $translations['Giftcard Users']?></h5>
 							</div>
 							<div class="card-content">
 								<div class="card-body m-0">
@@ -133,7 +137,7 @@
 									</div>
 									<div class="row">
 										<div class="col-12 d-flex justify-content-end">
-											<button type="submit" class="btn btn-primary" id="saveCardBtn">Save</button>
+											<button type="submit" class="btn btn-primary" id="saveCardBtn"><?php echo $translations['Save']?></button>
 										</div>
 									</div>
 								</div>

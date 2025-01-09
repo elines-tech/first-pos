@@ -106,6 +106,9 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
     </script>
 </head>
 
+<?php include '../supermarket/config.php'; ?>
+
+
 <body>
     <div id="preloader">
         <div id="status">&nbsp;</div>
@@ -142,13 +145,13 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton" style="min-width: 11rem;">
                                     <li>
-                                        <h6 class="dropdown-header">Hello, <?= $name ?>!</h6>
+                                        <h6 class="dropdown-header"><?php echo $translations['Hello']?>, <?= $name ?>!</h6>
                                     </li>
                                     <li>
                                         <form class="form" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>Cashier/Profile/view">
                                             <input type="hidden" name="code" value="<?= $code ?>">
                                             <button class="dropdown-item" type="submit">
-                                                <i class="icon-mid bi bi-person me-2"></i> My Profile
+                                                <i class="icon-mid bi bi-person me-2"></i><?php echo $translations['My Profile']?>
                                             </button>
                                         </form>
                                     </li>
@@ -156,7 +159,7 @@ if (isset($this->session->userdata['cash_logged_in' . $session_key])) {
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="<?php echo base_url(); ?>Cashier/Authentication/logout"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>Cashier/Authentication/logout"><i class="icon-mid bi bi-box-arrow-left me-2"></i><?php echo $translations['Logout']?></a>
                                     </li>
                                 </ul>
                             </div>

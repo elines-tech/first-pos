@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Profile</h3>
+                    <h3><?php echo $translations['Profile']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -54,7 +56,7 @@
 
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label class="form-label">Full Name</label>
+                                                    <label class="form-label"><?php echo $translations['Full Name']?></label>
                                                     <input type="test" id="fullname" class="form-control" placeholder="Full Name" name="fullname" data-parsley-required="true" value="<?= $userData[0]['name'] ?>">
                                                 </div>
                                                 <?php echo form_error('fullname', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -62,7 +64,7 @@
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Name</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['User Name']?></label>
                                                     <input type="text" id="username" class="form-control" placeholder="User Name" name="username" value="<?= $userData[0]['userName'] ?>" oninput="this.value=this.value.replace(/[^a-z]/gi,'')" data-parsley-required="true" maxlength="20"
                                                         data-parsley-minlength="3" data-parsley-minlength-message="You need to enter at least 3 characters" data-parsley-trigger="change">
                                                 </div>
@@ -70,9 +72,9 @@
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Language</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['User Language']?></label>
                                                     <select class="form-select" name="userlanguage" id="userlanguage" data-parsley-required="true">
-                                                        <option value="">Select Language</option>
+                                                        <option value=""><?php echo $translations['Select Language']?></option>
                                                         <option value="English" <?= $userData[0]['userLang'] == 'English' ? 'selected' : '' ?>>English</option>
                                                         <option value="Arabic" <?= $userData[0]['userLang'] == 'Arabic' ? 'selected' : '' ?>>Arabic</option>
                                                         <option value="Hindi" <?= $userData[0]['userLang'] == 'Hindi' ? 'selected' : '' ?>>Hindi</option>
@@ -83,14 +85,14 @@
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Employee Number</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['User Employee Number']?></label>
                                                     <input type="text" id="userempnumber" class="form-control" placeholder="User Employee Number" name="userempnumber" value="<?= $userData[0]['userEmpNo'] ?>" data-parsley-required="true" onkeypress="return isNumberKey(event)">
                                                 </div>
                                                 <?php echo form_error('userempnumber', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Email</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['User Email']?></label>
                                                     <input type="email" id="useremail" class="form-control" placeholder="Email" name="useremail" data-parsley-required="true" value="<?= $userData[0]['userEmail'] ?>" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
                                                 </div>
                                                 <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -99,7 +101,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser"><?php echo $translations['Update']?></button>
                                             </div>
                                         </div>
                                     </form>

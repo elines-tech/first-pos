@@ -1,3 +1,5 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="sidebar" class="active">
     <div class="sidebar-wrapper active">
         <div class="sidebar-header position-relative">
@@ -13,13 +15,13 @@
         </div>
         <div class="sidebar-menu">
             <ul class="menu">
-                <li class="sidebar-item"><a href="<?= base_url(); ?>Cashier/dashboard" class='sidebar-link'><i class="fa fa-dashboard"></i><span>Dashboard</span></a>
-                <li class="sidebar-item"><a href="<?= base_url('Cashier/pos') ?>" class='sidebar-link'><i class="fa fa-barcode"></i><span>POS (Order)</span></a>
-                <li class="sidebar-item"><a href="<?= base_url('Cashier/OrderReturn/listRecords') ?>" class='sidebar-link'><i class="fa fa-th-list"></i><span>Order Return</span></a>
-                <li class="sidebar-item"><a href="<?= base_url('Cashier/giftCard/listRecords') ?>" class='sidebar-link'><i class="fa fa-money"></i><span>Gift Card</span></a>
-                <li class="sidebar-item has-sub "><a href="#" class='sidebar-link'><i class="fa fa-file"></i><span>Report</span></a>
+                <li class="sidebar-item"><a href="<?= base_url(); ?>Cashier/dashboard" class='sidebar-link'><i class="fa fa-dashboard"></i><span><?php echo $translations['Dashboard']?></span></a>
+                <li class="sidebar-item"><a href="<?= base_url('Cashier/pos') ?>" class='sidebar-link'><i class="fa fa-barcode"></i><span><?php echo $translations['POS (Order)']?></span></a>
+                <li class="sidebar-item"><a href="<?= base_url('Cashier/OrderReturn/listRecords') ?>" class='sidebar-link'><i class="fa fa-th-list"></i><span><?php echo $translations['Order Return']?></span></a>
+                <li class="sidebar-item"><a href="<?= base_url('Cashier/giftCard/listRecords') ?>" class='sidebar-link'><i class="fa fa-money"></i><span><?php echo $translations['Gift Card']?></span></a>
+                <li class="sidebar-item has-sub "><a href="#" class='sidebar-link'><i class="fa fa-file"></i><span><?php echo $translations['Report']?></span></a>
                     <ul class="submenu ">
-                        <li class="submenu-item"><a href="<?= base_url(); ?>Cashier/report/getDayClosingReport" class="side-anchors" data-attr="report">Day Closing Report</a></li>
+                        <li class="submenu-item"><a href="<?= base_url(); ?>Cashier/report/getDayClosingReport" class="side-anchors" data-attr="report"><?php echo $translations['Day Closing Report']?></a></li>
                     </ul>
                 </li>
             </ul>

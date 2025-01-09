@@ -1,3 +1,5 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="sidebar" class="active">
 	<div class="sidebar-wrapper active">
 		<div class="sidebar-header position-relative">
@@ -31,7 +33,7 @@
 					if (in_array($menu['id'], $rightsMenu)) {
 						if ($menu['type'] == 1) {
 				?>
-							<li class="sidebar-item has-sub"><a href="#" class='sidebar-link'><i class="<?= $menu['icon'] ?>"></i><span><?= $menu['name'] ?></span></a>
+							<li class="sidebar-item has-sub"><a href="#" class='sidebar-link'><i class="<?= $menu['icon'] ?>"></i><span><?php echo $translations[$menu['name']] ?></span></a>
 								<ul class="submenu ">
 									<?php
 									$submenuSeq = array_column($menu['submenu'], 'seq');
@@ -39,7 +41,7 @@
 									foreach ($menu['submenu'] as $submenu) {
 										if (array_search($submenu['id'], array_column($rightJson, 'menu')) !== FALSE) {
 									?>
-											<li class="submenu-item"><a href="<?= base_url(); ?><?= $submenu['url'] ?>" class="side-anchors" data-attr="<?= $submenu['data-attr'] ?>"><?= $submenu['name'] ?></a></li>
+											<li class="submenu-item"><a href="<?= base_url(); ?><?= $submenu['url'] ?>" class="side-anchors" data-attr="<?= $submenu['data-attr'] ?>"><?php echo $translations[$submenu['name']]; ?></a></li>
 									<?php  }
 									} ?>
 								</ul>
@@ -47,7 +49,7 @@
 						<?php } else {
 							$submenu = $menu['submenu'][0];
 						?>
-							<li class="sidebar-item"><a href="<?= base_url(); ?><?= $submenu['url'] ?>" class='sidebar-link'><i class="<?= $submenu['icon'] ?>"></i><span><?= $submenu['name'] ?></span></a></li>
+							<li class="sidebar-item"><a href="<?= base_url(); ?><?= $submenu['url'] ?>" class='sidebar-link'><i class="<?= $submenu['icon'] ?>"></i><span><?php echo $translations[$submenu['name']]; ?></span></a></li>
 						<?php } ?>
 				<?php
 					}

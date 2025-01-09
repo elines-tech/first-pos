@@ -142,10 +142,13 @@
 	</script>
 </head>
 
+<?php include '../supermarket/config.php'; ?>
+
+
 <body>
 	<div class="buttonbar">
-		<button type="button" id="print" style="background-color: #37B181;color: #ffffff;transition: none;margin-right: 10px;border: none;border-radius: 10px; padding:15px" onclick="hideall()">Print</button>
-		<button type="button" id="goback" style="background-color: red;color: #ffffff;transition: none;margin-right: 10px;border: none;border-radius: 10px; padding:15px" onclick="goback()">Go Back</button>
+		<button type="button" id="print" style="background-color: #37B181;color: #ffffff;transition: none;margin-right: 10px;border: none;border-radius: 10px; padding:15px" onclick="hideall()"><?php echo $translations['Print']?></button>
+		<button type="button" id="goback" style="background-color: red;color: #ffffff;transition: none;margin-right: 10px;border: none;border-radius: 10px; padding:15px" onclick="goback()"><?php echo $translations['Go Back']?></button>
 	</div>
 	<div class="m-2" id="printableArea">
 		<div class="page-heading">

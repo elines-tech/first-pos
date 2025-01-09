@@ -11,12 +11,16 @@
         float: right;
     }
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Email Templates</h3>
+                    <h3><?php echo $translations['Email Templates']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -35,7 +39,7 @@
                     <div class="row">
                         <?php if ($insertRights == 1) { ?>
                             <div class="col-12 text-end" id="leftdiv">
-                                <a id="saveDefaultButton" href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i> Template</a>
+                                <a id="saveDefaultButton" href="javascript:void(0)" class="btn btn-sm btn-primary btn-new"><i class="fa fa-plus"></i><?php echo $translations['Template']?></a>
                             </div>
                         <?php } ?>
                     </div>
@@ -44,12 +48,12 @@
                     <table class="table table-striped" id="dbtable">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Template Name</th>
-                                <th>Subject</th>
-                                <th>Message</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Template Name']?></th>
+                                <th><?php echo $translations['Subject']?></th>
+                                <th><?php echo $translations['Message']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
@@ -63,7 +67,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 id='modal_label'>Add Template</h5>
+                <h5 id='modal_label'><?php echo $translations['Add Template']?></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -73,31 +77,31 @@
                                 <form id="templateForm" class="form" data-parsley-validate>
                                     <div class="row">
                                         <div class="col-md-12 mb-3">
-                                            <label for="templateName" class="form-label text-left">Template Name</label>
+                                            <label for="templateName" class="form-label text-left"><?php echo $translations['Template Name']?></label>
                                             <input type="hidden" class="form-control" id="code" name="code">
                                             <input type="text" id="templateName" class="form-control" placeholder="Template Name" name="templateName" required>
                                         </div>
                                         <div class="col-md-12 mb-3">
-                                            <label for="subject" class="form-label text-left">Subject</label>
+                                            <label for="subject" class="form-label text-left"><?php echo $translations['Subject']?></label>
                                             <input type="text" id="subject" class="form-control" placeholder="Subject" name="subject" required>
                                         </div>
                                         <div class="col-md-12 mb-3">
-                                            <label for="message" class="form-label text-left">Message</label>
+                                            <label for="message" class="form-label text-left"><?php echo $translations['Message']?></label>
                                             <textarea type="text" id="message" class="form-control" rows="7" placeholder="Message" name="message" required></textarea>
                                         </div>
                                         <div class="col-md-12 mb-3">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="1" value="" name="isActive" id="isActive" checked>
                                                 <label class="form-check-label" for="isActive">
-                                                    Active
+                                                    <?php echo $translations['Active']?>
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary" id="btnSave">Save</button>
-                                            <button type="button" class="btn btn-light-secondary" id="btnClose" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" id="btnSave"><?php echo $translations['Save']?></button>
+                                            <button type="button" class="btn btn-light-secondary" id="btnClose" data-bs-dismiss="modal"><?php echo $translations['Close']?></button>
                                         </div>
                                     </div>
                                 </form>
@@ -206,12 +210,12 @@
             e.preventDefault();
             var code = $(this).data('id');
             swal({
-                title: "Are you sure you want to delete this?",
+                title: "<?php echo $translations['Are you sure you want to delete this?']?>",
                 type: "warning",
                 showCancelButton: !0,
                 confirmButtonColor: "#DD6B55",
-                confirmButtonText: "Yes, delete it!",
-                cancelButtonText: "No, cancel it!",
+                confirmButtonText: "<?php echo $translations['Yes, delete it!']?>",
+                cancelButtonText: "<?php echo $translations['No, cancel it!']?>",
                 closeOnConfirm: !1,
                 closeOnCancel: !1
             }, function(e) {

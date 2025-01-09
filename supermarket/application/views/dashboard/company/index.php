@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Company Details</h3>
+                    <h3><?php echo $translations['Company Details']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -60,14 +62,14 @@
                                                     <?php } else { ?>
                                                         <img class="img-thumbnail mb-2" width="120px" id="preview" src="/assets/images/faces/default-img.jpg" data-src="">
                                                     <?php } ?>
-                                                    <input class="form-control" type="file" id="cmpLogo" name="cmpLogo">
+                                                    <input class="form-control" style="padding: 5px;" type="file" id="cmpLogo" name="cmpLogo">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group mandatory">
-                                                    <label class="form-label" for="companyname">Company Name </label>
+                                                    <label class="form-label" for="companyname"><?php echo $translations['Company Name']?></label>
                                                     <input type="text" id="companyname" tabindex="1" class="form-control" name="companyname" value="<?= $companyname ?>" data-parsley-required="true" data-parsley-length="[6, 100]">
                                                 </div>
                                                 <?php echo form_error('companyname', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -77,14 +79,14 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mandatory">
-                                                    <label for="crno" class="form-label">CR No.</label>
+                                                    <label for="crno" class="form-label"><?php echo $translations['CR No.']?></label>
                                                     <input type="text" id="crno" class="form-control" name="crno" tabindex="3" value="<?= $crno ?>" data-parsley-required="true" data-parsley-length="[5, 50]">
                                                 </div>
                                                 <?php echo form_error('crno', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group mandatory">
-                                                    <label for="crno" class="form-label">VAT Number</label>
+                                                    <label for="crno" class="form-label"><?php echo $translations['VAT Number']?></label>
                                                     <input type="number" step="1" class="form-control" tabindex="5" id="vatno" name="vatno" value="<?= $vatno ?>" required>
                                                 </div>
                                                 <?php echo form_error('vatno', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -94,14 +96,14 @@
                                             <div>Address</div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="buildingNo">Building No</label>
+                                                    <label for="buildingNo"><?php echo $translations['Building No']?></label>
                                                     <input type="number" step="1" tabindex="6" name="buildingNo" id="buildingNo" value="<?= $buildingno ?>" class="form-control">
                                                 </div>
                                                 <?php echo form_error('buildingNo', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="streetName">Street Name</label>
+                                                    <label for="streetName"><?php echo $translations['Street Name']?></label>
                                                     <input type="text" tabindex="7" name="streetName" id="streetName" value="<?= $streetName ?>" class="form-control">
 
                                                 </div>
@@ -109,28 +111,28 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="district">District</label>
+                                                    <label for="district"><?php echo $translations['District']?></label>
                                                     <input type="text" tabindex="8" name="district" id="district" value="<?= $district ?>" class="form-control">
                                                 </div>
                                                 <?php echo form_error('district', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="city">City</label>
+                                                    <label for="city"><?php echo $translations['City']?></label>
                                                     <input type="text" tabindex="9" name="city" id="city" value="<?= $city ?>" class="form-control">
                                                 </div>
                                                 <?php echo form_error('city', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="postalCode">Postal Code</label>
+                                                    <label for="postalCode"><?php echo $translations['Postal Code']?></label>
                                                     <input type="number" step="1" minlength="4" tabindex="10" name="postalCode" id="postalCode" value="<?= $postalCode ?>" class="form-control">
                                                 </div>
                                                 <?php echo form_error('postalCode', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="country">Country</label>
+                                                    <label for="country"><?php echo $translations['Country']?></label>
                                                     <select tabindex="11" name="country" id="country" class="form-select">
                                                         <option value="966" <?php if ($country == '966') { ?>selected<?php } ?>>Saudi Arabia</option>
                                                         <option value="971" <?php if ($country == '971') { ?>selected<?php } ?>>United Arab Emirates</option>
@@ -142,7 +144,7 @@
 
                                         <div class="row mt-3">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button id="saveDefaultButton" type="submit" class="btn btn-primary">Update</button>
+                                                <button id="saveDefaultButton" type="submit" class="btn btn-primary"><?php echo $translations['Update']?></button>
                                             </div>
                                         </div>
                                     </form>

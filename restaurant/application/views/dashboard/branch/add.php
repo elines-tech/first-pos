@@ -285,12 +285,12 @@
                         var code = $(this).data('seq');
                         swal({
                             //title: "You want to delete branch "+code,
-                            title: "Are you sure you want to delete this?",
+                            title: "<?php echo $translations['Are you sure you want to delete this?']?>",
                             type: "warning",
                             showCancelButton: !0,
                             confirmButtonColor: "#DD6B55",
-                            confirmButtonText: "Yes, delete it!",
-                            cancelButtonText: "No, cancel it!",
+                            confirmButtonText: "<?php echo $translations['Yes, delete it!']?>",
+                            cancelButtonText: "<?php echo $translations['No, cancel it!']?>",
                             closeOnConfirm: !1,
                             closeOnCancel: !1
                         }, function(e) {

@@ -1,8 +1,10 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div class="page-heading m-4">
     <div class="page-breadcrumb">
         <div class="row">
             <div class="col-7 align-self-center">
-                <h5 class="page-title">Dashboard</h5>
+                <h5 class="page-title"><?php echo $translations['Dashboard']?></h5>
                 <div class="d-flex align-items-center">
 
                 </div>
@@ -27,7 +29,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 col-xl-12">
-                    <h6 class="text-muted font-semibold">Total Orders</h6>
+                    <h6 class="text-muted font-semibold"><?php echo $translations['Total Orders']?></h6>
                     <h6 class="font-extrabold mb-0" id="totalOrders">-</h6>
                 </div>
 
@@ -46,7 +48,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 col-xl-12">
-                    <h6 class="text-muted font-semibold">Today's Order</h6>
+                    <h6 class="text-muted font-semibold"><?php echo $translations['Today\'s Order']?></h6>
                     <h6 class="font-extrabold mb-0" id="todaysOrders">-</h6>
                 </div>
 

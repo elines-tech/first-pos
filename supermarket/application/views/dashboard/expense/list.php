@@ -10,8 +10,8 @@
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Account Expense</li>
+                            <li class="breadcrumb-item"><a href="../dashboard/listRecords"><i class="fa fa-dashboard"></i><?php echo $translations['Dashboard']?></a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><?php echo $translations['Account Expense']?></li>
                         </ol>
                     </nav>
                 </div>
@@ -338,13 +338,13 @@
                         var code = $(this).data('seq');
                         swal({
                             //title: "You want to delete category "+code,
-                            title: "Are you sure you want to delete this?",
+                            title: "<?php echo $translations['Are you sure you want to delete this?']?>",
                             type: "warning",
                             showCancelButton: !0,
                             confirmButtonColor: "#DD6B55",
                             //cancelButtonColor: "#DD6B55",
-                            confirmButtonText: "Yes, delete it!",
-                            cancelButtonText: "No, cancel it!",
+                            confirmButtonText: "<?php echo $translations['Yes, delete it!']?>",
+                            cancelButtonText: "<?php echo $translations['No, cancel it!']?>",
                             closeOnConfirm: !1,
                             closeOnCancel: !1
                         }, function(e) {

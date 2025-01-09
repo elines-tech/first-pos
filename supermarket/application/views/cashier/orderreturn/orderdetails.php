@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Order</h3>
+					<h3><?php echo $translations['Order']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +23,7 @@
 
 					<div class="card">
 						<div class="card-header">
-							<h3>Order Return<span style="float:right"><a id="saveDefaultButton" style="cursor:pointer;" class="btn btn-sm btn-primary totalOrderReturn">Total Order Return</a></span></h3>
+							<h3><?php echo $translations['Order Return']?><span style="float:right"><a id="saveDefaultButton" style="cursor:pointer;" class="btn btn-sm btn-primary totalOrderReturn"><?php echo $translations['Total Order Return']?></a></span></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -38,26 +40,26 @@
 												<div class="row">
 													<div class="col-md-4 col-12">
 														<div class="form-group mandatory">
-															<label for="orderDate"> Order Date : </label>
+															<label for="orderDate"><?php echo $translations['Order Date']?></label>
 															<input type="text" id="orderDate" name="orderDate" class="form-control-line" value="<?= date('d/m/Y h:i A', strtotime($row->orderDate)) ?>">
 														</div>
 													</div>
 													<div class="col-md-2 col-12">
 														<div class="form-group mandatory">
-															<label for="orderCode"> Order Code : </label>
+															<label for="orderCode"><?php echo $translations['Order Code']?></label>
 															<input type="text" id="orderCode" name="orderCode" class="form-control-line" value="<?= $row->code ?>" required readonly>
 															<input type="hidden" id="branchCode" name="branchCode" class="form-control-line" value="<?= $row->branchCode ?>" readonly>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="clientName"> Customer Name : </label>
+															<label for="clientName"><?php echo $translations['Customer Name']?></label>
 															<input type="text" id="clientName" name="clientName" value="<?= $row->name ?>" class="form-control-line" required readonly>
 														</div>
 													</div>
 													<div class="col-md-3 col-12">
 														<div class="form-group mandatory">
-															<label for="phone"> Phone : </label>
+															<label for="phone"><?php echo $translations['Phone']?></label>
 															<input type="number" id="phone" name="phone" class="form-control-line" value="<?= $row->phone ?>" readonly>
 														</div>
 													</div>
@@ -67,7 +69,7 @@
 
 													<div class="col-md-4 col-12">
 														<div class="form-group mandatory">
-															<label for="paymentmode"> Payment Mode : </label>
+															<label for="paymentmode"><?php echo $translations['Payment Mode']?></label>
 															<input type="text" id="paymentmode" name="paymentmode" class="form-control-line" value="<?= ucwords($paymentMode) ?>" readonly>
 														</div>
 													</div>
@@ -78,15 +80,15 @@
 														<table id="pert_tbl" class="table table-sm table-stripped" style="width:100%;">
 															<thead>
 																<tr>
-																	<th width="1%">Return</th>
-																	<th width="15%">Product</th>
-																	<th width="10%">Unit</th>
-																	<th width="15%">Quantity</th>
-																	<th width="12%">Price</th>
-																	<th width="10%">Tax Percent</th>
-																	<th width="15%">Tax</th>
-																	<th width="10%">Return Quantity</th>
-																	<th width="15%">Subtotal</th>
+																	<th width="1%"><?php echo $translations['Return']?></th>
+																	<th width="15%"><?php echo $translations['Product']?></th>
+																	<th width="10%"><?php echo $translations['Unit']?></th>
+																	<th width="15%"><?php echo $translations['Quantity']?></th>
+																	<th width="12%"><?php echo $translations['Price']?></th>
+																	<th width="10%"><?php echo $translations['Tax Percent']?></th>
+																	<th width="15%"><?php echo $translations['Tax']?></th>
+																	<th width="10%"><?php echo $translations['Return Quantity']?></th>
+																	<th width="15%"><?php echo $translations['Subtotal']?></th>
 																</tr>
 															</thead>
 															<tbody>
@@ -136,7 +138,7 @@
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="6" class="text-right"><b>Total :</b></td>
+																	<td colspan="6" class="text-right"><b><?php echo $translations['Total']?></b></td>
 																	<td colspan="7">
 																		<input type="text" id="total" class="text-right form-control" name="total" value="<?= $row->totalAmount ?>" readonly>
 																	</td>
@@ -148,7 +150,7 @@
 
 												<div class="row">
 													<div class="col-12 d-flex justify-content-end">
-														<button type="submit" class="btn btn-success" id="saveReturnBtn">Order Return</button>
+														<button type="submit" class="btn btn-success" id="saveReturnBtn"><?php echo $translations['Order Return']?></button>
 
 													</div>
 												</div>

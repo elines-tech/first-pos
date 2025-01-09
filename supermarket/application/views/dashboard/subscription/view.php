@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>View Subscriptions</h3>
+                    <h3><?php echo $translations['View Subscriptions']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,10 +22,10 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-md-10">
-                            <h5>Subscription Detail</h5>
+                            <h5><?php echo $translations['Subscription Detail']?></h5>
                         </div>
                         <div class="col-md-2 text-end">
-                            <a id="cancelDefaultButton" href="<?= base_url('subscriptions/listRecords') ?>" class="btn btn-sm btn-primary">Back</a>
+                            <a id="cancelDefaultButton" href="<?= base_url('subscriptions/listRecords') ?>" class="btn btn-sm btn-primary"><?php echo $translations['Back']?></a>
                         </div>
                     </div>
                 </div>
@@ -33,67 +35,67 @@
                 ?>
                     <div class="card-body">
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">For</label>
+                            <label for="" class="col-md-4"><?php echo $translations['For']?></label>
                             <div class="col-md-8">
                                 <strong><?= ucwords($plan->category) ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Duration</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Duration']?></label>
                             <div class="col-md-8">
                                 <strong><?= $plan->period ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Transaction Date</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Transaction Date']?></label>
                             <div class="col-md-8">
                                 <strong><?= date('d-M-Y', strtotime($plan->paymentDate)) ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Receipt No</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Receipt No']?></label>
                             <div class="col-md-8">
                                 <strong><?= $plan->receiptId ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Transaction Id</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Transaction Id']?></label>
                             <div class="col-md-8">
                                 <strong><?= $plan->paymentId ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Transaction Status</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Transaction Status']?></label>
                             <div class="col-md-8">
                                 <strong><?= ucwords($plan->paymentStatus) ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Amount (Incl. Tax)</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Amount (Incl. Tax)']?></label>
                             <div class="col-md-8">
                                 <strong><?= $plan->amount ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Service Period</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Service Period']?></label>
                             <div class="col-md-8">
                                 <strong><?= date('d/M/Y', strtotime($plan->startDate)) . " - " . date("d/M/Y", strtotime($plan->expiryDate)); ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">No. of users</label>
+                            <label for="" class="col-md-4"><?php echo $translations['No. of users']?></label>
                             <div class="col-md-8">
                                 <strong><?= ($plan->defaultUsers + $plan->addonUsers) ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">No. of brnaches</label>
+                            <label for="" class="col-md-4"><?php echo $translations['No. of branches']?></label>
                             <div class="col-md-8">
                                 <strong><?= ($plan->defaultBranches + $plan->addonBranches) ?></strong>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="" class="col-md-4">Trial Subscription</label>
+                            <label for="" class="col-md-4"><?php echo $translations['Trial Subscription']?></label>
                             <div class="col-md-8">
                                 <strong><?= $plan->isFreeTrial == 0 ? "No" : "Yes" ?></strong>
                             </div>

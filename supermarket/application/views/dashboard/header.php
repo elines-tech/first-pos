@@ -13,7 +13,7 @@ if (isset($this->session->userdata['logged_in' . $session_key])) {
     $roleCode = ($this->session->userdata['logged_in' . $session_key]['rolecode']);
     $profilePhoto = ($this->session->userdata['logged_in' . $session_key]['userImage']);
     $language = ($this->session->userdata['logged_in' . $session_key]['lang']);
-	$userBranch=($this->session->userdata['logged_in' . $session_key]['userBranch']);
+    $userBranch = ($this->session->userdata['logged_in' . $session_key]['userBranch']);
 } else {
     return redirect('login');
 }
@@ -143,13 +143,13 @@ if (isset($this->session->userdata['logged_in' . $session_key])) {
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton" style="min-width: 11rem;">
                                     <li>
-                                        <h6 class="dropdown-header">Hello, <?= $name ?>!</h6>
+                                        <h6 class="dropdown-header"><?php echo $translations['Hello']?>, <?= $name ?>!</h6>
                                     </li>
                                     <li>
                                         <form class="form" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>Profile/view">
                                             <input type="hidden" name="code" value="<?= $code ?>">
                                             <button class="dropdown-item" type="submit">
-                                                <i class="icon-mid bi bi-person me-2"></i> My Profile
+                                                <i class="icon-mid bi bi-person me-2"></i><?php echo $translations['My Profile'] ?>
                                             </button>
                                         </form>
                                     </li>
@@ -160,20 +160,30 @@ if (isset($this->session->userdata['logged_in' . $session_key])) {
                                             <form class="form" enctype="multipart/form-data" data-parsley-validate method="post" action="<?php echo base_url(); ?>Profile/updatePassword">
                                                 <input type="hidden" name="code" value="<?= $code ?>">
                                                 <button class="dropdown-item" type="submit">
-                                                    <i class="fa fa-unlock me-2"></i>Password Update
+                                                    <i class="fa fa-unlock me-2"></i><?php echo $translations['Password Update'] ?>
                                                 </button>
                                             </form>
                                         </li>
                                     <?php
                                     }
                                     if ($roleCode == 'R_1') {
-                                        echo '<li><a class="dropdown-item" href="' . base_url("company") . '"><i class="fa fa-book me-2"></i> Company</a></li>';
+                                        //echo '<li><a class="dropdown-item" href="' . base_url("company") . '"><i class="fa fa-book me-2"></i>Company</a></li>';
+
+                                    ?>
+                                        <li>
+                                            <a class="dropdown-item" href="<?php echo base_url("company"); ?>">
+                                                <i class="fa fa-book me-2"></i>
+                                                <?php echo $translations['Company']; ?>
+                                            </a>
+                                        </li>
+                                    <?php
+
                                     }
                                     ?>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="<?php echo base_url(); ?>Authentication/logout"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo base_url(); ?>Authentication/logout"><i class="icon-mid bi bi-box-arrow-left me-2"></i><?php echo $translations['Logout'] ?></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -8,12 +8,16 @@
         border-color: #9e9e9e !important;
     }
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Current Plan</h3>
+                    <h3><?php echo $translations['Current Plan']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -44,49 +48,49 @@
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h5>Subscription Detail</h5>
+                                        <h5><?php echo $translations['Subscription Detail']?></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body">
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">For</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['For']?></label>
                                     <div class="col-md-8">
                                         <strong><?= ucwords($plan->category) ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Duration</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Duration']?></label>
                                     <div class="col-md-8">
                                         <strong><?= ucwords($plan->period) ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Transaction Date</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Transaction Date']?></label>
                                     <div class="col-md-8">
                                         <strong><?= date('d-M-Y', strtotime($plan->paymentDate)) ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Receipt No</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Receipt No']?></label>
                                     <div class="col-md-8">
                                         <strong><?= $plan->receiptId ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Transaction Id</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Transaction Id']?></label>
                                     <div class="col-md-8">
                                         <strong><?= $plan->paymentId ?? "-" ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Transaction Status</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Transaction Status']?></label>
                                     <div class="col-md-8">
                                         <strong><?= ucwords($plan->paymentStatus) ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Amount (Incl. Tax)</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Amount (Incl. Tax)']?></label>
                                     <div class="col-md-8">
                                         <strong><?= $plan->amount ?></strong>
                                     </div>
@@ -94,38 +98,38 @@
                                 <?php
                                 if ($plan->type != "addon") { ?>
                                     <div class="row mb-3">
-                                        <label for="" class="col-md-4">Service Period</label>
+                                        <label for="" class="col-md-4"><?php echo $translations['Service Period']?></label>
                                         <div class="col-md-8">
                                             <strong><?= date('d/M/Y', strtotime($plan->startDate)) . " - " . date("d/M/Y", strtotime($plan->expiryDate)); ?></strong>
                                         </div>
                                     </div>
                                 <?php } ?>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">No. of users</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['No. of users']?></label>
                                     <div class="col-md-8">
                                         <strong><?= ($plan->defaultUsers + $plan->addonUsers) ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3 text-danger">
-                                    <label for="" class="col-md-4">Added No. of users</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Added No. of users']?></label>
                                     <div class="col-md-8">
                                         <strong><?= $extrausers ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">No. of Branches</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['No. of Branches']?></label>
                                     <div class="col-md-8">
                                         <strong><?= ($plan->defaultBranches + $plan->addonBranches) ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3 text-danger">
-                                    <label for="" class="col-md-4">Added No. of Branches</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Added No. of Branches']?></label>
                                     <div class="col-md-8">
                                         <strong><?= $extrabranches ?></strong>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="" class="col-md-4">Trial Subscription</label>
+                                    <label for="" class="col-md-4"><?php echo $translations['Trial Subscription']?></label>
                                     <div class="col-md-8">
                                         <strong><?= $plan->isFreeTrial == 0 ? "No" : "Yes" ?></strong>
                                     </div>
@@ -144,7 +148,7 @@
                                 <div class="col-md-4 offset-md-8 mb-3">
                                     <form action="<?= base_url('subscriptions/modify') ?>" method="post">
                                         <input type="hidden" name="code" value="<?= $plan->code ?>" readonly>
-                                        <button class="btn btn-primary w-100">Upgrade Plan</button>
+                                        <button class="btn btn-primary w-100"><?php echo $translations['Upgrade Plan']?></button>
                                     </form>
                                 </div>
                             </div>
@@ -153,7 +157,7 @@
                         ?>
                         <div class="row">
                             <div class="col-md-4 offset-md-8 mb-3">
-                                <button class="btn btn-danger w-100" id="cancelplan" data-id="<?= $plan->code ?>" data-client="<?= $plan->clientCode ?>">Cancel Plan</button>
+                                <button class="btn btn-danger w-100" id="cancelplan" data-id="<?= $plan->code ?>" data-client="<?= $plan->clientCode ?>"><?php echo $translations['Cancel Plan']?></button>
                             </div>
                         </div>
                 <?php
@@ -173,13 +177,13 @@
         var code = $(this).data('id');
         var client = $(this).data('client');
         swal({
-            title: 'Cancel Plan?',
-            text: 'You will not be able to recover the plan and access the panel as well, You have to purchase the subscription plan again. Continue?',
+            title: '<?php echo $translations['Cancel Plan?']?>',
+            text: '<?php echo $translations['You will not be able to recover the plan and access the panel as well, You have to purchase the subscription plan again. Continue?']?>',
             type: "error",
             showCancelButton: !0,
             confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, conitnue",
-            cancelButtonText: "No, Go Back",
+            confirmButtonText: "<?php echo $translations['Yes, continue']?>",
+            cancelButtonText: "<?php echo $translations['No, Go Back']?>",
             closeOnConfirm: !1,
             closeOnCancel: !1
         }, function(e) {

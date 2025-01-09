@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Sale History</h3>
+                    <h3><?php echo $translations['Sale History']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -22,7 +24,7 @@
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-12 order-md-1 order-last" id="leftdiv">
-                                    <h5>Gift Details <span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords">Back</a></span></h5>
+                                    <h5><?php echo $translations['Gift Details']?><span class="float-end"><a id="cancelDefaultButton" class="btn btn-sm btn-primary" href="<?= base_url() ?>Cashier/giftCard/listRecords"><?php echo $translations['Back']?></a></span></h5>
                                 </div>
                             </div>
                         </div>
@@ -37,24 +39,24 @@
                             ?>
                                 <div class="row">
                                     <div class="col-12 mb-2">
-                                        <label for="batchNo"><b>Card Title : </b></label>
+                                        <label for="batchNo"><b><?php echo $translations['Card Title']?></b></label>
                                         <input type="hidden" id="cardCode" name="cardCode" class="form-control-line" value="<?= $result->code ?>">
                                         <input type="text" id="cardTitle" name="cardTitle" class="form-control-line" value="<?= $result->title ?>">
                                     </div>
                                     <div class="col-12 mb-2">
-                                        <label for="discount"><b>Discount (%) : </b></label>
+                                        <label for="discount"><b><?php echo $translations['Discount (%)']?></b></label>
                                         <input type="text" id="discount" name="discount" class="form-control-line" value="<?= $result->discount ?>">
                                     </div>
                                     <div class="col-12 mb-2">
-                                        <label for="price"><b>Price: </b></label>
+                                        <label for="price"><b><?php echo $translations['Price']?></b></label>
                                         <input type="text" id="price" name="price" class="form-control-line" value="<?= $result->price ?>">
                                     </div>
                                     <div class="col-12 mb-2">
-                                        <label for="validityInDays"><b>Validity (In Days) : </b></label>
+                                        <label for="validityInDays"><b><?php echo $translations['Validity (In Days)']?></b></label>
                                         <input type="text" id="validityInDays" name="validityInDays" class="form-control-line" value="<?= $result->validityInDays ?>">
                                     </div>
                                     <div class="col-12 mb-2">
-                                        <label for="description"><b>Description: </b></label>
+                                        <label for="description"><b><?php echo $translations['Description']?></b></label>
                                         <p><?= $result->description ?></p>
                                     </div>
                                     <form method="post" action="<?= base_url() ?>Cashier/giftCard/sale">
@@ -72,7 +74,7 @@
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-12 order-md-1 order-last" id="leftdiv">
-                                    <h5>Giftcard History List</h5>
+                                    <h5><?php echo $translations['Giftcard History List']?></h5>
                                 </div>
                             </div>
                         </div>
@@ -80,14 +82,14 @@
                             <table class="table table-striped table-responsive display" id="dataTableGiftcard">
                                 <thead>
                                     <tr>
-                                        <th>Sr No</th>
-                                        <th>Customer Name</th>
-                                        <th>Customer Email</th>
-                                        <th>Customer Phone</th>
-                                        <th>Quantity</th>
-                                        <th>Total Price</th>
-                                        <th>Expiry date</th>
-                                        <th>Action</th>
+                                        <th><?php echo $translations['Sr No']?></th>
+                                        <th><?php echo $translations['Customer Name']?></th>
+                                        <th><?php echo $translations['Customer Email']?></th>
+                                        <th><?php echo $translations['Customer Phone']?></th>
+                                        <th><?php echo $translations['Quantity']?></th>
+                                        <th><?php echo $translations['Total Price']?></th>
+                                        <th><?php echo $translations['Expiry date']?></th>
+                                        <th><?php echo $translations['Action']?></th>
                                     </tr>
                                 </thead>
                             </table>

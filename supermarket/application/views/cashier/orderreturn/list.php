@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Order</h3>
+                    <h3><?php echo $translations['Order']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,16 +22,16 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last" id="leftdiv">
-                            <h5>Filter </h5>
+                            <h5><?php echo $translations['Filter']?></h5>
                         </div>
                     </div>
                     <hr>
                     <div class="row mt-3">
                         <div class="col-md-3">
-                            <label class="form-label lng">Orders</label>
+                            <label class="form-label lng"><?php echo $translations['Orders']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="order" id="order">
-                                    <option value="">Select Order</option>
+                                    <option value=""><?php echo $translations['Select Order']?></option>
                                     <?php if ($order) {
                                         foreach ($order->result() as $or) {
                                             echo '<option value="' . $or->code . '">' . $or->code . '</option>';
@@ -40,10 +42,10 @@
                         </div>
 
                         <div class="col-md-3">
-                            <label class="form-label lng">Customer Mobile Number</label>
+                            <label class="form-label lng"><?php echo $translations['Customer Mobile Number']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="mobile" id="mobile">
-                                    <option value="">Select Mobile Number</option>
+                                    <option value=""><?php echo $translations['Select Mobile Number']?></option>
                                     <?php if ($customer) {
                                         foreach ($customer->result() as $cr) {
                                             echo '<option value="' . $cr->phone . '">' . $cr->phone . '</option>';
@@ -55,13 +57,13 @@
 
 
                         <div class="col-md-3">
-                            <label class="form-label lng">From Date</label>
+                            <label class="form-label lng"><?php echo $translations['From Date']?></label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d', strtotime(' - 7 days')) ?>">
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">To Date</label>
+                            <label class="form-label lng"><?php echo $translations['To Date']?></label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d') ?>">
                             </div>
@@ -70,8 +72,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="d-flex justify-content-center mt-4">
-                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+                                <button type="button" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear"><?php echo $translations['Clear']?></button>
                             </div>
                         </div>
                     </div>
@@ -81,7 +83,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last" id="leftdiv">
-                            <h5>Order List</h5>
+                            <h5><?php echo $translations['Order List']?></h5>
                         </div>
                     </div>
                 </div>
@@ -89,16 +91,16 @@
                     <table class="table table-striped" id="dataTableOrder">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Branch</th>
-                                <th>Order Date</th>
-                                <th>Order Code</th>
-                                <th>Cashier</th>
-                                <th>Counter</th>
-                                <th>Customer</th>
-                                <th>Total products</th>
-                                <th>Grand Total</th>
-                                <th></th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Branch']?></th>
+                                <th><?php echo $translations['Order Date']?></th>
+                                <th><?php echo $translations['Order Code']?></th>
+                                <th><?php echo $translations['Cashier']?></th>
+                                <th><?php echo $translations['Counter']?></th>
+                                <th><?php echo $translations['Customer']?></th>
+                                <th><?php echo $translations['Total products']?></th>
+                                <th><?php echo $translations['Grand Total']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                         <tbody>

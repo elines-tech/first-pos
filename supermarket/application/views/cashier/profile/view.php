@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Profile</h3>
+                    <h3><?php echo $translations['Profile']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -67,23 +69,23 @@
 
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">Full Name</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Full Name']?></label>
                                                     <input type="text" id="fullname" class="form-control" placeholder="Full Name" name="fullname" value="<?= $userData[0]['name'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('fullname', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">User Name</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['User Name']?></label>
                                                     <input type="text" id="name" class="form-control" placeholder="Name" name="name" value="<?= $userData[0]['userName'] ?>" onkeypress="return  ValidateAlpha(event)" data-parsley-required="true">
                                                 </div>
                                                 <?php echo form_error('name', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">Language</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Language']?></label>
                                                     <select class="form-select select2" name="userlanguage" id="userlanguage" data-parsley-required="true" style="width:100%">
-                                                        <option value="">Select Language</option>
+                                                        <option value=""><?php echo $translations['Select Language']?></option>
                                                         <option value="English" <?= $userData[0]['userLang'] == 'English' ? 'selected' : '' ?>>English</option>
                                                         <option value="Arabic" <?= $userData[0]['userLang'] == 'Arabic' ? 'selected' : '' ?>>Arabic</option>
                                                         <option value="Hindi" <?= $userData[0]['userLang'] == 'Hindi' ? 'selected' : '' ?>>Hindi</option>
@@ -94,14 +96,14 @@
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">Employee Number</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Employee Number']?></label>
                                                     <input type="text" id="userempnumber" class="form-control" placeholder="User Employee Number" name="userempnumber" value="<?= $userData[0]['userEmpNo'] ?>" data-parsley-required="true" onkeypress="return isNumberKey(event)">
                                                 </div>
                                                 <?php echo form_error('userempnumber', '<span class="error text-danger text-right">', '</span>'); ?>
                                             </div>
                                             <div class="col-md-4 col-12">
                                                 <div class="form-group mandatory">
-                                                    <label for="arabicname-column" class="form-label">Email</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Email']?></label>
                                                     <input type="email" id="useremail" class="form-control" placeholder="Email" name="useremail" data-parsley-required="true" value="<?= $userData[0]['userEmail'] ?>" pattern="^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$" data-parsley-type-message="Valid Email is required">
                                                 </div>
                                                 <?php echo form_error('useremail', '<span class="error text-danger text-right">', '</span>'); ?>
@@ -109,9 +111,9 @@
                                             </div>
                                             <div class="col-md-4 col-12 d-none" id="counterDiv">
                                                 <div class="form-group mandatory">
-                                                    <label for="product-name" class="form-label">User Counter</label>
+                                                    <label for="product-name" class="form-label"><?php echo $translations['User Counter']?></label>
                                                     <select class=" form-select select2" name="userCounter" id="userCounter" style="width:100%" disabled>
-                                                        <option value="">Select Counter</option>
+                                                        <option value=""><?php echo $translations['Select Counter']?></option>
                                                         <?php if ($counterdata) {
                                                             foreach ($counterdata->result() as $cnt) {
                                                                 $selected = $userData[0]['userCounter'] == $cnt->code ? 'selected' : '';
@@ -130,7 +132,7 @@
                                             </script>
                                             <div class="col-md-6" id="loginPinDetails">
                                                 <div class="form-group mandatory">
-                                                    <label class="form-label">Login Pin</label>
+                                                    <label class="form-label"><?php echo $translations['Login Pin']?></label>
                                                     <input type="text" id="loginpin" value="<?= $userData[0]['loginpin'] ?>" class="form-control" placeholder="Login Pin" name="loginpin" readonly>
 
                                                 </div>
@@ -147,7 +149,7 @@
 
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
-                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser"><?php echo $translations['Update']?></button>
                                                 <!--<button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>-->
                                             </div>
                                         </div>

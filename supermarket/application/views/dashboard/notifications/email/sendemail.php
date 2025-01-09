@@ -3,12 +3,16 @@
 		background-color: #e7e9ee !important;
 	}
 </style>
+
+<?php include '../supermarket/config.php'; ?>
+
+
 <div id="main-content">
 	<div class="page-heading">
 		<div class="page-title">
 			<div class="row">
 				<div class="col-12 col-md-6 order-md-1 order-last">
-					<h3>Email Alert</h3>
+					<h3><?php echo $translations['Email Alert']?></h3>
 				</div>
 				<div class="col-12 col-md-6 order-md-2 order-first">
 					<nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -26,7 +30,7 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<h3>Send Email</h3>
+							<h3><?php echo $translations['Send Email']?></h3>
 						</div>
 						<div class="card-content">
 							<div class="card-body">
@@ -41,7 +45,7 @@
 
 									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
-											<label class="form-label">Email</label>
+											<label class="form-label"><?php echo $translations['Email']?></label>
 											<select class="form-select select2" name="email[]" multiple="multiple" id="email">
 
 											</select>
@@ -50,7 +54,7 @@
 									</div>
 									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
-											<label class="form-label">Template</label>
+											<label class="form-label"><?php echo $translations['Template']?></label>
 											<select class="form-select select2" name="template" id="template">
 
 											</select>
@@ -59,22 +63,22 @@
 									</div>
 									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
-											<label class="form-label">subject</label>
+											<label class="form-label"><?php echo $translations['subject']?></label>
 											<input type="text" class="form-control" name="subject" id="subject" />
 										</div>
 
 									</div>
 									<div class="col-md-12 col-12">
 										<div class="form-group mandatory">
-											<label class="form-label">Message</label>
+											<label class="form-label"><?php echo $translations['Message']?></label>
 											<textarea class="form-control" id="message" name="message" data-parsley-required="true"></textarea>
 										</div>
 										<?php echo form_error('message', '<span class="error text-danger text-right">', '</span>'); ?>
 									</div>
 									<div class="row">
 										<div class="col-12 d-flex justify-content-end">
-											<button id="saveDefaultButton" type="submit" class="btn btn-success">Send</button>
-											<button id="cancelDefaultButton" type="reset" class="btn btn-light-secondary">Reset</button>
+											<button id="saveDefaultButton" type="submit" class="btn btn-success"><?php echo $translations['Send']?></button>
+											<button id="cancelDefaultButton" type="reset" class="btn btn-light-secondary"><?php echo $translations['Reset']?></button>
 										</div>
 									</div>
 								</form>

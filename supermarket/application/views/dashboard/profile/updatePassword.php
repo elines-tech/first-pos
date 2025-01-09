@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Update Password</h3>
+                    <h3><?php echo $translations['Update Password']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -21,7 +23,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Update Password</h3>
+                            <h3><?php echo $translations['Update Password']?></h3>
                         </div>
                         <div class="card-content">
                             <div class="card-body">
@@ -40,13 +42,13 @@
                                         <div class="row">
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label for="arabicname-column" class="form-label">Password</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Password']?></label>
                                                     <input type="password" id="password" class="form-control" placeholder="Password" name="password" data-parsley-required="true">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label for="arabicname-column" class="form-label">Confirm Password</label>
+                                                    <label for="arabicname-column" class="form-label"><?php echo $translations['Confirm Password']?></label>
                                                     <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password" name="confirmpassword" onchange="checkPasswordMatch();" data-parsley-required="true">
                                                 </div>
                                                 <div id="CheckPasswordMatch" style="color:#e66060;"></div>
@@ -54,7 +56,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-center mt-4">
-                                                <button type="submit" class="btn btn-success" id="editUser">Update</button>
+                                                <button type="submit" class="btn btn-success" id="editUser"><?php echo $translations['Update']?></button>
                                                 <!--<button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>-->
                                             </div>
                                         </div>

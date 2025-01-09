@@ -165,13 +165,13 @@
         var code = $(this).data('id');
         var client = $(this).data('client');
         swal({
-            title: 'Cancel Plan?',
-            text: 'You will not be able to recover the plan and access the panel as well, You have to purchase the subscription plan again. Continue?',
+            title: '<?php echo $translations['Cancel Plan?']?>',
+            text: '<?php echo $translations['You will not be able to recover the plan and access the panel as well, You have to purchase the subscription plan again. Continue?']?>',
             type: "error",
             showCancelButton: !0,
             confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, conitnue",
-            cancelButtonText: "No, Go Back",
+            confirmButtonText: "<?php echo $translations['Yes, continue']?>",
+            cancelButtonText: "<?php echo $translations['No, Go Back']?>",
             closeOnConfirm: !1,
             closeOnCancel: !1
         }, function(e) {

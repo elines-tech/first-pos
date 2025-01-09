@@ -1,9 +1,11 @@
+<?php include '../supermarket/config.php'; ?>
+
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>All Subscriptions</h3>
+                    <h3><?php echo $translations['All Subscriptions']?></h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -20,13 +22,13 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last" id="leftdiv">
-                            <h5>Filters</h5>
+                            <h5><?php echo $translations['Filters']?></h5>
                         </div>
                     </div>
                     <hr>
                     <div class="row mt-3">
                         <div class="col-md-3">
-                            <label class="form-label lng">Receipt No.</label>
+                            <label class="form-label lng"><?php echo $translations['Receipt No.']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="receiptId" id="receiptId">
                                     <option value="">--Select from below--</option>
@@ -41,7 +43,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">Payment Id</label>
+                            <label class="form-label lng"><?php echo $translations['Payment Id']?></label>
                             <div class="form-group mandatory">
                                 <select class="form-select select2" name="paymentId" id="paymentId">
                                     <option value="">--Select from below--</option>
@@ -58,13 +60,13 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">From Date</label>
+                            <label class="form-label lng"><?php echo $translations['From Date']?></label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="fromDate" name="fromDate" value="<?= date('Y-m-d', strtotime(' - 1 month')) ?>">
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label lng">To Date</label>
+                            <label class="form-label lng"><?php echo $translations['To Date']?></label>
                             <div class="form-group mandatory">
                                 <input type="date" class="form-control" id="toDate" name="toDate" value="<?= date('Y-m-d') ?>">
                             </div>
@@ -73,8 +75,8 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <div class="d-flex text-center justify-content-center mt-4">
-                                <button type="button" class="btn btn-success" id="btnSearch">Search</button>
-                                <button type="reset" class="btn btn-light-secondary" id="btnClear">Clear</button>
+                                <button type="button" class="btn btn-success" id="btnSearch"><?php echo $translations['Search']?></button>
+                                <button type="reset" class="btn btn-light-secondary" id="btnClear"><?php echo $translations['Clear']?></button>
                             </div>
                         </div>
                     </div>
@@ -85,15 +87,15 @@
                     <table class="table table-striped table-responsive display" id="tbl-subscription">
                         <thead>
                             <tr>
-                                <th>Sr No</th>
-                                <th>Receipt Id</th>
-                                <th>Date</th>
-                                <th>Payment Id</th>
-                                <th>Amount</th>
-                                <th>Service Period</th>
-                                <th>Type</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th><?php echo $translations['Sr No']?></th>
+                                <th><?php echo $translations['Receipt Id']?></th>
+                                <th><?php echo $translations['Date']?></th>
+                                <th><?php echo $translations['Payment Id']?></th>
+                                <th><?php echo $translations['Amount']?></th>
+                                <th><?php echo $translations['Service Period']?></th>
+                                <th><?php echo $translations['Type']?></th>
+                                <th><?php echo $translations['Status']?></th>
+                                <th><?php echo $translations['Action']?></th>
                             </tr>
                         </thead>
                     </table>
